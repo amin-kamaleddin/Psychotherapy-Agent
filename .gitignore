@@ -1,0 +1,8 @@
+myenv
+venv/
+Saved_Sessions/
+.aider*
+.env
+saved_tests/
+__pycache__/
+/learningbuddy.log
