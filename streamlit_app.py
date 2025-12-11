@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime
 import time
-from LearningBuddy import LearningBuddy
+from LearningBuddy_Modular import LearningBuddy
 import base64
 import markdown2
 import uuid

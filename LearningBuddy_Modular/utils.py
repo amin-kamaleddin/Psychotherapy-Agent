@@ -1,11 +1,14 @@
+"""
+Utility classes for LearningBuddy Modular.
+
+Provides file management and prompt loading functionality.
+"""
+
 import os
 import random
 from datetime import datetime
-from typing import Optional, List, Dict, Tuple
-from langchain.schema import AIMessage, HumanMessage, SystemMessage
+from typing import Optional
 import logging
-
-from LearningBuddy import LearningBuddy
 
 
 ###############################################################
@@ -16,9 +19,7 @@ class FileManager:
     """Handles all file I/O operations for LearningBuddy."""
 
     def __init__(self):
-        """
-        Initialize FileManager
-        """
+        """Initialize FileManager"""
         pass
 
     def read_file(self, filepath: str) -> str:
@@ -39,9 +40,9 @@ class FileManager:
             with open(filepath, 'r', encoding='utf-8') as file:
                 return file.read().strip()
         except FileNotFoundError:
-            raise FileNotFoundError(f"file not found: {filepath}")
+            raise FileNotFoundError(f"File not found: {filepath}")
         except Exception as e:
-            raise RuntimeError(f"Failed to read file: {e}")
+            raise RuntimeError(f"Failed to read file {filepath}: {e}")
 
     def load_patient_profile(self, filepath: str) -> str:
         """
@@ -68,9 +69,7 @@ class FileManager:
         Raises:
             FileNotFoundError: If no profiles found in directory
         """
-        # Select Patients available
         directory += "/MI"
-
         files = [f for f in os.listdir(directory)]
         if not files:
             raise FileNotFoundError("No patient profiles found in the directory.")
@@ -105,15 +104,15 @@ class FileManager:
             base_dir: str = "Saved_Sessions"
     ) -> str:
         """
-        Save all session data to timestamped folder.
+        Save session data to timestamped folder.
 
         Args:
             case_study: Patient case study content
-            mi: Completed MI evaluation form
+            mi: Formatted MI evaluation
             detailed_feedback: Detailed feedback text
-            transcript: Formatted interview transcript
-            presentation: Formatted presentation transcript
-            base_dir: Base directory for saving sessions
+            transcript: Interview transcript
+            presentation: Case presentation
+            base_dir: Base directory for saving
 
         Returns:
             Path to the created folder
@@ -126,7 +125,6 @@ class FileManager:
         folder_name = os.path.join(base_dir, f"session_export_{timestamp}")
         os.makedirs(folder_name, exist_ok=True)
 
-        # Define files to save 
         files = {
             "case_study.txt": case_study,
             "MI_EVAL.txt": mi,
@@ -134,7 +132,7 @@ class FileManager:
             "interview_transcript.txt": transcript
         }
 
-        # Save each file
+        # Save each content to a text file
         for filename, content in files.items():
             try:
                 file_path = os.path.join(folder_name, filename)
@@ -142,10 +140,9 @@ class FileManager:
                     f.write(content)
                 logging.info(f"Saved: {filename}")
             except Exception as e:
-                logging.error(f"Error saving {filename}: {e}")
+                logging.info(f"Error saving {filename}: {e}")
                 continue
 
-        logging.info(f"Session data saved to: {folder_name}")
         return folder_name
 
 
@@ -157,19 +154,18 @@ class PromptLoader:
     """Handles loading of prompts and context files."""
 
     def __init__(self):
-        """
-        Initialize PromptLoader.
-        """
+        """Initialize PromptLoader."""
         self.file_manager = FileManager()
 
         # Define prompt paths
         self.prompt_paths = {
-                'Clinical Summary': 'Prompts/MI/clinical_summary_prompt.txt',
-                'Virtual Patient': 'Prompts/MI/virtual_patient_prompt.txt',
-                'Verification': 'Prompts/MI/patient_profile_verification_prompt.txt',
-                'Feedback': 'Prompts/MI/feedback_agent_prompt.txt',
-                'MI Prompt': 'Prompts/MI/MI_form_prompt.txt',
-                'Virtual Evaluator': 'Prompts/MI/virtual_evaluator_prompt.txt',
+            'Clinical Summary': 'Prompts/MI/clinical_summary_prompt.txt',
+            'Virtual Patient': 'Prompts/MI/virtual_patient_prompt.txt',
+            'Verification': 'Prompts/MI/patient_profile_verification_prompt.txt',
+            'Feedback': 'Prompts/MI/feedback_agent_prompt.txt',
+            'MI Prompt': 'Prompts/MI/MI_form_prompt.txt',
+            'Virtual Evaluator': 'Prompts/MI/virtual_evaluator_prompt.txt',
+            'Virtual Therapist': 'Prompts/MI/virtual_therapist_prompt.txt',
         }
 
         # Define context paths
@@ -180,128 +176,39 @@ class PromptLoader:
 
     def load_prompt(self, prompt_name: str) -> str:
         """
-        Load a prompt file
+        Load a prompt file.
 
         Args:
             prompt_name: Name of the prompt to load (e.g., 'Clinical Summary')
 
         Returns:
             Prompt content as string
+
+        Raises:
+            FileNotFoundError: If prompt name is invalid
         """
         if prompt_name not in self.prompt_paths:
-            raise FileNotFoundError(
-                f"Invalid prompt name for: {prompt_name}"
-            )
+            raise FileNotFoundError(f"Invalid prompt name: {prompt_name}")
 
         filepath = self.prompt_paths[prompt_name]
         return self.file_manager.read_file(filepath)
 
     def load_context(self, context_name: str) -> str:
         """
-        Load a context file
+        Load a context file.
 
         Args:
             context_name: Name of the context to load (e.g., 'Feedback Criteria')
 
         Returns:
             Context content as string
-        """
 
+        Raises:
+            FileNotFoundError: If context name is invalid
+        """
         if context_name not in self.context_paths:
-            raise FileNotFoundError(
-                f"Invalid context name for: {context_name}"
-            )
+            raise FileNotFoundError(f"Invalid context name: {context_name}")
 
         filepath = self.context_paths[context_name]
         return self.file_manager.read_file(filepath)
 
-
-###############################################################
-###                  Formatting Functions                   ###
-###############################################################
-
-def format_interview_messages(messages: List) -> Tuple[List, str]:
-    """
-    Format interview messages for feedback generation.
-
-    Filters out system messages and formats conversation into:
-    1. List of LangChain message objects for LLM
-    2. Plain text transcript string
-
-    Args:
-        messages: List of LangChain message objects (SystemMessage, HumanMessage, AIMessage)
-
-    Returns:
-        Tuple of (formatted_langchain_messages, formatted_transcript_string)
-    """
-    # Filter conversation messages (exclude system messages)
-    conversation_messages = [
-        m for m in messages
-        if (isinstance(m, HumanMessage) or isinstance(m, AIMessage)) and m.content
-    ]
-
-    # Format for LangChain (with role prefixes)
-    formatted_messages = []
-    for m in conversation_messages:
-        prefix = "PSYCHIATRIST: " if isinstance(m, AIMessage) else "PATIENT: "
-        content = prefix + m.content
-        msg_cls = AIMessage if isinstance(m, AIMessage) else HumanMessage
-        formatted_messages.append(msg_cls(content=content))
-
-    # Format as plain text transcript
-    formatted_lines = []
-    for m in conversation_messages:
-        prefix = "PSYCHIATRIST: " if isinstance(m, AIMessage) else "PATIENT: "
-        formatted_lines.append(prefix + m.content)
-
-    formatted_transcript = "\n".join(formatted_lines)
-
-    return formatted_messages, formatted_transcript
-
-
-def format_presentation(presentation: List[str]) -> str:
-    """
-    Format presentation list into a single formatted string.
-
-    Args:
-        presentation: List of presentation text entries
-
-    Returns:
-        Formatted presentation string
-    """
-    if not presentation:
-        return ""
-
-    formatted_parts = [
-        f"Psychiatrist Presentation: {p.strip()}"
-        for p in presentation
-        if p.strip()
-    ]
-
-    return "\n".join(formatted_parts)
-
-
-def build_langchain_messages(chatlog: List[Dict]) -> List:
-    """
-    Convert chatlog dictionary format to LangChain message objects.
-
-    Args:
-        chatlog: List of message dictionaries with 'type' and 'content' keys
-
-    Returns:
-        List of LangChain message objects (SystemMessage, HumanMessage, AIMessage)
-    """
-    langchain_messages = []
-
-    for msg in chatlog:
-        msg_type = msg.get('type')
-        content = msg.get('content', '')
-
-        if msg_type == 'system':
-            langchain_messages.append(SystemMessage(content=content))
-        elif msg_type == 'human':
-            langchain_messages.append(HumanMessage(content=content))
-        elif msg_type == 'ai':
-            langchain_messages.append(AIMessage(content=content))
-
-    return langchain_messages
