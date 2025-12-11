@@ -13,17 +13,17 @@ import numpy as np
 import pandas as pd
 
 from LearningBuddy_Agent import LearningBuddy
-import VirtualStudent
+import VirtualTherapist
 from utils.api_key_loader import load_openai_api_key
 
 # =============================
 # === Experiment Constants ====
 # =============================
-STUDENT_CSV_PATH = "Student_Profiles/AK_StudentAgent_10Profiles - Prompts for CBT Students.csv"
+THERAPIST_CSV_PATH = "Therapist_Prompts/therapist_prompts.csv"
 PATIENT_DIR = "Patient_Profiles/MI/"
 NUM_PATIENTS = 1
 
-STUDENT_NUM = 0
+THERAPIST_NUM = 0
 
 API_KEY = load_openai_api_key()
 
@@ -46,16 +46,16 @@ def get_patient_files(start_idx=None, end_idx=None):
     return all_files
 
 
-def run_test(patient_profile_path, student_profile_number,
-             patient_number=None, student_feedback_csv="", api_key_input=None):
-    """Run one simulated therapy session between student and patient.
+def run_test(patient_profile_path, therapist_profile_number,
+             patient_number=None, therapist_feedback_csv="", api_key_input=None):
+    """Run one simulated therapy session between therapist and patient.
 
     Args:
         therapy_mode: 'MI' or 'CBT'
         patient_profile_path: Path to patient profile file
-        student_profile_number: Index of student profile to use
+        therapist_profile_number: Index of therapist profile to use
         patient_number: Optional patient identifier for folder naming
-        student_type: Optional student type ('good', 'bad_1st', 'bad_feedback') for folder naming
+        therapist_type: Optional therapist type ('good', 'bad_1st', 'bad_feedback') for folder naming
         api_key_input: Optional API key
     """
     api_key_input = API_KEY or "key"
@@ -64,19 +64,18 @@ def run_test(patient_profile_path, student_profile_number,
     session_metadata = {}
     if patient_number is not None:
         session_metadata['patient_number'] = patient_number
-    session_metadata['student_type'] = 'therapist'
+    session_metadata['therapist_type'] = 'therapist'
 
     add_on = ""
-    if not student_feedback_csv == "":
-        df = pd.read_csv(student_feedback_csv, quotechar='"', skipinitialspace=True)
-        add_on = df.loc[student_profile_number, "Prompt"]
+    if not therapist_feedback_csv == "":
+        df = pd.read_csv(therapist_feedback_csv, quotechar='"', skipinitialspace=True)
+        add_on = df.loc[therapist_profile_number, "Prompt"]
 
     # Initialize LearningBuddy with appropriate mode
     lb = LearningBuddy(api_key_input)
-    student = VirtualStudent.VirtualStudent(
+    therapist = VirtualTherapist.VirtualTherapist(
         api_key_input,
-        VirtualStudent.VirtualStudent.MI,
-        student_index=student_profile_number,
+        therapist_index=therapist_profile_number,
         prompt_addon=add_on
     )
 
@@ -86,12 +85,12 @@ def run_test(patient_profile_path, student_profile_number,
     # Pass metadata to start_session
     session_result = lb.start_session(case_study=case, session_metadata=session_metadata)
 
-    # Run 10 exchanges between student and patient
+    # Run 10 exchanges between therapist and patient
     for _ in range(10):
         current_state = lb.get_session_state()
         interview_messages = current_state.get("interview_messages", [])
-        student_utterance = student.get_response(interview_messages)
-        session_result = lb.send_message(student_utterance)
+        therapist_utterance = therapist.get_response(interview_messages)
+        session_result = lb.send_message(therapist_utterance)
 
     # End session and get feedback
     session_result = lb.end_session()
@@ -155,9 +154,9 @@ def extract_scores(eval_file_paths):
 # === Experiment Pipeline ====
 # =============================
 
-def run_experiment(student_num, patient_files, student_csv_path, label, save_folder):
-    """Run experiment for one student configuration."""
-    df = pd.read_csv(student_csv_path, quotechar='"', skipinitialspace=True)
+def run_experiment(therapist_num, patient_files, therapist_csv_path, label, save_folder):
+    """Run experiment for one therapist configuration."""
+    df = pd.read_csv(therapist_csv_path, quotechar='"', skipinitialspace=True)
     all_results = []
     saved_data_directory = []
 
@@ -169,9 +168,9 @@ def run_experiment(student_num, patient_files, student_csv_path, label, save_fol
 
         results = run_test(
             patient,
-            student_num,
+            therapist_num,
             patient_number=patient_number,
-            student_type=label
+            therapist_type=label
         )
         feedback_path = results["folder_name"] + f"/detailed_feedback_{label}.txt"
         saved_data_directory.append(feedback_path)
@@ -181,7 +180,7 @@ def run_experiment(student_num, patient_files, student_csv_path, label, save_fol
 
 
 def run_parallel_experiments(args):
-    STUDENT_CSV_PATH = "Student_Profiles/AK_StudentAgent_10Profiles - Prompts for MI Students.csv"
+    THERAPIST_CSV_PATH = "Therapist_Prompts/therapist_prompts.csv"
     """Main function for parallel execution mode."""
     start_time = time.time()
 
@@ -213,9 +212,9 @@ def run_parallel_experiments(args):
     # Initialize storage for all results
     all_results = []
 
-    df = pd.read_csv(STUDENT_CSV_PATH, quotechar='"', skipinitialspace=True)
+    df = pd.read_csv(THERAPIST_CSV_PATH, quotechar='"', skipinitialspace=True)
 
-    # Process each patient with all three student types
+    # Process each patient
     for patient_idx, patient_file in enumerate(patient_files):
         print(f"\n{'=' * 60}")
         print(f"Processing Patient {patient_idx + 1}/{num_patients}: {os.path.basename(patient_file)}")
@@ -223,11 +222,10 @@ def run_parallel_experiments(args):
 
         patient_number = patient_idx + 1
 
-        # 1️⃣ student for this patient
-        print(f"  [STEP 1] Running Student...")
+        print(f"  [STEP 1] Running...")
         results = run_test(
             patient_file,
-            student_profile_number=STUDENT_NUM,
+            therapist_profile_number=THERAPIST_NUM,
             patient_number=patient_number,
         )
         # Look for the feedback file - it might be named differently
@@ -235,7 +233,6 @@ def run_parallel_experiments(args):
 
         # Try to find the feedback file (check different possible names)
         possible_names = [
-            "detailed_feedback_good_student.txt",
             "detailed_feedback.txt",
             "feedback.txt"
         ]
@@ -257,9 +254,9 @@ def run_parallel_experiments(args):
         
         scores = extract_scores([feedback_path])
 
-        # Store student result
+        # Store therapist result
         row = {
-            "Student": df.iloc[STUDENT_NUM]["Name"],
+            "Therapist": df.iloc[THERAPIST_NUM]["Name"],
             "Patient": os.path.basename(patient_file)
         }
         for key, values in scores.items():
@@ -281,7 +278,7 @@ def run_parallel_experiments(args):
 # =============================
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Automated Testing Pipeline for MI/CBT")
+    parser = argparse.ArgumentParser(description="Automated Testing Pipeline for MI")
 
     parser.add_argument("--start-patient", type=int,
                         help="Start patient index (for parallel execution)")

@@ -1,6 +1,6 @@
 """
-Virtual Student module for simulating student interactions in therapy training scenarios.
-Supports multiple therapy types (MI, CBT, STACER) with configurable student profiles.
+Virtual Therapist module for simulating therapist interactions in therapy training scenarios.
+Supports multiple therapy types (MI, CBT, STACER) with configurable therapist profiles.
 """
 
 from typing import List, Literal, Optional
@@ -19,8 +19,8 @@ MessageList = List[BaseMessage]
 
 
 @dataclass(frozen=True)
-class StudentProfile:
-    """Represents a student's profile configuration."""
+class TherapistProfile:
+    """Represents a therapist's profile configuration."""
     name: str
     prompt_content: str
 
@@ -50,24 +50,24 @@ class PromptLoader:
         cls._cache.clear()
 
 
-class StudentProfileLoader:
-    """Handles loading student profiles from CSV files."""
+class TherapistProfileLoader:
+    """Handles loading therapist profiles from CSV files."""
 
-    PROFILE_PATHS = "Student_Profiles/AK_StudentAgent_10Profiles - Prompts for MI Students.csv"
+    PROFILE_PATHS = "Therapist_Prompts/therapist_prompts.csv"
 
-    PROMPT_PATHS = "Prompts/MI/virtual_student_prompt.txt"
+    PROMPT_PATHS = "Prompts/MI/virtual_therapist_prompt.txt"
 
     @classmethod
-    def load_profile(cls, student_index: int = 0) -> StudentProfile:
+    def load_profile(cls, therapist_index: int = 0) -> TherapistProfile:
         """
-        Load a student profile for the given therapy type and index.
+        Load a therapist profile for the given therapy type and index.
 
         Args:
             therapy_type: Type of therapy (MI, CBT, STACER)
-            student_index: Index of student profile to load (default: 0)
+            therapist_index: Index of therapist profile to load (default: 0)
 
         Returns:
-            StudentProfile with loaded data
+            TherapistProfile with loaded data
 
         Raises:
             FileNotFoundError: If profile files don't exist
@@ -81,19 +81,19 @@ class StudentProfileLoader:
         df = pd.read_csv(profile_path, quotechar='"', skipinitialspace=True)
 
         # Validate index
-        if student_index >= len(df) or student_index < 0:
+        if therapist_index >= len(df) or therapist_index < 0:
             raise ValueError(
-                f"Student index {student_index} out of range. "
+                f"Therapist index {therapist_index} out of range. "
                 f"Available: 0-{len(df) - 1}"
             )
 
         # Load base prompt and profile
         base_prompt = PromptLoader.load(cls.PROMPT_PATHS)
-        student_row = df.iloc[student_index]
+        therapist_row = df.iloc[therapist_index]
 
-        return StudentProfile(
-            name=student_row["Name"],
-            prompt_content=base_prompt + student_row["Prompt"],
+        return TherapistProfile(
+            name=therapist_row["Name"],
+            prompt_content=base_prompt + therapist_row["Prompt"],
         )
 
 
@@ -127,34 +127,34 @@ class MessageCleaner:
         return cleaned
 
 
-class VirtualStudent:
+class VirtualTherapist:
     """
-    Simulates a student in therapy training scenarios.
+    Simulates a therapist in therapy training scenarios.
 
-    The virtual student responds to supervisor feedback and questions based on
+    The virtual therapist responds to supervisor feedback and questions based on
     their profile and the conversation history.
     """
 
     def __init__(
             self,
             api_key: str,
-            student_index: int = 0,
+            therapist_index: int = 0,
             prompt_addon: str = "",
             model: str = "gpt-4o-mini",
             temperature: float = 0.5
     ):
         """
-        Initialize a virtual student.
+        Initialize a virtual therapist.
 
         Args:
             api_key: OpenAI API key
-            student_index: Index of student profile to use (default: 0)
-            prompt_addon: Additional text to append to student prompt
+            therapist_index: Index of therapist profile to use (default: 0)
+            prompt_addon: Additional text to append to therapist prompt
             model: OpenAI model to use
             temperature: LLM temperature for response generation
         """
         self.api_key = SecretStr(api_key)
-        self.student_index = student_index
+        self.therapist_index = therapist_index
         self.model = model
         self.temperature = temperature
 
@@ -165,23 +165,23 @@ class VirtualStudent:
             api_key=self.api_key
         )
 
-        # Load student profile
-        self.profile: Optional[StudentProfile] = None
+        # Load therapist profile
+        self.profile: Optional[TherapistProfile] = None
         self.system_prompt: str = ""
 
-        self.profile = StudentProfileLoader.load_profile('MI', student_index)
+        self.profile = TherapistProfileLoader.load_profile(therapist_index)
         self.system_prompt = self.profile.prompt_content + prompt_addon
-        print(f"✓ Student Profile Loaded: {self.profile.name}")
+        print(f"✓ Therapist Profile Loaded: {self.profile.name}")
 
     def get_response(self, conversation: MessageList) -> str:
         """
-        Generate student response based on conversation history.
+        Generate therapist response based on conversation history.
 
         Args:
             conversation: List of LangChain message objects representing the conversation
 
         Returns:
-            Student's response as a string
+            Therapist's response as a string
 
         Raises:
             Exception: If LLM invocation fails
@@ -200,11 +200,11 @@ class VirtualStudent:
             response = self.llm.invoke(messages)
             return response.content
         except Exception as e:
-            raise Exception(f"Failed to generate student response: {str(e)}")
+            raise Exception(f"Failed to generate therapist response: {str(e)}")
 
     def get_profile_info(self) -> dict:
         """
-        Get information about the loaded student profile.
+        Get information about the loaded therapist profile.
 
         Returns:
             Dictionary with profile details
@@ -217,7 +217,7 @@ class VirtualStudent:
         return {
             "loaded": True,
             "name": self.profile.name,
-            "student_index": self.student_index,
+            "therapist_index": self.therapist_index,
             "model": self.model,
             "temperature": self.temperature
         }
@@ -235,28 +235,28 @@ class VirtualStudent:
             self.system_prompt = addon
 
     def __repr__(self) -> str:
-        """String representation of the virtual student."""
+        """String representation of the virtual therapist."""
         if self.profile:
-            return f"VirtualStudent(name={self.profile.name})"
-        return f"VirtualStudent(no_profile)"
+            return f"VirtualTherapist(name={self.profile.name})"
+        return f"VirtualTherapist(no_profile)"
 
 
 # Example usage
 if __name__ == "__main__":
-    # Initialize student
+    # Initialize therapist
     key = load_openai_api_key()
-    student = VirtualStudent(
+    therapist = VirtualTherapist(
         api_key=key,
-        student_index=1
+        therapist_index=1
     )
 
     # Get profile info
-    print(student.get_profile_info())
+    print(therapist.get_profile_info())
 
     # Simulate conversation
     conversation = [
         HumanMessage(content="I think I am depressed")
     ]
 
-    response = student.get_response(conversation)
-    print(f"Student: {response}")
+    response = therapist.get_response(conversation)
+    print(f"Therapist: {response}")

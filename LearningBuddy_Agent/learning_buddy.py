@@ -139,7 +139,7 @@ class LearningBuddy:
             case_study: Pre-loaded case study content (optional)
             selected_profile: Path to specific patient profile (optional)
             session_metadata: Additional metadata for folder naming (optional)
-                             Expected keys: 'patient_number', 'student_type'
+                             Expected keys: 'patient_number'
 
         Returns:
             Initial state after running initialization workflow
@@ -159,8 +159,6 @@ class LearningBuddy:
         if session_metadata:
             if 'patient_number' in session_metadata:
                 session_id_parts.append(f"patient_{session_metadata['patient_number']}")
-            if 'student_type' in session_metadata:
-                session_id_parts.append(session_metadata['student_type'])
 
         session_id = "_".join(session_id_parts)
 
@@ -187,7 +185,6 @@ class LearningBuddy:
                 "end_time": None,
                 "selected_profile": selected_profile,
                 "patient_number": session_metadata.get('patient_number') if session_metadata else None,
-                "student_type": session_metadata.get('student_type') if session_metadata else None
             },
 
             # Error handling
