@@ -5,6 +5,7 @@ from LearningBuddy import LearningBuddy
 import base64
 import markdown2
 import uuid
+import os
 import io
 import streamlit.components.v1 as components
 
@@ -244,19 +245,11 @@ def autoplay_audio(audio_bytes: bytes):
 
 
 
-def get_available_patient_profiles(directory='Patient_Profiles', mode=None):
+def get_available_patient_profiles(directory='Patient_Profiles'):
     """Get list of available patient profile files"""
 
     # Select Patients available in the current mode
-    if mode is None:
-        mode = LearningBuddy.STACER_MODE
-    if mode == LearningBuddy.STACER_MODE:
-        directory += "/STACER"
-    elif mode == LearningBuddy.MI_MODE:
-        directory += "/MI"
-    elif mode == LearningBuddy.CBT_MODE:
-        directory += "/STACER"
-    # Add more modes ...
+    directory += "/MI"
 
     try:
         if not os.path.exists(directory):

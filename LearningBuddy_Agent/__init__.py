@@ -1,8 +1,7 @@
 """
 LearningBuddy Agent - Virtual Patient Simulation System
 
-A multi-modal therapy training system supporting STACER, MI (Motivational Interviewing),
-and CBT (Cognitive Behavioral Therapy) evaluation modes.
+A multi-modal therapy training system supporting MI (Motivational Interviewing)
 
 Main Components:
 - LearningBuddy: Main orchestrator class
@@ -11,11 +10,10 @@ Main Components:
 - State management: Type-safe state definitions
 
 Usage:
-    from LearningBuddy_Agent import LearningBuddy, STACER_MODE
+    from LearningBuddy_Agent import LearningBuddy
 
     buddy = LearningBuddy(
         api_key="your-api-key",
-        mode=STACER_MODE
     )
 
     # Start session
@@ -29,7 +27,7 @@ Usage:
 """
 
 # Import main class and constants from learning_buddy module
-from .learning_buddy import LearningBuddy, STACER_MODE, MI_MODE, CBT_MODE
+from .learning_buddy import LearningBuddy
 
 # Import state types
 from .graph_state import LBState, PatientContext
@@ -42,11 +40,6 @@ __author__ = "LearningBuddy Team"
 __all__ = [
     # Main class
     'LearningBuddy',
-
-    # Mode constants
-    'STACER_MODE',
-    'MI_MODE',
-    'CBT_MODE',
 
     # State types (for type hints and advanced usage)
     'LBState',

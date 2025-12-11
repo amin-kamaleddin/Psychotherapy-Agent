@@ -373,12 +373,12 @@ class InterviewWorkflow:
 class FeedbackWorkflow:
     """
     Handles feedback generation workflow:
-    1. Generate comprehensive feedback and STACER
+    1. Generate comprehensive feedback and MI
     2. Complete session and save data
     """
 
     def __init__(self, llm_feedback, llm_virtual_evaluator, prompt_loader: PromptLoader,
-                 file_manager: FileManager, mode: int):
+                 file_manager: FileManager):
         """
         Initialize the workflow with required dependencies.
 
@@ -387,13 +387,11 @@ class FeedbackWorkflow:
             llm_virtual_evaluator: LLM client for virtual evaluator
             prompt_loader: PromptLoader instance
             file_manager: FileManager instance
-            mode: Current mode (STACER_MODE, MI_MODE, or CBT_MODE)
         """
         self.llm_feedback = llm_feedback
         self.llm_virtual_evaluator = llm_virtual_evaluator
         self.prompt_loader = prompt_loader
         self.file_manager = file_manager
-        self.mode = mode
         self.graph = self._build_graph()
         logging.info("FeedbackWorkflow initialized.")
 
@@ -414,7 +412,7 @@ class FeedbackWorkflow:
     def _generate_feedback(self, state: LBState) -> dict:
         """
         Generate comprehensive feedback.
-        Scores criteria, writes feedback, fills out STACER/evaluation form,
+        Scores criteria, writes feedback, fills out MI evaluation form,
         and sets up evaluator agent.
         """
         logging.info("Starting feedback evaluation phase.")
@@ -507,13 +505,13 @@ Structure your feedback using all the sections mentioned.
 """
 
         logging.info("Finished detailed feedback generation.")
-        logging.info("Starting STACER generation.")
+        logging.info("Starting MI generation.")
 
-        # Generate formatted STACER/Evaluation form
-        instruction_prompt = self.prompt_loader.load_prompt('STACER Prompt')
-        blank_stacer_file = self.prompt_loader.load_context("Evaluation Form")
+        # Generate formatted MI Evaluation form
+        instruction_prompt = self.prompt_loader.load_prompt('MI Prompt')
+        blank_mi_file = self.prompt_loader.load_context("Evaluation Form")
 
-        stacer_prompt = f"""
+        mi_prompt = f"""
 {instruction_prompt}
 
 Here is the Full Transcript:
@@ -525,19 +523,19 @@ Here is the full Case Presentation:
 Here is the Evaluation Criteria to base your answer off of:
 {feedback_text}
 
-And here is the blank STACER form that you must use to format your answer:
-{blank_stacer_file}
+And here is the blank MI form that you must use to format your answer:
+{blank_mi_file}
 """
 
-        messages_stacer = [
-            SystemMessage(content=stacer_prompt),
+        messages_mi = [
+            SystemMessage(content=mi_prompt),
             HumanMessage(content="Please provide the formatted answer below:")
         ]
 
-        response = self.llm_feedback.invoke(messages_stacer)
-        cod_stacer_response = response.content
+        response = self.llm_feedback.invoke(messages_mi)
+        mi_response = response.content
 
-        logging.info("Finished STACER generation.")
+        logging.info("Finished MI generation.")
         logging.info("Starting Evaluator Agent setup.")
 
         # Set up Virtual Evaluator Agent
@@ -553,12 +551,12 @@ You are presenting the evaluation of the following psychiatric interview and cas
 === PRESENTATION TRANSCRIPT ===
 {formatted_presentation}
 
-This is the completed evaluation and filled out STACER form which you will use to create your responses:
+This is the completed evaluation and filled out MI form which you will use to create your responses:
 === COMPLETE EVALUATION ===
 {session_feedback}
 
-=== COMPLETE STACER ===
-{cod_stacer_response}
+=== COMPLETE MI ===
+{mi_response}
 
 Here is the full patient profile, which can be used to answer questions about the patient:
 {case_study}
@@ -575,7 +573,7 @@ After that, respond to any questions the user may ask about the evaluation or th
         # Return updates
         return {
             "feedback_messages": messages,
-            "cod_stacer": cod_stacer_response,
+            "mi": mi_response,
             "formatted_transcript": formatted_transcript,
             "formatted_presentation": formatted_presentation,
             "current_phase": "evaluator_active",
@@ -593,7 +591,7 @@ After that, respond to any questions the user may ask about the evaluation or th
         # Extract data from state
         patient_ctx = state.get("patient_context", {})
         case_study = patient_ctx.get("case_study", "")
-        stacer = state.get("cod_stacer", "")
+        mi = state.get("mi", "")
 
         # Extract detailed feedback from messages
         feedback_messages = state.get("feedback_messages", [])
@@ -608,11 +606,10 @@ After that, respond to any questions the user may ask about the evaluation or th
         try:
             folder_name = self.file_manager.save_session_data(
                 case_study=case_study,
-                stacer=stacer,
+                mi=mi,
                 detailed_feedback=detailed_feedback,
                 transcript=transcript,
                 presentation=presentation,
-                mode=self.mode
             )
         except Exception as e:
             logging.error(f"Error saving session data: {str(e)}")

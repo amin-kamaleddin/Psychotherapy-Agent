@@ -24,12 +24,8 @@ logging.basicConfig(
 
 # Defining LangGraph State Variables
 class LearningBuddy:
-    # Modes
-    STACER_MODE = 1
-    MI_MODE = 2
-    CBT_MODE = 3
 
-    def __init__(self, api_key: str, mode=STACER_MODE):
+    def __init__(self, api_key: str):
         self.api_key = SecretStr(api_key)
         self.llm_mini_verification = ChatOpenAI(model="gpt-4.1-mini", temperature=0, api_key=self.api_key)
         self.llm_mini_summary = ChatOpenAI(model="gpt-4.1-mini", temperature=0.2, api_key=self.api_key)
@@ -41,7 +37,6 @@ class LearningBuddy:
         self.feedback_graph = self._build_feedback_workflow()
         self.evaluator_graph = self._build_evaluator_workflow()
         self.current_state = None
-        self.mode = mode
         logging.info("LearningBuddy initialized with separate LangGraph workflows.")
 
     ###############################################################
@@ -451,11 +446,11 @@ class LearningBuddy:
 
         return {"presentation": presentation, "status": "updated"}
 
-    ###############################################################
-    ###                Workflow 3: STACER Feedback              ###
-    ###############################################################
+    ###########################################################
+    ###                Workflow 3: MI Feedback              ###
+    ###########################################################
     #   This workflow generates all static feedback after an interview ends:
-    #            1. Generates detailed feedback and fills out STACER
+    #            1. Generates detailed feedback and fills out MI
     #            2. Initializes Feedback Agent
     #            2. Ends current session and saves all session data
     #
@@ -478,7 +473,7 @@ class LearningBuddy:
         """ Generate comprehensive feedback.
             First scores all defined criteria on a 1-5 scale and writes
             thorough feedback based on provided rubric.
-            Then uses full feedback to fill out a formatted COD STACER.
+            Then uses full feedback to fill out a formatted MI.
         """
         logging.info("Starting feedback evaluation phase.")
 
@@ -581,12 +576,12 @@ class LearningBuddy:
 
                           """
         logging.info("Finished detailed feedback generation. ")
-        logging.info("Starting STACER generation ")
-        # Generate Formatted COD STACER Form
-        instruction_prompt = self._load_prompt('STACER Prompt')
-        blank_stacer_file = self._load_context("Evaluation Form")
+        logging.info("Starting MI generation ")
+        # Generate Formatted MI Form
+        instruction_prompt = self._load_prompt('MI Prompt')
+        blank_mi_file = self._load_context("Evaluation Form")
 
-        stacer_prompt = f"""
+        mi_prompt = f"""
         {instruction_prompt}
 
         Here is the Full Transcript:
@@ -598,19 +593,19 @@ class LearningBuddy:
         Here is the Evaluation Criteria to base your answer off of:
         {feedback_text}
 
-        And here is the blank STACER form that you must use to format your answer:
-        {blank_stacer_file}
+        And here is the blank MI form that you must use to format your answer:
+        {blank_mi_file}
         """
 
         messages = [
-            SystemMessage(content=stacer_prompt),
+            SystemMessage(content=mi_prompt),
             HumanMessage(content="Please provide the formatted answer below:")
         ]
 
         response = self.llm_feedback.invoke(messages)
-        cod_stacer_response = response.content
+        mi_response = response.content
 
-        logging.info("Finished STACER generation ")
+        logging.info("Finished MI generation ")
         logging.info("Starting Agent Setup ")
 
         ####   Eval Agent Set Up
@@ -627,12 +622,12 @@ class LearningBuddy:
               === PRESENTATION TRANSCRIPT ===
               {formatted_presentation}
 
-              This is the completed evaluation and filled out STACER form which you will use to create your responses:
+              This is the completed evaluation and filled out MI form which you will use to create your responses:
               === COMPLETE EVALUATION ===
               {session_feedback}
 
-              === COMPLETE STACER ===
-              {cod_stacer_response}
+              === COMPLETE MI ===
+              {mi_response}
 
               Here is the full patient profile, which can be used to answer questions about the patient:
               {case_study}
@@ -650,7 +645,7 @@ class LearningBuddy:
         logging.info("Finished Agent Setup ")
 
         logging.info("Feedback evaluation complete.")
-        updates["cod_stacer"] = cod_stacer_response
+        updates["mi"] = mi_response
         updates["formatted_transcript"] = formatted_transcript
         updates["formatted_presentation"] = formatted_presentation
         updates["current_phase"] = "evaluator_active"
@@ -667,7 +662,7 @@ class LearningBuddy:
         ###Save Data to text Files###
 
         case_study = state.get("patient_context").get("case_study")
-        stacer = state.get("cod_stacer")
+        mi = state.get("mi")
         detailed_feedback = state.get("feedback_messages")
         detailed_feedback = ' \n '.join(item.content for item in detailed_feedback)
         transcript = state.get("formatted_transcript")
@@ -683,29 +678,12 @@ class LearningBuddy:
         folder_name = os.path.join(base_dir, f"session_export_{timestamp}")
         os.makedirs(folder_name, exist_ok=True)
 
-        if self.mode == LearningBuddy.STACER_MODE:
-            files = {
-                "case_study.txt": case_study,
-                "cod_stacer.txt": stacer,
-                "detailed_feedback.txt": detailed_feedback,
-                "interview_transcript.txt": transcript,
-                "presentation_transcript.txt": presentation,
-            }
-        if self.mode == LearningBuddy.MI_MODE:
-            files = {
-                "case_study.txt": case_study,
-                "MI_EVAL.txt": stacer,
-                "detailed_feedback.txt": detailed_feedback,
-                "interview_transcript.txt": transcript
-            }
-        if self.mode == LearningBuddy.CBT_MODE:
-            files = {
-                "case_study.txt": case_study,
-                "CBT_EVAL.txt": stacer,
-                "detailed_feedback.txt": detailed_feedback,
-                "interview_transcript.txt": transcript,
-                "presentation_transcript.txt": presentation,
-            }
+        files = {
+            "case_study.txt": case_study,
+            "MI_EVAL.txt": mi,
+            "detailed_feedback.txt": detailed_feedback,
+            "interview_transcript.txt": transcript
+        }
 
         # Save each content to a text file
         for filename, content in files.items():
@@ -905,7 +883,7 @@ class LearningBuddy:
             "chatlog": self.current_state.get("chatlog", []),
             "feedback": self.current_state.get("feedback"),
             "session_statistics": self.get_session_statistics(),
-            "cod_stacer": self.current_state.get("cod_stacer"),
+            "mi": self.current_state.get("mi"),
         }
 
     def _calculate_session_duration(self, start_time_iso: str) -> float:
@@ -920,13 +898,7 @@ class LearningBuddy:
 
     def _load_random_case_profile(self, directory='Patient_Profiles'):
         """ Returns a randomly selected patient profile"""
-
-        # Select Patients available in the current mode
-        if self.mode == LearningBuddy.STACER_MODE or self.mode == LearningBuddy.CBT_MODE:
-            directory += "/STACER"
-        elif self.mode == LearningBuddy.MI_MODE:
-            directory += "/MI"
-        # Add more modes ...
+        directory += "/MI"
 
         files = [f for f in os.listdir(directory)]
         if not files:
@@ -937,95 +909,32 @@ class LearningBuddy:
 
     def _load_prompt(self, prompt_name: str) -> str:
         """ Returns the selected prompt"""
-        # Standard LB STACER Evaluation
-        if self.mode == LearningBuddy.STACER_MODE:
-            if prompt_name == 'Clinical Summary':
-                filepath = 'Prompts/STACER/clinical_summary_prompt.txt'
-            elif prompt_name == 'Virtual Patient':
-                filepath = 'Prompts/STACER/virtual_patient_prompt.txt'
-            elif prompt_name == 'Verification':
-                filepath = 'Prompts/STACER/patient_profile_verification_prompt.txt'
-            elif prompt_name == 'Feedback':
-                filepath = 'Prompts/STACER/feedback_agent_prompt.txt'
-            elif prompt_name == 'STACER Prompt':
-                filepath = 'Prompts/STACER/STACER_form_prompt.txt'
-            elif prompt_name == 'Virtual Evaluator':
-                filepath = 'Prompts/STACER/virtual_evaluator_prompt.txt'
-            else:
-                raise FileNotFoundError(f"File not found. Invalid Prompt Name: {prompt_name}")
 
         # Motivational Interviewing Evaluation
-        elif self.mode == LearningBuddy.MI_MODE:
-            if prompt_name == 'Clinical Summary':
-                filepath = 'Prompts/MI/clinical_summary_prompt.txt'
-            elif prompt_name == 'Virtual Patient':
-                filepath = 'Prompts/MI/virtual_patient_prompt.txt'
-            elif prompt_name == 'Verification':
-                filepath = 'Prompts/MI/patient_profile_verification_prompt.txt'
-            elif prompt_name == 'Feedback':
-                filepath = 'Prompts/MI/feedback_agent_prompt.txt'
-            elif prompt_name == 'STACER Prompt':
-                filepath = 'Prompts/MI/MI_form_prompt.txt'
-            elif prompt_name == 'Virtual Evaluator':
-                filepath = 'Prompts/MI/virtual_evaluator_prompt.txt'
-            else:
-                raise FileNotFoundError(f"File not found. Invalid Prompt Name: {prompt_name}")
-
-        # Motivational Interviewing Evaluation
-        elif self.mode == LearningBuddy.CBT_MODE:
-            if prompt_name == 'Clinical Summary':
-                filepath = 'Prompts/CBT/clinical_summary_prompt.txt'
-            elif prompt_name == 'Virtual Patient':
-                filepath = 'Prompts/CBT/virtual_patient_prompt.txt'
-            elif prompt_name == 'Verification':
-                filepath = 'Prompts/CBT/patient_profile_verification_prompt.txt'
-            elif prompt_name == 'Feedback':
-                filepath = 'Prompts/CBT/feedback_agent_prompt.txt'
-            elif prompt_name == 'STACER Prompt':
-                filepath = 'Prompts/CBT/CBT_form_prompt.txt'
-            elif prompt_name == 'Virtual Evaluator':
-                filepath = 'Prompts/CBT/virtual_evaluator_prompt.txt'
-            else:
-                raise FileNotFoundError(f"File not found. Invalid Prompt Name: {prompt_name}")
-
-        # Add more modes here...
+        if prompt_name == 'Clinical Summary':
+            filepath = 'Prompts/MI/clinical_summary_prompt.txt'
+        elif prompt_name == 'Virtual Patient':
+            filepath = 'Prompts/MI/virtual_patient_prompt.txt'
+        elif prompt_name == 'Verification':
+            filepath = 'Prompts/MI/patient_profile_verification_prompt.txt'
+        elif prompt_name == 'Feedback':
+            filepath = 'Prompts/MI/feedback_agent_prompt.txt'
+        elif prompt_name == 'MI Prompt':
+            filepath = 'Prompts/MI/MI_form_prompt.txt'
+        elif prompt_name == 'Virtual Evaluator':
+            filepath = 'Prompts/MI/virtual_evaluator_prompt.txt'
         else:
-            raise FileNotFoundError(f"File not found. Invalid Mode: {self.mode}")
+            raise FileNotFoundError(f"File not found. Invalid Prompt Name: {prompt_name}")
 
         return self._read_file(filepath)
 
     def _load_context(self, context_name: str) -> str:
         """ Returns the selected LLM context"""
-
-        # STACER Mode
-        if self.mode == LearningBuddy.STACER_MODE:
-            if context_name == 'Feedback Criteria':
-                filepath = 'Context/STACER/feedback_criteria.txt'
-            elif context_name == 'Evaluation Form':
-                filepath = 'Context/STACER/COD_STACER.txt'
-            else:
-                raise FileNotFoundError(f"File not found. Invalid Prompt Name: {context_name}")
-
-        # Motivational Interviewing Mode
-        elif self.mode == LearningBuddy.MI_MODE:
-            if context_name == 'Feedback Criteria':
-                filepath = 'Context/MI/feedback_criteria_MI_5point.txt'
-            elif context_name == 'Evaluation Form':
-                filepath = 'Context/MI/MI_EVAL.txt'
-            else:
-                raise FileNotFoundError(f"File not found. Invalid Prompt Name: {context_name}")
-
-
-        elif self.mode == LearningBuddy.CBT_MODE:
-            if context_name == 'Feedback Criteria':
-                filepath = 'Context/CBT/feedback_criteria_CBT.txt'
-            elif context_name == 'Evaluation Form':
-                filepath = 'Context/CBT/CBT_EVAL.txt'
-            else:
-                raise FileNotFoundError(f"File not found. Invalid Prompt Name: {context_name}")
-
-        # Add more modes here...
+        if context_name == 'Feedback Criteria':
+            filepath = 'Context/MI/feedback_criteria_MI_5point.txt'
+        elif context_name == 'Evaluation Form':
+            filepath = 'Context/MI/MI_EVAL.txt'
         else:
-            raise FileNotFoundError(f"File not found. Invalid Mode: {self.mode}")
+            raise FileNotFoundError(f"File not found. Invalid Prompt Name: {context_name}")
 
         return self._read_file(filepath)

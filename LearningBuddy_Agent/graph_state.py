@@ -36,7 +36,7 @@ class PresentationData(TypedDict):
 # Evaluation results - all feedback-related data together
 class EvaluationResults(TypedDict):
     detailed_feedback: str
-    formatted_stacer: str
+    formatted_mi: str
     feedback_generated: bool
 
 
@@ -47,7 +47,7 @@ class LBState(TypedDict):
     feedback_messages: Annotated[list[Message], add_messages]
     evaluator_messages: Annotated[list[Message], add_messages]
 
-    cod_stacer: Optional[str]
+    mi: Optional[str]
     formatted_transcript: Optional[str]
     formatted_presentation: Optional[str]
 

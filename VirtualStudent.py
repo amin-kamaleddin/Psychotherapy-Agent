@@ -15,7 +15,6 @@ from pydantic import SecretStr
 from utils.api_key_loader import load_openai_api_key
 
 # Type aliases for clarity
-TherapyType = Literal["MI", "CBT", "STACER"]
 MessageList = List[BaseMessage]
 
 
@@ -24,7 +23,6 @@ class StudentProfile:
     """Represents a student's profile configuration."""
     name: str
     prompt_content: str
-    therapy_type: TherapyType
 
 
 class PromptLoader:
@@ -55,18 +53,12 @@ class PromptLoader:
 class StudentProfileLoader:
     """Handles loading student profiles from CSV files."""
 
-    PROFILE_PATHS = {
-        "MI": "Student_Profiles/AK_StudentAgent_10Profiles - Prompts for MI Students.csv",
-        "CBT": "Student_Profiles/AK_StudentAgent_10Profiles - Prompts for CBT Students.csv",
-    }
+    PROFILE_PATHS = "Student_Profiles/AK_StudentAgent_10Profiles - Prompts for MI Students.csv"
 
-    PROMPT_PATHS = {
-        "MI": "Prompts/MI/virtual_student_prompt.txt",
-        "CBT": "Prompts/CBT/virtual_student_prompt.txt",
-    }
+    PROMPT_PATHS = "Prompts/MI/virtual_student_prompt.txt"
 
     @classmethod
-    def load_profile(cls, therapy_type: TherapyType, student_index: int = 0) -> StudentProfile:
+    def load_profile(cls, student_index: int = 0) -> StudentProfile:
         """
         Load a student profile for the given therapy type and index.
 
@@ -78,17 +70,11 @@ class StudentProfileLoader:
             StudentProfile with loaded data
 
         Raises:
-            ValueError: If therapy type not supported or index out of range
             FileNotFoundError: If profile files don't exist
         """
-        if therapy_type not in cls.PROFILE_PATHS:
-            raise ValueError(
-                f"Therapy type '{therapy_type}' not supported. "
-                f"Choose from: {list(cls.PROFILE_PATHS.keys())}"
-            )
 
         # Load CSV
-        profile_path = Path(cls.PROFILE_PATHS[therapy_type])
+        profile_path = Path(cls.PROFILE_PATHS)
         if not profile_path.exists():
             raise FileNotFoundError(f"Profile CSV not found: {profile_path}")
 
@@ -102,13 +88,12 @@ class StudentProfileLoader:
             )
 
         # Load base prompt and profile
-        base_prompt = PromptLoader.load(cls.PROMPT_PATHS[therapy_type])
+        base_prompt = PromptLoader.load(cls.PROMPT_PATHS)
         student_row = df.iloc[student_index]
 
         return StudentProfile(
             name=student_row["Name"],
             prompt_content=base_prompt + student_row["Prompt"],
-            therapy_type=therapy_type
         )
 
 
@@ -150,15 +135,9 @@ class VirtualStudent:
     their profile and the conversation history.
     """
 
-    # Therapy type constants (for backward compatibility)
-    STACER = "STACER"
-    MI = "MI"
-    CBT = "CBT"
-
     def __init__(
             self,
             api_key: str,
-            therapy_type: TherapyType,
             student_index: int = 0,
             prompt_addon: str = "",
             model: str = "gpt-4o-mini",
@@ -169,14 +148,12 @@ class VirtualStudent:
 
         Args:
             api_key: OpenAI API key
-            therapy_type: Type of therapy (MI, CBT, STACER)
             student_index: Index of student profile to use (default: 0)
             prompt_addon: Additional text to append to student prompt
             model: OpenAI model to use
             temperature: LLM temperature for response generation
         """
         self.api_key = SecretStr(api_key)
-        self.therapy_type = therapy_type
         self.student_index = student_index
         self.model = model
         self.temperature = temperature
@@ -192,13 +169,9 @@ class VirtualStudent:
         self.profile: Optional[StudentProfile] = None
         self.system_prompt: str = ""
 
-        if therapy_type in ["MI", "CBT"]:
-            self.profile = StudentProfileLoader.load_profile(therapy_type, student_index)
-            self.system_prompt = self.profile.prompt_content + prompt_addon
-            print(f"✓ Student Profile Loaded: {self.profile.name}")
-        else:
-            print(f"⚠ Therapy type '{therapy_type}' - no profile loaded")
-            self.system_prompt = prompt_addon
+        self.profile = StudentProfileLoader.load_profile('MI', student_index)
+        self.system_prompt = self.profile.prompt_content + prompt_addon
+        print(f"✓ Student Profile Loaded: {self.profile.name}")
 
     def get_response(self, conversation: MessageList) -> str:
         """
@@ -239,13 +212,11 @@ class VirtualStudent:
         if not self.profile:
             return {
                 "loaded": False,
-                "therapy_type": self.therapy_type
             }
 
         return {
             "loaded": True,
             "name": self.profile.name,
-            "therapy_type": self.profile.therapy_type,
             "student_index": self.student_index,
             "model": self.model,
             "temperature": self.temperature
@@ -266,8 +237,8 @@ class VirtualStudent:
     def __repr__(self) -> str:
         """String representation of the virtual student."""
         if self.profile:
-            return f"VirtualStudent(type={self.therapy_type}, name={self.profile.name})"
-        return f"VirtualStudent(type={self.therapy_type}, no_profile)"
+            return f"VirtualStudent(name={self.profile.name})"
+        return f"VirtualStudent(no_profile)"
 
 
 # Example usage
@@ -276,7 +247,6 @@ if __name__ == "__main__":
     key = load_openai_api_key()
     student = VirtualStudent(
         api_key=key,
-        therapy_type="CBT",
         student_index=1
     )
 

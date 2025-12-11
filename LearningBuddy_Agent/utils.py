@@ -15,14 +15,11 @@ from LearningBuddy import LearningBuddy
 class FileManager:
     """Handles all file I/O operations for LearningBuddy."""
 
-    def __init__(self, mode: int):
+    def __init__(self):
         """
-        Initialize FileManager with the current mode.
-
-        Args:
-            mode: One of STACER_MODE, MI_MODE, or CBT_MODE
+        Initialize FileManager
         """
-        self.mode = mode
+        pass
 
     def read_file(self, filepath: str) -> str:
         """
@@ -60,7 +57,7 @@ class FileManager:
 
     def load_random_case_profile(self, directory: str = 'Patient_Profiles') -> str:
         """
-        Load a random patient profile from the appropriate mode directory.
+        Load a random patient profile from the appropriate directory.
 
         Args:
             directory: Base directory containing patient profiles
@@ -71,12 +68,8 @@ class FileManager:
         Raises:
             FileNotFoundError: If no profiles found in directory
         """
-        # Select Patients available in the current mode
-        if self.mode == LearningBuddy.STACER_MODE or self.mode == LearningBuddy.CBT_MODE:
-            directory += "/STACER"
-        elif self.mode == LearningBuddy.MI_MODE:
-            directory += "/MI"
-        # Add more modes ...
+        # Select Patients available
+        directory += "/MI"
 
         files = [f for f in os.listdir(directory)]
         if not files:
@@ -105,11 +98,10 @@ class FileManager:
     def save_session_data(
             self,
             case_study: str,
-            stacer: str,
+            mi: str,
             detailed_feedback: str,
             transcript: str,
             presentation: str,
-            mode: int,
             base_dir: str = "Saved_Sessions"
     ) -> str:
         """
@@ -117,11 +109,10 @@ class FileManager:
 
         Args:
             case_study: Patient case study content
-            stacer: Completed STACER/evaluation form
+            mi: Completed MI evaluation form
             detailed_feedback: Detailed feedback text
             transcript: Formatted interview transcript
             presentation: Formatted presentation transcript
-            mode: Current mode (STACER_MODE, MI_MODE, or CBT_MODE)
             base_dir: Base directory for saving sessions
 
         Returns:
@@ -135,32 +126,13 @@ class FileManager:
         folder_name = os.path.join(base_dir, f"session_export_{timestamp}")
         os.makedirs(folder_name, exist_ok=True)
 
-        # Define files to save based on mode
-        if mode == 1:  # STACER_MODE
-            files = {
-                "case_study.txt": case_study,
-                "cod_stacer.txt": stacer,
-                "detailed_feedback.txt": detailed_feedback,
-                "interview_transcript.txt": transcript,
-                "presentation_transcript.txt": presentation,
-            }
-        elif mode == 2:  # MI_MODE
-            files = {
-                "case_study.txt": case_study,
-                "MI_EVAL.txt": stacer,
-                "detailed_feedback.txt": detailed_feedback,
-                "interview_transcript.txt": transcript
-            }
-        elif mode == 3:  # CBT_MODE
-            files = {
-                "case_study.txt": case_study,
-                "CBT_EVAL.txt": stacer,
-                "detailed_feedback.txt": detailed_feedback,
-                "interview_transcript.txt": transcript,
-                "presentation_transcript.txt": presentation,
-            }
-        else:
-            raise ValueError(f"Invalid mode: {mode}")
+        # Define files to save 
+        files = {
+            "case_study.txt": case_study,
+            "MI_EVAL.txt": mi,
+            "detailed_feedback.txt": detailed_feedback,
+            "interview_transcript.txt": transcript
+        }
 
         # Save each file
         for filename, content in files.items():
@@ -182,108 +154,65 @@ class FileManager:
 ###############################################################
 
 class PromptLoader:
-    """Handles loading of prompts and context files based on mode."""
+    """Handles loading of prompts and context files."""
 
-    def __init__(self, mode: int):
+    def __init__(self):
         """
-        Initialize PromptLoader with the current mode.
-
-        Args:
-            mode: One of STACER_MODE, MI_MODE, or CBT_MODE
+        Initialize PromptLoader.
         """
-        self.mode = mode
-        self.file_manager = FileManager(mode)
+        self.file_manager = FileManager()
 
-        # Define prompt paths for each mode
+        # Define prompt paths
         self.prompt_paths = {
-            1: {  # STACER_MODE
-                'Clinical Summary': 'Prompts/STACER/clinical_summary_prompt.txt',
-                'Virtual Patient': 'Prompts/STACER/virtual_patient_prompt.txt',
-                'Verification': 'Prompts/STACER/patient_profile_verification_prompt.txt',
-                'Feedback': 'Prompts/STACER/feedback_agent_prompt.txt',
-                'STACER Prompt': 'Prompts/STACER/STACER_form_prompt.txt',
-                'Virtual Evaluator': 'Prompts/STACER/virtual_evaluator_prompt.txt',
-            },
-            2: {  # MI_MODE
                 'Clinical Summary': 'Prompts/MI/clinical_summary_prompt.txt',
                 'Virtual Patient': 'Prompts/MI/virtual_patient_prompt.txt',
                 'Verification': 'Prompts/MI/patient_profile_verification_prompt.txt',
                 'Feedback': 'Prompts/MI/feedback_agent_prompt.txt',
-                'STACER Prompt': 'Prompts/MI/MI_form_prompt.txt',
+                'MI Prompt': 'Prompts/MI/MI_form_prompt.txt',
                 'Virtual Evaluator': 'Prompts/MI/virtual_evaluator_prompt.txt',
-            },
-            3: {  # CBT_MODE
-                'Clinical Summary': 'Prompts/CBT/clinical_summary_prompt.txt',
-                'Virtual Patient': 'Prompts/CBT/virtual_patient_prompt.txt',
-                'Verification': 'Prompts/CBT/patient_profile_verification_prompt.txt',
-                'Feedback': 'Prompts/CBT/feedback_agent_prompt.txt',
-                'STACER Prompt': 'Prompts/CBT/CBT_form_prompt.txt',
-                'Virtual Evaluator': 'Prompts/CBT/virtual_evaluator_prompt.txt',
-            }
         }
 
-        # Define context paths for each mode
+        # Define context paths
         self.context_paths = {
-            1: {  # STACER_MODE
-                'Feedback Criteria': 'Context/STACER/feedback_criteria.txt',
-                'Evaluation Form': 'Context/STACER/COD_STACER.txt',
-            },
-            2: {  # MI_MODE
-                'Feedback Criteria': 'Context/MI/feedback_criteria_MI_5point.txt',
-                'Evaluation Form': 'Context/MI/MI_EVAL.txt',
-            },
-            3: {  # CBT_MODE
-                'Feedback Criteria': 'Context/CBT/feedback_criteria_CBT.txt',
-                'Evaluation Form': 'Context/CBT/CBT_EVAL.txt',
-            }
+            'Feedback Criteria': 'Context/MI/feedback_criteria_MI_5point.txt',
+            'Evaluation Form': 'Context/MI/MI_EVAL.txt',
         }
 
     def load_prompt(self, prompt_name: str) -> str:
         """
-        Load a prompt file based on current mode.
+        Load a prompt file
 
         Args:
             prompt_name: Name of the prompt to load (e.g., 'Clinical Summary')
 
         Returns:
             Prompt content as string
-
-        Raises:
-            FileNotFoundError: If mode or prompt name is invalid
         """
-        if self.mode not in self.prompt_paths:
-            raise FileNotFoundError(f"Invalid mode: {self.mode}")
-
-        if prompt_name not in self.prompt_paths[self.mode]:
+        if prompt_name not in self.prompt_paths:
             raise FileNotFoundError(
-                f"Invalid prompt name for mode {self.mode}: {prompt_name}"
+                f"Invalid prompt name for: {prompt_name}"
             )
 
-        filepath = self.prompt_paths[self.mode][prompt_name]
+        filepath = self.prompt_paths[prompt_name]
         return self.file_manager.read_file(filepath)
 
     def load_context(self, context_name: str) -> str:
         """
-        Load a context file based on current mode.
+        Load a context file
 
         Args:
             context_name: Name of the context to load (e.g., 'Feedback Criteria')
 
         Returns:
             Context content as string
-
-        Raises:
-            FileNotFoundError: If mode or context name is invalid
         """
-        if self.mode not in self.context_paths:
-            raise FileNotFoundError(f"Invalid mode: {self.mode}")
 
-        if context_name not in self.context_paths[self.mode]:
+        if context_name not in self.context_paths:
             raise FileNotFoundError(
-                f"Invalid context name for mode {self.mode}: {context_name}"
+                f"Invalid context name for: {context_name}"
             )
 
-        filepath = self.context_paths[self.mode][context_name]
+        filepath = self.context_paths[context_name]
         return self.file_manager.read_file(filepath)
 
 

@@ -23,15 +23,6 @@ logging.basicConfig(
     ]
 )
 
-###############################################################
-###                  Mode Constants                         ###
-###############################################################
-
-# Mode definitions
-STACER_MODE = 1
-MI_MODE = 2
-CBT_MODE = 3
-
 
 ###############################################################
 ###              Main LearningBuddy Class                   ###
@@ -44,33 +35,29 @@ class LearningBuddy:
     Coordinates four main workflows:
     1. Initialization: Setup session and patient profile
     2. Interview: Virtual patient conversation
-    3. Feedback: Generate evaluation and STACER form
+    3. Feedback: Generate evaluation and MI form
     4. Evaluator: Q&A about evaluation
     """
 
-    def __init__(self, api_key: str, mode: int = STACER_MODE):
+    def __init__(self, api_key: str):
         """
-        Initialize LearningBuddy with API keys and mode.
+        Initialize LearningBuddy with API keys.
 
         Args:
             api_key: OpenAI API key
-            mode: MI_MODE
         """
         self.api_key = SecretStr(api_key)
-        self.mode = mode
         self.current_state = None
 
         # Initialize utilities
-        self.file_manager = FileManager(mode)
-        self.prompt_loader = PromptLoader(mode)
+        self.file_manager = FileManager()
+        self.prompt_loader = PromptLoader()
 
         # Initialize LLM clients
         self.llm_clients = self._initialize_llm_clients()
 
         # Initialize workflows
         self.workflows = self._initialize_workflows()
-
-        logging.info(f"LearningBuddy initialized in mode {mode}.")
 
     def _initialize_llm_clients(self) -> Dict:
         """
@@ -129,7 +116,6 @@ class LearningBuddy:
                 llm_virtual_evaluator=self.llm_clients['virtual_evaluator'],
                 prompt_loader=self.prompt_loader,
                 file_manager=self.file_manager,
-                mode=self.mode
             ),
             'evaluator': EvaluatorWorkflow(
                 llm_virtual_evaluator=self.llm_clients['virtual_evaluator']
@@ -143,7 +129,8 @@ class LearningBuddy:
     def start_session(
             self,
             case_study: Optional[str] = None,
-            selected_profile: Optional[str] = None
+            selected_profile: Optional[str] = None,
+            session_metadata: Optional[dict] = None
     ) -> LBState:
         """
         Start a new session using initialization workflow.
@@ -151,6 +138,8 @@ class LearningBuddy:
         Args:
             case_study: Pre-loaded case study content (optional)
             selected_profile: Path to specific patient profile (optional)
+            session_metadata: Additional metadata for folder naming (optional)
+                             Expected keys: 'patient_number', 'student_type'
 
         Returns:
             Initial state after running initialization workflow
@@ -162,7 +151,18 @@ class LearningBuddy:
 
         # Generate session metadata
         now = datetime.now()
-        session_id = f"session_{now.strftime('%Y%m%d_%H%M%S')}"
+        timestamp = now.strftime('%Y%m%d_%H%M%S')
+
+        # Build session_id with metadata
+        session_id_parts = [f"session_{timestamp}"]
+
+        if session_metadata:
+            if 'patient_number' in session_metadata:
+                session_id_parts.append(f"patient_{session_metadata['patient_number']}")
+            if 'student_type' in session_metadata:
+                session_id_parts.append(session_metadata['student_type'])
+
+        session_id = "_".join(session_id_parts)
 
         # Build initial state
         initial_state: LBState = {
@@ -185,7 +185,9 @@ class LearningBuddy:
                 "session_id": session_id,
                 "start_time": now.isoformat(),
                 "end_time": None,
-                "selected_profile": selected_profile
+                "selected_profile": selected_profile,
+                "patient_number": session_metadata.get('patient_number') if session_metadata else None,
+                "student_type": session_metadata.get('student_type') if session_metadata else None
             },
 
             # Error handling
@@ -417,7 +419,7 @@ class LearningBuddy:
             "diagnosis_summary": patient_ctx.get("diagnosis_summary") if patient_ctx else None,
             "interview_messages": self.current_state.get("interview_messages", []),
             "presentation": self.current_state.get("presentation", []),
-            "cod_stacer": self.current_state.get("cod_stacer"),
+            "mi": self.current_state.get("mi"),
             "formatted_transcript": self.current_state.get("formatted_transcript"),
             "formatted_presentation": self.current_state.get("formatted_presentation"),
             "export_folder": self.current_state.get("export_folder"),
