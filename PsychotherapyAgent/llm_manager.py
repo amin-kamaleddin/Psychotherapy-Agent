@@ -29,34 +29,34 @@ class LLMManager:
         
         # Core LLMs
         self.llm_mini_verification = ChatOpenAI(
-            model="gpt-4.1-mini", 
+            model="gpt-5-mini", 
             temperature=0, 
             api_key=self.api_key
         )
         self.llm_mini_summary = ChatOpenAI(
-            model="gpt-4.1-mini", 
+            model="gpt-5-mini", 
             temperature=0.2, 
             api_key=self.api_key
         )
         self.llm_mini_virtualPatient = ChatOpenAI(
-            model="gpt-4.1-mini", 
+            model="gpt-5-mini", 
             temperature=1, 
             api_key=self.api_key
         )
         self.llm_feedback = ChatOpenAI(
-            model="gpt-4.1-mini", 
+            model="gpt-5-mini", 
             temperature=0.1, 
             api_key=self.api_key
         )
         self.llm_mini_virtualEvaluator = ChatOpenAI(
-            model="gpt-4.1-mini", 
+            model="gpt-5-mini", 
             temperature=0.7, 
             api_key=self.api_key
         )
         
         # Therapist agents (for multi-agent mode)
         self.llm_therapist_proposer = ChatOpenAI(
-            model="gpt-4.1-mini", 
+            model="gpt-5-mini", 
             temperature=0.8, 
             api_key=self.api_key
         )
