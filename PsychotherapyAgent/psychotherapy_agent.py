@@ -44,11 +44,6 @@ class PsychotherapyAgent:
     4. Evaluator: Q&A about evaluation
     """
     
-    # Mode constants
-    STACER_MODE = "STACER"
-    MI_MODE = "MI"
-    CBT_MODE = "CBT"
-    
     def __init__(self, api_key: str, use_multi_agent: bool = True):
         """
         Initialize PsychotherapyAgent.
