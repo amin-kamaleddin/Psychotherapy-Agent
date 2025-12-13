@@ -103,17 +103,18 @@ class MessageCleaner:
     @staticmethod
     def clean_conversation(messages: MessageList, filter_patient_profile: bool = False) -> MessageList:
         """
-        Remove system messages and large prompt content from conversation history.
+        Clean and filter conversation messages based on patient profile access requirements.
 
         Args:
             messages: List of LangChain message objects
-            filter_patient_profile: If True, filters out ALL system messages containing patient profile
-                                   (patient profile = content from .txt files in Patient_Profiles/MI/)
-                                   Used for simple agent (index 0) that should NOT see patient profiles.
-                                   If False, keeps patient profile system messages (for complex agent)
+            filter_patient_profile: If True, filters out ALL system messages (used for simple agent index 0)
+                                   If False, KEEPS system messages (used for complex agent index 1)
+                                   System messages contain patient profile content from Patient_Profiles/MI/*.txt files
 
         Returns:
-            Filtered list of messages
+            Filtered list of messages:
+            - If filter_patient_profile=True: Only HumanMessage/AIMessage (no system messages)
+            - If filter_patient_profile=False: All messages including system messages with patient profile
         """
         cleaned = []
 
