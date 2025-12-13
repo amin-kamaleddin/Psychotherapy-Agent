@@ -23,11 +23,6 @@ from utils.api_key_loader import load_openai_api_key
 # =============================
 THERAPIST_CSV_PATH = "Therapist_Prompts/therapist_prompts.csv"
 PATIENT_DIR = "Patient_Profiles/MI/"
-NUM_PATIENTS = 1
-
-# THERAPIST_NUM maps to mode: 0=simple, 1=complex, 2=multi-agent
-# This maps to CSV indices: 0=row 2 (Simple), 1=row 3 (Complex), 2=row 4 (Proposer), 3=row 5 (Judge)
-THERAPIST_NUM = 0  # Default to simple mode
 
 API_KEY = load_openai_api_key()
 
@@ -536,9 +531,9 @@ if __name__ == "__main__":
     parser.add_argument("--mode", type=str, choices=["simple", "complex", "multi_agent"],
                         help="Therapist mode: simple (simple prompt), complex (complex MI prompt), or multi_agent")
     parser.add_argument("--simple-therapist", type=int, default=None,
-                        help="Therapist profile index for simple mode (default: THERAPIST_NUM)")
+                        help="Therapist profile index for simple mode")
     parser.add_argument("--complex-therapist", type=int, default=None,
-                        help="Therapist profile index for complex mode (default: THERAPIST_NUM)")
+                        help="Therapist profile index for complex mode")
     parser.add_argument("--compare", action="store_true",
                         help="Run all three modes (simple, complex, multi-agent) and compare results")
 
