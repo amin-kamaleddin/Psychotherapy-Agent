@@ -101,12 +101,16 @@ class MessageCleaner:
     """Utility for cleaning and filtering message histories."""
 
     @staticmethod
-    def clean_conversation(messages: MessageList) -> MessageList:
+    def clean_conversation(messages: MessageList, filter_patient_profile: bool = False) -> MessageList:
         """
         Remove system messages and large prompt content from conversation history.
 
         Args:
             messages: List of LangChain message objects
+            filter_patient_profile: If True, filters out ALL system messages containing patient profile
+                                   (patient profile = content from .txt files in Patient_Profiles/MI/)
+                                   Used for simple agent (index 0) that should NOT see patient profiles.
+                                   If False, keeps patient profile system messages (for complex agent)
 
         Returns:
             Filtered list of messages
@@ -114,8 +118,17 @@ class MessageCleaner:
         cleaned = []
 
         for msg in messages:
-            # Skip system messages
+            # Handle system messages
             if isinstance(msg, SystemMessage):
+                if filter_patient_profile:
+                    # Simple agent (index 0): Filter out ALL system messages
+                    # System messages in interview_messages contain patient profile content
+                    # (from Patient_Profiles/MI/*.txt files appended to virtual patient prompt)
+                    # All files from Patient_Profiles/MI/ are patient profiles
+                    continue  # Skip all system messages for simple agent
+                else:
+                    # Complex agent (index 1): Keep system messages so they can see patient profile info
+                    cleaned.append(msg)
                 continue
 
             # Skip messages containing large prompts/case files
@@ -140,8 +153,8 @@ class VirtualTherapist:
             api_key: str,
             therapist_index: int = 0,
             prompt_addon: str = "",
-            model: str = "gpt-4o-mini",
-            temperature: float = 0.5
+            model: str = "gpt-4.1-mini",
+            temperature: float = 0.8
     ):
         """
         Initialize a virtual therapist.
@@ -150,8 +163,8 @@ class VirtualTherapist:
             api_key: OpenAI API key
             therapist_index: Index of therapist profile to use (default: 0)
             prompt_addon: Additional text to append to therapist prompt
-            model: OpenAI model to use
-            temperature: LLM temperature for response generation
+            model: OpenAI model to use (default: "gpt-4.1-mini" to match proposer)
+            temperature: LLM temperature for response generation (default: 0.8 to match proposer)
         """
         self.api_key = SecretStr(api_key)
         self.therapist_index = therapist_index
@@ -178,7 +191,9 @@ class VirtualTherapist:
         Generate therapist response based on conversation history.
 
         Args:
-            conversation: List of LangChain message objects representing the conversation
+            conversation: List of LangChain message objects representing the conversation.
+                         This includes SystemMessages that may contain patient profile content
+                         (the .txt file content from Patient_Profiles/MI/ folder).
 
         Returns:
             Therapist's response as a string
@@ -186,14 +201,27 @@ class VirtualTherapist:
         Raises:
             Exception: If LLM invocation fails
         """
-        # Clean the conversation (remove system messages, large prompts)
-        cleaned_conversation = MessageCleaner.clean_conversation(conversation)
-
-        # Build full message list with system prompt
-        messages = [
-            SystemMessage(content=self.system_prompt),
-            *cleaned_conversation
-        ]
+        # For simple agent (index 0), filter out patient profile (case study from .txt files)
+        # Complex agent (index 1) should have explicit access to patient profile like proposer
+        if self.therapist_index == 0:
+            # Simple agent: Filter out patient profile system messages
+            filter_patient_profile = True
+            cleaned_conversation = MessageCleaner.clean_conversation(
+                conversation, 
+                filter_patient_profile=filter_patient_profile
+            )
+            # Build full message list with system prompt
+            messages = [
+                SystemMessage(content=self.system_prompt),
+                *cleaned_conversation
+            ]
+        else:
+            # Complex agent (index 1): Use conversation directly like proposer
+            # This explicitly includes patient profile SystemMessage from interview_messages
+            messages = [
+                SystemMessage(content=self.system_prompt),
+                *conversation  # Directly includes patient profile SystemMessage
+            ]
 
         # Generate response
         try:

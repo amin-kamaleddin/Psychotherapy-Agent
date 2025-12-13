@@ -94,7 +94,7 @@ def run_test(patient_profile_path, therapist_profile_number,
         lb.set_multi_agent_therapist_profiles(proposer_index, judge_index)
         logging.info(f"Multi-agent mode: Proposer index {proposer_index}, Judge index {judge_index}")
     
-    # Initialize VirtualTherapist for single-agent modes or as draft generator for multi-agent
+    # Initialize VirtualTherapist only for single-agent modes (simple/complex)
     therapist = None
     if therapist_mode in ["simple", "complex"]:
         # Single-agent modes: use VirtualTherapist directly
@@ -103,10 +103,6 @@ def run_test(patient_profile_path, therapist_profile_number,
             therapist_index=therapist_profile_number,
             prompt_addon=add_on
         )
-    elif therapist_mode == "multi_agent":
-        # Multi-agent mode: VirtualTherapist generates draft, then proposer/judge refine it
-        # We'll initialize it later when needed
-        pass
 
     # Load patient profile and start session with metadata
     case = lb.load_patient_profile(patient_profile_path)
@@ -115,23 +111,37 @@ def run_test(patient_profile_path, therapist_profile_number,
     session_result = lb.start_session(case_study=case, session_metadata=session_metadata)
 
     # Run 10 exchanges between therapist and patient
-    for _ in range(10):
+    for exchange_num in range(10):
         current_state = lb.get_session_state()
         interview_messages = current_state.get("interview_messages", [])
         
         if therapist_mode == "multi_agent":
-            # Multi-agent mode: Use VirtualTherapist to generate a draft response,
-            # then LearningBuddy's proposer/judge will refine it
-            if therapist is None:
-                # Initialize therapist just for generating draft responses
-                therapist = VirtualTherapist.VirtualTherapist(
-                    api_key_input,
-                    therapist_index=therapist_profile_number,
-                    prompt_addon=add_on
-                )
-            therapist_draft = therapist.get_response(interview_messages)
-            # Send draft to LearningBuddy, which will use proposer/judge to refine it
-            session_result = lb.send_message(therapist_draft)
+            # Multi-agent mode: LearningBuddy's proposer/judge system generates therapist response
+            # The proposer generates 3 candidate responses based on conversation history,
+            # judge selects best one, then patient responds
+            # We use the message_workflow directly to generate therapist response
+            
+            # Access the message workflow's proposer and judge methods
+            message_workflow = lb.message_workflow
+            
+            # Create state for proposer/judge
+            temp_state = {"interview_messages": interview_messages}
+            
+            # Generate 3 candidate therapist responses using proposer
+            proposer_result = message_workflow._propose_therapist_responses(temp_state)
+            candidates = proposer_result.get("therapist_candidates", [])
+            
+            if candidates:
+                # Use judge to select best response
+                judge_state = {**temp_state, "therapist_candidates": candidates}
+                judge_result = message_workflow._judge_therapist_responses(judge_state)
+                selected_response = judge_result.get("selected_therapist_response", candidates[0])
+            else:
+                # Fallback if proposer fails
+                selected_response = "How are you feeling today?" if exchange_num == 0 else "Can you tell me more about that?"
+            
+            # Send the selected therapist response to trigger patient response
+            session_result = lb.send_message(selected_response)
         else:
             # Single-agent modes (simple/complex): VirtualTherapist generates response, send directly
             therapist_utterance = therapist.get_response(interview_messages)
