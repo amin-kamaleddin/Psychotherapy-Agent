@@ -102,19 +102,24 @@ class PromptManager:
             therapist_row = df.iloc[therapist_index]
             csv_prompt = therapist_row["Prompt"]
             
-            # For simple (0) and complex (1) agents, combine with base prompt
-            # For proposer (2) and judge (3), use CSV prompt as-is (they are standalone)
-            if therapist_index in [0, 1]:
+            # For simple (0), complex (1), and proposer (2) agents, combine with base prompt
+            # For judge (3), use CSV prompt as-is (standalone)
+            if therapist_index in [0, 1, 2]:
                 base_prompt = self.load_prompt('Virtual Therapist')
                 return base_prompt + "\n\n" + csv_prompt
             else:
-                # Proposer (2) and Judge (3) have standalone prompts
+                # Judge (3) has standalone prompt
                 return csv_prompt
         except Exception as e:
             logging.error(f"Error loading therapist prompt from CSV: {str(e)}")
             # Fallback prompts based on agent type
             if therapist_index == 2:  # Proposer
-                return """You are a therapist response proposer agent. Your role is to generate exactly 3 different candidate therapist responses based on the conversation history. Each response should be appropriate for the therapeutic context and follow motivational interviewing principles. Make sure each response is distinct and offers a different therapeutic approach or phrasing. Format your response as: RESPONSE 1: [first response] RESPONSE 2: [second response] RESPONSE 3: [third response]"""
+                try:
+                    base_prompt = self.load_prompt('Virtual Therapist')
+                    proposer_prompt = """You are a therapist response proposer agent. Your role is to generate exactly 3 different candidate therapist responses based on the conversation history. Each response should be appropriate for the therapeutic context and follow motivational interviewing principles. Make sure each response is distinct and offers a different therapeutic approach or phrasing. Format your response as: RESPONSE 1: [first response] RESPONSE 2: [second response] RESPONSE 3: [third response]"""
+                    return base_prompt + "\n\n" + proposer_prompt
+                except:
+                    return """You are a therapist response proposer agent. Your role is to generate exactly 3 different candidate therapist responses based on the conversation history. Each response should be appropriate for the therapeutic context and follow motivational interviewing principles. Make sure each response is distinct and offers a different therapeutic approach or phrasing. Format your response as: RESPONSE 1: [first response] RESPONSE 2: [second response] RESPONSE 3: [third response]"""
             elif therapist_index == 3:  # Judge
                 return """You are an expert judge evaluating therapist responses in a motivational interviewing context. Your task is to select the BEST response from 3 candidate therapist responses based on: 1. Appropriateness for the therapeutic context, 2. Adherence to motivational interviewing principles, 3. Empathy and rapport building, 4. Clinical effectiveness, 5. Natural flow in the conversation. Review the conversation history and the 3 candidate responses. Select the response number (1, 2, or 3) that is most effective and appropriate. Respond with ONLY the number (1, 2, or 3) followed by a brief one-sentence explanation."""
             else:  # Simple or Complex (0 or 1)
