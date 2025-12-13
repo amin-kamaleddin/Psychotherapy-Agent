@@ -1,5 +1,5 @@
 """
-Workflows for LearningBuddy Modular.
+Workflows for PsychotherapyAgent.
 
 Contains all workflow classes for session management.
 """

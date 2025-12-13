@@ -1,4 +1,4 @@
-# LearningBuddy Comparison Guide: Simple vs Complex vs Multi-Agent System
+# PsychotherapyAgent Comparison Guide: Simple vs Complex vs Multi-Agent System
 
 This guide explains how to compare the performance between three different therapist configurations:
 1. Simple prompt single-agent
@@ -27,16 +27,16 @@ The system now supports three modes:
 
 ## Implementation Details
 
-### LearningBuddy Changes
+### PsychotherapyAgent Changes
 
-The `LearningBuddy` class in `LearningBuddy.py` accepts a `use_multi_agent` parameter:
+The `PsychotherapyAgent` class in `psychotherapy_agent.py` accepts a `use_multi_agent` parameter:
 
 ```python
 # Single-agent mode (simple or complex)
-lb = LearningBuddy(api_key, use_multi_agent=False)
+agent = PsychotherapyAgent(api_key, use_multi_agent=False)
 
 # Multi-agent mode
-lb = LearningBuddy(api_key, use_multi_agent=True)
+agent = PsychotherapyAgent(api_key, use_multi_agent=True)
 ```
 
 ### Evaluation Script Changes
@@ -173,7 +173,7 @@ Differences:
 
 ## Troubleshooting
 
-- **Import errors**: Make sure you're using `LearningBuddy.py` (not `LearningBuddy_Agent`)
+- **Import errors**: Make sure you're using `PsychotherapyAgent` (from `PsychotherapyAgent` package)
 - **Missing feedback files**: Check that sessions completed successfully
 - **Score extraction issues**: Verify that feedback files contain properly formatted scores
 

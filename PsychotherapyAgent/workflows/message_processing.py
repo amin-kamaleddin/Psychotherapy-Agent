@@ -1,5 +1,5 @@
 """
-Message Processing Workflow for LearningBuddy Modular.
+Message Processing Workflow for PsychotherapyAgent.
 
 Handles message processing with optional multi-agent therapist system
 (proposer + judge agents).

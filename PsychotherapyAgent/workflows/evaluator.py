@@ -1,5 +1,5 @@
 """
-Evaluator Workflow for LearningBuddy Modular.
+Evaluator Workflow for PsychotherapyAgent.
 
 Handles evaluator chatbot interactions for Q&A about feedback.
 """

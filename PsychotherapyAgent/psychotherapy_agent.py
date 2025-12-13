@@ -1,5 +1,5 @@
 """
-Main LearningBuddy Orchestrator.
+Main PsychotherapyAgent Orchestrator.
 
 Coordinates all workflows and provides the public API.
 """
@@ -27,15 +27,15 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("learningbuddy.log"),
+        logging.FileHandler("psychotherapy_agent.log"),
         logging.StreamHandler()
     ]
 )
 
 
-class LearningBuddy:
+class PsychotherapyAgent:
     """
-    Main orchestrator class for LearningBuddy virtual patient simulation.
+    Main orchestrator class for PsychotherapyAgent virtual patient simulation.
     
     Coordinates four main workflows:
     1. Initialization: Setup session and patient profile
@@ -44,9 +44,14 @@ class LearningBuddy:
     4. Evaluator: Q&A about evaluation
     """
     
+    # Mode constants
+    STACER_MODE = "STACER"
+    MI_MODE = "MI"
+    CBT_MODE = "CBT"
+    
     def __init__(self, api_key: str, use_multi_agent: bool = True):
         """
-        Initialize LearningBuddy.
+        Initialize PsychotherapyAgent.
         
         Args:
             api_key: OpenAI API key
@@ -89,7 +94,7 @@ class LearningBuddy:
         
         self.current_state = None
         mode_str = "multi-agent" if use_multi_agent else "single-agent (original)"
-        logging.info(f"LearningBuddy initialized with {mode_str} mode.")
+        logging.info(f"PsychotherapyAgent initialized with {mode_str} mode.")
     
     def set_multi_agent_therapist_profiles(self, proposer_index: int, judge_index: int):
         """
@@ -126,7 +131,7 @@ class LearningBuddy:
         Raises:
             Exception: If initialization workflow fails
         """
-        logging.info("Starting new LearningBuddy session...")
+        logging.info("Starting new PsychotherapyAgent session...")
         
         # Generate session metadata
         now = datetime.now()

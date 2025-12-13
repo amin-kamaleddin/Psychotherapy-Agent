@@ -1,5 +1,5 @@
 """
-LLM Manager for LearningBuddy Modular.
+LLM Manager for PsychotherapyAgent.
 
 Handles initialization and management of all ChatOpenAI instances.
 """
@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 
 class LLMManager:
-    """Manages all LLM instances for LearningBuddy."""
+    """Manages all LLM instances for PsychotherapyAgent."""
     
     def __init__(self, api_key: SecretStr):
         """

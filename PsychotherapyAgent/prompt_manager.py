@@ -1,5 +1,5 @@
 """
-Prompt Manager for LearningBuddy Modular.
+Prompt Manager for PsychotherapyAgent.
 
 Handles loading of prompts from files and CSV.
 """

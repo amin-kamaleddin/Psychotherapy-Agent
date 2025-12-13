@@ -1,5 +1,5 @@
 """
-Utility classes for LearningBuddy Modular.
+Utility classes for PsychotherapyAgent.
 
 Provides file management and prompt loading functionality.
 """
@@ -16,7 +16,7 @@ import logging
 ###############################################################
 
 class FileManager:
-    """Handles all file I/O operations for LearningBuddy."""
+    """Handles all file I/O operations for PsychotherapyAgent."""
 
     def __init__(self):
         """Initialize FileManager"""

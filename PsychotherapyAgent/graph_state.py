@@ -1,5 +1,5 @@
 """
-Graph State Definitions for LearningBuddy Modular.
+Graph State Definitions for PsychotherapyAgent.
 
 Defines the TypedDict structures for LangGraph state management.
 """
@@ -18,7 +18,7 @@ class PatientContext(TypedDict, total=False):
 
 class LBState(TypedDict, total=False):
     """
-    LangGraph state schema for LearningBuddy.
+    LangGraph state schema for PsychotherapyAgent.
     
     All fields are optional to allow incremental state updates.
     """

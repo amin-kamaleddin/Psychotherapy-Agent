@@ -1,5 +1,5 @@
 """
-Feedback Workflow for LearningBuddy Modular.
+Feedback Workflow for PsychotherapyAgent.
 
 Handles feedback generation, MI form filling, and session completion.
 """

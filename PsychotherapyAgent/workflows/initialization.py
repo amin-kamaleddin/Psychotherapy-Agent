@@ -1,5 +1,5 @@
 """
-Initialization Workflow for LearningBuddy Modular.
+Initialization Workflow for PsychotherapyAgent.
 
 Handles session initialization: patient profile selection, verification,
 clinical summary generation, and roleplay setup.

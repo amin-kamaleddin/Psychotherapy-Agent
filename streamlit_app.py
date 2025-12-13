@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime
 import time
-from LearningBuddy_Modular import LearningBuddy
+from PsychotherapyAgent import PsychotherapyAgent
 import base64
 import markdown2
 import uuid
@@ -390,9 +390,9 @@ if not st.session_state.get("api_key"):
 
     # Mode selection dropdown
     mode_options = {
-        "STACER Evaluation": LearningBuddy.STACER_MODE,
-        "Motivational Interviewing (MI) Evaluation": LearningBuddy.MI_MODE,
-        "Cognitive Behavioural Therapy (CBT) Evaluation": LearningBuddy.CBT_MODE
+        "STACER Evaluation": PsychotherapyAgent.STACER_MODE,
+        "Motivational Interviewing (MI) Evaluation": PsychotherapyAgent.MI_MODE,
+        "Cognitive Behavioural Therapy (CBT) Evaluation": PsychotherapyAgent.CBT_MODE
         # APPEND MORE OPTIONS HERE
     }
     selected_mode_label = st.sidebar.selectbox("Select Mode", list(mode_options.keys()))
@@ -405,13 +405,13 @@ if not st.session_state.get("api_key"):
                 st.session_state.mode = selected_mode
                 st.session_state.mode_label = selected_mode_label
                 st.session_state.available_profiles = get_available_patient_profiles(mode = st.session_state.mode)
-                st.session_state.learning_buddy = LearningBuddy(api_key_input)
+                st.session_state.learning_buddy = PsychotherapyAgent(api_key_input)
                 st.session_state.learning_buddy.mode = selected_mode
 
                 st.sidebar.success("✅ API keys set successfully!")
                 st.rerun()
             except Exception as e:
-                st.sidebar.error(f"❌ Error initializing LearningBuddy: {str(e)}")
+                st.sidebar.error(f"❌ Error initializing PsychotherapyAgent: {str(e)}")
         else:
             st.sidebar.error("❌ Please enter both API keys.")
 else:
@@ -447,11 +447,11 @@ if st.session_state.api_key:
     
     if selected_option != "Random":
         print("Selected option",selected_option)
-        if st.session_state.learning_buddy.mode == LearningBuddy.STACER_MODE:
+        if st.session_state.learning_buddy.mode == PsychotherapyAgent.STACER_MODE:
             st.session_state.selected_patient_profile = os.path.join('Patient_Profiles\STACER', selected_option)
-        elif st.session_state.learning_buddy.mode == LearningBuddy.MI_MODE:
+        elif st.session_state.learning_buddy.mode == PsychotherapyAgent.MI_MODE:
             st.session_state.selected_patient_profile = os.path.join('Patient_Profiles\MI', selected_option)
-        elif st.session_state.learning_buddy.mode == LearningBuddy.CBT_MODE:
+        elif st.session_state.learning_buddy.mode == PsychotherapyAgent.CBT_MODE:
             st.session_state.selected_patient_profile = os.path.join('Patient_Profiles\STACER', selected_option)
 
         # Show preview
@@ -466,21 +466,21 @@ if st.session_state.api_key:
 mode = selected_mode
 print(mode)
 if mode == None:
-    if st.session_state.learning_buddy.mode == LearningBuddy.STACER_MODE:
+    if st.session_state.learning_buddy.mode == PsychotherapyAgent.STACER_MODE:
         feature = st.sidebar.radio(
             "Navigate",
             ["💬 STACER Practice Session",],      # "📊 Session Analytics🎯", "Performance Review"
             index=0,
             disabled=st.session_state.processing_phase is not None
         )
-    elif st.session_state.learning_buddy.mode == LearningBuddy.MI_MODE:
+    elif st.session_state.learning_buddy.mode == PsychotherapyAgent.MI_MODE:
         feature = st.sidebar.radio(
             "Navigate",
             ["💬 MI Practice Session",],      # "📊 Session Analytics🎯", "Performance Review"
             index=0,
             disabled=st.session_state.processing_phase is not None
         )
-    elif st.session_state.learning_buddy.mode == LearningBuddy.CBT_MODE:
+    elif st.session_state.learning_buddy.mode == PsychotherapyAgent.CBT_MODE:
         feature = st.sidebar.radio(
             "Navigate",
             ["💬 CBT Practice Session",],      # "📊 Session Analytics🎯", "Performance Review"
@@ -488,21 +488,21 @@ if mode == None:
             disabled=st.session_state.processing_phase is not None
         )
 else:
-    if mode == LearningBuddy.STACER_MODE:
+    if mode == PsychotherapyAgent.STACER_MODE:
         feature = st.sidebar.radio(
             "Navigate",
             ["💬 STACER Practice Session",],      # "📊 Session Analytics🎯", "Performance Review"
             index=0,
             disabled=st.session_state.processing_phase is not None
         )
-    elif mode == LearningBuddy.MI_MODE:
+    elif mode == PsychotherapyAgent.MI_MODE:
         feature = st.sidebar.radio(
             "Navigate",
             ["💬 MI Practice Session",],      # "📊 Session Analytics🎯", "Performance Review"
             index=0,
             disabled=st.session_state.processing_phase is not None
         )
-    elif mode == LearningBuddy.CBT_MODE:
+    elif mode == PsychotherapyAgent.CBT_MODE:
         feature = st.sidebar.radio(
             "Navigate",
             ["💬 CBT Practice Session",],      # "📊 Session Analytics🎯", "Performance Review"
@@ -538,12 +538,12 @@ if st.session_state.session_data or st.session_state.processing_phase:
         else:
             st.sidebar.markdown(f'<span class="status-indicator status-complete"></span> **{phase_name}**', unsafe_allow_html=True)
 
-# Initialize LearningBuddy if needed
+# Initialize PsychotherapyAgent if needed
 if not st.session_state.learning_buddy and st.session_state.api_key:
     try:
-        st.session_state.learning_buddy = LearningBuddy(st.session_state.api_key)
+        st.session_state.learning_buddy = PsychotherapyAgent(st.session_state.api_key)
     except Exception as e:
-        st.error(f"❌ Error initializing LearningBuddy: {str(e)}")
+        st.error(f"❌ Error initializing PsychotherapyAgent: {str(e)}")
 
 # Main Content
 if feature == "💬 STACER Practice Session" or feature == "💬 MI Practice Session" or feature == "💬 CBT Practice Session":
@@ -557,7 +557,7 @@ if feature == "💬 STACER Practice Session" or feature == "💬 MI Practice Ses
         st.error("🔐 Please enter your OpenAI API key in the sidebar to continue.")
     
     elif not st.session_state.learning_buddy:
-        st.error("❌ LearningBuddy not initialized. Please check your API key.")
+        st.error("❌ PsychotherapyAgent not initialized. Please check your API key.")
     
     else:
         # Session Controls
@@ -805,17 +805,17 @@ if feature == "💬 STACER Practice Session" or feature == "💬 MI Practice Ses
             # --- Add Evaluator Welcome Message (only once) ---
             if 'evaluator_intro_shown' not in st.session_state:
                 mode = selected_mode
-                if mode == LearningBuddy.STACER_MODE:
+                if mode == PsychotherapyAgent.STACER_MODE:
                     st.session_state.chat_messages.append({
                         "role": "evaluator",
                         "content": "Hello and welcome to your simulated STACER evaluation. I will be evaluating your patient interviewing skills today. When you have finished speaking with the patient, press the 'End Interview' button. "
                     })
-                elif mode == LearningBuddy.MI_MODE:
+                elif mode == PsychotherapyAgent.MI_MODE:
                        st.session_state.chat_messages.append({
                         "role": "evaluator",
                         "content": "Hello and welcome to your simulated MI evaluation. I will be evaluating your motivational interviewing skills today. When you have finished speaking with the patient, press the 'End Interview' button. "
                     })
-                elif mode == LearningBuddy.CBT_MODE:
+                elif mode == PsychotherapyAgent.CBT_MODE:
                        st.session_state.chat_messages.append({
                         "role": "evaluator",
                         "content": "Hello and welcome to your simulated CBT evaluation. I will be evaluating your cognitive behavioural therapy skills today. When you have finished speaking with the patient, press the 'End Interview' button. "
@@ -1019,11 +1019,11 @@ if feature == "💬 STACER Practice Session" or feature == "💬 MI Practice Ses
             print(st.session_state.learning_buddy.mode)
             mode = st.session_state.learning_buddy.mode
             # Use tabs for Feedback and STACER/MI form
-            if mode == LearningBuddy.STACER_MODE:
+            if mode == PsychotherapyAgent.STACER_MODE:
                 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["💬 Evaluator Chat", "📝 COD STACER Form", " 📊 Detailed Feedback" , "🎤 Patient Interview Transcript", "🗣️ Case Presentation Transcript", "👤 Patient Profile"])
-            elif mode == LearningBuddy.MI_MODE: 
+            elif mode == PsychotherapyAgent.MI_MODE: 
                 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["💬 Evaluator Chat", "📝 MI Evaluation Form", " 📊 Detailed Feedback" , "🎤 Patient Interview Transcript", "🗣️ Case Presentation Transcript", "👤 Patient Profile"])
-            elif mode == LearningBuddy.CBT_MODE: 
+            elif mode == PsychotherapyAgent.CBT_MODE: 
                 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["💬 Evaluator Chat", "📝 CBT Evaluation Form", " 📊 Detailed Feedback" , "🎤 Patient Interview Transcript", "🗣️ Case Presentation Transcript", "👤 Patient Profile"])
             
             # Tab 1: Evaluator Chat
@@ -1142,15 +1142,15 @@ if feature == "💬 STACER Practice Session" or feature == "💬 MI Practice Ses
                                           extras=["tables", "fenced-code-blocks", "strike", "cuddled-lists"])
 
                 # Display with Streamlit
-                if mode == LearningBuddy.STACER_MODE:
+                if mode == PsychotherapyAgent.STACER_MODE:
                     st.markdown("### 📄 Completed COD STACER Evaluation Form")
                     st.info(
                         "This is a structured Core STACER form based on your most recent session. This form evaluates the expectations of PGY3 and PGY4 students.")
-                elif mode == LearningBuddy.MI_MODE:
+                elif mode == PsychotherapyAgent.MI_MODE:
                     st.markdown("### 📄 Completed MI Evaluation Form")
                     st.info(
                         "This is a structured Motivational Interviewing form based on your most recent session. This form evaluates the expectations of PGY3 and PGY4 students.")
-                elif mode == LearningBuddy.CBT_MODE:
+                elif mode == PsychotherapyAgent.CBT_MODE:
                     st.markdown("### 📄 Completed CBT Evaluation Form")
                     st.info(
                         "This is a structured Cognitive Bahavioural Therapy form based on your most recent session. This form evaluates the expectations of PGY3 and PGY4 students.")
@@ -1399,12 +1399,12 @@ elif feature == "📊 Session Analytics":
             duration = session_metadata.get('session_duration_minutes', 0)
             
             with st.expander(f"🔬 Chat Session {session_num} - {session['timestamp'].strftime('%Y-%m-%d %H:%M')} ({duration:.1f}m) - {profile_display}"):
-                if mode == LearningBuddy.STACER_MODE:
+                if mode == PsychotherapyAgent.STACER_MODE:
                     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["📋 Patient Data", "💬 Conversation", "📝 Feedback",  "📋 COD STACER", "📊 Metrics", "🔬 LangGraph Details"])
                 
-                elif mode ==LearningBuddy.MI_MODE:
+                elif mode == PsychotherapyAgent.MI_MODE:
                     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["📋 Patient Data", "💬 Conversation", "📝 Feedback",  "📋 Motivational Interviewing", "📊 Metrics", "🔬 LangGraph Details"])
-                elif mode ==LearningBuddy.CBT_MODE:
+                elif mode == PsychotherapyAgent.CBT_MODE:
                     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["📋 Patient Data", "💬 Conversation", "📝 Feedback",  "📋 Cognitive Behavioural Therapy", "📊 Metrics", "🔬 LangGraph Details"])
                 with tab1:
                     st.markdown("**Patient Profile (Verified):**")
@@ -1440,19 +1440,19 @@ elif feature == "📊 Session Analytics":
                 with tab4:
                     cod_stacer = langgraph_data.get('cod_stacer', '')
                     if cod_stacer:
-                        if mode == LearningBuddy.STACER_MODE:
+                        if mode == PsychotherapyAgent.STACER_MODE:
                             st.markdown("**COD Clinical Observation Document (STACER):**")
-                        elif mode == LearningBuddy.MI_MODE:
+                        elif mode == PsychotherapyAgent.MI_MODE:
                             st.markdown("**MI Observation Document (MI Evaluation Form):**")
-                        elif mode == LearningBuddy.CBT_MODE:
+                        elif mode == PsychotherapyAgent.CBT_MODE:
                             st.markdown("**CBT Observation Document (CBT Evaluation Form):**")
                         st.markdown(cod_stacer, unsafe_allow_html=True)
                     else:
-                        if mode == LearningBuddy.STACER_MODE:
+                        if mode == PsychotherapyAgent.STACER_MODE:
                             st.warning("No COD STACER data available for this session.")
-                        elif mode == LearningBuddy.MI_MODE:
+                        elif mode == PsychotherapyAgent.MI_MODE:
                             st.warning("No MI Evaluation data available for this session.")
-                        elif mode == LearningBuddy.CBT_MODE:
+                        elif mode == PsychotherapyAgent.CBT_MODE:
                             st.warning("No CBT Evaluation data available for this session.")
 
                 with tab5:

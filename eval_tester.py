@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-# Import LearningBuddy from modular version
-from LearningBuddy_Modular import LearningBuddy
+# Import PsychotherapyAgent from modular version
+from PsychotherapyAgent import PsychotherapyAgent
 import VirtualTherapist
 from utils.api_key_loader import load_openai_api_key
 
@@ -82,8 +82,8 @@ def run_test(patient_profile_path, therapist_profile_number,
     # Determine if using multi-agent system
     use_multi_agent = (therapist_mode == "multi_agent")
 
-    # Initialize LearningBuddy with appropriate mode
-    lb = LearningBuddy(api_key_input, use_multi_agent=use_multi_agent)
+    # Initialize PsychotherapyAgent with appropriate mode
+    lb = PsychotherapyAgent(api_key_input, use_multi_agent=use_multi_agent)
     
     # For multi-agent mode, set proposer and judge to use CSV rows 4 and 5 (indices 2 and 3)
     # CSV structure: Row 1=Header, Row 2=0_Simple_Agent (index 0), Row 3=1_Complex_Agent (index 1),
@@ -116,7 +116,7 @@ def run_test(patient_profile_path, therapist_profile_number,
         interview_messages = current_state.get("interview_messages", [])
         
         if therapist_mode == "multi_agent":
-            # Multi-agent mode: LearningBuddy's proposer/judge system generates therapist response
+            # Multi-agent mode: PsychotherapyAgent's proposer/judge system generates therapist response
             # The proposer generates 3 candidate responses based on conversation history,
             # judge selects best one, then patient responds
             # We use the message_workflow directly to generate therapist response
