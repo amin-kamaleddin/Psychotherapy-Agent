@@ -99,7 +99,7 @@ class FeedbackWorkflow:
         
         formatted_lines = []
         for m in conversation_messages:
-            prefix = "PSYCHIATRIST: " if isinstance(m, AIMessage) else "PATIENT: "
+            prefix = "PSYCHIATRIST: " if isinstance(m, HumanMessage) else "PATIENT: "
             content = prefix + m.content
             msg_cls = HumanMessage if isinstance(m, HumanMessage) else AIMessage
             messages.append(msg_cls(content=content))
