@@ -154,7 +154,7 @@ class VirtualTherapist:
             api_key: str,
             therapist_index: int = 0,
             prompt_addon: str = "",
-            model: str = "gpt-5-mini",
+            model: str = "gpt-4.1-mini",
             temperature: float = 0.8
     ):
         """
@@ -164,7 +164,7 @@ class VirtualTherapist:
             api_key: OpenAI API key
             therapist_index: Index of therapist profile to use (default: 0)
             prompt_addon: Additional text to append to therapist prompt
-            model: OpenAI model to use (default: "gpt-5-mini" to match proposer)
+            model: OpenAI model to use (default: "gpt-4.1-mini" to match proposer)
             temperature: LLM temperature for response generation (default: 0.8 to match proposer)
         """
         self.api_key = SecretStr(api_key)
