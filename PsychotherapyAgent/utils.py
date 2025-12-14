@@ -94,6 +94,26 @@ class FileManager:
         except:
             return 0.0
 
+    def get_patient_id(self, profile_path: Optional[str] = None) -> Optional[str]:
+        """
+        Extract patient ID from profile path.
+
+        Args:
+            profile_path: Path to patient profile file (e.g., "Patient_Profiles/MI/IsabelleFournier.txt")
+
+        Returns:
+            Patient ID extracted from filename (without extension), or None if path is invalid
+        """
+        if not profile_path:
+            return None
+        try:
+            # Extract filename without extension
+            filename = os.path.basename(profile_path)
+            patient_id = os.path.splitext(filename)[0]
+            return patient_id
+        except Exception:
+            return None
+
     def save_session_data(
             self,
             case_study: str,
@@ -101,7 +121,8 @@ class FileManager:
             detailed_feedback: str,
             transcript: str,
             presentation: str,
-            base_dir: str = "Saved_Sessions"
+            base_dir: str = "Saved_Sessions",
+            patient_id: Optional[str] = None
     ) -> str:
         """
         Save session data to timestamped folder.
@@ -113,6 +134,7 @@ class FileManager:
             transcript: Interview transcript
             presentation: Case presentation
             base_dir: Base directory for saving
+            patient_id: Optional patient ID/number to include in folder name
 
         Returns:
             Path to the created folder
@@ -120,9 +142,12 @@ class FileManager:
         # Create base directory if it doesn't exist
         os.makedirs(base_dir, exist_ok=True)
 
-        # Create timestamped subfolder
+        # Create timestamped subfolder with optional patient_id
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-        folder_name = os.path.join(base_dir, f"session_export_{timestamp}")
+        if patient_id:
+            folder_name = os.path.join(base_dir, f"session_export_patient_{patient_id}_{timestamp}")
+        else:
+            folder_name = os.path.join(base_dir, f"session_export_{timestamp}")
         os.makedirs(folder_name, exist_ok=True)
 
         files = {

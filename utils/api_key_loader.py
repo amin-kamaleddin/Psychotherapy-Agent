@@ -27,13 +27,13 @@ def load_openai_api_key():
     api_key = os.getenv(api_key_env_var)
 
     if api_key:
-        print(f"✅ Success: Loaded API Key from environment variable '{api_key_env_var}'.")
+        print(f"Success: Loaded API Key from environment variable '{api_key_env_var}'.")
         # For security, only print the first few characters
         print(f"   Key starts with: {api_key[:4]}...")
         return api_key
     else:
         # 3. Key not found, prompt the user for secure input
-        print(f"⚠️ Warning: API Key '{api_key_env_var}' not found in environment or .env file.")
+        print(f"Warning: API Key '{api_key_env_var}' not found in environment or .env file.")
         print("-" * 50)
 
         while True:

@@ -234,13 +234,23 @@ class FeedbackWorkflow:
         transcript = state.get("formatted_transcript")
         presentation = state.get("formatted_presentation")
         
+        # Get patient_id from metadata first (used by run_eval.py), fallback to extracting from profile_path
+        metadata = state.get("metadata", {})
+        patient_id = metadata.get("patient_number")
+        
+        if patient_id is None:
+            # Fallback: try to extract from profile path
+            profile_path = state.get("patient_context", {}).get("profile_path")
+            patient_id = self.file_manager.get_patient_id(profile_path)
+
         # Use file_manager to save session data
         folder_name = self.file_manager.save_session_data(
             case_study=case_study,
             mi=mi,
             detailed_feedback=detailed_feedback,
             transcript=transcript,
-            presentation=presentation
+            presentation=presentation,
+            patient_id=patient_id
         )
         
         logging.info("Session data saved successfully.")
