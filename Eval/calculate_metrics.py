@@ -120,7 +120,24 @@ def parse_transcript_turns(file_path):
     }
 
 def get_session_info(session_dir):
+    """
+    Extract timestamp from session folder name.
+    Supports both old format (session_export_{timestamp}) and new format (session_export_patient_{id}_{timestamp}).
+    """
     basename = os.path.basename(session_dir)
+    
+    # Try new format: session_export_patient_{patient_id}_{timestamp}
+    new_format_pattern = r'session_export_patient_(.+?)_(\d{4}-\d{2}-\d{2}_\d{2}-\d{2})$'
+    match = re.match(new_format_pattern, basename)
+    if match:
+        date_str = match.group(2)
+        try:
+            timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M")
+            return timestamp
+        except ValueError:
+            pass
+    
+    # Try old format: session_export_{timestamp}
     try:
         date_str = basename.replace('session_export_', '')
         timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M")
@@ -184,11 +201,19 @@ def aggregate_metrics(root_dir):
                 
                 if matching_mode:
                     transcript_path = os.path.join(entry.path, 'interview_transcript.txt')
+                    if not os.path.exists(transcript_path):
+                        continue
+                    
                     data = parse_transcript_turns(transcript_path)
                     if data:
                         if matching_mode not in agent_data:
                             agent_data[matching_mode] = []
                         agent_data[matching_mode].append(data)
+
+    # Check if we found any data
+    if not agent_data:
+        print("No matching sessions found for any test runs.")
+        return
 
     # 3. Aggregate and Print
     for mode, sessions in agent_data.items():
@@ -228,7 +253,7 @@ def aggregate_metrics(root_dir):
 
         # Save to CSV
         out_file = os.path.join(CSV_DIR, f'metrics_output_{mode}.csv')
-        with open(out_file, 'w') as f:
+        with open(out_file, 'w', encoding='utf-8') as f:
             f.write("\n".join(output_rows))
         print(f"Saved: {out_file}")
 

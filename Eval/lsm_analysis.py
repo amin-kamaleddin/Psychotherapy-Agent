@@ -405,15 +405,9 @@ def main():
                     'avg_lsm': round(avg_lsm, 3)
                 })
     
-    # 4. Save Output
+    # 4. Aggregate by Therapist Mode and Turn (Average across sessions)
     if final_rows:
         df = pd.DataFrame(final_rows)
-        output_path = os.path.join(CSV_DIR, 'lsm_dataset_by_turn.csv')
-        df.to_csv(output_path, index=False)
-        print(f"\nSaved LSM dataset to {output_path}")
-        print(df.head(20))
-
-        # 5. Aggregate by Therapist Mode and Turn (Average across sessions)
         print("\nCalculated average LSM by Therapist Mode and Turn:")
         
         unique_modes = df['therapist_mode'].unique()

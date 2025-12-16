@@ -245,7 +245,10 @@ def main():
     # 4. Save Output
     if final_rows:
         df = pd.DataFrame(final_rows)
-        output_path = os.path.join(root_dir, 'Eval', 'sentiment_dataset_by_turn.csv')
+        # Ensure csv directory exists
+        csv_dir = os.path.join(root_dir, 'Eval', 'csv')
+        os.makedirs(csv_dir, exist_ok=True)
+        output_path = os.path.join(csv_dir, 'sentiment_dataset_by_turn.csv')
         df.to_csv(output_path, index=False)
         print(f"\nSaved per-turn sentiment dataset to {output_path}")
         print(df.head(20))

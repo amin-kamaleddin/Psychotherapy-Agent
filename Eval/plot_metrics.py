@@ -16,14 +16,21 @@ import numpy as np
 
 # File paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SIMPLE_CSV = os.path.join(SCRIPT_DIR, 'metrics_output_simple.csv')
-COMPLEX_CSV = os.path.join(SCRIPT_DIR, 'metrics_output_complex.csv')
-MULTI_AGENT_CSV = os.path.join(SCRIPT_DIR, 'metrics_output_multi_agent.csv')
-SENTIMENT_CSV = os.path.join(SCRIPT_DIR, 'sentiment_dataset_by_turn.csv')
+CSV_DIR = os.path.join(SCRIPT_DIR, 'csv')
+PLOTS_DIR = os.path.join(SCRIPT_DIR, 'plots')
+
+# Ensure directories exist
+os.makedirs(CSV_DIR, exist_ok=True)
+os.makedirs(PLOTS_DIR, exist_ok=True)
+
+SIMPLE_CSV = os.path.join(CSV_DIR, 'metrics_output_simple.csv')
+COMPLEX_CSV = os.path.join(CSV_DIR, 'metrics_output_complex.csv')
+MULTI_AGENT_CSV = os.path.join(CSV_DIR, 'metrics_output_multi_agent.csv')
+SENTIMENT_CSV = os.path.join(CSV_DIR, 'sentiment_dataset_by_turn.csv')
 LSM_CSV = {
-    'simple': os.path.join(SCRIPT_DIR, 'lsm_metrics_simple.csv'),
-    'complex': os.path.join(SCRIPT_DIR, 'lsm_metrics_complex.csv'),
-    'multi_agent': os.path.join(SCRIPT_DIR, 'lsm_metrics_multi_agent.csv')
+    'simple': os.path.join(CSV_DIR, 'lsm_metrics_simple.csv'),
+    'complex': os.path.join(CSV_DIR, 'lsm_metrics_complex.csv'),
+    'multi_agent': os.path.join(CSV_DIR, 'lsm_metrics_multi_agent.csv')
 }
 
 # Mode labels
@@ -231,7 +238,7 @@ def plot_sentiment_distribution(sentiment_df):
     # Calculate positions for grouped box plots
     n_sentiments = len(sentiment_types)
     n_modes = len(modes)
-    group_width = 0.8
+    group_width = 2.5
     box_width = group_width / n_modes
     
     positions = []
@@ -401,19 +408,18 @@ def main():
     fig6 = plot_lsm_over_time(lsm_data)
     
     # Save plots
-    output_dir = SCRIPT_DIR
-    fig1.savefig(os.path.join(output_dir, 'counselor_words_per_turn.png'), dpi=300, bbox_inches='tight')
-    fig2.savefig(os.path.join(output_dir, 'client_words_per_turn.png'), dpi=300, bbox_inches='tight')
-    fig3.savefig(os.path.join(output_dir, 'word_ratio.png'), dpi=300, bbox_inches='tight')
+    fig1.savefig(os.path.join(PLOTS_DIR, 'counselor_words_per_turn.png'), dpi=300, bbox_inches='tight')
+    fig2.savefig(os.path.join(PLOTS_DIR, 'client_words_per_turn.png'), dpi=300, bbox_inches='tight')
+    fig3.savefig(os.path.join(PLOTS_DIR, 'word_ratio.png'), dpi=300, bbox_inches='tight')
     
     if fig4:
-        fig4.savefig(os.path.join(output_dir, 'sentiment_distribution.png'), dpi=300, bbox_inches='tight')
+        fig4.savefig(os.path.join(PLOTS_DIR, 'sentiment_distribution.png'), dpi=300, bbox_inches='tight')
     if fig5:
-        fig5.savefig(os.path.join(output_dir, 'positive_sentiment_over_time.png'), dpi=300, bbox_inches='tight')
+        fig5.savefig(os.path.join(PLOTS_DIR, 'positive_sentiment_over_time.png'), dpi=300, bbox_inches='tight')
     if fig6:
-        fig6.savefig(os.path.join(output_dir, 'lsm_over_time.png'), dpi=300, bbox_inches='tight')
+        fig6.savefig(os.path.join(PLOTS_DIR, 'lsm_over_time.png'), dpi=300, bbox_inches='tight')
     
-    print(f"\nPlots saved to {output_dir}:")
+    print(f"\nPlots saved to {PLOTS_DIR}:")
     print("  - counselor_words_per_turn.png")
     print("  - client_words_per_turn.png")
     print("  - word_ratio.png")
