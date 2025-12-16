@@ -27,6 +27,7 @@ SIMPLE_CSV = os.path.join(CSV_DIR, 'metrics_output_simple.csv')
 COMPLEX_CSV = os.path.join(CSV_DIR, 'metrics_output_complex.csv')
 MULTI_AGENT_CSV = os.path.join(CSV_DIR, 'metrics_output_multi_agent.csv')
 SENTIMENT_CSV = os.path.join(CSV_DIR, 'sentiment_dataset_by_turn.csv')
+FEEDBACK_CSV = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
 LSM_CSV = {
     'simple': os.path.join(CSV_DIR, 'lsm_metrics_simple.csv'),
     'complex': os.path.join(CSV_DIR, 'lsm_metrics_complex.csv'),
@@ -97,6 +98,17 @@ def load_lsm_data():
         else:
             print(f"Warning: {filepath} not found")
     return data
+
+
+def load_feedback_data():
+    """Load feedback scores dataset."""
+    if os.path.exists(FEEDBACK_CSV):
+        df = pd.read_csv(FEEDBACK_CSV)
+        print(f"Loaded feedback data: {len(df)} rows")
+        return df
+    else:
+        print(f"Warning: {FEEDBACK_CSV} not found")
+        return None
 
 
 def convert_turn_to_percentage(df):
@@ -386,12 +398,90 @@ def plot_lsm_over_time(lsm_data):
     return fig
 
 
+def plot_feedback_scores(feedback_df):
+    """Plot feedback scores by criterion and therapist mode - bar chart with error bars."""
+    if feedback_df is None or feedback_df.empty:
+        print("Warning: No feedback data available for feedback scores plot")
+        return None
+    
+    # Define the order of criteria (MI criteria + Overall Average)
+    criteria_order = [
+        'Acceptance',
+        'Empathy',
+        'Direction',
+        'Collaboration',
+        'Autonomy Support',
+        'Evocation',
+        'Partnership',
+        'Cultivating Change Talk',
+        'Softening Sustain Talk',
+        'Overall Average'
+    ]
+    
+    modes = ['simple', 'complex', 'multi_agent']
+    
+    # Group by criterion and mode, calculate mean and std
+    grouped = feedback_df.groupby(['criterion', 'therapist_mode'])['score'].agg(['mean', 'std', 'count']).reset_index()
+    
+    # Prepare data for plotting
+    plot_data = {}
+    for mode in modes:
+        plot_data[mode] = {
+            'means': [],
+            'stds': [],
+            'counts': []
+        }
+        mode_data = grouped[grouped['therapist_mode'] == mode]
+        for criterion in criteria_order:
+            criterion_data = mode_data[mode_data['criterion'] == criterion]
+            if not criterion_data.empty:
+                plot_data[mode]['means'].append(criterion_data['mean'].iloc[0])
+                plot_data[mode]['stds'].append(criterion_data['std'].iloc[0])
+                plot_data[mode]['counts'].append(int(criterion_data['count'].iloc[0]))
+            else:
+                plot_data[mode]['means'].append(0)
+                plot_data[mode]['stds'].append(0)
+                plot_data[mode]['counts'].append(0)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(14, 8))
+    
+    # Set up bar positions
+    n_criteria = len(criteria_order)
+    n_modes = len(modes)
+    x = np.arange(n_criteria)
+    width = 0.25  # Width of bars
+    
+    # Plot bars for each mode
+    for i, mode in enumerate(modes):
+        means = np.array(plot_data[mode]['means'])
+        stds = np.array(plot_data[mode]['stds'])
+        offset = (i - 1) * width  # Center the bars
+        bars = ax.bar(x + offset, means, width, yerr=stds, 
+                     label=MODE_LABELS.get(mode, mode),
+                     color=COLORS[mode], alpha=0.7, capsize=5)
+    
+    # Customize plot
+    ax.set_xlabel('Score Categories', fontsize=12)
+    ax.set_ylabel('Average Score', fontsize=12)
+    ax.set_title('Feedback Scores by Criterion and Therapist Mode', fontsize=14, fontweight='bold')
+    ax.set_xticks(x)
+    ax.set_xticklabels(criteria_order, rotation=45, ha='right')
+    ax.set_ylim(0, 6)  # Scores are 1-5, but allow some space above
+    ax.legend(fontsize=10)
+    ax.grid(True, alpha=0.3, axis='y')
+    
+    plt.tight_layout()
+    return fig
+
+
 def main():
     """Main function to generate all plots."""
     print("Loading data...")
     data = load_data()
     sentiment_df = load_sentiment_data()
     lsm_data = load_lsm_data()
+    feedback_df = load_feedback_data()
     
     if not data:
         print("Error: No metrics data files found!")
@@ -406,6 +496,7 @@ def main():
     fig4 = plot_sentiment_distribution(sentiment_df)
     fig5 = plot_positive_sentiment_over_time(sentiment_df)
     fig6 = plot_lsm_over_time(lsm_data)
+    fig7 = plot_feedback_scores(feedback_df)
     
     # Save plots
     fig1.savefig(os.path.join(PLOTS_DIR, 'counselor_words_per_turn.png'), dpi=300, bbox_inches='tight')
@@ -418,6 +509,8 @@ def main():
         fig5.savefig(os.path.join(PLOTS_DIR, 'positive_sentiment_over_time.png'), dpi=300, bbox_inches='tight')
     if fig6:
         fig6.savefig(os.path.join(PLOTS_DIR, 'lsm_over_time.png'), dpi=300, bbox_inches='tight')
+    if fig7:
+        fig7.savefig(os.path.join(PLOTS_DIR, 'feedback_scores_by_criterion.png'), dpi=300, bbox_inches='tight')
     
     print(f"\nPlots saved to {PLOTS_DIR}:")
     print("  - counselor_words_per_turn.png")
@@ -429,6 +522,8 @@ def main():
         print("  - positive_sentiment_over_time.png")
     if fig6:
         print("  - lsm_over_time.png")
+    if fig7:
+        print("  - feedback_scores_by_criterion.png")
     
     # Show plots
     plt.show()
