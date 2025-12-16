@@ -5,5 +5,11 @@ langchain-core>=0.1.0
 langchain-openai>=0.0.5
 pydantic>=2.0.0
 openai>=1.0.0
-matplotlib
-dotenv
+
+# Data and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
