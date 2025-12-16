@@ -6,6 +6,14 @@ import json
 from datetime import datetime
 import statistics
 
+
+CSV_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "csv")
+
+
+def ensure_csv_dir():
+    """Create csv output directory if it does not exist."""
+    os.makedirs(CSV_DIR, exist_ok=True)
+
 def parse_transcript_turns(file_path):
     """
     Parses the transcript and returns lists of metrics PER TURN PAIR.
@@ -140,6 +148,7 @@ def get_test_run_info(test_dir):
 def aggregate_metrics(root_dir):
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
     saved_tests_dir = os.path.join(root_dir, 'saved_tests')
+    ensure_csv_dir()
 
     # 1. Collect Test Runs
     test_runs = []
@@ -218,7 +227,7 @@ def aggregate_metrics(root_dir):
             output_rows.append(f"{i+1},{avg_c:.2f},{avg_cl:.2f},{avg_r:.2f}")
 
         # Save to CSV
-        out_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), f'metrics_output_{mode}.csv')
+        out_file = os.path.join(CSV_DIR, f'metrics_output_{mode}.csv')
         with open(out_file, 'w') as f:
             f.write("\n".join(output_rows))
         print(f"Saved: {out_file}")

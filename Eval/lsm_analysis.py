@@ -16,6 +16,13 @@ import pandas as pd
 # Add project root to path to import utils
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+CSV_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "csv")
+
+
+def ensure_csv_dir():
+    """Create csv output directory if missing."""
+    os.makedirs(CSV_DIR, exist_ok=True)
+
 
 class LSMCalculator:
     """
@@ -295,6 +302,7 @@ def extract_turn_pairs(transcript_path, max_turns=10):
 
 def main():
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    ensure_csv_dir()
     
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
     saved_tests_dir = os.path.join(root_dir, 'saved_tests')
@@ -400,7 +408,7 @@ def main():
     # 4. Save Output
     if final_rows:
         df = pd.DataFrame(final_rows)
-        output_path = os.path.join(root_dir, 'Eval', 'lsm_dataset_by_turn.csv')
+        output_path = os.path.join(CSV_DIR, 'lsm_dataset_by_turn.csv')
         df.to_csv(output_path, index=False)
         print(f"\nSaved LSM dataset to {output_path}")
         print(df.head(20))
@@ -431,7 +439,7 @@ def main():
                 
             # Save to CSV similar to metrics_output_{mode}.csv
             output_csv_name = f'lsm_metrics_{mode}.csv'
-            output_csv_path = os.path.join(root_dir, 'Eval', output_csv_name)
+            output_csv_path = os.path.join(CSV_DIR, output_csv_name)
             grouped.to_csv(output_csv_path, index=False)
             print(f"Saved aggregated metrics to {output_csv_path}")
 
