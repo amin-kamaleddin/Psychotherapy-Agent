@@ -29,35 +29,29 @@ class LLMManager:
         
         # Core LLMs
         self.llm_mini_verification = ChatOpenAI(
-            model="gpt-4.1-mini", 
-            temperature=0, 
+            model="gpt-5-mini", 
             api_key=self.api_key
         )
         self.llm_mini_summary = ChatOpenAI(
-            model="gpt-4.1-mini", 
-            temperature=0.2, 
+            model="gpt-5-mini", 
             api_key=self.api_key
         )
         self.llm_mini_virtualPatient = ChatOpenAI(
-            model="gpt-4.1-mini", 
-            temperature=1, 
+            model="gpt-5-mini", 
             api_key=self.api_key
         )
         self.llm_feedback = ChatOpenAI(
-            model="gpt-4.1-mini", 
-            temperature=0.1, 
+            model="gpt-5-mini", 
             api_key=self.api_key
         )
         self.llm_mini_virtualEvaluator = ChatOpenAI(
-            model="gpt-4.1-mini", 
-            temperature=0.7, 
+            model="gpt-5-mini", 
             api_key=self.api_key
         )
         
         # Therapist agents (for multi-agent mode)
         self.llm_therapist_proposer = ChatOpenAI(
-            model="gpt-4.1-mini", 
-            temperature=0.8, 
+            model="gpt-5-mini", 
             api_key=self.api_key
         )
         
@@ -74,8 +68,7 @@ class LLMManager:
             # Fallback to OpenAI if OpenRouter key not found
             logging.warning("OPENROUTER_API_KEY not found in environment. Using OpenAI for judge agent.")
             self.llm_therapist_judge = ChatOpenAI(
-                model="gpt-4.1-mini", 
-                temperature=0.1, 
+                model="gpt-5-mini", 
                 api_key=self.api_key
             )
         

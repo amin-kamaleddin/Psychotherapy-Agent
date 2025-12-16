@@ -154,7 +154,7 @@ class VirtualTherapist:
             api_key: str,
             therapist_index: int = 0,
             prompt_addon: str = "",
-            model: str = "gpt-4.1-mini",
+            model: str = "gpt-5-mini",
             temperature: float = 0.8
     ):
         """
@@ -164,8 +164,8 @@ class VirtualTherapist:
             api_key: OpenAI API key
             therapist_index: Index of therapist profile to use (default: 0)
             prompt_addon: Additional text to append to therapist prompt
-            model: OpenAI model to use (default: "gpt-4.1-mini" to match proposer)
-            temperature: LLM temperature for response generation (default: 0.8 to match proposer)
+            model: OpenAI model to use (default: "gpt-5-mini" to match proposer)
+            temperature: LLM temperature for response generation (default: 0.8 to match proposer, not used for gpt-5-mini)
         """
         self.api_key = SecretStr(api_key)
         self.therapist_index = therapist_index
@@ -173,11 +173,14 @@ class VirtualTherapist:
         self.temperature = temperature
 
         # Initialize LLM
-        self.llm = ChatOpenAI(
-            model=model,
-            temperature=temperature,
-            api_key=self.api_key
-        )
+        llm_kwargs = {
+            "model": model,
+            "api_key": self.api_key
+        }
+        # Only include temperature for non-gpt-5-mini models
+        if model != "gpt-5-mini":
+            llm_kwargs["temperature"] = temperature
+        self.llm = ChatOpenAI(**llm_kwargs)
 
         # Load therapist profile
         self.profile: Optional[TherapistProfile] = None
