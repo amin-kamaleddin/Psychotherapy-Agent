@@ -20,6 +20,11 @@ SIMPLE_CSV = os.path.join(SCRIPT_DIR, 'metrics_output_simple.csv')
 COMPLEX_CSV = os.path.join(SCRIPT_DIR, 'metrics_output_complex.csv')
 MULTI_AGENT_CSV = os.path.join(SCRIPT_DIR, 'metrics_output_multi_agent.csv')
 SENTIMENT_CSV = os.path.join(SCRIPT_DIR, 'sentiment_dataset_by_turn.csv')
+LSM_CSV = {
+    'simple': os.path.join(SCRIPT_DIR, 'lsm_metrics_simple.csv'),
+    'complex': os.path.join(SCRIPT_DIR, 'lsm_metrics_complex.csv'),
+    'multi_agent': os.path.join(SCRIPT_DIR, 'lsm_metrics_multi_agent.csv')
+}
 
 # Mode labels
 MODE_LABELS = {
@@ -74,10 +79,30 @@ def load_sentiment_data():
         return None
 
 
+def load_lsm_data():
+    """Load LSM metrics for each mode."""
+    data = {}
+    for mode, filepath in LSM_CSV.items():
+        if os.path.exists(filepath):
+            df = pd.read_csv(filepath)
+            data[mode] = df
+            print(f"Loaded LSM {mode}: {len(df)} rows")
+        else:
+            print(f"Warning: {filepath} not found")
+    return data
+
+
 def convert_turn_to_percentage(df):
     """Convert turn numbers to percentage of conversation."""
     max_turn = df['Turn_Pair'].max()
     df['Percent'] = (df['Turn_Pair'] / max_turn) * 100
+    return df
+
+
+def convert_lsm_turn_to_percentage(df):
+    """Convert LSM turn numbers to percentage of conversation."""
+    max_turn = df['turn_number'].max()
+    df['Percent'] = (df['turn_number'] / max_turn) * 100
     return df
 
 
@@ -319,11 +344,47 @@ def plot_positive_sentiment_over_time(sentiment_df):
     return fig
 
 
+def plot_lsm_over_time(lsm_data):
+    """Plot 6: Linguistic style matching across conversation progress."""
+    if not lsm_data:
+        print("Warning: No LSM data available for LSM plot")
+        return None
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    for mode in ['simple', 'complex', 'multi_agent']:
+        if mode in lsm_data:
+            df = lsm_data[mode].copy()
+            df = convert_lsm_turn_to_percentage(df)
+
+            ax.plot(
+                df['Percent'],
+                df['avg_lsm'],
+                label=MODE_LABELS.get(mode, mode),
+                color=COLORS[mode],
+                linestyle=STYLES[mode],
+                marker=MARKERS[mode],
+                linewidth=2,
+                markersize=8
+            )
+
+    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=12)
+    ax.set_ylabel('Average LSM', fontsize=12)
+    ax.set_title('Linguistic style matching across conversation progress', fontsize=14, fontweight='bold')
+    ax.legend(fontsize=10)
+    ax.grid(True, alpha=0.3)
+    ax.set_xticks([20, 40, 60, 80, 100])
+
+    plt.tight_layout()
+    return fig
+
+
 def main():
     """Main function to generate all plots."""
     print("Loading data...")
     data = load_data()
     sentiment_df = load_sentiment_data()
+    lsm_data = load_lsm_data()
     
     if not data:
         print("Error: No metrics data files found!")
@@ -337,6 +398,7 @@ def main():
     fig3 = plot_word_ratio(data)
     fig4 = plot_sentiment_distribution(sentiment_df)
     fig5 = plot_positive_sentiment_over_time(sentiment_df)
+    fig6 = plot_lsm_over_time(lsm_data)
     
     # Save plots
     output_dir = SCRIPT_DIR
@@ -348,6 +410,8 @@ def main():
         fig4.savefig(os.path.join(output_dir, 'sentiment_distribution.png'), dpi=300, bbox_inches='tight')
     if fig5:
         fig5.savefig(os.path.join(output_dir, 'positive_sentiment_over_time.png'), dpi=300, bbox_inches='tight')
+    if fig6:
+        fig6.savefig(os.path.join(output_dir, 'lsm_over_time.png'), dpi=300, bbox_inches='tight')
     
     print(f"\nPlots saved to {output_dir}:")
     print("  - counselor_words_per_turn.png")
@@ -357,6 +421,8 @@ def main():
         print("  - sentiment_distribution.png")
     if fig5:
         print("  - positive_sentiment_over_time.png")
+    if fig6:
+        print("  - lsm_over_time.png")
     
     # Show plots
     plt.show()
