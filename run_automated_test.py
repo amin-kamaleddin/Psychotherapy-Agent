@@ -478,16 +478,13 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
     
     comparison_df = pd.DataFrame(comparison_data)
     
-    # Create comparison folder
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    comparison_folder = os.path.join(
-        "Session_Metadata",
-        f"comparison_{args.run_id}_{timestamp}"
-    )
-    os.makedirs(comparison_folder, exist_ok=True)
+    # Save comparison CSV to Eval/csv directory
+    eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
+    csv_dir = os.path.join(eval_dir, "csv")
+    os.makedirs(csv_dir, exist_ok=True)
     
-    # Save comparison
-    comparison_csv = os.path.join(comparison_folder, "comparison_results.csv")
+    # Save comparison CSV
+    comparison_csv = os.path.join(csv_dir, "comparison_results.csv")
     comparison_df.to_csv(comparison_csv, index=False)
     
     # Print summary
@@ -514,8 +511,7 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
     
     return {
         "comparison_df": comparison_df,
-        "comparison_csv": comparison_csv,
-        "comparison_folder": comparison_folder
+        "comparison_csv": comparison_csv
     }
 
 
