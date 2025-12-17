@@ -1,0 +1,11 @@
+Criterion,N,Friedman_Chi2,p_value,Significant,simple_mean,complex_mean,multi_agent_mean,simple_std,complex_std,multi_agent_std
+Acceptance,5,2.375,0.304983,No,4.0,4.6,4.76,0.707,0.548,0.434
+Empathy,5,0.4,0.818731,No,4.2,4.4,4.4,0.837,0.548,0.548
+Direction,5,0.5,0.778801,No,4.6,4.6,4.56,0.548,0.548,0.518
+Collaboration,5,0.5,0.778801,No,4.8,4.72,4.76,0.447,0.438,0.434
+Autonomy Support,5,2.0,0.367879,No,4.0,4.6,4.8,1.0,0.548,0.447
+Evocation,5,2.0,0.367879,No,3.8,4.2,4.36,0.837,0.447,0.498
+Partnership,5,0.125,0.939413,No,4.4,4.52,4.56,0.894,0.502,0.518
+Cultivating Change Talk,5,4.6667,0.096972,No,3.6,3.8,4.2,0.548,0.447,0.447
+Softening Sustain Talk,5,4.6667,0.096972,No,3.6,4.0,4.2,0.548,0.0,0.447
+Overall Average,5,6.4,0.040762,Yes,4.111,4.382,4.511,0.236,0.167,0.3
