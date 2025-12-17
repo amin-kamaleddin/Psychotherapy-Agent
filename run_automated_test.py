@@ -6,6 +6,8 @@ import time
 import json
 import argparse
 import logging
+import subprocess
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -398,6 +400,9 @@ def run_comparison_experiment(args):
     print("COMPARISON COMPLETE!")
     print("=" * 80)
     
+    # Run evaluation scripts after comparison completes
+    aggregate_metrics()
+    
     return {
         "simple_folder": simple_folder,
         "complex_folder": complex_folder,
@@ -512,6 +517,61 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
         "comparison_csv": comparison_csv,
         "comparison_folder": comparison_folder
     }
+
+
+def aggregate_metrics():
+    """Run all Python scripts in Eval folder in the correct order."""
+    eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
+    
+    # Define the order of scripts to run (starting with sentiment_analysis, ending with plot_metrics)
+    # Only include scripts that can be executed (have if __name__ == "__main__" block)
+    eval_scripts = [
+        "sentiment_analysis.py",
+        "word_analysis.py",  # Calculates word metrics (counselor/client words, ratios)
+        "lsm_analysis.py",
+        "feedback_analysis.py",
+        "feedback_statistical_test.py",
+        "plot_metrics.py"
+    ]
+    
+    print("\n" + "=" * 80)
+    print("RUNNING EVALUATION SCRIPTS")
+    print("=" * 80)
+    
+    python_exe = sys.executable  # Use the same Python interpreter
+    
+    for script_name in eval_scripts:
+        script_path = os.path.join(eval_dir, script_name)
+        
+        if not os.path.exists(script_path):
+            print(f"Warning: Script {script_name} not found, skipping...")
+            continue
+        
+        print(f"\n[RUNNING] {script_name}...")
+        print("-" * 80)
+        
+        try:
+            # Run the script using subprocess
+            result = subprocess.run(
+                [python_exe, script_path],
+                cwd=eval_dir,
+                capture_output=False,  # Show output in real-time
+                text=True,
+                check=True
+            )
+            print(f"✅ {script_name} completed successfully")
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Error running {script_name}: {e}")
+            # Continue with other scripts even if one fails
+            continue
+        except Exception as e:
+            print(f"❌ Unexpected error running {script_name}: {e}")
+            continue
+    
+    print("\n" + "=" * 80)
+    print("ALL EVALUATION SCRIPTS COMPLETED")
+    print("=" * 80)
+
 
 # =============================
 # === Main Entry Point ====
