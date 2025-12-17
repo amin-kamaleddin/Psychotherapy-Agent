@@ -164,7 +164,7 @@ def get_test_run_info(test_dir):
 
 def aggregate_metrics(root_dir):
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
-    saved_tests_dir = os.path.join(root_dir, 'saved_tests')
+    saved_tests_dir = os.path.join(root_dir, 'Session_Metadata')
     ensure_csv_dir()
 
     # 1. Collect Test Runs

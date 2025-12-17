@@ -128,7 +128,7 @@ def main():
     ensure_csv_dir()
     
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
-    saved_tests_dir = os.path.join(root_dir, 'saved_tests')
+    saved_tests_dir = os.path.join(root_dir, 'Session_Metadata')
     
     # 1. Map Tests
     test_runs = []

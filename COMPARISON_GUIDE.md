@@ -94,7 +94,7 @@ This will:
 
 ### Step 2: Review Results
 
-Results are saved in `saved_tests/` directory:
+Results are saved in `Session_Metadata/` directory:
 
 - `comparison_{run_id}_{timestamp}/` - Comparison results folder
   - `comparison_results.csv` - Detailed 3-way comparison statistics

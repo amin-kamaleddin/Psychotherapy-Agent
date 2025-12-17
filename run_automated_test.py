@@ -264,7 +264,7 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     # Create save folder
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     save_folder = os.path.join(
-        "saved_tests",
+        "Session_Metadata",
         f"{args.run_id}_{therapist_mode}_patients_{args.start_patient}_{args.end_patient}_{timestamp}"
     )
     os.makedirs(save_folder, exist_ok=True)
@@ -481,7 +481,7 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
     # Create comparison folder
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     comparison_folder = os.path.join(
-        "saved_tests",
+        "Session_Metadata",
         f"comparison_{args.run_id}_{timestamp}"
     )
     os.makedirs(comparison_folder, exist_ok=True)
