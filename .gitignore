@@ -3,6 +3,6 @@ venv/
 Saved_Sessions/
 .aider*
 .env
-saved_tests/
+Session_Metadata/
 __pycache__/
 /psychotherapy_agent.log
