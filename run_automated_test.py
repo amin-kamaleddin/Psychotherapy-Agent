@@ -631,8 +631,8 @@ if __name__ == "__main__":
                         help="Therapist profile index for complex mode")
     parser.add_argument("--compare", action="store_true",
                         help="Run all three modes (simple, complex, multi-agent) and compare results")
-    parser.add_argument("--max-workers", type=int, default=3,
-                        help="Number of parallel workers for processing patients (default: 3)")
+    parser.add_argument("--max-workers", type=int, default=15,
+                        help="Number of parallel workers for processing patients (default: 15)")
 
     args = parser.parse_args()
 
