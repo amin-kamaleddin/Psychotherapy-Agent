@@ -10,6 +10,11 @@ import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
+
+# Thread-safe print lock
+print_lock = Lock()
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -287,57 +292,91 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
 
     df = pd.read_csv(THERAPIST_CSV_PATH, quotechar='"', skipinitialspace=True)
 
-    # Process each patient
-    for patient_idx, patient_file in enumerate(patient_files):
-        print(f"\n{'=' * 60}")
-        print(f"Processing Patient {patient_idx + 1}/{num_patients}: {os.path.basename(patient_file)}")
-        print(f"Mode: {therapist_mode}")
-        print(f"{'=' * 60}")
-
+    def process_single_patient(patient_data):
+        """Process a single patient test - designed for parallel execution."""
+        patient_idx, patient_file = patient_data
         patient_number = patient_idx + 1
-
-        print(f"  [STEP 1] Running test ({therapist_mode} mode)...")
-        results = run_test(
-            patient_file,
-            therapist_profile_number=therapist_num,
-            patient_number=patient_number,
-            therapist_mode=therapist_mode
-        )
-        # Look for the feedback file - it might be named differently
-        folder_name = results["folder_name"]
-
-        # Try to find the feedback file (check different possible names)
-        possible_names = [
-            "detailed_feedback.txt",
-            "feedback.txt"
-        ]
-
-        feedback_path = None
-        for name in possible_names:
-            potential_path = os.path.join(folder_name, name)
-            if os.path.exists(potential_path):
-                feedback_path = potential_path
-                break
-
-        if feedback_path is None:
-            # List all files in the folder to see what's actually there
-            print(f"  Warning: Could not find feedback file in {folder_name}")
-            print(
-                f"  Files in folder: {os.listdir(folder_name) if os.path.exists(folder_name) else 'folder does not exist'}")
-            # Use a default pattern - adjust based on what you see
-            feedback_path = os.path.join(folder_name, "detailed_feedback.txt")
         
-        scores = extract_scores([feedback_path])
+        try:
+            with print_lock:
+                print(f"\n{'=' * 60}")
+                print(f"Processing Patient {patient_number}/{num_patients}: {os.path.basename(patient_file)}")
+                print(f"Mode: {therapist_mode}")
+                print(f"{'=' * 60}")
+                print(f"  [STEP 1] Running test ({therapist_mode} mode)...")
+            
+            # Run the test
+            results = run_test(
+                patient_file,
+                therapist_profile_number=therapist_num,
+                patient_number=patient_number,
+                therapist_mode=therapist_mode
+            )
+            
+            # Look for the feedback file
+            folder_name = results["folder_name"]
+            possible_names = ["detailed_feedback.txt", "feedback.txt"]
+            
+            feedback_path = None
+            for name in possible_names:
+                potential_path = os.path.join(folder_name, name)
+                if os.path.exists(potential_path):
+                    feedback_path = potential_path
+                    break
+            
+            if feedback_path is None:
+                with print_lock:
+                    print(f"  Warning: Could not find feedback file in {folder_name}")
+                feedback_path = os.path.join(folder_name, "detailed_feedback.txt")
+            
+            scores = extract_scores([feedback_path])
+            
+            # Store therapist result
+            row = {
+                "Therapist": df.iloc[therapist_num]["Name"],
+                "Patient": os.path.basename(patient_file),
+                "Mode": therapist_mode
+            }
+            for key, values in scores.items():
+                row[key] = values[0] if values else None
+            
+            with print_lock:
+                print(f"  ✅ Completed Patient {patient_number}: {os.path.basename(patient_file)}")
+            
+            return row
+        
+        except Exception as e:
+            with print_lock:
+                print(f"  ❌ Error processing Patient {patient_number} ({os.path.basename(patient_file)}): {str(e)}")
+            return None
 
-        # Store therapist result
-        row = {
-            "Therapist": df.iloc[therapist_num]["Name"],
-            "Patient": os.path.basename(patient_file),
-            "Mode": therapist_mode
-        }
-        for key, values in scores.items():
-            row[key] = values[0] if values else None
-        all_results.append(row)
+    # Determine number of parallel workers
+    max_workers = args.max_workers if hasattr(args, 'max_workers') else 3
+    
+    with print_lock:
+        print(f"\n🚀 Starting parallel processing with {max_workers} workers...")
+        print(f"Processing {num_patients} patients in {therapist_mode} mode\n")
+    
+    # Process patients in parallel
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Submit all tasks
+        patient_data_list = [(idx, patient_file) for idx, patient_file in enumerate(patient_files)]
+        future_to_patient = {executor.submit(process_single_patient, data): data for data in patient_data_list}
+        
+        # Collect results as they complete
+        completed = 0
+        for future in as_completed(future_to_patient):
+            completed += 1
+            result = future.result()
+            if result is not None:
+                all_results.append(result)
+            
+            with print_lock:
+                print(f"📊 Progress: {completed}/{num_patients} patients completed")
+    
+    # Sort results by patient filename to maintain order
+    patient_file_basenames = {os.path.basename(f): idx for idx, f in enumerate(patient_files)}
+    all_results.sort(key=lambda x: patient_file_basenames.get(x["Patient"], 999))
 
     # Save results to CSV
     results_df = pd.DataFrame(all_results)
@@ -592,6 +631,8 @@ if __name__ == "__main__":
                         help="Therapist profile index for complex mode")
     parser.add_argument("--compare", action="store_true",
                         help="Run all three modes (simple, complex, multi-agent) and compare results")
+    parser.add_argument("--max-workers", type=int, default=3,
+                        help="Number of parallel workers for processing patients (default: 3)")
 
     args = parser.parse_args()
 
