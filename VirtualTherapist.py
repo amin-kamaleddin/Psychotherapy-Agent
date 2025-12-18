@@ -58,7 +58,7 @@ class TherapistProfileLoader:
     PROMPT_PATHS = "Prompts/MI/virtual_therapist_prompt.txt"
 
     @classmethod
-    def load_profile(cls, therapist_index: int = 0) -> TherapistProfile:
+    def load_profile(cls, therapist_index: int = 0, use_base_prompt: bool = True) -> TherapistProfile:
         """
         Load a therapist profile for the given therapy type and index.
 
@@ -88,12 +88,17 @@ class TherapistProfileLoader:
             )
 
         # Load base prompt and profile
-        base_prompt = PromptLoader.load(cls.PROMPT_PATHS)
         therapist_row = df.iloc[therapist_index]
+        
+        if use_base_prompt:
+            base_prompt = PromptLoader.load(cls.PROMPT_PATHS)
+            prompt_content = base_prompt + therapist_row["Prompt"]
+        else:
+            prompt_content = therapist_row["Prompt"]
 
         return TherapistProfile(
             name=therapist_row["Name"],
-            prompt_content=base_prompt + therapist_row["Prompt"],
+            prompt_content=prompt_content,
         )
 
 
@@ -155,7 +160,8 @@ class VirtualTherapist:
             therapist_index: int = 0,
             prompt_addon: str = "",
             model: str = "gpt-5-mini",
-            temperature: float = 0.8
+            temperature: float = 0.8,
+            use_base_prompt: bool = True
     ):
         """
         Initialize a virtual therapist.
@@ -166,11 +172,14 @@ class VirtualTherapist:
             prompt_addon: Additional text to append to therapist prompt
             model: OpenAI model to use (default: "gpt-5-mini" to match proposer)
             temperature: LLM temperature for response generation (default: 0.8 to match proposer, not used for gpt-5-mini)
+            use_base_prompt: If True, includes base Virtual Therapist prompt when loading CSV prompts.
+                           If False, uses only CSV prompt without base prompt.
         """
         self.api_key = SecretStr(api_key)
         self.therapist_index = therapist_index
         self.model = model
         self.temperature = temperature
+        self.use_base_prompt = use_base_prompt
 
         # Initialize LLM
         llm_kwargs = {
@@ -186,7 +195,7 @@ class VirtualTherapist:
         self.profile: Optional[TherapistProfile] = None
         self.system_prompt: str = ""
 
-        self.profile = TherapistProfileLoader.load_profile(therapist_index)
+        self.profile = TherapistProfileLoader.load_profile(therapist_index, use_base_prompt=use_base_prompt)
         self.system_prompt = self.profile.prompt_content + prompt_addon
         print(f"✓ Therapist Profile Loaded: {self.profile.name}")
 

@@ -12,8 +12,15 @@ from typing import Optional
 class PromptManager:
     """Manages prompt loading from files and CSV."""
     
-    def __init__(self):
-        """Initialize PromptManager."""
+    def __init__(self, use_base_prompt: bool = True):
+        """
+        Initialize PromptManager.
+        
+        Args:
+            use_base_prompt: If True, includes base Virtual Therapist prompt when loading CSV prompts.
+                           If False, uses only CSV prompt without base prompt.
+        """
+        self.use_base_prompt = use_base_prompt
         # Define prompt file paths
         self.prompt_paths = {
             'Clinical Summary': 'Prompts/MI/clinical_summary_prompt.txt',
@@ -102,13 +109,16 @@ class PromptManager:
             therapist_row = df.iloc[therapist_index]
             csv_prompt = therapist_row["Prompt"]
             
-            # For simple (0), complex (1), and proposer (2) agents, combine with base prompt
+            # For simple (0), complex (1), and proposer (2) agents, optionally combine with base prompt
             # For judge (3), use CSV prompt as-is (standalone)
             if therapist_index in [0, 1, 2]:
-                base_prompt = self.load_prompt('Virtual Therapist')
-                return base_prompt + "\n\n" + csv_prompt
+                if self.use_base_prompt:
+                    base_prompt = self.load_prompt('Virtual Therapist')
+                    return base_prompt + "\n\n" + csv_prompt
+                else:
+                    return csv_prompt
             else:
-                # Judge (3) has standalone prompt
+                # Judge (3) has standalone prompt (never uses base prompt)
                 return csv_prompt
         except Exception as e:
             logging.error(f"Error loading therapist prompt from CSV: {str(e)}")

@@ -44,7 +44,7 @@ class PsychotherapyAgent:
     4. Evaluator: Q&A about evaluation
     """
     
-    def __init__(self, api_key: str, use_multi_agent: bool = True):
+    def __init__(self, api_key: str, use_multi_agent: bool = True, use_base_prompt: bool = True):
         """
         Initialize PsychotherapyAgent.
         
@@ -52,13 +52,15 @@ class PsychotherapyAgent:
             api_key: OpenAI API key
             use_multi_agent: If True, uses proposer+judge multi-agent system for therapist responses.
                            If False, uses original single-agent mode (direct user input).
+            use_base_prompt: If True, includes base Virtual Therapist prompt when loading CSV prompts.
+                           If False, uses only CSV prompt without base prompt.
         """
         self.api_key = SecretStr(api_key)
         self.use_multi_agent = use_multi_agent
         
         # Initialize managers
         self.llm_manager = LLMManager(self.api_key)
-        self.prompt_manager = PromptManager()
+        self.prompt_manager = PromptManager(use_base_prompt=use_base_prompt)
         self.file_manager = FileManager()
         
         # Initialize workflows

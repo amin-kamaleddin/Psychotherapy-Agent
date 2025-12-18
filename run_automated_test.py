@@ -54,7 +54,7 @@ def get_patient_files(start_idx=None, end_idx=None):
 
 def run_test(patient_profile_path, therapist_profile_number,
              patient_number=None, therapist_feedback_csv="", api_key_input=None,
-             therapist_mode="simple"):
+             therapist_mode="simple", use_base_prompt=True):
     """Run one simulated therapy session between therapist and patient.
 
     Args:
@@ -85,7 +85,9 @@ def run_test(patient_profile_path, therapist_profile_number,
     use_multi_agent = (therapist_mode == "multi_agent")
 
     # Initialize PsychotherapyAgent with appropriate mode
-    lb = PsychotherapyAgent(api_key_input, use_multi_agent=use_multi_agent)
+    # Note: We need to pass use_base_prompt to PromptManager, but PsychotherapyAgent creates its own PromptManager
+    # We'll need to modify PsychotherapyAgent to accept this parameter, or we can set it after creation
+    lb = PsychotherapyAgent(api_key_input, use_multi_agent=use_multi_agent, use_base_prompt=use_base_prompt)
     
     # For multi-agent mode, set proposer and judge to use CSV rows 4 and 5 (indices 2 and 3)
     # CSV structure: Row 1=Header, Row 2=0_Simple_Agent (index 0), Row 3=1_Complex_Agent (index 1),
@@ -103,7 +105,8 @@ def run_test(patient_profile_path, therapist_profile_number,
         therapist = VirtualTherapist.VirtualTherapist(
             api_key_input,
             therapist_index=therapist_profile_number,
-            prompt_addon=add_on
+            prompt_addon=add_on,
+            use_base_prompt=use_base_prompt
         )
 
     # Load patient profile and start session with metadata
@@ -297,6 +300,9 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         patient_idx, patient_file = patient_data
         patient_number = patient_idx + 1
         
+        # Get use_base_prompt from args
+        use_base_prompt = args.use_base_prompt if hasattr(args, 'use_base_prompt') else True
+        
         try:
             with print_lock:
                 print(f"\n{'=' * 60}")
@@ -310,7 +316,8 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
                 patient_file,
                 therapist_profile_number=therapist_num,
                 patient_number=patient_number,
-                therapist_mode=therapist_mode
+                therapist_mode=therapist_mode,
+                use_base_prompt=use_base_prompt
             )
             
             # Look for the feedback file
@@ -631,8 +638,12 @@ if __name__ == "__main__":
                         help="Therapist profile index for complex mode")
     parser.add_argument("--compare", action="store_true",
                         help="Run all three modes (simple, complex, multi-agent) and compare results")
-    parser.add_argument("--max-workers", type=int, default=15,
-                        help="Number of parallel workers for processing patients (default: 15)")
+    parser.add_argument("--max-workers", type=int, default=20,
+                        help="Number of parallel workers for processing patients (default: 20)")
+    parser.add_argument("--use-base-prompt", action="store_true", default=True,
+                        help="Include base Virtual Therapist prompt when loading CSV prompts (default: True)")
+    parser.add_argument("--no-base-prompt", dest="use_base_prompt", action="store_false",
+                        help="Disable base Virtual Therapist prompt (use only CSV prompt)")
 
     args = parser.parse_args()
 
