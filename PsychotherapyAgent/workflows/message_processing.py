@@ -12,6 +12,7 @@ from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
 
 from ..graph_state import LBState
+from ..utils import sanitize_for_logging
 
 
 class MessageWorkflow:
@@ -283,7 +284,7 @@ Generate exactly 3 different therapist responses. Format strictly as:
             if selected_therapist_response:
                 interview_messages_with_therapist = interview_messages[:-1] if interview_messages else []
                 interview_messages_with_therapist.append(HumanMessage(content=selected_therapist_response))
-                logging.info(f"Therapist selected response: {selected_therapist_response[:50]}...")
+                logging.info(f"Therapist selected response: {sanitize_for_logging(selected_therapist_response)}...")
             else:
                 interview_messages_with_therapist = interview_messages
                 logging.warning("No selected therapist response found, using original messages.")

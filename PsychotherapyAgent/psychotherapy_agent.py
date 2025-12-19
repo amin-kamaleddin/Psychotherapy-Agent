@@ -14,7 +14,7 @@ from .graph_state import LBState, PatientContext
 
 from .llm_manager import LLMManager
 from .prompt_manager import PromptManager
-from .utils import FileManager
+from .utils import FileManager, sanitize_for_logging
 from .workflows import (
     InitializationWorkflow,
     MessageWorkflow,
@@ -243,7 +243,7 @@ class PsychotherapyAgent:
         presentation.append(user_input)
         
         self.current_state["presentation"] = presentation
-        logging.info(f"Presentation input added: {user_input[:50]}...")
+        logging.info(f"Presentation input added: {sanitize_for_logging(user_input)}...")
         
         return {"presentation": presentation, "status": "updated"}
     

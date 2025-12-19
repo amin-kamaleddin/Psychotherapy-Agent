@@ -11,6 +11,40 @@ from typing import Optional
 import logging
 
 
+def sanitize_for_logging(text: str, max_length: int = 50) -> str:
+    """
+    Sanitize text for logging by replacing non-ASCII characters.
+    
+    Args:
+        text: Text to sanitize
+        max_length: Maximum length to return
+        
+    Returns:
+        Sanitized ASCII string
+    """
+    if not text:
+        return ""
+    # Replace common Unicode characters with ASCII equivalents
+    replacements = {
+        '\u2192': '->',  # Right arrow
+        '\u2190': '<-',  # Left arrow
+        '\u2191': '^',   # Up arrow
+        '\u2193': 'v',   # Down arrow
+        '\u2014': '--',  # Em dash
+        '\u2013': '-',   # En dash
+        '\u201c': '"',   # Left double quote
+        '\u201d': '"',   # Right double quote
+        '\u2018': "'",   # Left single quote
+        '\u2019': "'",   # Right single quote
+    }
+    sanitized = text[:max_length]
+    for unicode_char, ascii_replacement in replacements.items():
+        sanitized = sanitized.replace(unicode_char, ascii_replacement)
+    # Replace any remaining non-ASCII characters
+    sanitized = sanitized.encode('ascii', 'replace').decode('ascii')
+    return sanitized
+
+
 ###############################################################
 ###                    FileManager Class                    ###
 ###############################################################

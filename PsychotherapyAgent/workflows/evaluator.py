@@ -10,6 +10,7 @@ from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
 
 from ..graph_state import LBState
+from ..utils import sanitize_for_logging
 
 
 class EvaluatorWorkflow:
@@ -43,7 +44,7 @@ class EvaluatorWorkflow:
         if not user_input:
             return state
         
-        logging.info(f"Processing evaluator user input: {user_input[:50]}...")
+        logging.info(f"Processing evaluator user input: {sanitize_for_logging(user_input)}...")
         
         # Append to separate evaluator-specific chatlog
         chatlog = state.get("evaluator_chatlog", [])
