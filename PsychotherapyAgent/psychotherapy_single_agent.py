@@ -1,17 +1,25 @@
 """
-Virtual Therapist module for simulating therapist interactions in therapy training scenarios.
+PsychotherapySingleAgent module for simulating single-agent therapist interactions in therapy training scenarios.
 Supports multiple therapy types (MI, CBT, STACER) with configurable therapist profiles.
 """
 
-from typing import List, Literal, Optional
+import warnings
+from typing import List, Optional
 from pathlib import Path
 from dataclasses import dataclass
 
 import pandas as pd
-from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage, AIMessage
+from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage
 from langchain_openai import ChatOpenAI
 from pydantic import SecretStr
 
+# Suppress langchain verbose deprecation warning
+warnings.filterwarnings("ignore", message=".*Importing verbose from langchain root module.*", category=UserWarning)
+
+import sys
+from pathlib import Path as PathLib
+# Add parent directory to path for utils import
+sys.path.insert(0, str(PathLib(__file__).parent.parent))
 from utils.api_key_loader import load_openai_api_key
 
 # Type aliases for clarity
@@ -146,12 +154,12 @@ class MessageCleaner:
         return cleaned
 
 
-class VirtualTherapist:
+class PsychotherapySingleAgent:
     """
-    Simulates a therapist in therapy training scenarios.
+    Simulates a single-agent therapist in therapy training scenarios.
 
-    The virtual therapist responds to supervisor feedback and questions based on
-    their profile and the conversation history.
+    The therapist responds based on their profile and the conversation history.
+    Used for simple and complex single-agent modes.
     """
 
     def __init__(
@@ -164,7 +172,7 @@ class VirtualTherapist:
             use_base_prompt: bool = True
     ):
         """
-        Initialize a virtual therapist.
+        Initialize a single-agent therapist.
 
         Args:
             api_key: OpenAI API key
@@ -276,17 +284,17 @@ class VirtualTherapist:
             self.system_prompt = addon
 
     def __repr__(self) -> str:
-        """String representation of the virtual therapist."""
+        """String representation of the single-agent therapist."""
         if self.profile:
-            return f"VirtualTherapist(name={self.profile.name})"
-        return f"VirtualTherapist(no_profile)"
+            return f"PsychotherapySingleAgent(name={self.profile.name})"
+        return f"PsychotherapySingleAgent(no_profile)"
 
 
 # Example usage
 if __name__ == "__main__":
     # Initialize therapist
     key = load_openai_api_key()
-    therapist = VirtualTherapist(
+    therapist = PsychotherapySingleAgent(
         api_key=key,
         therapist_index=1
     )
@@ -301,3 +309,4 @@ if __name__ == "__main__":
 
     response = therapist.get_response(conversation)
     print(f"Therapist: {response}")
+

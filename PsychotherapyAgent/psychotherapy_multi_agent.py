@@ -1,14 +1,18 @@
 """
-Main PsychotherapyAgent Orchestrator.
+Main PsychotherapyMultiAgent Orchestrator.
 
-Coordinates all workflows and provides the public API.
+Coordinates all workflows and provides the public API for multi-agent therapist system.
 """
 
+import warnings
 import logging
 from datetime import datetime
 from typing import Optional
 from pydantic import SecretStr
 from langchain.schema import HumanMessage
+
+# Suppress langchain verbose deprecation warning
+warnings.filterwarnings("ignore", message=".*Importing verbose from langchain root module.*", category=UserWarning)
 
 from .graph_state import LBState, PatientContext
 
@@ -33,30 +37,28 @@ logging.basicConfig(
 )
 
 
-class PsychotherapyAgent:
+class PsychotherapyMultiAgent:
     """
-    Main orchestrator class for PsychotherapyAgent virtual patient simulation.
+    Main orchestrator class for PsychotherapyAgent virtual patient simulation with multi-agent therapist.
     
     Coordinates four main workflows:
     1. Initialization: Setup session and patient profile
-    2. Interview: Virtual patient conversation (with optional multi-agent therapist)
+    2. Interview: Virtual patient conversation (with multi-agent therapist: proposer + judge)
     3. Feedback: Generate evaluation and MI form
     4. Evaluator: Q&A about evaluation
     """
     
-    def __init__(self, api_key: str, use_multi_agent: bool = True, use_base_prompt: bool = True):
+    def __init__(self, api_key: str, use_base_prompt: bool = True):
         """
-        Initialize PsychotherapyAgent.
+        Initialize PsychotherapyMultiAgent.
         
         Args:
             api_key: OpenAI API key
-            use_multi_agent: If True, uses proposer+judge multi-agent system for therapist responses.
-                           If False, uses original single-agent mode (direct user input).
             use_base_prompt: If True, includes base Virtual Therapist prompt when loading CSV prompts.
                            If False, uses only CSV prompt without base prompt.
         """
         self.api_key = SecretStr(api_key)
-        self.use_multi_agent = use_multi_agent
+        self.use_multi_agent = True  # Always True for multi-agent system
         
         # Initialize managers
         self.llm_manager = LLMManager(self.api_key)
@@ -72,7 +74,7 @@ class PsychotherapyAgent:
         self.message_workflow = MessageWorkflow(
             self.llm_manager,
             self.prompt_manager,
-            use_multi_agent=self.use_multi_agent,
+            use_multi_agent=True,
             proposer_index=2,
             judge_index=3
         )
@@ -90,8 +92,7 @@ class PsychotherapyAgent:
         self.evaluator_graph = self.evaluator_workflow.build()
         
         self.current_state = None
-        mode_str = "multi-agent" if use_multi_agent else "single-agent (original)"
-        logging.info(f"PsychotherapyAgent initialized with {mode_str} mode.")
+        logging.info(f"PsychotherapyMultiAgent initialized with multi-agent mode.")
     
     def set_multi_agent_therapist_profiles(self, proposer_index: int, judge_index: int):
         """
@@ -128,7 +129,7 @@ class PsychotherapyAgent:
         Raises:
             Exception: If initialization workflow fails
         """
-        logging.info("Starting new PsychotherapyAgent session...")
+        logging.info("Starting new PsychotherapyMultiAgent session...")
         
         # Generate session metadata
         now = datetime.now()
@@ -331,3 +332,4 @@ class PsychotherapyAgent:
     def load_patient_profile(self, filepath: str) -> str:
         """Load a specific patient profile."""
         return self.file_manager.load_patient_profile(filepath)
+

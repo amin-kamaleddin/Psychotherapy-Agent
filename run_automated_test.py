@@ -8,10 +8,14 @@ import argparse
 import logging
 import subprocess
 import sys
+import warnings
 from datetime import datetime
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
+
+# Suppress langchain verbose deprecation warning
+warnings.filterwarnings("ignore", message=".*Importing verbose from langchain root module.*", category=UserWarning)
 
 # Thread-safe print lock
 print_lock = Lock()
@@ -20,9 +24,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-# Import PsychotherapyAgent from modular version
-from PsychotherapyAgent import PsychotherapyAgent
-import VirtualTherapist
+# Import PsychotherapyAgent classes from modular version
+from PsychotherapyAgent import PsychotherapyMultiAgent, PsychotherapySingleAgent
 from utils.api_key_loader import load_openai_api_key
 
 # =============================
@@ -84,10 +87,8 @@ def run_test(patient_profile_path, therapist_profile_number,
     # Determine if using multi-agent system
     use_multi_agent = (therapist_mode == "multi_agent")
 
-    # Initialize PsychotherapyAgent with appropriate mode
-    # Note: We need to pass use_base_prompt to PromptManager, but PsychotherapyAgent creates its own PromptManager
-    # We'll need to modify PsychotherapyAgent to accept this parameter, or we can set it after creation
-    lb = PsychotherapyAgent(api_key_input, use_multi_agent=use_multi_agent, use_base_prompt=use_base_prompt)
+    # Initialize PsychotherapyMultiAgent for multi-agent mode, or just for patient simulation
+    lb = PsychotherapyMultiAgent(api_key_input, use_base_prompt=use_base_prompt)
     
     # For multi-agent mode, set proposer and judge to use CSV rows 4 and 5 (indices 2 and 3)
     # CSV structure: Row 1=Header, Row 2=0_Simple_Agent (index 0), Row 3=1_Complex_Agent (index 1),
@@ -98,11 +99,11 @@ def run_test(patient_profile_path, therapist_profile_number,
         lb.set_multi_agent_therapist_profiles(proposer_index, judge_index)
         logging.info(f"Multi-agent mode: Proposer index {proposer_index}, Judge index {judge_index}")
     
-    # Initialize VirtualTherapist only for single-agent modes (simple/complex)
+    # Initialize PsychotherapySingleAgent only for single-agent modes (simple/complex)
     therapist = None
     if therapist_mode in ["simple", "complex"]:
-        # Single-agent modes: use VirtualTherapist directly
-        therapist = VirtualTherapist.VirtualTherapist(
+        # Single-agent modes: use PsychotherapySingleAgent directly
+        therapist = PsychotherapySingleAgent(
             api_key_input,
             therapist_index=therapist_profile_number,
             prompt_addon=add_on,
@@ -121,7 +122,7 @@ def run_test(patient_profile_path, therapist_profile_number,
         interview_messages = current_state.get("interview_messages", [])
         
         if therapist_mode == "multi_agent":
-            # Multi-agent mode: PsychotherapyAgent's proposer/judge system generates therapist response
+            # Multi-agent mode: PsychotherapyMultiAgent's proposer/judge system generates therapist response
             # The proposer generates 3 candidate responses based on conversation history,
             # judge selects best one, then patient responds
             # We use the message_workflow directly to generate therapist response
@@ -148,7 +149,7 @@ def run_test(patient_profile_path, therapist_profile_number,
             # Send the selected therapist response to trigger patient response
             session_result = lb.send_message(selected_response)
         else:
-            # Single-agent modes (simple/complex): VirtualTherapist generates response, send directly
+            # Single-agent modes (simple/complex): PsychotherapySingleAgent generates response, send directly
             therapist_utterance = therapist.get_response(interview_messages)
             session_result = lb.send_message(therapist_utterance)
 

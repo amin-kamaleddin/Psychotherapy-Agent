@@ -2,34 +2,30 @@
 PsychotherapyAgent - Virtual Patient Simulation System with Multi-Agent Support
 
 A modular therapy training system supporting MI (Motivational Interviewing)
-with optional multi-agent therapist system (proposer + judge).
+with multi-agent therapist system (proposer + judge) and single-agent therapist.
 
 Main Components:
-- PsychotherapyAgent: Main orchestrator class
+- PsychotherapyMultiAgent: Multi-agent orchestrator class (proposer + judge)
+- PsychotherapySingleAgent: Single-agent therapist class (simple/complex modes)
 - Workflows: Initialization, Interview (with multi-agent support), Feedback, and Evaluator workflows
 - Utils: File management, prompt loading, and formatting utilities
 - State management: Type-safe state definitions
 
 Usage:
-    from PsychotherapyAgent import PsychotherapyAgent
+    from PsychotherapyAgent import PsychotherapyMultiAgent, PsychotherapySingleAgent
 
-    agent = PsychotherapyAgent(
-        api_key="your-api-key",
-        use_multi_agent=True  # Enable multi-agent system
-    )
-
-    # Start session
+    # Multi-agent system
+    agent = PsychotherapyMultiAgent(api_key="your-api-key")
     state = agent.start_session(case_study=case_study)
-
-    # Send message
     response = agent.send_message("Hello, how are you feeling?")
 
-    # End session and get feedback
-    final_state = agent.end_session()
+    # Single-agent system
+    therapist = PsychotherapySingleAgent(api_key="your-api-key", therapist_index=0)
 """
 
-# Import main class from psychotherapy_agent module
-from .psychotherapy_agent import PsychotherapyAgent
+# Import classes from new module names
+from .psychotherapy_multi_agent import PsychotherapyMultiAgent
+from .psychotherapy_single_agent import PsychotherapySingleAgent
 
 # Import state types
 from .graph_state import LBState, PatientContext
@@ -40,8 +36,9 @@ __author__ = "PsychotherapyAgent Team"
 
 # Public API - what users can import
 __all__ = [
-    # Main class
-    'PsychotherapyAgent',
+    # Main classes
+    'PsychotherapyMultiAgent',
+    'PsychotherapySingleAgent',
 
     # State types (for type hints and advanced usage)
     'LBState',
