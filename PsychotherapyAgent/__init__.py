@@ -26,6 +26,7 @@ Usage:
 # Import classes from new module names
 from .psychotherapy_multi_agent import PsychotherapyMultiAgent
 from .psychotherapy_single_agent import PsychotherapySingleAgent
+from .psychotherapy_core import PsychotherapyCore
 
 # Import state types
 from .graph_state import LBState, PatientContext
@@ -37,8 +38,9 @@ __author__ = "PsychotherapyAgent Team"
 # Public API - what users can import
 __all__ = [
     # Main classes
-    'PsychotherapyMultiAgent',
-    'PsychotherapySingleAgent',
+    'PsychotherapyMultiAgent',    # Multi-agent therapist system (proposer + judge)
+    'PsychotherapySingleAgent',   # Single-agent therapist with session management (for simple/complex modes)
+    'PsychotherapyCore',          # Core patient simulation and session management (shared)
 
     # State types (for type hints and advanced usage)
     'LBState',

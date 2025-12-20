@@ -65,14 +65,27 @@ class MessageWorkflow:
     
     def _process_user_input(self, state: LBState):
         """Process user input during interview."""
-        user_input = state.get("interview_messages")[-1].content if state.get("interview_messages") else None
-        logging.info(f"Processing user input: ...")
+        interview_messages = state.get("interview_messages", [])
         
-        if not user_input:
-            logging.error("User input is Empty...")
-            return state
+        if self.use_multi_agent:
+            # Multi-agent mode: Generate therapist response from conversation history
+            # The last message in interview_messages is typically the patient's previous response
+            # (or initial system message for first exchange)
+            if not interview_messages:
+                logging.error("No interview messages found for multi-agent mode.")
+                return state
+            logging.info(f"Multi-agent mode: Generating therapist response from conversation history ({len(interview_messages)} messages)...")
+            next_phase = "propose_responses"
+        else:
+            # Single-agent mode: Expect user input (therapist message)
+            user_input = interview_messages[-1].content if interview_messages else None
+            logging.info(f"Processing user input: ...")
+            
+            if not user_input:
+                logging.error("User input is Empty...")
+                return state
+            next_phase = "generate_response"
         
-        next_phase = "propose_responses" if self.use_multi_agent else "generate_response"
         return {
             "current_phase": next_phase,
         }

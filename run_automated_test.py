@@ -87,23 +87,21 @@ def run_test(patient_profile_path, therapist_profile_number,
     # Determine if using multi-agent system
     use_multi_agent = (therapist_mode == "multi_agent")
 
-    # Initialize PsychotherapyMultiAgent for multi-agent mode, or just for patient simulation
-    lb = PsychotherapyMultiAgent(api_key_input, use_base_prompt=use_base_prompt)
-    
-    # For multi-agent mode, set proposer and judge to use CSV rows 4 and 5 (indices 2 and 3)
-    # CSV structure: Row 1=Header, Row 2=0_Simple_Agent (index 0), Row 3=1_Complex_Agent (index 1),
-    #                Row 4=2_MultiAgent_Proposer (index 2), Row 5=3_MultiAgent_Judge (index 3)
+    # Initialize appropriate session manager based on mode
     if use_multi_agent:
+        # Multi-agent mode: use PsychotherapyMultiAgent
+        lb = PsychotherapyMultiAgent(api_key_input, use_base_prompt=use_base_prompt)
+        
+        # Set proposer and judge to use CSV rows 4 and 5 (indices 2 and 3)
+        # CSV structure: Row 1=Header, Row 2=0_Simple_Agent (index 0), Row 3=1_Complex_Agent (index 1),
+        #                Row 4=2_MultiAgent_Proposer (index 2), Row 5=3_MultiAgent_Judge (index 3)
         proposer_index = 2  # Row 4 in CSV: 2_MultiAgent_Proposer
         judge_index = 3     # Row 5 in CSV: 3_MultiAgent_Judge
         lb.set_multi_agent_therapist_profiles(proposer_index, judge_index)
         logging.info(f"Multi-agent mode: Proposer index {proposer_index}, Judge index {judge_index}")
-    
-    # Initialize PsychotherapySingleAgent only for single-agent modes (simple/complex)
-    therapist = None
-    if therapist_mode in ["simple", "complex"]:
-        # Single-agent modes: use PsychotherapySingleAgent directly
-        therapist = PsychotherapySingleAgent(
+    else:
+        # Single-agent modes (simple/complex): use PsychotherapySingleAgent
+        lb = PsychotherapySingleAgent(
             api_key_input,
             therapist_index=therapist_profile_number,
             prompt_addon=add_on,
@@ -118,40 +116,10 @@ def run_test(patient_profile_path, therapist_profile_number,
 
     # Run 10 exchanges between therapist and patient
     for exchange_num in range(10):
-        current_state = lb.get_session_state()
-        interview_messages = current_state.get("interview_messages", [])
-        
-        if therapist_mode == "multi_agent":
-            # Multi-agent mode: PsychotherapyMultiAgent's proposer/judge system generates therapist response
-            # The proposer generates 3 candidate responses based on conversation history,
-            # judge selects best one, then patient responds
-            # We use the message_workflow directly to generate therapist response
-            
-            # Access the message workflow's proposer and judge methods
-            message_workflow = lb.message_workflow
-            
-            # Create state for proposer/judge
-            temp_state = {"interview_messages": interview_messages}
-            
-            # Generate 3 candidate therapist responses using proposer
-            proposer_result = message_workflow._propose_therapist_responses(temp_state)
-            candidates = proposer_result.get("therapist_candidates", [])
-            
-            if candidates:
-                # Use judge to select best response
-                judge_state = {**temp_state, "therapist_candidates": candidates}
-                judge_result = message_workflow._judge_therapist_responses(judge_state)
-                selected_response = judge_result.get("selected_therapist_response", candidates[0])
-            else:
-                # Fallback if proposer fails
-                selected_response = "How are you feeling today?" if exchange_num == 0 else "Can you tell me more about that?"
-            
-            # Send the selected therapist response to trigger patient response
-            session_result = lb.send_message(selected_response)
-        else:
-            # Single-agent modes (simple/complex): PsychotherapySingleAgent generates response, send directly
-            therapist_utterance = therapist.get_response(interview_messages)
-            session_result = lb.send_message(therapist_utterance)
+        # Both modes now use send_message() which handles therapist + patient response automatically
+        # Multi-agent: proposer/judge generates therapist response internally
+        # Single-agent: PsychotherapySingleAgent generates therapist response internally
+        session_result = lb.send_message()
 
     # End session and get feedback
     session_result = lb.end_session()

@@ -1,12 +1,15 @@
 """
 PsychotherapySingleAgent module for simulating single-agent therapist interactions in therapy training scenarios.
-Supports multiple therapy types (MI, CBT, STACER) with configurable therapist profiles.
+Supports MI (Motivational Interviewing) with configurable therapist profiles.
+
+This class combines:
+- Therapist response generation (single-agent modes: simple/complex)
+- Patient simulation and session management (via PsychotherapyCore)
 """
 
 import warnings
+import logging
 from typing import List, Optional
-from pathlib import Path
-from dataclasses import dataclass
 
 import pandas as pd
 from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage
@@ -16,98 +19,11 @@ from pydantic import SecretStr
 # Suppress langchain verbose deprecation warning
 warnings.filterwarnings("ignore", message=".*Importing verbose from langchain root module.*", category=UserWarning)
 
-import sys
-from pathlib import Path as PathLib
-# Add parent directory to path for utils import
-sys.path.insert(0, str(PathLib(__file__).parent.parent))
-from utils.api_key_loader import load_openai_api_key
+from .psychotherapy_core import PsychotherapyCore
+from .prompt_manager import PromptManager
 
 # Type aliases for clarity
 MessageList = List[BaseMessage]
-
-
-@dataclass(frozen=True)
-class TherapistProfile:
-    """Represents a therapist's profile configuration."""
-    name: str
-    prompt_content: str
-
-
-class PromptLoader:
-    """Handles loading and caching of prompts from files."""
-
-    _cache: dict[Path, str] = {}
-
-    @classmethod
-    def load(cls, filepath: str) -> str:
-        """Load prompt from file with caching."""
-        path = Path(filepath)
-
-        if path not in cls._cache:
-            if not path.exists():
-                raise FileNotFoundError(f"Prompt file not found: {filepath}")
-
-            with open(path, 'r', encoding='utf-8') as f:
-                cls._cache[path] = f.read()
-
-        return cls._cache[path]
-
-    @classmethod
-    def clear_cache(cls):
-        """Clear the prompt cache (useful for testing/reloading)."""
-        cls._cache.clear()
-
-
-class TherapistProfileLoader:
-    """Handles loading therapist profiles from CSV files."""
-
-    PROFILE_PATHS = "Therapist_Prompts/therapist_prompts.csv"
-
-    PROMPT_PATHS = "Prompts/MI/virtual_therapist_prompt.txt"
-
-    @classmethod
-    def load_profile(cls, therapist_index: int = 0, use_base_prompt: bool = True) -> TherapistProfile:
-        """
-        Load a therapist profile for the given therapy type and index.
-
-        Args:
-            therapy_type: Type of therapy (MI, CBT, STACER)
-            therapist_index: Index of therapist profile to load (default: 0)
-
-        Returns:
-            TherapistProfile with loaded data
-
-        Raises:
-            FileNotFoundError: If profile files don't exist
-        """
-
-        # Load CSV
-        profile_path = Path(cls.PROFILE_PATHS)
-        if not profile_path.exists():
-            raise FileNotFoundError(f"Profile CSV not found: {profile_path}")
-
-        df = pd.read_csv(profile_path, quotechar='"', skipinitialspace=True)
-
-        # Validate index
-        if therapist_index >= len(df) or therapist_index < 0:
-            raise ValueError(
-                f"Therapist index {therapist_index} out of range. "
-                f"Available: 0-{len(df) - 1}"
-            )
-
-        # Load base prompt and profile
-        therapist_row = df.iloc[therapist_index]
-        
-        if use_base_prompt:
-            base_prompt = PromptLoader.load(cls.PROMPT_PATHS)
-            prompt_content = base_prompt + therapist_row["Prompt"]
-        else:
-            prompt_content = therapist_row["Prompt"]
-
-        return TherapistProfile(
-            name=therapist_row["Name"],
-            prompt_content=prompt_content,
-        )
 
 
 class MessageCleaner:
@@ -156,10 +72,23 @@ class MessageCleaner:
 
 class PsychotherapySingleAgent:
     """
-    Simulates a single-agent therapist in therapy training scenarios.
-
-    The therapist responds based on their profile and the conversation history.
+    Complete single-agent therapist system for therapy training scenarios.
+    
+    This class combines:
+    - Therapist response generation (simple/complex modes)
+    - Patient simulation and session management (via PsychotherapyCore)
+    
     Used for simple and complex single-agent modes.
+    
+    Usage:
+        therapist = PsychotherapySingleAgent(
+            api_key="your-key",
+            therapist_index=0,  # 0=simple, 1=complex
+            use_base_prompt=True
+        )
+        therapist.start_session(case_study=case_study)
+        result = therapist.send_message()  # Therapist generates response, patient responds
+        therapist.end_session()
     """
 
     def __init__(
@@ -172,7 +101,7 @@ class PsychotherapySingleAgent:
             use_base_prompt: bool = True
     ):
         """
-        Initialize a single-agent therapist.
+        Initialize a single-agent therapist with session management.
 
         Args:
             api_key: OpenAI API key
@@ -189,6 +118,12 @@ class PsychotherapySingleAgent:
         self.temperature = temperature
         self.use_base_prompt = use_base_prompt
 
+        # Initialize patient session management
+        self.core = PsychotherapyCore(api_key, use_base_prompt=use_base_prompt)
+
+        # Initialize prompt manager (same as multi-agent uses)
+        self.prompt_manager = PromptManager(use_base_prompt=use_base_prompt)
+
         # Initialize LLM
         llm_kwargs = {
             "model": model,
@@ -199,13 +134,20 @@ class PsychotherapySingleAgent:
             llm_kwargs["temperature"] = temperature
         self.llm = ChatOpenAI(**llm_kwargs)
 
-        # Load therapist profile
-        self.profile: Optional[TherapistProfile] = None
-        self.system_prompt: str = ""
-
-        self.profile = TherapistProfileLoader.load_profile(therapist_index, use_base_prompt=use_base_prompt)
-        self.system_prompt = self.profile.prompt_content + prompt_addon
-        print(f"✓ Therapist Profile Loaded: {self.profile.name}")
+        # Load therapist prompt using PromptManager (same as multi-agent)
+        prompt_content = self.prompt_manager.load_therapist_prompt_from_csv(therapist_index)
+        self.system_prompt = prompt_content + prompt_addon
+        
+        # Get therapist name from CSV for logging
+        try:
+            df = pd.read_csv("Therapist_Prompts/therapist_prompts.csv", quotechar='"', skipinitialspace=True)
+            if therapist_index < len(df):
+                therapist_name = df.iloc[therapist_index]["Name"]
+                logging.info(f"Therapist Profile Loaded: {therapist_name}")
+        except Exception as e:
+            logging.warning(f"Could not load therapist name: {e}")
+        
+        logging.info(f"PsychotherapySingleAgent initialized with therapist index {therapist_index}")
 
     def get_response(self, conversation: MessageList) -> str:
         """
@@ -258,14 +200,22 @@ class PsychotherapySingleAgent:
         Returns:
             Dictionary with profile details
         """
-        if not self.profile:
-            return {
-                "loaded": False,
-            }
-
+        try:
+            df = pd.read_csv("Therapist_Prompts/therapist_prompts.csv", quotechar='"', skipinitialspace=True)
+            if self.therapist_index < len(df):
+                therapist_name = df.iloc[self.therapist_index]["Name"]
+                return {
+                    "loaded": True,
+                    "name": therapist_name,
+                    "therapist_index": self.therapist_index,
+                    "model": self.model,
+                    "temperature": self.temperature
+                }
+        except Exception as e:
+            logging.warning(f"Could not load therapist profile info: {e}")
+        
         return {
-            "loaded": True,
-            "name": self.profile.name,
+            "loaded": False,
             "therapist_index": self.therapist_index,
             "model": self.model,
             "temperature": self.temperature
@@ -278,35 +228,101 @@ class PsychotherapySingleAgent:
         Args:
             addon: Additional text to append to base prompt
         """
-        if self.profile:
-            self.system_prompt = self.profile.prompt_content + addon
+        # Reload base prompt and add new addon
+        prompt_content = self.prompt_manager.load_therapist_prompt_from_csv(self.therapist_index)
+        self.system_prompt = prompt_content + addon
+
+    # Session management methods (delegate to PsychotherapyCore)
+    def start_session(
+        self,
+        case_study: Optional[str] = None,
+        selected_profile: Optional[str] = None,
+        session_metadata: Optional[dict] = None
+    ):
+        """Start a new session."""
+        return self.core.start_session(case_study, selected_profile, session_metadata)
+    
+    def send_message(self, user_input: Optional[str] = None) -> dict:
+        """
+        Send a message and get response.
+        
+        If user_input is provided, it's used as the therapist's message.
+        If user_input is None, the therapist generates a response automatically.
+        
+        Args:
+            user_input: Optional therapist message. If None, therapist generates response.
+            
+        Returns:
+            Dictionary with therapist response, patient response, and session state
+        """
+        # Get current interview messages
+        current_state = self.core.get_session_state()
+        interview_messages = current_state.get("interview_messages", [])
+        
+        # Generate therapist response if not provided
+        if user_input is None:
+            therapist_response = self.get_response(interview_messages)
         else:
-            self.system_prompt = addon
+            therapist_response = user_input
+        
+        # Send therapist message and get patient response
+        result = self.core.send_therapist_message(therapist_response)
+        
+        return {
+            "therapist_response": therapist_response,
+            "patient_response": result.get("patient_response"),
+            "session_active": result.get("session_active", True),
+            "current_phase": result.get("current_phase"),
+            "chatlog": result.get("chatlog", [])
+        }
+    
+    def end_session(self):
+        """End session and generate feedback."""
+        return self.core.end_session()
+    
+    def get_session_state(self):
+        """Get current session state."""
+        return self.core.get_session_state()
+    
+    def reset_session(self):
+        """Reset current session state."""
+        return self.core.reset_session()
+    
+    def get_session_statistics(self):
+        """Get current session statistics."""
+        return self.core.get_session_statistics()
+    
+    def export_session_data(self):
+        """Export session data for analysis."""
+        return self.core.export_session_data()
+    
+    def load_patient_profile(self, filepath: str) -> str:
+        """Load a specific patient profile."""
+        return self.core.load_patient_profile(filepath)
+    
+    def send_evaluator_message(self, user_input: str):
+        """Send message to evaluator."""
+        return self.core.send_evaluator_message(user_input)
+    
+    def add_presentation_message(self, user_input: str):
+        """Add presentation message."""
+        return self.core.add_presentation_message(user_input)
+    
+    @property
+    def current_state(self):
+        """Access to current state for backward compatibility."""
+        return self.core.current_state
+    
+    @current_state.setter
+    def current_state(self, value):
+        """Setter for current state for backward compatibility."""
+        self.core.current_state = value
 
     def __repr__(self) -> str:
         """String representation of the single-agent therapist."""
-        if self.profile:
-            return f"PsychotherapySingleAgent(name={self.profile.name})"
-        return f"PsychotherapySingleAgent(no_profile)"
+        profile_info = self.get_profile_info()
+        if profile_info.get("loaded"):
+            return f"PsychotherapySingleAgent(name={profile_info['name']})"
+        return f"PsychotherapySingleAgent(index={self.therapist_index})"
 
-
-# Example usage
-if __name__ == "__main__":
-    # Initialize therapist
-    key = load_openai_api_key()
-    therapist = PsychotherapySingleAgent(
-        api_key=key,
-        therapist_index=1
-    )
-
-    # Get profile info
-    print(therapist.get_profile_info())
-
-    # Simulate conversation
-    conversation = [
-        HumanMessage(content="I think I am depressed")
-    ]
-
-    response = therapist.get_response(conversation)
-    print(f"Therapist: {response}")
 
