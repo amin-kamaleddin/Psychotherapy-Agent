@@ -10,7 +10,7 @@ import warnings
 import logging
 from typing import Optional
 from pydantic import SecretStr
-from langchain.schema import HumanMessage
+from langchain.schema import HumanMessage, AIMessage
 
 # Suppress langchain verbose deprecation warning
 warnings.filterwarnings("ignore", message=".*Importing verbose from langchain root module.*", category=UserWarning)
@@ -117,7 +117,27 @@ class PsychotherapyMultiAgent:
             # The multi-agent workflow expects interview_messages to contain the conversation history
             # The last message should be the patient's previous response (or initial system message for first exchange)
             # The workflow will: propose_responses → judge_responses → generate_response (patient)
+            
+            # Log state before invocation
+            interview_messages_before = self.core.current_state.get("interview_messages", [])
+            logging.info(f"Before workflow: interview_messages count = {len(interview_messages_before)}")
+            
             result = self.message_graph.invoke(self.core.current_state)
+            
+            # Verify that patient response was generated
+            interview_messages_after = result.get("interview_messages", [])
+            logging.info(f"After workflow: interview_messages count = {len(interview_messages_after)}")
+            
+            if len(interview_messages_after) <= len(interview_messages_before):
+                logging.error(f"ERROR: Patient response not added! Before: {len(interview_messages_before)}, After: {len(interview_messages_after)}")
+                return {"error": "Patient response was not generated"}
+            
+            # Check that last message is from patient (AIMessage)
+            if interview_messages_after:
+                last_msg = interview_messages_after[-1]
+                if not isinstance(last_msg, AIMessage):
+                    logging.warning(f"Last message is not AIMessage (patient), it's {type(last_msg).__name__}")
+            
             self.core.current_state = result
             
             return {
@@ -127,7 +147,7 @@ class PsychotherapyMultiAgent:
                 "chatlog": result.get("chatlog", [])
             }
         except Exception as e:
-            logging.error(f"Error processing message: {str(e)}")
+            logging.error(f"Error processing message: {str(e)}", exc_info=True)
             return {"error": str(e)}
     
     def add_presentation_message(self, user_input: str):

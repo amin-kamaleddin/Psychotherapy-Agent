@@ -1,11 +1,11 @@
 Criterion,N,Wilcoxon_Statistic,p_value,Significant,simple_mean,multi_agent_mean,simple_std,multi_agent_std,Mean_Difference,Direction,Effect_Size
-Acceptance,20,6.0,0.000331,Yes,3.805,4.177,0.204,0.257,-0.372,multi_agent > simple,-1.406
-Empathy,20,48.0,0.058344,No,3.956,4.162,0.375,0.279,-0.205,multi_agent > simple,-0.5622
-Direction,20,10.5,0.000663,Yes,3.894,4.293,0.308,0.316,-0.4,multi_agent > simple,-1.0607
-Collaboration,20,35.0,0.00892,Yes,3.932,4.275,0.349,0.484,-0.342,multi_agent > simple,-0.5774
-Autonomy Support,20,23.0,0.003724,Yes,3.872,4.16,0.253,0.336,-0.287,multi_agent > simple,-0.7521
-Evocation,20,22.0,0.003281,Yes,3.634,3.908,0.252,0.385,-0.275,multi_agent > simple,-0.8265
-Partnership,20,18.0,0.001158,Yes,3.531,4.103,0.399,0.328,-0.572,multi_agent > simple,-1.1117
-Cultivating Change Talk,20,3.0,0.000213,Yes,3.126,3.683,0.492,0.5,-0.557,multi_agent > simple,-1.3254
-Softening Sustain Talk,20,30.0,0.005088,Yes,3.364,3.682,0.391,0.375,-0.318,multi_agent > simple,-0.8053
-Overall Average,20,1.0,4e-06,Yes,3.679,4.049,0.188,0.232,-0.37,multi_agent > simple,-2.2587
+Acceptance,19,8.0,0.006465,Yes,3.579,4.268,0.815,0.413,-0.689,multi_agent > simple,-0.6973
+Empathy,19,20.0,0.064056,No,3.947,4.361,0.825,0.456,-0.413,multi_agent > simple,-0.4259
+Direction,19,19.0,0.03011,Yes,3.768,4.268,0.832,0.413,-0.5,multi_agent > simple,-0.5346
+Collaboration,19,11.0,0.013192,Yes,3.789,4.426,0.766,0.468,-0.637,multi_agent > simple,-0.7143
+Autonomy Support,19,12.0,0.026206,Yes,3.663,4.184,0.859,0.37,-0.521,multi_agent > simple,-0.5854
+Evocation,19,5.5,0.00063,Yes,3.0,4.216,0.649,0.499,-1.216,multi_agent > simple,-1.3364
+Partnership,19,9.0,0.031056,Yes,3.421,4.111,0.99,0.623,-0.689,multi_agent > simple,-0.5331
+Cultivating Change Talk,19,4.5,0.003165,Yes,3.0,3.895,0.795,0.552,-0.895,multi_agent > simple,-0.9247
+Softening Sustain Talk,19,15.0,0.004804,Yes,3.032,3.834,0.806,0.453,-0.803,multi_agent > simple,-0.8525
+Overall Average,19,9.0,0.000534,Yes,3.467,4.174,0.523,0.271,-0.707,multi_agent > simple,-1.1084

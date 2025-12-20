@@ -294,16 +294,26 @@ Generate exactly 3 different therapist responses. Format strictly as:
             interview_messages = state.get("interview_messages", [])
             selected_therapist_response = state.get("selected_therapist_response")
             
-            if selected_therapist_response:
-                interview_messages_with_therapist = interview_messages[:-1] if interview_messages else []
-                interview_messages_with_therapist.append(HumanMessage(content=selected_therapist_response))
-                logging.info(f"Therapist selected response: {sanitize_for_logging(selected_therapist_response)}...")
-            else:
-                interview_messages_with_therapist = interview_messages
-                logging.warning("No selected therapist response found, using original messages.")
+            if not selected_therapist_response:
+                logging.error("No selected therapist response found in state!")
+                return {**state, "error_message": "No selected therapist response found"}
+            
+            # Log current state of interview_messages before adding therapist response
+            logging.info(f"Current interview_messages count: {len(interview_messages)}")
+            if interview_messages:
+                last_msg_type = type(interview_messages[-1]).__name__
+                logging.info(f"Last message type: {last_msg_type}")
+            
+            # Add therapist response to conversation history (keep all previous messages)
+            interview_messages_with_therapist = [
+                *interview_messages,
+                HumanMessage(content=selected_therapist_response)
+            ]
+            logging.info(f"Therapist selected response added (length: {len(selected_therapist_response)} chars)")
             
             response = self.llm_manager.llm_mini_virtualPatient.invoke(interview_messages_with_therapist)
             
+            # Add patient response to complete the exchange
             updated_messages = [
                 *interview_messages_with_therapist,
                 AIMessage(content=response.content)
@@ -313,9 +323,10 @@ Generate exactly 3 different therapist responses. Format strictly as:
             
             return {
                 "interview_messages": updated_messages,
+                "ai_response": response.content,  # Also return for API compatibility
                 "current_phase": "message_complete"
             }
         except Exception as e:
-            logging.error(f"Error generating AI response: {str(e)}")
+            logging.error(f"Error generating AI response: {str(e)}", exc_info=True)
             return {**state, "error_message": f"AI response generation failed: {str(e)}"}
 
