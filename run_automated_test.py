@@ -416,7 +416,7 @@ def run_comparison_experiment(args):
     print("=" * 80)
     
     # Run evaluation scripts after comparison completes
-    aggregate_metrics()
+    aggregate_metrics(skip_sentiment=args.skip_sentiment)
     
     return {
         "simple_folder": simple_folder,
@@ -530,8 +530,12 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
     }
 
 
-def aggregate_metrics():
-    """Run all Python scripts in Eval folder in the correct order."""
+def aggregate_metrics(skip_sentiment=False):
+    """Run all Python scripts in Eval folder in the correct order.
+    
+    Args:
+        skip_sentiment: If True, skip sentiment_analysis.py
+    """
     eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
     
     # Define the order of scripts to run (starting with sentiment_analysis, ending with plot_metrics)
@@ -544,6 +548,11 @@ def aggregate_metrics():
         "feedback_statistical_test.py",
         "plot_metrics.py"
     ]
+    
+    # Skip sentiment analysis if requested
+    if skip_sentiment:
+        eval_scripts = [s for s in eval_scripts if s != "sentiment_analysis.py"]
+        print("⚠️  Skipping sentiment analysis as requested")
     
     print("\n" + "=" * 80)
     print("RUNNING EVALUATION SCRIPTS")
@@ -613,6 +622,8 @@ if __name__ == "__main__":
                         help="Include base Virtual Therapist prompt when loading CSV prompts (default: True)")
     parser.add_argument("--no-base-prompt", dest="use_base_prompt", action="store_false",
                         help="Disable base Virtual Therapist prompt (use only CSV prompt)")
+    parser.add_argument("--skip-sentiment", action="store_true",
+                        help="Skip sentiment analysis when running evaluation scripts")
 
     args = parser.parse_args()
 
