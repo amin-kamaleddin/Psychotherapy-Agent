@@ -123,8 +123,6 @@ class FeedbackWorkflow:
         # Generate Full Feedback with scores
         messages.append(HumanMessage(content="""
                                             Now provide your comprehensive, strict evaluation of this diagnostic session. 
-                                            Be thorough, critical, and specific in identifying areas for improvement.
-                                            Structure your feedback using all the sections mentioned.
                                             """))
         
         try:
