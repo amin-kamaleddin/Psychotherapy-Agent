@@ -6,14 +6,8 @@ For each criterion, give a score from 1 to 5 based of the defined scoring scale 
 The scoring scale also provides an example of how that score is met and a required number of instances needed throughout the conversation to meet that score.
 After giving each score, give an explanation of the score, making direct reference to the source material.
 
-The feedback should be very fair and constructive. 
-
-You should only base your feedback for the categories on both the Doctor and Patient's responses in the conversation transcript.
-Ignore typos when generating your feedback. 
-
 Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later. Do not praise mediocre performance.
 
-Format your feedback with clear sections and use markdown formatting for emphasis on critical points.
 Use the following example to help with formatting:
 
                             ## DETAILED CLINICAL EVALUATION
@@ -90,7 +84,3 @@ The psychiatrist demonstrates strong collaboration throughout the session, consi
 ---
 
 **Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
-
-**Summary:**
-This session demonstrates a solid foundation in motivational interviewing, with consistent respect, empathy, and collaboration. However, it falls short of excellence due to formulaic responses, lack of depth in reflections, insufficient amplification of change talk, and weak planning/summarizing. To reach a higher level of MI proficiency, the psychiatrist must deepen emotional attunement, skillfully handle ambivalence, and more actively evoke and reinforce the client’s own motivations and strengths.
-
