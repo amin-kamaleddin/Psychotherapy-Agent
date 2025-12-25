@@ -197,9 +197,6 @@ class FeedbackWorkflow:
 
               Here is the full patient profile, which can be used to answer questions about the patient:
               {case_study}
-
-              Begin by giving a 'feedback sandwich': positive, then constructive critique, then end with positive support. 
-              After that, respond to any questions the user may ask about the evaluation or the scoring.
               """
         
         initial_messages = [
