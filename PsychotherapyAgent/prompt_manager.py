@@ -25,7 +25,6 @@ class PromptManager:
         self.prompt_paths = {
             'Clinical Summary': 'Prompts/MI/clinical_summary_prompt.txt',
             'Virtual Patient': 'Prompts/MI/virtual_patient_prompt.txt',
-            'Verification': 'Prompts/MI/patient_profile_verification_prompt.txt',
             'Feedback': 'Prompts/MI/feedback_agent_prompt.txt',
             'MI Prompt': 'Prompts/MI/MI_form_prompt.txt',
             'Virtual Evaluator': 'Prompts/MI/virtual_evaluator_prompt.txt',

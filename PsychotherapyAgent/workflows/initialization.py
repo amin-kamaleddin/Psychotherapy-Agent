@@ -1,7 +1,7 @@
 """
 Initialization Workflow for PsychotherapyAgent.
 
-Handles session initialization: patient profile selection, verification,
+Handles session initialization: patient profile selection,
 clinical summary generation, and roleplay setup.
 """
 
@@ -36,12 +36,10 @@ class InitializationWorkflow:
         workflow = StateGraph(state_schema=LBState)
         
         workflow.add_node("initialize", RunnableLambda(self._select_patient_profile))
-        workflow.add_node("verify_profile", RunnableLambda(self._profile_verification))
         workflow.add_node("generate_summary", RunnableLambda(self._clinical_summary))
         workflow.add_node("setup_roleplay", RunnableLambda(self._roleplay_setup))
         workflow.set_entry_point("initialize")
-        workflow.add_edge("initialize", "verify_profile")
-        workflow.add_edge("verify_profile", "generate_summary")
+        workflow.add_edge("initialize", "generate_summary")
         workflow.add_edge("generate_summary", "setup_roleplay")
         workflow.add_edge("setup_roleplay", END)
         
@@ -76,7 +74,6 @@ class InitializationWorkflow:
             return {
                 "patient_context": {
                     "case_study": case_study,
-                    "diagnosis_summary": "",
                     "clinical_summary": "",
                     "profile_path": selected_profile
                 },
@@ -89,48 +86,6 @@ class InitializationWorkflow:
                 "current_phase": "error",
                 "error": f"Failed to load case study: {str(e)}"
             }
-    
-    def _profile_verification(self, state: LBState) -> dict:
-        """Verifies the loaded patient profile."""
-        logging.info("Starting profile verification phase.")
-        
-        patient_ctx = state.get("patient_context")
-        if not patient_ctx or not patient_ctx.get("case_study"):
-            return {
-                "current_phase": "error",
-                "error": "Verification failed: Missing case_study in patient_context."
-            }
-        
-        case_study = patient_ctx["case_study"]
-        max_attempts = 3
-        attempt = 0
-        response_content = ""
-        
-        while attempt < max_attempts:
-            attempt += 1
-            try:
-                instruction_prompt = self.prompt_manager.load_prompt('Verification')
-                messages = [
-                    SystemMessage(content=instruction_prompt + case_study),
-                ]
-                response = self.llm_manager.llm_mini_verification.invoke(messages)
-                response_content = response.content
-                break
-            
-            except Exception as e:
-                logging.error(f"Error in profile verification: {str(e)}", exc_info=True)
-                return {
-                    "current_phase": "error",
-                    "error": f"Profile verification failed: {str(e)}"
-                }
-        
-        return {
-            "patient_context": {
-                **patient_ctx,
-                "diagnosis_summary": response_content,
-            },
-            "current_phase": "generate_summary"
-        }
     
     def _clinical_summary(self, state: LBState) -> dict:
         """Generates a clinical summary."""

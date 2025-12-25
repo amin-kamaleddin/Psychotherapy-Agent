@@ -28,10 +28,6 @@ class LLMManager:
         openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
         
         # Core LLMs (OpenAI gpt-5-mini)
-        self.llm_mini_verification = ChatOpenAI(
-            model="gpt-5-mini",
-            api_key=self.api_key
-        )
         self.llm_mini_summary = ChatOpenAI(
             model="gpt-5-mini",
             api_key=self.api_key
