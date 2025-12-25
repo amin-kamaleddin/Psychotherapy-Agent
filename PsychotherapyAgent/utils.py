@@ -7,7 +7,7 @@ Provides file management and prompt loading functionality.
 import os
 import random
 from datetime import datetime
-from typing import Optional
+from typing import Optional, List, Dict, Any
 import logging
 
 
@@ -148,6 +148,69 @@ class FileManager:
         except Exception:
             return None
 
+    def _format_judge_proposer_conversation(self, conversation_history: Optional[List[Dict[str, Any]]]) -> str:
+        """
+        Format judge-proposer conversation history into readable text.
+        
+        Args:
+            conversation_history: List of turn records from judge-proposer interactions
+            
+        Returns:
+            Formatted text string
+        """
+        if not conversation_history:
+            return "No judge-proposer conversation recorded (single-agent mode or no interactions)."
+        
+        lines = []
+        lines.append("=" * 80)
+        lines.append("JUDGE-PROPOSER CONVERSATION HISTORY")
+        lines.append("=" * 80)
+        lines.append("")
+        
+        for turn_record in conversation_history:
+            turn_num = turn_record.get("turn_number", "?")
+            lines.append(f"{'=' * 80}")
+            lines.append(f"TURN {turn_num}")
+            lines.append(f"{'=' * 80}")
+            lines.append("")
+            
+            # Candidate responses from proposer
+            lines.append("CANDIDATE RESPONSES FROM PROPOSER:")
+            lines.append("-" * 80)
+            candidate_responses = turn_record.get("candidate_responses", [])
+            for idx, candidate in enumerate(candidate_responses, 1):
+                lines.append(f"\nResponse {idx}:")
+                lines.append(candidate)
+                lines.append("")
+            
+            # Judge request
+            lines.append("-" * 80)
+            lines.append("JUDGE REQUEST:")
+            lines.append("-" * 80)
+            judge_request = turn_record.get("judge_request", "")
+            lines.append(judge_request)
+            lines.append("")
+            
+            # Judge response
+            lines.append("-" * 80)
+            lines.append("JUDGE RESPONSE:")
+            lines.append("-" * 80)
+            judge_response = turn_record.get("judge_response", "")
+            lines.append(judge_response)
+            lines.append("")
+            
+            # Selected response
+            selected_idx = turn_record.get("selected_response_index", "?")
+            selected_response = turn_record.get("selected_response", "")
+            lines.append("-" * 80)
+            lines.append(f"SELECTED RESPONSE #{selected_idx}:")
+            lines.append("-" * 80)
+            lines.append(selected_response)
+            lines.append("")
+            lines.append("")
+        
+        return "\n".join(lines)
+
     def save_session_data(
             self,
             case_study: str,
@@ -156,7 +219,8 @@ class FileManager:
             transcript: str,
             presentation: str,
             base_dir: str = "Saved_Sessions",
-            patient_id: Optional[str] = None
+            patient_id: Optional[str] = None,
+            judge_proposer_conversation: Optional[List[Dict[str, Any]]] = None
     ) -> str:
         """
         Save session data to timestamped folder.
@@ -169,6 +233,7 @@ class FileManager:
             presentation: Case presentation
             base_dir: Base directory for saving
             patient_id: Optional patient ID/number to include in folder name
+            judge_proposer_conversation: Optional list of judge-proposer conversation turn records
 
         Returns:
             Path to the created folder
@@ -190,6 +255,11 @@ class FileManager:
             "detailed_feedback.txt": detailed_feedback,
             "interview_transcript.txt": transcript
         }
+        
+        # Add judge-proposer conversation if available
+        if judge_proposer_conversation:
+            conversation_text = self._format_judge_proposer_conversation(judge_proposer_conversation)
+            files["judge_proposer_conversation.txt"] = conversation_text
 
         # Save each content to a text file
         for filename, content in files.items():

@@ -243,6 +243,9 @@ class FeedbackWorkflow:
             profile_path = state.get("patient_context", {}).get("profile_path")
             patient_id = self.file_manager.get_patient_id(profile_path)
 
+        # Get judge-proposer conversation if available (only for multi-agent mode)
+        judge_proposer_conversation = state.get("judge_proposer_conversation")
+        
         # Use file_manager to save session data
         folder_name = self.file_manager.save_session_data(
             case_study=case_study,
@@ -250,7 +253,8 @@ class FeedbackWorkflow:
             detailed_feedback=detailed_feedback,
             transcript=transcript,
             presentation=presentation,
-            patient_id=patient_id
+            patient_id=patient_id,
+            judge_proposer_conversation=judge_proposer_conversation
         )
         
         logging.info("Session data saved successfully.")

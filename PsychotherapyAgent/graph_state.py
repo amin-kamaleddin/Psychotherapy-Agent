@@ -50,6 +50,7 @@ class LBState(TypedDict, total=False):
     # Multi-agent specific
     therapist_candidates: Optional[List[str]]
     selected_therapist_response: Optional[str]
+    judge_proposer_conversation: Optional[List[Dict[str, Any]]]  # List of turn records with candidates, judge request, and selection
     
     # Feedback specific
     feedback_messages: Optional[List[BaseMessage]]

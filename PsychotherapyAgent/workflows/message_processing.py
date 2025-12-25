@@ -205,8 +205,23 @@ Generate exactly 3 different therapist responses. Format strictly as:
             if not candidate_responses or len(candidate_responses) < 3:
                 logging.warning("Less than 3 candidate responses available, using first one.")
                 selected_response = candidate_responses[0] if candidate_responses else "I understand. Can you tell me more?"
+                
+                # Track conversation even in error case
+                conversation_history = state.get("judge_proposer_conversation", [])
+                turn_number = sum(1 for msg in interview_messages if isinstance(msg, HumanMessage)) + 1
+                turn_record = {
+                    "turn_number": turn_number,
+                    "candidate_responses": candidate_responses.copy() if candidate_responses else [],
+                    "judge_request": "ERROR: Less than 3 candidate responses available",
+                    "judge_response": "Using first available response",
+                    "selected_response_index": 1,
+                    "selected_response": selected_response
+                }
+                conversation_history.append(turn_record)
+                
                 return {
                     "selected_therapist_response": selected_response,
+                    "judge_proposer_conversation": conversation_history,
                     "current_phase": "generate_response"
                 }
             
@@ -248,8 +263,31 @@ Generate exactly 3 different therapist responses. Format strictly as:
             
             logging.info(f"Judge selected response {selected_index + 1} out of {len(candidate_responses)} candidates.")
             
+            # Track judge-proposer conversation for this turn
+            # Get the judge request (the HumanMessage content sent to judge)
+            judge_request_text = messages[-1].content if messages else ""
+            
+            # Get or initialize judge-proposer conversation history
+            conversation_history = state.get("judge_proposer_conversation", [])
+            
+            # Calculate turn number (number of therapist responses so far)
+            # Count HumanMessages in interview_messages (these are therapist responses)
+            turn_number = sum(1 for msg in interview_messages if isinstance(msg, HumanMessage)) + 1
+            
+            # Store this turn's conversation
+            turn_record = {
+                "turn_number": turn_number,
+                "candidate_responses": candidate_responses.copy(),
+                "judge_request": judge_request_text,
+                "judge_response": judge_text,
+                "selected_response_index": selected_index + 1,  # Store as 1-based for readability
+                "selected_response": selected_response
+            }
+            conversation_history.append(turn_record)
+            
             return {
                 "selected_therapist_response": selected_response,
+                "judge_proposer_conversation": conversation_history,
                 "current_phase": "generate_response"
             }
         
@@ -257,8 +295,24 @@ Generate exactly 3 different therapist responses. Format strictly as:
             logging.error(f"Error in therapist judge: {str(e)}")
             candidate_responses = state.get("therapist_candidates", [])
             selected_response = candidate_responses[0] if candidate_responses else "I understand. Can you tell me more?"
+            
+            # Track conversation even in error case
+            conversation_history = state.get("judge_proposer_conversation", [])
+            interview_messages = state.get("interview_messages", [])
+            turn_number = sum(1 for msg in interview_messages if isinstance(msg, HumanMessage)) + 1
+            turn_record = {
+                "turn_number": turn_number,
+                "candidate_responses": candidate_responses.copy() if candidate_responses else [],
+                "judge_request": f"ERROR: {str(e)}",
+                "judge_response": "Error occurred, using fallback response",
+                "selected_response_index": 1,
+                "selected_response": selected_response
+            }
+            conversation_history.append(turn_record)
+            
             return {
                 "selected_therapist_response": selected_response,
+                "judge_proposer_conversation": conversation_history,
                 "current_phase": "generate_response",
                 "error": f"Therapist judge error: {str(e)}"
             }
