@@ -120,11 +120,6 @@ class FeedbackWorkflow:
         else:
             logging.warning("Presentation was expected but empty or missing.")
         
-        # Generate Full Feedback with scores
-        messages.append(HumanMessage(content="""
-                                            Now provide your comprehensive, strict evaluation of this diagnostic session. 
-                                            """))
-        
         try:
             response = self.llm_manager.llm_feedback.invoke(messages)
             messages.append(response)
