@@ -101,10 +101,33 @@ class MessageWorkflow:
             proposer_prompt = self.prompt_manager.load_therapist_prompt_from_csv(self.proposer_index)
             logging.info(f"Loaded proposer prompt from CSV (index {self.proposer_index})")
             
-            messages = [
-                SystemMessage(content=proposer_prompt),
-                *interview_messages
+            # Extract patient profile from first SystemMessage if it exists
+            patient_profile = None
+            if interview_messages and isinstance(interview_messages[0], SystemMessage):
+                # The first SystemMessage contains Virtual Patient prompt + patient profile
+                # Extract the patient profile part (usually starts with "# **Prompt:")
+                content = interview_messages[0].content
+                if "# **Prompt:" in content:
+                    # Extract everything from "# **Prompt:" onwards
+                    profile_start = content.find("# **Prompt:")
+                    patient_profile = content[profile_start:]
+            
+            # Filter to only HumanMessage and AIMessage (conversation history)
+            conversation_history = [
+                msg for msg in interview_messages 
+                if isinstance(msg, (HumanMessage, AIMessage))
             ]
+            logging.info(f"Filtered conversation history: {len(conversation_history)} messages")
+            
+            # Build messages: therapist prompt + patient profile as context + conversation
+            messages = [SystemMessage(content=proposer_prompt)]
+            
+            if patient_profile:
+                # Add patient profile as background information (not as role instruction)
+                messages.append(SystemMessage(content=f"PATIENT PROFILE (for reference):\n\n{patient_profile}"))
+                logging.info("Added patient profile as background context")
+            
+            messages.extend(conversation_history)
             
             # Generate 3 candidate responses
             response = self.llm_manager.llm_therapist_proposer.invoke(messages)
@@ -235,13 +258,36 @@ Generate exactly 3 different therapist responses. Format strictly as:
                 for i, candidate in enumerate(candidate_responses)
             ])
             
-            # Build messages list
-            context_messages = interview_messages[:-1] if interview_messages else []
-            messages = [
-                SystemMessage(content=judge_prompt),
-                *context_messages,
-                HumanMessage(content=f"Here are the 3 candidate therapist responses to evaluate:\n\n{candidates_text}\n\nWhich response (1, 2, or 3) is the best? Respond with the number and a brief explanation.")
+            # Extract patient profile from first SystemMessage if it exists
+            patient_profile = None
+            if interview_messages and isinstance(interview_messages[0], SystemMessage):
+                # The first SystemMessage contains Virtual Patient prompt + patient profile
+                # Extract the patient profile part (usually starts with "# **Prompt:")
+                content = interview_messages[0].content
+                if "# **Prompt:" in content:
+                    # Extract everything from "# **Prompt:" onwards
+                    profile_start = content.find("# **Prompt:")
+                    patient_profile = content[profile_start:]
+            
+            # Filter to only HumanMessage and AIMessage (conversation history)
+            context_messages = [
+                msg for msg in interview_messages 
+                if isinstance(msg, (HumanMessage, AIMessage))
             ]
+            logging.info(f"Filtered conversation history for judge: {len(context_messages)} messages")
+            
+            # Build messages: judge prompt + patient profile as context + conversation + evaluation request
+            messages = [SystemMessage(content=judge_prompt)]
+            
+            if patient_profile:
+                # Add patient profile as background information (not as role instruction)
+                messages.append(SystemMessage(content=f"PATIENT PROFILE (for reference):\n\n{patient_profile}"))
+                logging.info("Added patient profile as background context for judge")
+            
+            messages.extend(context_messages)
+            messages.append(
+                HumanMessage(content=f"Here are the 3 candidate therapist responses to evaluate:\n\n{candidates_text}\n\nWhich response (1, 2, or 3) is the best? Respond with the number and a brief explanation.")
+            )
             
             # Get judge's selection
             judge_response = self.llm_manager.llm_therapist_judge.invoke(messages)

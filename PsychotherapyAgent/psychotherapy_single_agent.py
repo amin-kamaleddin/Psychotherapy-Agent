@@ -37,28 +37,37 @@ class MessageCleaner:
         Args:
             messages: List of LangChain message objects
             filter_patient_profile: If True, filters out ALL system messages (used for simple agent index 0)
-                                   If False, KEEPS system messages (used for complex agent index 1)
+                                   If False, extracts patient profile from SystemMessage (used for complex agent index 1)
                                    System messages contain patient profile content from Patient_Profiles/MI/*.txt files
 
         Returns:
             Filtered list of messages:
             - If filter_patient_profile=True: Only HumanMessage/AIMessage (no system messages)
-            - If filter_patient_profile=False: All messages including system messages with patient profile
+            - If filter_patient_profile=False: Patient profile as SystemMessage + HumanMessage/AIMessage
         """
         cleaned = []
 
-        for msg in messages:
+        for i, msg in enumerate(messages):
             # Handle system messages
             if isinstance(msg, SystemMessage):
                 if filter_patient_profile:
                     # Simple agent (index 0): Filter out ALL system messages
-                    # System messages in interview_messages contain patient profile content
-                    # (from Patient_Profiles/MI/*.txt files appended to virtual patient prompt)
-                    # All files from Patient_Profiles/MI/ are patient profiles
                     continue  # Skip all system messages for simple agent
                 else:
-                    # Complex agent (index 1): Keep system messages so they can see patient profile info
-                    cleaned.append(msg)
+                    # Complex agent (index 1): Extract patient profile only (not Virtual Patient role instruction)
+                    if i == 0:  # First SystemMessage contains Virtual Patient prompt + patient profile
+                        content = msg.content
+                        # Extract patient profile part (usually starts with "# **Prompt:")
+                        if "# **Prompt:" in content:
+                            profile_start = content.find("# **Prompt:")
+                            patient_profile = content[profile_start:]
+                            # Add as background context, not as role instruction
+                            cleaned.append(SystemMessage(content=f"PATIENT PROFILE (for reference):\n\n{patient_profile}"))
+                        # Skip the original SystemMessage with Virtual Patient role
+                        continue
+                    else:
+                        # Keep other system messages if any
+                        cleaned.append(msg)
                 continue
 
             # Skip messages containing large prompts/case files
