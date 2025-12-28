@@ -188,11 +188,16 @@ class PsychotherapySingleAgent:
                 *cleaned_conversation
             ]
         else:
-            # Complex agent (index 1): Use conversation directly like proposer
-            # This explicitly includes patient profile SystemMessage from interview_messages
+            # Complex agent (index 1): Extract patient profile, filter out Virtual Patient role
+            filter_patient_profile = False
+            cleaned_conversation = MessageCleaner.clean_conversation(
+                conversation, 
+                filter_patient_profile=filter_patient_profile
+            )
+            # Build full message list with system prompt
             messages = [
                 SystemMessage(content=self.system_prompt),
-                *conversation  # Directly includes patient profile SystemMessage
+                *cleaned_conversation
             ]
 
         # Generate response
