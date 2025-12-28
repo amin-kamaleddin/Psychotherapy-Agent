@@ -105,24 +105,35 @@ class MessageWorkflow:
             patient_profile = None
             if interview_messages and isinstance(interview_messages[0], SystemMessage):
                 # The first SystemMessage contains Virtual Patient prompt + patient profile
-                # Extract the patient profile part, skipping the "You are playing the role" instruction
+                # Extract ONLY factual background info, excluding:
+                # - Role instructions ("You are playing the role...")
+                # - Presenting Concern (verbatim patient dialogue examples)
+                # - Behavioral Presentation, Simulation Instructions, etc.
                 content = interview_messages[0].content
-                # Look for "### **Background Information**" which starts the actual profile facts
+                
+                # Find Background Information section
                 if "### **Background Information**" in content:
                     profile_start = content.find("### **Background Information**")
-                    patient_profile = content[profile_start:]
-                elif "# **Prompt:" in content:
-                    # Fallback: skip first few lines that contain role instructions
-                    lines = content.split('\n')
-                    # Find where background info actually starts
-                    profile_lines = []
-                    for idx, line in enumerate(lines):
-                        # Start collecting after we see "Background" or "###"
-                        if "### **Background" in line or (idx > 5 and line.startswith("###")):
-                            profile_lines = lines[idx:]
+                    # Find the end of Background Information (before next section)
+                    remaining_content = content[profile_start:]
+                    lines = remaining_content.split('\n')
+                    factual_lines = []
+                    in_background = False
+                    for line in lines:
+                        if "### **Background Information**" in line:
+                            in_background = True
+                            factual_lines.append(line)
+                        elif line.strip() == "---" and in_background:
+                            # End of Background Information section
                             break
-                    if profile_lines:
-                        patient_profile = '\n'.join(profile_lines)
+                        elif in_background and not line.strip().startswith("* **Presenting Concern"):
+                            factual_lines.append(line)
+                        elif "Presenting Concern" in line or "Behavioral Presentation" in line:
+                            # Stop before these sections
+                            break
+                    
+                    if factual_lines:
+                        patient_profile = '\n'.join(factual_lines)
             
             # Filter to only HumanMessage and AIMessage (conversation history)
             conversation_history = [
@@ -274,24 +285,35 @@ Generate exactly 3 different therapist responses. Format strictly as:
             patient_profile = None
             if interview_messages and isinstance(interview_messages[0], SystemMessage):
                 # The first SystemMessage contains Virtual Patient prompt + patient profile
-                # Extract the patient profile part, skipping the "You are playing the role" instruction
+                # Extract ONLY factual background info, excluding:
+                # - Role instructions ("You are playing the role...")
+                # - Presenting Concern (verbatim patient dialogue examples)
+                # - Behavioral Presentation, Simulation Instructions, etc.
                 content = interview_messages[0].content
-                # Look for "### **Background Information**" which starts the actual profile facts
+                
+                # Find Background Information section
                 if "### **Background Information**" in content:
                     profile_start = content.find("### **Background Information**")
-                    patient_profile = content[profile_start:]
-                elif "# **Prompt:" in content:
-                    # Fallback: skip first few lines that contain role instructions
-                    lines = content.split('\n')
-                    # Find where background info actually starts
-                    profile_lines = []
-                    for idx, line in enumerate(lines):
-                        # Start collecting after we see "Background" or "###"
-                        if "### **Background" in line or (idx > 5 and line.startswith("###")):
-                            profile_lines = lines[idx:]
+                    # Find the end of Background Information (before next section)
+                    remaining_content = content[profile_start:]
+                    lines = remaining_content.split('\n')
+                    factual_lines = []
+                    in_background = False
+                    for line in lines:
+                        if "### **Background Information**" in line:
+                            in_background = True
+                            factual_lines.append(line)
+                        elif line.strip() == "---" and in_background:
+                            # End of Background Information section
                             break
-                    if profile_lines:
-                        patient_profile = '\n'.join(profile_lines)
+                        elif in_background and not line.strip().startswith("* **Presenting Concern"):
+                            factual_lines.append(line)
+                        elif "Presenting Concern" in line or "Behavioral Presentation" in line:
+                            # Stop before these sections
+                            break
+                    
+                    if factual_lines:
+                        patient_profile = '\n'.join(factual_lines)
             
             # Filter to only HumanMessage and AIMessage (conversation history)
             context_messages = [

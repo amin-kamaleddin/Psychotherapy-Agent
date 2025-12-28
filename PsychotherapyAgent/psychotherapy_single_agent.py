@@ -57,24 +57,35 @@ class MessageCleaner:
                     # Complex agent (index 1): Extract patient profile only (not Virtual Patient role instruction)
                     if i == 0:  # First SystemMessage contains Virtual Patient prompt + patient profile
                         content = msg.content
-                        # Extract patient profile part, skipping the "You are playing the role" instruction
-                        # Look for "### **Background Information**" which starts the actual profile facts
+                        # Extract ONLY factual background info, excluding:
+                        # - Role instructions ("You are playing the role...")
+                        # - Presenting Concern (verbatim patient dialogue examples)
+                        # - Behavioral Presentation, Simulation Instructions, etc.
+                        
+                        # Find Background Information section
                         if "### **Background Information**" in content:
                             profile_start = content.find("### **Background Information**")
-                            patient_profile = content[profile_start:]
-                            # Add as background context, not as role instruction
-                            cleaned.append(SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}"))
-                        elif "# **Prompt:" in content:
-                            # Fallback: extract starting from first "###" section after prompt header
-                            lines = content.split('\n')
-                            profile_lines = []
-                            for idx, line in enumerate(lines):
-                                # Start collecting after we see a section header (###)
-                                if idx > 2 and line.startswith("###"):
-                                    profile_lines = lines[idx:]
+                            # Find the end of Background Information (before next section)
+                            # Look for next "---" or "###" that marks a new section
+                            remaining_content = content[profile_start:]
+                            lines = remaining_content.split('\n')
+                            factual_lines = []
+                            in_background = False
+                            for line in lines:
+                                if "### **Background Information**" in line:
+                                    in_background = True
+                                    factual_lines.append(line)
+                                elif line.strip() == "---" and in_background:
+                                    # End of Background Information section
                                     break
-                            if profile_lines:
-                                patient_profile = '\n'.join(profile_lines)
+                                elif in_background and not line.strip().startswith("* **Presenting Concern"):
+                                    factual_lines.append(line)
+                                elif "Presenting Concern" in line or "Behavioral Presentation" in line:
+                                    # Stop before these sections
+                                    break
+                            
+                            if factual_lines:
+                                patient_profile = '\n'.join(factual_lines)
                                 cleaned.append(SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}"))
                         # Skip the original SystemMessage with Virtual Patient role
                         continue
