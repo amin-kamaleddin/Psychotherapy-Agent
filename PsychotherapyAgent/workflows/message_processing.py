@@ -105,12 +105,24 @@ class MessageWorkflow:
             patient_profile = None
             if interview_messages and isinstance(interview_messages[0], SystemMessage):
                 # The first SystemMessage contains Virtual Patient prompt + patient profile
-                # Extract the patient profile part (usually starts with "# **Prompt:")
+                # Extract the patient profile part, skipping the "You are playing the role" instruction
                 content = interview_messages[0].content
-                if "# **Prompt:" in content:
-                    # Extract everything from "# **Prompt:" onwards
-                    profile_start = content.find("# **Prompt:")
+                # Look for "### **Background Information**" which starts the actual profile facts
+                if "### **Background Information**" in content:
+                    profile_start = content.find("### **Background Information**")
                     patient_profile = content[profile_start:]
+                elif "# **Prompt:" in content:
+                    # Fallback: skip first few lines that contain role instructions
+                    lines = content.split('\n')
+                    # Find where background info actually starts
+                    profile_lines = []
+                    for idx, line in enumerate(lines):
+                        # Start collecting after we see "Background" or "###"
+                        if "### **Background" in line or (idx > 5 and line.startswith("###")):
+                            profile_lines = lines[idx:]
+                            break
+                    if profile_lines:
+                        patient_profile = '\n'.join(profile_lines)
             
             # Filter to only HumanMessage and AIMessage (conversation history)
             conversation_history = [
@@ -124,7 +136,7 @@ class MessageWorkflow:
             
             if patient_profile:
                 # Add patient profile as background information (not as role instruction)
-                messages.append(SystemMessage(content=f"PATIENT PROFILE (for reference):\n\n{patient_profile}"))
+                messages.append(SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}"))
                 logging.info("Added patient profile as background context")
             
             messages.extend(conversation_history)
@@ -262,12 +274,24 @@ Generate exactly 3 different therapist responses. Format strictly as:
             patient_profile = None
             if interview_messages and isinstance(interview_messages[0], SystemMessage):
                 # The first SystemMessage contains Virtual Patient prompt + patient profile
-                # Extract the patient profile part (usually starts with "# **Prompt:")
+                # Extract the patient profile part, skipping the "You are playing the role" instruction
                 content = interview_messages[0].content
-                if "# **Prompt:" in content:
-                    # Extract everything from "# **Prompt:" onwards
-                    profile_start = content.find("# **Prompt:")
+                # Look for "### **Background Information**" which starts the actual profile facts
+                if "### **Background Information**" in content:
+                    profile_start = content.find("### **Background Information**")
                     patient_profile = content[profile_start:]
+                elif "# **Prompt:" in content:
+                    # Fallback: skip first few lines that contain role instructions
+                    lines = content.split('\n')
+                    # Find where background info actually starts
+                    profile_lines = []
+                    for idx, line in enumerate(lines):
+                        # Start collecting after we see "Background" or "###"
+                        if "### **Background" in line or (idx > 5 and line.startswith("###")):
+                            profile_lines = lines[idx:]
+                            break
+                    if profile_lines:
+                        patient_profile = '\n'.join(profile_lines)
             
             # Filter to only HumanMessage and AIMessage (conversation history)
             context_messages = [
@@ -281,7 +305,7 @@ Generate exactly 3 different therapist responses. Format strictly as:
             
             if patient_profile:
                 # Add patient profile as background information (not as role instruction)
-                messages.append(SystemMessage(content=f"PATIENT PROFILE (for reference):\n\n{patient_profile}"))
+                messages.append(SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}"))
                 logging.info("Added patient profile as background context for judge")
             
             messages.extend(context_messages)

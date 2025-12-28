@@ -57,12 +57,25 @@ class MessageCleaner:
                     # Complex agent (index 1): Extract patient profile only (not Virtual Patient role instruction)
                     if i == 0:  # First SystemMessage contains Virtual Patient prompt + patient profile
                         content = msg.content
-                        # Extract patient profile part (usually starts with "# **Prompt:")
-                        if "# **Prompt:" in content:
-                            profile_start = content.find("# **Prompt:")
+                        # Extract patient profile part, skipping the "You are playing the role" instruction
+                        # Look for "### **Background Information**" which starts the actual profile facts
+                        if "### **Background Information**" in content:
+                            profile_start = content.find("### **Background Information**")
                             patient_profile = content[profile_start:]
                             # Add as background context, not as role instruction
-                            cleaned.append(SystemMessage(content=f"PATIENT PROFILE (for reference):\n\n{patient_profile}"))
+                            cleaned.append(SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}"))
+                        elif "# **Prompt:" in content:
+                            # Fallback: extract starting from first "###" section after prompt header
+                            lines = content.split('\n')
+                            profile_lines = []
+                            for idx, line in enumerate(lines):
+                                # Start collecting after we see a section header (###)
+                                if idx > 2 and line.startswith("###"):
+                                    profile_lines = lines[idx:]
+                                    break
+                            if profile_lines:
+                                patient_profile = '\n'.join(profile_lines)
+                                cleaned.append(SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}"))
                         # Skip the original SystemMessage with Virtual Patient role
                         continue
                     else:
