@@ -1,0 +1,9 @@
+{
+  "run_id": "comparison_test",
+  "start_patient": 1,
+  "end_patient": 4,
+  "num_patients": 3,
+  "timestamp": "20251229_100214",
+  "therapist_mode": "multi_agent",
+  "therapist_profile_number": 2
+}

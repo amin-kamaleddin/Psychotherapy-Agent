@@ -1,8 +1,8 @@
 myenv
 venv/
-Saved_Sessions/
+# Saved_Sessions/
 .aider*
 .env
-Session_Metadata/
+# Session_Metadata/
 __pycache__/
 /psychotherapy_agent.log

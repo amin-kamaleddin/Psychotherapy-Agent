@@ -1,601 +1,91 @@
 timestamp,patient_id,therapist_mode,criterion,score
-20251224_201742,10,simple,Acceptance,3.0
-20251224_201742,10,simple,Empathy,3.0
-20251224_201742,10,simple,Direction,4.0
-20251224_201742,10,simple,Collaboration,3.0
-20251224_201742,10,simple,Autonomy Support,4.0
-20251224_201742,10,simple,Evocation,3.0
-20251224_201742,10,simple,Partnership,3.0
-20251224_201742,10,simple,Cultivating Change Talk,3.0
-20251224_201742,10,simple,Softening Sustain Talk,4.0
-20251224_201742,10,simple,Overall Average,3.3333333333333335
-20251224_202516,10,complex,Acceptance,4.0
-20251224_202516,10,complex,Empathy,4.0
-20251224_202516,10,complex,Direction,4.0
-20251224_202516,10,complex,Collaboration,4.0
-20251224_202516,10,complex,Autonomy Support,4.0
-20251224_202516,10,complex,Evocation,5.0
-20251224_202516,10,complex,Partnership,4.0
-20251224_202516,10,complex,Cultivating Change Talk,5.0
-20251224_202516,10,complex,Softening Sustain Talk,5.0
-20251224_202516,10,complex,Overall Average,4.333333333333333
-20251224_203231,10,multi_agent,Acceptance,4.2
-20251224_203231,10,multi_agent,Empathy,4.0
-20251224_203231,10,multi_agent,Direction,4.2
-20251224_203231,10,multi_agent,Collaboration,4.0
-20251224_203231,10,multi_agent,Autonomy Support,4.2
-20251224_203231,10,multi_agent,Evocation,4.2
-20251224_203231,10,multi_agent,Partnership,4.0
-20251224_203231,10,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,10,multi_agent,Softening Sustain Talk,3.0
-20251224_203231,10,multi_agent,Overall Average,3.9777777777777774
-20251224_201742,11,simple,Acceptance,4.0
-20251224_201742,11,simple,Empathy,3.0
-20251224_201742,11,simple,Direction,5.0
-20251224_201742,11,simple,Collaboration,4.0
-20251224_201742,11,simple,Autonomy Support,5.0
-20251224_201742,11,simple,Evocation,3.0
-20251224_201742,11,simple,Partnership,4.0
-20251224_201742,11,simple,Cultivating Change Talk,3.0
-20251224_201742,11,simple,Softening Sustain Talk,4.0
-20251224_201742,11,simple,Overall Average,3.888888888888889
-20251224_202516,11,complex,Acceptance,4.0
-20251224_202516,11,complex,Empathy,4.0
-20251224_202516,11,complex,Direction,4.0
-20251224_202516,11,complex,Collaboration,4.0
-20251224_202516,11,complex,Autonomy Support,4.0
-20251224_202516,11,complex,Evocation,4.0
-20251224_202516,11,complex,Partnership,4.0
-20251224_202516,11,complex,Cultivating Change Talk,4.0
-20251224_202516,11,complex,Softening Sustain Talk,3.0
-20251224_202516,11,complex,Overall Average,3.888888888888889
-20251224_203231,11,multi_agent,Acceptance,4.0
-20251224_203231,11,multi_agent,Empathy,5.0
-20251224_203231,11,multi_agent,Direction,5.0
-20251224_203231,11,multi_agent,Collaboration,5.0
-20251224_203231,11,multi_agent,Autonomy Support,4.0
-20251224_203231,11,multi_agent,Evocation,4.0
-20251224_203231,11,multi_agent,Partnership,5.0
-20251224_203231,11,multi_agent,Cultivating Change Talk,3.0
-20251224_203231,11,multi_agent,Softening Sustain Talk,3.0
-20251224_203231,11,multi_agent,Overall Average,4.222222222222222
-20251224_201742,12,simple,Acceptance,4.0
-20251224_201742,12,simple,Empathy,2.0
-20251224_201742,12,simple,Direction,4.0
-20251224_201742,12,simple,Collaboration,3.0
-20251224_201742,12,simple,Autonomy Support,4.0
-20251224_201742,12,simple,Evocation,3.0
-20251224_201742,12,simple,Partnership,3.0
-20251224_201742,12,simple,Cultivating Change Talk,3.0
-20251224_201742,12,simple,Softening Sustain Talk,2.0
-20251224_201742,12,simple,Overall Average,3.111111111111111
-20251224_202516,12,complex,Acceptance,3.0
-20251224_202516,12,complex,Empathy,4.0
-20251224_202516,12,complex,Direction,4.0
-20251224_202516,12,complex,Collaboration,3.0
-20251224_202516,12,complex,Autonomy Support,4.0
-20251224_202516,12,complex,Evocation,3.0
-20251224_202516,12,complex,Partnership,3.0
-20251224_202516,12,complex,Cultivating Change Talk,3.0
-20251224_202516,12,complex,Softening Sustain Talk,4.0
-20251224_202516,12,complex,Overall Average,3.4444444444444446
-20251224_203231,12,multi_agent,Acceptance,4.0
-20251224_203231,12,multi_agent,Empathy,5.0
-20251224_203231,12,multi_agent,Direction,4.0
-20251224_203231,12,multi_agent,Collaboration,4.0
-20251224_203231,12,multi_agent,Autonomy Support,4.0
-20251224_203231,12,multi_agent,Evocation,4.0
-20251224_203231,12,multi_agent,Partnership,4.0
-20251224_203231,12,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,12,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,12,multi_agent,Overall Average,4.111111111111111
-20251224_201742,13,simple,Acceptance,3.0
-20251224_201742,13,simple,Empathy,3.0
-20251224_201742,13,simple,Direction,3.0
-20251224_201742,13,simple,Collaboration,4.0
-20251224_201742,13,simple,Autonomy Support,3.0
-20251224_201742,13,simple,Evocation,3.0
-20251224_201742,13,simple,Partnership,4.0
-20251224_201742,13,simple,Cultivating Change Talk,3.0
-20251224_201742,13,simple,Softening Sustain Talk,3.0
-20251224_201742,13,simple,Overall Average,3.2222222222222223
-20251224_202516,13,complex,Acceptance,4.0
-20251224_202516,13,complex,Empathy,4.0
-20251224_202516,13,complex,Direction,4.0
-20251224_202516,13,complex,Collaboration,4.0
-20251224_202516,13,complex,Autonomy Support,5.0
-20251224_202516,13,complex,Evocation,3.6
-20251224_202516,13,complex,Partnership,4.0
-20251224_202516,13,complex,Cultivating Change Talk,3.0
-20251224_202516,13,complex,Softening Sustain Talk,4.0
-20251224_202516,13,complex,Overall Average,3.9555555555555557
-20251224_203231,13,multi_agent,Acceptance,4.0
-20251224_203231,13,multi_agent,Empathy,4.0
-20251224_203231,13,multi_agent,Direction,4.0
-20251224_203231,13,multi_agent,Collaboration,4.0
-20251224_203231,13,multi_agent,Autonomy Support,4.0
-20251224_203231,13,multi_agent,Evocation,4.0
-20251224_203231,13,multi_agent,Partnership,4.0
-20251224_203231,13,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,13,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,13,multi_agent,Overall Average,4.0
-20251224_201742,14,simple,Acceptance,4.0
-20251224_201742,14,simple,Empathy,4.0
-20251224_201742,14,simple,Direction,4.0
-20251224_201742,14,simple,Collaboration,5.0
-20251224_201742,14,simple,Autonomy Support,4.0
-20251224_201742,14,simple,Evocation,3.0
-20251224_201742,14,simple,Partnership,4.0
-20251224_201742,14,simple,Cultivating Change Talk,3.0
-20251224_201742,14,simple,Softening Sustain Talk,4.0
-20251224_201742,14,simple,Overall Average,3.888888888888889
-20251224_202516,14,complex,Acceptance,3.7
-20251224_202516,14,complex,Empathy,3.7
-20251224_202516,14,complex,Direction,3.7
-20251224_202516,14,complex,Collaboration,3.7
-20251224_202516,14,complex,Autonomy Support,4.0
-20251224_202516,14,complex,Evocation,3.7
-20251224_202516,14,complex,Partnership,3.7
-20251224_202516,14,complex,Cultivating Change Talk,3.0
-20251224_202516,14,complex,Softening Sustain Talk,3.0
-20251224_202516,14,complex,Overall Average,3.577777777777778
-20251224_203231,14,multi_agent,Acceptance,5.0
-20251224_203231,14,multi_agent,Empathy,5.0
-20251224_203231,14,multi_agent,Direction,5.0
-20251224_203231,14,multi_agent,Collaboration,5.0
-20251224_203231,14,multi_agent,Autonomy Support,5.0
-20251224_203231,14,multi_agent,Evocation,5.0
-20251224_203231,14,multi_agent,Partnership,4.0
-20251224_203231,14,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,14,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,14,multi_agent,Overall Average,4.666666666666667
-20251224_201742,15,simple,Acceptance,4.0
-20251224_201742,15,simple,Empathy,5.0
-20251224_201742,15,simple,Direction,4.0
-20251224_201742,15,simple,Collaboration,4.0
-20251224_201742,15,simple,Autonomy Support,4.0
-20251224_201742,15,simple,Evocation,4.0
-20251224_201742,15,simple,Partnership,4.0
-20251224_201742,15,simple,Cultivating Change Talk,4.0
-20251224_201742,15,simple,Softening Sustain Talk,4.0
-20251224_201742,15,simple,Overall Average,4.111111111111111
-20251224_202516,15,complex,Acceptance,4.0
-20251224_202516,15,complex,Empathy,3.0
-20251224_202516,15,complex,Direction,3.6
-20251224_202516,15,complex,Collaboration,3.6
-20251224_202516,15,complex,Autonomy Support,5.0
-20251224_202516,15,complex,Evocation,3.6
-20251224_202516,15,complex,Partnership,3.6
-20251224_202516,15,complex,Cultivating Change Talk,3.0
-20251224_202516,15,complex,Softening Sustain Talk,3.0
-20251224_202516,15,complex,Overall Average,3.5999999999999996
-20251224_203231,15,multi_agent,Acceptance,5.0
-20251224_203231,15,multi_agent,Empathy,5.0
-20251224_203231,15,multi_agent,Direction,5.0
-20251224_203231,15,multi_agent,Collaboration,5.0
-20251224_203231,15,multi_agent,Autonomy Support,5.0
-20251224_203231,15,multi_agent,Evocation,4.0
-20251224_203231,15,multi_agent,Partnership,5.0
-20251224_203231,15,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,15,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,15,multi_agent,Overall Average,4.666666666666667
-20251224_201742,16,simple,Acceptance,4.0
-20251224_201742,16,simple,Empathy,3.0
-20251224_201742,16,simple,Direction,3.0
-20251224_201742,16,simple,Collaboration,3.0
-20251224_201742,16,simple,Autonomy Support,3.0
-20251224_201742,16,simple,Evocation,3.0
-20251224_201742,16,simple,Partnership,3.0
-20251224_201742,16,simple,Cultivating Change Talk,3.0
-20251224_201742,16,simple,Softening Sustain Talk,3.0
-20251224_201742,16,simple,Overall Average,3.111111111111111
-20251224_202516,16,complex,Acceptance,4.0
-20251224_202516,16,complex,Empathy,4.0
-20251224_202516,16,complex,Direction,4.0
-20251224_202516,16,complex,Collaboration,4.0
-20251224_202516,16,complex,Autonomy Support,4.0
-20251224_202516,16,complex,Evocation,3.0
-20251224_202516,16,complex,Partnership,4.0
-20251224_202516,16,complex,Cultivating Change Talk,3.0
-20251224_202516,16,complex,Softening Sustain Talk,4.0
-20251224_202516,16,complex,Overall Average,3.7777777777777777
-20251224_203231,16,multi_agent,Acceptance,4.0
-20251224_203231,16,multi_agent,Empathy,4.0
-20251224_203231,16,multi_agent,Direction,5.0
-20251224_203231,16,multi_agent,Collaboration,4.0
-20251224_203231,16,multi_agent,Autonomy Support,4.0
-20251224_203231,16,multi_agent,Evocation,4.0
-20251224_203231,16,multi_agent,Partnership,4.0
-20251224_203231,16,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,16,multi_agent,Softening Sustain Talk,3.0
-20251224_203231,16,multi_agent,Overall Average,4.0
-20251224_201742,17,simple,Acceptance,3.0
-20251224_201742,17,simple,Empathy,4.0
-20251224_201742,17,simple,Direction,4.0
-20251224_201742,17,simple,Collaboration,3.0
-20251224_201742,17,simple,Autonomy Support,4.0
-20251224_201742,17,simple,Evocation,3.0
-20251224_201742,17,simple,Partnership,4.0
-20251224_201742,17,simple,Cultivating Change Talk,3.0
-20251224_201742,17,simple,Softening Sustain Talk,3.0
-20251224_201742,17,simple,Overall Average,3.4444444444444446
-20251224_202516,17,complex,Acceptance,5.0
-20251224_202516,17,complex,Empathy,5.0
-20251224_202516,17,complex,Direction,4.0
-20251224_202516,17,complex,Collaboration,5.0
-20251224_202516,17,complex,Autonomy Support,5.0
-20251224_202516,17,complex,Evocation,4.0
-20251224_202516,17,complex,Partnership,5.0
-20251224_202516,17,complex,Cultivating Change Talk,4.0
-20251224_202516,17,complex,Softening Sustain Talk,4.0
-20251224_202516,17,complex,Overall Average,4.555555555555555
-20251224_203231,17,multi_agent,Acceptance,4.0
-20251224_203231,17,multi_agent,Empathy,5.0
-20251224_203231,17,multi_agent,Direction,5.0
-20251224_203231,17,multi_agent,Collaboration,4.0
-20251224_203231,17,multi_agent,Autonomy Support,4.0
-20251224_203231,17,multi_agent,Evocation,4.0
-20251224_203231,17,multi_agent,Partnership,5.0
-20251224_203231,17,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,17,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,17,multi_agent,Overall Average,4.333333333333333
-20251224_201742,18,simple,Acceptance,3.0
-20251224_201742,18,simple,Empathy,5.0
-20251224_201742,18,simple,Direction,4.0
-20251224_201742,18,simple,Collaboration,4.0
-20251224_201742,18,simple,Autonomy Support,5.0
-20251224_201742,18,simple,Evocation,4.0
-20251224_201742,18,simple,Partnership,4.0
-20251224_201742,18,simple,Cultivating Change Talk,4.0
-20251224_201742,18,simple,Softening Sustain Talk,4.0
-20251224_201742,18,simple,Overall Average,4.111111111111111
-20251224_202516,18,complex,Acceptance,3.0
-20251224_202516,18,complex,Empathy,4.0
-20251224_202516,18,complex,Direction,4.0
-20251224_202516,18,complex,Collaboration,3.0
-20251224_202516,18,complex,Autonomy Support,3.0
-20251224_202516,18,complex,Evocation,4.0
-20251224_202516,18,complex,Partnership,3.0
-20251224_202516,18,complex,Cultivating Change Talk,3.0
-20251224_202516,18,complex,Softening Sustain Talk,3.0
-20251224_202516,18,complex,Overall Average,3.3333333333333335
-20251224_203231,18,multi_agent,Acceptance,4.0
-20251224_203231,18,multi_agent,Empathy,4.0
-20251224_203231,18,multi_agent,Direction,4.0
-20251224_203231,18,multi_agent,Collaboration,4.0
-20251224_203231,18,multi_agent,Autonomy Support,4.0
-20251224_203231,18,multi_agent,Evocation,4.0
-20251224_203231,18,multi_agent,Partnership,4.0
-20251224_203231,18,multi_agent,Cultivating Change Talk,3.0
-20251224_203231,18,multi_agent,Softening Sustain Talk,3.0
-20251224_203231,18,multi_agent,Overall Average,3.7777777777777777
-20251224_201742,19,simple,Acceptance,4.0
-20251224_201742,19,simple,Empathy,5.0
-20251224_201742,19,simple,Direction,4.0
-20251224_201742,19,simple,Collaboration,4.0
-20251224_201742,19,simple,Autonomy Support,4.0
-20251224_201742,19,simple,Evocation,4.0
-20251224_201742,19,simple,Partnership,4.0
-20251224_201742,19,simple,Cultivating Change Talk,3.0
-20251224_201742,19,simple,Softening Sustain Talk,3.0
-20251224_201742,19,simple,Overall Average,3.888888888888889
-20251224_202516,19,complex,Acceptance,4.0
-20251224_202516,19,complex,Empathy,5.0
-20251224_202516,19,complex,Direction,4.0
-20251224_202516,19,complex,Collaboration,4.0
-20251224_202516,19,complex,Autonomy Support,4.0
-20251224_202516,19,complex,Evocation,4.0
-20251224_202516,19,complex,Partnership,4.0
-20251224_202516,19,complex,Cultivating Change Talk,3.0
-20251224_202516,19,complex,Softening Sustain Talk,4.0
-20251224_202516,19,complex,Overall Average,4.0
-20251224_203231,19,multi_agent,Acceptance,4.0
-20251224_203231,19,multi_agent,Empathy,5.0
-20251224_203231,19,multi_agent,Direction,4.0
-20251224_203231,19,multi_agent,Collaboration,5.0
-20251224_203231,19,multi_agent,Autonomy Support,4.0
-20251224_203231,19,multi_agent,Evocation,3.0
-20251224_203231,19,multi_agent,Partnership,5.0
-20251224_203231,19,multi_agent,Cultivating Change Talk,3.0
-20251224_203231,19,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,19,multi_agent,Overall Average,4.111111111111111
-20251224_201742,1,simple,Acceptance,3.0
-20251224_201742,1,simple,Empathy,2.0
-20251224_201742,1,simple,Direction,3.0
-20251224_201742,1,simple,Collaboration,3.0
-20251224_201742,1,simple,Autonomy Support,3.0
-20251224_201742,1,simple,Evocation,2.0
-20251224_201742,1,simple,Partnership,3.0
-20251224_201742,1,simple,Cultivating Change Talk,2.0
-20251224_201742,1,simple,Softening Sustain Talk,2.0
-20251224_201742,1,simple,Overall Average,2.5555555555555554
-20251224_202516,1,complex,Acceptance,3.0
-20251224_202516,1,complex,Empathy,4.0
-20251224_202516,1,complex,Direction,3.0
-20251224_202516,1,complex,Collaboration,4.0
-20251224_202516,1,complex,Autonomy Support,3.0
-20251224_202516,1,complex,Evocation,3.0
-20251224_202516,1,complex,Partnership,3.0
-20251224_202516,1,complex,Cultivating Change Talk,2.0
-20251224_202516,1,complex,Softening Sustain Talk,2.0
-20251224_202516,1,complex,Overall Average,3.0
-20251224_203231,1,multi_agent,Acceptance,5.0
-20251224_203231,1,multi_agent,Empathy,5.0
-20251224_203231,1,multi_agent,Direction,4.0
-20251224_203231,1,multi_agent,Collaboration,5.0
-20251224_203231,1,multi_agent,Autonomy Support,5.0
-20251224_203231,1,multi_agent,Evocation,5.0
-20251224_203231,1,multi_agent,Partnership,4.0
-20251224_203231,1,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,1,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,1,multi_agent,Overall Average,4.555555555555555
-20251224_201742,20,simple,Acceptance,4.0
-20251224_201742,20,simple,Empathy,4.0
-20251224_201742,20,simple,Direction,4.0
-20251224_201742,20,simple,Collaboration,4.0
-20251224_201742,20,simple,Autonomy Support,5.0
-20251224_201742,20,simple,Evocation,4.0
-20251224_201742,20,simple,Partnership,4.0
-20251224_201742,20,simple,Cultivating Change Talk,3.0
-20251224_201742,20,simple,Softening Sustain Talk,3.0
-20251224_201742,20,simple,Overall Average,3.888888888888889
-20251224_202516,20,complex,Acceptance,3.0
-20251224_202516,20,complex,Empathy,3.0
-20251224_202516,20,complex,Direction,3.0
-20251224_202516,20,complex,Collaboration,4.0
-20251224_202516,20,complex,Autonomy Support,4.0
-20251224_202516,20,complex,Evocation,3.0
-20251224_202516,20,complex,Partnership,4.0
-20251224_202516,20,complex,Cultivating Change Talk,2.0
-20251224_202516,20,complex,Softening Sustain Talk,4.0
-20251224_202516,20,complex,Overall Average,3.3333333333333335
-20251224_203231,20,multi_agent,Acceptance,4.0
-20251224_203231,20,multi_agent,Empathy,4.0
-20251224_203231,20,multi_agent,Direction,4.0
-20251224_203231,20,multi_agent,Collaboration,4.0
-20251224_203231,20,multi_agent,Autonomy Support,4.0
-20251224_203231,20,multi_agent,Evocation,3.0
-20251224_203231,20,multi_agent,Partnership,4.0
-20251224_203231,20,multi_agent,Cultivating Change Talk,3.0
-20251224_203231,20,multi_agent,Softening Sustain Talk,3.0
-20251224_203231,20,multi_agent,Overall Average,3.6666666666666665
-20251224_201742,2,simple,Acceptance,4.0
-20251224_201742,2,simple,Empathy,4.0
-20251224_201742,2,simple,Direction,4.0
-20251224_201742,2,simple,Collaboration,5.0
-20251224_201742,2,simple,Autonomy Support,3.0
-20251224_201742,2,simple,Evocation,4.0
-20251224_201742,2,simple,Partnership,3.0
-20251224_201742,2,simple,Cultivating Change Talk,3.0
-20251224_201742,2,simple,Softening Sustain Talk,3.0
-20251224_201742,2,simple,Overall Average,3.6666666666666665
-20251224_202516,2,complex,Acceptance,4.0
-20251224_202516,2,complex,Empathy,4.0
-20251224_202516,2,complex,Direction,4.0
-20251224_202516,2,complex,Collaboration,4.0
-20251224_202516,2,complex,Autonomy Support,4.0
-20251224_202516,2,complex,Evocation,4.0
-20251224_202516,2,complex,Partnership,4.0
-20251224_202516,2,complex,Cultivating Change Talk,4.0
-20251224_202516,2,complex,Softening Sustain Talk,4.0
-20251224_202516,2,complex,Overall Average,4.0
-20251224_203231,2,multi_agent,Acceptance,4.0
-20251224_203231,2,multi_agent,Empathy,4.0
-20251224_203231,2,multi_agent,Direction,4.0
-20251224_203231,2,multi_agent,Collaboration,4.0
-20251224_203231,2,multi_agent,Autonomy Support,4.0
-20251224_203231,2,multi_agent,Evocation,4.0
-20251224_203231,2,multi_agent,Partnership,4.0
-20251224_203231,2,multi_agent,Cultivating Change Talk,5.0
-20251224_203231,2,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,2,multi_agent,Overall Average,4.111111111111111
-20251224_201742,3,simple,Acceptance,4.0
-20251224_201742,3,simple,Empathy,4.0
-20251224_201742,3,simple,Direction,3.0
-20251224_201742,3,simple,Collaboration,4.0
-20251224_201742,3,simple,Autonomy Support,3.0
-20251224_201742,3,simple,Evocation,4.0
-20251224_201742,3,simple,Partnership,3.0
-20251224_201742,3,simple,Cultivating Change Talk,4.0
-20251224_201742,3,simple,Softening Sustain Talk,3.0
-20251224_201742,3,simple,Overall Average,3.5555555555555554
-20251224_202516,3,complex,Acceptance,4.0
-20251224_202516,3,complex,Empathy,4.0
-20251224_202516,3,complex,Direction,4.0
-20251224_202516,3,complex,Collaboration,4.0
-20251224_202516,3,complex,Autonomy Support,4.0
-20251224_202516,3,complex,Evocation,4.0
-20251224_202516,3,complex,Partnership,4.0
-20251224_202516,3,complex,Cultivating Change Talk,4.0
-20251224_202516,3,complex,Softening Sustain Talk,3.0
-20251224_202516,3,complex,Overall Average,3.888888888888889
-20251224_203231,3,multi_agent,Acceptance,4.0
-20251224_203231,3,multi_agent,Empathy,5.0
-20251224_203231,3,multi_agent,Direction,4.0
-20251224_203231,3,multi_agent,Collaboration,5.0
-20251224_203231,3,multi_agent,Autonomy Support,4.0
-20251224_203231,3,multi_agent,Evocation,4.0
-20251224_203231,3,multi_agent,Partnership,4.0
-20251224_203231,3,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,3,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,3,multi_agent,Overall Average,4.222222222222222
-20251224_201742,4,simple,Acceptance,4.0
-20251224_201742,4,simple,Empathy,4.0
-20251224_201742,4,simple,Direction,3.0
-20251224_201742,4,simple,Collaboration,4.0
-20251224_201742,4,simple,Autonomy Support,2.0
-20251224_201742,4,simple,Evocation,3.0
-20251224_201742,4,simple,Partnership,2.0
-20251224_201742,4,simple,Cultivating Change Talk,2.0
-20251224_201742,4,simple,Softening Sustain Talk,3.0
-20251224_201742,4,simple,Overall Average,3.0
-20251224_202516,4,complex,Acceptance,3.0
-20251224_202516,4,complex,Empathy,4.0
-20251224_202516,4,complex,Direction,4.0
-20251224_202516,4,complex,Collaboration,3.0
-20251224_202516,4,complex,Autonomy Support,3.0
-20251224_202516,4,complex,Evocation,3.0
-20251224_202516,4,complex,Partnership,4.0
-20251224_202516,4,complex,Cultivating Change Talk,2.0
-20251224_202516,4,complex,Softening Sustain Talk,2.0
-20251224_202516,4,complex,Overall Average,3.111111111111111
-20251224_203231,4,multi_agent,Acceptance,4.0
-20251224_203231,4,multi_agent,Empathy,4.0
-20251224_203231,4,multi_agent,Direction,4.0
-20251224_203231,4,multi_agent,Collaboration,4.0
-20251224_203231,4,multi_agent,Autonomy Support,3.0
-20251224_203231,4,multi_agent,Evocation,4.0
-20251224_203231,4,multi_agent,Partnership,4.0
-20251224_203231,4,multi_agent,Cultivating Change Talk,3.0
-20251224_203231,4,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,4,multi_agent,Overall Average,3.7777777777777777
-20251224_201742,5,simple,Acceptance,3.0
-20251224_201742,5,simple,Empathy,3.0
-20251224_201742,5,simple,Direction,3.0
-20251224_201742,5,simple,Collaboration,3.0
-20251224_201742,5,simple,Autonomy Support,2.0
-20251224_201742,5,simple,Evocation,3.0
-20251224_201742,5,simple,Partnership,3.0
-20251224_201742,5,simple,Cultivating Change Talk,2.0
-20251224_201742,5,simple,Softening Sustain Talk,2.0
-20251224_201742,5,simple,Overall Average,2.6666666666666665
-20251224_202516,5,complex,Acceptance,3.0
-20251224_202516,5,complex,Empathy,4.0
-20251224_202516,5,complex,Direction,2.0
-20251224_202516,5,complex,Collaboration,3.0
-20251224_202516,5,complex,Autonomy Support,2.0
-20251224_202516,5,complex,Evocation,2.0
-20251224_202516,5,complex,Partnership,2.0
-20251224_202516,5,complex,Cultivating Change Talk,2.0
-20251224_202516,5,complex,Softening Sustain Talk,2.0
-20251224_202516,5,complex,Overall Average,2.4444444444444446
-20251224_203231,5,multi_agent,Acceptance,4.0
-20251224_203231,5,multi_agent,Empathy,4.0
-20251224_203231,5,multi_agent,Direction,4.0
-20251224_203231,5,multi_agent,Collaboration,4.0
-20251224_203231,5,multi_agent,Autonomy Support,4.0
-20251224_203231,5,multi_agent,Evocation,4.0
-20251224_203231,5,multi_agent,Partnership,4.0
-20251224_203231,5,multi_agent,Cultivating Change Talk,3.0
-20251224_203231,5,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,5,multi_agent,Overall Average,3.888888888888889
-20251224_201742,6,simple,Acceptance,4.0
-20251224_201742,6,simple,Empathy,3.0
-20251224_201742,6,simple,Direction,3.2
-20251224_201742,6,simple,Collaboration,3.0
-20251224_201742,6,simple,Autonomy Support,4.0
-20251224_201742,6,simple,Evocation,3.0
-20251224_201742,6,simple,Partnership,3.0
-20251224_201742,6,simple,Cultivating Change Talk,3.0
-20251224_201742,6,simple,Softening Sustain Talk,2.0
-20251224_201742,6,simple,Overall Average,3.1333333333333333
-20251224_202516,6,complex,Acceptance,4.0
-20251224_202516,6,complex,Empathy,3.0
-20251224_202516,6,complex,Direction,4.0
-20251224_202516,6,complex,Collaboration,4.0
-20251224_202516,6,complex,Autonomy Support,4.0
-20251224_202516,6,complex,Evocation,4.0
-20251224_202516,6,complex,Partnership,4.0
-20251224_202516,6,complex,Cultivating Change Talk,4.0
-20251224_202516,6,complex,Softening Sustain Talk,3.0
-20251224_202516,6,complex,Overall Average,3.7777777777777777
-20251224_203231,6,multi_agent,Acceptance,4.0
-20251224_203231,6,multi_agent,Empathy,3.0
-20251224_203231,6,multi_agent,Direction,4.0
-20251224_203231,6,multi_agent,Collaboration,4.0
-20251224_203231,6,multi_agent,Autonomy Support,4.0
-20251224_203231,6,multi_agent,Evocation,3.0
-20251224_203231,6,multi_agent,Partnership,4.0
-20251224_203231,6,multi_agent,Cultivating Change Talk,3.0
-20251224_203231,6,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,6,multi_agent,Overall Average,3.6666666666666665
-20251224_201742,7,simple,Acceptance,4.0
-20251224_201742,7,simple,Empathy,4.0
-20251224_201742,7,simple,Direction,4.0
-20251224_201742,7,simple,Collaboration,4.0
-20251224_201742,7,simple,Autonomy Support,4.0
-20251224_201742,7,simple,Evocation,4.0
-20251224_201742,7,simple,Partnership,4.0
-20251224_201742,7,simple,Cultivating Change Talk,1.0
-20251224_201742,7,simple,Softening Sustain Talk,4.0
-20251224_201742,7,simple,Overall Average,3.6666666666666665
-20251224_202516,7,complex,Acceptance,4.0
-20251224_202516,7,complex,Empathy,4.0
-20251224_202516,7,complex,Direction,5.0
-20251224_202516,7,complex,Collaboration,5.0
-20251224_202516,7,complex,Autonomy Support,5.0
-20251224_202516,7,complex,Evocation,4.0
-20251224_202516,7,complex,Partnership,4.0
-20251224_202516,7,complex,Cultivating Change Talk,4.0
-20251224_202516,7,complex,Softening Sustain Talk,5.0
-20251224_202516,7,complex,Overall Average,4.444444444444445
-20251224_203231,7,multi_agent,Acceptance,4.0
-20251224_203231,7,multi_agent,Empathy,4.0
-20251224_203231,7,multi_agent,Direction,2.0
-20251224_203231,7,multi_agent,Collaboration,5.0
-20251224_203231,7,multi_agent,Autonomy Support,4.0
-20251224_203231,7,multi_agent,Evocation,4.0
-20251224_203231,7,multi_agent,Partnership,4.0
-20251224_203231,7,multi_agent,Cultivating Change Talk,2.0
-20251224_203231,7,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,7,multi_agent,Overall Average,3.6666666666666665
-20251224_201742,8,simple,Acceptance,3.0
-20251224_201742,8,simple,Empathy,5.0
-20251224_201742,8,simple,Direction,3.0
-20251224_201742,8,simple,Collaboration,4.0
-20251224_201742,8,simple,Autonomy Support,3.0
-20251224_201742,8,simple,Evocation,3.0
-20251224_201742,8,simple,Partnership,3.0
-20251224_201742,8,simple,Cultivating Change Talk,4.0
-20251224_201742,8,simple,Softening Sustain Talk,4.0
-20251224_201742,8,simple,Overall Average,3.5555555555555554
-20251224_202516,8,complex,Acceptance,4.2
-20251224_202516,8,complex,Empathy,4.2
-20251224_202516,8,complex,Direction,5.0
-20251224_202516,8,complex,Collaboration,5.0
-20251224_202516,8,complex,Autonomy Support,4.2
-20251224_202516,8,complex,Evocation,4.2
-20251224_202516,8,complex,Partnership,4.2
-20251224_202516,8,complex,Cultivating Change Talk,4.2
-20251224_202516,8,complex,Softening Sustain Talk,4.2
-20251224_202516,8,complex,Overall Average,4.377777777777777
-20251224_203231,8,multi_agent,Acceptance,4.0
-20251224_203231,8,multi_agent,Empathy,4.0
-20251224_203231,8,multi_agent,Direction,4.0
-20251224_203231,8,multi_agent,Collaboration,4.0
-20251224_203231,8,multi_agent,Autonomy Support,4.0
-20251224_203231,8,multi_agent,Evocation,4.0
-20251224_203231,8,multi_agent,Partnership,4.0
-20251224_203231,8,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,8,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,8,multi_agent,Overall Average,4.0
-20251224_201742,9,simple,Acceptance,4.0
-20251224_201742,9,simple,Empathy,3.0
-20251224_201742,9,simple,Direction,3.0
-20251224_201742,9,simple,Collaboration,4.0
-20251224_201742,9,simple,Autonomy Support,4.0
-20251224_201742,9,simple,Evocation,3.0
-20251224_201742,9,simple,Partnership,4.0
-20251224_201742,9,simple,Cultivating Change Talk,3.0
-20251224_201742,9,simple,Softening Sustain Talk,3.0
-20251224_201742,9,simple,Overall Average,3.4444444444444446
-20251224_202516,9,complex,Acceptance,4.0
-20251224_202516,9,complex,Empathy,4.0
-20251224_202516,9,complex,Direction,5.0
-20251224_202516,9,complex,Collaboration,5.0
-20251224_202516,9,complex,Autonomy Support,4.0
-20251224_202516,9,complex,Evocation,4.0
-20251224_202516,9,complex,Partnership,4.0
-20251224_202516,9,complex,Cultivating Change Talk,4.0
-20251224_202516,9,complex,Softening Sustain Talk,4.0
-20251224_202516,9,complex,Overall Average,4.222222222222222
-20251224_203231,9,multi_agent,Acceptance,4.0
-20251224_203231,9,multi_agent,Empathy,5.0
-20251224_203231,9,multi_agent,Direction,5.0
-20251224_203231,9,multi_agent,Collaboration,5.0
-20251224_203231,9,multi_agent,Autonomy Support,5.0
-20251224_203231,9,multi_agent,Evocation,5.0
-20251224_203231,9,multi_agent,Partnership,4.0
-20251224_203231,9,multi_agent,Cultivating Change Talk,4.0
-20251224_203231,9,multi_agent,Softening Sustain Talk,4.0
-20251224_203231,9,multi_agent,Overall Average,4.555555555555555
+20251229_094554,1,simple,Acceptance,3.0
+20251229_094554,1,simple,Empathy,5.0
+20251229_094554,1,simple,Direction,2.0
+20251229_094554,1,simple,Collaboration,4.0
+20251229_094554,1,simple,Autonomy Support,1.0
+20251229_094554,1,simple,Evocation,2.0
+20251229_094554,1,simple,Partnership,2.0
+20251229_094554,1,simple,Cultivating Change Talk,1.0
+20251229_094554,1,simple,Softening Sustain Talk,2.0
+20251229_094554,1,simple,Overall Average,2.4444444444444446
+20251229_095420,1,complex,Acceptance,4.0
+20251229_095420,1,complex,Empathy,4.0
+20251229_095420,1,complex,Direction,4.0
+20251229_095420,1,complex,Collaboration,4.0
+20251229_095420,1,complex,Autonomy Support,5.0
+20251229_095420,1,complex,Evocation,4.0
+20251229_095420,1,complex,Partnership,2.0
+20251229_095420,1,complex,Cultivating Change Talk,2.0
+20251229_095420,1,complex,Softening Sustain Talk,3.0
+20251229_095420,1,complex,Overall Average,3.5555555555555554
+20251229_100214,1,multi_agent,Acceptance,4.0
+20251229_100214,1,multi_agent,Empathy,5.0
+20251229_100214,1,multi_agent,Direction,5.0
+20251229_100214,1,multi_agent,Collaboration,4.0
+20251229_100214,1,multi_agent,Autonomy Support,5.0
+20251229_100214,1,multi_agent,Evocation,3.0
+20251229_100214,1,multi_agent,Partnership,4.0
+20251229_100214,1,multi_agent,Cultivating Change Talk,4.0
+20251229_100214,1,multi_agent,Softening Sustain Talk,3.0
+20251229_100214,1,multi_agent,Overall Average,4.111111111111111
+20251229_094554,2,simple,Acceptance,4.0
+20251229_094554,2,simple,Empathy,4.0
+20251229_094554,2,simple,Direction,4.0
+20251229_094554,2,simple,Collaboration,4.0
+20251229_094554,2,simple,Autonomy Support,5.0
+20251229_094554,2,simple,Evocation,4.0
+20251229_094554,2,simple,Partnership,3.0
+20251229_094554,2,simple,Cultivating Change Talk,3.0
+20251229_094554,2,simple,Softening Sustain Talk,4.0
+20251229_094554,2,simple,Overall Average,3.888888888888889
+20251229_095420,2,complex,Acceptance,4.6
+20251229_095420,2,complex,Empathy,5.0
+20251229_095420,2,complex,Direction,5.0
+20251229_095420,2,complex,Collaboration,5.0
+20251229_095420,2,complex,Autonomy Support,4.0
+20251229_095420,2,complex,Evocation,4.0
+20251229_095420,2,complex,Partnership,4.0
+20251229_095420,2,complex,Cultivating Change Talk,4.0
+20251229_095420,2,complex,Softening Sustain Talk,5.0
+20251229_095420,2,complex,Overall Average,4.511111111111111
+20251229_100214,2,multi_agent,Acceptance,5.0
+20251229_100214,2,multi_agent,Empathy,4.0
+20251229_100214,2,multi_agent,Direction,4.0
+20251229_100214,2,multi_agent,Collaboration,5.0
+20251229_100214,2,multi_agent,Autonomy Support,5.0
+20251229_100214,2,multi_agent,Evocation,5.0
+20251229_100214,2,multi_agent,Partnership,5.0
+20251229_100214,2,multi_agent,Cultivating Change Talk,5.0
+20251229_100214,2,multi_agent,Softening Sustain Talk,4.0
+20251229_100214,2,multi_agent,Overall Average,4.666666666666667
+20251229_094554,3,simple,Acceptance,5.0
+20251229_094554,3,simple,Empathy,4.0
+20251229_094554,3,simple,Direction,5.0
+20251229_094554,3,simple,Collaboration,4.0
+20251229_094554,3,simple,Autonomy Support,5.0
+20251229_094554,3,simple,Evocation,4.0
+20251229_094554,3,simple,Partnership,3.0
+20251229_094554,3,simple,Cultivating Change Talk,3.0
+20251229_094554,3,simple,Softening Sustain Talk,5.0
+20251229_094554,3,simple,Overall Average,4.222222222222222
+20251229_095420,3,complex,Acceptance,5.0
+20251229_095420,3,complex,Empathy,5.0
+20251229_095420,3,complex,Direction,5.0
+20251229_095420,3,complex,Collaboration,5.0
+20251229_095420,3,complex,Autonomy Support,5.0
+20251229_095420,3,complex,Evocation,4.0
+20251229_095420,3,complex,Partnership,4.0
+20251229_095420,3,complex,Cultivating Change Talk,4.0
+20251229_095420,3,complex,Softening Sustain Talk,4.0
+20251229_095420,3,complex,Overall Average,4.555555555555555
+20251229_100214,3,multi_agent,Acceptance,5.0
+20251229_100214,3,multi_agent,Empathy,4.0
+20251229_100214,3,multi_agent,Direction,5.0
+20251229_100214,3,multi_agent,Collaboration,4.0
+20251229_100214,3,multi_agent,Autonomy Support,5.0
+20251229_100214,3,multi_agent,Evocation,4.0
+20251229_100214,3,multi_agent,Partnership,4.0
+20251229_100214,3,multi_agent,Cultivating Change Talk,4.0
+20251229_100214,3,multi_agent,Softening Sustain Talk,5.0
+20251229_100214,3,multi_agent,Overall Average,4.444444444444445
