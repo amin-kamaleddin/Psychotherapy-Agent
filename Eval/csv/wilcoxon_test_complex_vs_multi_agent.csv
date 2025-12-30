@@ -1,11 +1,11 @@
 Criterion,N,Wilcoxon_Statistic,p_value,Significant,complex_mean,multi_agent_mean,complex_std,multi_agent_std,Mean_Difference,Direction,Effect_Size
-Acceptance,20,22.0,0.948851,No,4.53,4.55,0.487,0.497,-0.02,multi_agent > complex,-0.0313
-Empathy,20,9.0,0.157299,No,4.6,4.4,0.49,0.49,0.2,complex > multi_agent,0.3333
-Direction,20,4.5,0.048033,Yes,4.6,4.945,0.583,0.218,-0.345,multi_agent > complex,-0.5314
-Collaboration,20,4.0,0.034808,Yes,4.55,4.9,0.589,0.3,-0.35,multi_agent > complex,-0.5353
-Autonomy Support,20,3.0,0.179712,No,4.8,4.95,0.4,0.218,-0.15,multi_agent > complex,-0.3145
-Evocation,20,22.0,0.285049,No,4.4,4.6,0.583,0.583,-0.2,multi_agent > complex,-0.2462
-Partnership,20,1.0,0.002442,Yes,4.15,4.74,0.654,0.429,-0.59,multi_agent > complex,-0.7928
-Cultivating Change Talk,20,0.0,0.000377,Yes,3.9,4.75,0.539,0.433,-0.85,multi_agent > complex,-1.1703
-Softening Sustain Talk,20,9.0,0.738883,No,3.86,3.9,0.482,0.539,-0.04,multi_agent > complex,-0.0799
-Overall Average,20,30.5,0.005077,Yes,4.377,4.637,0.318,0.212,-0.261,multi_agent > complex,-0.7081
+Acceptance,20,13.0,0.051929,No,4.3,4.62,0.458,0.473,-0.32,multi_agent > complex,-0.5025
+Empathy,20,5.0,0.019631,Yes,4.2,4.55,0.4,0.497,-0.35,multi_agent > complex,-0.6116
+Direction,20,8.5,0.178021,No,4.615,4.815,0.571,0.366,-0.2,multi_agent > complex,-0.315
+Collaboration,20,15.0,0.165518,No,4.5,4.75,0.592,0.536,-0.25,multi_agent > complex,-0.3262
+Autonomy Support,20,0.0,0.10247,No,4.65,4.85,0.572,0.357,-0.2,multi_agent > complex,-0.3922
+Evocation,20,18.0,0.070701,No,4.15,4.5,0.654,0.5,-0.35,multi_agent > complex,-0.4418
+Partnership,20,22.0,0.285049,No,3.9,4.15,1.044,0.477,-0.25,multi_agent > complex,-0.2654
+Cultivating Change Talk,20,20.0,0.218272,No,3.65,3.95,0.91,0.589,-0.3,multi_agent > complex,-0.2985
+Softening Sustain Talk,20,12.0,0.705457,No,3.75,3.8,0.622,0.6,-0.05,multi_agent > complex,-0.0848
+Overall Average,20,27.5,0.011305,Yes,4.191,4.443,0.416,0.253,-0.252,multi_agent > complex,-0.705
