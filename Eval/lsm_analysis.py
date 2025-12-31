@@ -418,18 +418,22 @@ def main():
             # Count sessions for this mode
             session_count = len(mode_df[['timestamp', 'patient_id']].drop_duplicates())
             
-            # Group by turn and calculate mean of avg_lsm
-            grouped = mode_df.groupby('turn_number')['avg_lsm'].mean().reset_index()
+            # Group by turn and calculate mean and std of avg_lsm
+            grouped = mode_df.groupby('turn_number')['avg_lsm'].agg(['mean', 'std', 'count']).reset_index()
+            
+            # Rename columns for clarity
+            grouped.columns = ['turn_number', 'avg_lsm', 'std_lsm', 'count']
             
             # Round for cleaner output
             grouped['avg_lsm'] = grouped['avg_lsm'].round(3)
+            grouped['std_lsm'] = grouped['std_lsm'].round(3)
             
             print(f"\n### Therapist Mode: {mode} ({session_count} sessions) ###")
-            print(f"{'Turn':<10} | {'Avg LSM':<20}")
-            print("-" * 35)
+            print(f"{'Turn':<10} | {'Avg LSM':<20} | {'Std LSM':<20} | {'Count':<10}")
+            print("-" * 65)
             
             for _, row in grouped.iterrows():
-                print(f"{int(row['turn_number']):<10} | {row['avg_lsm']:<20.3f}")
+                print(f"{int(row['turn_number']):<10} | {row['avg_lsm']:<20.3f} | {row['std_lsm']:<20.3f} | {int(row['count']):<10}")
                 
             # Save to CSV similar to metrics_output_{mode}.csv
             output_csv_name = f'lsm_metrics_{mode}.csv'

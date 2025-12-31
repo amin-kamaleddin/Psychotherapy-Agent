@@ -227,7 +227,7 @@ def aggregate_metrics(root_dir):
             max_turns = max(max_turns, len(s['c_acc_avg']))
             
         output_rows = []
-        output_rows.append("Turn_Pair,Counselor_Acc_Avg,Client_Acc_Avg,Acc_Ratio")
+        output_rows.append("Turn_Pair,Counselor_Acc_Avg,Counselor_Acc_Std,Client_Acc_Avg,Client_Acc_Std,Acc_Ratio,Acc_Ratio_Std,Count")
 
         for i in range(max_turns):
             # Collect values for this turn index from all valid sessions
@@ -248,8 +248,15 @@ def aggregate_metrics(root_dir):
             avg_cl = sum(cl_vals) / len(cl_vals)
             avg_r = sum(r_vals) / len(r_vals)
             
+            # Calculate standard deviations
+            import numpy as np
+            std_c = np.std(c_vals, ddof=1) if len(c_vals) > 1 else 0
+            std_cl = np.std(cl_vals, ddof=1) if len(cl_vals) > 1 else 0
+            std_r = np.std(r_vals, ddof=1) if len(r_vals) > 1 else 0
+            count = len(c_vals)
+            
             print(f"{i+1:<10} | {avg_c:<20.2f} | {avg_cl:<20.2f} | {avg_r:<15.2f}")
-            output_rows.append(f"{i+1},{avg_c:.2f},{avg_cl:.2f},{avg_r:.2f}")
+            output_rows.append(f"{i+1},{avg_c:.2f},{std_c:.2f},{avg_cl:.2f},{std_cl:.2f},{avg_r:.2f},{std_r:.2f},{count}")
 
         # Save to CSV
         out_file = os.path.join(CSV_DIR, f'metrics_output_{mode}.csv')
