@@ -126,7 +126,7 @@ def convert_lsm_turn_to_percentage(df):
 
 
 def plot_counselor_words(data):
-    """Plot 1: Average words per turn by counselors."""
+    """Plot 1: Average words per turn by counselors with standard error shading."""
     fig, ax = plt.subplots(figsize=(10, 6))
     
     for mode in ['simple', 'complex', 'multi_agent']:
@@ -134,6 +134,17 @@ def plot_counselor_words(data):
             df = data[mode].copy()
             df = convert_turn_to_percentage(df)
             
+            # Calculate standard error if std and count columns exist
+            if 'Counselor_Acc_Std' in df.columns and 'Count' in df.columns:
+                se = df['Counselor_Acc_Std'] / np.sqrt(df['Count'])
+                lower = df['Counselor_Acc_Avg'] - se
+                upper = df['Counselor_Acc_Avg'] + se
+                
+                # Plot shaded standard error region
+                ax.fill_between(df['Percent'], lower, upper, 
+                               color=COLORS[mode], alpha=0.2)
+            
+            # Plot line
             ax.plot(
                 df['Percent'],
                 df['Counselor_Acc_Avg'],
@@ -157,7 +168,7 @@ def plot_counselor_words(data):
 
 
 def plot_client_words(data):
-    """Plot 2: Average words per turn by clients."""
+    """Plot 2: Average words per turn by clients with standard error bars at each point."""
     fig, ax = plt.subplots(figsize=(10, 6))
     
     for mode in ['simple', 'complex', 'multi_agent']:
@@ -165,6 +176,17 @@ def plot_client_words(data):
             df = data[mode].copy()
             df = convert_turn_to_percentage(df)
             
+            # Calculate standard error if std and count columns exist
+            if 'Client_Acc_Std' in df.columns and 'Count' in df.columns:
+                se = df['Client_Acc_Std'] / np.sqrt(df['Count'])
+                lower = df['Client_Acc_Avg'] - se
+                upper = df['Client_Acc_Avg'] + se
+                
+                # Plot shaded standard error region
+                ax.fill_between(df['Percent'], lower, upper, 
+                               color=COLORS[mode], alpha=0.2)
+            
+            # Plot line
             ax.plot(
                 df['Percent'],
                 df['Client_Acc_Avg'],
@@ -188,7 +210,7 @@ def plot_client_words(data):
 
 
 def plot_word_ratio(data):
-    """Plot 3: Word ratio between counselors and clients."""
+    """Plot 3: Word ratio between counselors and clients with standard error shading."""
     fig, ax = plt.subplots(figsize=(10, 6))
     
     for mode in ['simple', 'complex', 'multi_agent']:
@@ -196,6 +218,17 @@ def plot_word_ratio(data):
             df = data[mode].copy()
             df = convert_turn_to_percentage(df)
             
+            # Calculate standard error if std and count columns exist
+            if 'Acc_Ratio_Std' in df.columns and 'Count' in df.columns:
+                se = df['Acc_Ratio_Std'] / np.sqrt(df['Count'])
+                lower = df['Acc_Ratio'] - se
+                upper = df['Acc_Ratio'] + se
+                
+                # Plot shaded standard error region
+                ax.fill_between(df['Percent'], lower, upper, 
+                               color=COLORS[mode], alpha=0.2)
+            
+            # Plot line
             ax.plot(
                 df['Percent'],
                 df['Acc_Ratio'],
@@ -302,7 +335,7 @@ def plot_sentiment_distribution(sentiment_df):
 
 
 def plot_positive_sentiment_over_time(sentiment_df):
-    """Plot 5: Distribution of positive sentiment over 20% splits of the conversation."""
+    """Plot 5: Distribution of positive sentiment over 20% splits of the conversation with standard error bars."""
     if sentiment_df is None or sentiment_df.empty:
         print("Warning: No sentiment data available for positive sentiment over time plot")
         return None
@@ -317,7 +350,7 @@ def plot_positive_sentiment_over_time(sentiment_df):
     }
     
     # Collect data for each mode and split
-    results = {mode: {'splits': [], 'means': [], 'stds': []} 
+    results = {mode: {'splits': [], 'means': [], 'ses': []}  # Changed 'stds' to 'ses'
                for mode in ['simple', 'complex', 'multi_agent']}
     
     for percent, turn_num in splits.items():
@@ -327,9 +360,14 @@ def plot_positive_sentiment_over_time(sentiment_df):
             mode_split_data = split_data[split_data['therapist_mode'] == mode]
             if not mode_split_data.empty:
                 prop_pos_values = mode_split_data['prop_pos'].values
+                mean_val = prop_pos_values.mean()
+                std_val = prop_pos_values.std()
+                count = len(prop_pos_values)
+                se = std_val / np.sqrt(count) if count > 0 else 0  # Calculate standard error
+                
                 results[mode]['splits'].append(percent)
-                results[mode]['means'].append(prop_pos_values.mean())
-                results[mode]['stds'].append(prop_pos_values.std())
+                results[mode]['means'].append(mean_val)
+                results[mode]['ses'].append(se)
     
     fig, ax = plt.subplots(figsize=(10, 6))
     
@@ -339,14 +377,14 @@ def plot_positive_sentiment_over_time(sentiment_df):
     for i, mode in enumerate(['simple', 'complex', 'multi_agent']):
         if results[mode]['splits']:
             means = np.array(results[mode]['means'])
-            stds = np.array(results[mode]['stds'])
+            ses = np.array(results[mode]['ses'])  # Changed from 'stds' to 'ses'
             splits = np.array(results[mode]['splits'])
             
             # Adjust x position for grouped bars
             offset = (i - 1) * width
             x_pos_adjusted = x_pos + offset
             
-            ax.bar(x_pos_adjusted, means, width, yerr=stds, 
+            ax.bar(x_pos_adjusted, means, width, yerr=ses, 
                    label=MODE_LABELS.get(mode, mode),
                    color=COLORS[mode], alpha=0.7, capsize=5)
     
@@ -364,7 +402,7 @@ def plot_positive_sentiment_over_time(sentiment_df):
 
 
 def plot_lsm_over_time(lsm_data):
-    """Plot 6: Linguistic style matching across conversation progress."""
+    """Plot 6: Linguistic style matching across conversation progress with standard error shading."""
     if not lsm_data:
         print("Warning: No LSM data available for LSM plot")
         return None
@@ -375,7 +413,18 @@ def plot_lsm_over_time(lsm_data):
         if mode in lsm_data:
             df = lsm_data[mode].copy()
             df = convert_lsm_turn_to_percentage(df)
+            
+            # Calculate standard error if std and count columns exist
+            if 'std_lsm' in df.columns and 'count' in df.columns:
+                se = df['std_lsm'] / np.sqrt(df['count'])
+                lower = df['avg_lsm'] - se
+                upper = df['avg_lsm'] + se
+                
+                # Plot shaded standard error region
+                ax.fill_between(df['Percent'], lower, upper, 
+                               color=COLORS[mode], alpha=0.2)
 
+            # Plot line
             ax.plot(
                 df['Percent'],
                 df['avg_lsm'],
@@ -399,7 +448,7 @@ def plot_lsm_over_time(lsm_data):
 
 
 def plot_feedback_scores(feedback_df):
-    """Plot feedback scores by criterion and therapist mode - bar chart with error bars."""
+    """Plot feedback scores by criterion and therapist mode - bar chart with standard error bars."""
     if feedback_df is None or feedback_df.empty:
         print("Warning: No feedback data available for feedback scores plot")
         return None
@@ -428,19 +477,24 @@ def plot_feedback_scores(feedback_df):
     for mode in modes:
         plot_data[mode] = {
             'means': [],
-            'stds': [],
+            'ses': [],  # Changed from 'stds' to 'ses' for standard errors
             'counts': []
         }
         mode_data = grouped[grouped['therapist_mode'] == mode]
         for criterion in criteria_order:
             criterion_data = mode_data[mode_data['criterion'] == criterion]
             if not criterion_data.empty:
-                plot_data[mode]['means'].append(criterion_data['mean'].iloc[0])
-                plot_data[mode]['stds'].append(criterion_data['std'].iloc[0])
-                plot_data[mode]['counts'].append(int(criterion_data['count'].iloc[0]))
+                mean = criterion_data['mean'].iloc[0]
+                std = criterion_data['std'].iloc[0]
+                count = int(criterion_data['count'].iloc[0])
+                se = std / np.sqrt(count) if count > 0 else 0  # Calculate standard error
+                
+                plot_data[mode]['means'].append(mean)
+                plot_data[mode]['ses'].append(se)
+                plot_data[mode]['counts'].append(count)
             else:
                 plot_data[mode]['means'].append(0)
-                plot_data[mode]['stds'].append(0)
+                plot_data[mode]['ses'].append(0)
                 plot_data[mode]['counts'].append(0)
     
     # Create figure
@@ -455,9 +509,9 @@ def plot_feedback_scores(feedback_df):
     # Plot bars for each mode
     for i, mode in enumerate(modes):
         means = np.array(plot_data[mode]['means'])
-        stds = np.array(plot_data[mode]['stds'])
+        ses = np.array(plot_data[mode]['ses'])  # Changed from 'stds' to 'ses'
         offset = (i - 1) * width  # Center the bars
-        bars = ax.bar(x + offset, means, width, yerr=stds, 
+        bars = ax.bar(x + offset, means, width, yerr=ses, 
                      label=MODE_LABELS.get(mode, mode),
                      color=COLORS[mode], alpha=0.7, capsize=5)
     
