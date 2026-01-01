@@ -261,11 +261,11 @@ def main():
     print("PERFORMING PAIRWISE WILCOXON TESTS")
     print("="*80)
     
-    # Define the 3 pairs
+    # Define the 3 pairs (reversed order for positive effect sizes)
     pairs = [
-        ('simple', 'complex'),
-        ('simple', 'multi_agent'),
-        ('complex', 'multi_agent')
+        ('multi_agent', 'complex'),
+        ('complex', 'simple'),
+        ('multi_agent', 'simple')
     ]
     
     for mode1, mode2 in pairs:
