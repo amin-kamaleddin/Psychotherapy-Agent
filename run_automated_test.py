@@ -527,7 +527,7 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
     }
 
 
-def aggregate_metrics(skip_sentiment=False, max_workers=20):
+def aggregate_metrics(skip_sentiment=False, max_workers=30):
     """Run all Python scripts in Eval folder in the correct order.
     
     Args:
