@@ -116,8 +116,7 @@ class PsychotherapySingleAgent:
     Usage:
         therapist = PsychotherapySingleAgent(
             api_key="your-key",
-            therapist_index=0,  # 0=simple, 1=complex
-            use_base_prompt=True
+            therapist_index=0  # 0=simple, 1=complex
         )
         therapist.start_session(case_study=case_study)
         result = therapist.send_message()  # Therapist generates response, patient responds
@@ -130,8 +129,7 @@ class PsychotherapySingleAgent:
             therapist_index: int = 0,
             prompt_addon: str = "",
             model: str = "gpt-5-mini",
-            temperature: float = 0.8,
-            use_base_prompt: bool = True
+            temperature: float = 0.8
     ):
         """
         Initialize a single-agent therapist with session management.
@@ -142,20 +140,17 @@ class PsychotherapySingleAgent:
             prompt_addon: Additional text to append to therapist prompt
             model: OpenAI model to use (default: "gpt-5-mini" to match proposer)
             temperature: LLM temperature for response generation (default: 0.8 to match proposer, not used for gpt-5-mini)
-            use_base_prompt: If True, includes base Virtual Therapist prompt when loading CSV prompts.
-                           If False, uses only CSV prompt without base prompt.
         """
         self.api_key = SecretStr(api_key)
         self.therapist_index = therapist_index
         self.model = model
         self.temperature = temperature
-        self.use_base_prompt = use_base_prompt
 
         # Initialize patient session management
-        self.core = PsychotherapyCore(api_key, use_base_prompt=use_base_prompt)
+        self.core = PsychotherapyCore(api_key)
 
         # Initialize prompt manager (same as multi-agent uses)
-        self.prompt_manager = PromptManager(use_base_prompt=use_base_prompt)
+        self.prompt_manager = PromptManager()
 
         # Initialize LLM
         llm_kwargs = {

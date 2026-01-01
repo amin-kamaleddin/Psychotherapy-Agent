@@ -12,15 +12,8 @@ from typing import Optional
 class PromptManager:
     """Manages prompt loading from files and CSV."""
     
-    def __init__(self, use_base_prompt: bool = True):
-        """
-        Initialize PromptManager.
-        
-        Args:
-            use_base_prompt: If True, includes base Virtual Therapist prompt when loading CSV prompts.
-                           If False, uses only CSV prompt without base prompt.
-        """
-        self.use_base_prompt = use_base_prompt
+    def __init__(self):
+        """Initialize PromptManager."""
         # Define prompt file paths
         self.prompt_paths = {
             'Clinical Summary': 'Prompts/MI/clinical_summary_prompt.txt',
@@ -28,7 +21,6 @@ class PromptManager:
             'Feedback': 'Prompts/MI/feedback_agent_prompt.txt',
             'MI Prompt': 'Prompts/MI/MI_form_prompt.txt',
             'Virtual Evaluator': 'Prompts/MI/virtual_evaluator_prompt.txt',
-            'Virtual Therapist': 'Prompts/MI/virtual_therapist_prompt.txt',
         }
         
         # Define context file paths
@@ -108,17 +100,8 @@ class PromptManager:
             therapist_row = df.iloc[therapist_index]
             csv_prompt = therapist_row["Prompt"]
             
-            # For simple (0), complex (1), and proposer (2) agents, optionally combine with base prompt
-            # For judge (3), use CSV prompt as-is (standalone)
-            if therapist_index in [0, 1, 2]:
-                if self.use_base_prompt:
-                    base_prompt = self.load_prompt('Virtual Therapist')
-                    return base_prompt + "\n\n" + csv_prompt
-                else:
-                    return csv_prompt
-            else:
-                # Judge (3) has standalone prompt (never uses base prompt)
-                return csv_prompt
+            # Return CSV prompt directly (no base prompt combination)
+            return csv_prompt
         except Exception as e:
             logging.error(f"Error loading therapist prompt from CSV: {str(e)}")
             # Fallback prompts based on agent type

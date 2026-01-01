@@ -31,10 +31,6 @@ from .psychotherapy_core import PsychotherapyCore
 # Import state types
 from .graph_state import LBState, PatientContext
 
-# Version information
-__version__ = "2.1.0"
-__author__ = "PsychotherapyAgent Team"
-
 # Public API - what users can import
 __all__ = [
     # Main classes

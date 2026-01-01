@@ -41,21 +41,19 @@ class PsychotherapyMultiAgent:
     judge selects the best one.
     """
     
-    def __init__(self, api_key: str, use_base_prompt: bool = True):
+    def __init__(self, api_key: str):
         """
         Initialize PsychotherapyMultiAgent.
         
         Args:
             api_key: OpenAI API key
-            use_base_prompt: If True, includes base Virtual Therapist prompt when loading CSV prompts.
-                           If False, uses only CSV prompt without base prompt.
         """
         # Initialize core for patient simulation and session management
-        self.core = PsychotherapyCore(api_key, use_base_prompt=use_base_prompt)
+        self.core = PsychotherapyCore(api_key)
         
         # Initialize multi-agent therapist workflow
         self.llm_manager = LLMManager(self.core.api_key)
-        self.prompt_manager = PromptManager(use_base_prompt=use_base_prompt)
+        self.prompt_manager = PromptManager()
         
         self.message_workflow = MessageWorkflow(
             self.llm_manager,

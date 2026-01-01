@@ -54,19 +54,18 @@ class PsychotherapyCore:
     or PsychotherapyMultiAgent.
     """
     
-    def __init__(self, api_key: str, use_base_prompt: bool = True):
+    def __init__(self, api_key: str):
         """
         Initialize PsychotherapyCore.
         
         Args:
             api_key: OpenAI API key
-            use_base_prompt: If True, includes base Virtual Therapist prompt when loading CSV prompts.
         """
         self.api_key = SecretStr(api_key)
         
         # Initialize managers
         self.llm_manager = LLMManager(self.api_key)
-        self.prompt_manager = PromptManager(use_base_prompt=use_base_prompt)
+        self.prompt_manager = PromptManager()
         self.file_manager = FileManager()
         
         # Initialize workflows (patient and session management only)
