@@ -8,10 +8,15 @@ from datetime import datetime
 import pandas as pd
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 # Add project root to path to import utils
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.api_key_loader import load_openai_api_key
+
+# Thread-safe print lock
+print_lock = threading.Lock()
 
 def get_session_timestamp(session_dir):
     """
@@ -107,11 +112,13 @@ def extract_patient_turns(transcript_path, max_turns=10):
 
     return turns[:max_turns]
 
-def classify_sentiment_single(text, llm):
+def classify_sentiment_single(text, api_key):
     """
     Classifies a single text turn. Returns 'positive', 'neutral', or 'negative'.
+    Each call creates its own LLM instance for thread safety.
     """
     try:
+        llm = ChatOpenAI(model="gpt-5-nano", api_key=api_key)
         msg = HumanMessage(content=f"Classify the sentiment of the following text as 'positive', 'neutral', or 'negative'. Return ONLY the word.\n\nText: {text}")
         response = llm.invoke([msg])
         sentiment = response.content.strip().lower()
@@ -123,15 +130,67 @@ def classify_sentiment_single(text, llm):
         else:
             return 'neutral'
     except Exception as e:
-        print(f"Error classifying: {e}")
+        with print_lock:
+            print(f"Error classifying: {e}")
         return 'neutral' # Default
 
-def main():
+def process_single_session(session_data, api_key):
+    """
+    Process a single session - designed for parallel execution.
+    
+    Args:
+        session_data: Tuple of (entry_path, session_ts, patient_id, matching_run)
+        api_key: OpenAI API key
+        
+    Returns:
+        Tuple of (key, processed_data) or (None, None) if processing fails
+    """
+    entry_path, session_ts, patient_id, matching_run = session_data
+    
+    try:
+        transcript_path = os.path.join(entry_path, 'interview_transcript.txt')
+        turns = extract_patient_turns(transcript_path, max_turns=10)
+        
+        if not turns:
+            return None, None
+        
+        # Create key for grouping: (timestamp, patient_id, therapist_mode)
+        key = (matching_run['ts_str'], patient_id, matching_run['mode'])
+        
+        # Initialize data structure
+        turn_sentiments = {i: [] for i in range(10)}
+        
+        with print_lock:
+            print(f"Processing {os.path.basename(entry_path)} (patient_id={patient_id}, {len(turns)} turns) -> Test Run {matching_run['ts_str']}")
+        
+        # Classify each turn
+        for i, text in enumerate(turns):
+            if i < 10:
+                sentiment = classify_sentiment_single(text, api_key)
+                turn_sentiments[i].append(sentiment)
+        
+        return key, {
+            'timestamp': matching_run['ts_str'],
+            'patient_id': patient_id,
+            'therapist_mode': matching_run['mode'],
+            'turn_sentiments': turn_sentiments
+        }
+        
+    except Exception as e:
+        with print_lock:
+            print(f"Error processing {os.path.basename(entry_path)}: {e}")
+        return None, None
+
+
+def main(max_workers=20):
+    """
+    Main function to perform sentiment analysis with parallel processing.
+    
+    Args:
+        max_workers: Number of parallel workers (default: 20)
+    """
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     api_key = load_openai_api_key()
-    
-    # Initialize LLM
-    llm = ChatOpenAI(model="gpt-5-nano", api_key=api_key)
     
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
     saved_tests_dir = os.path.join(root_dir, 'Session_Metadata')
@@ -146,11 +205,12 @@ def main():
                     test_runs.append({'timestamp': ts, 'mode': mode, 'path': entry.path, 'ts_str': ts.strftime("%Y%m%d_%H%M%S")})
     test_runs.sort(key=lambda x: x['timestamp'])
 
-    # Data structure: matched_data[(ts_str, patient_id, mode)] = { 'turn_sentiments': { 0: [], 1: [], ... } }
-    # Use tuple as key to group by timestamp, patient_id, and therapist_mode
+    # Data structure to store results
     matched_data = {}
 
-    # 2. Process Sessions
+    # 2. Prepare Sessions for Processing
+    sessions_to_process = []
+    
     if os.path.exists(saved_sessions_dir):
         print(f"Scanning sessions in {saved_sessions_dir}...")
         for entry in os.scandir(saved_sessions_dir):
@@ -173,33 +233,47 @@ def main():
                         break
                 
                 if matching_run:
-                    transcript_path = os.path.join(entry.path, 'interview_transcript.txt')
-                    turns = extract_patient_turns(transcript_path, max_turns=10)
-                    
-                    if not turns:
-                        continue
-                    
-                    # Create key for grouping: (timestamp, patient_id, therapist_mode)
-                    key = (matching_run['ts_str'], patient_id, matching_run['mode'])
-                    
-                    # Initialize entry if it doesn't exist
-                    if key not in matched_data:
-                        matched_data[key] = {
-                            'timestamp': matching_run['ts_str'],
-                            'patient_id': patient_id,
-                            'therapist_mode': matching_run['mode'],
-                            'turn_sentiments': {i: [] for i in range(10)}
-                        }
-                        
-                    print(f"Processing {entry.name} (patient_id={patient_id}, {len(turns)} turns) -> Test Run {matching_run['ts_str']}")
-                    
-                    # Classify each turn
-                    for i, text in enumerate(turns):
-                        if i < 10:
-                            sentiment = classify_sentiment_single(text, llm)
-                            matched_data[key]['turn_sentiments'][i].append(sentiment)
+                    sessions_to_process.append((entry.path, session_ts, patient_id, matching_run))
+    
+    if not sessions_to_process:
+        print("No sessions found to process.")
+        return
+    
+    print(f"\n🚀 Starting parallel processing with {max_workers} workers...")
+    print(f"Processing {len(sessions_to_process)} sessions\n")
+    
+    # 3. Process Sessions in Parallel
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Submit all tasks
+        future_to_session = {
+            executor.submit(process_single_session, session_data, api_key): session_data 
+            for session_data in sessions_to_process
+        }
+        
+        # Collect results as they complete
+        completed = 0
+        for future in as_completed(future_to_session):
+            completed += 1
+            key, data = future.result()
+            
+            if key is not None and data is not None:
+                # Merge results with same key
+                if key in matched_data:
+                    # Merge turn sentiments
+                    for turn_idx in range(10):
+                        matched_data[key]['turn_sentiments'][turn_idx].extend(
+                            data['turn_sentiments'][turn_idx]
+                        )
+                else:
+                    matched_data[key] = data
+            
+            with print_lock:
+                print(f"Progress: {completed}/{len(sessions_to_process)} sessions processed")
+    
+    print(f"\n✅ All sessions processed!")
+    print(f"Total unique session groups: {len(matched_data)}\n")
 
-    # 3. Aggregate Results
+    # 4. Aggregate Results
     # Group by (timestamp, patient_id, therapist_mode, turn_number)
     # Calculate CUMULATIVE proportions: for turn N, include all sentiments from turns 0 through N
     final_rows = []
@@ -242,7 +316,7 @@ def main():
                     'prop_neg': round(prop_neg, 2)
                 })
     
-    # 4. Save Output
+    # 5. Save Output
     if final_rows:
         df = pd.DataFrame(final_rows)
         # Ensure csv directory exists
@@ -250,10 +324,17 @@ def main():
         os.makedirs(csv_dir, exist_ok=True)
         output_path = os.path.join(csv_dir, 'sentiment_dataset_by_turn.csv')
         df.to_csv(output_path, index=False)
-        print(f"\nSaved per-turn sentiment dataset to {output_path}")
+        print(f"\n✅ Saved per-turn sentiment dataset to {output_path}")
+        print(f"Total records: {len(df)}")
         print(df.head(20))
     else:
         print("No matched session data found to aggregate.")
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description="Sentiment Analysis with Parallel Processing")
+    parser.add_argument("--max-workers", type=int, default=20,
+                        help="Number of parallel workers (default: 20)")
+    args = parser.parse_args()
+    
+    main(max_workers=args.max_workers)

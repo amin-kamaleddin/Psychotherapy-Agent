@@ -411,7 +411,9 @@ def run_comparison_experiment(args):
     print("=" * 80)
     
     # Run evaluation scripts after comparison completes
-    aggregate_metrics(skip_sentiment=args.skip_sentiment)
+    # Use the same max_workers setting for sentiment analysis
+    max_workers = args.max_workers if hasattr(args, 'max_workers') else 20
+    aggregate_metrics(skip_sentiment=args.skip_sentiment, max_workers=max_workers)
     
     return {
         "simple_folder": simple_folder,
@@ -525,11 +527,12 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
     }
 
 
-def aggregate_metrics(skip_sentiment=False):
+def aggregate_metrics(skip_sentiment=False, max_workers=20):
     """Run all Python scripts in Eval folder in the correct order.
     
     Args:
         skip_sentiment: If True, skip sentiment_analysis.py
+        max_workers: Number of parallel workers for sentiment analysis (default: 20)
     """
     eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
     
@@ -566,9 +569,15 @@ def aggregate_metrics(skip_sentiment=False):
         print("-" * 80)
         
         try:
+            # Build command with additional arguments for sentiment_analysis.py
+            cmd = [python_exe, script_path]
+            if script_name == "sentiment_analysis.py":
+                cmd.extend(["--max-workers", str(max_workers)])
+                print(f"  Using {max_workers} parallel workers for sentiment analysis")
+            
             # Run the script using subprocess
             result = subprocess.run(
-                [python_exe, script_path],
+                cmd,
                 cwd=eval_dir,
                 capture_output=False,  # Show output in real-time
                 text=True,
