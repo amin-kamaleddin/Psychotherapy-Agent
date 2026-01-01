@@ -627,7 +627,14 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if args.compare:
+    if args.aggregate:
+        # Run only the evaluation/aggregation scripts
+        print("\n" + "=" * 80)
+        print("RUNNING EVALUATION SCRIPTS ONLY")
+        print("=" * 80)
+        max_workers = args.max_workers if hasattr(args, 'max_workers') else 20
+        aggregate_metrics(skip_sentiment=args.skip_sentiment, max_workers=max_workers)
+    elif args.compare:
         # Run 3-way comparison experiment
         run_comparison_experiment(args)
     else:
