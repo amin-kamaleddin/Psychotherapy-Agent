@@ -1319,6 +1319,36 @@ timestamp,patient_id,therapist_mode,criterion,score
 20251231_221837,1,multi_agent,Cultivating Change Talk,4.0
 20251231_221837,1,multi_agent,Softening Sustain Talk,4.0
 20251231_221837,1,multi_agent,Overall Average,4.444444444444445
+20260101_020054,1,simple,Acceptance,4.0
+20260101_020054,1,simple,Empathy,4.0
+20260101_020054,1,simple,Direction,4.0
+20260101_020054,1,simple,Collaboration,4.0
+20260101_020054,1,simple,Autonomy Support,5.0
+20260101_020054,1,simple,Evocation,4.0
+20260101_020054,1,simple,Partnership,4.0
+20260101_020054,1,simple,Cultivating Change Talk,3.0
+20260101_020054,1,simple,Softening Sustain Talk,3.0
+20260101_020054,1,simple,Overall Average,3.888888888888889
+20260101_021214,1,complex,Acceptance,5.0
+20260101_021214,1,complex,Empathy,4.0
+20260101_021214,1,complex,Direction,5.0
+20260101_021214,1,complex,Collaboration,4.0
+20260101_021214,1,complex,Autonomy Support,5.0
+20260101_021214,1,complex,Evocation,5.0
+20260101_021214,1,complex,Partnership,4.0
+20260101_021214,1,complex,Cultivating Change Talk,4.0
+20260101_021214,1,complex,Softening Sustain Talk,4.0
+20260101_021214,1,complex,Overall Average,4.444444444444445
+20260101_021901,1,multi_agent,Acceptance,4.0
+20260101_021901,1,multi_agent,Empathy,4.0
+20260101_021901,1,multi_agent,Direction,5.0
+20260101_021901,1,multi_agent,Collaboration,5.0
+20260101_021901,1,multi_agent,Autonomy Support,5.0
+20260101_021901,1,multi_agent,Evocation,4.0
+20260101_021901,1,multi_agent,Partnership,4.0
+20260101_021901,1,multi_agent,Cultivating Change Talk,4.0
+20260101_021901,1,multi_agent,Softening Sustain Talk,4.0
+20260101_021901,1,multi_agent,Overall Average,4.333333333333333
 20251231_202959,20,simple,Acceptance,3.0
 20251231_202959,20,simple,Empathy,3.0
 20251231_202959,20,simple,Direction,5.0
