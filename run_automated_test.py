@@ -232,16 +232,22 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     # Get patient files for this range
     patient_files = get_patient_files(args.start_patient, args.end_patient)
     num_patients = len(patient_files)
+    
+    # Get fold parameter (default to 1 if not provided)
+    fold = getattr(args, 'fold', 1)
+    total_runs = num_patients * fold
 
     print(f"Processing patients {args.start_patient} to {args.end_patient} ({num_patients} patients)")
+    print(f"Fold: {fold} (Total runs: {total_runs})")
     print(f"Mode: {therapist_mode}")
     print(f"Therapist Profile Index: {therapist_num}")
 
     # Create save folder
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    fold_str = f"_fold{fold}" if fold > 1 else ""
     save_folder = os.path.join(
         "Session_Metadata",
-        f"{args.run_id}_{therapist_mode}_patients_{args.start_patient}_{args.end_patient}_{timestamp}"
+        f"{args.run_id}_{therapist_mode}_patients_{args.start_patient}_{args.end_patient}{fold_str}_{timestamp}"
     )
     os.makedirs(save_folder, exist_ok=True)
 
@@ -251,6 +257,8 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         "start_patient": args.start_patient,
         "end_patient": args.end_patient,
         "num_patients": num_patients,
+        "fold": fold,
+        "total_runs": total_runs,
         "timestamp": timestamp,
         "therapist_mode": therapist_mode,
         "therapist_profile_number": therapist_num
@@ -265,13 +273,15 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
 
     def process_single_patient(patient_data):
         """Process a single patient test - designed for parallel execution."""
-        patient_idx, patient_file = patient_data
-        patient_number = patient_idx + 1
+        fold_idx, patient_idx, patient_file = patient_data
+        # Patient number starts from args.start_patient (0-indexed)
+        # For fold runs, we use: fold_idx * num_patients + patient_idx + start_patient
+        patient_number = args.start_patient + patient_idx
         
         try:
             with print_lock:
                 print(f"\n{'=' * 60}")
-                print(f"Processing Patient {patient_number}/{num_patients}: {os.path.basename(patient_file)}")
+                print(f"Processing Patient {patient_number} (Fold {fold_idx+1}/{fold}): {os.path.basename(patient_file)}")
                 print(f"Mode: {therapist_mode}")
                 print(f"{'=' * 60}")
                 print(f"  [STEP 1] Running test ({therapist_mode} mode)...")
@@ -326,12 +336,16 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     
     with print_lock:
         print(f"\n🚀 Starting parallel processing with {max_workers} workers...")
-        print(f"Processing {num_patients} patients in {therapist_mode} mode\n")
+        print(f"Processing {num_patients} patients x {fold} folds = {total_runs} total runs in {therapist_mode} mode\n")
     
     # Process patients in parallel
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # Submit all tasks
-        patient_data_list = [(idx, patient_file) for idx, patient_file in enumerate(patient_files)]
+        # Submit all tasks - create fold copies of each patient
+        patient_data_list = []
+        for fold_idx in range(fold):
+            for patient_idx, patient_file in enumerate(patient_files):
+                patient_data_list.append((fold_idx, patient_idx, patient_file))
+        
         future_to_patient = {executor.submit(process_single_patient, data): data for data in patient_data_list}
         
         # Collect results as they complete
@@ -343,7 +357,7 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
                 all_results.append(result)
             
             with print_lock:
-                print(f"📊 Progress: {completed}/{num_patients} patients completed")
+                print(f"📊 Progress: {completed}/{total_runs} runs completed")
     
     # Sort results by patient filename to maintain order
     patient_file_basenames = {os.path.basename(f): idx for idx, f in enumerate(patient_files)}
@@ -369,6 +383,11 @@ def run_comparison_experiment(args):
     print("\n" + "=" * 80)
     print("RUNNING COMPARISON EXPERIMENT: Simple vs Complex vs Multi-Agent")
     print("=" * 80)
+    
+    # Get fold parameter
+    fold = getattr(args, 'fold', 1)
+    if fold > 1:
+        print(f"Running with {fold} folds per patient")
     
     # Get therapist profile numbers from args
     # THERAPIST_NUM maps to mode: 0=simple (CSV index 0, row 2), 1=complex (CSV index 1, row 3), 2=multi-agent
@@ -624,6 +643,8 @@ if __name__ == "__main__":
                         help="Number of parallel workers for processing patients (default: 20)")
     parser.add_argument("--skip-sentiment", action="store_true",
                         help="Skip sentiment analysis when running evaluation scripts")
+    parser.add_argument("--fold", type=int, default=1,
+                        help="Number of times to run each patient (e.g., fold=5 with 10 patients = 50 total runs)")
 
     args = parser.parse_args()
 

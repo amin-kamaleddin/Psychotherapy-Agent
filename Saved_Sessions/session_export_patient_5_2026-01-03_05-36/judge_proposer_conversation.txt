@@ -1,0 +1,453 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Alessia, I hear you want accurate, reliable information and you’re feeling cautious — worried about side effects and wanting to do the right thing for your health and family. That makes sense. You’ve already taken a careful step by talking with the pharmacist, and it’s okay to feel uncertain. You’re thoughtful and responsible, and I’m here to listen and support whatever choice feels right for you.
+
+
+Response 2:
+You’ve emphasized how much you value precise health information and that the pharmacist helped, which tells me clear facts would help you decide. What would make you feel confident now — a concise risks/benefits summary, cited studies you can review, or a short script to use with your provider?
+
+
+Response 3:
+I hear change-talk: you want clarity and to take an informed step for your health and family. That shows real self-care and commitment. I believe you can find a course that fits your values without rushing — we can map small, manageable next steps that feel right for you.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Alessia, I hear you want accurate, reliable information and you’re feeling cautious — worried about side effects and wanting to do the right thing for your health and family. That makes sense. You’ve already taken a careful step by talking with the pharmacist, and it’s okay to feel uncertain. You’re thoughtful and responsible, and I’m here to listen and support whatever choice feels right for you.
+
+CANDIDATE RESPONSE 2:
+You’ve emphasized how much you value precise health information and that the pharmacist helped, which tells me clear facts would help you decide. What would make you feel confident now — a concise risks/benefits summary, cited studies you can review, or a short script to use with your provider?
+
+CANDIDATE RESPONSE 3:
+I hear change-talk: you want clarity and to take an informed step for your health and family. That shows real self-care and commitment. I believe you can find a course that fits your values without rushing — we can map small, manageable next steps that feel right for you.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It best combines acceptance with clear collaboration and autonomy support by offering concrete options and asking what would help you feel confident next, moving the conversation forward without pushing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You’ve emphasized how much you value precise health information and that the pharmacist helped, which tells me clear facts would help you decide. What would make you feel confident now — a concise risks/benefits summary, cited studies you can review, or a short script to use with your provider?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you’re unfamiliar with citalopram and want a clear, plain-language risks/benefits sheet with urgent warnings about interactions with phenelzine and common side effects, plus a short script to bring to your provider. That makes total sense given how much you value precise health information. I can prepare that concise, clinician-ready summary now.
+
+
+Response 2:
+I can make (A) a one-page risks/benefits plain-language summary with urgent warnings (e.g., serotonin syndrome risk, required MAOI washout), (B) 2–3 cited studies to review, and (C) a short provider script. Which would you like first — the concise summary, the study list, or the script?
+
+
+Response 3:
+It sounds like getting a concise summary and a ready-to-use script would help you feel confident and safe — a practical step that honors your need for accurate facts. I’ll include urgent warnings (serotonin syndrome risk with MAOIs and washout guidance), common side effects, and a brief, neutral script you can use with your provider.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you’re unfamiliar with citalopram and want a clear, plain-language risks/benefits sheet with urgent warnings about interactions with phenelzine and common side effects, plus a short script to bring to your provider. That makes total sense given how much you value precise health information. I can prepare that concise, clinician-ready summary now.
+
+CANDIDATE RESPONSE 2:
+I can make (A) a one-page risks/benefits plain-language summary with urgent warnings (e.g., serotonin syndrome risk, required MAOI washout), (B) 2–3 cited studies to review, and (C) a short provider script. Which would you like first — the concise summary, the study list, or the script?
+
+CANDIDATE RESPONSE 3:
+It sounds like getting a concise summary and a ready-to-use script would help you feel confident and safe — a practical step that honors your need for accurate facts. I’ll include urgent warnings (serotonin syndrome risk with MAOIs and washout guidance), common side effects, and a brief, neutral script you can use with your provider.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It clearly offers empathic, precise options aligned with her need for accurate information, invites her to choose (supporting autonomy and collaboration), and focuses the conversation on the health goal without prescribing a single path.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I can make (A) a one-page risks/benefits plain-language summary with urgent warnings (e.g., serotonin syndrome risk, required MAOI washout), (B) 2–3 cited studies to review, and (C) a short provider script. Which would you like first — the concise summary, the study list, or the script?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you value precise health information and want the concise risks/benefits summary first with very clear urgent warnings (serotonin syndrome signs, MAOI washout timing), then the short provider script, then studies. That plan makes sense and I’ll keep language plain and urgent warnings prominent. What single detail would make you feel confident enough to speak with your provider right away?
+
+
+Response 2:
+You prefer the one-page plain-language summary first, with urgent warnings (serotonin syndrome signs, MAOI washout timing) and then a short script — I’ll do that. To make it most usable, would you like the urgent warnings formatted as a brief checklist (quick action steps) or as bolded paragraphs with timing and rationale?
+
+
+Response 3:
+It’s great you’re preparing — wanting a clear summary plus a short script shows you’re taking careful, sensible steps to stay safe. I can make the summary direct and the script brief so you feel confident in the visit. What’s the single most important thing you want the script to help you say or get from your provider?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you value precise health information and want the concise risks/benefits summary first with very clear urgent warnings (serotonin syndrome signs, MAOI washout timing), then the short provider script, then studies. That plan makes sense and I’ll keep language plain and urgent warnings prominent. What single detail would make you feel confident enough to speak with your provider right away?
+
+CANDIDATE RESPONSE 2:
+You prefer the one-page plain-language summary first, with urgent warnings (serotonin syndrome signs, MAOI washout timing) and then a short script — I’ll do that. To make it most usable, would you like the urgent warnings formatted as a brief checklist (quick action steps) or as bolded paragraphs with timing and rationale?
+
+CANDIDATE RESPONSE 3:
+It’s great you’re preparing — wanting a clear summary plus a short script shows you’re taking careful, sensible steps to stay safe. I can make the summary direct and the script brief so you feel confident in the visit. What’s the single most important thing you want the script to help you say or get from your provider?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It best mirrors her value for precise information, affirms the plan without judgment, and invites her to name the single detail that would make her feel confident to move forward.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I hear you — you value precise health information and want the concise risks/benefits summary first with very clear urgent warnings (serotonin syndrome signs, MAOI washout timing), then the short provider script, then studies. That plan makes sense and I’ll keep language plain and urgent warnings prominent. What single detail would make you feel confident enough to speak with your provider right away?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — knowing the exact MAOI washout time (a clear statement that you must wait 14 days after stopping phenelzine before starting citalopram) would make you feel confident. That makes perfect sense given how much you value precise health information. Would including that exact 14‑day sentence in the one‑page summary be enough for you to speak with your provider right away?
+
+
+Response 2:
+You’re asking for clarity and something concise to take to your clinician — I can word the urgent line plainly (for example, “Do not start citalopram until at least 14 days after stopping phenelzine”) and highlight serotonin‑syndrome signs. What phrasing would make you feel most confident to bring this up with your provider?
+
+
+Response 3:
+It’s great you’ve identified a single detail that unlocks action — the 14‑day washout is a clear, doable step. That gives me hope you’ll feel ready to raise it with your provider. When have you successfully used a short fact or script with a clinician before, and what helped you feel confident then?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — knowing the exact MAOI washout time (a clear statement that you must wait 14 days after stopping phenelzine before starting citalopram) would make you feel confident. That makes perfect sense given how much you value precise health information. Would including that exact 14‑day sentence in the one‑page summary be enough for you to speak with your provider right away?
+
+CANDIDATE RESPONSE 2:
+You’re asking for clarity and something concise to take to your clinician — I can word the urgent line plainly (for example, “Do not start citalopram until at least 14 days after stopping phenelzine”) and highlight serotonin‑syndrome signs. What phrasing would make you feel most confident to bring this up with your provider?
+
+CANDIDATE RESPONSE 3:
+It’s great you’ve identified a single detail that unlocks action — the 14‑day washout is a clear, doable step. That gives me hope you’ll feel ready to raise it with your provider. When have you successfully used a short fact or script with a clinician before, and what helped you feel confident then?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It reflects her request for clarity, offers a concrete, plain‑language option she values, and invites her input on phrasing (collaborative, evocative, and autonomy‑supportive).
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You’re asking for clarity and something concise to take to your clinician — I can word the urgent line plainly (for example, “Do not start citalopram until at least 14 days after stopping phenelzine”) and highlight serotonin‑syndrome signs. What phrasing would make you feel most confident to bring this up with your provider?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you want a clear line to bring to your clinician: “I’m on phenelzine and was prescribed citalopram. Do not start citalopram until at least 14 days after stopping phenelzine. Can we confirm the exact stop/start dates for me, and what signs should prompt urgent contact?” That’s direct and protective. Would you like me to keep this exact wording or tighten it for brevity?
+
+
+Response 2:
+That phrasing is clear and precise. Two brief alternatives you could choose from: A) Short: “I’m on phenelzine — do not start citalopram until 14 days after stopping; please confirm stop/start dates.” B) With urgent signs: add “Seek immediate care for high fever, severe tremor, confusion, or muscle rigidity.” Which version feels most useful to you?
+
+
+Response 3:
+I appreciate how you’re advocating for safety — your script is assertive and practical and will likely get the exact confirmation you want. It shows you value clear facts and urgent warnings. Would you like to role‑play saying it once here, or would you prefer a one‑line printable card to hand your provider?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you want a clear line to bring to your clinician: “I’m on phenelzine and was prescribed citalopram. Do not start citalopram until at least 14 days after stopping phenelzine. Can we confirm the exact stop/start dates for me, and what signs should prompt urgent contact?” That’s direct and protective. Would you like me to keep this exact wording or tighten it for brevity?
+
+CANDIDATE RESPONSE 2:
+That phrasing is clear and precise. Two brief alternatives you could choose from: A) Short: “I’m on phenelzine — do not start citalopram until 14 days after stopping; please confirm stop/start dates.” B) With urgent signs: add “Seek immediate care for high fever, severe tremor, confusion, or muscle rigidity.” Which version feels most useful to you?
+
+CANDIDATE RESPONSE 3:
+I appreciate how you’re advocating for safety — your script is assertive and practical and will likely get the exact confirmation you want. It shows you value clear facts and urgent warnings. Would you like to role‑play saying it once here, or would you prefer a one‑line printable card to hand your provider?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It offers two concrete, safety-focused wording options (including urgent signs), invites the patient's choice, and supports their autonomy while moving the plan forward.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That phrasing is clear and precise. Two brief alternatives you could choose from: A) Short: “I’m on phenelzine — do not start citalopram until 14 days after stopping; please confirm stop/start dates.” B) With urgent signs: add “Seek immediate care for high fever, severe tremor, confusion, or muscle rigidity.” Which version feels most useful to you?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you want clear, urgent language to bring to your clinician. That sentence — “Seek immediate care for high fever, severe tremor, confusion, muscle rigidity, or very fast heartbeat — these may be signs of serotonin syndrome” — is direct and appropriate given you’re on phenelzine and considering citalopram. I’ll put it verbatim on the summary and script if you’d like. Do you also want the exact MAOI line included (“Do not start citalopram until at least 14 days after stopping phenelzine”)?
+
+
+Response 2:
+That phrasing is precise and plain, which fits how you like information. A small choice: change “very fast heartbeat” to “racing heart” or add “call 911/go to the ER” for extra clarity. What would make you feel most confident to say aloud to your provider? Tell me your preference and I’ll fold it into the one‑page summary and short script.
+
+
+Response 3:
+You sound ready to bring this up, and that line names concrete signs and feels urgent without being alarmist — a good fit for your values. I can finalize the short script including that sentence and the 14‑day MAOI washout warning so you can read it to your clinician. Would you like me to draft that script now with those two lines included?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you want clear, urgent language to bring to your clinician. That sentence — “Seek immediate care for high fever, severe tremor, confusion, muscle rigidity, or very fast heartbeat — these may be signs of serotonin syndrome” — is direct and appropriate given you’re on phenelzine and considering citalopram. I’ll put it verbatim on the summary and script if you’d like. Do you also want the exact MAOI line included (“Do not start citalopram until at least 14 days after stopping phenelzine”)?
+
+CANDIDATE RESPONSE 2:
+That phrasing is precise and plain, which fits how you like information. A small choice: change “very fast heartbeat” to “racing heart” or add “call 911/go to the ER” for extra clarity. What would make you feel most confident to say aloud to your provider? Tell me your preference and I’ll fold it into the one‑page summary and short script.
+
+CANDIDATE RESPONSE 3:
+You sound ready to bring this up, and that line names concrete signs and feels urgent without being alarmist — a good fit for your values. I can finalize the short script including that sentence and the 14‑day MAOI washout warning so you can read it to your clinician. Would you like me to draft that script now with those two lines included?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It best reflects the user’s preference for precise language, offers clear wording options, and invites their choice (evoking collaboration and autonomy) without prescribing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That phrasing is precise and plain, which fits how you like information. A small choice: change “very fast heartbeat” to “racing heart” or add “call 911/go to the ER” for extra clarity. What would make you feel most confident to say aloud to your provider? Tell me your preference and I’ll fold it into the one‑page summary and short script.
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — including “racing heart” and “call 911/go to the ER” feels precise and would make you confident to say it aloud. I’ll fold your exact sentence into the one‑page summary and short script unless you want edits. Is that exact wording what you'd like me to use?
+
+
+Response 2:
+That phrasing is clear and urgent in the way you value — it names specific signs and an immediate action. We can put it verbatim in the handout and script or create a shorter line you can say quickly. Which would you prefer: verbatim or a concise spoken line?
+
+
+Response 3:
+You’re ready to advocate for safety — that sentence is direct and protective and pairs well with the 14‑day MAOI washout note. I believe using it will reduce ambiguity and prompt clear action. If you say this aloud, what do you think will be different in your visit?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — including “racing heart” and “call 911/go to the ER” feels precise and would make you confident to say it aloud. I’ll fold your exact sentence into the one‑page summary and short script unless you want edits. Is that exact wording what you'd like me to use?
+
+CANDIDATE RESPONSE 2:
+That phrasing is clear and urgent in the way you value — it names specific signs and an immediate action. We can put it verbatim in the handout and script or create a shorter line you can say quickly. Which would you prefer: verbatim or a concise spoken line?
+
+CANDIDATE RESPONSE 3:
+You’re ready to advocate for safety — that sentence is direct and protective and pairs well with the 14‑day MAOI washout note. I believe using it will reduce ambiguity and prompt clear action. If you say this aloud, what do you think will be different in your visit?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It names and respects the client's value for clear, urgent phrasing, offers concrete options, and invites their choice without assuming a default.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That phrasing is clear and urgent in the way you value — it names specific signs and an immediate action. We can put it verbatim in the handout and script or create a shorter line you can say quickly. Which would you prefer: verbatim or a concise spoken line?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you want the full verbatim line in the handout and a short line you can actually say, so you feel confident and clear. I will include the verbatim sentence exactly and this concise spoken line: “I’m on phenelzine — don’t start citalopram until at least 14 days after stopping. Call 911 or go to the ER for high fever, severe tremor, confusion, muscle rigidity, or racing heart.” Would you like to practice saying that once now?
+
+
+Response 2:
+That plan makes sense and keeps things precise. I’ll put your full verbatim warning in the handout and offer two brief spoken options so you can pick your comfort level: A) your full short line, or B) “I’m on phenelzine — wait 14 days before starting citalopram; seek emergency care for fever, severe tremor, confusion, muscle rigidity, or racing heart.” Which short version would you prefer to use with your provider?
+
+
+Response 3:
+I’m glad you asked for both — that shows you’re preparing to advocate for your safety. I’ll include the exact verbatim warning in the handout and give this short line for speaking: “I’m on phenelzine — don’t start citalopram until at least 14 days after stopping. Call 911 or go to the ER for high fever, severe tremor, confusion, muscle rigidity, or racing heart.” What’s one thing that’s helped you speak up about meds in the past that I can remind you of?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you want the full verbatim line in the handout and a short line you can actually say, so you feel confident and clear. I will include the verbatim sentence exactly and this concise spoken line: “I’m on phenelzine — don’t start citalopram until at least 14 days after stopping. Call 911 or go to the ER for high fever, severe tremor, confusion, muscle rigidity, or racing heart.” Would you like to practice saying that once now?
+
+CANDIDATE RESPONSE 2:
+That plan makes sense and keeps things precise. I’ll put your full verbatim warning in the handout and offer two brief spoken options so you can pick your comfort level: A) your full short line, or B) “I’m on phenelzine — wait 14 days before starting citalopram; seek emergency care for fever, severe tremor, confusion, muscle rigidity, or racing heart.” Which short version would you prefer to use with your provider?
+
+CANDIDATE RESPONSE 3:
+I’m glad you asked for both — that shows you’re preparing to advocate for your safety. I’ll include the exact verbatim warning in the handout and give this short line for speaking: “I’m on phenelzine — don’t start citalopram until at least 14 days after stopping. Call 911 or go to the ER for high fever, severe tremor, confusion, muscle rigidity, or racing heart.” What’s one thing that’s helped you speak up about meds in the past that I can remind you of?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It affirms the plan, offers clear spoken options, and explicitly asks which the patient prefers, supporting autonomy and collaboration while staying concise and non‑directive.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That plan makes sense and keeps things precise. I’ll put your full verbatim warning in the handout and offer two brief spoken options so you can pick your comfort level: A) your full short line, or B) “I’m on phenelzine — wait 14 days before starting citalopram; seek emergency care for fever, severe tremor, confusion, muscle rigidity, or racing heart.” Which short version would you prefer to use with your provider?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Alessia — I hear you: you want the full short line verbatim, including “Call 911 or go to the ER,” because that precise wording makes you feel confident to say it aloud. That clarity and urgency match how you value accurate health information. I’ll put that exact sentence in the handout and make the spoken line ready for your visit.
+
+
+Response 2:
+You chose A — the full short line with “Call 911 or go to the ER” — and you want something you can actually use in the room. Would practicing it once now, a printed wallet card to bring, or both make you feel most confident to speak with your provider?
+
+
+Response 3:
+Saying the full line shows you’re ready to clearly advocate for your safety — that’s a strong, protective step. I’m confident this phrasing will help you get precise guidance from your provider. I’ll include the verbatim warning in the handout and the concise spoken line exactly as you wrote it.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Alessia — I hear you: you want the full short line verbatim, including “Call 911 or go to the ER,” because that precise wording makes you feel confident to say it aloud. That clarity and urgency match how you value accurate health information. I’ll put that exact sentence in the handout and make the spoken line ready for your visit.
+
+CANDIDATE RESPONSE 2:
+You chose A — the full short line with “Call 911 or go to the ER” — and you want something you can actually use in the room. Would practicing it once now, a printed wallet card to bring, or both make you feel most confident to speak with your provider?
+
+CANDIDATE RESPONSE 3:
+Saying the full line shows you’re ready to clearly advocate for your safety — that’s a strong, protective step. I’m confident this phrasing will help you get precise guidance from your provider. I’ll include the verbatim warning in the handout and the concise spoken line exactly as you wrote it.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It best reflects her choice, shows understanding, and invites her input with concrete options (practice, a wallet card, or both), supporting autonomy and collaboration while moving to a clear plan.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You chose A — the full short line with “Call 911 or go to the ER” — and you want something you can actually use in the room. Would practicing it once now, a printed wallet card to bring, or both make you feel most confident to speak with your provider?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — practicing once and having a printed wallet card with the exact line ("I’m on phenelzine — don’t start citalopram until at least 14 days after stopping. Call 911 or go to the ER for high fever, severe tremor, confusion, muscle rigidity, or racing heart.") would make you feel confident and calm. Which would you like to do now: a quick practice or for me to create the card first?
+
+
+Response 2:
+You’ve already used clear sources (pharmacist) and you value precise wording — let’s collaborate. I can role‑play the short line once, design a printable wallet card, or both so you can hand it over if nervous. What have you done before when you felt nervous with a clinician that worked well and we can try here?
+
+
+Response 3:
+It sounds hopeful and doable — practicing once and carrying the card will help you speak up clearly and keep things safe, and I believe you can do this. After you use the script and card, what would look or feel different that would tell you the visit went how you wanted?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — practicing once and having a printed wallet card with the exact line ("I’m on phenelzine — don’t start citalopram until at least 14 days after stopping. Call 911 or go to the ER for high fever, severe tremor, confusion, muscle rigidity, or racing heart.") would make you feel confident and calm. Which would you like to do now: a quick practice or for me to create the card first?
+
+CANDIDATE RESPONSE 2:
+You’ve already used clear sources (pharmacist) and you value precise wording — let’s collaborate. I can role‑play the short line once, design a printable wallet card, or both so you can hand it over if nervous. What have you done before when you felt nervous with a clinician that worked well and we can try here?
+
+CANDIDATE RESPONSE 3:
+It sounds hopeful and doable — practicing once and carrying the card will help you speak up clearly and keep things safe, and I believe you can do this. After you use the script and card, what would look or feel different that would tell you the visit went how you wanted?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It best reflects her values and past help-seeking, offers collaborative options, and evokes her own expertise by asking what has worked before, supporting autonomy and confidence.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You’ve already used clear sources (pharmacist) and you value precise wording — let’s collaborate. I can role‑play the short line once, design a printable wallet card, or both so you can hand it over if nervous. What have you done before when you felt nervous with a clinician that worked well and we can try here?
+

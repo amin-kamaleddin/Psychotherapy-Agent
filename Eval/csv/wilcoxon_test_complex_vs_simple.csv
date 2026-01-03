@@ -1,11 +1,11 @@
 Criterion,N,Wilcoxon_Statistic,p_value,Significant,complex_mean,simple_mean,complex_std,simple_std,Mean_Difference,Direction,Effect_Size
-Acceptance,132,598.5,1.7e-05,Yes,4.384,4.052,0.529,0.632,0.332,complex > simple,0.404
-Empathy,132,603.0,1.4e-05,Yes,4.377,4.045,0.481,0.638,0.332,complex > simple,0.414
-Direction,132,661.5,0.0,Yes,4.739,4.245,0.451,0.719,0.494,complex > simple,0.5464
-Collaboration,132,461.5,0.0,Yes,4.617,4.148,0.57,0.687,0.47,complex > simple,0.6155
-Autonomy Support,132,192.0,0.0,Yes,4.758,4.265,0.446,0.787,0.492,complex > simple,0.621
-Evocation,132,330.0,0.0,Yes,4.371,3.701,0.596,0.612,0.67,complex > simple,0.8035
-Partnership,132,372.0,0.0,Yes,4.117,3.242,0.746,0.697,0.876,complex > simple,0.892
-Cultivating Change Talk,132,304.0,0.0,Yes,3.818,3.095,0.661,0.603,0.723,complex > simple,0.9227
-Softening Sustain Talk,132,373.0,6e-06,Yes,3.77,3.472,0.59,0.623,0.298,complex > simple,0.4078
-Overall Average,132,597.0,0.0,Yes,4.328,3.807,0.318,0.399,0.521,complex > simple,1.0199
+Acceptance,133,552.5,3e-06,Yes,4.406,4.047,0.535,0.624,0.359,complex > simple,0.4458
+Empathy,133,503.5,2e-06,Yes,4.466,4.132,0.499,0.639,0.335,complex > simple,0.4559
+Direction,133,571.5,1e-06,Yes,4.762,4.339,0.422,0.68,0.423,complex > simple,0.4967
+Collaboration,133,941.5,2.7e-05,Yes,4.541,4.173,0.569,0.731,0.368,complex > simple,0.3896
+Autonomy Support,133,822.0,1.2e-05,Yes,4.677,4.265,0.528,0.837,0.412,complex > simple,0.4034
+Evocation,133,594.0,0.0,Yes,4.273,3.797,0.563,0.754,0.476,complex > simple,0.5211
+Partnership,133,586.5,0.0,Yes,4.098,3.406,0.703,0.876,0.692,complex > simple,0.7212
+Cultivating Change Talk,133,410.0,0.0,Yes,3.85,3.173,0.607,0.771,0.677,complex > simple,0.8666
+Softening Sustain Talk,133,1003.0,0.001773,Yes,3.784,3.531,0.497,0.733,0.253,complex > simple,0.2933
+Overall Average,133,783.0,0.0,Yes,4.317,3.874,0.295,0.459,0.444,complex > simple,0.896

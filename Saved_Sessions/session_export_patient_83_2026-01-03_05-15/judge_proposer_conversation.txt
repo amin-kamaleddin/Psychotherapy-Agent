@@ -1,0 +1,453 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you holding a new prescription and feeling unsure about starting it — and living alone makes that feel heavier. It makes sense to feel worried, cautious, or even a bit overwhelmed. Wherever you land on this, you’re accepted and I’m here to support you, not judge you.
+
+
+Response 2:
+You said the doctor phoned in a new prescription — what would help you feel more comfortable deciding about it? We could review possible effects, set a simple monitoring plan, or think about supports at home. You’ve managed changes before; which option feels most useful right now?
+
+
+Response 3:
+It sounds like part of you hopes this medication might help you feel steadier or less overwhelmed, and that hope matters. I believe you can choose what fits your life and pace. If it did help even a little, what would be different for you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you holding a new prescription and feeling unsure about starting it — and living alone makes that feel heavier. It makes sense to feel worried, cautious, or even a bit overwhelmed. Wherever you land on this, you’re accepted and I’m here to support you, not judge you.
+
+CANDIDATE RESPONSE 2:
+You said the doctor phoned in a new prescription — what would help you feel more comfortable deciding about it? We could review possible effects, set a simple monitoring plan, or think about supports at home. You’ve managed changes before; which option feels most useful right now?
+
+CANDIDATE RESPONSE 3:
+It sounds like part of you hopes this medication might help you feel steadier or less overwhelmed, and that hope matters. I believe you can choose what fits your life and pace. If it did help even a little, what would be different for you?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It best combines empathetic reflection and acceptance (“that hope matters”), evokes change talk with a gentle open question, and invites the patient’s perspective without pushing a solution.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+It sounds like part of you hopes this medication might help you feel steadier or less overwhelmed, and that hope matters. I believe you can choose what fits your life and pace. If it did help even a little, what would be different for you?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you’re unsure because the doctor didn’t explain, and yet you hope the med might help you worry less about your heart, stop lying awake about cholesterol, sleep better, and focus at work. That mix of hesitation and willingness makes total sense. Your plan—to take it at night with your other meds, switch to orange juice, and call Dr. Ferris if you get muscle pain—sounds thoughtful and cautious, and it’s okay to take it at your own pace.
+
+
+Response 2:
+You’re leaning toward trying it but want to be careful, which feels sensible. What would feel like a manageable plan for the first two weeks—when you’ll take it, what side effects you’ll watch for (like muscle pain), and when you’d call Dr. Ferris—so you can see if it truly helps your sleep, worry, or focus?
+
+
+Response 3:
+I hear hope in what you said—that even a little relief could mean less heart worry, better sleep, and more control at work—and I believe you can try this in a way that fits your life. You’ve already named practical steps. Which of those outcomes (less worry, better sleep, more focus) would you notice first and use to decide whether to keep the medication?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you’re unsure because the doctor didn’t explain, and yet you hope the med might help you worry less about your heart, stop lying awake about cholesterol, sleep better, and focus at work. That mix of hesitation and willingness makes total sense. Your plan—to take it at night with your other meds, switch to orange juice, and call Dr. Ferris if you get muscle pain—sounds thoughtful and cautious, and it’s okay to take it at your own pace.
+
+CANDIDATE RESPONSE 2:
+You’re leaning toward trying it but want to be careful, which feels sensible. What would feel like a manageable plan for the first two weeks—when you’ll take it, what side effects you’ll watch for (like muscle pain), and when you’d call Dr. Ferris—so you can see if it truly helps your sleep, worry, or focus?
+
+CANDIDATE RESPONSE 3:
+I hear hope in what you said—that even a little relief could mean less heart worry, better sleep, and more control at work—and I believe you can try this in a way that fits your life. You’ve already named practical steps. Which of those outcomes (less worry, better sleep, more focus) would you notice first and use to decide whether to keep the medication?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It reflects her hope and practical steps, affirms choice, and invites her to prioritize the outcomes she’d notice first so she can self-monitor and decide, balancing empathy, autonomy, and collaboration.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+I hear hope in what you said—that even a little relief could mean less heart worry, better sleep, and more control at work—and I believe you can try this in a way that fits your life. You’ve already named practical steps. Which of those outcomes (less worry, better sleep, more focus) would you notice first and use to decide whether to keep the medication?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear hope that sleeping more and “not waking up worrying” could give you more control at work, and I hear the sensible caution about muscle pain and checking cholesterol. Trying one pill at night feels like a careful way forward that fits your life — does that match how you’re thinking?
+
+
+Response 2:
+You’ve already named clear steps — take one at night, switch to orange juice, call Dr. Ferris if you get muscle pain, and recheck cholesterol. What would you like to track over the next week or two (sleep nights, worry episodes, focus at work) to judge if it’s helping?
+
+
+Response 3:
+I notice change-talk — you’re willing to try it, you’d watch for muscle pain, and you’d check labs later. That’s thoughtful and hopeful. I believe small early signs (better sleep) could guide your choice. What has helped you successfully start and keep a new routine in the past?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear hope that sleeping more and “not waking up worrying” could give you more control at work, and I hear the sensible caution about muscle pain and checking cholesterol. Trying one pill at night feels like a careful way forward that fits your life — does that match how you’re thinking?
+
+CANDIDATE RESPONSE 2:
+You’ve already named clear steps — take one at night, switch to orange juice, call Dr. Ferris if you get muscle pain, and recheck cholesterol. What would you like to track over the next week or two (sleep nights, worry episodes, focus at work) to judge if it’s helping?
+
+CANDIDATE RESPONSE 3:
+I notice change-talk — you’re willing to try it, you’d watch for muscle pain, and you’d check labs later. That’s thoughtful and hopeful. I believe small early signs (better sleep) could guide your choice. What has helped you successfully start and keep a new routine in the past?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It affirms her change-talk, gently links to the hoped-for outcome (better sleep), and invites her expertise by asking an evocative, autonomy-supporting question about what has helped her succeed before.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+I notice change-talk — you’re willing to try it, you’d watch for muscle pain, and you’d check labs later. That’s thoughtful and hopeful. I believe small early signs (better sleep) could guide your choice. What has helped you successfully start and keep a new routine in the past?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you already know what fits: keeping pills in your nightstand, taking them with your night meds after brushing, setting a phone alarm, or using a pill box and calendar notes. That practical approach and wanting someone to explain “why it matters” are strengths. It’s okay to try this slowly and notice sleep first. Which of those reminders feels easiest to start tonight?
+
+
+Response 2:
+You’ve named simple, concrete systems that match your routine and safety plans — alarms, nightstand placement, pill box, and calling Dr. Ferris if muscle pain starts. Let’s pick one plan together rather than do everything at once. Which would you choose to try this month: nightstand + alarm, or weekly pill box + calendar note?
+
+
+Response 3:
+Mai, I notice hopeful, thoughtful change-talk — you’re willing to try, you’ll watch for muscle pain, and you’ll check labs later. That steady, practical attitude makes success more likely. I believe noticing better sleep would give you useful feedback. What small sign in the next week would reassure you to keep the medication going?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you already know what fits: keeping pills in your nightstand, taking them with your night meds after brushing, setting a phone alarm, or using a pill box and calendar notes. That practical approach and wanting someone to explain “why it matters” are strengths. It’s okay to try this slowly and notice sleep first. Which of those reminders feels easiest to start tonight?
+
+CANDIDATE RESPONSE 2:
+You’ve named simple, concrete systems that match your routine and safety plans — alarms, nightstand placement, pill box, and calling Dr. Ferris if muscle pain starts. Let’s pick one plan together rather than do everything at once. Which would you choose to try this month: nightstand + alarm, or weekly pill box + calendar note?
+
+CANDIDATE RESPONSE 3:
+Mai, I notice hopeful, thoughtful change-talk — you’re willing to try, you’ll watch for muscle pain, and you’ll check labs later. That steady, practical attitude makes success more likely. I believe noticing better sleep would give you useful feedback. What small sign in the next week would reassure you to keep the medication going?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It best reflects and affirms Mai’s own plan, supports her autonomy, and asks an open, collaborative question that moves gently toward a concrete next step.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I hear you — you already know what fits: keeping pills in your nightstand, taking them with your night meds after brushing, setting a phone alarm, or using a pill box and calendar notes. That practical approach and wanting someone to explain “why it matters” are strengths. It’s okay to try this slowly and notice sleep first. Which of those reminders feels easiest to start tonight?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — taking the new pill with your night meds from your nightstand, setting a quick phone alarm, watching your sleep for a week or two, and calling Dr. Ferris if you get muscle pain feels like a careful, manageable plan. Does that feel okay to start tonight?
+
+
+Response 2:
+You’ve chosen practical steps that fit your routine — nightstand placement, a phone alarm, and watching sleep, with a plan to call Dr. Ferris and check cholesterol later. Which would you like to set up now — the alarm or a calendar note — to help you stick with it?
+
+
+Response 3:
+I notice hopeful, thoughtful change-talk: you’re willing to try it, you’ll watch sleep first, and you’ll call Dr. Ferris for muscle pain. I believe those small, sensible steps could show early benefit. If your sleep improves in a week or two, what’s the first thing you’d notice that matters?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — taking the new pill with your night meds from your nightstand, setting a quick phone alarm, watching your sleep for a week or two, and calling Dr. Ferris if you get muscle pain feels like a careful, manageable plan. Does that feel okay to start tonight?
+
+CANDIDATE RESPONSE 2:
+You’ve chosen practical steps that fit your routine — nightstand placement, a phone alarm, and watching sleep, with a plan to call Dr. Ferris and check cholesterol later. Which would you like to set up now — the alarm or a calendar note — to help you stick with it?
+
+CANDIDATE RESPONSE 3:
+I notice hopeful, thoughtful change-talk: you’re willing to try it, you’ll watch sleep first, and you’ll call Dr. Ferris for muscle pain. I believe those small, sensible steps could show early benefit. If your sleep improves in a week or two, what’s the first thing you’d notice that matters?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It best reflects her feelings (a careful, manageable plan), shows acceptance, and gently invites her consent to start without pushing for immediate action.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I hear you — taking the new pill with your night meds from your nightstand, setting a quick phone alarm, watching your sleep for a week or two, and calling Dr. Ferris if you get muscle pain feels like a careful, manageable plan. Does that feel okay to start tonight?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Mai, I hear you—you're hopeful that taking one pill at night might help you sleep, feel steadier, worry less about your heart, and focus better at work. Putting it in your nightstand, taking it after brushing, and setting an alarm feels manageable and safe, and you've got clear plans to call Dr. Ferris for muscle pain and check cholesterol later. What matters most to you right now about starting this medication?
+
+
+Response 2:
+That sounds like a careful, practical plan—and you're choosing steps that fit your routine. You’re trying a low-risk way to notice early benefit (sleep) before deciding long-term. What would be different in your day-to-day if you did notice better sleep within a week or two, and how would you use that to decide whether to continue?
+
+
+Response 3:
+I’m really struck by your willingness to try, your specific plan (nightstand, alarm, take after brushing), and your safety steps (call Dr. Ferris, check labs). Those are concrete strengths that make this realistic. Which past habit or strategy you’ve used before will help you keep this simple routine over the next two weeks?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Mai, I hear you—you're hopeful that taking one pill at night might help you sleep, feel steadier, worry less about your heart, and focus better at work. Putting it in your nightstand, taking it after brushing, and setting an alarm feels manageable and safe, and you've got clear plans to call Dr. Ferris for muscle pain and check cholesterol later. What matters most to you right now about starting this medication?
+
+CANDIDATE RESPONSE 2:
+That sounds like a careful, practical plan—and you're choosing steps that fit your routine. You’re trying a low-risk way to notice early benefit (sleep) before deciding long-term. What would be different in your day-to-day if you did notice better sleep within a week or two, and how would you use that to decide whether to continue?
+
+CANDIDATE RESPONSE 3:
+I’m really struck by your willingness to try, your specific plan (nightstand, alarm, take after brushing), and your safety steps (call Dr. Ferris, check labs). Those are concrete strengths that make this realistic. Which past habit or strategy you’ve used before will help you keep this simple routine over the next two weeks?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It best reflects her strengths and understanding, supports autonomy, and invites her to evoke concrete, familiar strategies to sustain the change.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+I’m really struck by your willingness to try, your specific plan (nightstand, alarm, take after brushing), and your safety steps (call Dr. Ferris, check labs). Those are concrete strengths that make this realistic. Which past habit or strategy you’ve used before will help you keep this simple routine over the next two weeks?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Mai, I hear you — pairing the new pill with your night meds after brushing is automatic, and using a pill box, alarm, and calendar are practical strengths; you won’t panic if you miss a day and you’ll get back on track. That plan fits your life and keeps safety in mind. Which single reminder will you put in place tonight so it’s easiest to follow over the next two weeks?
+
+
+Response 2:
+You’ve built a realistic, layered plan that fits living alone — nightstand placement, taking it after brushing, a quick alarm, a pill box, and calling Dr. Ferris if needed. That shows you know what works for you. If something comes up and you skip a dose, what small step would help you restart without feeling discouraged?
+
+
+Response 3:
+I’m really encouraged by your willingness to try, your clear routine, and your plan to watch sleep and call Dr. Ferris for muscle pain — that’s thoughtful and safe. I believe those small, consistent steps could quickly show benefits. What will be the earliest sign in your sleep or day that tells you this is helping and worth continuing?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Mai, I hear you — pairing the new pill with your night meds after brushing is automatic, and using a pill box, alarm, and calendar are practical strengths; you won’t panic if you miss a day and you’ll get back on track. That plan fits your life and keeps safety in mind. Which single reminder will you put in place tonight so it’s easiest to follow over the next two weeks?
+
+CANDIDATE RESPONSE 2:
+You’ve built a realistic, layered plan that fits living alone — nightstand placement, taking it after brushing, a quick alarm, a pill box, and calling Dr. Ferris if needed. That shows you know what works for you. If something comes up and you skip a dose, what small step would help you restart without feeling discouraged?
+
+CANDIDATE RESPONSE 3:
+I’m really encouraged by your willingness to try, your clear routine, and your plan to watch sleep and call Dr. Ferris for muscle pain — that’s thoughtful and safe. I believe those small, consistent steps could quickly show benefits. What will be the earliest sign in your sleep or day that tells you this is helping and worth continuing?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It warmly reflects her plan and confidence, accepts her approach, and asks a collaborative, specific choice about which reminder to use tonight to make the routine manageable.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+Mai, I hear you — pairing the new pill with your night meds after brushing is automatic, and using a pill box, alarm, and calendar are practical strengths; you won’t panic if you miss a day and you’ll get back on track. That plan fits your life and keeps safety in mind. Which single reminder will you put in place tonight so it’s easiest to follow over the next two weeks?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you put the tablet in your nightstand, will take it after brushing with your night meds, set an alarm, and will call Dr. Ferris if you get muscle pain. That feels manageable, fits your routine, and keeps safety in mind. You’re giving it a careful try and that makes sense.
+
+
+Response 2:
+You’ve built a simple, realistic plan — nightstand placement, alarm backup, watching sleep for 1–2 weeks, and checking labs later. What else would make it even easier to stick with this plan over the next two weeks?
+
+
+Response 3:
+I’m encouraged — you’re willing to try, you’ve linked it to an automatic habit, and you’ve named safety checks. Those are strengths that increase the chance you’ll notice better sleep soon. If your sleep does improve, what small sign will tell you this is worth continuing?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you put the tablet in your nightstand, will take it after brushing with your night meds, set an alarm, and will call Dr. Ferris if you get muscle pain. That feels manageable, fits your routine, and keeps safety in mind. You’re giving it a careful try and that makes sense.
+
+CANDIDATE RESPONSE 2:
+You’ve built a simple, realistic plan — nightstand placement, alarm backup, watching sleep for 1–2 weeks, and checking labs later. What else would make it even easier to stick with this plan over the next two weeks?
+
+CANDIDATE RESPONSE 3:
+I’m encouraged — you’re willing to try, you’ve linked it to an automatic habit, and you’ve named safety checks. Those are strengths that increase the chance you’ll notice better sleep soon. If your sleep does improve, what small sign will tell you this is worth continuing?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It affirms her plan and then genuinely invites her expertise and ideas (evocation, collaboration, autonomy) about how to make the plan easier to follow.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You’ve built a simple, realistic plan — nightstand placement, alarm backup, watching sleep for 1–2 weeks, and checking labs later. What else would make it even easier to stick with this plan over the next two weeks?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — a loud phone alarm labeled “cholesterol pill,” a sticky note on the mirror, switching to orange juice, and asking the pharmacist for a simple leaflet all feel practical and safe, and you’ll call Dr. Ferris if you get muscle pain. That shows you’re preparing in a thoughtful way. Which of those would you like to put in place first tonight?
+
+
+Response 2:
+Those steps fit your routine and keep safety in mind — alarm as a backup, a visual cue on the mirror, buying orange juice, and a pharmacist leaflet or quick explanation. We can break it into one small action now and one later. What feels most doable to set up before you leave today?
+
+
+Response 3:
+I’m really encouraged by your concrete ideas — alarm, sticky note, OJ instead of grapefruit, and asking the pharmacist — plus your plan to call Dr. Ferris if pain appears. That’s strong, realistic self-care and could help you notice better sleep sooner. Which single support do you think would most likely help you notice that sleep improvement in the next week or two?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — a loud phone alarm labeled “cholesterol pill,” a sticky note on the mirror, switching to orange juice, and asking the pharmacist for a simple leaflet all feel practical and safe, and you’ll call Dr. Ferris if you get muscle pain. That shows you’re preparing in a thoughtful way. Which of those would you like to put in place first tonight?
+
+CANDIDATE RESPONSE 2:
+Those steps fit your routine and keep safety in mind — alarm as a backup, a visual cue on the mirror, buying orange juice, and a pharmacist leaflet or quick explanation. We can break it into one small action now and one later. What feels most doable to set up before you leave today?
+
+CANDIDATE RESPONSE 3:
+I’m really encouraged by your concrete ideas — alarm, sticky note, OJ instead of grapefruit, and asking the pharmacist — plus your plan to call Dr. Ferris if pain appears. That’s strong, realistic self-care and could help you notice better sleep sooner. Which single support do you think would most likely help you notice that sleep improvement in the next week or two?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It most clearly links her concrete supports to the health goal (noticing better sleep), invites her choice of the single most helpful strategy, and amplifies change-talk while staying collaborative and supportive.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+I’m really encouraged by your concrete ideas — alarm, sticky note, OJ instead of grapefruit, and asking the pharmacist — plus your plan to call Dr. Ferris if pain appears. That’s strong, realistic self-care and could help you notice better sleep sooner. Which single support do you think would most likely help you notice that sleep improvement in the next week or two?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear your practical, careful plan — putting the tablet in your nightstand, using that loud phone alarm labeled “cholesterol pill,” watching your sleep for 1–2 weeks, and calling Dr. Ferris if you get muscle pain. That balance of hoping for steadier sleep and keeping safety in mind makes sense. What specific sleep sign will you notice each morning that would tell you this is helping?
+
+
+Response 2:
+You’ve built a realistic routine that fits your life — night meds after brushing, alarm backup, OJ instead of grapefruit, and asking the pharmacist for a leaflet. Those steps make following the plan more likely. Which single support would you like to put in place right now (alarm, sticky note, pharmacist question), and how would you like to do it?
+
+
+Response 3:
+I’m encouraged by your willingness to try and your clear safety steps — automatic nightstand placement, the labeled alarm, checking labs later, and calling Dr. Ferris for muscle pain. That thoughtful approach makes small early improvements, like better sleep, more likely. If your sleep does improve in the next week or two, what’s the first difference you’d notice in your day that would matter most?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear your practical, careful plan — putting the tablet in your nightstand, using that loud phone alarm labeled “cholesterol pill,” watching your sleep for 1–2 weeks, and calling Dr. Ferris if you get muscle pain. That balance of hoping for steadier sleep and keeping safety in mind makes sense. What specific sleep sign will you notice each morning that would tell you this is helping?
+
+CANDIDATE RESPONSE 2:
+You’ve built a realistic routine that fits your life — night meds after brushing, alarm backup, OJ instead of grapefruit, and asking the pharmacist for a leaflet. Those steps make following the plan more likely. Which single support would you like to put in place right now (alarm, sticky note, pharmacist question), and how would you like to do it?
+
+CANDIDATE RESPONSE 3:
+I’m encouraged by your willingness to try and your clear safety steps — automatic nightstand placement, the labeled alarm, checking labs later, and calling Dr. Ferris for muscle pain. That thoughtful approach makes small early improvements, like better sleep, more likely. If your sleep does improve in the next week or two, what’s the first difference you’d notice in your day that would matter most?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It best reflects both the hope and safety concerns (empathy and acceptance) and cleanly invites the patient's own, specific idea about what change they'd notice next.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I hear your practical, careful plan — putting the tablet in your nightstand, using that loud phone alarm labeled “cholesterol pill,” watching your sleep for 1–2 weeks, and calling Dr. Ferris if you get muscle pain. That balance of hoping for steadier sleep and keeping safety in mind makes sense. What specific sleep sign will you notice each morning that would tell you this is helping?
+

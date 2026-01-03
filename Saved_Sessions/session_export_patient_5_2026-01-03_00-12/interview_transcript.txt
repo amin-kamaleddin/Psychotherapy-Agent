@@ -1,0 +1,80 @@
+PSYCHIATRIST: Therapist: Hi Alessia — I’m glad you came. I remember you spoke with a pharmacist and that accurate health information matters to you. What was said in that counseling that felt uncertain or worrying?
+
+Patient: The pharmacist recommended a medication for anxiety/sleep. I’m worried about side effects—feeling foggy at work, weight gain, losing focus. I need clear facts to decide.
+
+Therapist: That makes sense — you want to weigh benefits against possible impacts on work performance. What would you most want this medication to help with?
+
+Patient: Better sleep and less daytime anxiety so I can concentrate. I don’t want it to make me less sharp at meetings.
+
+Therapist: Those goals are clear and practical. Have you tried anything before—therapy, sleep hygiene, or other strategies—that helped even a little?
+
+Patient: Years ago I did CBT briefly; it helped. Lately I haven’t had time for sessions because of workload.
+
+Therapist: You’ve tried helpful strategies before, and time is a real constraint. Would you be open to combining a short trial of medication with brief, focused behavioral steps you can manage?
+
+Patient: Yes, I’d consider a short trial if I have clear expectations and a plan for monitoring effects.
+
+Therapist: That sounds wise. Would it help if we make a short list of specific, factual questions for your prescriber/pharmacist — like time to benefit, most common cognitive side effects, how long to try, interactions, and what to do if work is affected?
+
+Patient: Yes — that would be great. I’m not sure exactly how to word the questions.
+
+Therapist: I can help draft a few simple lines you can say. Also consider asking for the medication’s leaflet and trusted sources (e.g., official prescribing info). How confident are you, 0–10, in asking these questions and trying a monitored short trial?
+
+Patient: Maybe a 7. I feel more confident with a script and written info.
+
+Therapist: You’re doing well — a 7 is solid. I’ll draft a concise script and a short monitoring plan: which questions to ask, what side effects to track, and when to follow up with your prescriber. Would you like that now, and would you like to schedule a quick check-in after your first two weeks?
+
+Patient: Yes, please send the script and let’s schedule a two-week check-in. Thank you.
+
+Therapist: I’ll prepare that script and a simple symptom log you can use, plus pointers to reliable sources. I appreciate how thoughtful you are about balancing health and work, Alessia — I’ll follow up in two weeks unless you prefer sooner. Take care.
+PATIENT: (Leans forward slightly) I’m unfamiliar with citalopram. What are the side effects? Does it interact with phenelzine?
+
+Please make the script include: how long until it helps sleep/anxiety, common cognitive effects (fog, slowed thinking), any weight change risk, exact wording to tell the prescriber “I take phenelzine—can I safely take this?” and clear signs that mean stop and get help (very high fever, fast irregular heartbeat, extreme agitation). A two-week check-in works. Thank you.
+PSYCHIATRIST: Good, specific asks — those matter. Brief facts first: citalopram (an SSRI) commonly causes nausea, dry mouth, headache, insomnia or drowsiness, possible “brain fog” or slowed thinking for some, sexual side effects, and modest weight changes over time. It can prolong QT interval (higher doses) and is contraindicated with MAOIs like phenelzine — do NOT start together; a 14‑day washout after stopping phenelzine is standard. Serotonin syndrome (high fever, rapid/irregular heartbeat, severe agitation, stiffness, confusion) is an emergency.
+
+Script to say to prescriber/pharmacist:
+- “How long until I might notice improved sleep or less daytime anxiety?”
+- “What cognitive effects (fog, slowed thinking) are possible and how common? Will it affect my meeting performance?”
+- “What is the risk of weight change and when might that appear?”
+- “I take phenelzine — can I safely take citalopram? If not, what washout period or safer alternatives do you recommend?”
+- “What dose and how long should I trial to assess work-related effects? What specific signs should make me stop immediately and seek care?”
+
+Monitoring plan (short):
+- Baseline: rate sleep quality, daytime anxiety, concentration (0–10), note current meds.
+- Days 3–7: check for sedation, dizziness, nausea, increased anxiety, or cognitive slowing.
+- Day 14: formal check-in (we’ll meet) to review effects on sleep, concentration, side effects, and decide next steps.
+- Stop and seek emergency care for high fever, rapid/irregular heartbeat, severe agitation/confusion, muscle rigidity, or loss of coordination.
+
+I’ll send this as a brief script and a one‑page symptom log; two‑week check-in confirmed. Would you like the log as simple checkboxes and 0–10 ratings?
+PATIENT: (Sits up) I’m unfamiliar with citalopram. What are the side effects? Does it interact with phenelzine? The plan looks good — yes, send the log as simple checkboxes plus 0–10 ratings. Please add a line I can say: “I cannot stop phenelzine abruptly — what safe alternative or transition plan do you recommend?” Also clarify the 14‑day washout — is that from the last dose or from symptom resolution? I’m cautious about switching. Thank you.
+PSYCHIATRIST: You’re right to be cautious. Brief facts: the usual 14‑day washout is counted from your last phenelzine dose (not symptom resolution). Don’t stop phenelzine abruptly — ask a prescriber/psychiatrist for a supervised taper and safe transition plan.
+
+I’ll add this exact line to the script: “I cannot stop phenelzine abruptly — what safe alternative or transition plan do you recommend?”
+
+I’ll send the log as checkboxes plus 0–10 ratings and confirm our two‑week check‑in. How does that feel?
+PATIENT: (Leans forward) I’m unfamiliar with citalopram. That’s reassuring — the exact script line and washout detail help. I feel more confident, maybe an 8, but still cautious. Quick question: if my prescriber tapers phenelzine slowly, is the 14‑day washout still counted from the last phenelzine dose? Please add this prompt to the script: “Will you supervise the phenelzine taper and confirm when it’s safe to start citalopram?” Thank you.
+PSYCHIATRIST: You’re right to be cautious — excellent question. The 14‑day washout is counted from your last phenelzine dose. If you undergo a taper, the clock starts from the final dose after tapering; ask the prescriber to confirm. I’ll add your prompt: “Will you supervise the phenelzine taper and confirm when it’s safe to start citalopram?” Plus: “If you taper me off phenelzine, will you count 14 days from my final dose and monitor for withdrawal/serotonin‑syndrome before starting citalopram, or suggest safer alternatives?” Does that wording feel clear to you?
+PATIENT: (Leans back, thinking) The wording feels clear and helpful. I’m a bit more confident — about an 8 — but still cautious. Please add these lines to the script: “Do I need a baseline ECG because citalopram can affect the heart? What maximum dose will you consider?” and “What withdrawal symptoms from phenelzine should I watch for, and how will you monitor them during the taper?” Thank you.
+PSYCHIATRIST: That wording is clear — I’m glad you feel more confident. I’ll add these exact lines to the script:
+- “Do I need a baseline ECG because citalopram can affect the heart? What maximum dose will you consider?”
+- “What withdrawal symptoms from phenelzine should I watch for, and how will you monitor them during the taper?”
+I’ll also include the phenelzine‑taper supervision line, the 14‑day washout detail, and the checkbox + 0–10 symptom log. Two‑week check‑in confirmed. Take care.
+PATIENT: (Nods) I’m unfamiliar with citalopram. This helps — the script and log sound right. I still worry about being foggy in meetings; please add: “If cognitive side effects affect my work, how quickly will you adjust dose or stop?” Also clarify who orders the baseline ECG and who will supervise the taper — my GP or psychiatrist? I’m willing to consider a monitored short trial once those are clear. Two‑week check‑in confirmed. Thank you.
+PSYCHIATRIST: I hear your concern about fogginess in meetings and who manages tests/taper — important for work and safety. I’ll add these exact prompts to the script:
+- “If cognitive side effects affect my work, how quickly will you adjust dose or stop?”
+- “Who will order the baseline ECG, and will my GP or psychiatrist supervise the phenelzine taper?”
+I’ll keep the 14‑day washout note, the supervision line, and the checkbox + 0–10 log. Two‑week check‑in confirmed. Seek emergency care for high fever, rapid/irregular heartbeat, severe agitation, or confusion. Take care, Alessia.
+PATIENT: (Leans forward) I’m unfamiliar with citalopram. Thank you — that addresses most worries. Please send the final script and the checkbox/0–10 log. One more, add these lines: “If the baseline ECG shows QT prolongation, what are the next steps or alternatives?” and “Can we start at a very low dose and how quickly would you change or stop it if cognitive fog affects my work?” I’m hesitant to start until ECG and taper plans are clear. Please schedule the two‑week check‑in. Thank you.
+PSYCHIATRIST: I’ll send the final script and the checkbox/0–10 log now, with the added lines on ECG‑QT prolongation and starting at a very low dose with rapid adjustment if cognitive fog affects work. It’s sensible to wait for a clear ECG and a supervised phenelzine‑taper plan before starting. I’ve penciled in a two‑week check‑in — do you prefer morning or afternoon, and which day works best? If fog or worrying symptoms appear sooner, contact your prescriber immediately and pause dosing until advised. I appreciate how carefully you’re balancing health and work.
+PATIENT: (Sits up) I’m unfamiliar with citalopram. Morning works better — Tuesday morning in two weeks is best. Please send the final script and checkbox/0–10 log by email. I won’t start the medication until the baseline ECG and a supervised phenelzine‑taper plan are confirmed. Please include an urgent contact for worsening cognitive fog or other red‑flag symptoms. Thank you.
+PSYCHIATRIST: Morning Tuesday works — I’ll email the final script and the checkbox/0–10 log now, with an urgent‑contact line for red‑flag symptoms. I agree: wait for a baseline ECG and a supervised phenelzine taper before starting citalopram, and I’ll ask your prescriber to confirm timing. I’ve penciled in our Tuesday morning check‑in and will confirm by email. You’re balancing work and safety thoughtfully — that’s wise. If severe fog, fever, rapid/irregular heartbeat, severe agitation, or confusion occur sooner, contact your prescriber or emergency services immediately. Take care, Alessia.
+PATIENT: (Nods) I’m unfamiliar with citalopram. Tuesday morning works — please email the final script and the checkbox/0–10 log. I won’t start until a baseline ECG and a supervised phenelzine taper are confirmed. Please include an urgent contact (GP or psychiatrist) for red‑flag symptoms, and add the exact line to ask the prescriber about ECG QT thresholds and next steps if prolonged, plus confirmation they will supervise the taper and confirm the safe start date. Thank you.
+PSYCHIATRIST: You’re being careful and clear — that’s wise. I’ll email the final script and checkbox/0–10 log now and include:
+- the ECG/QT threshold prompt and next‑step options,
+- who should order the ECG and who will supervise the phenelzine taper (GP vs psychiatrist),
+- the 14‑day washout wording, urgent contact for red flags, and the lines about low‑dose start and quick dose adjustment if cognitive fog affects work.
+
+Tuesday morning is penciled in. If severe fog, fever, rapid/irregular heartbeat, severe agitation, or confusion occur sooner, contact your prescriber or emergency services immediately. Take care, Alessia.
+PATIENT: (Sits forward) I’m unfamiliar with citalopram. Thank you — please email the final script and log. I won’t start citalopram until a baseline ECG and a supervised phenelzine taper are confirmed. Please include who to call for urgent issues (GP vs psychiatrist and phone), the ECG QT threshold and next steps if abnormal, and that the 14‑day washout counts from the final phenelzine dose. Tuesday morning works. I’m cautious but ready to proceed once those details are clear. Thank you.
+PSYCHIATRIST: Thank you — I’ll email the final script and checkbox/0–10 log now, including: ECG/QT‑threshold prompt and next‑step options; prompts asking who will order the ECG and whether your GP or psychiatrist will supervise the taper; the 14‑day washout counted from your final phenelzine dose; the urgent‑contact line (call your prescriber/psychiatrist or emergency services for red flags); low‑dose start and rapid adjustment wording. Tuesday morning is penciled in. I agree: don’t start citalopram until ECG and a supervised taper are confirmed. You’re being careful and clear — well done, Alessia. Take care.
+PATIENT: (Sits up) I’m unfamiliar with citalopram. What are the side effects? Does it interact with phenelzine? Thank you — please email the final script/log and include urgent contact names/phones (GP and psychiatrist). I will not start until a baseline ECG and supervised phenelzine taper are confirmed; Tuesday morning is fine. I’m still cautious and need the ECG threshold/next steps clarified before I’ll agree to a trial. Thank you.
