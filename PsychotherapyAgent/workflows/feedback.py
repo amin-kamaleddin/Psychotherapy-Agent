@@ -36,6 +36,25 @@ class MIEvaluation(BaseModel):
     summary: str = Field(description="Overall summary with strengths and improvement areas")
 
 
+class MIFormEntry(BaseModel):
+    """Single MI evaluation form entry matching Context/MI/MI_EVAL.txt format."""
+    score: int = Field(ge=1, le=5, description="Score from 1 to 5")
+    comments: str = Field(description="Brief comments explaining the score")
+
+
+class MIFormEvaluation(BaseModel):
+    """MI form evaluation matching exact format of Context/MI/MI_EVAL.txt."""
+    acceptance: MIFormEntry
+    empathy: MIFormEntry
+    direction: MIFormEntry
+    collaboration: MIFormEntry
+    autonomy_support: MIFormEntry
+    evocation: MIFormEntry
+    partnership: MIFormEntry
+    cultivating_change_talk: MIFormEntry
+    softening_sustain_talk: MIFormEntry
+
+
 class FeedbackWorkflow:
     """Workflow for generating feedback and completing sessions."""
     
@@ -52,8 +71,9 @@ class FeedbackWorkflow:
         self.prompt_manager = prompt_manager
         self.file_manager = file_manager
         
-        # Create structured output LLM for feedback
+        # Create structured output LLMs
         self.structured_feedback_llm = llm_manager.llm_feedback.with_structured_output(MIEvaluation)
+        self.structured_mi_form_llm = llm_manager.llm_feedback.with_structured_output(MIFormEvaluation)
     
     def _format_structured_evaluation(self, evaluation: MIEvaluation) -> str:
         """Convert structured evaluation to formatted text."""
@@ -136,6 +156,49 @@ Explanation:
 **Overall Global Ratings Score:** **{evaluation.overall_score:.1f}/5**
 
 {evaluation.summary}
+"""
+    
+    def _format_mi_form(self, mi_form: MIFormEvaluation) -> str:
+        """Convert structured MI form to exact format matching Context/MI/MI_EVAL.txt."""
+        return f"""# Motivational Interviewing Clinical Evaluation – MI
+
+---
+
+### Acceptance
+#### **Score (1–5):** {mi_form.acceptance.score}
+**Comments:** {mi_form.acceptance.comments}
+
+### Empathy
+#### **Score (1–5):** {mi_form.empathy.score}
+**Comments:** {mi_form.empathy.comments}
+
+### Direction
+#### **Score (1–5):** {mi_form.direction.score}
+**Comments:** {mi_form.direction.comments}
+
+### Collaboration
+#### **Score (1–5):** {mi_form.collaboration.score}
+**Comments:** {mi_form.collaboration.comments}
+
+### Autonomy Support
+#### **Score (1–5):** {mi_form.autonomy_support.score}
+**Comments:** {mi_form.autonomy_support.comments}
+
+### Evocation
+#### **Score (1–5):** {mi_form.evocation.score}
+**Comments:** {mi_form.evocation.comments}
+
+### Partnership
+#### **Score (1–5):** {mi_form.partnership.score}
+**Comments:** {mi_form.partnership.comments}
+
+### Cultivating Change Talk
+#### **Score (1–5):** {mi_form.cultivating_change_talk.score}
+**Comments:** {mi_form.cultivating_change_talk.comments}
+
+### Softening Sustain Talk
+#### **Score (1–5):** {mi_form.softening_sustain_talk.score}
+**Comments:** {mi_form.softening_sustain_talk.comments}
 """
     
     def build(self):
@@ -264,35 +327,62 @@ Explanation:
 
                           """
         logging.info("Finished detailed feedback generation.")
-        logging.info("Starting MI generation")
+        logging.info("Starting MI form generation with structured output...")
         
-        # Generate Formatted MI Form
-        instruction_prompt = self.prompt_manager.load_prompt('MI Prompt')
-        blank_mi_file = self.prompt_manager.load_context("Evaluation Form")
-        
-        mi_prompt = f"""
-        {instruction_prompt}
+        # Generate MI Form using structured output
+        mi_form_prompt = f"""You are generating a concise MI evaluation form.
 
-        Here is the Full Transcript:
-        {formatted_transcript}
-        
-        Here is the full Case Presentation:
-        {formatted_presentation}
+Based on the following detailed feedback, extract the score and create brief comments for each criterion.
+The comments should be 1-2 sentences summarizing the key points from the detailed evaluation.
 
-        Here is the Evaluation Criteria to base your answer off of:
-        {feedback_text}
+Detailed Evaluation:
+{feedback_text}
 
-        And here is the blank MI form that you must use to format your answer:
-        {blank_mi_file}
-        """
+Transcript:
+{formatted_transcript}
+
+Generate a structured MI form with score (1-5) and brief comments for each of the 9 criteria."""
         
-        messages = [
-            SystemMessage(content=mi_prompt),
-            HumanMessage(content="Please provide the formatted answer below:")
-        ]
-        
-        response = self.llm_manager.llm_feedback.invoke(messages)
-        mi_response = response.content
+        try:
+            mi_messages = [
+                SystemMessage(content=mi_form_prompt),
+                HumanMessage(content="Generate the MI form evaluation:")
+            ]
+            
+            # Use structured output for consistent MI form format
+            structured_mi_form = self.structured_mi_form_llm.invoke(mi_messages)
+            mi_response = self._format_mi_form(structured_mi_form)
+            logging.info("MI form generated successfully with structured output.")
+            
+        except Exception as e:
+            logging.exception("Structured MI form generation failed, falling back to unstructured")
+            # Fallback to old method if structured fails
+            instruction_prompt = self.prompt_manager.load_prompt('MI Prompt')
+            blank_mi_file = self.prompt_manager.load_context("Evaluation Form")
+            
+            mi_prompt = f"""
+            {instruction_prompt}
+
+            Here is the Full Transcript:
+            {formatted_transcript}
+            
+            Here is the full Case Presentation:
+            {formatted_presentation}
+
+            Here is the Evaluation Criteria to base your answer off of:
+            {feedback_text}
+
+            And here is the blank MI form that you must use to format your answer:
+            {blank_mi_file}
+            """
+            
+            messages = [
+                SystemMessage(content=mi_prompt),
+                HumanMessage(content="Please provide the formatted answer below:")
+            ]
+            
+            response = self.llm_manager.llm_feedback.invoke(messages)
+            mi_response = response.content
         
         logging.info("Finished MI generation")
         logging.info("Starting Agent Setup")
