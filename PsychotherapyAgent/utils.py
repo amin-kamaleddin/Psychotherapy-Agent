@@ -243,7 +243,7 @@ class FileManager:
 
         # Create timestamped subfolder with optional patient_id
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-        if patient_id:
+        if patient_id is not None:
             folder_name = os.path.join(base_dir, f"session_export_patient_{patient_id}_{timestamp}")
         else:
             folder_name = os.path.join(base_dir, f"session_export_{timestamp}")
