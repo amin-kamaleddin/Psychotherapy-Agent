@@ -135,15 +135,19 @@ def run_test(patient_profile_path, therapist_profile_number,
 
 
 def extract_scores(eval_file_paths):
-    """Extract numerical scores from feedback text files."""
+    """Extract numerical scores from feedback text files.
+    
+    With structured output, scores should always be in consistent format.
+    This function handles both structured and legacy unstructured formats.
+    """
 
-    # Define categories
+    # Define categories in exact order expected
     categories = [
+        "Acceptance",
+        "Empathy",
         "Cultivating Change Talk",
         "Softening Sustain Talk",
         "Partnership",
-        "Empathy",
-        "Acceptance",
         "Direction",
         "Autonomy Support",
         "Collaboration",
@@ -154,17 +158,44 @@ def extract_scores(eval_file_paths):
 
     for file_path in eval_file_paths:
         text = Path(file_path).read_text(encoding="utf-8")
+        
+        # Try to detect and skip example section if present
+        # Look for marker or Linda-specific text
+        if "[END OF EXAMPLE" in text:
+            # Only parse text after the marker
+            parts = text.split("[END OF EXAMPLE")
+            if len(parts) > 1:
+                text = parts[-1]
+        elif "Linda's ambivalence" in text or "Linda's attachment to smoking" in text:
+            # Likely has example - try to find where actual eval starts
+            # Look for second occurrence of score sections
+            lines = text.split('\n')
+            acceptance_indices = [i for i, line in enumerate(lines) if '### 1. Acceptance' in line or '1. Acceptance' in line]
+            if len(acceptance_indices) > 1:
+                # Use text from second Acceptance onward
+                text = '\n'.join(lines[acceptance_indices[1]:])
 
         for cat in categories:
+            # Match pattern: "Score: X/5" or "**Score: X/5**"
             pattern = re.compile(
-                rf"{re.escape(cat)}.*?Score:\s*\**\s*(\d+(\.\d+)?)\**",
+                rf"{re.escape(cat)}.*?Score:\s*\**\s*(\d+(?:\.\d+)?)\s*/\s*5\**",
                 re.IGNORECASE | re.DOTALL
             )
             matches = pattern.findall(text)
             if matches:
-                score_value = float(matches[-1][0])
+                # Use last match (in case there are still duplicates)
+                score_value = float(matches[-1])
             else:
-                score_value = 0.0
+                # Try alternative pattern without "/5"
+                pattern_alt = re.compile(
+                    rf"{re.escape(cat)}.*?Score:\s*\**\s*(\d+(?:\.\d+)?)\**",
+                    re.IGNORECASE | re.DOTALL
+                )
+                matches_alt = pattern_alt.findall(text)
+                if matches_alt:
+                    score_value = float(matches_alt[-1])
+                else:
+                    score_value = 0.0
             scores[cat].append(score_value)
 
     num_files = len(eval_file_paths)
@@ -316,7 +347,8 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
             row = {
                 "Therapist": df.iloc[therapist_num]["Name"],
                 "Patient": os.path.basename(patient_file),
-                "Mode": therapist_mode
+                "Mode": therapist_mode,
+                "Session": os.path.basename(folder_name)
             }
             for key, values in scores.items():
                 row[key] = values[0] if values else None

@@ -6,11 +6,34 @@ Handles feedback generation, MI form filling, and session completion.
 
 import logging
 from datetime import datetime
+from typing import Optional
+from pydantic import BaseModel, Field
 from langchain.schema import AIMessage, HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
 
 from ..graph_state import LBState
+
+
+class MIScore(BaseModel):
+    """Individual MI criteria score with explanation."""
+    score: int = Field(ge=1, le=5, description="Score from 1 to 5")
+    explanation: str = Field(description="Detailed explanation referencing specific examples from the session")
+
+
+class MIEvaluation(BaseModel):
+    """Complete MI evaluation with structured scores for all 9 criteria."""
+    acceptance: MIScore = Field(description="Extent to which counselor communicates unconditional positive regard")
+    empathy: MIScore = Field(description="Extent to which counselor understands client's perspective")
+    cultivating_change_talk: MIScore = Field(description="Extent to which counselor encourages client's language in favor of change")
+    softening_sustain_talk: MIScore = Field(description="Extent that counselor avoids focus on reasons against changing")
+    partnership: MIScore = Field(description="Extent to which counselor conveys that expertise resides within the client")
+    direction: MIScore = Field(description="Degree to which counselor maintains focus on target behavior")
+    autonomy_support: MIScore = Field(description="Extent to which clinician supports client perception of choice")
+    collaboration: MIScore = Field(description="Extent to which interview occurs between equal partners")
+    evocation: MIScore = Field(description="Extent to which counselor elicits motivation from within the client")
+    overall_score: float = Field(ge=1.0, le=5.0, description="Average of all 9 scores")
+    summary: str = Field(description="Overall summary with strengths and improvement areas")
 
 
 class FeedbackWorkflow:
@@ -28,6 +51,92 @@ class FeedbackWorkflow:
         self.llm_manager = llm_manager
         self.prompt_manager = prompt_manager
         self.file_manager = file_manager
+        
+        # Create structured output LLM for feedback
+        self.structured_feedback_llm = llm_manager.llm_feedback.with_structured_output(MIEvaluation)
+    
+    def _format_structured_evaluation(self, evaluation: MIEvaluation) -> str:
+        """Convert structured evaluation to formatted text."""
+        return f"""# Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: {evaluation.acceptance.score}/5
+
+Explanation:
+{evaluation.acceptance.explanation}
+
+---
+
+### 2. Empathy
+Score: {evaluation.empathy.score}/5
+
+Explanation:
+{evaluation.empathy.explanation}
+
+---
+
+### 3. Cultivating Change Talk
+Score: {evaluation.cultivating_change_talk.score}/5
+
+Explanation:
+{evaluation.cultivating_change_talk.explanation}
+
+---
+
+### 4. Softening Sustain Talk
+Score: {evaluation.softening_sustain_talk.score}/5
+
+Explanation:
+{evaluation.softening_sustain_talk.explanation}
+
+---
+
+### 5. Partnership
+Score: {evaluation.partnership.score}/5
+
+Explanation:
+{evaluation.partnership.explanation}
+
+---
+
+### 6. Direction
+Score: {evaluation.direction.score}/5
+
+Explanation:
+{evaluation.direction.explanation}
+
+---
+
+### 7. Autonomy Support
+Score: {evaluation.autonomy_support.score}/5
+
+Explanation:
+{evaluation.autonomy_support.explanation}
+
+---
+
+### 8. Collaboration
+Score: {evaluation.collaboration.score}/5
+
+Explanation:
+{evaluation.collaboration.explanation}
+
+---
+
+### 9. Evocation
+Score: {evaluation.evocation.score}/5
+
+Explanation:
+{evaluation.evocation.explanation}
+
+---
+
+**Overall Global Ratings Score:** **{evaluation.overall_score:.1f}/5**
+
+{evaluation.summary}
+"""
     
     def build(self):
         """Build and return the compiled feedback workflow."""
@@ -121,13 +230,32 @@ class FeedbackWorkflow:
             logging.warning("Presentation was expected but empty or missing.")
         
         try:
-            response = self.llm_manager.llm_feedback.invoke(messages)
-            messages.append(response)
+            # Use structured output for guaranteed 9-score format
+            logging.info("Invoking structured feedback LLM with schema enforcement...")
+            structured_evaluation = self.structured_feedback_llm.invoke(messages)
+            
+            # Convert structured evaluation to formatted text
+            feedback_text = self._format_structured_evaluation(structured_evaluation)
+            
+            # Also store as regular message for compatibility
+            response_message = AIMessage(content=feedback_text)
+            messages.append(response_message)
             updates = {"feedback_messages": messages}
-            feedback_text = response.content.strip()
+            
         except Exception as e:
-            logging.exception("LLM feedback generation failed")
-            return {**state, "error_message": f"Failed to generate feedback: {str(e)}"}
+            logging.exception("Structured LLM feedback generation failed, falling back to unstructured")
+            try:
+                # Fallback to unstructured if structured fails
+                response = self.llm_manager.llm_feedback.invoke(messages)
+                messages.append(response)
+                updates = {"feedback_messages": messages}
+                feedback_text = response.content.strip()
+                
+                # Remove example template if LLM included it in output
+                feedback_text = self._remove_example_from_feedback(feedback_text)
+            except Exception as e2:
+                logging.exception("Fallback LLM feedback generation also failed")
+                return {**state, "error_message": f"Failed to generate feedback: {str(e2)}"}
         
         session_feedback = f"""
                             ## DETAILED CLINICAL EVALUATION
@@ -281,4 +409,37 @@ class FeedbackWorkflow:
             return duration.total_seconds() / 60
         except:
             return 0.0
+    
+    def _remove_example_from_feedback(self, feedback_text: str) -> str:
+        """Remove example template from LLM output if present.
+        
+        The prompt includes an example (Linda case) to guide formatting.
+        Some LLMs may include this example in their output. This function
+        detects and removes it, keeping only the actual evaluation.
+        """
+        # Check for end-of-example marker
+        marker = "[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]"
+        if marker in feedback_text:
+            parts = feedback_text.split(marker)
+            if len(parts) > 1:
+                cleaned = parts[-1].strip()
+                logging.info("Removed example template from feedback (found marker)")
+                return cleaned
+        
+        # Fallback: detect if Linda example is present by checking for specific text
+        # The example mentions "Linda" and specific phrases
+        if "Linda's ambivalence" in feedback_text or "Linda's attachment to smoking" in feedback_text:
+            # Split on a pattern that indicates start of actual evaluation
+            # Look for the second occurrence of "## Global Ratings" or "### 1. Acceptance"
+            lines = feedback_text.split('\n')
+            acceptance_indices = [i for i, line in enumerate(lines) if '### 1. Acceptance' in line or '1. Acceptance' in line]
+            
+            if len(acceptance_indices) > 1:
+                # Keep everything from the second Acceptance section onward
+                actual_start = acceptance_indices[1]
+                cleaned = '\n'.join(lines[actual_start:]).strip()
+                logging.info("Removed Linda example template from feedback (detected duplicate sections)")
+                return cleaned
+        
+        return feedback_text
 
