@@ -1,11 +1,11 @@
 Criterion,N,Wilcoxon_Statistic,p_value,Significant,multi_agent_mean,simple_mean,multi_agent_std,simple_std,Mean_Difference,Direction,Effect_Size
-Acceptance,133,541.5,0.0,Yes,4.468,4.047,0.507,0.624,0.422,multi_agent > simple,0.5516
-Empathy,133,654.5,0.0,Yes,4.542,4.132,0.498,0.639,0.411,multi_agent > simple,0.5256
-Direction,133,523.0,0.0,Yes,4.804,4.339,0.372,0.68,0.465,multi_agent > simple,0.5774
-Collaboration,133,553.5,0.0,Yes,4.745,4.173,0.468,0.731,0.572,multi_agent > simple,0.6506
-Autonomy Support,133,238.5,0.0,Yes,4.87,4.265,0.355,0.837,0.605,multi_agent > simple,0.6613
-Evocation,133,321.0,0.0,Yes,4.429,3.797,0.552,0.754,0.632,multi_agent > simple,0.6997
-Partnership,133,411.0,0.0,Yes,4.387,3.406,0.57,0.876,0.981,multi_agent > simple,0.9266
-Cultivating Change Talk,133,264.0,0.0,Yes,4.129,3.173,0.54,0.771,0.956,multi_agent > simple,1.0707
-Softening Sustain Talk,133,785.0,3.7e-05,Yes,3.883,3.531,0.586,0.733,0.352,multi_agent > simple,0.3848
-Overall Average,133,459.5,0.0,Yes,4.473,3.874,0.281,0.459,0.599,multi_agent > simple,1.1532
+Acceptance,5,0.0,1.0,No,5.0,4.6,0.0,0.8,0.4,multi_agent > simple,0.5
+Empathy,5,0.0,0.0625,No,4.8,3.2,0.4,0.4,1.6,multi_agent > simple,3.266
+Direction,5,2.0,1.0,No,4.8,4.6,0.4,0.49,0.2,multi_agent > simple,0.2673
+Collaboration,5,0.0,0.0625,No,5.0,3.2,0.0,0.4,1.8,multi_agent > simple,4.5
+Autonomy Support,5,0.0,0.5,No,5.0,4.6,0.0,0.49,0.4,multi_agent > simple,0.8165
+Evocation,5,0.0,0.0625,No,4.4,3.0,0.49,0.0,1.4,multi_agent > simple,2.8577
+Partnership,5,0.0,0.125,No,4.8,4.0,0.4,0.632,0.8,multi_agent > simple,2.0
+Cultivating Change Talk,5,0.0,0.125,No,4.4,3.2,0.49,0.4,1.2,multi_agent > simple,1.6036
+Softening Sustain Talk,5,0.0,0.5,No,4.2,3.6,0.4,0.49,0.6,multi_agent > simple,0.75
+Overall Average,5,0.0,0.0625,No,4.711,3.778,0.181,0.281,0.933,multi_agent > simple,3.0
