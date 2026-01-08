@@ -305,8 +305,8 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     def process_single_patient(patient_data):
         """Process a single patient test - designed for parallel execution."""
         fold_idx, patient_idx, patient_file = patient_data
-        # Patient number starts from args.start_patient (0-indexed)
-        # For fold runs, we use: fold_idx * num_patients + patient_idx + start_patient
+        # Patient number reflects the actual patient profile (same across all folds)
+        # Uniqueness across folds is provided by timestamp in folder name
         patient_number = args.start_patient + patient_idx
         
         try:
