@@ -27,14 +27,14 @@ def get_session_timestamp(session_dir):
     """
     basename = os.path.basename(session_dir)
     
-    # Try new format: session_export_patient_{patient_id}_{timestamp}
-    new_format_pattern = r'session_export_patient_(.+?)_(\d{4}-\d{2}-\d{2}_\d{2}-\d{2})$'
+    # Try new format with UUID: session_export_patient_{patient_id}_{timestamp}_{uuid}
+    new_format_pattern = r'session_export_patient_(.+?)_(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2})(?:_[a-f0-9-]+)?$'
     match = re.match(new_format_pattern, basename)
     if match:
         patient_id = match.group(1)
         date_str = match.group(2)
         try:
-            timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M")
+            timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
             return timestamp, patient_id
         except ValueError:
             pass
@@ -42,7 +42,9 @@ def get_session_timestamp(session_dir):
     # Try old format: session_export_{timestamp}
     try:
         date_str = basename.replace('session_export_', '')
-        timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M")
+        # Try with UUID first, then without
+        date_str = re.sub(r'_[a-f0-9-]+$', '', date_str)
+        timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
         return timestamp, None  # No patient_id in old format
     except ValueError:
         return None, None

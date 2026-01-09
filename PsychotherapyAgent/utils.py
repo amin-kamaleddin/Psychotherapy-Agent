@@ -223,7 +223,7 @@ class FileManager:
             judge_proposer_conversation: Optional[List[Dict[str, Any]]] = None
     ) -> str:
         """
-        Save session data to timestamped folder.
+        Save session data to timestamped folder with UUID.
 
         Args:
             case_study: Patient case study content
@@ -238,15 +238,18 @@ class FileManager:
         Returns:
             Path to the created folder
         """
+        import uuid
+        
         # Create base directory if it doesn't exist
         os.makedirs(base_dir, exist_ok=True)
 
-        # Create timestamped subfolder with optional patient_id
+        # Create timestamped subfolder with UUID and optional patient_id
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        session_uuid = str(uuid.uuid4())[:8]  # Use first 8 chars of UUID for brevity
         if patient_id is not None:
-            folder_name = os.path.join(base_dir, f"session_export_patient_{patient_id}_{timestamp}")
+            folder_name = os.path.join(base_dir, f"session_export_patient_{patient_id}_{timestamp}_{session_uuid}")
         else:
-            folder_name = os.path.join(base_dir, f"session_export_{timestamp}")
+            folder_name = os.path.join(base_dir, f"session_export_{timestamp}_{session_uuid}")
         os.makedirs(folder_name, exist_ok=True)
 
         files = {
