@@ -461,10 +461,13 @@ def run_comparison_experiment(args):
     print("COMPARISON COMPLETE!")
     print("=" * 80)
     
-    # Run evaluation scripts after comparison completes
-    # Use the same max_workers setting for sentiment analysis
-    max_workers = args.max_workers if hasattr(args, 'max_workers') else 20
-    aggregate_metrics(skip_sentiment=args.skip_sentiment, max_workers=max_workers)
+    # Run evaluation scripts after comparison completes (unless --no-aggregate is set)
+    if not getattr(args, 'no_aggregate', False):
+        # Use the same max_workers setting for sentiment analysis
+        max_workers = args.max_workers if hasattr(args, 'max_workers') else 20
+        aggregate_metrics(skip_sentiment=args.skip_sentiment, max_workers=max_workers)
+    else:
+        print("\n⚠️  Skipping aggregation as requested (--no-aggregate flag)")
     
     return {
         "simple_folder": simple_folder,
@@ -675,6 +678,8 @@ if __name__ == "__main__":
                         help="Number of parallel workers for processing patients (default: 20)")
     parser.add_argument("--skip-sentiment", action="store_true",
                         help="Skip sentiment analysis when running evaluation scripts")
+    parser.add_argument("--no-aggregate", action="store_true",
+                        help="Skip aggregation/evaluation scripts (only run therapy sessions)")
     parser.add_argument("--fold", type=int, default=1,
                         help="Number of times to run each patient (e.g., fold=5 with 10 patients = 50 total runs)")
 
