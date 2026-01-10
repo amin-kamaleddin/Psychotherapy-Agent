@@ -182,46 +182,58 @@ def main():
                     
                     print(f"Processing {entry.name} (patient_id={patient_id}) -> Test Run {matching_run['ts_str']}, Mode: {matching_run['mode']}")
                     
-                    # Store scores
-                    matched_data[key] = {
-                        'timestamp': matching_run['ts_str'],
-                        'patient_id': patient_id,
-                        'therapist_mode': matching_run['mode'],
-                        'scores': scores
-                    }
+                    # Initialize entry if it doesn't exist, or aggregate scores if it does
+                    if key not in matched_data:
+                        matched_data[key] = {
+                            'timestamp': matching_run['ts_str'],
+                            'patient_id': patient_id,
+                            'therapist_mode': matching_run['mode'],
+                            'all_scores': []  # List to store scores from all folds
+                        }
+                    
+                    # Append this session's scores to the list
+                    matched_data[key]['all_scores'].append(scores)
     
     # 3. Aggregate Results
-    # Group by therapist_mode and criterion, calculate averages
+    # Average scores across all folds for each patient
     final_rows = []
     
     for key, data in matched_data.items():
         timestamp = data['timestamp']
         patient_id = data['patient_id']
         therapist_mode = data['therapist_mode']
-        scores = data['scores']
+        all_scores = data['all_scores']
+        
+        # Calculate average scores across all folds
+        averaged_scores = {}
+        for criterion in MI_CRITERIA:
+            criterion_values = [scores.get(criterion) for scores in all_scores if scores.get(criterion) is not None]
+            if criterion_values:
+                averaged_scores[criterion] = sum(criterion_values) / len(criterion_values)
         
         # Add individual criterion scores
         for criterion in MI_CRITERIA:
-            score = scores.get(criterion)
+            score = averaged_scores.get(criterion)
             if score is not None:
                 final_rows.append({
                     'timestamp': timestamp,
                     'patient_id': patient_id,
                     'therapist_mode': therapist_mode,
                     'criterion': criterion,
-                    'score': score
+                    'score': score,
+                    'num_folds': len(all_scores)
                 })
         
         # Calculate overall average for this patient (average of all valid criteria scores)
-        valid_scores = [scores.get(criterion) for criterion in MI_CRITERIA if scores.get(criterion) is not None]
-        if valid_scores:
-            overall_avg = sum(valid_scores) / len(valid_scores)
+        if averaged_scores:
+            overall_avg = sum(averaged_scores.values()) / len(averaged_scores)
             final_rows.append({
                 'timestamp': timestamp,
                 'patient_id': patient_id,
                 'therapist_mode': therapist_mode,
                 'criterion': 'Overall Average',
-                'score': overall_avg
+                'score': overall_avg,
+                'num_folds': len(all_scores)
             })
     
     # 4. Save Output
