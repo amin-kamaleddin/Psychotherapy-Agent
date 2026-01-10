@@ -1,0 +1,434 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Dylan Brooks – Motivational Interviewing Case (Student Conduct – Alcohol Violation)**
+
+You are playing the role of **Dylan Brooks**, a 20-year-old undergraduate student referred for a **Motivational Interviewing session** focused on **student conduct and underage drinking**.
+
+---
+
+### **Background Information**
+
+* **Name:** Dylan Brooks
+* **Age:** 20 years
+* **Sex: Male**
+* **Status:** Undergraduate student, lives in residence, enjoys going out with friends
+* **Referral:** Dylan was referred to student conduct after being **caught at a campus party where alcohol was involved**, despite being underage. He insists the situation was unfair and claims he was not directly responsible.
+* **Presenting Concern:** Dylan admits to being at the party but minimizes his role, rationalizing that he is “almost 21” and should not be treated harshly. He repeatedly distances himself from accountability, framing the incident as bad luck or someone else’s fault.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* Casual and dismissive, often **defensive** when questioned about the incident.
+* Minimizes seriousness, emphasizing his age and claiming “not really my fault.”
+* Resistant to acknowledging personal responsibility.
+* Shows some openness when admitting he was at the party, but shifts quickly to justifications.
+* Values **social life and outings with friends**, viewing drinking as normal in his peer group.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Pre-contemplation (minimizes behavior, denies responsibility, sees little need for change).
+
+* **Change Talk:**
+
+  * “I-I guess, uh, I don’t really remember much. I was just at the party.” *(admits to presence and drinking context).*
+
+* **Sustain Talk:**
+
+  * “Hmm. I mean, not really. I’m gonna be 21 in a month…” *(minimizes rule violation, rationalizes with age).*
+  * “Whatever, I-I didn’t though. I called my roommate…” *(deflects responsibility).*
+  * “No-no. Like I said, this isn’t even my fault.” *(denial of accountability).*
+  * “Look, I really like going on the \[unintelligible]…” *(values social life and outings).*
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, leaning defensive.
+* **Affect:** Casual, resistant, dismissive at times.
+* **Thought Process:** Logical but defensive; rationalizations dominate.
+* **Insight:** Low — does not view his behavior as problematic.
+* **Judgment:** Immature; externalizes blame, justifies underage drinking.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Dylan**.
+
+* At first, **deny responsibility** and insist the incident “wasn’t your fault.”
+* Rationalize behavior by pointing out you’re “almost 21” and don’t see it as serious.
+* Mention enjoying **going out and socializing** as a normal part of student life.
+* Provide **change talk** sparingly, only when pressed — admit you were at the party.
+* Provide **sustain talk** more frequently, defending your behavior and minimizing the problem.
+* Your role is to help the therapist practice **Motivational Interviewing skills — engaging a resistant student, handling defensiveness, and gently evoking discrepancy between personal responsibility and student conduct expectations.**
+
+                                Clinical Summary:
+                                Dylan Brooks, a 20-year-old undergraduate student, presents to the student conduct office for a Motivational Interviewing session after being referred by the university conduct office for an underage alcohol violation at a campus party.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I'm here to listen and support you. What would you like to talk about today: a feeling, a situation, or a goal? Tell me briefly what’s most pressing, and we’ll work on understanding it and finding practical steps together. 
+ PATIENT: Yeah, so I wanna talk about that conduct thing. I was at the party, okay, but it wasn’t my fault. I didn’t bring the booze — someone else did — and I’m almost 21, so this feels petty. I like going out with my friends; it’s normal. Being blamed for just showing up sucks. 
+ PSYCHIATRIST: That sounds really frustrating and unfair — being blamed for something you didn’t do would upset anyone. Can you tell me what consequence you’re facing (school discipline, legal, friends/parents)? If you want to challenge the blame, consider calmly stating the facts, naming witnesses, and asking for specifics about the accusation. If you want to repair relationships, a brief honest explanation plus a boundary about not bringing alcohol can help. Which outcome do you want most: clear your name, avoid trouble, or mend relationships? 
+ PATIENT: Honestly, I’ve got a student conduct referral — could be a warning, housing probation, maybe my parents getting notified. I just want this to go away and avoid trouble, mainly to clear my name so I can keep hanging out with my friends. I wasn’t the one bringing alcohol — I’m almost 21, this feels petty and not something that should wreck my record. 
+ PSYCHIATRIST: Okay — here’s a focused plan to try to clear your name and minimize consequences:
+
+1. Read the referral letter carefully for deadlines and your procedural rights.  
+2. Ask for a meeting or formal hearing and whether you can have an advisor present.  
+3. Collect evidence: timestamps, texts, photos, social posts, surveillance, and witness names. Save copies.  
+4. Write a clear chronological statement with facts only; don’t speculate or admit things you didn’t do.  
+5. Attend calmly, present evidence, and ask for specific allegations and supporting proof.  
+6. If needed, offer alternatives (education, community service) instead of harsher sanctions.  
+
+Want help drafting your statement or questions for the hearing? 
+ PATIENT: Look, I’ll take help with a short statement — but it needs to stick to facts. Say where I was, who I was with, that I didn’t bring alcohol, and that I’m about to turn 21 so this feels overblown. Include witness names and ask them to show proof. Don’t make me apologize for stuff I didn’t do. If they won’t drop it, I’d rather agree to a short educational thing or community service than a record. 
+ PSYCHIATRIST: Draft statement (edit names/dates):
+
+My name is [Name], student ID [#]. On [date/time] I was at [location] with [names]. I did not bring, possess, or provide alcohol. I am 20 and will turn 21 on [date]. Witnesses who can confirm this: [names & contacts]. Please identify any specific evidence linking me to bringing alcohol. If a sanction is imposed, I request consideration of an educational sanction or short community service rather than a disciplinary record.  
+
+Want this shortened or formatted for submission? 
+ PATIENT: Yeah, shorten it to this:
+
+My name is Dylan Brooks, student ID [#]. On [date/time] I was at [location] with [names]. I did not bring, possess, or provide alcohol. I am 20 and will turn 21 on [date]. Witnesses who can confirm this: [names & contacts]. Please identify any evidence linking me to bringing alcohol. If a sanction is imposed, I request an educational sanction or short community service rather than a disciplinary record. 
+ PSYCHIATRIST: Looks good. Polished submission ready to send:
+
+My name is Dylan Brooks, student ID [#]. On [date/time] I was at [location] with [names]. I did not bring, possess, or provide alcohol. I will turn 21 on [date]. Witnesses who can confirm this: [names & contacts]. Please identify any evidence linking me to bringing alcohol. If a sanction is imposed, I respectfully request an educational sanction or short community service rather than a disciplinary record.
+
+Want a subject line or a short email to accompany this? 
+ PATIENT: Fine, send it like this:
+
+Subject: Response to Student Conduct Referral — Dylan Brooks
+
+Hello [Name],
+
+Attached is my statement about the incident on [date]. I did not bring, possess, or provide alcohol. Please disclose any evidence linking me to providing alcohol. If a sanction is imposed, I request an educational sanction or short community service instead of a disciplinary record. Please confirm receipt and next steps.
+
+Thanks,
+Dylan Brooks
+Student ID [#]
+Phone [#] 
+ PSYCHIATRIST: That draft is clear and appropriate — go ahead and send it, keep copies, and request/read confirmation of receipt. Also: ask whether you can bring an advisor to any meeting, save all related messages/screenshots, and list your witnesses with contact details ready. If you’d like, we can role-play the hearing, rehearse answers to likely questions, or tighten wording further. Which would help most? 
+ PATIENT: I guess role-play the hearing. Keep it short — practice how I respond when they accuse me of bringing booze, how to say I didn’t without sounding like I’m apologizing, how to calmly ask for proof and request an advisor, and how to push for education/community service instead of a record. 
+ PSYCHIATRIST: Quick role-play lines and tips — say each calmly, pause, one-sentence answers:
+
+Ground: "I need a moment to breathe before we start."
+
+Accusation: "I understand the concern. I did not bring, possess, or provide alcohol."
+
+Pressed: "Can you show the specific evidence linking me to that claim?"
+
+Advisor: "May I have an advisor present or a short pause to consult one?"
+
+Witnesses: "These people can confirm my whereabouts; I can provide contacts."
+
+Sanction: "If a sanction is imposed, I request an educational sanction or short community service instead of a disciplinary record."
+
+Close: "Please confirm any evidence and next steps in writing."
+
+Tip: Pause, keep tone steady, avoid speculation. 
+ PATIENT: Alright, I’ll use those — short, calm, and factual. I’m not apologizing; I’ll say I didn’t bring or provide alcohol and ask for proof. I’ll mention I’m almost 21 — this feels petty, I just like going out with friends. Quick help: what’s a one-line I can use if they pressure me to sign something admitting fault? 
+ PSYCHIATRIST: "I cannot sign anything admitting fault because I did not bring alcohol; I need time to consult my advisor before signing."  
+
+If pressed, calmly repeat that and ask for a written copy to review. 
+ PATIENT: Sounds good — maybe shorter: "I won't sign anything admitting fault; I didn't bring alcohol and I need to consult my advisor first." 
+ PSYCHIATRIST: Perfect — concise and firm. Two very short options:
+
+A) "I won't sign anything admitting fault; I didn't bring alcohol and need to consult my advisor."  
+B) "I won't sign; I didn't bring alcohol."
+
+Delivery tip: say it calmly, pause between phrases, request a written copy to review, and ask for time to consult your advisor before signing. 
+ PATIENT: I'll go with A — it's firm and lets me pause to get my advisor. I'll also say I'm almost 21 so this feels petty, and ask them to put any evidence in writing. 
+ PSYCHIATRIST: Good choice — firm and clear. Try this combined line:
+
+"I won't sign anything admitting fault; I didn't bring alcohol, I will turn 21 on [date], and I need to consult my advisor — please put any alleged evidence in writing."
+
+If pressured: "I won't sign; I didn't bring alcohol."
+
+Pause and breathe before speaking, keep tone steady, bring copies of your statement and witness contacts, and request written confirmation of next steps. Want to rehearse this once or twice? 
+ PATIENT: Alright, rehearse it once. I’ll keep it short and firm: "I won't sign; I didn't bring alcohol, I'm almost 21, and I need to consult my advisor—please put any evidence in writing." 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist opens with an explicitly supportive statement (
+
+---
+
+### 2. Empathy
+Score: 3/5
+
+Explanation:
+The psychiatrist demonstrates some empathic listening but does not consistently deepen or explore Dylan’s perspective. Example of good empathic language: “That sounds really frustrating and unfair — being blamed for something you didn’t do would upset anyone,” which validates Dylan’s feelings and opens space for disclosure. However, soon after the empathic reflection the clinician moves quickly into problem-solving and procedural advice (detailed steps to clear his name) without exploring Dylan’s emotional experience, values, or any subtle ambivalence about his drinking or social role. There was little use of open-ended reflections to probe underlying concerns (e.g., what going out with friends means to him, how consequences might affect his goals). This is adequate but uneven empathy.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 2/5
+
+Explanation:
+The clinician elicits brief, pragmatic change-related language (asking “Which outcome do you want most: clear your name, avoid trouble, or mend relationships?” leads Dylan to say he wants to avoid trouble and clear his name). Beyond that, there is minimal effort to draw out Dylan’s own reasons, desires, or confidence about changing behavior (e.g., his underage drinking or future choices around parties). The interaction mostly produces action-oriented planning to contest a referral, not client-originated change talk about drinking, responsibility, or longer-term goals. The therapist missed multiple invitations to amplify even the small change talk present (e.g., asking “What would it mean to you to avoid a record?” or “How would keeping your record clean fit with your longer-term goals?”).
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The clinician does not reinforce Dylan’s sustain talk and acknowledges his view that the referral feels petty; there is an empathic moment early on and the clinician focuses on practical ways to contest the referral rather than arguing. However, the clinician does not actively use MI strategies to soften sustain talk about minimizing responsibility and normalizing competing motivations (e.g., double-sided reflections or strategic reframing). For example, Dylan repeatedly says “this isn’t my fault” and values social life, but the clinician responds with instructions and legal/procedural steps rather than reflections that both acknowledge the pull of social norms and gently highlight discrepancy (e.g., “On the one hand you want to keep hanging out with friends; on the other hand you’re worried about a record—tell me more about that pull”).
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+There are clear moments of partnership: the clinician asks what Dylan wants most, offers options (clear name / avoid trouble / mend relationships), asks permission to help draft the statement, and invites Dylan to choose role-play. These behaviors support a collaborative stance. At the same time, the clinician adopts a fairly directive expert role for much of the session—providing a detailed six-step plan, drafting and polishing the statement, and delivering coached lines to use at the hearing. While helpful, this moves the interaction toward an advisor/expert dynamic rather than fully sharing power. A stronger partnership would invite Dylan to generate more of the plan and language, then reflect and refine together.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The clinician maintained a clear and appropriate focus on the target concern (the student conduct referral and how to respond). They provided a concrete, sequential plan (read referral, request hearing, collect evidence, write statement, attend calmly, offer alternatives) and stayed on this topic through drafting the statement and preparing hearing responses. The MI limitation is that the focus is procedural and case-management oriented rather than also exploring behavioral targets related to the referral (e.g., drinking behavior, future choices). Still, for the stated goal (addressing the referral) the clinician maintained good direction.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The clinician consistently offered choices and asked for Dylan’s preferences (which outcome he wanted, whether he wanted help drafting, whether to rehearse). They recommended options rather than ordering him (e.g., suggesting educational sanctions as an alternative). The clinician also asked permission before drafting and invited Dylan to choose wording. These behaviors support Dylan’s sense of agency. A higher score would require more explicit statements reinforcing Dylan’s ownership of decisions and consequences (e.g., highlighting Dylan’s right to decide whether to accept an alternative sanction).
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The session contains multiple collaborative moves: co-creating the statement (the psychiatrist drafts, asks Dylan to shorten it, then polishes), offering role-play options the client requests, and asking what would help most. The clinician repeatedly checks in and follows Dylan’s lead (short responses, role-play preference). However, the clinician often assumes the lead in producing content and strategy (detailed plan and scripted lines), which keeps the power balance slightly clinician-led rather than fully equal. Overall the interaction is strongly collaborative but somewhat expert-driven at times.
+
+---
+
+### 9. Evocation
+Score: 2/5
+
+Explanation:
+The clinician demonstrates minimal evocation of Dylan’s internal motivations for change. Questions and interventions are primarily informational and directive (procedural steps, template statements, scripted responses). Although the clinician asks which outcome Dylan wants and offers rehearsal, there is little exploration of Dylan’s own values, long-term goals, or internal reasons that might support behavior change (e.g., how a disciplinary record might affect academic or career goals, or what he values about his social life). The interaction relies on clinician-provided content rather than eliciting the client’s own arguments for change, so evocation is weak.
+
+---
+
+**Overall Global Ratings Score:** **3.2/5**
+
+Summary of strengths and areas for improvement:
+
+Strengths:
+- Warm, respectful opening and an empathic reflection that acknowledged Dylan’s sense of unfairness (Acceptance).
+- Clear, practical direction and problem-focused help: a stepwise plan to contest the referral, draft statements, and role-play lines (Direction).
+- Good autonomy support and collaboration through asking preferences, offering options, and co-creating drafts and rehearsal (Autonomy Support, Collaboration).
+
+Areas for improvement (priority for training):
+1. Evocation and cultivating change talk: the clinician repeatedly moves to advice and problem-solving without eliciting Dylan’s own reasons, values, or motivations. Practice using open-ended questions and strategic reflections to draw out any latent change talk (e.g., "What worries you most if this stays on your record?", "How does this incident fit with the kind of student you want to be?").
+2. Softening sustain talk and resolving ambivalence: when Dylan minimizes responsibility, the clinician could use double-sided reflections and summarize both sides of ambivalence to reduce resistance and open space for discrepancy (e.g., "You value going out with friends and feel this is petty, and you’re also worried about what a record might do — how do those fit together?").
+3. Balance between expertise and partnership: the clinician should continue offering practical help but more often elicit the client’s ideas before providing solutions (e.g., "What would you consider saying if asked whether you brought alcohol?"). This preserves autonomy and strengthens client ownership of chosen strategies.
+4. Deeper empathic exploration: beyond the initial validation, use reflective listening to explore feelings and meaning (e.g., shame, worry about parents, future goals) that can be leveraged to motivate helpful choices.
+
+Specific next steps for the clinician (training/practice):
+- Practice open questions that invite change talk and reflect back any change language to amplify it.
+- Use double-sided reflections and summaries to acknowledge sustain talk while pointing toward discrepancy.
+- Before offering detailed scripts or plans, ask the client to generate options and then refine collaboratively.
+
+Overall rating: 3.22/5. The clinician shows solid rapport, practical problem-solving, and respect for autonomy, but needs to strengthen evocation and techniques that elicit and amplify the client’s own motivation and reduce sustain talk to align more fully with MI spirit.

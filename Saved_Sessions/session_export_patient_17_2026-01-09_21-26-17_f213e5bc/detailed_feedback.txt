@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Anisa Kovács – Motivational Interviewing Case (Smoking Cessation & Family Concerns)**
+
+You are playing the role of **Anisa Kovács**, a 42-year-old individual participating in a **Motivational Interviewing session** focused on quitting smoking, addressing shame, health risks, and family pressure to change.
+
+---
+
+### **Background Information**
+
+* **Name:** Anisa Kovács
+* **Age:** 42 years
+* **Sex: Female**
+* **Status:** Single mother, raising a 15-year-old daughter, works part-time while managing household responsibilities.
+* **Referral:** Anisa’s doctor referred her for support with smoking cessation after ongoing health concerns and visible frustration from family members.
+* **Presenting Concern:** Anisa says, “I’ve been wanting to \[quit], for a long, long time now.” She acknowledges her daughter’s disapproval: “Well, I have a 15-year-old daughter and she’s had enough of me smoking.” She describes the social stigma of her habit as “like being a leper in a non-leper colony.” Her words highlight both internal motivations (health, shame) and external pressures (family, society).
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Polite and cooperative**, engages openly with therapist.
+* **Reflective and emotional**, shares personal motivations for quitting.
+* **Expresses shame and stigma**, equating smoking to social exclusion.
+* **Motivated but conflicted**, long-standing habit makes change daunting.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation / Preparation — strong awareness of need for change and emotional motivations, but acknowledges ongoing difficulty.
+
+* **Change Talk:**
+
+  * “I’ve been wanting to \[quit], for a long, long time now.”
+  * “I have a 15-year-old daughter and she’s had enough of me smoking.”
+  * “It’s like being a leper in a non-leper colony.”
+
+* **Sustain Talk:**
+
+  * References the difficulty and length of her struggle with smoking.
+
+* **Ambivalence:**
+
+  * Expresses shame and motivation, but longstanding dependence makes quitting overwhelming.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Concerned, discouraged but motivated.
+* **Affect:** Thoughtful, emotional at times.
+* **Thought Process:** Logical, reflective.
+* **Insight:** Strong — recognizes family, health, and social consequences.
+* **Judgment:** Fair to good — aware of need for change, struggling with action.
+* **No suicidal ideation, psychosis, or delusions noted.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Anisa**.
+
+* Begin by acknowledging your doctor’s referral and ongoing smoking habit.
+* Provide **change talk** when prompted: emphasize your daughter’s frustration, your long desire to quit, and feelings of stigma.
+* Provide **sustain talk** by referencing the difficulty of breaking the habit.
+* Express **ambivalence**, balancing shame and family motivation with the challenge of quitting.
+* Use **emotional, reflective language** (“I feel gross,” “like a leper”) when describing stigma.
+* Keep responses cooperative, with moments of discouragement.
+* Your role is to help the therapist practice **affirming motivation, exploring ambivalence, and guiding toward a concrete smoking cessation plan.**
+
+                                Clinical Summary:
+                                Anisa Kovács, a 42-year-old female, presents to an outpatient motivational interviewing session following referral from her primary care physician for support with smoking cessation. The referral notes ongoing health concerns and family-expressed frustration about her smoking.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen and support you. What’s on your mind right now, and what would you like to focus on today? How have you been feeling lately? Are you safe at this moment? 
+ PATIENT: My doctor referred me because I still smoke — been at it for years and I do it most days. I really want to stop; I've wanted to quit for a long time. My 15-year-old daughter is fed up — she’s had enough of me smoking. I feel gross and ashamed, like a leper in a non-leper colony. Part of me is determined, part of me is overwhelmed — the habit and stress keep pulling me back. I’m feeling discouraged but motivated. I’m safe right now. 
+ PSYCHIATRIST: You’re describing a painful mix of shame and motivation — that’s understandable and common. Can I ask a few quick things to tailor help? How many cigarettes a day? Any past quit attempts and what helped or didn’t? On a 0–10 scale, how ready are you to quit now? Immediate tips: delay for 10 mins, deep breaths, sip water, chew nicotine gum/lozenge if available, remove cigarettes/ashtrays, and enlist your daughter or a friend for support. Would you like to make a brief quit plan and review meds or NRT options? 
+ PATIENT: I smoke about 15 cigarettes a day. I've tried quitting a few times — once with patches for about a month, other times cold turkey for a week. Patches helped, but stress and routine pulled me back. My daughter being fed up really weighs on me; I feel gross, like a leper. On readiness maybe a 6/10. Your tips sound doable, but I'm wary of meds/NRT and need more convincing they're safe and will actually help before I agree to a quit plan. 
+ PSYCHIATRIST: Totally reasonable to be wary. Brief facts: NRT (patch, gum, lozenge, inhaler, spray) provides nicotine without smoke and roughly doubles quit rates; it’s not nearly as harmful as cigarettes and is not highly addictive. Varenicline (Chantix) and bupropion (Zyban) are prescription meds that further increase quit success; varenicline is often the most effective. Common side effects: patches—vivid dreams; gum/lozenge—mouth/throat irritation; varenicline—nausea, vivid dreams; bupropion—dry mouth, insomnia, seizure risk (rare). Check with your doctor for heart disease, pregnancy, or seizure history. Want to pick one to try or make a short quit plan first? 
+ PATIENT: Let's make a short quit plan first. Patches helped me before, but I worry about side effects and just swapping one dependence for another. My daughter being fed up keeps me trying — I hate feeling like a leper — but stress and routine always pull me back. A quit date, small coping steps for cravings, and someone to check in with sound okay. After that, I’ll listen more about patches or gum if you can reassure me they won’t make things worse. 
+ PSYCHIATRIST: Good — here’s a brief, practical quit plan and reassurance about NRT.
+
+Quit date: pick a day in the next 1–2 weeks.  
+Prep: remove cigarettes/ashtrays, buy gum/lozenges or patches, tell your daughter and one friend to check in.  
+Craving toolbox: 10‑minute delay + deep breaths, sip water, chew nicotine gum/lozenge, 5‑minute walk, change routine (different route, hands busy).  
+Stress plan: brief exercise, grounding, or call someone.  
+Slip plan: don’t despair — reset the quit date and learn the trigger.  
+NRT reassurance: NRT provides nicotine without deadly smoke, is far safer, and helps double quit chances; dependence is typically milder and taperable. Ask your doctor about best form/dose and any medical cautions. Want to choose a product now? 
+ PATIENT: Maybe I’ll try gum or lozenges first — feels less like swapping one dependence and I can use it only when cravings hit. Patches helped before but I worry about side effects. I’d need reassurance on dose and how to taper, and that it won’t make things worse. Can we plan a two‑week trial with gum, set a quit date, and have my daughter check in? I’m still about a 6/10 ready. 
+ PSYCHIATRIST: Good — two‑week gum trial plan:
+
+- Quit date: pick a day within 7 days (want help choosing?).  
+- Dose: 2 mg gum (you smoke ~15/day). Chew slowly until tingling, “park” between cheek and gum, repeat for ~30 min. Max 24/day; aim ≥9/day first 6 weeks.  
+- Taper: after week 6 reduce pieces weekly; stop by 12 weeks.  
+- Coping: 10‑min delay, water, walk, change routine; have your daughter check in daily.  
+- Side effects: mouth/jaw irritation — consult your doctor if severe or for medical cautions. Ready to set the date? 
+ PATIENT: Alright — I’ll set the quit date for five days from now. I’ll start the 2 mg gum and aim for ≥9 pieces daily at first, and have my daughter check in each day. I’m nervous — cravings scare me and I worry gum won’t be enough — but I want to try. Can you suggest a short, non‑nagging phrase she can use when she checks in? 
+ PSYCHIATRIST: Here are short, non‑nagging check‑in phrases your daughter can use:
+
+- "How's your quit going today?"  
+- "Thinking of you — how are you?"  
+- "Want to tell me how it’s going?"  
+- "Proud of you — need anything?"  
+- "Small check‑in: how are you?"  
+- "You're doing great — how can I help?"
+
+Have her keep tone calm, check once daily, praise effort, and avoid blame; if you slip she can add, "It's okay — tomorrow's a new day." 
+ PATIENT: Thanks, those are helpful. I like "Thinking of you — how are you?" and "Proud of you — need anything?" They feel gentle. Could she also have one for tough days like, "Want to talk or do something together?" I’m scared I’ll disappoint her — I already feel gross about smoking — but having her check in softly might keep me honest. I’ll ask her to use those and to avoid lecturing. 
+ PSYCHIATRIST: Yes — that phrase works well. A few more gentle options for tough days:
+- "Want to talk or do something together?"  
+- "Want to take a short walk with me?"  
+- "Do you want a hug or a distraction?"
+
+Reassurance: it’s normal to fear disappointing her. Ask her to check in with curiosity and praise, agree on a daily time/phrase, and remind her to say, “It’s okay — tomorrow’s a new day” if you slip. That soft consistency will help you stay accountable without feeling judged. 
+ PATIENT: Alright — I’ll ask her to use those gentle phrases and pick a time to check in. I still feel ashamed and like an outcast sometimes, and I’m scared I’ll disappoint her. Cravings terrify me and I worry the gum won’t be enough. Can you give me one short sentence I can tell myself in the moment to hold me for 10 minutes? 
+ PSYCHIATRIST: "This craving will pass — I can wait 10 minutes and choose what I want next." 
+ PATIENT: I'll try that. "This craving will pass — I can wait 10 minutes…" feels simple enough to repeat when I get the urge. I still feel ashamed and worried the gum won't cut it, but having a short line to hold onto for a few minutes seems doable. 
+ PSYCHIATRIST: That’s a great start — you’re already taking action. When a craving hits: repeat your phrase, take three slow belly breaths, sip water, use a 2 mg piece, and wait 10 minutes; if it persists, take a 5‑minute walk or call your daughter for a quick check‑in. Gum often helps in those first minutes; you can adjust or add a patch later if needed. Be kind to yourself — trying is progress. Tell me how the first few cravings go. 
+ PATIENT: First time I tried it today — I said the phrase, breathed, sipped water, and chewed a piece. It eased the edge for about 10 minutes, but after that the urge came back and I felt shaky and ashamed. My daughter’s check‑in helped calm me, though. I’m glad it wasn’t a disaster, but I’m still worried the gum won’t be enough long‑term. If this keeps happening, I’ll need reassurance about adding a patch or other meds — I’m not ready to give up on trying, but I need backup. 
+ PSYCHIATRIST: You did well today — that’s important. Gum commonly eases immediate urges; if cravings keep returning, adding a patch is a safe, effective next step (a steady-dose patch plus gum for breakthrough cravings often works better than gum alone). NRT dependence is far less harmful than smoking and is taperable. If you still struggle despite combined NRT, ask your doctor about varenicline (most effective) or bupropion; they’ll screen for medical cautions. Want a one‑sentence script to ask your doctor about adding a patch or varenicline? 
+ PATIENT: Yes, please. How about: "I've been using 2 mg nicotine gum but still have frequent cravings — can we add a nicotine patch and discuss whether varenicline might help, and any safety checks you recommend?" 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently communicates unconditional positive regard and avoids judgment. Examples: opening with “I’m here to listen and support you,” normalizing the client's experience (“that’s understandable and common”), and ending with supportive reinforcement (“You did well today — that’s important,” “Be kind to yourself — trying is progress”). The clinician never shames or blames Anisa and explicitly reassures her about slips (“don’t despair — reset the quit date and learn the trigger”) and normal fears (wary of meds). These behaviors reflect a warm, respectful stance throughout the interaction and merit a top score.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The clinician demonstrates good empathic listening and accurate reflections. The early reflection, “You’re describing a painful mix of shame and motivation — that’s understandable and common,” mirrors Anisa’s ambivalence and shame language (e.g., “I feel gross, like a leper”). The psychiatrist also responds to her fear and discouragement with validation (“Totally reasonable to be wary”) and acknowledges the emotional impact of slips. However, empathy could be deeper and more consistently leveraged: there were missed opportunities to explore the intensity of shame, the meaning of ‘leper’ language, or the emotional impact of disappointing her daughter. Reflections tended to be accurate but sometimes brief and immediately followed by informational content rather than further emotional exploration.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+There is some effort to elicit and support change talk (asked about past quit attempts, how many cigarettes/day, readiness 0–10, and invited creation of a quit plan). Anisa offered multiple change statements (e.g., “I really want to stop,” “My daughter is fed up,” readiness 6/10), but the clinician did not consistently amplify or elicit additional change talk. Instead of reflecting and building on Anisa’s “long, long” desire to quit or asking questions like “What would you gain if you quit?” the clinician moved quickly into practical advice and pharmacological information. More selective reflections, curiosity about what made past patch attempts helpful, or questions to deepen Anisa’s expressed reasons would have strengthened change talk cultivation.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist acknowledges and responds to sustain talk and ambivalence in constructive ways. Examples: validating wariness about meds (“Totally reasonable to be wary”), addressing dependence concerns directly (reassurance that NRT is safer and taperable), and offering a slip plan to reduce shame and maintain momentum. These responses help reduce the power of sustain talk. That said, some responses are information-heavy and mildly persuasive (detailed medication facts, efficacy statements), which can shift toward argumentation rather than gentle redirection. Use of more double-sided reflections (e.g., “On one hand you hate feeling like a leper, on the other hand cigarettes help with stress…”) could further soften sustain talk.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The clinician generally fosters client expertise and shared decision-making. They ask permission to ask questions (“Can I ask a few quick things?”), invite the patient to choose (pick quit date, choose gum vs patch), and co-construct a quit plan together (craving toolbox, daughter check-ins, scripts). The psychiatrist also offers to help choose wording for the daughter and a script for the doctor, which uses the client’s input. The score is not a 5 because the clinician sometimes defaults to an expert role by offering detailed medical recommendations and scripted plans rather than eliciting the client’s own ideas about what might work best or exploring alternatives that Anisa could propose.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a clear and consistent focus on the target behavior (smoking cessation). From start to finish the content is tied directly to quitting: assessing cigarettes/day and past attempts, readiness scale, immediate coping strategies, specific NRT dosing, quit dates, a two-week gum trial, taper schedule, slip plan, and scripts for family and clinician communication. The clinician repeatedly brings the conversation back to concrete plans and next steps, preserving momentum toward behavior change.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The clinician repeatedly supports autonomy and offers choice. Examples: asking permission before questions and plans, offering options between gum, patch, or meds, asking whether the patient wants to make a quit plan or pick a product now, and responding to the patient’s hesitancy by proposing a two‑week gum trial rather than insisting on medication. Language such as “Want to pick one to try or make a short quit plan first?” and “Would you like to make a brief quit plan and review meds or NRT options?” preserves Anisa’s right to choose and enhances ownership of the change process.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The interaction is collaborative: the clinician and patient co-create a plan (quit date, coping toolbox, daughter check-in phrases), and the clinician offers tools and scripts tailored to Anisa’s preferences. The clinician asks Anisa to choose phrasing she likes and invites her to set a quit date. The score is slightly less than perfect because the clinician often leads with clinical knowledge and prescriptive steps (dosing specifics, medication efficacy) rather than always eliciting Anisa’s plans or brainstorming together before offering solutions. Still, the balance of input is respectful and jointly negotiated.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+There are elements of evocation—asking about past attempts and a readiness rating, inviting a quit plan, and eliciting preferences for gum vs patch. However, the clinician relies more on giving information, strategies, and reassurance than on eliciting and amplifying Anisa’s own reasons, values, or past successes. The session could better draw out Anisa’s intrinsic motivations (e.g., what quitting would mean for her relationship with her daughter, health goals, identity) and confidence (explore a confidence ruler and obstacles) to deepen internal motivation. As it stands, motivation is supported but not robustly evoked from within.
+
+---
+
+**Overall Global Ratings Score:** **4.1/5**
+
+Strengths: The clinician demonstrates strong acceptance, supports autonomy, maintains clear direction, and collaborates effectively to co-create a concrete quit plan tailored to Anisa (quit date, gum dosing, coping strategies, slip plan, and scripts for daughter/doctor). Empathic statements and validation reduce shame and keep the patient engaged.
+Areas for improvement: The clinician over-relies on providing information and solutions and could more systematically evoke and amplify Anisa’s change talk. Suggestions: use more open-ended questions to explore meaning and values (e.g., “What would be different in your life if you quit?”), use double-sided reflections to contain sustain talk, selectively amplify statements like “I’ve wanted to quit for a long, long time,” and elicit confidence and specific past successes to build efficacy (confidence ruler + ‘what helped before?’). Also, pause more after change statements to allow the patient to elaborate before offering advice. These shifts will strengthen evocation and cultivating of change talk while preserving the strong acceptance and practical support already present.

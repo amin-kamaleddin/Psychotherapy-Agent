@@ -1,0 +1,56 @@
+PSYCHIATRIST: Hi Laura — nice to see you. I remember you were invited to complete a Values Clarification handout after the wellness session. You work full-time, practice yoga, and do community service — that suggests health, balance, and helping others matter to you. What part of the handout felt most true or surprising? If one value could guide a small change this week, what would you choose?
+PATIENT: Honestly, the bit that surprised me was seeing health at the very top — it felt right, but also a little awkward since I haven’t been consistent. What rang true was how yoga really grounds me and connects to self-love and growth. If one value could guide a small change this week, I’d pick health: commit to a 15-minute morning yoga or stretch session at least four days. I know I’ll find excuses some mornings — one late night and I’ll skip — but a short practice feels realistic and meaningful.
+PSYCHIATRIST: That makes sense — health felt surprising, yoga grounds you, and a 15-minute morning practice 4×/week is a realistic, values-aligned step. I’m glad you noticed the “excuse” pattern. What would make it easier to follow through when you’ve had a late night? On a 0–10 confidence scale, how sure are you you can do this? If helpful, we can quickly make an if-then plan (e.g., “If I wake up late, I’ll do a 5‑minute stretch”) and pick which mornings you’ll target. Which would you prefer?
+PATIENT: I’m leaning toward the if-then plan — it feels doable but I’m not totally sold. Targeting Mon/Wed/Fri/Sun mornings, and if I wake up late I’ll do a 5‑minute stretch instead. Things that’d help: alarm across the room, mat and clothes set out, maybe a quick check-in text to a friend. I’d say my confidence is about a 6/10 — I want this, I just know one late night could derail me.
+PSYCHIATRIST: You’ve got a realistic plan — 15 minutes x4 with a 5‑minute fallback, and helpful supports (alarm across room, mat/clothes ready, check-in text). Which single support do you think would make the biggest difference on a late night: alarm across the room, laying out your mat/clothes, or the friend text? Want to word the if‑then plan together now (example: “If I wake up late, then I’ll do a 5‑minute stretch; otherwise I’ll do 15 minutes”) — and if you try that, how would your confidence shift from 6/10?
+PATIENT: Probably the alarm across the room — it actually forces me up even when I’m tempted to hit snooze. If I wake up late, then I’ll do a 5‑minute stretch; otherwise I’ll do 15 minutes. With that clear if‑then and the alarm set, my confidence bumps to about a 7/10 — still nervous about really late nights, but more hopeful.
+PSYCHIATRIST: That’s a solid, values‑consistent step — the alarm plus your if‑then shows clear intention, and 7/10 is a good, honest start. To make it concrete: what exact time will you set the alarm for Mon/Wed/Fri/Sun? And what one small additional support would move your confidence from 7 to a 9?
+PATIENT: I’d set it for 6:30 AM on Mon/Wed/Fri/Sun — enough time for 15 minutes. To bump from a 7 to a 9, I’d add a quick accountability text to my yoga buddy right when I get up; knowing she’ll check in really nudges me. I’m still a bit worried about very late nights, but that combo feels much more doable.
+PSYCHIATRIST: That’s a clear, doable plan — 6:30 AM Mon/Wed/Fri/Sun, alarm across the room, 15 minutes or a 5‑minute fallback, plus an accountability text to your yoga buddy to nudge you to a 9. I hear you’re realistic about very late nights but hopeful. Would you like to draft the exact accountability text now, or instead plan a specific backup for those very late nights? Which feels most helpful to tackle next?
+PATIENT: Let’s draft it now — that feels more motivating.  
+
+Standard: "Morning! I'm doing 15 min yoga now — could you send a quick '✨' when you see this? Helps me stick to it."  
+Fallback (very late): "Running late — doing a 5‑min stretch. Sending '5' to check in."  
+
+Bit awkward to ask, but having those ready makes me more likely to follow through.
+PSYCHIATRIST: Those drafts are practical and honest — nice work. Here are two slightly polished sets; pick one or mix-and-match.
+
+Option 1 (direct)
+- Standard: "Morning! Doing 15 min yoga now — could you send a quick ✨ when you see this? Thanks!"
+- Fallback: "Running late — doing a 5‑min stretch. Can you reply '5' when you see this?"
+
+Option 2 (casual)
+- Standard: "Doing my 15‑min yoga now — ping me with ✨ if you can!"
+- Fallback: "Short on time — 5‑min stretch. Reply '5' to check in?"
+
+Which feels truer to you, or want to tweak one?
+PATIENT: I lean toward Option 2 — it feels more like how I actually text. For the fallback I’d tweak it to: "Running late — doing a 5‑min stretch. Reply '5' to check in?" Bit awkward to ask, but I’ll send those.
+PSYCHIATRIST: Nice — Option 2 fits you and that tweak feels natural. It makes sense that it’s awkward; you could reduce that by saying it casually or automating the reminder so it feels less like asking a favor. Would you like to set a reminder/alarm that opens the message to send when you wake, or practice sending the exact texts now so they feel easier? Which would help you follow through most?
+PATIENT: Setting the reminder that opens the message would help most. It feels less awkward and makes it automatic so I don't have to craft the text when I'm half-asleep. If you can help me program it to open the draft at 6:30 on Mon/Wed/Fri/Sun, I think I’ll actually be more likely to hit send and do the practice.
+PSYCHIATRIST: That sounds like a great way to make it automatic and less awkward. Which phone do you use — iPhone or Android? I can walk you step-by-step to create a time-based automation that opens a prewritten message (or auto-sends if you prefer and your phone allows). Also okay to use a simple alarm label or a calendar reminder if you’d rather avoid automations. Which would you like me to guide you through now?
+PATIENT: I use an iPhone. I want a step-by-step to make an automation that opens the drafted text at 6:30 AM on Mon/Wed/Fri/Sun — not auto-send, I want to press send. Can you walk me through setting that up? If it’s quick, show how to add an alarm label reminding me to grab my mat.
+PSYCHIATRIST: Nice — here’s a quick iPhone Shortcuts guide so the message opens and you press Send, plus the alarm-label steps.
+
+Shortcuts automation
+1. Open Shortcuts → Automation → + → Create Personal Automation.
+2. Choose Time of Day → 6:30 AM → Repeat → select Mon/Wed/Fri/Sun → Next.
+3. Add Action → search “Send Message” → tap it.
+4. Paste message: "Doing my 15‑min yoga now — ping me with ✨ if you can!" → set your buddy as recipient.
+5. In the action, toggle “Show When Run” ON → Next → turn off “Ask Before Running” → Done.
+
+Alarm label
+- Clock → Alarm → + → 6:30 → Repeat same days → Label: "Grab mat + clothes" → Save.
+
+Want me to also add the fallback 5‑min draft as a second automation?
+PATIENT: Yes — that would be helpful. Please make the second automation for 6:45 AM on Mon/Wed/Fri/Sun (so it catches snoozes) and have it open this draft: "Running late — doing a 5‑min stretch. Reply '5' to check in?" Keep "Show When Run" on and no auto-send. I think having both will actually make me press send more often.
+PSYCHIATRIST: Great — here are quick steps to create the 6:45 AM automation that opens (but doesn’t auto‑send) your fallback text:
+
+1. Open Shortcuts → Automation → + → Create Personal Automation.  
+2. Choose Time of Day → 6:45 AM → Repeat → select Mon/Wed/Fri/Sun → Next.  
+3. Add Action → search “Send Message” → tap it.  
+4. Paste: "Running late — doing a 5‑min stretch. Reply '5' to check in?" → set your buddy as recipient.  
+5. In the action, toggle “Show When Run” ON.  
+6. Next → turn off “Ask Before Running” → Done.  
+
+Want to test it now to confirm it opens the draft?
+PATIENT: Sure — let’s test them now. I want to see the 6:30 open the main draft and the 6:45 open the fallback, and confirm the alarm label "Grab mat + clothes" shows up. I’m a bit anxious about it accidentally sending, so please double-check "Show When Run" is on so I have to press send.

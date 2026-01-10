@@ -1,0 +1,11 @@
+{
+  "run_id": "run",
+  "start_patient": 31,
+  "end_patient": 41,
+  "num_patients": 10,
+  "fold": 5,
+  "total_runs": 50,
+  "timestamp": "20260109_231102",
+  "therapist_mode": "simple",
+  "therapist_profile_number": 0
+}

@@ -1,0 +1,90 @@
+PSYCHIATRIST: Thanks for being here. What feels most important to you right now — your mood, sleep, relationships, work, or something else? I want to connect this to what you've told me before, so if anything’s changed since we last spoke, briefly tell me what’s different. I’m here to listen, reflect, and help you explore what you’d like to do next.
+PATIENT: Honestly, work and staying productive feel biggest right now — coffee basically powers my day. My mood's okay, relationships fine, sleep sometimes suffers if I drink late but it’s not a disaster. Nothing major’s changed since we last spoke: I’m still drinking a lot, still enjoy the routine, still get jittery sometimes and I’ve read it might raise blood pressure. I’m curious about the risks, but I’m not convinced it’s something I need to fix yet.
+PSYCHIATRIST: I hear productivity matters a lot and coffee reliably supports your routine — yet it can cause jitteriness, disturb sleep, and raise blood‑pressure concerns. You’re curious about risks but not convinced change’s needed. Would you like to (a) learn specific risks and benefits, (b) try a short experiment (delay the first cup, switch to decaf after noon, or track intake and sleep), or (c) weigh pros and cons together? Which of those feels most helpful or doable right now? I’m here to support whatever you choose.
+PATIENT: Coffee really gets me going in the morning and keeps me focused, so I’d pick (c) — weigh pros and cons together. I enjoy it, it’s part of my routine and helps me get stuff done. I do worry a bit about jitters and maybe blood pressure, but I’m not sure it’s a real problem yet.
+PSYCHIATRIST: Good choice — let’s weigh them together.
+
+Pros: boosts alertness, focus, and productivity; pleasurable ritual; helps jump‑start mornings; easy and familiar.
+
+Cons: jitteriness, anxiety, possible sleep disruption (especially late), acute blood‑pressure spikes, tolerance (need more over time), withdrawal (headache, low energy), occasional heart palpitations.
+
+Which of those feels most important to you right now? Would you like to try a small experiment (delay first cup, stop after noon, switch to decaf, or track intake/sleep) or get more detail on any specific risk? I’ll support whichever you pick.
+PATIENT: Productivity matters most, though I do worry a little about sleep and that blood‑pressure thing. Tracking my intake and sleep feels most doable — it's just collecting data, not forcing a change. I love the ritual and the focus boost, but I’m curious if patterns show it’s actually hurting my sleep or causing spikes. I’m not ready to quit or delay the first cup yet.
+PSYCHIATRIST: Great — tracking is a smart, low‑pressure step. Here’s a simple 1–2 week log you can use:
+
+- For each drink: time, size (small/med/large), type (regular/decaf), and estimated mg if known.  
+- Daily: bedtime, sleep onset time, number of awakenings, sleep quality (1–5), morning energy (1–5), daytime focus (1–5), any jitter/anxiety episodes (yes/no + severity 1–5).  
+- Optional: morning blood‑pressure reading if you have a cuff.
+
+Would you like a ready‑to‑copy template or an app suggestion to track this?
+PATIENT: A ready-to-copy template would be helpful — something simple I can paste into my phone Notes or print. Include columns for time, size, type (regular/decaf), sleep (bedtime, time to fall asleep, awakenings, sleep quality 1–5), morning energy/focus 1–5, jitters (yes/no + severity), and optional BP. If you’ve got an easy app suggestion afterward, I might try that too.
+PSYCHIATRIST: Nice choice — tracking is low‑pressure and informative. Paste this into Notes:
+
+Date: YYYY‑MM‑DD
+Drinks: [HH:MM, Size S/M/L, Type reg/decaf, est mg]; [repeat]
+Bedtime: HH:MM | Time to fall asleep (min): __ | Awakenings: __ | Sleep quality (1–5): _
+Morning: Energy (1–5): _ | Focus (1–5): _ | Jitters Y/N; Severity (1–5): _ | BP (optional): SYS/DIA
+
+App suggestions: Google Sheets (structured), Daylio (quick mood/symptom), Sleep Cycle (automatic sleep). Want help setting reminders or a prefilled sheet?
+PATIENT: Yeah, a prefilled Google Sheet would help — one week template with the columns and an example row I can copy. Reminders would be useful too: one in the morning after my first cup and one at night before bed. I’ll try it for two weeks and see what pops up.
+PSYCHIATRIST: Nice plan — here’s a copy‑paste Google Sheets template plus an example row.
+
+Header:
+Date,Drinks,Bedtime,Time to fall asleep (min),Awakenings,Sleep quality (1-5),Morning energy (1-5),Focus (1-5),Jitters Y/N,Jitters severity (1-5),BP SYS/DIA
+
+Example:
+2026-01-10,"07:45, M, reg, ~95mg; 14:30, S, reg, ~60mg",23:30,15,1,3,4,4,Y,2,120/78
+
+Week rows (copy/paste 6 more):
+2026-01-11,,,,,,,,,, 
+2026-01-12,,,,,,,,,, 
+2026-01-13,,,,,,,,,, 
+2026-01-14,,,,,,,,,, 
+2026-01-15,,,,,,,,,, 
+2026-01-16,,,,,,,,,,
+
+Reminders: set a recurring morning alert (X minutes after your usual first cup or a fixed time) and a nightly reminder ~30 min before bed via your phone’s Reminders/Google Calendar. Want me to suggest exact times based on your routine?
+PATIENT: Sure — that’d help. My first cup’s usually around 07:45, so set the morning reminder for 08:15 (30 min after). I usually sleep around 23:30, so set the nightly reminder for 23:00. Start with those and I’ll tweak if they feel off.
+PSYCHIATRIST: Perfect — those times fit your routine (07:45 first cup, 23:30 bedtime). Quick steps:
+
+iPhone Reminders: Reminders app → New Reminder → title (e.g., “Morning coffee log”) → tap time → set 08:15 → Repeat: Daily → Done. Repeat for 23:00 (“Evening coffee log”).
+
+Android/Google Calendar: Calendar → Create → title → set time 08:15 → Does not repeat → Change to “Daily” → Add notification → Save. Repeat for 23:00.
+
+Want a ready-to-paste CSV/Google Sheet file I can generate for you next?
+PATIENT: Sounds good — yes please, send the ready‑to‑paste CSV/Google Sheet with the header, a one‑week template and that example row. I’ll start the two‑week tracking with the 08:15 and 23:00 reminders. I’m not quitting or changing yet — just curious to see if the data shows any real problems.
+PSYCHIATRIST: Good — here’s a ready-to-paste CSV for Google Sheets. Reminders: 08:15 morning, 23:00 evening.
+
+Date,Drinks,Bedtime,Time to fall asleep (min),Awakenings,Sleep quality (1-5),Morning energy (1-5),Focus (1-5),Jitters Y/N,Jitters severity (1-5),BP SYS/DIA
+2026-01-10,"07:45, M, reg, ~95mg; 14:30, S, reg, ~60mg",23:30,15,1,3,4,4,Y,2,120/78
+2026-01-11,,,,,,,,,,
+2026-01-12,,,,,,,,,,
+2026-01-13,,,,,,,,,,
+2026-01-14,,,,,,,,,,
+2026-01-15,,,,,,,,,,
+2026-01-16,,,,,,,,,,
+
+Want me to generate and send this as a downloadable CSV file?
+PATIENT: That would be helpful — please send the downloadable CSV. It’ll be easiest to drop into Google Sheets. I’ll start the two‑week tracking with the reminders, just collecting data for now — not ready to cut back yet.
+PSYCHIATRIST: Here’s the CSV. Copy it into a plain-text editor and save as coffee_log.csv (UTF-8). Then upload to Google Drive and open with Google Sheets (File → Import → Upload).
+
+Date,Drinks,Bedtime,Time to fall asleep (min),Awakenings,Sleep quality (1-5),Morning energy (1-5),Focus (1-5),Jitters Y/N,Jitters severity (1-5),BP SYS/DIA
+2026-01-10,"07:45, M, reg, ~95mg; 14:30, S, reg, ~60mg",23:30,15,1,3,4,4,Y,2,120/78
+2026-01-11,,,,,,,,,,
+2026-01-12,,,,,,,,,,
+2026-01-13,,,,,,,,,,
+2026-01-14,,,,,,,,,,
+2026-01-15,,,,,,,,,,
+2026-01-16,,,,,,,,,,
+
+Want me to create a Google Sheet and share a link?
+PATIENT: Go ahead and create the Google Sheet and share a link with edit access. Make sure it includes the example row and the one‑week template. I’ll use it with the 08:15/23:00 reminders and track for two weeks — just collecting data for now, not trying to cut back yet.
+PSYCHIATRIST: I can’t create or share files directly, but I’ll walk you through a 30‑second way to make and share it — and I’ll paste the CSV again if you want.
+
+Quick create + share:
+1. Sheets → Blank spreadsheet.
+2. File → Import → Upload → paste the CSV file (or drag the file) → Import (Replace current sheet).
+3. Click Share → Get link → Change to “Anyone with link” → Role: Editor → Copy link → Send.
+
+I included the example row and week template in the CSV earlier. Want me to paste it here again, or would you like a plan for reviewing the data after 1 vs 2 weeks?
+PATIENT: Let's do a review plan. I'll track for two weeks but we can do a quick check at 1 week to tweak anything. What should I watch for? Maybe sleep quality dropping by >1 point, more than 2 jitter episodes/week or severity ≥3, consistent morning energy/focus decline, or BP readings over ~130/80. I’m not quitting — just want clear signals that it’s actually a problem before I consider changes.

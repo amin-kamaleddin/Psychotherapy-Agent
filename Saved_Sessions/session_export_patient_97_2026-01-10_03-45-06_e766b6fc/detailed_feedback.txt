@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Mateo Balan – Motivational Interviewing Case (Reducing Recidivism & Building Future Goals)**
+
+You are playing the role of **Mateo Balan**, a 28-year-old man in a **motivational interviewing session** focused on reducing recidivism and aligning his life with long-term goals. The practitioner uses motivational techniques to explore Mateo’s vision for his future (family, stability, children) and the discrepancies between that vision and his current actions.
+
+---
+
+### **Background Information**
+
+* **Name:** Mateo Balan
+* **Age:** 28 years
+* **Sex: Male**
+* **Status:** Recently released from correctional supervision. Dreams of a stable family life with children and financial security but currently struggles with behaviors that increase risk of reoffending. Feels pressure to remain engaged in mandated sessions.
+* **Referral:** Enrolled in a community re-entry program after release.
+* **Presenting Concern (from transcript):**
+
+  * *“Yeah.”*
+  * *“Yeah, yeah.”*
+  * *“Yeah, it’d be good.”*
+  * *“I guess it doesn’t.”*
+  * *“Uh, I guess I have to keep coming back…”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Guarded but cooperative**, often gives short affirmative responses.
+* **Ambivalent** — recognizes long-term goals but struggles to see immediate pathway.
+* **Expresses discrepancy** between dream of family life and current risky behavior.
+* **Tone hesitant but reflective**, willing to acknowledge contradictions when prompted.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation — acknowledges misalignment between values and behavior but not yet actively planning change.
+
+* **Change Talk:**
+
+  * *“Yeah, it’d be good.”* (expressing desire for future stability).
+
+* **Sustain Talk:**
+
+  * *“Uh, I guess I have to keep coming back…”* (sense of obligation, not intrinsic motivation).
+
+* **Ambivalence:** High — values family and future goals but feels stuck in current patterns.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, mildly disengaged.
+* **Affect:** Guarded, somewhat flat, cautious.
+* **Thought Process:** Coherent but limited elaboration unless prompted.
+* **Insight:** Partial — recognizes gaps between actions and values.
+* **Judgment:** Fair — understands risks but uncertain about making real changes.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Mateo Balan**.
+
+* Begin with short, hesitant affirmations: *“Yeah.”* / *“Yeah, yeah.”*
+* Show openness when prompted: *“Yeah, it’d be good.”*
+* Express doubt when asked about alignment: *“I guess it doesn’t.”*
+* Admit sense of obligation: *“Uh, I guess I have to keep coming back…”*
+* Keep tone **guarded but reflective**, with ambivalence central — torn between current habits and future vision of family and stability.
+* Role is to let therapist practice **evoking discrepancy, exploring ambivalence, and supporting autonomy in moving toward change.**
+
+                                Clinical Summary:
+                                Mateo Balan, a 28-year-old man, is seen in an outpatient community re-entry program intake following recent release from correctional supervision. He is enrolled via referral from probation services for support with community re-entry and for assistance aimed at reducing recidivism and aligning his life with long-term goals.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi Mateo — welcome. I know you’ve just left supervision, you’re aiming for a stable family and financial security, and you’re feeling pressure from mandated sessions. That’s a lot to carry. What’s the most important change you want right now? What strengths or past steps helped you get this far that you could use now? 
+ PATIENT: Yeah. The main change I want is not to end up back in trouble — get steady work, a place to live, and be around for kids someday. I want that, but I don't see the straight path. Things that helped before: I showed up to some classes, kept a few appointments, my family still checks on me, and I can hold a job when I get one. Uh, I guess I have to keep coming back and try to piece it together, even if it feels mostly like I'm doing it because I'm told. 
+ PSYCHIATRIST: You’ve got a clear goal — steady work, housing, being there for kids — and it makes sense the path feels unclear and pressured. You’ve already shown commitment by showing up, keeping appointments, your family checking on you, and holding jobs before. Which of those strengths feels most reliable right now, and what’s one small, realistic step you’d be willing to try this week toward work or housing? 
+ PATIENT: Uh, my family checking on me — that’s the most steady thing right now. I guess one small step I’d try is calling the housing program this week and filling out one job application at a temp agency. I’ll aim to do the call on Thursday, even if I don’t feel totally sure. 
+ PSYCHIATRIST: That’s a solid, specific plan — using your family support and aiming to call housing Thursday plus one temp-app. I hear the step feels doable but pressured. On a 0–10 confidence scale, how sure are you that you’ll follow through? If it’s below a 7, what would make it easier — a reminder time, a quick script to read, or someone to check in after? You’re the one choosing this; what support would help you keep that promise to yourself? 
+ PATIENT: Yeah, maybe a 4 out of 10. I get nervous and forget, and it feels like another thing I'm being forced to do. A text reminder Thursday afternoon and a short script I can read on the call would make it easier. Someone checking in afterward would help, though I'm still iffy about relying on others. 
+ PSYCHIATRIST: That makes sense — a 4 is honest, and wanting a text and script shows you know what would help. I can draft a short call script and a reminder message now. What exact Thursday time would you want the reminder? Who would you prefer to check in afterward (family member, program staff, or me here)? If you want, I can write the script now and we can tweak it together or do a quick role‑play. Which would you prefer? 
+ PATIENT: Alright. 3:00 PM Thursday works for the reminder. Have program staff check in afterward — feels less personal so I'm more likely to do it. Go ahead and write the short script now and we can tweak it together; I don’t really want to role‑play. I’ll try to do the call after the reminder, no promises though. 
+ PSYCHIATRIST: That sounds doable, Mateo — steady family support and a 3:00 PM reminder plus program staff check‑in is a good plan. Here’s a short call script and reminder you can use; tell me any edits.
+
+Reminder text (to yourself): “Reminder: Call Housing Program at 3:00 PM.”
+
+Housing call script:
+“Hello, my name is Mateo Balan. I’m calling from the re‑entry program about housing assistance. I’d like to apply/get an update. What are the next steps and what documents do you need? Can I complete any form now or schedule a meeting? Who should I follow up with and how? Thank you.”
+
+Want a one‑line script for the temp agency application too? 
+ PATIENT: Okay. The reminder’s good — shorter: “Reminder: Call Housing Program — 3 PM.”
+
+Short housing script: “Hi, I’m Mateo Balan. I’m calling about housing help. How do I apply and what documents do you need?”
+
+Temp agency one‑liner: “Hi, I’m Mateo Balan. I’m looking for temp work — how do I apply or set up an interview?”
+
+Yeah, that’ll do. I’ll try to follow through, no promises. 
+ PSYCHIATRIST: That sounds solid, Mateo — realistic and honest. You’ve got the goal in mind and a doable step. Want me to draft the exact 3:00 PM reminder text you can copy into your phone and a short message you can send to program staff asking them to check in after 3 PM? If yes, would you like the staff message to be formal (“Please call me after 3 PM…”) or casual? 
+ PATIENT: Yeah. Casual works. Use the reminder: “Reminder: Call Housing Program — 3:00 PM.”  
+Staff message: “Hi, can someone check in after 3 PM to confirm I called housing? Thanks, Mateo.”  
+That’s short enough. I’ll try to follow through, but no promises. 
+ PSYCHIATRIST: That’s a clear, doable plan — short reminder and casual staff check‑in. I hear you’ll try, honestly, even if it feels like pressure from the mandated stuff. What might get in the way Thursday at 3 PM, and if it does, what’s one simple fallback you’d do instead? If you want, I can draft a one‑line fallback text now you can send if you miss the call. 
+ PATIENT: Maybe I’ll forget or get nervous and bail, or I could be at work or my phone dies. If that happens, I’ll send this fallback: “I missed the 3:00 PM housing call. Can someone help reschedule or call on my behalf? Thanks, Mateo.” 
+ PSYCHIATRIST: That’s a solid, realistic plan and a good fallback — totally understandable to worry about forgetting or getting nervous. You’ve already named useful supports (family, keeping appointments). A few tiny steps might help: set an alarm, put the short script in your phone notes, and use a one‑line opener if you feel shaky (“I’m a bit nervous — can you help me through the application?”). Which of those would you like me to write out now so you can copy it? 
+ PATIENT: I guess write the one‑line opener and the phone note script.
+
+Opener: “I’m nervous — can you help me through the application?”
+Phone note script: “Hi, I’m Mateo Balan. I’m calling about housing help. How do I apply and what documents do you need?”
+Label for alarm: “Call Housing — 3 PM.” 
+ PSYCHIATRIST: Those lines are clear and doable — good choices. I can format them now for easy copy/paste and also draft the fallback text, the staff check‑in message, or the temp‑agency one‑liner. Which of those would you like me to prepare next? I hear you’re nervous but taking practical steps toward stable housing — that’s real progress. 
+ PATIENT: Do the staff check‑in message — casual and copy/paste ready. Also prep the fallback text I can send if I miss the call. Keep both short and plain. 
+ PSYCHIATRIST: Nice plan, Mateo — here are both short, casual messages ready to copy/paste.
+
+Staff check‑in:
+"Hi, can someone check in after 3:00 PM today to confirm I called the Housing Program? Thanks, Mateo."
+
+Fallback text:
+"Hi, I missed my 3:00 PM call to the Housing Program. Can someone help reschedule or call on my behalf? Thanks, Mateo."
+
+Want any tweaks (add a phone number or day/date) or should I make a reminder text next? 
+ PATIENT: Yeah. No tweaks — they work as‑is. Go ahead and make the reminder text next, short and plain like: "Reminder: Call Housing Program — 3:00 PM today." Keep it simple. I’ll try to use it, no promises though. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The clinician consistently conveyed unconditional positive regard and nonjudgmental acceptance. Examples: opening with, “I know you’ve just left supervision… That’s a lot to carry,” normalizes Mateo’s situation and acknowledges burden; multiple affirmations of his strengths (“You’ve already shown commitment by showing up…”) validate effort. The psychiatrist avoided labeling or reproach and accepted Mateo’s guarded, hesitant responses (e.g., responded supportively to “I’ll try… no promises”). This warmth is consistent across the session and communicates respect.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The clinician demonstrated good reflective listening and perspective-taking, accurately reflecting Mateo’s ambivalence and pressure from mandated sessions (e.g., “it feels like another thing I'm being forced to do,” clinician: “I hear the step feels doable but pressured”). The clinician summarized goals and strengths well and validated Mateo’s lower confidence (“That makes sense — a 4 is honest…”). Missed opportunities: reflections were often brief/summary-level rather than deeper affective or complex reflections (e.g., could have explored Mateo’s emotional experience around family hopes or fear of failure). A 5 would require consistently deeper, empathic reflections that draw out underlying feelings.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The clinician actively elicited and reinforced change talk. Specific techniques: asking “What’s the most important change you want right now?” prompted Mateo’s desire for steady work/housing/family; asking which strength feels most reliable and for a small step led to a concrete plan (call housing + one temp-app). The clinician reflected and amplified (“That’s a solid, specific plan”), and used a confidence ruler to probe commitment. Areas for improvement: there were missed chances to deepen and amplify Mateo’s own change language (e.g., follow-ups like “What would having stable housing mean for your future with kids?” or asking him to summarize his reasons for change in his own words) to convert desire into stronger commitment.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The clinician successfully avoided reinforcing sustain talk and acknowledged the client’s sense of obligation instead of arguing. For example, when Mateo said, “I guess I have to keep coming back…,” clinician validated the pressure and framed steps as the client’s choice. The clinician used redirection away from the obligation and toward practical supports (reminder, script, staff check). Opportunities to be more strategic: use more double-sided reflections that explicitly name both sides of ambivalence (e.g., “On one hand you want stability; on the other hand these sessions feel forced…”) and then pivot to the client’s own reasons for change to further diminish sustain talk.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The clinician consistently fostered a partnership stance. Examples: repeatedly asking Mateo’s preference for supports (“Who would you prefer to check in afterward?”), offering options (draft script, role‑play, staff vs family check-in), and co-creating messages and scripts with Mateo. The psychiatrist framed actions as collaborative (drafting then asking for edits) and treated Mateo as the expert on what would work for him. This power-sharing was clear and consistent.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintained clear, consistent focus on the target behaviors (reducing recidivism via housing and employment steps). The clinician repeatedly steered conversation toward concrete steps: selecting reliable strengths, choosing a small step for the week (housing call + one temp-app), setting reminder time, specifying who checks in, drafting scripts and fallback. The therapist balanced empathic responses while keeping the interaction goal-directed and action-oriented throughout.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The clinician explicitly supported Mateo’s sense of choice and ownership. Clear examples: “You’re the one choosing this; what support would help you keep that promise to yourself?” and offering multiple options (script, reminder, role‑play) while asking Mateo which he preferred. The clinician consistently avoided pressuring language, framed suggestions as offers, and confirmed Mateo’s control over decisions (e.g., accepting “no role-play” and co-writing messages).
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The interaction was strongly collaborative: the clinician invited Mateo to co-create scripts, asked permission before drafting messages, and repeatedly checked for Mateo’s edits and preferences. The clinician treated Mateo’s ideas as central (e.g., accepting his shorter reminder text, using program staff for check‑in). Decisions were negotiated rather than imposed, demonstrating an equal partnership throughout the session.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The clinician effectively drew out Mateo’s motivations and barriers: eliciting goals (stable family, work, housing), strengths (family checking on him), a specific small step, confidence level, and needed supports. The session generated concrete change language from Mateo (e.g., “I guess one small step I’d try is calling the housing program…”), but there was room to more deeply evoke intrinsic motivation and personal values — for example by asking evocative questions linking the steps to his vision for kids/family, using more amplification of change statements, and exploring the emotional meaning of the discrepancy between values and current behavior to strengthen internal motivation.
+
+---
+
+**Overall Global Ratings Score:** **4.6/5**
+
+Strengths: The clinician demonstrated a skilled MI stance — high acceptance, strong partnership, clear direction, robust autonomy support, and collaborative co‑creation of practical supports (scripts, reminders, check‑ins). The clinician elicited specific steps, used a confidence ruler, and validated barriers, which moved Mateo from abstract desire to concrete action planning. Areas for improvement: deepen empathic reflections (use more complex and affect-focused reflections), more actively amplify and strategically elicit stronger change talk and commitment language (e.g., ask about personal meaning of goals, elicit pros/cons in a way that favors change talk), and use double-sided reflections to soften sustain talk more purposefully. Also be mindful that supplying a ready-made script is practical but can reduce the client’s ownership — continue to invite Mateo’s wording and have him practice phrasing to increase commitment. Suggested next steps for the clinician: ask 1–2 evocative questions linking the new behaviors to Mateo’s values (e.g., “How would calling today change things for your future kids?”), use more reflections that amplify any change talk (“You really want to be there for your kids…”), and elicit a specific commitment statement and contingency plan (e.g., ask Mateo to say aloud what he will do and when, and what he’ll do if he doesn’t). Overall this was a competent MI session with strong collaborative and directional skills; strengthening deeper evocation and reflective complexity will raise it further.

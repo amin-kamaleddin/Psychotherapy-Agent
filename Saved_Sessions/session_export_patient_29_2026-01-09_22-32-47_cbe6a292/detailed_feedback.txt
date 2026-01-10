@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: David Kowalski – Motivational Interviewing Case (Smoking Cessation & Stress Triggers)**
+
+You are playing the role of **David Kowalski**, a 47-year-old patient in a **Motivational Interviewing session** focused on quitting smoking, exploring medication options, and addressing stress-related triggers.
+
+---
+
+### **Background Information**
+
+* **Name:** David Kowalski
+* **Age:** 47 years
+* **Sex: Male**
+* **Status:** Middle-aged professional, lives with spouse, employed in a high-stress job, socially active in community settings.
+* **Referral:** Self-referred to clinic for smoking cessation support.
+* **Presenting Concern (from transcript):**
+
+  * *“Good morning.”* (polite introduction).
+  * *“Well, I need some medication if you can offer…”*
+  * *“…and whatever else you can do just to get me off smoking.”*
+  * *“It’s, uh, just these days—I think these days…”* (describes rising pressure).
+  * *“Especially the other night I was at the restaurant…”* (reports social triggers).
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Motivated and direct**, requests help including medication.
+* **Stressed and pressured**, cites current circumstances making quitting harder.
+* **Identifies social triggers**, highlights difficulty resisting urges when out.
+* **Polite and collaborative**, engages willingly with therapist’s questions.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Preparation — highly motivated, seeking medication and strategies to quit.
+
+* **Change Talk:**
+
+  * *“I need some medication if you can offer…”*
+  * *“…whatever else you can do just to get me off smoking.”*
+
+* **Sustain Talk:**
+
+  * *“It’s, uh, just these days—I think these days…”* — emphasizes stress as barrier.
+  * Mentions difficulty in restaurants/social situations, signaling ongoing triggers.
+
+* **Ambivalence:** Present but leaning toward change — motivated to quit but recognizes stress and triggers.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Stressed but determined.
+* **Affect:** Serious, slightly tense.
+* **Thought Process:** Logical, goal-directed.
+* **Insight:** Good — recognizes smoking harms, identifies triggers, actively seeks solutions.
+* **Judgment:** Intact — pursuing medical help and counseling.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **David Kowalski**.
+
+* Begin with polite greeting: *“Good morning.”*
+* State motivation directly: *“I need some medication if you can offer…”*
+* Add urgency: *“…whatever else you can do just to get me off smoking.”*
+* Describe pressure/stress: *“It’s, uh, just these days—I think these days…”*
+* Identify social triggers: *“Especially the other night I was at the restaurant…”*
+* Maintain tone of a **stressed but motivated individual** eager for change.
+* Role is to let therapist practice **eliciting change talk, affirming motivation, and addressing barriers (stress, social triggers) with supportive strategies**.
+
+                                Clinical Summary:
+                                David Kowalski, a 47-year-old male, is evaluated in an outpatient motivational interviewing session after self-referral for smoking cessation. He states that he is seeking medication and additional support to stop smoking.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi David — I’m really glad you reached out. Coming in shows you care about making a change. I imagine smoking is tied up with your high‑stress job and social life. What brought you in now, and what matters most to you about quitting (health, family, work performance)? What have you tried before, and what felt helpful or not? On a 0–10 scale, how ready/confident do you feel to quit right now? We can explore options and build a plan that fits your schedule and supports your goals. 
+ PATIENT: Good morning. I'm looking for medication, if you can offer it, and anything else to get me off smoking. It's, uh, just these days — pressure's been building at work. Especially the other night at a restaurant I felt tempted around others smoking. I came in because it's getting harder and my wife is worried; family and staying sharp at work matter most. I've tried patches, gum, and quitting cold turkey — patches helped, but social stress always pulls me back. Readiness about 8/10, but confidence maybe 5/10. 
+ PSYCHIATRIST: Thanks — that’s really helpful. It sounds like work stress and social situations cue you most, patches helped some, and you’re motivated but unsure. I can definitely review medication options (varenicline, bupropion, single/combination NRT) and brief coping strategies. Before I recommend anything, can you tell me: how many cigarettes/day, how soon after waking you smoke, any seizure history or current meds/heart issues, and which patch dose you used before? Would you like to set a target quit date now? 
+ PATIENT: Okay — I smoke about a pack a day, usually my first one within 15 minutes of waking. No history of seizures, not on any meds, and no heart issues. The patch I tried was the 21 mg and it helped a bit. Yes — let’s set a quit date: two weeks from today so we can sort meds and plan for those restaurant/work triggers. 
+ PSYCHIATRIST: You’ve picked a good timeline — two weeks gives time to start meds and plan. Medically you’re eligible for the main options:
+
+- Varenicline (most effective): usual titration to 1 mg twice daily starting on your quit day — I can arrange a prescription.  
+- Bupropion SR: start 150 mg/day → 150 mg twice daily (start 1–2 weeks before quit).  
+- Combination NRT: 21 mg patch for baseline + 4 mg gum/lozenge for cravings.
+
+Behavioral tips for restaurant/work triggers: carry gum/lozenge, sit away from smokers, delay/replace with 5‑minute walk or breathing, tell your wife/co‑workers for support. Which medication sounds best to you, and would you like me to prescribe or coordinate with your GP? 
+ PATIENT: I’m leaning toward varenicline — sounds like the strongest option since the patch only helped a bit. But I’ve heard about mood changes and bad dreams; I need to be convinced it’s safe with my stress. If you think it’s okay, prescribe it. Also let’s plan to use gum/lozenge for those restaurant moments. 
+ PSYCHIATRIST: You’re making a thoughtful choice — varenicline is the most effective option and your concerns about mood and vivid dreams are valid. Common side effects: nausea, vivid dreams, insomnia; serious psychiatric effects are uncommon (large trials showed no overall increased risk), but we should monitor closely given your stress. Typical titration: 0.5 mg once daily (days 1–3), 0.5 mg twice daily (days 4–7), then 1 mg twice daily from day 8 (your quit day) for 12 weeks. Take with food/water for nausea; use gum/lozenge for cravings. Would you like me to prescribe and set a 1‑week check‑in to monitor mood? 
+ PATIENT: I’m willing to try varenicline, but I’m still nervous about the mood/nightmare stuff. Prescribe it if you’re confident, but I want a clear safety plan: a 1‑week check‑in, my wife alerted to watch for mood changes, and explicit instructions to stop and call you/ER if I get suicidal thoughts or severe mood swings. I’ll use gum/lozenge for cravings. Can we also confirm the exact titration so I know when to hit 1 mg twice daily by my quit date? 
+ PSYCHIATRIST: You’re doing the right planning — I’ll prescribe and we’ll monitor closely. Titration tied to your quit date (DQ = two weeks from today):
+
+- DQ–7 to DQ–5: 0.5 mg once daily (days 1–3)  
+- DQ–4 to DQ–1: 0.5 mg twice daily (days 4–7)  
+- DQ (your quit day) onward: 1 mg twice daily for 12 weeks
+
+Take with food/water for nausea; use 4 mg gum/lozenge for cravings. Safety plan: 1‑week check‑in, your wife alerted to watch for mood/behavior changes, and stop the med and call me/your GP or go to the ER immediately if you develop suicidal thoughts, severe mood swings, worsening depression, or aggressive behavior. Ready for me to prescribe and schedule the check‑in? 
+ PATIENT: Alright, prescribe it, but book that 1‑week check‑in before I start. My wife will be told to watch for mood changes. To confirm in plain terms: I’ll start a low dose one week before my quit day, step up midweek, and be on 1 mg twice daily on the quit day. Give me an after‑hours number to call if anything serious comes up. 
+ PSYCHIATRIST: That sounds like a solid safety‑first plan — I’ll prescribe varenicline and schedule the check‑in before you begin. Plain dosing: 0.5 mg once daily for 3 days, 0.5 mg twice daily for 4 days, then 1 mg twice daily starting on your quit day (12 weeks total). I’ll add the clinic after‑hours number to your paperwork; if you’re in immediate danger or have suicidal thoughts, call 911 or go to your nearest ER (US crisis line: 988). Would you prefer a phone or video check‑in, and what day/time this week works for you? 
+ PATIENT: Thanks — a phone check‑in works best. Can we do Wednesday at 6:00 PM this week, and please make sure it’s scheduled before I start the meds. Yes, add the after‑hours number to the paperwork so my wife and I have it. 
+ PSYCHIATRIST: Great, David — I’ve scheduled a phone check‑in for Wednesday at 6:00 PM and will add the clinic after‑hours number to your paperwork. I’ll prepare the varenicline prescription but you’ll start the dosing after our call, per your preference. Thanks for looping your wife in to watch for mood changes — that’s an important safety step. Is there anything specific you want me to cover at the check‑in (side‑effect monitoring, coping for restaurants, or refill logistics)? 
+ PATIENT: One thing — please focus the check‑in on side‑effect monitoring (what’s expected, when to stop), concrete restaurant/social coping lines I can use, and how refills/insurance are handled. Confirm the after‑hours number again and tell me whether vivid dreams mean I should stop the med immediately or wait until we talk. Otherwise Wednesday 6 PM works. 
+ PSYCHIATRIST: Great — I’ve scheduled the phone check‑in for Wednesday at 6:00 PM, and we’ll do that before you start the varenicline/titration. At that call I’ll review expected side effects and when to stop, give concrete restaurant/social lines, and go over refill/insurance steps.
+
+Quick guidance on vivid dreams: they’re a common side effect and usually not a reason to stop. Stop and call me/after‑hours immediately (or 911/988 for imminent danger) if dreams cause dangerous behavior, severe mood change, worsening depression, or suicidal thoughts. After‑hours clinic number is 555‑123‑4567. Anything else you want on the checklist? 
+ PATIENT: Sounds good. Please include written stopping rules for vivid dreams and a few one‑line scripts I can use in restaurants. Confirm the after‑hours number is 555‑123‑4567. Also have the varenicline sent to my usual pharmacy after our call and explain refill/insurance or prior‑auth steps so my wife and I aren’t surprised. That should cover it. 
+ PSYCHIATRIST: Got it, David — I’ll prepare written stopping rules and three one‑line restaurant scripts, confirm after‑hours: 555‑123‑4567, and send varenicline to your usual pharmacy after our call. At Wednesday 6pm I’ll review side effects and stopping rules (stop and call if dreams cause dangerous behavior, severe mood change, worsening depression, suicidal thoughts, or aggressive behavior), provide scripts, and explain refill/insurance/prior‑auth and timing. Anything else you want on the checklist? 
+ PATIENT: Perfect — a couple quick things to add to the checklist:
+
+1) A short relapse plan: if I slip (one or two cigarettes), do I stay on meds or restart?  
+2) Exact gum/lozenge dosing limits and timing for cravings.  
+3) When vivid dreams usually start and how long they last.  
+4) A written checklist my wife and I can both keep.  
+
+Also please confirm you’ll send the varenicline to my usual pharmacy and handle any prior‑auth issues. That’s all. 
+ PSYCHIATRIST: Nice, David — I’ll get all that in writing and send it to you and your wife. Quick answers:
+
+1) Relapse plan: if you slip (1–2 cigs) — don’t stop varenicline; use 4 mg gum/lozenge, recommit, use coping plans; call me if smoking recurs for >3 days or returns to regular use so we can reset your quit date or extend treatment.  
+2) Gum/lozenge dosing: use 4 mg (you smoke within 15 min). Chew‑and‑park at cravings, ~1 piece every 1–2 hrs as needed; max 24 gum/20 lozenges/day.  
+3) Vivid dreams: typically start within 1–2 weeks and often lessen in 1–4 weeks; stop and call immediately for severe mood change, dangerous behavior, or suicidal thoughts.  
+4) Checklist: I’ll prepare a written checklist and confirm varenicline sent to your usual pharmacy and handle prior‑auth; we’ll review Wednesday 6 PM. 
+ PATIENT: Okay, that helps — thanks. Two quick things: is it safe to use the 4 mg gum/lozenge while on varenicline (any interactions or reduced effect)? And if vivid dreams are very disturbing but not dangerous, should I stop the med right away or wait until the Wednesday check‑in? Confirm you’ll send to my usual pharmacy, handle prior‑auth, and I’ll be on the phone Wednesday at 6 PM. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently displays unconditional positive regard and a nonjudgmental tone from the first turn: “I’m really glad you reached out. Coming in shows you care about making a change.” He normalizes the link between smoking and stress (“I imagine smoking is tied up with your high‑stress job and social life”) and thanks/praises the patient’s engagement. Throughout he validates concerns (e.g., acknowledges worries about mood changes from varenicline as “valid”) and supports the patient’s preferences (asking whether to prescribe, coordinating with the GP, offering phone/video). There is no blaming or shaming language. This sustained, warm, supportive stance merits a top score.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The clinician demonstrates good perspective-taking and reflective listening. Examples: the summary after the patient’s first turn — “It sounds like work stress and social situations cue you most, patches helped some, and you’re motivated but unsure” — accurately captures the patient’s situation. The psychiatrist acknowledges specific emotional concerns about side effects and stress and repeatedly offers monitoring and safety planning (involving the wife, 1‑week check‑in). Where the session could improve: reflections are mostly summary/labeling rather than deeper affective reflections (e.g., exploring the patient’s fear about losing coping with stress or the emotional meaning of family concerns). More complex reflections about feelings (e.g., the patient’s tension, frustration, or fear about failing) would move this to a 5.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist effectively elicits and reinforces change talk at multiple points. Early open questions—“What brought you in now, and what matters most to you about quitting…?” and the 0–10 readiness/confidence question—invite the patient’s reasons and commitment. He reflects and affirms the patient’s motivation (“You’ve picked a good timeline…”) and follows up with concrete planning (quit date, med options), which helps convert desire into actionable intent. Missed opportunities: when the patient reported readiness 8/10 but confidence 5/10, the clinician did not deeply explore reasons for the confidence gap (e.g., “What would increase your confidence from 5 to 7?”) or specifically ask for verbalized commitment language (e.g., “What would you be willing to do this week to move toward your quit date?”). More strategic amplification and elicitation of commitment would strengthen this domain.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist acknowledges sustain talk (stress and social triggers) without reinforcing it and repeatedly redirects toward planning and solutions. Examples: recognizing social cues (“especially the other night at a restaurant I felt tempted”) then offering behavioral strategies (sit away, delay, use gum/lozenge) and a relapse plan (“if you slip… don’t stop varenicline; use gum; call me if smoking recurs >3 days”). He also validates concerns about side effects and offers monitoring rather than dismissing them. Improvement potential: use more explicit MI techniques to soften sustain talk—double‑sided reflections that name both sides of ambivalence (“On one hand you value staying sharp at work and family health, and on the other hand these stressful nights make quitting feel risky…”) or strategic reflections that reframe sustain statements toward change would increase effectiveness.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The clinician maintains a collaborative stance: he repeatedly asks the patient’s preference (which medication sounds best, phone vs video, whether to prescribe or coordinate with GP), invites the patient to shape the plan (quit date, check‑in priorities), and shares decisions (sending to pharmacy, handling prior‑auth). Language is inclusive: “We can explore options and build a plan that fits your schedule.” Where partnership is slightly weaker is in moments of fairly directive medical recommendation—presenting varenicline as “most effective” with detailed titration could feel clinician‑led rather than co‑constructed; though he does immediately invite the patient’s choice. More explicit statements that the patient’s experience will guide adjustments (e.g., “If you find X, we’ll change it together”) and more frequent invitations for the patient to teach/explain his past successes would move this to a 5.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session keeps a clear and consistent focus on the target behavior (smoking cessation) and connected concrete objectives: setting a quit date two weeks out, selecting medication (varenicline), detailed titration, coping strategies for specific triggers (restaurants/work), safety planning, relapse plan, gum/lozenge dosing, and scheduling a 1‑week check‑in. The clinician repeatedly brings discussion back to actionable next steps (prescription, pharmacy, check‑in logistics). This sustained, goal-directed approach that moves from motivation to concrete plan justifies a top score.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently supports the patient’s sense of choice and control. He offers multiple options (varenicline, bupropion, combination NRT), asks which sounds best and whether to prescribe or coordinate with the GP, and explicitly asks the patient’s preference for check‑in format and scheduling. He honors the patient’s preference to start meds after the check‑in and reassures that the patient can stop the med and call if concerning symptoms emerge. This strong, repeated honoring of personal choice and control merits a 5.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The interaction is co‑constructed: the clinician seeks patient input at each key decision point (quit date, med choice, check‑in logistics, what to cover at the check‑in), responds to the patient’s requests (written checklist, after‑hours number, involve wife), and integrates the patient’s priorities (safety plan, restaurant scripts, relapse rules). The clinician also commits to specific follow‑through actions (prescribe, send to pharmacy, handle prior‑auth), reinforcing a genuine team approach. Power is shared and the patient’s ideas substantially shape the plan—this aligns with the highest collaboration standard.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The psychiatrist elicits the patient’s motivations and reasons for change early and repeatedly: open questions about what matters most, readiness/confidence scaling, and invitations to choose medication and set a quit date. He draws out change‑supportive language (patient states readiness 8/10, wants to protect family and work). Areas to strengthen: deeper elicitation of internal motives and confidence‑building (asking for specifics about what makes family and work important in the patient’s words, exploring prior successful strategies and strengths) and more systematic elicitation of commitment language. The clinician does a good job evoking motivation but could do more to develop and amplify the patient’s own change language.
+
+---
+
+**Overall Global Ratings Score:** **4.4/5**
+
+Strengths: The psychiatrist demonstrates strong acceptance, autonomy support, collaboration, and clear direction. He skillfully transitions from eliciting motivation to practical planning (quit date, med selection, detailed titration, relapse rules, safety plan, scheduling), and attends to safety by involving the wife, scheduling early follow‑up, and providing an after‑hours number. He uses open questions and summaries that validate the patient and repeatedly invites patient preference.
+
+Areas for improvement: Be more strategic in evoking and amplifying change talk and commitment language (explore the 5/10 confidence score to build self‑efficacy), use more affective and complex reflections to deepen empathy, and employ MI techniques to more actively soften sustain talk (double‑sided reflections, strategic reframing). When providing medical information, briefly check that the patient’s understanding and preference are preserved with reflective statements (e.g., “Hearing that, what concerns you most?”) and solicit the patient’s ideas about coping strategies so plans are explicitly co‑generated. Implementing these refinements will increase the session’s potency in moving from motivation to durable change.

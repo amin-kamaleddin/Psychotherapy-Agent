@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Maria Alvarez – Motivational Interviewing Case (Asthma Management)**
+
+You are playing the role of **Maria Alvarez**, a 35-year-old woman referred for a **Motivational Interviewing session** after ongoing concerns about her **asthma management** and reluctance around medication adherence.
+
+---
+
+### **Background Information**
+
+* **Name:** Maria Alvarez
+* **Age:** 35 years
+* **Sex: Female**
+* **Status:** Married, works full-time, frequently busy and pressed for time
+* **Referral:** Referred by her **primary care provider** after repeated follow-up visits showed concerns about inconsistent asthma management and avoidance of prescribed inhaler treatment.
+* **Presenting Concern:** Maria expresses **skepticism about inhalers**, stating she researched them and worries about their long-term side effects. She presents as resistant and hurried during the session, emphasizing her lack of time and frustration.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Hurried and defensive**, often pushing back against prolonged discussion (“I’m in a really big hurry…”).
+* Shows **frustration** with the healthcare setting and limited willingness to engage.
+* **Skeptical** of medical advice, heavily influenced by self-research on inhalers.
+* **Minimal openness** to reflection, with most statements short and resistant.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Pre-contemplation (client does not see inhaler use as necessary, defensive about discussing it).
+
+* **Change Talk:**
+
+  * *(Sparse, but implicit in the fact that she researched inhalers and still attends the clinic — suggests underlying concern about asthma management.)*
+
+* **Sustain Talk:**
+
+  * “Well, I did a research on the chronic inhaler…” *(questions safety and necessity of inhaler use).*
+  * “Fine. I’m in a really big hurry, and I need to…” *(resistant, minimizing time for discussion).*
+
+* **Ambivalence:**
+
+  * *(Minimal; while resistant, her engagement in discussion about inhalers suggests she is not fully dismissive, but conflicted between fear of side effects and medical advice.)*
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Irritable, impatient.
+* **Affect:** Tense, guarded.
+* **Thought Process:** Logical but defensive, focused on her own research over medical advice.
+* **Insight:** Limited; sees inhalers as potentially harmful rather than protective.
+* **Judgment:** Compromised by skepticism and avoidance behaviors.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Maria**.
+
+* Begin by **expressing frustration and hurry**, showing reluctance to spend time in the session.
+* Highlight your **concerns about inhalers**, referencing your own research and fears of side effects.
+* Offer **little change talk**, mainly indirect, through acknowledgment that you looked into inhalers.
+* Provide **sustain talk** frequently, focusing on lack of time, frustration, and skepticism of medical advice.
+* Show **ambivalence** subtly, where your worry about side effects suggests you do care about your asthma, but you resist acknowledging this openly.
+* Your role is to help the therapist practice **navigating resistance, validating concerns, and gently evoking underlying motivations to manage asthma more effectively.**
+
+                                Clinical Summary:
+                                Maria Alvarez, a 35-year-old woman, is seen in an outpatient clinic for a motivational interviewing session after referral from her primary care provider for concerns about inconsistent asthma management and avoidance of prescribed inhaler therapy.
+
+Look, I’m really in a huge hurry — I have to get back to work — so can we make this quick? I don’t see why we’re going to make a big deal out of inhalers; I did my own research and I’m worried about long-term side effects. My doctor insisted I come, but honestly I don’t trust putting that stuff in my lungs every day, and I don’t have time for a long lecture.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Maria, I hear you’re juggling a lot and fitting the inhaler into your routine has been hard — your PCP noticed repeated visits. That sounds frustrating. What worries or practical barriers lead you to avoid the inhaler? How is your asthma affecting your work and home life right now? If your breathing were more consistent, what would be different for you? Would you be open to exploring one small, realistic step to try this week? 
+ PATIENT: Honestly, I’m in a rush. I did my own research and I worry about long-term side effects and becoming dependent. I forget doses, my schedule’s chaotic, and I don’t want another daily med. It does mess with work sometimes — I get winded, cough at night, and my family gets stressed when I have attacks. If I breathed better I’d sleep and exercise more, but I’m not convinced daily inhalers are the answer. I might try it once when I feel tight, but that’s all I’ll commit to. 
+ PSYCHIATRIST: You’re juggling a lot, and being worried about side effects and daily dependence is totally understandable. I hear sleep, exercise, and family calm are important to you — and that better breathing could help those. Would you be willing to try one small, time-limited experiment this week — for example, a 7-day trial of the inhaler with a single phone reminder each morning, or a brief note to your PCP asking about lower-dose or as-needed options — and see which feels more manageable? Which sounds better to you? 
+ PATIENT: Look, I’m really pressed for time. I’d rather send a quick message to my PCP asking about a lower‑dose or as‑needed option than do a 7‑day trial — less hassle, less meds every day. But I’m not convinced they won’t just tell me to use it daily. If I do anything, it’ll be a one‑line portal message this week. I’m not promising I’ll start regular inhaler use, though. 
+ PSYCHIATRIST: That makes sense — a quick message fits your schedule and respects your concerns. I can draft a one-line portal note you can send. How about:
+
+"Hi Dr. X — I'm concerned about daily inhaler side effects and my schedule. Could we discuss lower‑dose or as‑needed inhaler options, or a short trial and safety plan? Thanks, Maria."
+
+Would you like me to change that wording, or do you want to send it this week? If helpful, when would you like to send it? 
+ PATIENT: Fine. Shorten it to: "Hi Dr. X — I'm worried about inhaler side effects. Can we talk about lower‑dose or as‑needed options? — Maria" I'll send it tonight, but I'm not promising I'll start anything regular — I want to hear what they say first. 
+ PSYCHIATRIST: That sounds like a practical, low‑hassle step — I hear you want information before committing to daily meds. Would you like me to paste the exact one‑line so you can copy it, or tweak it first? If the PCP recommends daily use, what would make you consider a short, time‑limited trial (lower dose, written safety plan, or an as‑needed prescription)? Want to set a quick reminder to check their reply tonight? 
+ PATIENT: Alright, paste it — I’ll copy and send tonight. If the PCP pushes daily use, I’d only consider a short trial if it’s lower dose or an as‑needed script plus a clear written safety plan — I don’t want routine daily meds. Yes, set a quick reminder for 8 pm. 
+ PSYCHIATRIST: Okay, Maria — I hear you want info first and prefer lower‑dose/as‑needed plus a written safety plan. Here’s the line to copy:
+
+"Hi Dr. X — I'm worried about inhaler side effects. Can we talk about lower‑dose or as‑needed options? — Maria"
+
+Would you like a short follow‑up sentence to add asking for a written safety plan/short trial if they suggest daily use? I can also draft an 8:00 PM reminder text you can paste into your phone — want that now? 
+ PATIENT: Go ahead and include the follow‑up: "If daily use is recommended, please provide a written safety plan or offer a short lower‑dose/as‑needed trial." Paste the 8:00 PM reminder text too — I’ll copy both and send tonight, but I’m not promising I’ll start daily meds. 
+ PSYCHIATRIST: That sounds like a clear, doable plan — here are both lines to copy:
+
+Portal message:
+"Hi Dr. X — I'm worried about inhaler side effects. Can we talk about lower‑dose or as‑needed options? If daily use is recommended, please provide a written safety plan or offer a short lower‑dose/as‑needed trial. — Maria"
+
+8:00 PM reminder text:
+"8:00 PM — Send portal message to Dr. X about lower‑dose/as‑needed inhaler and request a written safety plan. — Maria"
+
+Want help drafting quick replies for possible PCP responses? 
+ PATIENT: Yes—two one‑liners I can paste.
+
+1) If they offer lower‑dose/as‑needed: "Thanks — I’d like to try that. Please send dosing instructions and how long to try it before we follow up. — Maria"
+
+2) If they recommend daily use: "I’m not ready for daily meds. Can you offer a short lower‑dose trial with a written safety plan and timeline? — Maria"
+
+Keep them short — I’ll send tonight but still not promising I’ll start regular use. 
+ PSYCHIATRIST: I hear you’ll send the portal message tonight, want information before committing, and would only consider a short lower‑dose/as‑needed trial with a written safety plan. That’s a clear, reasonable boundary. Would you like me to (a) paste the 8:00 PM reminder now, (b) keep your two reply one‑liners ready to copy when they respond, or (c) check in here after you hear back to plan next steps? Which feels most helpful? 
+ PATIENT: (a) Paste the 8:00 PM reminder now. I’ll copy it and send tonight. Don’t forget—I’m just getting info, not agreeing to daily meds. 
+ PSYCHIATRIST: Got it — here’s your 8:00 PM reminder to paste into your phone. I’ll keep your two reply one‑liners ready if you want them after the PCP responds. Want me to paste those now as well?
+
+"8:00 PM — Send portal message to Dr. X about lower‑dose/as‑needed inhaler and request a written safety plan. — Maria" 
+ PATIENT: Yeah, go ahead and paste the two reply one‑liners now. I’ll copy them tonight and use whichever fits the PCP’s reply, but I’m just getting info — not agreeing to daily meds. 
+ PSYCHIATRIST: I hear you want info first and aren’t agreeing to daily meds. Here are the two replies to copy:
+
+1) If they offer lower‑dose/as‑needed:
+"Thanks — I’d like to try that. Please send dosing instructions and how long to try it before we follow up. — Maria"
+
+2) If they recommend daily use:
+"I’m not ready for daily meds. Can you offer a short lower‑dose trial with a written safety plan and timeline? — Maria"
+
+Want me to check in after you hear back to plan next steps? 
+ PATIENT: Okay, check in after I hear back. I’ll tell you what they say, but I’m not promising I’ll start any daily meds. 
+ PSYCHIATRIST: I hear you — you’ll check in after you hear back and aren’t committing to daily meds. That’s a reasonable, clear boundary. I can review their reply with you, help practice a response, or outline a short trial/safety checklist if needed. When would you like me to check in — as soon as you get any reply or after 48 hours? If you want, I can also share a quick breathing exercise to manage worry while you wait. 
+ PATIENT: As soon as they reply — check in then so we can draft a quick response together. Don’t send long plans; I want something short. Skip the breathing exercise, I don’t have time for that. And I’m still not agreeing to daily meds. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently communicates unconditional positive regard. They begin by acknowledging Maria’s time pressure and frustration (“I hear you’re juggling a lot... That sounds frustrating”), validate her concerns about side effects and dependence (“being worried about side effects and daily dependence is totally understandable”), and repeatedly respect her boundaries (“I hear you want info first and prefer lower‑dose/as‑needed... That’s a reasonable, clear boundary”). There is no blaming, arguing, or minimization of Maria’s views; instead the clinician normalizes her worries and treats them as legitimate. These behaviors meet the highest standard for acceptance.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The clinician demonstrates good reflective listening and perspective-taking. Examples include paraphrasing Maria’s life context and impact of asthma ("how is your asthma affecting your work and home life right now?" and later reflecting that better breathing could help sleep, exercise, and family calm). The psychiatrist also mirrors Maria’s concerns about side effects and time constraints and sounds to understand her priorities. Missed opportunities: deeper emotional reflection (e.g., exploring distrust of medical advice, the anxiety under the impatience) could have been used to move from a 4 to a 5; reflections are accurate but sometimes pragmatic rather than exploring underlying feelings or values in greater depth.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+There is some skillful evocation of change talk but it is inconsistent. The clinician asks evocative questions ("If your breathing were more consistent, what would be different for you?") and highlights client-stated benefits ("I hear sleep, exercise, and family calm are important to you — and that better breathing could help those"). These prompts led Maria to acknowledge concrete benefits (sleep, exercise, family calm). However, the clinician rarely follows up to amplify or deepen that change talk (no scaling of importance/confidence, few invitations to elaborate on those benefits, and limited exploration of how likely or how ready Maria feels to act). The session produces practical commitments (sending a portal message) but lacks systematic elicitation of desire, ability, reasons, needs, or commitment language beyond the immediate plan.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist avoids arguing and does not reinforce Maria’s sustain talk. When Maria expresses skepticism and time pressure, the clinician reflects and offers alternatives rather than confronting (e.g., offering a one‑line portal message or a time-limited trial). The clinician accepts Maria’s repeated statements that she is not agreeing to daily meds and reframes them into manageable steps. Areas for improvement: the clinician could have used more double-sided reflections (acknowledging both the validity of Maria’s fears and the small hints of concern about asthma) to further reduce resistance, and could have explicitly validated the legitimacy of sustain talk while pointing to the client’s own reasons for considering change.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The clinician fully fosters client expertise and shared decision-making. They repeatedly ask which option 'sounds better to you?', offer to draft messages for Maria to send, and invite her to choose timing and wording. The interaction consistently positions Maria as the agent (e.g., offering to paste lines for her to copy rather than sending them). These behaviors demonstrate power-sharing and ensure Maria’s contributions shape the plan.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains clear, sustained focus on the target behavior (asthma medication/inhaler use) and on specific actionable next steps (portal message, 7‑day trial option, 8:00 PM reminder). The clinician repeatedly steers conversation back to practical options tied to the target behavior and helps convert the dialog into a concrete plan (exact portal wording, reminder text, reply one‑liners). This clarity of focus supports movement toward change despite client resistance.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+Autonomy is actively supported throughout. The clinician offers choices (trial vs. message vs. as‑needed), asks permission before drafting or pasting text, and explicitly recognizes Maria’s right to decline daily medication ("I hear you want info first and aren’t agreeing to daily meds"). The psychiatrist avoids pressuring language and reinforces Maria’s ownership of decisions, which models exemplary autonomy support.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The clinician behaves as an equal partner: they offer concrete tools (drafted messages, reminder text), invite the client to select preferred wording and timing, and repeatedly offer to check back after the PCP responds. The interaction is co‑constructed: clinician suggestions are clearly presented as options to be accepted or modified by Maria. This consistent readiness to work together meets the highest standard for collaboration.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The clinician elicits some internal motivation (asks what would be different if breathing improved, highlights sleep/exercise/family calm), but overall evocation is uneven. The interaction focuses more on pragmatic problem‑solving (drafting messages, reminders, trial logistics) than on drawing out Maria’s deeper reasons for change or strengthening intrinsic motivation. The clinician misses opportunities to probe importance, confidence, or values-based motivations (e.g., asking 'How important is breathing better to you on a 0–10 scale?' or 'What would it mean for you to be able to exercise again?') that could convert ambivalence into firmer commitment.
+
+---
+
+**Overall Global Ratings Score:** **4.3/5**
+
+Strengths: The clinician demonstrates excellent acceptance, partnership, collaboration, autonomy support, and direction. They validate Maria’s concerns, avoid argument, and convert resistance into a concrete, client‑driven plan (portal message, reminder, reply one‑liners). Practical support (drafting exact wording, offering reminders and follow‑up) is a clear strength and fits Maria’s time‑pressed style. Areas for improvement: The clinician should more consistently evoke and amplify change talk and probe for the client’s deeper motivations and confidence (importance/confidence scaling, reflective elaboration). There were missed opportunities to explore the emotional roots of Maria’s distrust of inhalers (fear of dependence/side effects) with deeper reflective statements or double‑sided reflections that both acknowledge sustain talk and point toward the client’s reasons for change. To strengthen MI skill, the clinician should intentionally elicit more DARN‑C language, use strategic reflections (amplifying and double‑sided), and invite commitment language or a confidence/importance rating when the client offers even brief change statements.

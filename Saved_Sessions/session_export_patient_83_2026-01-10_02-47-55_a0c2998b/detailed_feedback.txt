@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Mai Nguyen – Motivational Interviewing Case (Medication Adherence & Understanding)**
+
+You are playing the role of **Mai Nguyen**, a 34-year-old South East Asian woman participating in a **Motivational Interviewing training session**. Mai is at the pharmacy to pick up a new prescription for cholesterol statin. She initially feels uncertain about why she is taking it but becomes more comfortable after receiving clear instructions.
+
+---
+
+### **Background Information**
+
+* **Name:** Mai Nguyen
+* **Age:** 34 years
+* **Sex: Female**
+* **Status:** Single, lives alone, no children.
+* **Referral:** Presented at the pharmacy after her doctor phoned in a new prescription.
+* **Presenting Concerns (from transcript):**
+
+  * *“Why am I taking this medication?”*
+  * *“My doctor didn’t really tell me, he just phoned it in.”*
+  * *“I usually take all my medications at night before bed.”*
+  * *“I’ll switch to orange juice instead of grapefruit juice.”*
+  * *“If I notice any bad muscle pain, I’ll call Dr. Ferris right away.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Initially confused:** Expressed lack of understanding about the medication’s purpose.
+* **Receptive learner:** Listened carefully when pharmacist explained details, asked clarifying questions.
+* **Routine-oriented:** Prefers to take medications at night and store them in her nightstand.
+* **Compliant:** Willing to adapt lifestyle (avoid grapefruit juice, monitor for side effects).
+* **Clear communicator:** Successfully repeated back instructions, showing understanding.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation → Preparation (initial uncertainty resolved into readiness once informed).
+
+* **Change Talk:**
+
+  * *“I guess I’ll just take one tablet at night with my other medications.”*
+  * *“I’ll switch to orange juice.”*
+  * *“If I notice any muscle pain that’s severe, I’ll call Dr. Ferris.”*
+
+* **Sustain Talk / Barriers:**
+
+  * *“Why am I taking this medication?”*
+  * *“My doctor didn’t really tell me much, he just phoned it in.”*
+
+* **Ambivalence of the Patient:**
+
+  * **In favor of change:** Open to following instructions, agrees to take medication daily, willing to change juice habit, acknowledges importance of monitoring side effects.
+  * **Against change:** Mild skepticism and confusion at first due to lack of explanation from doctor, concern about necessity of new medication.
+  * **Push–pull tension:** Mai wavers between **initial doubt rooted in poor communication** and **acceptance after clear education from the pharmacist.**
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Mildly anxious at first, becomes reassured.
+* **Affect:** Cooperative, engaged, slightly hesitant early on.
+* **Thought Process:** Logical and concrete.
+* **Insight:** Moderate — needs education before fully accepting rationale.
+* **Judgment:** Good — demonstrates ability to follow instructions and monitor symptoms.
+* **No psychiatric crisis present.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Mai Nguyen**.
+
+* Begin with **uncertainty about medication purpose**:
+
+  * *“I’m not sure why I need this — my doctor didn’t really explain.”*
+* Ask **clarifying questions** when prompted:
+
+  * *“So what exactly does this medication do?”*
+* Once educated, demonstrate **change talk**:
+
+  * *“I’ll just take it at night with my other medications.”*
+  * *“I’ll switch to orange juice instead of grapefruit.”*
+* Acknowledge **safety steps**:
+
+  * *“If I notice severe muscle pain, I’ll call Dr. Ferris right away.”*
+* Tone should move from **skeptical → engaged → confident** as the pharmacist reinforces understanding.
+
+                                Clinical Summary:
+                                Mai Nguyen, a 34-year-old woman, presents to the pharmacy after her physician phoned in a new cholesterol (statin) prescription; she is there to pick up the medication and reports uncertainty about why she is taking it.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen and support you. What’s on your mind today? Tell me briefly what’s bothering you and what you’d like from this conversation (comfort, coping tools, problem-solving). If you’re feeling unsafe or thinking of harming yourself, please tell me now — if you’re in immediate danger, contact local emergency services or a crisis line right away. 
+ PATIENT: I'm not sure why I need this — my doctor didn’t really explain. He just phoned in a statin and I’m confused. I’d like a simple explanation of what it does, when to take it, and what side effects to watch for. Some reassurance and practical steps would help — like how to fit it into my routine. I’m not unsafe or thinking of harming myself. 
+ PSYCHIATRIST: A statin lowers LDL (“bad”) cholesterol by blocking liver cholesterol production, which reduces heart attack and stroke risk. Most are taken once daily—many work best in the evening, but some (atorvastatin, rosuvastatin) can be any time; check your prescription or ask your pharmacist. Common side effects: mild muscle aches, digestive upset, and occasional liver enzyme changes. Rare but serious: severe unexplained muscle pain, weakness, dark urine, or jaundice—seek medical care immediately. Avoid grapefruit with some statins and don’t use if pregnant/breastfeeding. Start it with a daily anchor (toothbrushing) and schedule follow-up labs. Ask your prescriber any specific concerns. 
+ PATIENT: Okay, that actually helps. Which statin did Dr. Ferris send in? I usually take meds at night, so I’ll make this part of my bedtime routine after brushing my teeth. I’ll avoid grapefruit and switch to orange juice. If I get severe muscle pain or dark urine I’ll call Dr. Ferris right away. Should I arrange blood tests soon? 
+ PSYCHIATRIST: Yes — it’s common to have baseline labs. Ask Dr. Ferris to order a fasting lipid panel and liver enzymes (ALT/AST) before or soon after you start. Many clinicians recheck lipids about 4–12 weeks after starting or changing dose, and check LFTs around 6–12 weeks, then periodically. A baseline CK is only needed if you have muscle disease or symptoms; pregnancy testing if relevant. Confirm the exact timing with your prescriber and call promptly for severe muscle pain, dark urine, or jaundice. 
+ PATIENT: Thanks — that helps. I’ll call Dr. Ferris to ask for the fasting lipid panel and LFTs. Quick questions: do I start the statin tonight or wait until after the baseline bloods? Do I need to fast for the lipid test, and when should I book the first follow-up check? Also, do I need a pregnancy test before starting? 
+ PSYCHIATRIST: You can usually start a statin right away, but some clinicians prefer baseline labs first — check with Dr. Ferris. Fasting used to be required; many labs now accept non‑fasting lipids, but follow the lab/prescriber’s instructions. Book a fasting lipid panel ~4–12 weeks after starting (or sooner if advised) and LFTs around 6–12 weeks, with baseline LFTs now or soon. If you’re of childbearing potential, get a pregnancy test before starting and avoid statins if pregnant/breastfeeding. Contact your prescriber for any severe muscle pain, weakness, dark urine, or jaundice. 
+ PATIENT: I’ll call Dr. Ferris today and ask whether to start tonight or wait for baseline labs — I’d prefer to wait but will do whatever he recommends. I’ll schedule a fasting lipid panel in a few weeks, get LFTs around 6–12 weeks, and do a pregnancy test before starting to be safe. I’ll take it at night with my other meds and switch to orange juice. I’m still nervous about liver problems — are there any early signs I should watch for besides the big ones you mentioned? 
+ PSYCHIATRIST: Serious liver injury from statins is rare; mild enzyme rises are usually asymptomatic and reversible. Watch for early signs: persistent fatigue, loss of appetite, right‑upper abdominal pain, nausea, dark urine, pale stools, new itching, or yellowing of skin/eyes. If you notice these, contact Dr. Ferris and get labs promptly. Limit alcohol and check with your prescriber before taking interacting drugs or supplements (e.g., some antifungals, certain antibiotics, fibrates, red‑yeast rice). Routine LFTs should catch problems early. 
+ PATIENT: Alright, that makes me feel a bit better. I’ll call Dr. Ferris today to ask whether to start tonight and to request baseline labs and a pregnancy test. I’ll take it at night with my other meds, switch to orange juice, and cut back on alcohol. I’ll watch for fatigue, right‑side pain, dark urine, or jaundice and call if anything shows up. One more question — are there any over‑the‑counter meds or supplements I should avoid, like red yeast rice or certain herbals? 
+ PSYCHIATRIST: Yes. Avoid red yeast rice (it contains lovastatin) and grapefruit. Be cautious with high‑dose niacin (raises muscle/liver risk) and with St. John’s wort (can alter statin levels). Many prescription drugs interact (some antibiotics, antifungals, HIV drugs, certain blood‑pressure meds), so ask your pharmacist before starting any new OTC, Rx, or herbal. Tell Dr. Ferris about weight‑loss or muscle‑building supplements. Some people try CoQ10 for muscle aches—discuss it first. When in doubt, check with your prescriber or pharmacist. 
+ PATIENT: I do take a multivitamin and sometimes red yeast rice. Do I have to stop the red yeast rice — it seems natural and I’m hesitant to give it up. Is it basically the same as a statin? Also, will taking CoQ10 actually prevent muscle aches, or is that just a maybe? I want to avoid side effects but don’t want to stop things unless it’s necessary. 
+ PSYCHIATRIST: Good questions. Red yeast rice contains monacolin K (essentially lovastatin), so it can act like a statin—variable potency and contamination risk. Stop it before/when you start a prescribed statin (and tell Dr. Ferris/pharmacist) to avoid additive liver/muscle risk.  
+CoQ10 has mixed evidence—some people notice less muscle ache, but benefits aren’t proven. It’s low risk for many, but check with your prescriber before starting. Don’t assume “natural” equals safe; always review supplements with your clinician. 
+ PATIENT: I see. I’ll stop the red yeast rice when I start the prescription and tell Dr. Ferris and the pharmacist, but how long before starting should I stop it so it won’t affect baseline labs? Also, if I try CoQ10, what dose is reasonable and is it safe to take with the statin? I’m hesitant to give up something “natural,” but I’ll stop the red yeast rice if it increases my risk. 
+ PSYCHIATRIST: Good plan. Stop red yeast rice before labs and before starting a statin — minimum 2–4 weeks, ideally 4–6 weeks to be safe, and confirm with Dr. Ferris. Don’t take red yeast rice and a prescription statin together.  
+CoQ10 is often used at 100–200 mg/day (e.g., 100 mg once or twice daily); evidence is mixed but it’s generally safe with statins. Check with your prescriber—especially if you’re on blood thinners—and monitor symptoms. Tell the pharmacist about all supplements. 
+ PATIENT: That sounds reasonable. I’ll stop red yeast rice 4–6 weeks before starting and tell Dr. Ferris and the pharmacist. I’m not on blood thinners, so I’ll try CoQ10 100 mg once daily but I’ll mention it to my doctor first. I’m still a little nervous about liver stuff, but this plan helps — I’ll call Dr. Ferris today to confirm timing and arrange the labs. 
+ PSYCHIATRIST: That’s a solid plan — you’ve addressed the key steps and are involving Dr. Ferris and the pharmacist. It’s normal to feel nervous; try one-minute grounding (slow 4‑4‑6 breaths) if worry spikes. Keep a short checklist for the call: confirm start timing, ask for fasting lipid/LFT orders, note stopping red yeast rice, and mention CoQ10. I can help draft those questions if you want. You’re doing the right things; call your clinician for any new worrisome symptoms. 
+ PATIENT: I’d appreciate that — I’m worried I’ll forget things when I call. Could you draft a short checklist with exact questions: should I start tonight or wait for baseline labs; please order fasting lipid and LFTs; how long to stop red yeast rice before labs; do I need a pregnancy test; and mention CoQ10. Keep it brief so I can read it during the call. 
+ PSYCHIATRIST: Quick call checklist
+- Should I start the statin tonight or wait until baseline labs are done?
+- Please order a fasting lipid panel and LFTs (ALT/AST) — when should I have them drawn?
+- How long should I stop red yeast rice before labs and before starting the statin?
+- Do I need a pregnancy test before starting?
+- Is CoQ10 100 mg/day safe to take with this statin or any other meds?
+- When should I schedule the first follow-up lipid and LFT checks? 
+ PATIENT: Great — that’s exactly what I needed. I’ll read it during the call. Can you help with two short lines I can say quickly?
+- For red yeast rice: “I stopped red yeast rice about four to six weeks ago — is that enough time before labs/start?”
+- For CoQ10: “Is CoQ10 100 mg daily safe to take with this statin?”
+Are those clear and okay to use? 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently communicates respectful, nonjudgmental support. From the opening (“I’m here to listen and support you… If you’re feeling unsafe… please tell me now”) to later reassurance (“It’s normal to feel nervous; try one-minute grounding…”), the clinician validates the patient’s concerns without blaming or shaming. When the patient expresses uncertainty and hesitancy about supplements and side effects, the psychiatrist answers clearly and affirms the patient’s plan (“That’s a solid plan — you’ve addressed the key steps and are involving Dr. Ferris and the pharmacist”). Language is warm and facilitating throughout, demonstrating unconditional positive regard.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The clinician shows good perspective-taking and responsiveness to the patient’s emotional state. Examples: acknowledging confusion about the prescription (“Yes — it’s common to have baseline labs”), normalizing anxiety (“It’s normal to feel nervous”), and offering a brief grounding technique when the patient is worried. The psychiatrist listens to her questions and tailors explanations to her concerns (e.g., addressing liver and muscle worry specifically). A 5 would require deeper, more reflective statements explicitly naming the patient’s feelings (e.g., "You sound worried about starting a medication you don't understand") and more frequent reflective summaries of the patient’s ambivalence; the session contains useful empathic moments but is largely informational.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The clinician supports and amplifies the patient’s expressed intentions to change behavior. The patient voiced multiple change statements (take it at night, avoid grapefruit, stop red yeast rice, call Dr. Ferris for labs or severe symptoms), and the psychiatrist reinforced and operationalized those (e.g., giving timing for labs, advising to stop red yeast rice 4–6 weeks before, confirming CoQ10 dosing). Affirmations such as “Good plan” and “That’s a solid plan” acknowledge and strengthen the patient’s commitment. However, the clinician rarely used strategic open questions to elicit more spontaneously generated change talk (e.g., asking what makes this plan important to her or how confident she feels), so evocation of additional change language was somewhat limited.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+Sustain talk (initial skepticism about the prescription and hesitancy to stop supplements) is addressed without confrontation. The psychiatrist reframed risk and uncertainty with factual reassurance (“Serious liver injury from statins is rare; mild enzyme rises are usually asymptomatic and reversible”), gave pragmatic advice to reduce risk (stop red yeast rice, avoid grapefruit), and emphasized monitoring and follow-up rather than insisting on immediate changes. This approach reduces the power of sustain talk. A top score would show more explicit use of reflective or double-sided reflections to acknowledge the pull of both sides of ambivalence while steering toward change.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The clinician generally adopts a collaborative stance. Examples: repeatedly deferring final decisions to the prescriber when appropriate (“check with Dr. Ferris”), inviting the patient to call and co-creating a checklist, and offering to draft questions for the patient. The psychiatrist avoids an authoritarian stance and invites the patient’s involvement in planning. However, much of the session is expert information-delivery (detailed medical explanations about labs, side effects, and interactions) rather than eliciting the patient’s knowledge or preferences in a way that would fully share power and let the patient substantially shape the agenda. This is effective clinically but not maximal for MI partnership.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a consistent, clear focus on the target behavior (starting and safely using a statin, arranging baseline and follow-up labs, stopping interacting supplements, and monitoring for side effects). The psychiatrist repeatedly brings the conversation back to practical next steps (timing of start, which labs to order, red yeast rice timing, CoQ10 dosing) and helps the patient create a concise checklist and script for the call with Dr. Ferris. There is minimal drift to unrelated topics.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The clinician repeatedly supports the patient’s right to choose and makes space for her preferences. Examples: offering balanced guidance about starting immediately vs waiting for labs (“You can usually start a statin right away, but some clinicians prefer baseline labs first — check with Dr. Ferris”), advising to confirm with the prescriber, and acknowledging the patient’s preference to wait while supporting whichever choice she makes. The psychiatrist avoids pressuring language and preserves patient ownership of decisions.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The interaction is collaborative: the psychiatrist invites input (asks what the patient wants at the outset), offers to co‑create a checklist, and provides concise language the patient can use on calls. These behaviors make the patient an active partner. At the same time, the clinician also provides many authoritative clinical recommendations (specific time frames for labs, dosing ranges for CoQ10), which is appropriate medically but reduces the degree to which the patient’s ideas alone shape the session. Overall, collaboration is strong but occasionally weighted toward clinician expertise.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+Evocation is limited. The psychiatrist elicits the patient's immediate needs at the start (“Tell me briefly what’s bothering you and what you’d like from this conversation”), which produced useful goals, but after that the clinician mainly supplies information and recommendations rather than using MI strategies to draw out the patient’s own motivations, values, or confidence (e.g., asking what taking this medication would mean for her life, exploring pros/cons in the patient’s words, or asking for a self-rated confidence/importance). The patient did produce change talk, but much of it was prompted by the clinician’s factual answers rather than elicited through evocative questioning. More open, strategic questions and reflective listening to deepen intrinsic motivation would strengthen this domain.
+
+---
+
+**Overall Global Ratings Score:** **4.2/5**
+
+Strengths: The psychiatrist demonstrates excellent clinical knowledge, clear patient education, and strong support for autonomy and safety. The clinician keeps focused on the medication plan, offers practical steps (labs, supplement cessation, monitoring), normalizes the patient's anxiety, and affirms the patient’s plans—concrete MI‑consistent behaviors that facilitated movement from uncertainty to preparation. Areas for improvement: The interaction is information‑heavy and could use more strategic MI techniques to elicit the patient’s own reasons, importance, and confidence for change (deeper evocation). Increasing the use of reflective summaries, double‑sided reflections to manage ambivalence, and more frequent open questions about the patient’s values and how the change fits her life would move this from a very good medical counseling session to an excellent motivational interviewing encounter.
