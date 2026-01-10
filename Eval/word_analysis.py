@@ -121,8 +121,10 @@ def parse_transcript_turns(file_path):
 
 def get_session_info(session_dir):
     """
-    Extract timestamp from session folder name.
-    Supports both old format (session_export_{timestamp}) and new format (session_export_patient_{id}_{timestamp}_{uuid}).
+    Extract timestamp and patient_id from session folder name.
+    
+    Returns:
+        tuple: (datetime, patient_id) where patient_id can be None for old format
     """
     basename = os.path.basename(session_dir)
     
@@ -130,10 +132,11 @@ def get_session_info(session_dir):
     new_format_pattern = r'session_export_patient_(.+?)_(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2})(?:_[a-f0-9-]+)?$'
     match = re.match(new_format_pattern, basename)
     if match:
+        patient_id = match.group(1)
         date_str = match.group(2)
         try:
             timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
-            return timestamp
+            return timestamp, patient_id
         except ValueError:
             pass
     
@@ -143,9 +146,9 @@ def get_session_info(session_dir):
         # Try with UUID first, then without
         date_str = re.sub(r'_[a-f0-9-]+$', '', date_str)
         timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
-        return timestamp
+        return timestamp, None  # No patient_id in old format
     except ValueError:
-        return None
+        return None, None
 
 def get_test_run_info(test_dir):
     metadata_path = os.path.join(test_dir, 'metadata.json')
@@ -157,12 +160,12 @@ def get_test_run_info(test_dir):
                 mode = data.get('therapist_mode', 'unknown')
                 try:
                     timestamp = datetime.strptime(ts_str, "%Y%m%d_%H%M%S")
-                    return timestamp, mode
+                    return timestamp, mode, ts_str
                 except ValueError:
                     pass 
         except Exception:
             pass
-    return None, None
+    return None, None, None
 
 def aggregate_metrics(root_dir):
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
@@ -174,70 +177,116 @@ def aggregate_metrics(root_dir):
     if os.path.exists(saved_tests_dir):
         for entry in os.scandir(saved_tests_dir):
             if entry.is_dir():
-                ts, mode = get_test_run_info(entry.path)
+                ts, mode, ts_str = get_test_run_info(entry.path)
                 if ts:
-                    test_runs.append({'timestamp': ts, 'mode': mode, 'path': entry.path})
+                    test_runs.append({'timestamp': ts, 'mode': mode, 'ts_str': ts_str, 'path': entry.path})
     test_runs.sort(key=lambda x: x['timestamp'])
 
     if not test_runs:
         print("No test runs found.")
         return
 
-    # 2. Collect Data per Agent
-    agent_data = {} # mode -> list of session_data dicts
+    # 2. Collect Data per Agent - now grouped by (timestamp, patient_id, mode)
+    matched_data = {}  # key: (ts_str, patient_id, mode) -> value: list of session data
 
     if os.path.exists(saved_sessions_dir):
         for entry in os.scandir(saved_sessions_dir):
             if entry.is_dir():
-                ts = get_session_info(entry.path)
-                if not ts:
+                session_result = get_session_info(entry.path)
+                if not session_result or session_result[0] is None:
                     continue
                 
+                session_ts, patient_id = session_result
+                # Use 'unknown' as patient_id for old format sessions
+                if patient_id is None:
+                    patient_id = 'unknown'
+                
                 # Link to test run
-                matching_mode = None
+                matching_run = None
                 for i in range(len(test_runs) - 1, -1, -1):
                     run = test_runs[i]
-                    if run['timestamp'] <= ts:
-                        matching_mode = run['mode']
+                    if run['timestamp'] <= session_ts:
+                        matching_run = run
                         break
                 
-                if matching_mode:
+                if matching_run:
                     transcript_path = os.path.join(entry.path, 'interview_transcript.txt')
                     if not os.path.exists(transcript_path):
                         continue
                     
                     data = parse_transcript_turns(transcript_path)
                     if data:
-                        if matching_mode not in agent_data:
-                            agent_data[matching_mode] = []
-                        agent_data[matching_mode].append(data)
+                        # Create key for grouping: (timestamp, patient_id, therapist_mode)
+                        key = (matching_run['ts_str'], patient_id, matching_run['mode'])
+                        
+                        # Initialize entry if it doesn't exist
+                        if key not in matched_data:
+                            matched_data[key] = []
+                        
+                        # Append this session's data to the list (for averaging across folds)
+                        matched_data[key].append(data)
 
     # Check if we found any data
-    if not agent_data:
+    if not matched_data:
         print("No matching sessions found for any test runs.")
         return
 
-    # 3. Aggregate and Print
-    for mode, sessions in agent_data.items():
-        print(f"\n### Agent Type: {mode} ({len(sessions)} sessions) ###")
+    # 3. First aggregate by patient (average across folds), then by mode
+    mode_patient_data = {}  # mode -> list of patient-averaged data
+    
+    for key, session_list in matched_data.items():
+        ts_str, patient_id, mode = key
+        
+        if mode not in mode_patient_data:
+            mode_patient_data[mode] = []
+        
+        # Determine max turns for this patient across all their folds
+        max_turns = max(len(s['c_acc_avg']) for s in session_list)
+        
+        # Average across folds for this patient
+        patient_avg_data = {
+            'c_acc_avg': [],
+            'cl_acc_avg': [],
+            'ratios': []
+        }
+        
+        for turn_idx in range(max_turns):
+            # Collect values for this turn from all folds
+            c_vals = [s['c_acc_avg'][turn_idx] for s in session_list if turn_idx < len(s['c_acc_avg'])]
+            cl_vals = [s['cl_acc_avg'][turn_idx] for s in session_list if turn_idx < len(s['cl_acc_avg'])]
+            r_vals = [s['ratios'][turn_idx] for s in session_list if turn_idx < len(s['ratios'])]
+            
+            if c_vals:
+                patient_avg_data['c_acc_avg'].append(sum(c_vals) / len(c_vals))
+            if cl_vals:
+                patient_avg_data['cl_acc_avg'].append(sum(cl_vals) / len(cl_vals))
+            if r_vals:
+                patient_avg_data['ratios'].append(sum(r_vals) / len(r_vals))
+        
+        # Add this patient's averaged data to the mode's list
+        mode_patient_data[mode].append(patient_avg_data)
+
+    # 4. Aggregate across patients for each mode
+    for mode, patient_sessions in mode_patient_data.items():
+        print(f"\n### Agent Type: {mode} ({len(patient_sessions)} patients) ###")
         print(f"{'Turn_Pair':<10} | {'Avg Counselor Acc':<20} | {'Avg Client Acc':<20} | {'Avg Ratio':<15}")
         print("-" * 75)
         
-        # Determine max turns for this agent
+        # Determine max turns for this mode
         max_turns = 0
-        for s in sessions:
+        for s in patient_sessions:
             max_turns = max(max_turns, len(s['c_acc_avg']))
             
         output_rows = []
         output_rows.append("Turn_Pair,Counselor_Acc_Avg,Counselor_Acc_Std,Client_Acc_Avg,Client_Acc_Std,Acc_Ratio,Acc_Ratio_Std,Count")
 
         for i in range(max_turns):
-            # Collect values for this turn index from all valid sessions
+            # Collect values for this turn index from all patients
             c_vals = []
             cl_vals = []
             r_vals = []
             
-            for s in sessions:
+            for s in patient_sessions:
                 if i < len(s['c_acc_avg']):
                     c_vals.append(s['c_acc_avg'][i])
                     cl_vals.append(s['cl_acc_avg'][i])
@@ -250,7 +299,7 @@ def aggregate_metrics(root_dir):
             avg_cl = sum(cl_vals) / len(cl_vals)
             avg_r = sum(r_vals) / len(r_vals)
             
-            # Calculate standard deviations
+            # Calculate standard deviations across patients
             import numpy as np
             std_c = np.std(c_vals, ddof=1) if len(c_vals) > 1 else 0
             std_cl = np.std(cl_vals, ddof=1) if len(cl_vals) > 1 else 0
