@@ -216,8 +216,9 @@ def aggregate_metrics(root_dir):
                     
                     data = parse_transcript_turns(transcript_path)
                     if data:
-                        # Create key for grouping: (timestamp, patient_id, therapist_mode)
-                        key = (matching_run['ts_str'], patient_id, matching_run['mode'])
+                        # Create key for grouping: (patient_id, therapist_mode)
+                        # Note: We don't include timestamp to avoid counting same patient multiple times
+                        key = (patient_id, matching_run['mode'])
                         
                         # Initialize entry if it doesn't exist
                         if key not in matched_data:
@@ -235,7 +236,7 @@ def aggregate_metrics(root_dir):
     mode_patient_data = {}  # mode -> list of patient-averaged data
     
     for key, session_list in matched_data.items():
-        ts_str, patient_id, mode = key
+        patient_id, mode = key
         
         if mode not in mode_patient_data:
             mode_patient_data[mode] = []

@@ -354,13 +354,13 @@ def main():
                     if not turn_pairs:
                         continue
                     
-                    # Create key for grouping: (timestamp, patient_id, therapist_mode)
-                    key = (matching_run['ts_str'], patient_id, matching_run['mode'])
+                    # Create key for grouping: (patient_id, therapist_mode)
+                    # Note: We don't include timestamp to avoid counting same patient multiple times
+                    key = (patient_id, matching_run['mode'])
                     
                     # Initialize entry if it doesn't exist
                     if key not in matched_data:
                         matched_data[key] = {
-                            'timestamp': matching_run['ts_str'],
                             'patient_id': patient_id,
                             'therapist_mode': matching_run['mode'],
                             'turn_lsm_scores': {i: [] for i in range(10)}
@@ -380,7 +380,6 @@ def main():
     final_rows = []
     
     for key, data in matched_data.items():
-        timestamp = data['timestamp']
         patient_id = data['patient_id']
         therapist_mode = data['therapist_mode']
         turn_map = data['turn_lsm_scores']
@@ -400,7 +399,6 @@ def main():
                 avg_lsm = sum(cumulative_scores) / len(cumulative_scores)
                 
                 final_rows.append({
-                    'timestamp': timestamp,
                     'patient_id': patient_id,
                     'therapist_mode': therapist_mode,
                     'turn_number': i + 1,
@@ -417,8 +415,8 @@ def main():
         for mode in unique_modes:
             mode_df = df[df['therapist_mode'] == mode]
             
-            # Count sessions for this mode
-            session_count = len(mode_df[['timestamp', 'patient_id']].drop_duplicates())
+            # Count unique patients for this mode
+            session_count = mode_df['patient_id'].nunique()
             
             # Group by turn and calculate mean and std of avg_lsm
             grouped = mode_df.groupby('turn_number')['avg_lsm'].agg(['mean', 'std', 'count']).reset_index()
