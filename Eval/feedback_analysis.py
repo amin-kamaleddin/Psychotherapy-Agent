@@ -177,15 +177,15 @@ def main():
                         print(f"Warning: Could not extract scores from {entry.name}")
                         continue
                     
-                    # Create key for grouping: (timestamp, patient_id, therapist_mode)
-                    key = (matching_run['ts_str'], patient_id, matching_run['mode'])
+                    # Create key for grouping: (patient_id, therapist_mode)
+                    # Note: We don't include timestamp to avoid counting same patient multiple times
+                    key = (patient_id, matching_run['mode'])
                     
                     print(f"Processing {entry.name} (patient_id={patient_id}) -> Test Run {matching_run['ts_str']}, Mode: {matching_run['mode']}")
                     
                     # Initialize entry if it doesn't exist, or aggregate scores if it does
                     if key not in matched_data:
                         matched_data[key] = {
-                            'timestamp': matching_run['ts_str'],
                             'patient_id': patient_id,
                             'therapist_mode': matching_run['mode'],
                             'all_scores': []  # List to store scores from all folds
@@ -199,7 +199,6 @@ def main():
     final_rows = []
     
     for key, data in matched_data.items():
-        timestamp = data['timestamp']
         patient_id = data['patient_id']
         therapist_mode = data['therapist_mode']
         all_scores = data['all_scores']
@@ -216,7 +215,6 @@ def main():
             score = averaged_scores.get(criterion)
             if score is not None:
                 final_rows.append({
-                    'timestamp': timestamp,
                     'patient_id': patient_id,
                     'therapist_mode': therapist_mode,
                     'criterion': criterion,
@@ -228,7 +226,6 @@ def main():
         if averaged_scores:
             overall_avg = sum(averaged_scores.values()) / len(averaged_scores)
             final_rows.append({
-                'timestamp': timestamp,
                 'patient_id': patient_id,
                 'therapist_mode': therapist_mode,
                 'criterion': 'Overall Average',
@@ -253,8 +250,8 @@ def main():
         for mode in unique_modes:
             mode_df = df[df['therapist_mode'] == mode]
             
-            # Count sessions for this mode
-            session_count = len(mode_df[['timestamp', 'patient_id']].drop_duplicates())
+            # Count unique patients for this mode
+            session_count = mode_df['patient_id'].nunique()
             
             # Group by criterion and calculate mean and std of scores
             grouped = mode_df.groupby('criterion')['score'].agg(['mean', 'std', 'count']).reset_index()

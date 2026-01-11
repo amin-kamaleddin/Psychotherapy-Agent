@@ -156,8 +156,9 @@ def process_single_session(session_data, api_key):
         if not turns:
             return None, None
         
-        # Create key for grouping: (timestamp, patient_id, therapist_mode)
-        key = (matching_run['ts_str'], patient_id, matching_run['mode'])
+        # Create key for grouping: (patient_id, therapist_mode)
+        # Note: We don't include timestamp to avoid counting same patient multiple times
+        key = (patient_id, matching_run['mode'])
         
         # Initialize data structure
         turn_sentiments = {i: [] for i in range(10)}
@@ -172,7 +173,6 @@ def process_single_session(session_data, api_key):
                 turn_sentiments[i].append(sentiment)
         
         return key, {
-            'timestamp': matching_run['ts_str'],
             'patient_id': patient_id,
             'therapist_mode': matching_run['mode'],
             'turn_sentiments': turn_sentiments
@@ -281,7 +281,6 @@ def main(max_workers=20):
     final_rows = []
     
     for key, data in matched_data.items():
-        timestamp = data['timestamp']
         patient_id = data['patient_id']
         therapist_mode = data['therapist_mode']
         turn_map = data['turn_sentiments']
@@ -309,7 +308,6 @@ def main(max_workers=20):
                 prop_neg = cumulative_neg / cumulative_total
                 
                 final_rows.append({
-                    'timestamp': timestamp,
                     'patient_id': patient_id,
                     'therapist_mode': therapist_mode,
                     'turn_number': i + 1,
