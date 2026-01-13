@@ -1,34 +1,54 @@
 # Psychotherapy-Agent
 
-An advanced AI-powered virtual patient simulation system for training and evaluating psychotherapy techniques, with specialized support for **Motivational Interviewing (MI)**. The system features both single-agent and multi-agent architectures to compare different therapeutic approaches.
+An AI-powered virtual patient simulation system for evaluating Motivational Interviewing (MI) therapy techniques. This proof-of-concept demonstrates that a multi-agent architecture (Therapist + Evaluator-in-the-loop) achieves higher MI fidelity than naive or single-agent approaches.
 
-## Overview
+## Research Goal
 
-This system simulates realistic therapy sessions between AI therapists and AI patients, enabling researchers and clinicians to:
-- **Train and evaluate** different therapeutic approaches
-- **Compare** simple vs. complex prompting strategies vs. multi-agent systems
-- **Analyze** therapy quality using MI-specific criteria
-- **Generate** comprehensive evaluation metrics and visualizations
+Design an MI Therapist agent and demonstrate that a multi-agent setup (Therapist + Evaluator-in-the-loop) produces higher MI fidelity than:
+1. A naive counselor prompt
+2. A single-agent MI prompt
 
-### Key Features
+Using existing Patient profiles (based on AnnoMI dataset) and an MI Evaluator, we focus exclusively on Motivational Interviewing to leverage our deepest existing assets.
 
-- **Three Therapist Modes**:
-  - **Simple Mode**: Single-agent with basic therapeutic prompts
-  - **Complex Mode**: Single-agent with detailed MI-focused prompts
-  - **Multi-Agent Mode**: Proposer-Judge architecture for enhanced response quality
+## Main Research Questions
 
-- **Comprehensive Evaluation**:
-  - 9 MI criteria scores (Empathy, Partnership, Autonomy Support, etc.)
-  - Sentiment analysis per conversation turn
-  - Linguistic Style Matching (LSM) metrics
-  - Word count and ratio analysis
-  - Statistical significance testing (Friedman, Wilcoxon)
+### 1. MI Fidelity
+Can an MI-specific Therapist agent, using our existing Evaluator, conduct brief sessions that achieve MI rubric scores comparable to human MI sessions from AnnoMI?
 
-- 🔬 **Robust Experimental Design**:
-  - Two-stage aggregation (fold averaging → patient-level statistics)
-  - Support for multiple runs per patient (fold parameter)
-  - Parallel processing for efficient experimentation
-  - Reproducible results with session metadata tracking
+### 2. Multi-Agent Gain
+Does using the Evaluator in-the-loop (as a critic/selector at each turn) improve MI fidelity compared with:
+- A naive "supportive counselor" LLM
+- A single-agent MI Therapist (no online Evaluator)
+
+## System and Experimental Conditions
+
+We test three therapist conditions, all focused on MI:
+
+### 1. Naive Counselor (Simple Mode)
+- **Prompt**: "Be an empathetic, supportive mental health counselor"
+- **Characteristics**: No explicit MI language or rubric, no Evaluator involvement
+- **Purpose**: Baseline for general supportive counseling without MI training
+
+### 2. MI Therapist - Single Agent (Complex Mode)
+- **Prompt**: Grounded in MI spirit and skills (OARS, change talk, autonomy support, avoiding confrontation/advice)
+- **Characteristics**: Explicit MI techniques, but no Evaluator-in-the-loop
+- **Evaluation**: Evaluator used only after the session for scoring
+- **Purpose**: Test if MI-specific prompting alone improves fidelity
+
+### 3. Multi-Agent MI Therapist (Multi-Agent Mode)
+- **Prompt**: Same MI Therapist prompt as single-agent
+- **Architecture**: At each turn, Therapist proposes 2-3 candidate replies; Evaluator scores candidates on MI criteria (empathy, reflection:question balance, autonomy support) and selects the best one
+- **Patient Experience**: Patient sees only the selected response
+- **Purpose**: Test if Evaluator-in-the-loop improves MI fidelity beyond single-agent
+
+## Key Capabilities
+
+- **Comprehensive MI Evaluation**: 9 MI criteria scores (Empathy, Partnership, Autonomy Support, Collaboration, Evocation, etc.)
+- **Linguistic Analysis**: Sentiment analysis, Linguistic Style Matching (LSM), word count and ratio metrics
+- **Statistical Rigor**: Friedman and Wilcoxon tests for significance
+- **Robust Design**: Two-stage aggregation (fold averaging → patient-level statistics)
+- **Scalability**: Parallel processing, support for multiple runs per patient
+- **Reproducibility**: Session metadata tracking and complete conversation logs
 
 ## Quick Start
 
@@ -149,18 +169,20 @@ Psychotherapy-Agent/
 ### Therapist Prompts
 
 Therapist behaviors are defined in `Therapist_Prompts/therapist_prompts.csv`:
-- **Row 0**: Simple agent (basic therapeutic approach)
-- **Row 1**: Complex agent (detailed MI techniques)
-- **Row 2**: Multi-agent proposer (generates 3 candidate responses)
-- **Row 3**: Multi-agent judge (selects best response)
+- **Row 0**: Naive counselor ("be empathetic and supportive" - no MI training)
+- **Row 1**: MI Therapist (grounded in MI spirit: OARS, change talk, autonomy support)
+- **Row 2**: Multi-agent proposer (same MI Therapist prompt, generates 3 candidate responses)
+- **Row 3**: Multi-agent judge/evaluator (scores candidates on MI criteria, selects best)
 
 ### Patient Profiles
 
-133 patient case studies are stored in `Patient_Profiles/MI/`. Each profile includes:
+133 patient case studies are stored in `Patient_Profiles/MI/`, derived from the AnnoMI dataset. Each profile includes:
 - Background and demographics
 - Primary concerns and goals
-- Stage of change
-- Emotional state
+- Stage of change (precontemplation, contemplation, preparation, action, maintenance)
+- Emotional state and readiness for change
+
+These profiles enable testing MI techniques across diverse patient presentations and change readiness levels.
 
 ## Evaluation Metrics
 
@@ -172,11 +194,12 @@ The system evaluates therapy sessions across multiple dimensions:
 - Partnership
 - Empathy
 - Acceptance
-- Direction
 - Autonomy Support
 - Collaboration
 - Evocation
-- Overall Average
+- Direction
+
+These 9 criteria are based on the Motivational Interviewing Treatment Integrity (MITI) framework and MI spirit principles.
 
 ### 2. Linguistic Metrics
 - **LSM (Linguistic Style Matching)**: Coordination between therapist and patient language
