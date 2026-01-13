@@ -24,7 +24,7 @@ This system simulates realistic therapy sessions between AI therapists and AI pa
   - Word count and ratio analysis
   - Statistical significance testing (Friedman, Wilcoxon)
 
-- 🔬 **Robust Experimental Design**:
+- **Robust Experimental Design**:
   - Two-stage aggregation (fold averaging → patient-level statistics)
   - Support for multiple runs per patient (fold parameter)
   - Parallel processing for efficient experimentation
