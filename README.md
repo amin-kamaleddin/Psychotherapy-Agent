@@ -1,6 +1,6 @@
 # Psychotherapy-Agent
 
-An AI-powered virtual patient simulation system for evaluating Motivational Interviewing (MI) therapy techniques. This proof-of-concept demonstrates that a multi-agent architecture (Therapist + Evaluator-in-the-loop) achieves higher MI fidelity than naive or single-agent approaches.
+An AI-powered virtual simulation system for performing Motivational Interviewing (MI) therapy techniques. This proof-of-concept demonstrates that a multi-agent architecture (Therapist + Evaluator-in-the-loop) achieves higher MI fidelity than naive or single-agent approaches.
 
 ## Research Goal
 
