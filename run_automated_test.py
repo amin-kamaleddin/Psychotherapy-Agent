@@ -680,7 +680,7 @@ if __name__ == "__main__":
                         help="Skip sentiment analysis when running evaluation scripts")
     parser.add_argument("--no-aggregate", action="store_true",
                         help="Skip aggregation/evaluation scripts (only run therapy sessions)")
-    parser.add_argument("--fold", type=int, default=1,
+    parser.add_argument("--fold", type=int, default=5,
                         help="Number of times to run each patient (e.g., fold=5 with 10 patients = 50 total runs)")
 
     args = parser.parse_args()

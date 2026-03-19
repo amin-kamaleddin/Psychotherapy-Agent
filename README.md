@@ -50,6 +50,22 @@ We test three therapist conditions, all focused on MI:
 - **Scalability**: Parallel processing, support for multiple runs per patient
 - **Reproducibility**: Session metadata tracking and complete conversation logs
 
+## Reproducing the Reported Experiment
+
+The manuscript evaluates 133 patient profiles × 5 repeated runs × 3 therapist modes = **1,995 total sessions**. To reproduce these results exactly, run:
+
+```bash
+python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id manuscript_exp --max-workers 20
+```
+
+This command:
+- Covers all 133 patient profiles (`--start-patient 0 --end-patient 133`)
+- Runs each patient 5 times per mode (`--fold 5`), matching the fold=5 setting reported in the manuscript
+- Executes all three therapist modes sequentially (`--compare`): simple, complex, and multi_agent
+- After all sessions complete, automatically runs all evaluation scripts (`Eval/`) to produce `feedback_scores_by_criterion.csv`, statistical test results, word metrics, sentiment summaries, and LSM scores
+
+> **Note**: At 20 parallel workers this run is compute- and cost-intensive. For a smaller-scale pilot, replace `--end-patient 133` with a smaller value and adjust `--fold` accordingly.
+
 ## Quick Start
 
 ### Prerequisites
@@ -102,7 +118,7 @@ python run_automated_test.py [OPTIONS]
 **Key Parameters**:
 - `--start-patient N`: Start from patient index N (default: 0)
 - `--end-patient N`: End at patient index N (default: 133)
-- `--fold N`: Run each patient N times for robustness (default: 1)
+- `--fold N`: Run each patient N times for robustness (default: 5)
 - `--mode {simple|complex|multi_agent}`: Run a specific mode
 - `--compare`: Run all three modes and generate comparisons
 - `--no-aggregate`: Skip evaluation scripts (run sessions only)
