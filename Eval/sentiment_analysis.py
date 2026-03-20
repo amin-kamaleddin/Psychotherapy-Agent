@@ -241,7 +241,7 @@ def main(max_workers=20):
         print("No sessions found to process.")
         return
     
-    print(f"\n🚀 Starting parallel processing with {max_workers} workers...")
+    print(f"\nStarting parallel processing with {max_workers} workers...")
     print(f"Processing {len(sessions_to_process)} sessions\n")
     
     # 3. Process Sessions in Parallel
@@ -272,7 +272,7 @@ def main(max_workers=20):
             with print_lock:
                 print(f"Progress: {completed}/{len(sessions_to_process)} sessions processed")
     
-    print(f"\n✅ All sessions processed!")
+    print(f"\nAll sessions processed!")
     print(f"Total unique session groups: {len(matched_data)}\n")
 
     # 4. Aggregate Results
@@ -324,7 +324,7 @@ def main(max_workers=20):
         os.makedirs(csv_dir, exist_ok=True)
         output_path = os.path.join(csv_dir, 'sentiment_dataset_by_turn.csv')
         df.to_csv(output_path, index=False)
-        print(f"\n✅ Saved per-turn sentiment dataset to {output_path}")
+        print(f"\nSaved per-turn sentiment dataset to {output_path}")
         print(f"Total records: {len(df)}")
         print(df.head(20))
     else:

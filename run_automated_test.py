@@ -354,20 +354,20 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
                 row[key] = values[0] if values else None
             
             with print_lock:
-                print(f"  ✅ Completed Patient {patient_number}: {os.path.basename(patient_file)}")
+                print(f"  Completed Patient {patient_number}: {os.path.basename(patient_file)}")
             
             return row
         
         except Exception as e:
             with print_lock:
-                print(f"  ❌ Error processing Patient {patient_number} ({os.path.basename(patient_file)}): {str(e)}")
+                print(f"  Error processing Patient {patient_number} ({os.path.basename(patient_file)}): {str(e)}")
             return None
 
     # Determine number of parallel workers
     max_workers = args.max_workers if hasattr(args, 'max_workers') else 3
     
     with print_lock:
-        print(f"\n🚀 Starting parallel processing with {max_workers} workers...")
+        print(f"\nStarting parallel processing with {max_workers} workers...")
         print(f"Processing {num_patients} patients x {fold} folds = {total_runs} total runs in {therapist_mode} mode\n")
     
     # Process patients in parallel
@@ -389,7 +389,7 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
                 all_results.append(result)
             
             with print_lock:
-                print(f"📊 Progress: {completed}/{total_runs} runs completed")
+                print(f"Progress: {completed}/{total_runs} runs completed")
     
     # Sort results by patient filename to maintain order
     patient_file_basenames = {os.path.basename(f): idx for idx, f in enumerate(patient_files)}
@@ -399,14 +399,14 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     results_df = pd.DataFrame(all_results)
     csv_path = os.path.join(save_folder, f"results_{therapist_mode}.csv")
     results_df.to_csv(csv_path, index=False)
-    print(f"\n✅ Results saved to {csv_path}")
+    print(f"\nResults saved to {csv_path}")
 
     # Save all results to CSV files
     print("\n" + "=" * 60)
     print("Saving results...")
     print("=" * 60)
 
-    print(f"\n✅ Parallel run complete! Results saved to {save_folder}")
+    print(f"\nParallel run complete! Results saved to {save_folder}")
     return save_folder, csv_path
 
 
@@ -467,7 +467,7 @@ def run_comparison_experiment(args):
         max_workers = args.max_workers if hasattr(args, 'max_workers') else 20
         aggregate_metrics(skip_sentiment=args.skip_sentiment, max_workers=max_workers)
     else:
-        print("\n⚠️  Skipping aggregation as requested (--no-aggregate flag)")
+        print("\nSkipping aggregation as requested (--no-aggregate flag)")
     
     return {
         "simple_folder": simple_folder,
@@ -604,7 +604,7 @@ def aggregate_metrics(skip_sentiment=False, max_workers=30):
     # Skip sentiment analysis if requested
     if skip_sentiment:
         eval_scripts = [s for s in eval_scripts if s != "sentiment_analysis.py"]
-        print("⚠️  Skipping sentiment analysis as requested")
+        print("Skipping sentiment analysis as requested")
     
     print("\n" + "=" * 80)
     print("RUNNING EVALUATION SCRIPTS")
@@ -637,13 +637,13 @@ def aggregate_metrics(skip_sentiment=False, max_workers=30):
                 text=True,
                 check=True
             )
-            print(f"✅ {script_name} completed successfully")
+            print(f"{script_name} completed successfully")
         except subprocess.CalledProcessError as e:
-            print(f"❌ Error running {script_name}: {e}")
+            print(f"Error running {script_name}: {e}")
             # Continue with other scripts even if one fails
             continue
         except Exception as e:
-            print(f"❌ Unexpected error running {script_name}: {e}")
+            print(f"Unexpected error running {script_name}: {e}")
             continue
     
     print("\n" + "=" * 80)
