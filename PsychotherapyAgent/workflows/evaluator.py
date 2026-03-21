@@ -5,7 +5,7 @@ Handles evaluator chatbot interactions for Q&A about feedback.
 """
 
 import logging
-from langchain.schema import AIMessage, HumanMessage, SystemMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
 

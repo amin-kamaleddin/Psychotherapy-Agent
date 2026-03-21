@@ -8,7 +8,7 @@ clinical summary generation, and roleplay setup.
 import logging
 import os
 import random
-from langchain.schema import SystemMessage
+from langchain_core.messages import SystemMessage
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
 

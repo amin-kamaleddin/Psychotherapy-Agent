@@ -5,7 +5,7 @@ Defines the TypedDict structures for LangGraph state management.
 """
 
 from typing import TypedDict, Optional, List, Dict, Any
-from langchain.schema import BaseMessage
+from langchain_core.messages import BaseMessage
 
 
 class PatientContext(TypedDict, total=False):

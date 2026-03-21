@@ -10,7 +10,7 @@ import warnings
 import logging
 from typing import Optional
 from pydantic import SecretStr
-from langchain.schema import HumanMessage, AIMessage
+from langchain_core.messages import HumanMessage, AIMessage
 
 # Suppress langchain verbose deprecation warning
 warnings.filterwarnings("ignore", message=".*Importing verbose from langchain root module.*", category=UserWarning)

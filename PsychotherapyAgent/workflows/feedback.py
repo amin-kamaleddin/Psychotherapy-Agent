@@ -8,7 +8,7 @@ import logging
 from datetime import datetime
 from typing import Optional
 from pydantic import BaseModel, Field
-from langchain.schema import AIMessage, HumanMessage, SystemMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
 

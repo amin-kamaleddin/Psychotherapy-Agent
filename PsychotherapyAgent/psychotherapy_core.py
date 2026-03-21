@@ -20,7 +20,7 @@ from .graph_state import LBState
 from .llm_manager import LLMManager
 from .prompt_manager import PromptManager
 from .utils import FileManager, sanitize_for_logging
-from langchain.schema import HumanMessage, AIMessage
+from langchain_core.messages import HumanMessage, AIMessage
 from .workflows import (
     InitializationWorkflow,
     MessageWorkflow,

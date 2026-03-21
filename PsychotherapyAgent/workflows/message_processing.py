@@ -7,7 +7,7 @@ Handles message processing with optional multi-agent therapist system
 
 import logging
 import re
-from langchain.schema import AIMessage, HumanMessage, SystemMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
 
