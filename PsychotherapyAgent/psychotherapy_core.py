@@ -79,8 +79,8 @@ class PsychotherapyCore:
             self.llm_manager,
             self.prompt_manager,
             use_multi_agent=False,  # No therapist generation, just patient responses
-            proposer_index=2,  # Not used when use_multi_agent=False
-            judge_index=3  # Not used when use_multi_agent=False
+            proposer_index=3,  # Not used when use_multi_agent=False (matches 3_MultiAgent_Proposer)
+            judge_index=4  # Not used when use_multi_agent=False (matches 4_MultiAgent_Judge)
         )
         self.feedback_workflow = FeedbackWorkflow(
             self.llm_manager,

@@ -83,7 +83,7 @@ class PromptManager:
         
         Args:
             therapist_index: Index of therapist profile in CSV 
-                            (0=simple, 1=complex, 2=proposer, 3=judge)
+                            (0=simple, 1=trained_agent, 2=complex, 3=proposer, 4=judge)
             
         Returns:
             Prompt content as string
@@ -105,16 +105,18 @@ class PromptManager:
         except Exception as e:
             logging.error(f"Error loading therapist prompt from CSV: {str(e)}")
             # Fallback prompts based on agent type
-            if therapist_index == 2:  # Proposer
+            # CSV structure: 0=0_Simple_Agent, 1=1_Trained_Agent, 2=2_Complex_Agent,
+            #                3=3_MultiAgent_Proposer, 4=4_MultiAgent_Judge
+            if therapist_index == 3:  # Proposer (3_MultiAgent_Proposer)
                 try:
                     base_prompt = self.load_prompt('Virtual Therapist')
                     proposer_prompt = """You are a therapist response proposer agent. Your role is to generate exactly 3 different candidate therapist responses based on the conversation history. Each response should be appropriate for the therapeutic context and follow motivational interviewing principles. Make sure each response is distinct and offers a different therapeutic approach or phrasing. Format your response as: RESPONSE 1: [first response] RESPONSE 2: [second response] RESPONSE 3: [third response]"""
                     return base_prompt + "\n\n" + proposer_prompt
                 except:
                     return """You are a therapist response proposer agent. Your role is to generate exactly 3 different candidate therapist responses based on the conversation history. Each response should be appropriate for the therapeutic context and follow motivational interviewing principles. Make sure each response is distinct and offers a different therapeutic approach or phrasing. Format your response as: RESPONSE 1: [first response] RESPONSE 2: [second response] RESPONSE 3: [third response]"""
-            elif therapist_index == 3:  # Judge
+            elif therapist_index == 4:  # Judge (4_MultiAgent_Judge)
                 return """You are an expert judge evaluating therapist responses in a motivational interviewing context. Your task is to select the BEST response from 3 candidate therapist responses based on: 1. Appropriateness for the therapeutic context, 2. Adherence to motivational interviewing principles, 3. Empathy and rapport building, 4. Clinical effectiveness, 5. Natural flow in the conversation. Review the conversation history and the 3 candidate responses. Select the response number (1, 2, or 3) that is most effective and appropriate. Respond with ONLY the number (1, 2, or 3) followed by a brief one-sentence explanation."""
-            else:  # Simple or Complex (0 or 1)
+            else:  # Simple (0), Trained Agent (1), or Complex (2)
                 try:
                     base_prompt = self.load_prompt('Virtual Therapist')
                     return base_prompt

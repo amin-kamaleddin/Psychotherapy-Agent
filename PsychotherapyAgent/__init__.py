@@ -6,7 +6,7 @@ with multi-agent therapist system (proposer + judge) and single-agent therapist.
 
 Main Components:
 - PsychotherapyMultiAgent: Multi-agent orchestrator class (proposer + judge)
-- PsychotherapySingleAgent: Single-agent therapist class (simple/complex modes)
+- PsychotherapySingleAgent: Single-agent therapist class (simple/trained_agent/complex modes)
 - Workflows: Initialization, Interview (with multi-agent support), Feedback, and Evaluator workflows
 - Utils: File management, prompt loading, and formatting utilities
 - State management: Type-safe state definitions
@@ -35,7 +35,7 @@ from .graph_state import LBState, PatientContext
 __all__ = [
     # Main classes
     'PsychotherapyMultiAgent',    # Multi-agent therapist system (proposer + judge)
-    'PsychotherapySingleAgent',   # Single-agent therapist with session management (for simple/complex modes)
+    'PsychotherapySingleAgent',   # Single-agent therapist with session management (simple/trained_agent/complex modes)
     'PsychotherapyCore',          # Core patient simulation and session management (shared)
 
     # State types (for type hints and advanced usage)

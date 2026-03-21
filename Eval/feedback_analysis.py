@@ -192,9 +192,16 @@ def main():
                     'num_folds': len(all_scores)
                 })
         
-        # Calculate overall average for this patient (average of all valid criteria scores)
+        # Calculate overall average for this patient (mean of all 9 MI criteria).
+        # Always divide by len(MI_CRITERIA) so the denominator is fixed at 9:
+        # any criterion that could not be parsed contributes 0, matching the
+        # behaviour of extract_scores() in run_automated_test.py and ensuring
+        # the Overall Average is comparable across both CSVs.
         if averaged_scores:
-            overall_avg = sum(averaged_scores.values()) / len(averaged_scores)
+            missing = [c for c in MI_CRITERIA if c not in averaged_scores]
+            if missing:
+                print(f"  Warning: Missing criteria for patient {patient_id} mode {therapist_mode}: {missing} (using 0.0)")
+            overall_avg = sum(averaged_scores.get(c, 0.0) for c in MI_CRITERIA) / len(MI_CRITERIA)
             final_rows.append({
                 'patient_id': patient_id,
                 'therapist_mode': therapist_mode,

@@ -67,10 +67,12 @@ def run_test(patient_profile_path, therapist_profile_number,
         therapist_feedback_csv: Optional CSV file with therapist feedback prompts
         api_key_input: Optional API key
         therapist_mode: One of "simple", "trained_agent", "complex", or "multi_agent"
-                        - "simple": Single-agent with simple prompt (no patient profile)
-                        - "trained_agent": Single-agent with complex MI prompt but WITHOUT patient profile
-                        - "complex": Single-agent with complex MI prompt (uses therapist_profile_number)
-                        - "multi_agent": Multi-agent system (proposer+judge)
+                        - "simple": Single-agent with 0_Simple_Agent prompt (index 0, no patient profile)
+                        - "trained_agent": Single-agent with 1_Trained_Agent prompt (index 1, MI principles,
+                                           no patient profile — distinct from the complex agent prompt)
+                        - "complex": Single-agent with 2_Complex_Agent prompt (index 2, MI principles +
+                                     explicit profile access, includes patient profile at runtime)
+                        - "multi_agent": Multi-agent system (proposer index 3 + judge index 4)
     """
     api_key_input = API_KEY or api_key_input or "key"
 
@@ -102,21 +104,32 @@ def run_test(patient_profile_path, therapist_profile_number,
         lb.set_multi_agent_therapist_profiles(proposer_index, judge_index)
         logging.info(f"Multi-agent mode: Proposer index {proposer_index}, Judge index {judge_index}")
     elif therapist_mode == "trained_agent":
-        # Trained agent: complex MI prompt (index 1) but patient profile is withheld
+        # Trained agent: 1_Trained_Agent prompt (index 1) — full MI principles, patient profile withheld at runtime
         lb = PsychotherapySingleAgent(
             api_key_input,
             therapist_index=therapist_profile_number,
             prompt_addon=add_on,
             include_patient_profile=False
         )
-        logging.info("trained_agent mode: Using complex MI prompt without patient profile")
-    else:
-        # Single-agent modes (simple/complex): use PsychotherapySingleAgent
+        logging.info(f"trained_agent mode: Using 1_Trained_Agent prompt (index {therapist_profile_number}), no patient profile")
+    elif therapist_mode == "simple":
+        # Simple agent: basic prompt (index 0), patient profile withheld
         lb = PsychotherapySingleAgent(
             api_key_input,
             therapist_index=therapist_profile_number,
-            prompt_addon=add_on
+            prompt_addon=add_on,
+            include_patient_profile=False
         )
+        logging.info(f"simple mode: Using 0_Simple_Agent prompt (index {therapist_profile_number}), no patient profile")
+    else:  # complex
+        # Complex agent: 2_Complex_Agent prompt (index 2) — MI principles + explicit patient profile access
+        lb = PsychotherapySingleAgent(
+            api_key_input,
+            therapist_index=therapist_profile_number,
+            prompt_addon=add_on,
+            include_patient_profile=True
+        )
+        logging.info(f"complex mode: Using 2_Complex_Agent prompt (index {therapist_profile_number}), with patient profile")
 
     # Load patient profile and start session with metadata
     case = lb.load_patient_profile(patient_profile_path)
@@ -241,7 +254,7 @@ def run_experiment(therapist_num, patient_files, therapist_csv_path, label, save
             patient,
             therapist_num,
             patient_number=patient_number,
-            therapist_type=label
+            therapist_mode=label
         )
         feedback_path = results["folder_name"] + f"/detailed_feedback_{label}.txt"
         saved_data_directory.append(feedback_path)
@@ -251,7 +264,6 @@ def run_experiment(therapist_num, patient_files, therapist_csv_path, label, save
 
 
 def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num=None, complex_therapist_num=None):
-    THERAPIST_CSV_PATH = "Therapist_Prompts/therapist_prompts.csv"
     """Main function for parallel execution mode.
     
     Args:
@@ -449,8 +461,17 @@ def run_comparison_experiment(args):
         complex_therapist_num=complex_num
     )
     
+    # Run trained_agent mode
+    print("\n[PHASE 2] Running TRAINED AGENT mode (1_Trained_Agent prompt, index 1, no patient profile)...")
+    trained_agent_folder, trained_agent_csv = run_parallel_experiments(
+        args,
+        therapist_mode="trained_agent",
+        simple_therapist_num=simple_num,
+        complex_therapist_num=complex_num
+    )
+    
     # Run complex mode
-    print("\n[PHASE 2] Running COMPLEX prompt mode...")
+    print("\n[PHASE 3] Running COMPLEX prompt mode...")
     complex_folder, complex_csv = run_parallel_experiments(
         args,
         therapist_mode="complex",
@@ -459,19 +480,10 @@ def run_comparison_experiment(args):
     )
     
     # Run multi-agent mode
-    print("\n[PHASE 3] Running MULTI-AGENT mode...")
+    print("\n[PHASE 4] Running MULTI-AGENT mode...")
     multiagent_folder, multiagent_csv = run_parallel_experiments(
         args,
         therapist_mode="multi_agent",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
-    
-    # Run trained_agent mode
-    print("\n[PHASE 4] Running TRAINED AGENT mode (complex MI prompt, no patient profile)...")
-    trained_agent_folder, trained_agent_csv = run_parallel_experiments(
-        args,
-        therapist_mode="trained_agent",
         simple_therapist_num=simple_num,
         complex_therapist_num=complex_num
     )
@@ -715,7 +727,7 @@ def compare_results_four_way(simple_csv_path, complex_csv_path, multiagent_csv_p
 def regenerate_comparison_results():
     """Regenerate comparison_results.csv by combining ALL batch results from Session_Metadata.
 
-    Fixes the issue where compare_results_three_way was previously called inside each
+    Fixes the issue where compare_results_four_way was previously called inside each
     batch run with only that batch's CSV (e.g., 12 patients instead of all 133), causing
     comparison_results.csv to reflect only the last batch executed.
     """
@@ -869,7 +881,7 @@ if __name__ == "__main__":
     parser.add_argument("--complex-therapist", type=int, default=None,
                         help="Therapist profile index for complex mode")
     parser.add_argument("--compare", action="store_true",
-                        help="Run all three modes (simple, complex, multi-agent) and compare results")
+                        help="Run all four modes (simple, trained_agent, complex, multi-agent) and compare results")
     parser.add_argument("--max-workers", type=int, default=20,
                         help="Number of parallel workers for processing patients (default: 20)")
     parser.add_argument("--skip-sentiment", action="store_true",
@@ -889,7 +901,7 @@ if __name__ == "__main__":
         max_workers = args.max_workers if hasattr(args, 'max_workers') else 20
         aggregate_metrics(skip_sentiment=args.skip_sentiment, max_workers=max_workers)
     elif args.compare:
-        # Run 3-way comparison experiment
+        # Run 4-way comparison experiment
         run_comparison_experiment(args)
     else:
         # Run single mode

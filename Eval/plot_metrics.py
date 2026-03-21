@@ -1,12 +1,14 @@
 """
 Generate plots comparing conversation metrics across different therapist modes.
 
-Creates five plots:
+Creates seven plots:
 1. Average words per turn by counselors (PSYCHIATRIST) as conversation progresses
 2. Average words per turn by clients (PATIENT) as conversation progresses
 3. Word ratio between counselors and clients as conversation progresses
 4. Distribution of positive, negative, and neutral sentiment by counseling quality
 5. Distribution of positive sentiment over 20% splits of the conversation
+6. Linguistic style matching (LSM) across conversation progress
+7. Feedback scores by criterion and therapist mode
 """
 
 import pandas as pd
@@ -68,7 +70,7 @@ MARKERS = {
 
 
 def load_data():
-    """Load all three CSV files."""
+    """Load all four mode CSV files (simple, trained_agent, complex, multi_agent)."""
     data = {}
     
     for mode, filepath in [('simple', SIMPLE_CSV), ('trained_agent', TRAINED_AGENT_CSV), ('complex', COMPLEX_CSV), ('multi_agent', MULTI_AGENT_CSV)]:

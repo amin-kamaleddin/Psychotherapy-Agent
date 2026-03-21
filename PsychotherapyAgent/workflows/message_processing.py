@@ -19,7 +19,7 @@ class MessageWorkflow:
     """Workflow for processing messages during therapy session."""
     
     def __init__(self, llm_manager, prompt_manager, use_multi_agent: bool = True,
-                 proposer_index: int = 2, judge_index: int = 3):
+                 proposer_index: int = 3, judge_index: int = 4):
         """
         Initialize the workflow.
         
@@ -27,8 +27,8 @@ class MessageWorkflow:
             llm_manager: LLMManager instance
             prompt_manager: PromptManager instance
             use_multi_agent: If True, uses proposer+judge system
-            proposer_index: CSV index for proposer agent (default: 2)
-            judge_index: CSV index for judge agent (default: 3)
+            proposer_index: CSV index for proposer agent (default: 3, row 5 = 3_MultiAgent_Proposer)
+            judge_index: CSV index for judge agent (default: 4, row 6 = 4_MultiAgent_Judge)
         """
         self.llm_manager = llm_manager
         self.prompt_manager = prompt_manager

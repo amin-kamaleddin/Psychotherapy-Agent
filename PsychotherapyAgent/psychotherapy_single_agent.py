@@ -36,8 +36,9 @@ class MessageCleaner:
 
         Args:
             messages: List of LangChain message objects
-            filter_patient_profile: If True, filters out ALL system messages (used for simple agent index 0)
-                                   If False, extracts patient profile from SystemMessage (used for complex agent index 1)
+            filter_patient_profile: If True, filters out ALL system messages (used for simple agent index 0
+                                   and trained_agent index 1 which has include_patient_profile=False)
+                                   If False, extracts patient profile from SystemMessage (used for complex agent index 2)
                                    System messages contain patient profile content from Patient_Profiles/MI/*.txt files
 
         Returns:
@@ -54,7 +55,7 @@ class MessageCleaner:
                     # Simple agent (index 0): Filter out ALL system messages
                     continue  # Skip all system messages for simple agent
                 else:
-                    # Complex agent (index 1): Extract patient profile only (not Virtual Patient role instruction)
+                    # Complex agent (index 2): Extract patient profile only (not Virtual Patient role instruction)
                     if i == 0:  # First SystemMessage contains Virtual Patient prompt + patient profile
                         content = msg.content
                         # Extract ONLY factual background info, excluding:
@@ -116,7 +117,7 @@ class PsychotherapySingleAgent:
     Usage:
         therapist = PsychotherapySingleAgent(
             api_key="your-key",
-            therapist_index=0  # 0=simple, 1=complex
+            therapist_index=0  # 0=simple, 1=trained_agent (no profile), 2=complex (with profile)
         )
         therapist.start_session(case_study=case_study)
         result = therapist.send_message()  # Therapist generates response, patient responds
@@ -197,13 +198,12 @@ class PsychotherapySingleAgent:
         Raises:
             Exception: If LLM invocation fails
         """
-        # For simple agent (index 0) or any mode with include_patient_profile=False,
-        # filter out patient profile (case study from .txt files).
-        # Complex agent (index 2) with include_patient_profile=True has explicit access
-        # to patient profile like proposer. The "trained_agent" mode uses index 1
-        # but with include_patient_profile=False to withhold the profile.
-        if self.therapist_index == 0 or not self.include_patient_profile:
-            # Simple agent OR complex_noprofile: Filter out ALL patient profile system messages
+        # Routing is driven entirely by include_patient_profile:
+        #   False → simple / trained_agent: all system messages (patient profile) are filtered out.
+        #   True  → complex: patient background section is extracted and passed to the therapist.
+        if not self.include_patient_profile:
+            # Simple or trained_agent (include_patient_profile=False):
+            # Filter out ALL patient profile system messages so therapist cannot see patient history.
             filter_patient_profile = True
             cleaned_conversation = MessageCleaner.clean_conversation(
                 conversation, 
@@ -215,8 +215,8 @@ class PsychotherapySingleAgent:
                 *cleaned_conversation
             ]
         else:
-            # Complex agent (index 1) with include_patient_profile=True:
-            # Extract patient profile, filter out Virtual Patient role
+            # Complex agent (include_patient_profile=True):
+            # Extract patient background section, filter out Virtual Patient role instructions.
             filter_patient_profile = False
             cleaned_conversation = MessageCleaner.clean_conversation(
                 conversation, 

@@ -1,10 +1,10 @@
 """
-Perform Friedman test and pairwise Wilcoxon tests on feedback scores to compare the 3 counselor modes.
-Tests for significant differences across simple, complex, and multi_agent modes
+Perform Friedman test and pairwise Wilcoxon tests on feedback scores to compare the 4 counselor modes.
+Tests for significant differences across simple, trained_agent, complex, and multi_agent modes
 for each criterion (9 MI criteria + Overall Average).
 
-The Friedman test tests for overall differences across all 3 modes.
-The Wilcoxon signed-rank test performs pairwise comparisons between each pair of modes.
+The Friedman test tests for overall differences across all 4 modes.
+The Wilcoxon signed-rank test performs pairwise comparisons between each pair of modes (C(4,2)=6 pairs).
 """
 
 import os
@@ -34,12 +34,12 @@ CRITERIA = [
     'Overall Average'
 ]
 
-MODES = ['simple', 'complex', 'multi_agent']
+MODES = ['simple', 'trained_agent', 'complex', 'multi_agent']
 
 
 def perform_friedman_test(feedback_df):
     """
-    Perform Friedman test for each criterion across the 3 counselor modes.
+    Perform Friedman test for each criterion across the 4 counselor modes.
     
     The Friedman test is a non-parametric statistical test used to detect 
     differences in treatments across multiple test attempts. It's appropriate
@@ -72,13 +72,13 @@ def perform_friedman_test(feedback_df):
             aggfunc='mean'  # In case of duplicates (same patient in multiple sessions), take mean
         )
         
-        # Check if we have all 3 modes
+        # Check if we have all 4 modes
         available_modes = [mode for mode in MODES if mode in pivot_data.columns]
-        if len(available_modes) < 3:
+        if len(available_modes) < 4:
             print(f"Warning: Criterion '{criterion}' only has data for {available_modes}")
             continue
         
-        # Keep only rows where we have scores for all 3 modes (complete cases)
+        # Keep only rows where we have scores for all 4 modes (complete cases)
         pivot_data = pivot_data[MODES].dropna()
         
         if len(pivot_data) < 3:
@@ -108,9 +108,11 @@ def perform_friedman_test(feedback_df):
                 'p_value': round(p_value, 6),
                 'Significant': 'Yes' if significant else 'No',
                 'simple_mean': round(means['simple'], 3),
+                'trained_agent_mean': round(means['trained_agent'], 3),
                 'complex_mean': round(means['complex'], 3),
                 'multi_agent_mean': round(means['multi_agent'], 3),
                 'simple_std': round(stds['simple'], 3),
+                'trained_agent_std': round(stds['trained_agent'], 3),
                 'complex_std': round(stds['complex'], 3),
                 'multi_agent_std': round(stds['multi_agent'], 3)
             })
@@ -141,8 +143,8 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
     It's appropriate when comparing the same patients across two different modes.
     
     Multiple testing corrections applied:
-        1. Bonferroni (N=3 pairs): p × 3, the standard post-hoc family correction
-           after Friedman (C(3,2)=3 pairwise comparisons). Controls FWER.
+        1. Bonferroni (N=6 pairs): p × 6, the standard post-hoc family correction
+           after Friedman (C(4,2)=6 pairwise comparisons). Controls FWER.
         2. BH-FDR across the 10 criteria within this pair: controls False
            Discovery Rate for testing all MI criteria in a single comparison.
     
@@ -195,13 +197,13 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
             n_samples = len(pair_data)
             mean1 = scores1.mean()
             mean2 = scores2.mean()
-            std1 = scores1.std()
-            std2 = scores2.std()
+            std1 = scores1.std(ddof=1)
+            std2 = scores2.std(ddof=1)
             
             # Calculate effect size (Cohen's d for paired samples)
-            # d = mean_diff / std_diff (standard deviation of differences)
+            # d = mean_diff / std_diff (sample standard deviation of differences, ddof=1)
             diff = scores1 - scores2
-            std_diff = diff.std() if len(diff) > 1 else 0
+            std_diff = diff.std(ddof=1) if len(diff) > 1 else 0
             effect_size = (mean1 - mean2) / std_diff if std_diff > 0 else 0
             
             # Determine if significant (using alpha = 0.05)
@@ -237,10 +239,10 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
     
     if not results_df.empty:
         p_values = results_df['p_value'].values
-        n_pairs = 3  # C(3 modes, 2) = 3 pairwise comparisons
+        n_pairs = 6  # C(4 modes, 2) = 6 pairwise comparisons
         
-        # 1. Bonferroni correction for 3 pairwise comparisons (standard post-hoc family)
-        #    Controls family-wise error rate (FWER) across the 3 mode comparisons.
+        # 1. Bonferroni correction for 6 pairwise comparisons (standard post-hoc family)
+        #    Controls family-wise error rate (FWER) across the 6 mode comparisons.
         p_bonf = np.minimum(p_values * n_pairs, 1.0)
         results_df['p_bonferroni'] = np.round(p_bonf, 6)
         results_df['Significant_bonferroni'] = ['Yes' if p < 0.05 else 'No' for p in p_bonf]
@@ -305,11 +307,14 @@ def main():
     print("PERFORMING PAIRWISE WILCOXON TESTS")
     print("="*80)
     
-    # Define the 3 pairs (reversed order for positive effect sizes)
+    # Define all 6 pairs C(4,2) (ordered for positive effect sizes)
     pairs = [
+        ('multi_agent', 'trained_agent'),
         ('multi_agent', 'complex'),
+        ('multi_agent', 'simple'),
+        ('trained_agent', 'complex'),
         ('complex', 'simple'),
-        ('multi_agent', 'simple')
+        ('trained_agent', 'simple')
     ]
     
     for mode1, mode2 in pairs:
@@ -337,9 +342,9 @@ def main():
         print(f"\nSummary ({mode1} vs {mode2}):")
         print(f"  - Total criteria tested: {len(wilcoxon_results)}")
         print(f"  - Significant (raw p < 0.05):                  {n_sig_raw}")
-        print(f"  - Significant after Bonferroni (×3 pairs):     {n_sig_bonf}  [α = 0.0167]")
+        print(f"  - Significant after Bonferroni (×6 pairs):     {n_sig_bonf}  [α = 0.0083]")
         print(f"  - Significant after BH-FDR (10 criteria):      {n_sig_fdr}")
-        print(f"  NOTE: Bonferroni corrects for C(3,2)=3 post-hoc pairwise comparisons;")
+        print(f"  NOTE: Bonferroni corrects for C(4,2)=6 post-hoc pairwise comparisons;")
         print(f"        BH-FDR corrects for {len(wilcoxon_results)} criteria tested within this pair.")
 
 

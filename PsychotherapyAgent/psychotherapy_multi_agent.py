@@ -59,8 +59,8 @@ class PsychotherapyMultiAgent:
             self.llm_manager,
             self.prompt_manager,
             use_multi_agent=True,
-            proposer_index=2,
-            judge_index=3
+            proposer_index=3,  # Row 5 in CSV: 3_MultiAgent_Proposer
+            judge_index=4      # Row 6 in CSV: 4_MultiAgent_Judge
         )
         
         # Build compiled multi-agent message workflow
@@ -73,8 +73,8 @@ class PsychotherapyMultiAgent:
         Set therapist profile indices for multi-agent mode.
         
         Args:
-            proposer_index: Index in CSV for proposer agent (default: 2)
-            judge_index: Index in CSV for judge agent (default: 3)
+            proposer_index: Index in CSV for proposer agent (default: 3, row 5 = 3_MultiAgent_Proposer)
+            judge_index: Index in CSV for judge agent (default: 4, row 6 = 4_MultiAgent_Judge)
         """
         self.message_workflow.proposer_index = proposer_index
         self.message_workflow.judge_index = judge_index
