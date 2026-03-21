@@ -22,21 +22,26 @@ Does using the Evaluator in-the-loop (as a critic/selector at each turn) improve
 
 ## System and Experimental Conditions
 
-We test three therapist conditions, all focused on MI:
+We test four therapist conditions, all focused on MI:
 
 ### 1. Naive Counselor (Simple Mode)
 - **Prompt**: "Be an empathetic, supportive mental health counselor"
-- **Characteristics**: No explicit MI language or rubric, no Evaluator involvement
+- **Characteristics**: No explicit MI language or rubric, no patient profile, no Evaluator involvement
 - **Purpose**: Baseline for general supportive counseling without MI training
 
-### 2. MI Therapist - Single Agent (Complex Mode)
+### 2. MI Therapist - Trained Agent (Trained Agent Mode)
 - **Prompt**: Grounded in MI spirit and skills (OARS, change talk, autonomy support, avoiding confrontation/advice)
-- **Characteristics**: Explicit MI techniques, but no Evaluator-in-the-loop
-- **Evaluation**: Evaluator used only after the session for scoring
-- **Purpose**: Test if MI-specific prompting alone improves fidelity
+- **Characteristics**: Explicit MI techniques, but patient profile is intentionally withheld
+- **Purpose**: Isolate the effect of MI-specific prompting without access to patient history
 
-### 3. Multi-Agent MI Therapist (Multi-Agent Mode)
-- **Prompt**: Same MI Therapist prompt as single-agent
+### 3. MI Therapist - Single Agent (Complex Mode)
+- **Prompt**: Same MI Therapist prompt as trained agent
+- **Characteristics**: Explicit MI techniques WITH full patient profile context, no Evaluator-in-the-loop
+- **Evaluation**: Evaluator used only after the session for scoring
+- **Purpose**: Test if combining MI prompting with patient profile improves fidelity
+
+### 4. Multi-Agent MI Therapist (Multi-Agent Mode)
+- **Prompt**: Same MI Therapist prompt as single-agent modes
 - **Architecture**: At each turn, Therapist proposes 2-3 candidate replies; Evaluator scores candidates on MI criteria (empathy, reflection:question balance, autonomy support) and selects the best one
 - **Patient Experience**: Patient sees only the selected response
 - **Purpose**: Test if Evaluator-in-the-loop improves MI fidelity beyond single-agent
@@ -52,7 +57,7 @@ We test three therapist conditions, all focused on MI:
 
 ## Reproducing the Reported Experiment
 
-The manuscript evaluates 133 patient profiles × 5 repeated runs × 3 therapist modes = **1,995 total sessions**. To reproduce these results exactly, run:
+The manuscript evaluates 133 patient profiles × 5 repeated runs × 4 therapist modes = **2,660 total sessions**. To reproduce these results exactly, run:
 
 ```bash
 python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id manuscript_exp --max-workers 20
@@ -61,7 +66,7 @@ python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --comp
 This command:
 - Covers all 133 patient profiles (`--start-patient 0 --end-patient 133`)
 - Runs each patient 5 times per mode (`--fold 5`), matching the fold=5 setting reported in the manuscript
-- Executes all three therapist modes sequentially (`--compare`): simple, complex, and multi_agent
+- Executes all four therapist modes sequentially (`--compare`): `simple`, `trained_agent`, `complex`, and `multi_agent`
 - After all sessions complete, automatically runs all evaluation scripts (`Eval/`) to produce `feedback_scores_by_criterion.csv`, statistical test results, word metrics, sentiment summaries, and LSM scores
 
 > **Note**: At 20 parallel workers this run is compute- and cost-intensive. For a smaller-scale pilot, replace `--end-patient 133` with a smaller value and adjust `--fold` accordingly.
@@ -102,7 +107,7 @@ python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --compa
 ```
 
 This command will:
-- Run patients 0-10 with all three therapist modes
+- Run patients 0-10 with all four therapist modes
 - Execute 5 sessions per patient per mode (5 folds)
 - Generate evaluation metrics and visualizations
 - Save results to `Session_Metadata/` and `Eval/`
@@ -119,8 +124,8 @@ python run_automated_test.py [OPTIONS]
 - `--start-patient N`: Start from patient index N (default: 0)
 - `--end-patient N`: End at patient index N (default: 133)
 - `--fold N`: Run each patient N times for robustness (default: 5)
-- `--mode {simple|complex|multi_agent}`: Run a specific mode
-- `--compare`: Run all three modes and generate comparisons
+- `--mode {simple|trained_agent|complex|multi_agent}`: Run a specific mode
+- `--compare`: Run all four modes and generate comparisons
 - `--no-aggregate`: Skip evaluation scripts (run sessions only)
 - `--aggregate`: Run only evaluation scripts (no new sessions)
 - `--max-workers N`: Parallel processing workers (default: 20)
@@ -134,17 +139,22 @@ python run_automated_test.py [OPTIONS]
 python run_automated_test.py --start-patient 0 --end-patient 10 --fold 3 --mode simple --run-id test1
 ```
 
-**2. Run all modes for full comparison**:
+**2. Run only Trained Agent Mode**:
+```bash
+python run_automated_test.py --start-patient 0 --end-patient 10 --fold 3 --mode trained_agent --run-id test2
+```
+
+**3. Run all four modes for full comparison**:
 ```bash
 python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id full_exp
 ```
 
-**3. Run sessions without evaluation (faster)**:
+**4. Run sessions without evaluation (faster)**:
 ```bash
 python run_automated_test.py --start-patient 0 --end-patient 50 --fold 5 --compare --no-aggregate --run-id batch1
 ```
 
-**4. Run evaluation only on existing sessions**:
+**5. Run evaluation only on existing sessions**:
 ```bash
 python run_automated_test.py --aggregate
 ```
@@ -185,10 +195,11 @@ Psychotherapy-Agent/
 ### Therapist Prompts
 
 Therapist behaviors are defined in `Therapist_Prompts/therapist_prompts.csv`:
-- **Row 0**: Naive counselor ("be empathetic and supportive" - no MI training)
-- **Row 1**: MI Therapist (grounded in MI spirit: OARS, change talk, autonomy support)
-- **Row 2**: Multi-agent proposer (same MI Therapist prompt, generates 3 candidate responses)
-- **Row 3**: Multi-agent judge/evaluator (scores candidates on MI criteria, selects best)
+- **Row 0** (`0_Simple_Agent`): Naive counselor — "be empathetic and supportive", no MI training, no patient profile
+- **Row 1** (`1_Trained_Agent`): MI Therapist prompt without patient profile (used by `trained_agent` mode)
+- **Row 2** (`2_Complex_Agent`): MI Therapist prompt with full patient profile context (used by `complex` mode)
+- **Row 3** (`3_MultiAgent_Proposer`): Multi-agent proposer — same MI Therapist prompt, generates 3 candidate responses
+- **Row 4** (`4_MultiAgent_Judge`): Multi-agent judge/evaluator — scores candidates on MI criteria and selects best
 
 ### Patient Profiles
 
@@ -227,7 +238,7 @@ These 9 criteria are based on the Motivational Interviewing Treatment Integrity 
 - Distribution analysis across modes
 
 ### 4. Statistical Tests
-- **Friedman Test**: Three-way comparison across modes
+- **Friedman Test**: Four-way comparison across modes
 - **Wilcoxon Signed-Rank Test**: Pairwise comparisons between modes
 
 ## Output Files
@@ -305,8 +316,8 @@ print(f"Patient: {response['patient_response']}")
 # Initialize multi-agent system
 multi_agent = PsychotherapyMultiAgent(api_key="your-api-key")
 multi_agent.set_multi_agent_therapist_profiles(
-    proposer_index=2,  # Proposer
-    judge_index=3      # Judge
+    proposer_index=3,  # Proposer (CSV row 3: 3_MultiAgent_Proposer)
+    judge_index=4      # Judge (CSV row 4: 4_MultiAgent_Judge)
 )
 
 # Same usage pattern
@@ -338,7 +349,7 @@ Always regenerate evaluation CSVs after code changes using `--aggregate`.
 
 ## Documentation
 
-- **[COMPARISON_GUIDE.md](COMPARISON_GUIDE.md)**: Detailed methodology for comparing the three therapist modes
+- **[COMPARISON_GUIDE.md](COMPARISON_GUIDE.md)**: Detailed methodology for comparing the four therapist modes
 - **Code Comments**: Inline documentation in all Python modules
 - **Session Logs**: Each session generates detailed logs for debugging
 

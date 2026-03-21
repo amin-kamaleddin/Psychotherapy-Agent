@@ -26,38 +26,44 @@ os.makedirs(PLOTS_DIR, exist_ok=True)
 SIMPLE_CSV = os.path.join(CSV_DIR, 'metrics_output_simple.csv')
 COMPLEX_CSV = os.path.join(CSV_DIR, 'metrics_output_complex.csv')
 MULTI_AGENT_CSV = os.path.join(CSV_DIR, 'metrics_output_multi_agent.csv')
+TRAINED_AGENT_CSV = os.path.join(CSV_DIR, 'metrics_output_trained_agent.csv')
 SENTIMENT_CSV = os.path.join(CSV_DIR, 'sentiment_dataset_by_turn.csv')
 FEEDBACK_CSV = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
 LSM_CSV = {
     'simple': os.path.join(CSV_DIR, 'lsm_metrics_simple.csv'),
+    'trained_agent': os.path.join(CSV_DIR, 'lsm_metrics_trained_agent.csv'),
     'complex': os.path.join(CSV_DIR, 'lsm_metrics_complex.csv'),
-    'multi_agent': os.path.join(CSV_DIR, 'lsm_metrics_multi_agent.csv')
+    'multi_agent': os.path.join(CSV_DIR, 'lsm_metrics_multi_agent.csv'),
 }
 
 # Mode labels
 MODE_LABELS = {
     'simple': 'simple',
+    'trained_agent': 'trained agent',
     'complex': 'complex',
-    'multi_agent': 'multi-agent'
+    'multi_agent': 'multi-agent',
 }
 
 # Colors and styles
 COLORS = {
-    'simple': '#FF8C00',  # Orange
-    'complex': '#4169E1',  # Royal blue
-    'multi_agent': '#1E90FF'  # Dodger blue
+    'simple': '#FF8C00',        # Orange
+    'trained_agent': '#2ECC71', # Emerald green
+    'complex': '#4169E1',       # Royal blue
+    'multi_agent': '#1E90FF',   # Dodger blue
 }
 
 STYLES = {
-    'simple': '-',  # Solid
-    'complex': '-',  # Solid
-    'multi_agent': '-'  # Solid
+    'simple': '-',          # Solid
+    'trained_agent': '--',  # Dashed
+    'complex': '-',         # Solid
+    'multi_agent': '-',     # Solid
 }
 
 MARKERS = {
-    'simple': 'o',  # Circle
-    'complex': 's',  # Square
-    'multi_agent': 'x'  # X
+    'simple': 'o',          # Circle
+    'trained_agent': '^',   # Triangle
+    'complex': 's',         # Square
+    'multi_agent': 'x',     # X
 }
 
 
@@ -65,7 +71,7 @@ def load_data():
     """Load all three CSV files."""
     data = {}
     
-    for mode, filepath in [('simple', SIMPLE_CSV), ('complex', COMPLEX_CSV), ('multi_agent', MULTI_AGENT_CSV)]:
+    for mode, filepath in [('simple', SIMPLE_CSV), ('trained_agent', TRAINED_AGENT_CSV), ('complex', COMPLEX_CSV), ('multi_agent', MULTI_AGENT_CSV)]:
         if os.path.exists(filepath):
             df = pd.read_csv(filepath)
             data[mode] = df
@@ -129,7 +135,7 @@ def plot_counselor_words(data):
     """Plot 1: Average words per turn by counselors with standard error shading."""
     fig, ax = plt.subplots(figsize=(10, 6))
     
-    for mode in ['simple', 'complex', 'multi_agent']:
+    for mode in ['simple', 'trained_agent', 'complex', 'multi_agent']:
         if mode in data:
             df = data[mode].copy()
             df = convert_turn_to_percentage(df)
@@ -171,7 +177,7 @@ def plot_client_words(data):
     """Plot 2: Average words per turn by clients with standard error bars at each point."""
     fig, ax = plt.subplots(figsize=(10, 6))
     
-    for mode in ['simple', 'complex', 'multi_agent']:
+    for mode in ['simple', 'trained_agent', 'complex', 'multi_agent']:
         if mode in data:
             df = data[mode].copy()
             df = convert_turn_to_percentage(df)
@@ -213,7 +219,7 @@ def plot_word_ratio(data):
     """Plot 3: Word ratio between counselors and clients with standard error shading."""
     fig, ax = plt.subplots(figsize=(10, 6))
     
-    for mode in ['simple', 'complex', 'multi_agent']:
+    for mode in ['simple', 'trained_agent', 'complex', 'multi_agent']:
         if mode in data:
             df = data[mode].copy()
             df = convert_turn_to_percentage(df)
@@ -266,7 +272,7 @@ def plot_sentiment_distribution(sentiment_df):
     
     # Prepare data organized by sentiment type and mode
     sentiment_types = ['negative', 'neutral', 'positive']
-    modes = ['simple', 'complex', 'multi_agent']
+    modes = ['simple', 'trained_agent', 'complex', 'multi_agent']
     
     # Organize data: sentiment_type -> mode -> values
     plot_data = {sent: {mode: [] for mode in modes} for sent in sentiment_types}
@@ -318,8 +324,9 @@ def plot_sentiment_distribution(sentiment_df):
     from matplotlib.patches import Patch
     legend_elements = [
         Patch(facecolor=COLORS['simple'], alpha=0.7, label='simple'),
+        Patch(facecolor=COLORS['trained_agent'], alpha=0.7, label='trained agent'),
         Patch(facecolor=COLORS['complex'], alpha=0.7, label='complex'),
-        Patch(facecolor=COLORS['multi_agent'], alpha=0.7, label='multi-agent')
+        Patch(facecolor=COLORS['multi_agent'], alpha=0.7, label='multi-agent'),
     ]
     ax.legend(handles=legend_elements, loc='upper right')
     
@@ -351,12 +358,12 @@ def plot_positive_sentiment_over_time(sentiment_df):
     
     # Collect data for each mode and split
     results = {mode: {'splits': [], 'means': [], 'ses': []}  # Changed 'stds' to 'ses'
-               for mode in ['simple', 'complex', 'multi_agent']}
+               for mode in ['simple', 'trained_agent', 'complex', 'multi_agent']}
     
     for percent, turn_num in splits.items():
         split_data = sentiment_df[sentiment_df['turn_number'] == turn_num]
         
-        for mode in ['simple', 'complex', 'multi_agent']:
+        for mode in ['simple', 'trained_agent', 'complex', 'multi_agent']:
             mode_split_data = split_data[split_data['therapist_mode'] == mode]
             if not mode_split_data.empty:
                 prop_pos_values = mode_split_data['prop_pos'].values
@@ -372,16 +379,16 @@ def plot_positive_sentiment_over_time(sentiment_df):
     fig, ax = plt.subplots(figsize=(10, 6))
     
     x_pos = np.array([20, 40, 60, 80, 100])
-    width = 5  # Width of bars
+    width = 4  # Width of bars (reduced to fit 4 modes)
     
-    for i, mode in enumerate(['simple', 'complex', 'multi_agent']):
+    for i, mode in enumerate(['simple', 'trained_agent', 'complex', 'multi_agent']):
         if results[mode]['splits']:
             means = np.array(results[mode]['means'])
             ses = np.array(results[mode]['ses'])  # Changed from 'stds' to 'ses'
             splits = np.array(results[mode]['splits'])
             
-            # Adjust x position for grouped bars
-            offset = (i - 1) * width
+            # Adjust x position for grouped bars (center around 0 for 4 modes)
+            offset = (i - 1.5) * width
             x_pos_adjusted = x_pos + offset
             
             ax.bar(x_pos_adjusted, means, width, yerr=ses, 
@@ -409,7 +416,7 @@ def plot_lsm_over_time(lsm_data):
 
     fig, ax = plt.subplots(figsize=(10, 6))
 
-    for mode in ['simple', 'complex', 'multi_agent']:
+    for mode in ['simple', 'trained_agent', 'complex', 'multi_agent']:
         if mode in lsm_data:
             df = lsm_data[mode].copy()
             df = convert_lsm_turn_to_percentage(df)
@@ -467,7 +474,7 @@ def plot_feedback_scores(feedback_df):
         'Overall Average'
     ]
     
-    modes = ['simple', 'complex', 'multi_agent']
+    modes = ['simple', 'trained_agent', 'complex', 'multi_agent']
     
     # Group by criterion and mode, calculate mean and std
     grouped = feedback_df.groupby(['criterion', 'therapist_mode'])['score'].agg(['mean', 'std', 'count']).reset_index()
@@ -498,19 +505,19 @@ def plot_feedback_scores(feedback_df):
                 plot_data[mode]['counts'].append(0)
     
     # Create figure
-    fig, ax = plt.subplots(figsize=(14, 8))
+    fig, ax = plt.subplots(figsize=(16, 8))
     
     # Set up bar positions
     n_criteria = len(criteria_order)
     n_modes = len(modes)
     x = np.arange(n_criteria)
-    width = 0.25  # Width of bars
+    width = 0.20  # Width of bars (reduced for 4 modes)
     
     # Plot bars for each mode
     for i, mode in enumerate(modes):
         means = np.array(plot_data[mode]['means'])
         ses = np.array(plot_data[mode]['ses'])  # Changed from 'stds' to 'ses'
-        offset = (i - 1) * width  # Center the bars
+        offset = (i - 1.5) * width  # Center the bars for 4 modes
         bars = ax.bar(x + offset, means, width, yerr=ses, 
                      label=MODE_LABELS.get(mode, mode),
                      color=COLORS[mode], alpha=0.7, capsize=5)

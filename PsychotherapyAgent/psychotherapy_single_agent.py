@@ -128,8 +128,9 @@ class PsychotherapySingleAgent:
             api_key: str,
             therapist_index: int = 0,
             prompt_addon: str = "",
-            model: str = "gpt-5-mini",
-            temperature: float = 0.8
+            model: str = "gpt-5.4-mini",
+            temperature: float = 0.8,
+            include_patient_profile: bool = True
     ):
         """
         Initialize a single-agent therapist with session management.
@@ -138,11 +139,15 @@ class PsychotherapySingleAgent:
             api_key: OpenAI API key
             therapist_index: Index of therapist profile to use (default: 0)
             prompt_addon: Additional text to append to therapist prompt
-            model: OpenAI model to use (default: "gpt-5-mini" to match proposer)
-            temperature: LLM temperature for response generation (default: 0.8 to match proposer, not used for gpt-5-mini)
+            model: OpenAI model to use (default: "gpt-5.4-mini" to match proposer)
+            temperature: LLM temperature for response generation (default: 0.8 to match proposer, not used for gpt-5.4-mini)
+            include_patient_profile: Whether the therapist has access to the patient profile (default: True).
+                                     Set to False for the "trained_agent" mode where the complex MI prompt
+                                     is used but the patient profile is withheld from the therapist.
         """
         self.api_key = SecretStr(api_key)
         self.therapist_index = therapist_index
+        self.include_patient_profile = include_patient_profile
         self.model = model
         self.temperature = temperature
 
@@ -157,8 +162,8 @@ class PsychotherapySingleAgent:
             "model": model,
             "api_key": self.api_key
         }
-        # Only include temperature for non-gpt-5-mini models
-        if model != "gpt-5-mini":
+        # Only include temperature for non-gpt-5.4-mini models
+        if model != "gpt-5.4-mini":
             llm_kwargs["temperature"] = temperature
         self.llm = ChatOpenAI(**llm_kwargs)
 
@@ -192,10 +197,13 @@ class PsychotherapySingleAgent:
         Raises:
             Exception: If LLM invocation fails
         """
-        # For simple agent (index 0), filter out patient profile (case study from .txt files)
-        # Complex agent (index 1) should have explicit access to patient profile like proposer
-        if self.therapist_index == 0:
-            # Simple agent: Filter out patient profile system messages
+        # For simple agent (index 0) or any mode with include_patient_profile=False,
+        # filter out patient profile (case study from .txt files).
+        # Complex agent (index 2) with include_patient_profile=True has explicit access
+        # to patient profile like proposer. The "trained_agent" mode uses index 1
+        # but with include_patient_profile=False to withhold the profile.
+        if self.therapist_index == 0 or not self.include_patient_profile:
+            # Simple agent OR complex_noprofile: Filter out ALL patient profile system messages
             filter_patient_profile = True
             cleaned_conversation = MessageCleaner.clean_conversation(
                 conversation, 
@@ -207,7 +215,8 @@ class PsychotherapySingleAgent:
                 *cleaned_conversation
             ]
         else:
-            # Complex agent (index 1): Extract patient profile, filter out Virtual Patient role
+            # Complex agent (index 1) with include_patient_profile=True:
+            # Extract patient profile, filter out Virtual Patient role
             filter_patient_profile = False
             cleaned_conversation = MessageCleaner.clean_conversation(
                 conversation, 

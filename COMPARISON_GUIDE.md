@@ -1,30 +1,35 @@
-# PsychotherapyAgent Comparison Guide: Simple vs Complex vs Multi-Agent System
+# PsychotherapyAgent Comparison Guide: Simple vs Trained Agent vs Complex vs Multi-Agent System
 
-This guide explains how to compare the performance between three different therapist configurations:
-1. Simple prompt single-agent
-2. Complex prompt single-agent (with detailed MI techniques)
-3. Multi-agent system (proposer + judge)
+This guide explains how to compare the performance between four different therapist configurations:
+1. Simple prompt single-agent (no MI, no patient profile)
+2. Trained agent single-agent (MI prompt, no patient profile)
+3. Complex prompt single-agent (MI prompt + patient profile)
+4. Multi-agent system (proposer + judge)
 
 ## Overview
 
-The system supports three modes with **two-stage aggregation** for robust statistical analysis:
+The system supports four modes with **two-stage aggregation** for robust statistical analysis:
 
 1. **Simple Mode** (`therapist_mode="simple"`):
-   - Uses `PsychotherapySingleAgent` with a simple prompt from `Therapist_Prompts/therapist_prompts.csv`
-   - Single-agent system that generates one therapist response
+   - Uses `PsychotherapySingleAgent` with a naive counselor prompt (CSV index 0: `0_Simple_Agent`)
+   - No MI-specific language or rubric; patient profile is not provided
    - Response is sent directly to the patient
 
-2. **Complex Mode** (`therapist_mode="complex"`):
-   - Uses `PsychotherapySingleAgent` with a complex, MI-focused prompt from `Therapist_Prompts/therapist_prompts.csv`
-   - Single-agent system with more sophisticated prompt
+2. **Trained Agent Mode** (`therapist_mode="trained_agent"`):
+   - Uses `PsychotherapySingleAgent` with a full MI-focused prompt (CSV index 1: `1_Trained_Agent`)
+   - Patient profile is intentionally withheld to isolate the effect of MI prompting alone
    - Response is sent directly to the patient
 
-3. **Multi-Agent Mode** (`therapist_mode="multi_agent"`):
-   - Uses `PsychotherapyMultiAgent` with proposer and judge agents
+3. **Complex Mode** (`therapist_mode="complex"`):
+   - Uses `PsychotherapySingleAgent` with the same MI-focused prompt AND full patient profile context (CSV index 2: `2_Complex_Agent`)
+   - Single-agent system with sophisticated MI prompt and patient history
+   - Response is sent directly to the patient
+
+4. **Multi-Agent Mode** (`therapist_mode="multi_agent"`):
+   - Uses `PsychotherapyMultiAgent` with proposer (CSV index 3: `3_MultiAgent_Proposer`) and judge (CSV index 4: `4_MultiAgent_Judge`) agents
    - Proposer agent generates 3 candidate therapist responses
-   - Judge agent selects the best response from the 3 candidates
+   - Judge agent selects the best response from the 3 candidates based on MI criteria
    - Selected response is sent to the patient
-   - This is the new enhanced system
 
 ## Data Aggregation Method
 
@@ -57,39 +62,44 @@ This approach provides **more stable and reliable comparisons** between modes.
 
 ## Evaluation Script Commands
 
-The `run_automated_test.py` script supports all three modes with flexible options:
+The `run_automated_test.py` script supports all four modes with flexible options:
 
 1. **Run Simple Mode Only**:
    ```bash
    python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --mode simple --run-id test1
    ```
 
-2. **Run Complex Mode Only**:
+2. **Run Trained Agent Mode Only**:
    ```bash
-   python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --mode complex --run-id test2
+   python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --mode trained_agent --run-id test2
    ```
 
-3. **Run Multi-Agent Mode Only**:
+3. **Run Complex Mode Only**:
    ```bash
-   python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --mode multi_agent --run-id test3
+   python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --mode complex --run-id test3
    ```
 
-4. **Run All Three Modes + Aggregation (Comparison)**:
+4. **Run Multi-Agent Mode Only**:
+   ```bash
+   python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --mode multi_agent --run-id test4
+   ```
+
+5. **Run All Four Modes + Aggregation (Comparison)**:
    ```bash
    python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --compare --run-id exp1
    ```
 
-5. **Run All Three Modes WITHOUT Aggregation**:
+6. **Run All Four Modes WITHOUT Aggregation**:
    ```bash
    python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --compare --no-aggregate --run-id exp1
    ```
 
-6. **Run Aggregation Only (after sessions completed)**:
+7. **Run Aggregation Only (after sessions completed)**:
    ```bash
    python run_automated_test.py --aggregate
    ```
 
-7. **Specify Custom Parameters**:
+8. **Specify Custom Parameters**:
    ```bash
    python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id full_test \
      --max-workers 20 --skip-sentiment
@@ -98,7 +108,7 @@ The `run_automated_test.py` script supports all three modes with flexible option
 ### Key Parameters
 
 - `--fold N`: Run each patient N times (default: 1)
-- `--compare`: Run all 3 modes and generate comparison
+- `--compare`: Run all 4 modes and generate comparison
 - `--no-aggregate`: Skip evaluation/aggregation scripts
 - `--aggregate`: Only run aggregation (no new sessions)
 - `--max-workers N`: Parallel workers for processing (default: 20)
@@ -108,7 +118,7 @@ The `run_automated_test.py` script supports all three modes with flexible option
 
 ### Step 1: Run Comparison Experiment
 
-The `--compare` flag runs all three modes sequentially and generates a comparison:
+The `--compare` flag runs all four modes sequentially and generates a comparison:
 
 ```bash
 python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id exp1
@@ -116,10 +126,11 @@ python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --comp
 
 This will:
 1. Run all patients with simple prompt mode (133 patients × 5 folds = 665 sessions)
-2. Run all patients with complex prompt mode (665 sessions)
-3. Run all patients with multi-agent mode (665 sessions)
-4. Automatically run all evaluation/aggregation scripts
-5. Generate comparison statistics and plots
+2. Run all patients with trained agent mode (665 sessions)
+3. Run all patients with complex prompt mode (665 sessions)
+4. Run all patients with multi-agent mode (665 sessions)
+5. Automatically run all evaluation/aggregation scripts
+6. Generate comparison statistics and plots
 
 **For faster execution without aggregation:**
 ```bash
@@ -142,6 +153,7 @@ Stored in `Session_Metadata/` directory:
   - `metadata.json` - Run configuration
   - `results_simple.csv` - Individual session results (before aggregation)
   
+- `{run_id}_trained_agent_patients_{start}_{end}_fold{N}_{timestamp}/`
 - `{run_id}_complex_patients_{start}_{end}_fold{N}_{timestamp}/`
 - `{run_id}_multi_agent_patients_{start}_{end}_fold{N}_{timestamp}/`
 
@@ -151,7 +163,7 @@ Stored in `Session_Metadata/` directory:
 - `sentiment_dataset_by_turn.csv` - Sentiment analysis per turn
 - `lsm_metrics_{mode}.csv` - Language Style Matching scores
 - `metrics_output_{mode}.csv` - Word count and ratio metrics
-- `comparison_results.csv` - Three-way comparison summary
+- `comparison_results.csv` - Four-way comparison summary
 - `friedman_test_results.csv` - Statistical significance tests
 - `wilcoxon_test_{mode1}_vs_{mode2}.csv` - Pairwise comparisons
 
@@ -169,15 +181,15 @@ Stored in `Session_Metadata/` directory:
 The comparison CSV includes:
 
 - **Category**: Evaluation category (Empathy, Acceptance, etc.)
-- **Simple_Mean**: Average score for simple prompt mode
-- **Simple_Std**: Standard deviation for simple prompt mode
-- **Complex_Mean**: Average score for complex prompt mode
-- **Complex_Std**: Standard deviation for complex prompt mode
-- **MultiAgent_Mean**: Average score for multi-agent mode
-- **MultiAgent_Std**: Standard deviation for multi-agent mode
+- **Simple_Mean** / **Simple_Std**: Score statistics for simple mode
+- **TrainedAgent_Mean** / **TrainedAgent_Std**: Score statistics for trained agent mode
+- **Complex_Mean** / **Complex_Std**: Score statistics for complex mode
+- **MultiAgent_Mean** / **MultiAgent_Std**: Score statistics for multi-agent mode
 - **Best_Mode**: Which mode performed best for this category
+- **Simple_vs_TrainedAgent**: Difference (Trained Agent - Simple)
 - **Simple_vs_Complex**: Difference (Complex - Simple)
 - **Simple_vs_MultiAgent**: Difference (Multi-Agent - Simple)
+- **TrainedAgent_vs_Complex**: Difference (Complex - Trained Agent)
 - **Complex_vs_MultiAgent**: Difference (Multi-Agent - Complex)
 
 ## Evaluation Categories
@@ -198,11 +210,16 @@ The system evaluates on these MI (Motivational Interviewing) criteria:
 ## Example Output
 
 ```
-THREE-WAY COMPARISON SUMMARY
+FOUR-WAY COMPARISON SUMMARY
 ================================================================================
-Category                    Simple_Mean  Complex_Mean  MultiAgent_Mean  Best_Mode
-Cultivating Change Talk     3.2         3.5          3.7              Multi-Agent
-Empathy  fold parameter for reliability**: Use `--fold 5` to run each patient 5 times for more stable measurements
+Category                  Simple_Mean  TrainedAgent_Mean  Complex_Mean  MultiAgent_Mean  Best_Mode
+Cultivating Change Talk   3.2          3.4                3.5           3.7              Multi-Agent
+Empathy                   3.5          3.6                3.7           3.9              Multi-Agent
+```
+
+## Best Practices
+
+1. **Use the `--fold` parameter for reliability**: Use `--fold 5` to run each patient 5 times for more stable measurements
 2. **Use the same patient set**: Run all modes on the same patients for fair comparison
 3. **Parallel execution**: Use `--max-workers` to speed up processing (default: 20)
 4. **Batch processing**: You can run patients in batches (e.g., 0-50, 50-100, 100-133) - the aggregation will correctly merge them
@@ -221,21 +238,22 @@ All aggregated CSV files show **count = 133** (one per patient):
 - Statistics are calculated across 133 unique patients in Stage 2
 - If you ran patients in multiple batches, the same patient across batches is merged automatically
 ================================================================================
-Simple Prompt:     3.500 ± 0.200
-Complex Prompt:    3.600 ± 0.180
-Multi-Agent:       3.700 ± 0.150
+Simple Prompt:         3.500 ± 0.200
+Trained Agent:         3.580 ± 0.190
+Complex Prompt:        3.600 ± 0.180
+Multi-Agent:           3.700 ± 0.150
 
 Best Performing: Multi-Agent
 
 Differences:
-  Complex vs Simple:      +0.100 (+2.86%)
-  Multi-Agent vs Simple: +0.200 (+5.71%)
-  Multi-Agent vs Complex: +0.100 (+2.78%)
+  Trained Agent vs Simple:  +0.080 (+2.29%)
+  Complex vs Simple:        +0.100 (+2.86%)
+  Multi-Agent vs Simple:    +0.200 (+5.71%)
+  Complex vs Trained Agent: +0.020 (+0.56%)
+  Multi-Agent vs Complex:   +0.100 (+2.78%)
 ```
 
-## Best Practices
-
-1. **Use the same patient set**: Run both modes on the same patients for fair comparison
+1. **Use the same patient set**: Run all modes on the same patients for fair comparison
 2. **Run multiple times**: Consider running multiple experiments to account for variability
 3. **Check individual scores**: Look at individual patient results, not just averages
 4. **Review feedback files**: Check the detailed feedback files in saved sessions for qualitative insights
@@ -251,7 +269,7 @@ Differences:
 
 ### Multi-Agent Flow
 
-1. **PsychotherapyMultiAgent** initialized with proposer (index 2) and judge (index 3) from `Therapist_Prompts/therapist_prompts.csv`
+1. **PsychotherapyMultiAgent** initialized with proposer (index 3: `3_MultiAgent_Proposer`) and judge (index 4: `4_MultiAgent_Judge`) from `Therapist_Prompts/therapist_prompts.csv`
 2. **Proposer Agent**: Generates 3 candidate responses based on conversation
 3. **Judge Agent**: Evaluates and selects best response based on:
    - Therapeutic appropriateness
@@ -261,11 +279,12 @@ Differences:
 4. Selected response sent to patient
 5. Patient responds
 
-### Single-Agent Flow (Simple & Complex Modes)
+### Single-Agent Flow (Simple, Trained Agent & Complex Modes)
 
 1. **PsychotherapySingleAgent** initialized with therapist profile from `Therapist_Prompts/therapist_prompts.csv`:
-   - Simple mode: uses index 0 (0_Simple_Agent)
-   - Complex mode: uses index 1 (1_Complex_Agent)
+   - Simple mode: uses index 0 (`0_Simple_Agent`) — no patient profile
+   - Trained Agent mode: uses index 1 (`1_Trained_Agent`) — MI prompt, patient profile withheld
+   - Complex mode: uses index 2 (`2_Complex_Agent`) — MI prompt with patient profile
 2. Agent generates response directly
 3. Response sent to patient
 4. Patient responds

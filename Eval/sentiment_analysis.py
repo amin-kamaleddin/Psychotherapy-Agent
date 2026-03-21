@@ -102,7 +102,7 @@ def classify_sentiment_single(text, api_key):
     Each call creates its own LLM instance for thread safety.
     """
     try:
-        llm = ChatOpenAI(model="gpt-5-nano", api_key=api_key)
+        llm = ChatOpenAI(model="gpt-5.4-nano", api_key=api_key)
         msg = HumanMessage(content=f"Classify the sentiment of the following text as 'positive', 'neutral', or 'negative'. Return ONLY the word.\n\nText: {text}")
         response = llm.invoke([msg])
         sentiment = response.content.strip().lower()

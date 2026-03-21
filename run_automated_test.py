@@ -66,8 +66,9 @@ def run_test(patient_profile_path, therapist_profile_number,
         patient_number: Optional patient identifier for folder naming
         therapist_feedback_csv: Optional CSV file with therapist feedback prompts
         api_key_input: Optional API key
-        therapist_mode: One of "simple", "complex", or "multi_agent"
-                        - "simple": Single-agent with simple prompt (uses therapist_profile_number)
+        therapist_mode: One of "simple", "trained_agent", "complex", or "multi_agent"
+                        - "simple": Single-agent with simple prompt (no patient profile)
+                        - "trained_agent": Single-agent with complex MI prompt but WITHOUT patient profile
                         - "complex": Single-agent with complex MI prompt (uses therapist_profile_number)
                         - "multi_agent": Multi-agent system (proposer+judge)
     """
@@ -92,13 +93,23 @@ def run_test(patient_profile_path, therapist_profile_number,
         # Multi-agent mode: use PsychotherapyMultiAgent
         lb = PsychotherapyMultiAgent(api_key_input)
         
-        # Set proposer and judge to use CSV rows 4 and 5 (indices 2 and 3)
-        # CSV structure: Row 1=Header, Row 2=0_Simple_Agent (index 0), Row 3=1_Complex_Agent (index 1),
-        #                Row 4=2_MultiAgent_Proposer (index 2), Row 5=3_MultiAgent_Judge (index 3)
-        proposer_index = 2  # Row 4 in CSV: 2_MultiAgent_Proposer
-        judge_index = 3     # Row 5 in CSV: 3_MultiAgent_Judge
+        # Set proposer and judge to use CSV rows 5 and 6 (indices 3 and 4)
+        # CSV structure: Row 1=Header, Row 2=0_Simple_Agent (index 0), Row 3=1_Trained_Agent (index 1),
+        #                Row 4=2_Complex_Agent (index 2), Row 5=3_MultiAgent_Proposer (index 3),
+        #                Row 6=4_MultiAgent_Judge (index 4)
+        proposer_index = 3  # Row 5 in CSV: 3_MultiAgent_Proposer
+        judge_index = 4     # Row 6 in CSV: 4_MultiAgent_Judge
         lb.set_multi_agent_therapist_profiles(proposer_index, judge_index)
         logging.info(f"Multi-agent mode: Proposer index {proposer_index}, Judge index {judge_index}")
+    elif therapist_mode == "trained_agent":
+        # Trained agent: complex MI prompt (index 1) but patient profile is withheld
+        lb = PsychotherapySingleAgent(
+            api_key_input,
+            therapist_index=therapist_profile_number,
+            prompt_addon=add_on,
+            include_patient_profile=False
+        )
+        logging.info("trained_agent mode: Using complex MI prompt without patient profile")
     else:
         # Single-agent modes (simple/complex): use PsychotherapySingleAgent
         lb = PsychotherapySingleAgent(
@@ -245,20 +256,23 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     
     Args:
         args: Command line arguments
-        therapist_mode: One of "simple", "complex", or "multi_agent"
+        therapist_mode: One of "simple", "trained_agent", "complex", or "multi_agent"
         simple_therapist_num: Therapist profile index for simple mode (default: 0, CSV index 0/row 2)
-        complex_therapist_num: Therapist profile index for complex mode (default: 1, CSV index 1/row 3)
+        complex_therapist_num: Therapist profile index for complex mode (default: 2, CSV index 2/row 4)
     """
     start_time = time.time()
     
     # Determine which therapist profile number to use
-    # THERAPIST_NUM maps to mode: 0=simple (CSV index 0, row 2), 1=complex (CSV index 1, row 3), 2=multi-agent (uses indices 2&3, rows 4&5)
+    # CSV structure: 0=simple (row 2), 1=trained_agent (row 3), 2=complex (row 4),
+    #                3=multi_agent proposer (row 5), 4=multi_agent judge (row 6)
     if therapist_mode == "simple":
-        therapist_num = simple_therapist_num if simple_therapist_num is not None else 0  # Mode 0 = CSV index 0 (row 2)
+        therapist_num = simple_therapist_num if simple_therapist_num is not None else 0  # CSV index 0 (row 2)
+    elif therapist_mode == "trained_agent":
+        therapist_num = 1  # CSV index 1 (row 3): 1_Trained_Agent — complex MI, no patient profile
     elif therapist_mode == "complex":
-        therapist_num = complex_therapist_num if complex_therapist_num is not None else 1  # Mode 1 = CSV index 1 (row 3)
+        therapist_num = complex_therapist_num if complex_therapist_num is not None else 2  # CSV index 2 (row 4)
     else:  # multi_agent
-        therapist_num = 2  # Mode 2 = multi-agent (proposer uses CSV index 2/row 4, judge uses CSV index 3/row 5)
+        therapist_num = 3  # multi-agent uses proposer index 3 (row 5) and judge index 4 (row 6)
 
     # Get patient files for this range
     patient_files = get_patient_files(args.start_patient, args.end_patient)
@@ -411,9 +425,9 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
 
 
 def run_comparison_experiment(args):
-    """Run all three therapist modes (simple, complex, multi-agent) and compare results."""
+    """Run all four therapist modes (simple, trained_agent, complex, multi-agent) and compare results."""
     print("\n" + "=" * 80)
-    print("RUNNING COMPARISON EXPERIMENT: Simple vs Complex vs Multi-Agent")
+    print("RUNNING COMPARISON EXPERIMENT: Simple vs Trained Agent vs Complex vs Multi-Agent")
     print("=" * 80)
     
     # Get fold parameter
@@ -422,9 +436,9 @@ def run_comparison_experiment(args):
         print(f"Running with {fold} folds per patient")
     
     # Get therapist profile numbers from args
-    # THERAPIST_NUM maps to mode: 0=simple (CSV index 0, row 2), 1=complex (CSV index 1, row 3), 2=multi-agent
-    simple_num = args.simple_therapist if hasattr(args, 'simple_therapist') and args.simple_therapist is not None else 0  # Mode 0
-    complex_num = args.complex_therapist if hasattr(args, 'complex_therapist') and args.complex_therapist is not None else 1  # Mode 1
+    # CSV structure: 0=simple (row 2), 1=trained_agent (row 3), 2=complex (row 4), 3=proposer (row 5), 4=judge (row 6)
+    simple_num = args.simple_therapist if hasattr(args, 'simple_therapist') and args.simple_therapist is not None else 0
+    complex_num = args.complex_therapist if hasattr(args, 'complex_therapist') and args.complex_therapist is not None else 2  # CSV index 2
     
     # Run simple mode
     print("\n[PHASE 1] Running SIMPLE prompt mode...")
@@ -453,9 +467,18 @@ def run_comparison_experiment(args):
         complex_therapist_num=complex_num
     )
     
+    # Run trained_agent mode
+    print("\n[PHASE 4] Running TRAINED AGENT mode (complex MI prompt, no patient profile)...")
+    trained_agent_folder, trained_agent_csv = run_parallel_experiments(
+        args,
+        therapist_mode="trained_agent",
+        simple_therapist_num=simple_num,
+        complex_therapist_num=complex_num
+    )
+    
     # Compare results
-    print("\n[PHASE 4] Comparing results...")
-    comparison_results = compare_results_three_way(simple_csv, complex_csv, multiagent_csv, args)
+    print("\n[PHASE 5] Comparing results...")
+    comparison_results = compare_results_four_way(simple_csv, complex_csv, multiagent_csv, trained_agent_csv, args)
     
     print("\n" + "=" * 80)
     print("COMPARISON COMPLETE!")
@@ -473,9 +496,11 @@ def run_comparison_experiment(args):
         "simple_folder": simple_folder,
         "complex_folder": complex_folder,
         "multiagent_folder": multiagent_folder,
+        "trained_agent_folder": trained_agent_folder,
         "simple_csv": simple_csv,
         "complex_csv": complex_csv,
         "multiagent_csv": multiagent_csv,
+        "trained_agent_csv": trained_agent_csv,
         "comparison": comparison_results
     }
 
@@ -581,6 +606,112 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
     }
 
 
+def compare_results_four_way(simple_csv_path, complex_csv_path, multiagent_csv_path, trained_agent_csv_path, args):
+    """Compare results from simple, trained_agent, complex, and multi-agent modes."""
+    simple_df = pd.read_csv(simple_csv_path)
+    complex_df = pd.read_csv(complex_csv_path)
+    multiagent_df = pd.read_csv(multiagent_csv_path)
+    trained_agent_df = pd.read_csv(trained_agent_csv_path)
+
+    # Ensure all have the same patients
+    for df in [simple_df, complex_df, multiagent_df, trained_agent_df]:
+        df.sort_values("Patient", inplace=True)
+        df.reset_index(drop=True, inplace=True)
+
+    # Score categories
+    categories = [
+        "Cultivating Change Talk",
+        "Softening Sustain Talk",
+        "Partnership",
+        "Empathy",
+        "Acceptance",
+        "Direction",
+        "Autonomy Support",
+        "Collaboration",
+        "Evocation",
+        "Overall Average"
+    ]
+
+    all_cols = set(simple_df.columns) & set(complex_df.columns) & set(multiagent_df.columns) & set(trained_agent_df.columns)
+
+    comparison_data = []
+    for cat in categories:
+        if cat not in all_cols:
+            continue
+        simple_scores = simple_df[cat].dropna()
+        complex_scores = complex_df[cat].dropna()
+        multi_scores = multiagent_df[cat].dropna()
+        trained_scores = trained_agent_df[cat].dropna()
+
+        if not (len(simple_scores) > 0 and len(complex_scores) > 0 and
+                len(multi_scores) > 0 and len(trained_scores) > 0):
+            continue
+
+        simple_mean = simple_scores.mean()
+        complex_mean = complex_scores.mean()
+        multi_mean = multi_scores.mean()
+        trained_mean = trained_scores.mean()
+
+        best_score = max(simple_mean, complex_mean, multi_mean, trained_mean)
+        if best_score == simple_mean:
+            best_mode = "Simple"
+        elif best_score == trained_mean:
+            best_mode = "Trained Agent"
+        elif best_score == complex_mean:
+            best_mode = "Complex"
+        else:
+            best_mode = "Multi-Agent"
+
+        comparison_data.append({
+            "Category": cat,
+            "Simple_Mean": simple_mean,
+            "Simple_Std": simple_scores.std(),
+            "TrainedAgent_Mean": trained_mean,
+            "TrainedAgent_Std": trained_scores.std(),
+            "Complex_Mean": complex_mean,
+            "Complex_Std": complex_scores.std(),
+            "MultiAgent_Mean": multi_mean,
+            "MultiAgent_Std": multi_scores.std(),
+            "Best_Mode": best_mode,
+            "Simple_vs_TrainedAgent": trained_mean - simple_mean,
+            "Simple_vs_Complex": complex_mean - simple_mean,
+            "Simple_vs_MultiAgent": multi_mean - simple_mean,
+            "TrainedAgent_vs_Complex": complex_mean - trained_mean,
+            "Complex_vs_MultiAgent": multi_mean - complex_mean,
+        })
+
+    comparison_df = pd.DataFrame(comparison_data)
+
+    eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
+    csv_dir = os.path.join(eval_dir, "csv")
+    os.makedirs(csv_dir, exist_ok=True)
+
+    comparison_csv = os.path.join(csv_dir, "comparison_results.csv")
+    comparison_df.to_csv(comparison_csv, index=False)
+
+    print("\n" + "=" * 80)
+    print("FOUR-WAY COMPARISON SUMMARY")
+    print("=" * 80)
+    print(comparison_df.to_string(index=False))
+    print(f"\nComparison saved to: {comparison_csv}")
+
+    if "Overall Average" in comparison_df["Category"].values:
+        overall_row = comparison_df[comparison_df["Category"] == "Overall Average"].iloc[0]
+        print(f"\n{'=' * 80}")
+        print("OVERALL AVERAGE COMPARISON")
+        print(f"{'=' * 80}")
+        print(f"Simple Prompt:         {overall_row['Simple_Mean']:.3f} ± {overall_row['Simple_Std']:.3f}")
+        print(f"Trained Agent:         {overall_row['TrainedAgent_Mean']:.3f} ± {overall_row['TrainedAgent_Std']:.3f}")
+        print(f"Complex Prompt:        {overall_row['Complex_Mean']:.3f} ± {overall_row['Complex_Std']:.3f}")
+        print(f"Multi-Agent:           {overall_row['MultiAgent_Mean']:.3f} ± {overall_row['MultiAgent_Std']:.3f}")
+        print(f"\nBest Performing: {overall_row['Best_Mode']}")
+
+    return {
+        "comparison_df": comparison_df,
+        "comparison_csv": comparison_csv
+    }
+
+
 def regenerate_comparison_results():
     """Regenerate comparison_results.csv by combining ALL batch results from Session_Metadata.
 
@@ -598,7 +729,7 @@ def regenerate_comparison_results():
     print("\n[regenerate_comparison_results] Collecting all batch results from Session_Metadata...")
 
     combined = {}
-    for mode in ["simple", "complex", "multi_agent"]:
+    for mode in ["simple", "trained_agent", "complex", "multi_agent"]:
         dfs = []
         for csv_path in _glob.glob(os.path.join(session_metadata_dir, "*", f"results_{mode}.csv")):
             try:
@@ -609,10 +740,13 @@ def regenerate_comparison_results():
             combined[mode] = pd.concat(dfs, ignore_index=True)
             print(f"  {mode}: {len(combined[mode])} total fold-rows across all batches")
         else:
-            print(f"  Warning: No results CSVs found for mode '{mode}', skipping regeneration.")
-            return
+            print(f"  Warning: No results CSVs found for mode '{mode}'.")
+            # Only fail if one of the original 3 modes is missing
+            if mode in ("simple", "complex", "multi_agent"):
+                print(f"  Skipping regeneration (missing required mode '{mode}').")
+                return
 
-    # Write combined CSVs to temp files, then run the standard comparison
+    # Write combined CSVs to temp files, then run the appropriate comparison
     tmp_paths = {}
     for mode, df in combined.items():
         tmp_path = os.path.join(csv_dir, f"_tmp_all_results_{mode}.csv")
@@ -622,7 +756,13 @@ def regenerate_comparison_results():
     class _Args:
         pass
 
-    compare_results_three_way(tmp_paths["simple"], tmp_paths["complex"], tmp_paths["multi_agent"], _Args())
+    if "trained_agent" in tmp_paths:
+        compare_results_four_way(
+            tmp_paths["simple"], tmp_paths["complex"],
+            tmp_paths["multi_agent"], tmp_paths["trained_agent"], _Args()
+        )
+    else:
+        compare_results_three_way(tmp_paths["simple"], tmp_paths["complex"], tmp_paths["multi_agent"], _Args())
 
     for tmp_path in tmp_paths.values():
         try:
@@ -722,8 +862,8 @@ if __name__ == "__main__":
                         help="Run identifier for grouping parallel runs")
     parser.add_argument("--aggregate", action="store_true",
                         help="Aggregate results from parallel runs")
-    parser.add_argument("--mode", type=str, choices=["simple", "complex", "multi_agent"],
-                        help="Therapist mode: simple (simple prompt), complex (complex MI prompt), or multi_agent")
+    parser.add_argument("--mode", type=str, choices=["simple", "trained_agent", "complex", "multi_agent"],
+                        help="Therapist mode: simple, trained_agent (complex MI no profile), complex, or multi_agent")
     parser.add_argument("--simple-therapist", type=int, default=None,
                         help="Therapist profile index for simple mode")
     parser.add_argument("--complex-therapist", type=int, default=None,
