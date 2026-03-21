@@ -148,15 +148,20 @@ where $\bar{d}$ is the mean of individual differences $d_i = \text{score}_{i,\te
 
 **Conventional thresholds** (Cohen, 1988):
 
-| $|d|$ | Interpretation |
-|---|---|
+| Effect size `d` | Interpretation |
+|:---:|:---|
 | 0.2 | Small |
 | 0.5 | Medium |
 | 0.8 | Large |
+| > 1.0 | Very large |
 
 **Examples**:
-- *Empathy* (multi_agent vs complex): $d = 0.74$ → large effect
-- *Evocation* (multi_agent vs simple): $d = 2.51$ → very large effect
+
+| Criterion | Comparison | d | Interpretation |
+|:---|:---|:---:|:---|
+| Empathy | multi_agent vs complex | 0.74 | Large |
+| Evocation | multi_agent vs simple | 2.51 | Very large |
+| Direction | multi_agent vs complex | -0.13 | Negligible (complex slightly higher) |
 
 ---
 
