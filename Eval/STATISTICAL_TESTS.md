@@ -144,7 +144,13 @@ $$
 d = \frac{\bar{d}}{\text{SD}(d_i)}
 $$
 
-where $\bar{d}$ is the mean of individual differences $d_i = \text{score}_{i,\text{mode}_1} - \text{score}_{i,\text{mode}_2}$, and $\text{SD}(d_i)$ is their standard deviation.
+where the individual differences and their mean are defined as:
+
+$$
+d_i = \text{score}_{i,\text{mode}_1} - \text{score}_{i,\text{mode}_2}, \qquad \bar{d} = \frac{1}{N}\sum_{i=1}^{N} d_i
+$$
+
+and $\text{SD}(d_i)$ is the standard deviation of those differences.
 
 **Conventional thresholds** (Cohen, 1988):
 
