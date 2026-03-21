@@ -12,6 +12,7 @@ import sys
 import pandas as pd
 import numpy as np
 from scipy.stats import friedmanchisquare, wilcoxon
+from statsmodels.stats.multitest import multipletests
 
 # Add project root to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -43,6 +44,11 @@ def perform_friedman_test(feedback_df):
     The Friedman test is a non-parametric statistical test used to detect 
     differences in treatments across multiple test attempts. It's appropriate
     when we have matched samples (same patients evaluated across different modes).
+    
+    Multiple testing correction:
+        BH-FDR (Benjamini-Hochberg) correction is applied across all 10 criteria,
+        since 10 simultaneous Friedman tests are performed (one per criterion).
+        Both raw and FDR-corrected p-values are reported.
     
     Returns:
         DataFrame with test results for each criterion
@@ -112,7 +118,19 @@ def perform_friedman_test(feedback_df):
             print(f"Error performing Friedman test for '{criterion}': {e}")
             continue
     
-    return pd.DataFrame(results)
+    results_df = pd.DataFrame(results)
+    
+    if not results_df.empty:
+        # --- Multiple testing correction across 10 criteria ---
+        # BH-FDR controls the False Discovery Rate, less conservative than Bonferroni
+        # and appropriate when testing multiple related outcomes (MI criteria).
+        reject_fdr, p_fdr, _, _ = multipletests(
+            results_df['p_value'].values, alpha=0.05, method='fdr_bh'
+        )
+        results_df['p_fdr_bh'] = np.round(p_fdr, 6)
+        results_df['Significant_fdr'] = ['Yes' if r else 'No' for r in reject_fdr]
+    
+    return results_df
 
 
 def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
@@ -121,6 +139,12 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
     
     The Wilcoxon signed-rank test is a non-parametric test for paired samples.
     It's appropriate when comparing the same patients across two different modes.
+    
+    Multiple testing corrections applied:
+        1. Bonferroni (N=3 pairs): p × 3, the standard post-hoc family correction
+           after Friedman (C(3,2)=3 pairwise comparisons). Controls FWER.
+        2. BH-FDR across the 10 criteria within this pair: controls False
+           Discovery Rate for testing all MI criteria in a single comparison.
     
     Args:
         feedback_df: DataFrame with feedback scores
@@ -209,7 +233,25 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
             print(f"Error performing Wilcoxon test for '{criterion}' ({mode1} vs {mode2}): {e}")
             continue
     
-    return pd.DataFrame(results)
+    results_df = pd.DataFrame(results)
+    
+    if not results_df.empty:
+        p_values = results_df['p_value'].values
+        n_pairs = 3  # C(3 modes, 2) = 3 pairwise comparisons
+        
+        # 1. Bonferroni correction for 3 pairwise comparisons (standard post-hoc family)
+        #    Controls family-wise error rate (FWER) across the 3 mode comparisons.
+        p_bonf = np.minimum(p_values * n_pairs, 1.0)
+        results_df['p_bonferroni'] = np.round(p_bonf, 6)
+        results_df['Significant_bonferroni'] = ['Yes' if p < 0.05 else 'No' for p in p_bonf]
+        
+        # 2. BH-FDR correction across 10 criteria within this pair
+        #    Controls False Discovery Rate for simultaneously testing all MI criteria.
+        reject_fdr, p_fdr, _, _ = multipletests(p_values, alpha=0.05, method='fdr_bh')
+        results_df['p_fdr_bh'] = np.round(p_fdr, 6)
+        results_df['Significant_fdr'] = ['Yes' if r else 'No' for r in reject_fdr]
+    
+    return results_df
 
 
 def main():
@@ -251,10 +293,12 @@ def main():
     
     # Summary
     n_significant = len(results_df[results_df['Significant'] == 'Yes'])
+    n_significant_fdr = len(results_df[results_df['Significant_fdr'] == 'Yes']) if 'Significant_fdr' in results_df.columns else 'N/A'
     print(f"\nSummary:")
     print(f"  - Total criteria tested: {len(results_df)}")
-    print(f"  - Significant differences (p < 0.05): {n_significant}")
-    print(f"  - Non-significant: {len(results_df) - n_significant}")
+    print(f"  - Significant (raw p < 0.05):            {n_significant}")
+    print(f"  - Significant after BH-FDR correction:   {n_significant_fdr}")
+    print(f"  NOTE: BH-FDR corrects for {len(results_df)} simultaneous Friedman tests (one per criterion).")
     
     # Perform pairwise Wilcoxon tests
     print("\n" + "="*80)
@@ -287,11 +331,16 @@ def main():
         print(f"\nResults saved to: {output_path}")
         
         # Summary for this pair
-        n_sig = len(wilcoxon_results[wilcoxon_results['Significant'] == 'Yes'])
+        n_sig_raw  = len(wilcoxon_results[wilcoxon_results['Significant'] == 'Yes'])
+        n_sig_bonf = len(wilcoxon_results[wilcoxon_results['Significant_bonferroni'] == 'Yes']) if 'Significant_bonferroni' in wilcoxon_results.columns else 'N/A'
+        n_sig_fdr  = len(wilcoxon_results[wilcoxon_results['Significant_fdr'] == 'Yes']) if 'Significant_fdr' in wilcoxon_results.columns else 'N/A'
         print(f"\nSummary ({mode1} vs {mode2}):")
         print(f"  - Total criteria tested: {len(wilcoxon_results)}")
-        print(f"  - Significant differences (p < 0.05): {n_sig}")
-        print(f"  - Non-significant: {len(wilcoxon_results) - n_sig}")
+        print(f"  - Significant (raw p < 0.05):                  {n_sig_raw}")
+        print(f"  - Significant after Bonferroni (×3 pairs):     {n_sig_bonf}  [α = 0.0167]")
+        print(f"  - Significant after BH-FDR (10 criteria):      {n_sig_fdr}")
+        print(f"  NOTE: Bonferroni corrects for C(3,2)=3 post-hoc pairwise comparisons;")
+        print(f"        BH-FDR corrects for {len(wilcoxon_results)} criteria tested within this pair.")
 
 
 if __name__ == "__main__":

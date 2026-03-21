@@ -13,3 +13,6 @@ scipy>=1.10.0
 
 # Environment variable loading
 python-dotenv>=1.0.0
+
+# Statistical testing utilities
+statsmodels>=0.14.0

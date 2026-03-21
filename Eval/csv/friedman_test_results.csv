@@ -1,11 +1,11 @@
-Criterion,N,Friedman_Chi2,p_value,Significant,simple_mean,complex_mean,multi_agent_mean,simple_std,complex_std,multi_agent_std
-Acceptance,133,61.4145,0.0,Yes,4.506,4.692,4.803,0.269,0.243,0.195
-Empathy,133,174.7928,0.0,Yes,3.871,4.356,4.646,0.326,0.322,0.269
-Direction,133,37.2077,0.0,Yes,4.839,4.951,4.951,0.238,0.149,0.099
-Collaboration,133,123.0186,0.0,Yes,4.138,4.602,4.724,0.454,0.333,0.228
-Autonomy Support,133,90.9023,0.0,Yes,4.815,4.974,4.987,0.275,0.1,0.058
-Evocation,133,215.701,0.0,Yes,3.339,4.061,4.363,0.435,0.476,0.3
-Partnership,133,56.9671,0.0,Yes,4.425,4.655,4.775,0.419,0.303,0.202
-Cultivating Change Talk,133,186.5646,0.0,Yes,3.528,4.067,4.288,0.426,0.462,0.305
-Softening Sustain Talk,133,48.8293,0.0,Yes,3.764,3.925,4.007,0.342,0.3,0.233
-Overall Average,133,208.2776,0.0,Yes,4.136,4.476,4.616,0.237,0.2,0.121
+Criterion,N,Friedman_Chi2,p_value,Significant,simple_mean,complex_mean,multi_agent_mean,simple_std,complex_std,multi_agent_std,p_fdr_bh,Significant_fdr
+Acceptance,133,68.067,0.0,Yes,4.511,4.711,4.809,0.263,0.216,0.177,0.0,Yes
+Empathy,133,195.2848,0.0,Yes,3.877,4.39,4.677,0.322,0.301,0.246,0.0,Yes
+Direction,133,40.1654,0.0,Yes,4.839,4.968,4.947,0.233,0.113,0.104,0.0,Yes
+Collaboration,133,122.4752,0.0,Yes,4.138,4.639,4.74,0.46,0.305,0.226,0.0,Yes
+Autonomy Support,133,104.3364,0.0,Yes,4.82,4.989,4.989,0.267,0.045,0.045,0.0,Yes
+Evocation,133,224.796,0.0,Yes,3.338,4.123,4.38,0.434,0.447,0.279,0.0,Yes
+Partnership,133,66.4685,0.0,Yes,4.429,4.667,4.771,0.406,0.263,0.196,0.0,Yes
+Cultivating Change Talk,133,187.8526,0.0,Yes,3.525,4.119,4.293,0.426,0.447,0.299,0.0,Yes
+Softening Sustain Talk,133,59.4868,0.0,Yes,3.765,3.941,3.998,0.333,0.288,0.225,0.0,Yes
+Overall Average,133,211.5408,0.0,Yes,4.138,4.505,4.623,0.236,0.181,0.119,0.0,Yes
