@@ -2,9 +2,8 @@
 import re
 import os
 import glob
-import json
-from datetime import datetime
 import statistics
+import pandas as pd
 
 
 CSV_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "csv")
@@ -119,113 +118,81 @@ def parse_transcript_turns(file_path):
         'ratios': ratios
     }
 
-def get_session_info(session_dir):
+def build_session_mode_map(root_dir):
     """
-    Extract timestamp and patient_id from session folder name.
-    
-    Returns:
-        tuple: (datetime, patient_id) where patient_id can be None for old format
-    """
-    basename = os.path.basename(session_dir)
-    
-    # Try new format with UUID: session_export_patient_{patient_id}_{timestamp}_{uuid}
-    new_format_pattern = r'session_export_patient_(.+?)_(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2})(?:_[a-f0-9-]+)?$'
-    match = re.match(new_format_pattern, basename)
-    if match:
-        patient_id = match.group(1)
-        date_str = match.group(2)
-        try:
-            timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
-            return timestamp, patient_id
-        except ValueError:
-            pass
-    
-    # Try old format: session_export_{timestamp}
-    try:
-        date_str = basename.replace('session_export_', '')
-        # Try with UUID first, then without
-        date_str = re.sub(r'_[a-f0-9-]+$', '', date_str)
-        timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
-        return timestamp, None  # No patient_id in old format
-    except ValueError:
-        return None, None
+    Build a mapping from session folder name to (patient_id, mode) by reading
+    all results_*.csv files in Session_Metadata.
 
-def get_test_run_info(test_dir):
-    metadata_path = os.path.join(test_dir, 'metadata.json')
-    if os.path.exists(metadata_path):
+    This replaces the previous timestamp-based approach, which was unreliable when
+    multiple batch runs started within seconds of each other, causing sessions to be
+    attributed to the wrong therapist mode.
+
+    Returns:
+        dict: {session_folder_name: (patient_id, mode)}
+    """
+    session_map = {}
+    session_metadata_dir = os.path.join(root_dir, 'Session_Metadata')
+    if not os.path.exists(session_metadata_dir):
+        return session_map
+    for csv_path in glob.glob(os.path.join(session_metadata_dir, '*', 'results_*.csv')):
         try:
-            with open(metadata_path, 'r') as f:
-                data = json.load(f)
-                ts_str = data.get('timestamp', '')
-                mode = data.get('therapist_mode', 'unknown')
-                try:
-                    timestamp = datetime.strptime(ts_str, "%Y%m%d_%H%M%S")
-                    return timestamp, mode, ts_str
-                except ValueError:
-                    pass 
-        except Exception:
-            pass
-    return None, None, None
+            df = pd.read_csv(csv_path)
+            if 'Session' not in df.columns or 'Mode' not in df.columns:
+                continue
+            for _, row in df.iterrows():
+                session_name = str(row['Session'])
+                mode = str(row['Mode'])
+                m = re.match(r'session_export_patient_(.+?)_\d{4}-\d{2}-\d{2}', session_name)
+                patient_id = m.group(1) if m else 'unknown'
+                session_map[session_name] = (patient_id, mode)
+        except Exception as e:
+            print(f"Warning: Could not read {csv_path}: {e}")
+    return session_map
 
 def aggregate_metrics(root_dir):
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
-    saved_tests_dir = os.path.join(root_dir, 'Session_Metadata')
     ensure_csv_dir()
 
-    # 1. Collect Test Runs
-    test_runs = []
-    if os.path.exists(saved_tests_dir):
-        for entry in os.scandir(saved_tests_dir):
-            if entry.is_dir():
-                ts, mode, ts_str = get_test_run_info(entry.path)
-                if ts:
-                    test_runs.append({'timestamp': ts, 'mode': mode, 'ts_str': ts_str, 'path': entry.path})
-    test_runs.sort(key=lambda x: x['timestamp'])
+    # 1. Build session -> (patient_id, mode) map from results CSVs.
+    # This replaces the old timestamp-based approach which was unreliable when
+    # multiple batches started within seconds of each other.
+    print("Building session-to-mode map from Session_Metadata results CSVs...")
+    session_map = build_session_mode_map(root_dir)
+    print(f"Loaded {len(session_map)} session mappings")
 
-    if not test_runs:
-        print("No test runs found.")
+    if not session_map:
+        print("No session mappings found.")
         return
 
-    # 2. Collect Data per Agent - now grouped by (timestamp, patient_id, mode)
-    matched_data = {}  # key: (ts_str, patient_id, mode) -> value: list of session data
+    # 2. Collect Data per Agent - grouped by (patient_id, mode)
+    matched_data = {}  # key: (patient_id, mode) -> value: list of session data
 
     if os.path.exists(saved_sessions_dir):
         for entry in os.scandir(saved_sessions_dir):
-            if entry.is_dir():
-                session_result = get_session_info(entry.path)
-                if not session_result or session_result[0] is None:
-                    continue
-                
-                session_ts, patient_id = session_result
-                # Use 'unknown' as patient_id for old format sessions
-                if patient_id is None:
-                    patient_id = 'unknown'
-                
-                # Link to test run
-                matching_run = None
-                for i in range(len(test_runs) - 1, -1, -1):
-                    run = test_runs[i]
-                    if run['timestamp'] <= session_ts:
-                        matching_run = run
-                        break
-                
-                if matching_run:
-                    transcript_path = os.path.join(entry.path, 'interview_transcript.txt')
-                    if not os.path.exists(transcript_path):
-                        continue
-                    
-                    data = parse_transcript_turns(transcript_path)
-                    if data:
-                        # Create key for grouping: (patient_id, therapist_mode)
-                        # Note: We don't include timestamp to avoid counting same patient multiple times
-                        key = (patient_id, matching_run['mode'])
-                        
-                        # Initialize entry if it doesn't exist
-                        if key not in matched_data:
-                            matched_data[key] = []
-                        
-                        # Append this session's data to the list (for averaging across folds)
-                        matched_data[key].append(data)
+            if not entry.is_dir():
+                continue
+
+            session_name = entry.name
+            if session_name not in session_map:
+                continue
+
+            patient_id, mode = session_map[session_name]
+
+            transcript_path = os.path.join(entry.path, 'interview_transcript.txt')
+            if not os.path.exists(transcript_path):
+                continue
+
+            data = parse_transcript_turns(transcript_path)
+            if data:
+                # Create key for grouping: (patient_id, therapist_mode)
+                key = (patient_id, mode)
+
+                # Initialize entry if it doesn't exist
+                if key not in matched_data:
+                    matched_data[key] = []
+
+                # Append this session's data to the list (for averaging across folds)
+                matched_data[key].append(data)
 
     # Check if we found any data
     if not matched_data:

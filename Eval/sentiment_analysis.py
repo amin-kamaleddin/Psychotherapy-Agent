@@ -2,9 +2,7 @@
 import os
 import sys
 import glob
-import json
 import re
-from datetime import datetime
 import pandas as pd
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
@@ -18,52 +16,36 @@ from utils.api_key_loader import load_openai_api_key
 # Thread-safe print lock
 print_lock = threading.Lock()
 
-def get_session_timestamp(session_dir):
+def build_session_mode_map(root_dir):
     """
-    Extract timestamp and patient_id from session folder name.
-    
-    Returns:
-        tuple: (datetime, patient_id) where patient_id can be None for old format
-    """
-    basename = os.path.basename(session_dir)
-    
-    # Try new format with UUID: session_export_patient_{patient_id}_{timestamp}_{uuid}
-    new_format_pattern = r'session_export_patient_(.+?)_(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2})(?:_[a-f0-9-]+)?$'
-    match = re.match(new_format_pattern, basename)
-    if match:
-        patient_id = match.group(1)
-        date_str = match.group(2)
-        try:
-            timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
-            return timestamp, patient_id
-        except ValueError:
-            pass
-    
-    # Try old format: session_export_{timestamp}
-    try:
-        date_str = basename.replace('session_export_', '')
-        # Try with UUID first, then without
-        date_str = re.sub(r'_[a-f0-9-]+$', '', date_str)
-        timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
-        return timestamp, None  # No patient_id in old format
-    except ValueError:
-        return None, None
+    Build a mapping from session folder name to (patient_id, mode) by reading
+    all results_*.csv files in Session_Metadata.
 
-def get_test_run_info(test_dir):
-    metadata_path = os.path.join(test_dir, 'metadata.json')
-    if os.path.exists(metadata_path):
+    This replaces the previous timestamp-based approach, which was unreliable when
+    multiple batch runs started within seconds of each other, causing sessions to be
+    attributed to the wrong therapist mode.
+
+    Returns:
+        dict: {session_folder_name: (patient_id, mode)}
+    """
+    session_map = {}
+    session_metadata_dir = os.path.join(root_dir, 'Session_Metadata')
+    if not os.path.exists(session_metadata_dir):
+        return session_map
+    for csv_path in glob.glob(os.path.join(session_metadata_dir, '*', 'results_*.csv')):
         try:
-            with open(metadata_path, 'r') as f:
-                data = json.load(f)
-                ts_str = data.get('timestamp', '')
-                mode = data.get('therapist_mode', 'unknown')
-                try:
-                    return datetime.strptime(ts_str, "%Y%m%d_%H%M%S"), mode
-                except ValueError:
-                    pass 
-        except Exception:
-            pass
-    return None, None
+            df = pd.read_csv(csv_path)
+            if 'Session' not in df.columns or 'Mode' not in df.columns:
+                continue
+            for _, row in df.iterrows():
+                session_name = str(row['Session'])
+                mode = str(row['Mode'])
+                m = re.match(r'session_export_patient_(.+?)_\d{4}-\d{2}-\d{2}', session_name)
+                patient_id = m.group(1) if m else 'unknown'
+                session_map[session_name] = (patient_id, mode)
+        except Exception as e:
+            print(f"Warning: Could not read {csv_path}: {e}")
+    return session_map
 
 def extract_patient_turns(transcript_path, max_turns=10):
     """
@@ -195,47 +177,33 @@ def main(max_workers=20):
     api_key = load_openai_api_key()
     
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
-    saved_tests_dir = os.path.join(root_dir, 'Session_Metadata')
 
-    # 1. Map Tests
-    test_runs = []
-    if os.path.exists(saved_tests_dir):
-        for entry in os.scandir(saved_tests_dir):
-            if entry.is_dir():
-                ts, mode = get_test_run_info(entry.path)
-                if ts:
-                    test_runs.append({'timestamp': ts, 'mode': mode, 'path': entry.path, 'ts_str': ts.strftime("%Y%m%d_%H%M%S")})
-    test_runs.sort(key=lambda x: x['timestamp'])
+    # 1. Build session -> (patient_id, mode) map from results CSVs.
+    # This replaces the old timestamp-based approach which was unreliable when
+    # multiple batches started within seconds of each other.
+    print("Building session-to-mode map from Session_Metadata results CSVs...")
+    session_map = build_session_mode_map(root_dir)
+    print(f"Loaded {len(session_map)} session mappings")
 
     # Data structure to store results
     matched_data = {}
 
     # 2. Prepare Sessions for Processing
     sessions_to_process = []
-    
+
     if os.path.exists(saved_sessions_dir):
         print(f"Scanning sessions in {saved_sessions_dir}...")
         for entry in os.scandir(saved_sessions_dir):
-            if entry.is_dir():
-                session_result = get_session_timestamp(entry.path)
-                if not session_result or session_result[0] is None:
-                    continue
-                
-                session_ts, patient_id = session_result
-                # Use 'unknown' as patient_id for old format sessions
-                if patient_id is None:
-                    patient_id = 'unknown'
-                
-                # Match to test run
-                matching_run = None
-                for i in range(len(test_runs) - 1, -1, -1):
-                    run = test_runs[i]
-                    if run['timestamp'] <= session_ts:
-                        matching_run = run
-                        break
-                
-                if matching_run:
-                    sessions_to_process.append((entry.path, session_ts, patient_id, matching_run))
+            if not entry.is_dir():
+                continue
+            session_name = entry.name
+            if session_name not in session_map:
+                print(f"  Skipping {session_name}: not found in any results CSV")
+                continue
+            patient_id, mode = session_map[session_name]
+            # Pack as a dict so process_single_session can use it without changes
+            matching_run = {'mode': mode, 'ts_str': ''}
+            sessions_to_process.append((entry.path, None, patient_id, matching_run))
     
     if not sessions_to_process:
         print("No sessions found to process.")
