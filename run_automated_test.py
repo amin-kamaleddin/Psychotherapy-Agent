@@ -581,6 +581,58 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
     }
 
 
+def regenerate_comparison_results():
+    """Regenerate comparison_results.csv by combining ALL batch results from Session_Metadata.
+
+    Fixes the issue where compare_results_three_way was previously called inside each
+    batch run with only that batch's CSV (e.g., 12 patients instead of all 133), causing
+    comparison_results.csv to reflect only the last batch executed.
+    """
+    import glob as _glob
+
+    session_metadata_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Session_Metadata")
+    eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
+    csv_dir = os.path.join(eval_dir, "csv")
+    os.makedirs(csv_dir, exist_ok=True)
+
+    print("\n[regenerate_comparison_results] Collecting all batch results from Session_Metadata...")
+
+    combined = {}
+    for mode in ["simple", "complex", "multi_agent"]:
+        dfs = []
+        for csv_path in _glob.glob(os.path.join(session_metadata_dir, "*", f"results_{mode}.csv")):
+            try:
+                dfs.append(pd.read_csv(csv_path))
+            except Exception as e:
+                print(f"  Warning: Could not read {csv_path}: {e}")
+        if dfs:
+            combined[mode] = pd.concat(dfs, ignore_index=True)
+            print(f"  {mode}: {len(combined[mode])} total fold-rows across all batches")
+        else:
+            print(f"  Warning: No results CSVs found for mode '{mode}', skipping regeneration.")
+            return
+
+    # Write combined CSVs to temp files, then run the standard comparison
+    tmp_paths = {}
+    for mode, df in combined.items():
+        tmp_path = os.path.join(csv_dir, f"_tmp_all_results_{mode}.csv")
+        df.to_csv(tmp_path, index=False)
+        tmp_paths[mode] = tmp_path
+
+    class _Args:
+        pass
+
+    compare_results_three_way(tmp_paths["simple"], tmp_paths["complex"], tmp_paths["multi_agent"], _Args())
+
+    for tmp_path in tmp_paths.values():
+        try:
+            os.remove(tmp_path)
+        except Exception:
+            pass
+
+    print("[regenerate_comparison_results] Done.")
+
+
 def aggregate_metrics(skip_sentiment=False, max_workers=30):
     """Run all Python scripts in Eval folder in the correct order.
     
@@ -589,7 +641,11 @@ def aggregate_metrics(skip_sentiment=False, max_workers=30):
         max_workers: Number of parallel workers for sentiment analysis (default: 20)
     """
     eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
-    
+
+    # Regenerate comparison_results.csv from ALL batch results before running eval scripts.
+    # This ensures comparison_results.csv covers every patient, not just the last batch.
+    regenerate_comparison_results()
+
     # Define the order of scripts to run (starting with sentiment_analysis, ending with plot_metrics)
     # Only include scripts that can be executed (have if __name__ == "__main__" block)
     eval_scripts = [

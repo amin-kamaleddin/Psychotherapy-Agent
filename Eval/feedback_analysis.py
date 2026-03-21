@@ -6,8 +6,6 @@ Similar structure to sentiment_analysis.py but for MI feedback criteria scores.
 import os
 import sys
 import re
-import json
-from datetime import datetime
 import pandas as pd
 
 # Add project root to path
@@ -34,54 +32,43 @@ def ensure_csv_dir():
     os.makedirs(CSV_DIR, exist_ok=True)
 
 
-def get_session_timestamp(session_dir):
+def build_session_mode_map(root_dir):
     """
-    Extract timestamp and patient_id from session folder name.
-    
+    Build a mapping from session folder name to (patient_id, mode) by reading
+    all results_*.csv files in Session_Metadata.
+
+    This is accurate because the results CSVs record the exact session folders
+    used in each batch run. The previous timestamp-based approach was unreliable:
+    multiple batches started within seconds of each other, causing sessions to be
+    attributed to the wrong mode.
+
     Returns:
-        tuple: (datetime, patient_id) where patient_id can be None for old format
+        dict: {session_folder_name: (patient_id, mode)}
     """
-    basename = os.path.basename(session_dir)
-    
-    # Try new format with UUID: session_export_patient_{patient_id}_{timestamp}_{uuid}
-    new_format_pattern = r'session_export_patient_(.+?)_(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2})(?:_[a-f0-9-]+)?$'
-    match = re.match(new_format_pattern, basename)
-    if match:
-        patient_id = match.group(1)
-        date_str = match.group(2)
-        try:
-            timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
-            return timestamp, patient_id
-        except ValueError:
-            pass
-    
-    # Try old format: session_export_{timestamp}
-    try:
-        date_str = basename.replace('session_export_', '')
-        # Try with UUID first, then without
-        date_str = re.sub(r'_[a-f0-9-]+$', '', date_str)
-        timestamp = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
-        return timestamp, None  # No patient_id in old format
-    except ValueError:
-        return None, None
+    import glob as _glob
+    session_map = {}
+    session_metadata_dir = os.path.join(root_dir, 'Session_Metadata')
 
+    if not os.path.exists(session_metadata_dir):
+        return session_map
 
-def get_test_run_info(test_dir):
-    """Extract timestamp and mode from test run metadata."""
-    metadata_path = os.path.join(test_dir, 'metadata.json')
-    if os.path.exists(metadata_path):
+    pattern = os.path.join(session_metadata_dir, '*', 'results_*.csv')
+    for csv_path in _glob.glob(pattern):
         try:
-            with open(metadata_path, 'r') as f:
-                data = json.load(f)
-                ts_str = data.get('timestamp', '')
-                mode = data.get('therapist_mode', 'unknown')
-                try:
-                    return datetime.strptime(ts_str, "%Y%m%d_%H%M%S"), mode
-                except ValueError:
-                    pass 
-        except Exception:
-            pass
-    return None, None
+            df = pd.read_csv(csv_path)
+            if 'Session' not in df.columns or 'Mode' not in df.columns:
+                continue
+            for _, row in df.iterrows():
+                session_name = str(row['Session'])
+                mode = str(row['Mode'])
+                # Extract patient_id from session folder name
+                m = re.match(r'session_export_patient_(.+?)_\d{4}-\d{2}-\d{2}', session_name)
+                patient_id = m.group(1) if m else 'unknown'
+                session_map[session_name] = (patient_id, mode)
+        except Exception as e:
+            print(f"Warning: Could not read {csv_path}: {e}")
+
+    return session_map
 
 
 def extract_scores_from_feedback(feedback_path):
@@ -128,71 +115,54 @@ def extract_scores_from_feedback(feedback_path):
 def main():
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     ensure_csv_dir()
-    
+
     saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
-    saved_tests_dir = os.path.join(root_dir, 'Session_Metadata')
-    
-    # 1. Map Tests
-    test_runs = []
-    if os.path.exists(saved_tests_dir):
-        for entry in os.scandir(saved_tests_dir):
-            if entry.is_dir():
-                ts, mode = get_test_run_info(entry.path)
-                if ts:
-                    test_runs.append({'timestamp': ts, 'mode': mode, 'path': entry.path, 'ts_str': ts.strftime("%Y%m%d_%H%M%S")})
-    test_runs.sort(key=lambda x: x['timestamp'])
-    
-    # Data structure: matched_data[(ts_str, patient_id, mode)] = { 'scores': {criterion: score} }
+
+    # 1. Build session -> (patient_id, mode) map from results CSVs.
+    # This replaces the old timestamp-based approach which was unreliable when
+    # multiple batch runs started within seconds of each other.
+    print("Building session-to-mode map from Session_Metadata results CSVs...")
+    session_map = build_session_mode_map(root_dir)
+    print(f"Loaded {len(session_map)} session mappings")
+
     matched_data = {}
-    
+
     # 2. Process Sessions
     if os.path.exists(saved_sessions_dir):
         print(f"Scanning sessions in {saved_sessions_dir}...")
         for entry in os.scandir(saved_sessions_dir):
-            if entry.is_dir():
-                session_result = get_session_timestamp(entry.path)
-                if not session_result or session_result[0] is None:
-                    continue
-                
-                session_ts, patient_id = session_result
-                # Use 'unknown' as patient_id for old format sessions
-                if patient_id is None:
-                    patient_id = 'unknown'
-                
-                # Match to test run
-                matching_run = None
-                for i in range(len(test_runs) - 1, -1, -1):
-                    run = test_runs[i]
-                    if run['timestamp'] <= session_ts:
-                        matching_run = run
-                        break
-                
-                if matching_run:
-                    feedback_path = os.path.join(entry.path, 'detailed_feedback.txt')
-                    if not os.path.exists(feedback_path):
-                        continue
-                    
-                    scores = extract_scores_from_feedback(feedback_path)
-                    if not scores:
-                        print(f"Warning: Could not extract scores from {entry.name}")
-                        continue
-                    
-                    # Create key for grouping: (patient_id, therapist_mode)
-                    # Note: We don't include timestamp to avoid counting same patient multiple times
-                    key = (patient_id, matching_run['mode'])
-                    
-                    print(f"Processing {entry.name} (patient_id={patient_id}) -> Test Run {matching_run['ts_str']}, Mode: {matching_run['mode']}")
-                    
-                    # Initialize entry if it doesn't exist, or aggregate scores if it does
-                    if key not in matched_data:
-                        matched_data[key] = {
-                            'patient_id': patient_id,
-                            'therapist_mode': matching_run['mode'],
-                            'all_scores': []  # List to store scores from all folds
-                        }
-                    
-                    # Append this session's scores to the list
-                    matched_data[key]['all_scores'].append(scores)
+            if not entry.is_dir():
+                continue
+
+            session_name = entry.name
+            if session_name not in session_map:
+                print(f"  Skipping {session_name}: not found in any results CSV")
+                continue
+
+            patient_id, mode = session_map[session_name]
+
+            feedback_path = os.path.join(entry.path, 'detailed_feedback.txt')
+            if not os.path.exists(feedback_path):
+                continue
+
+            scores = extract_scores_from_feedback(feedback_path)
+            if not scores:
+                print(f"Warning: Could not extract scores from {entry.name}")
+                continue
+
+            # Create key for grouping: (patient_id, therapist_mode)
+            key = (patient_id, mode)
+
+            print(f"Processing {entry.name} (patient_id={patient_id}) -> Mode: {mode}")
+
+            if key not in matched_data:
+                matched_data[key] = {
+                    'patient_id': patient_id,
+                    'therapist_mode': mode,
+                    'all_scores': []  # List to store scores from all folds
+                }
+
+            matched_data[key]['all_scores'].append(scores)
     
     # 3. Aggregate Results
     # Average scores across all folds for each patient
