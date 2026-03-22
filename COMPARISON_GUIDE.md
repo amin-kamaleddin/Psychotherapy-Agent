@@ -158,7 +158,7 @@ Stored in `Session_Metadata/` directory:
 - `{run_id}_multi_agent_patients_{start}_{end}_fold{N}_{timestamp}/`
 
 **Evaluation Results** (in `Eval/csv/` directory):
-- `feedback_scores_by_criterion.csv` - Per-patient scores (133 patients × 3 modes)
+- `feedback_scores_by_criterion.csv` - Per-patient scores (133 patients × 4 modes)
 - `feedback_metrics_{mode}.csv` - Aggregated statistics per mode
 - `sentiment_dataset_by_turn.csv` - Sentiment analysis per turn
 - `lsm_metrics_{mode}.csv` - Language Style Matching scores
@@ -173,8 +173,7 @@ Stored in `Session_Metadata/` directory:
 - `client_words_per_turn.png`
 - `word_ratio.png`
 - `sentiment_distribution.png`
-- `lsm_over_time.png`e results
-  - `results_multi_agent.csv` - Individual patient scores for multi-agent mode
+- `lsm_over_time.png`
 
 ### Step 3: Analyze Comparison
 
@@ -233,30 +232,29 @@ Empathy                   3.5          3.6                3.7           3.9     
 - **Multiple test runs**: The system correctly handles patients appearing in multiple batches by grouping on `(patient_id, mode)` only
 - **Memory issues**: Use `--skip-sentiment` to skip the most memory-intensive evaluation step
 - **Stale data**: Always regenerate evaluation CSVs after code changes using `--aggregate`
+
 All aggregated CSV files show **count = 133** (one per patient):
 - Each patient's multiple folds are averaged in Stage 1
 - Statistics are calculated across 133 unique patients in Stage 2
 - If you ran patients in multiple batches, the same patient across batches is merged automatically
-================================================================================
-Simple Prompt:         3.500 ± 0.200
-Trained Agent:         3.580 ± 0.190
-Complex Prompt:        3.600 ± 0.180
-Multi-Agent:           3.700 ± 0.150
+
+### Example Overall Comparison Summary
+
+```text
+Simple Prompt: 3.500 ± 0.200
+Trained Agent: 3.580 ± 0.190
+Complex Prompt: 3.600 ± 0.180
+Multi-Agent: 3.700 ± 0.150
 
 Best Performing: Multi-Agent
 
 Differences:
-  Trained Agent vs Simple:  +0.080 (+2.29%)
-  Complex vs Simple:        +0.100 (+2.86%)
-  Multi-Agent vs Simple:    +0.200 (+5.71%)
-  Complex vs Trained Agent: +0.020 (+0.56%)
-  Multi-Agent vs Complex:   +0.100 (+2.78%)
+Trained Agent vs Simple: +0.080 (+2.29%)
+Complex vs Simple: +0.100 (+2.86%)
+Multi-Agent vs Simple: +0.200 (+5.71%)
+Complex vs Trained Agent: +0.020 (+0.56%)
+Multi-Agent vs Complex: +0.100 (+2.78%)
 ```
-
-1. **Use the same patient set**: Run all modes on the same patients for fair comparison
-2. **Run multiple times**: Consider running multiple experiments to account for variability
-3. **Check individual scores**: Look at individual patient results, not just averages
-4. **Review feedback files**: Check the detailed feedback files in saved sessions for qualitative insights
 
 ## Troubleshooting
 
