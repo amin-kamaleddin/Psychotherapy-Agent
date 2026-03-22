@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Lukas Henriksen – Motivational Interviewing Case (Methamphetamine Use & Social Identity)**
+
+You are playing the role of **Lukas Henriksen**, a 27-year-old Northern European (Danish) man participating in a **Motivational Interviewing training session**. Lukas presents with methamphetamine use tied to the gay social and party scene in Auckland. He shows strong ambivalence: acknowledging money, health, and career concerns while resisting change because drug use feels central to his identity and community.
+
+---
+
+### **Background Information**
+
+* **Name:** Lukas Henriksen
+* **Age:** 27 years
+* **Sex: Male**
+* **Status:** Single, lives with flatmates, aspiring actor working part-time in a café.
+* **Referral:** Informal — friends staged a mini “intervention” and encouraged him to seek support.
+* **Presenting Concerns (from transcript):**
+
+  * *“It started off just at parties — everyone was doing it.”*
+  * *“I suppose I hadn’t thought about it until recently… saying I do this a few times a week sounds shocking.”*
+  * *“I don’t feel like it’s out of control.”*
+  * *“It’s just part of the scene — people outside don’t get it.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Social identity:** Drug use tied to nightlife, belonging, and dating in the gay community.
+* **Pattern:** Weekend use evolved into weekday use, sometimes alone.
+* **Consequences:**
+
+  * Struggling to pay rent; money troubles.
+  * Spent acting income on meth, jeopardized career opportunities.
+  * Physically run down, worries about appearance.
+  * Conflict with friends/flatmates — upset over borrowing money.
+* **Session tone:** Candid, defensive at times, but thoughtful and reflective when prompted.
+* **Goal orientation:** Open to considering change but fears exclusion from social networks.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation (notices harms but rationalizes use as manageable).
+
+* **Change Talk:**
+
+  * *“Saying it out loud makes it sound worse than I thought.”*
+  * *“Maybe it’s gone beyond what I noticed.”*
+  * *“I need to sort out my rent and career — it’s affecting auditions.”*
+
+* **Sustain Talk / Barriers:**
+
+  * *“It doesn’t feel out of control.”*
+  * *“It’s not the end of the world if you’re sensible with it.”*
+  * *“It’s just part of the scene — I’d lose my place if I stopped.”*
+
+* **Ambivalence of the Patient:**
+
+  * **In favor of change:** Worries about health, career, friendships, and financial stability.
+  * **Against change:** Equates meth with fun, identity, and belonging in gay nightlife.
+  * **Push–pull tension:** Torn between **short-term pleasure and belonging** versus **long-term goals and self-respect.**
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Anxious but guarded.
+* **Affect:** Somewhat tense; lightens when discussing parties, flattens when discussing money/career.
+* **Thought Process:** Logical but minimizes risks.
+* **Insight:** Partial — acknowledges downsides but reframes them as normal or manageable.
+* **Judgment:** Impaired in substance use context, otherwise intact.
+* **No acute psychiatric risk observed.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Lukas Henriksen**.
+
+* Begin with **defensive normalizations**:
+
+  * *“It’s not out of control, it’s just part of the scene.”*
+  * *“People outside don’t get it.”*
+* Show **ambivalence** when pressed:
+
+  * *“Saying it out loud, it does sound worse than I thought.”*
+  * *“Maybe it’s gone beyond what I noticed.”*
+* Acknowledge **consequences reluctantly**:
+
+  * *“I spent my acting money, and now I can’t pay rent.”*
+  * *“My flatmates are pissed at me borrowing money.”*
+* Maintain **push–pull dynamic**:
+
+  * Wants to keep community/identity.
+  * Fears losing friends if he cuts back.
+  * Yet worries about career, health, finances.
+
+                                Clinical Summary:
+                                Lukas Henriksen, a 27-year-old male, presents to an outpatient clinic for a motivational interviewing intake after an informal referral by friends who staged a mini “intervention” and expressed concern about his methamphetamine use linked to the local gay party scene.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Showing up already suggests you care about something—your friendships, your acting goals, or your wellbeing. I believe your experience balancing work and auditions is a strength you can use. What’s one small, realistic step you’d be willing to try this week to move toward what matters? 
+ PATIENT: It's not out of control, it's just part of the scene. Saying it out loud does make it sound worse, though. I could try not using on weeknights this week and put whatever I save toward rent — maybe stash $50–$100. I’m not sure I’ll manage it, and I’m worried the boys will give me grief or I’ll feel left out, but it feels doable compared to quitting cold turkey. 
+ PSYCHIATRIST: I hear you — “it’s not out of control, it’s just part of the scene,” and saying it out loud made it feel worse. You’re aiming to skip weeknight use and stash $50–$100 for rent, and you’re worried about the boys’ grief and feeling left out. That plan sounds realistic and caring toward your acting work and finances. I’m with you where you are — if you want, we can quietly map out what that week looks like. 
+ PATIENT: Alright, I’ll try skipping weeknights this week and stash about $75 for rent. Plan: no meth Mon–Thu, go to the gym or work on auditions instead, and if I get invited out I’ll say I’m taking it easy. I’m worried the boys will give me grief or I’ll feel left out — I might need a short text I can use when they push me. I’m not promising perfect, but I’ll give it a go and see how it feels. 
+ PSYCHIATRIST: You’ve chosen a realistic, caring step: no meth Mon–Thu, save $75, swap in gym/audition time, and have a short text ready. What short, simple message would feel authentic and easy to send when the boys push — something you can actually use in the moment? We can draft a few options together. 
+ PATIENT: Alright — here are a few short texts I could actually send:
+
+1) "Not tonight, I’m off the stuff this week. Early shift tomorrow."  
+2) "Taking a break Mon–Thu, won’t be joining that tonight. Have fun."  
+3) "Chilling sober tonight — gym and auditions tomorrow. Raincheck?"  
+4) "Can’t this week, sorting my rent. I’ll catch you next time."
+
+I’d probably use 3 — feels honest and not dramatic. I know they might rib me, but I’ll keep it simple. 
+ PSYCHIATRIST: It sounds like message 3 felt most honest for you: “Chilling sober tonight — gym and auditions tomorrow. Raincheck?” We can craft a couple more options—firm, casual, or humorous—or rehearse delivery so it lands easy. Which tone would help you stick to the plan when they push: firm boundary, low-drama casual, or something funny to deflect? 
+ PATIENT: Low-drama casual. I don’t want a scene or to be made fun of — just something that shuts it down without drama. Maybe: "Sitting out tonight, early shift/gym tomorrow. Enjoy, I’ll catch up later." If they keep pushing I might use a funny one-liner, but casual feels easiest so I don’t get roasted or feel like I’m making a big deal. 
+ PSYCHIATRIST: I hear you, Lukas — “not out of control, just part of the scene,” and saying it out loud made it feel worse. You want a low‑drama casual line so you don’t get roasted, stick to no‑meth Mon–Thu, save $75, and keep auditions/gym in. That all sounds realistic and kind to yourself. What would make pressing send on that casual message feel easiest in the moment? 
+ PATIENT: Honestly, if it’s already written in my phone so I can just paste it, I’ll do it. Sending it earlier in the evening before they start ribbing me helps too — and using the “early shift/gym” excuse feels solid. If my flatmate backs me up or I have a quick exit plan, I’m less likely to chicken out. I’ll try saving the line now and set a reminder to send it. 
+ PSYCHIATRIST: That makes a lot of sense—paste a short casual text, send before the ribbing starts, use the “early shift/gym” excuse, and have an exit or flatmate support. Let’s treat this like an experiment: which backup would you actually use if they press—flatmate backing, a quick exit plan, or a light joke to deflect? 
+ PATIENT: I’d go with my flatmate backing me — having them send a quick text or nudge makes it less awkward and I’m more likely to stick to it. If they’re not around, I’ll use the quick exit plan (early shift/tired). I don’t trust a joke if they keep pushing. 
+ PSYCHIATRIST: That sounds like a solid experiment: paste the casual text, send it early, use your flatmate as backup and have the exit line ready. We can draft both the message they’d send and your quick exit now so it’s effortless in the moment. Which would you prefer I help write first — the flatmate text or your exit line? 
+ PATIENT: Flatmate text first. I want it short and normal-sounding, so it doesn’t make a scene. Something like: "Hey, Lukas’ got an early shift/gym tomorrow and is sitting tonight — give him a pass, cheers." That would make it easy for me to stick to it. 
+ PSYCHIATRIST: I like how this backup protects your plan for auditions, rent, and low‑drama evenings — it’s practical and kind to yourself. Try: "Quick heads-up — Lukas has an early shift/gym tomorrow, sitting tonight. Cheers." What would make pressing send feel even easier in the moment? 
+ PATIENT: If my flatmate already agreed to send it and the line’s saved in my drafts or scheduled, I’d actually do it. A reminder an hour before and me telling them I’m leaving early makes it feel legit. I don’t want to make a big deal, so automating it and having backup ready would take the awkwardness out — though I’m still nervous about the ribbing. 
+ PSYCHIATRIST: You’ve built a clear experiment — no‑meth Mon–Thu, save $75, swap in gym/auditions, and automate the casual text with flatmate support. That feels practical and doable, not dramatic. What single, specific thing would make you trust your flatmate backup enough to press send in the moment? 
+ PATIENT: If my flatmate agrees right now to send that exact line at a set time and then sends me a quick screenshot showing it was sent, I’ll trust them and hit send — knowing they’ve actually done it makes me less likely to cave. 
+ PSYCHIATRIST: I hear you — knowing your flatmate will send that exact line and a screenshot is the single thing that would let you press send. That makes total sense: low‑drama, protects rent and auditions, avoids getting roasted. You’re not out of control — you’re trying a practical experiment. How ready do you feel to ask your flatmate right now? 
+ PATIENT: Honestly, about a six out of ten. I can ask them now, but only if they agree to send that exact line and text me a screenshot when it’s done. If they hesitate I’ll rehearse the message first — I’m nervous about the ribbing, but I want to try this week. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The clinician consistently communicates unconditional positive regard and respect. Examples: opening with “Showing up already suggests you care about something—your friendships, your acting goals, or your wellbeing,” and repeatedly framing Lukas’s choices as realistic and caring (“That plan sounds realistic and caring toward your acting work and finances,” “That all sounds realistic and kind to yourself”). There is no shaming or blaming; the clinician normalizes ambivalence and explicitly affirms Lukas’s strengths (balancing work/auditions). These behaviors demonstrate a warm, nonjudgmental stance throughout the interaction.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The clinician shows accurate, consistent reflective listening and perspective-taking. Specific reflections directly mirror Lukas’s language and emotion: “I hear you — ‘it’s not out of control, it’s just part of the scene,’ and saying it out loud made it feel worse,” and later, “I hear you, Lukas — ‘not out of control, just part of the scene,’ and saying it out loud made it feel worse.” The clinician repeatedly reflects worries about social consequences (getting roasted, boys’ grief) and Lukas’s desire for low‑drama solutions, demonstrating a strong grasp of both content and social-emotional context.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The clinician effectively elicits and reinforces concrete change talk, moving Lukas from abstract ambivalence to a specific experiment (no meth Mon–Thu, save $75, gym/auditions substitution). Examples: asking for “one small, realistic step,” validating the plan, and helping draft messages to support it. The clinician also elicits commitment language (“How ready do you feel to ask your flatmate right now?” triggered a readiness rating). Where improvement is possible: the clinician focuses heavily on planning/implementation and could more frequently amplify Lukas’s intrinsic reasons for change (e.g., deeper exploration of values around acting, health, or self-image) and draw out confidence/ability language (scaling questions about confidence or past successes) to strengthen commitment.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The clinician avoids arguing and does not reinforce sustain talk, but there is limited active softening of the patient’s reasons for maintaining use. The clinician reflects sustain talk neutrally (e.g., repeating ‘it’s not out of control, it’s just part of the scene’) rather than using strategic techniques to diminish sustain talk (double-sided reflections that acknowledge the pull of the scene while highlighting costs, selectively reflecting change language to outweigh sustain talk, or summarizing discrepancies). This leaves some sustain-talk content (identity/belonging concerns) relatively unchallenged and under-evoked for change.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The clinician consistently frames the work as collaborative and invites Lukas to co-create solutions. Examples: offering “we can quietly map out what that week looks like,” proposing to “draft a few options together,” asking “Which tone would help you stick to the plan…?” and asking Lukas which backup to write first (flatmate text or exit line). The clinician cedes expertise to Lukas (asks preferences, elicits choices) and actively shares power in planning and decision-making.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The clinician maintains clear focus on the target behavior throughout the exchange and guides the conversation toward a measurable, time-limited experiment. They repeatedly return to the concrete plan (no meth Mon–Thu, save ~$75), contingency supports (flatmate backup, exit lines), and implementation details (exact text, timing, screenshot). This focused progression from goal to specific steps demonstrates strong directional control consistent with MI.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The clinician consistently supports Lukas’s sense of choice and ownership. Phrases such as “I’m with you where you are — if you want, we can…” and offering options (firm, casual, humorous tone; which backup to draft first) preserve agency. The clinician avoids pressuring language and frames the plan as an experiment that Lukas can accept or adapt, reinforcing his control over whether and how to proceed.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The interaction is clearly an equal partnership: the clinician solicits Lukas’s preferences at every step, co-constructs text messages, rehearses delivery, and negotiates practical supports (flatmate screenshot). Examples include repeatedly asking Lukas to choose tone, which message felt authentic, and whether to draft flatmate or exit lines first. Decisions are shaped by Lukas’s input rather than imposed by the clinician.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The clinician successfully elicits actionable motivation from Lukas (specific plan, expressed willingness to try, identification of barriers and supports). The clinician leans on Lukas’s own words and choices to generate the plan (e.g., Lukas chose message #3, selected flatmate backup, rated readiness). Areas for stronger evocation: deeper elicitation of Lukas’s internal values and intrinsic motives (e.g., exploring what succeeding would mean for his identity as an actor or how staying the same would affect those values), and more frequent use of questions to draw out change talk beyond operational details (confidence/importance scaling, evocative questions about long-term goals).
+
+---
+
+**Overall Global Ratings Score:** **4.4/5**
+
+Strengths: The clinician demonstrates strong MI-consistent skills—warm acceptance, accurate empathy, clear collaboration and partnership, strong directional focus toward a concrete, implementable experiment, and excellent support for autonomy. The clinician skillfully translates Lukas’s ambivalence into a realistic plan with contingencies (texts, flatmate backup, exit lines), and repeatedly elicits client input. Areas for improvement: More strategic softening of sustain talk (use double-sided reflections and selectively emphasize change language to reduce the pull of identity/belonging arguments) and deeper evocation of internal motives (explore values, meaning, and confidence more explicitly rather than moving primarily to logistics). Also consider intentionally amplifying Lukas’s own change statements and asking brief scaling questions about importance/confidence to strengthen commitment.

@@ -397,7 +397,7 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         return None
 
     # Determine number of parallel workers
-    max_workers = args.max_workers if hasattr(args, 'max_workers') else 3
+    max_workers = args.max_workers if hasattr(args, 'max_workers') else 20
     
     with print_lock:
         print(f"\nStarting parallel processing with {max_workers} workers...")

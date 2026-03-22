@@ -1,0 +1,11 @@
+Criterion,N,Wilcoxon_Statistic,p_value,Significant,multi_agent_mean,complex_mean,multi_agent_std,complex_std,Mean_Difference,Direction,Effect_Size,p_bonferroni,Significant_bonferroni,p_fdr_bh,Significant_fdr_bh,p_fdr_by,Significant_fdr_by
+Acceptance,133,782.5,0.0,Yes,4.842,4.705,0.163,0.202,0.137,multi_agent > complex,0.5548,0.0,Yes,0.0,Yes,0.0,Yes
+Empathy,133,346.0,0.0,Yes,4.705,4.37,0.224,0.294,0.335,multi_agent > complex,0.9667,0.0,Yes,0.0,Yes,0.0,Yes
+Direction,133,225.0,0.867995,No,4.967,4.965,0.086,0.087,0.002,multi_agent > complex,0.0129,1.0,No,0.867995,No,1.0,No
+Collaboration,133,986.0,1.4e-05,Yes,4.777,4.656,0.211,0.277,0.122,multi_agent > complex,0.3808,8.4e-05,Yes,2.3e-05,Yes,6.8e-05,Yes
+Autonomy Support,133,73.5,0.10247,No,4.986,4.974,0.05,0.071,0.012,multi_agent > complex,0.1425,0.61482,No,0.113856,No,0.333479,No
+Evocation,133,444.5,0.0,Yes,4.417,4.126,0.289,0.397,0.29,multi_agent > complex,0.7869,0.0,Yes,0.0,Yes,0.0,Yes
+Partnership,133,1611.5,0.001503,Yes,4.776,4.675,0.21,0.282,0.101,multi_agent > complex,0.2949,0.009018,Yes,0.002147,Yes,0.006289,Yes
+Cultivating Change Talk,133,758.5,0.0,Yes,4.335,4.101,0.295,0.391,0.235,multi_agent > complex,0.6249,0.0,Yes,0.0,Yes,0.0,Yes
+Softening Sustain Talk,133,1264.5,0.007747,Yes,4.033,3.968,0.227,0.259,0.065,multi_agent > complex,0.2498,0.046482,Yes,0.009684,Yes,0.028363,Yes
+Overall Average,133,801.5,0.0,Yes,4.649,4.505,0.12,0.165,0.144,multi_agent > complex,0.8594,0.0,Yes,0.0,Yes,0.0,Yes

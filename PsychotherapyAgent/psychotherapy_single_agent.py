@@ -129,7 +129,7 @@ class PsychotherapySingleAgent:
             api_key: str,
             therapist_index: int = 0,
             prompt_addon: str = "",
-            model: str = "gpt-5.4-mini",
+            model: str = "gpt-5-mini",
             temperature: float = 0.8,
             include_patient_profile: bool = True
     ):
@@ -140,8 +140,8 @@ class PsychotherapySingleAgent:
             api_key: OpenAI API key
             therapist_index: Index of therapist profile to use (default: 0)
             prompt_addon: Additional text to append to therapist prompt
-            model: OpenAI model to use (default: "gpt-5.4-mini" to match proposer)
-            temperature: LLM temperature for response generation (default: 0.8 to match proposer, not used for gpt-5.4-mini)
+            model: OpenAI model to use (default: "gpt-5-mini" to match proposer)
+            temperature: LLM temperature for response generation (default: 0.8 to match proposer, not used for gpt-5-mini)
             include_patient_profile: Whether the therapist has access to the patient profile (default: True).
                                      Set to False for the "trained_agent" mode where the complex MI prompt
                                      is used but the patient profile is withheld from the therapist.
@@ -161,10 +161,11 @@ class PsychotherapySingleAgent:
         # Initialize LLM
         llm_kwargs = {
             "model": model,
-            "api_key": self.api_key
+            "api_key": self.api_key,
+            "timeout": 120
         }
-        # Only include temperature for non-gpt-5.4-mini models
-        if model != "gpt-5.4-mini":
+        # Only include temperature for non-gpt-5-mini models
+        if model != "gpt-5-mini":
             llm_kwargs["temperature"] = temperature
         self.llm = ChatOpenAI(**llm_kwargs)
 

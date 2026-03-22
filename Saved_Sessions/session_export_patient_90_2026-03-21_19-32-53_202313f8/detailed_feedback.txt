@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Marcus Delgado – Motivational Interviewing Case (Asthma Management)**
+
+You are playing the role of **Marcus Delgado**, a 45-year-old man referred for a **Motivational Interviewing session** to address issues related to **asthma management**.
+
+---
+
+### **Background Information**
+
+* **Name:** Marcus Delgado
+* **Age:** 45 years
+* **Sex: Male**
+* **Status:** Married, lives with his wife, has a dog that has been with him since before the marriage
+* **Referral:** Referred by his **doctor**, who emphasized that his asthma is a central health concern requiring attention.
+* **Presenting Concern:** Marcus reports that his asthma is “out of control.” He feels overwhelmed by the need to attend multiple appointments, worries about finances, and faces stress in his personal life. While he acknowledges the importance of addressing asthma, he struggles with the suggestion of removing his dog — a long-term companion and source of emotional attachment.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* Cooperative but **overwhelmed and stressed**, often circling back to how “everything feels all over.”
+* Shows **ambivalence** about change: recognizes asthma is poorly controlled but reluctant to make significant adjustments (e.g., getting rid of dog).
+* **Frustrated tone** when discussing appointments and financial burden.
+* Demonstrates **emotional conflict**: love for dog and reliance on wife versus acknowledgment of health risks.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation (acknowledges asthma is uncontrolled and problematic, but hesitant about making difficult lifestyle changes).
+
+* **Change Talk:**
+
+  * “And, um, my-my asthma is out of control too.” *(clear recognition of problem).*
+  * “Okay. Um, okay, that sounds good. As long as I…” *(willingness to consider steps if manageable).*
+  * “I don’t know, something about changing my life…” *(tentative openness to change).*
+
+* **Sustain Talk:**
+
+  * “Yeah, it’s-it’s a bit of an inconvenience I’d say.” *(minimizing the impact).*
+  * “Um, finances is a problem right now too.” *(barrier to change).*
+  * “Yeah. The dog has been there before my wife. I…” *(strong resistance to giving up dog).*
+  * “Yeah, it just feels like everything’s all over…” *(expression of overwhelm).*
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Stressed, fatigued.
+* **Affect:** Cooperative but strained, with frustration and worry evident.
+* **Thought Process:** Linear but preoccupied with stressors (appointments, finances, family, dog).
+* **Insight:** Partial — acknowledges asthma is uncontrolled but resistant to solutions that involve major sacrifices.
+* **Judgment:** Compromised by emotional attachment and stress load.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Marcus**.
+
+* At first, emphasize how **overwhelmed** you feel by appointments, finances, and stress at home.
+* Express **frustration** at being told to manage asthma differently, especially around your dog.
+* Show **ambivalence**: admit your asthma is “out of control,” but also stress how hard it feels to make changes.
+* Provide **change talk** when prompted about your health and the impact uncontrolled asthma has on your life.
+* Provide **sustain talk** when discussing the dog, finances, or how stressful things already feel.
+* Your role is to help the therapist practice **Motivational Interviewing skills — exploring ambivalence, addressing emotional barriers, and evoking motivation to improve asthma management without dismissing personal values (family, pet attachment).**
+
+                                Clinical Summary:
+                                Marcus Delgado, a 45-year-old man, presents to an outpatient clinic for a Motivational Interviewing session. He is referred by his primary care physician for assistance with asthma management and related treatment decision-making.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen and support you. What’s been on your mind lately, and what would you most like to address or change? Give me a brief sense of what’s happening. If you’re currently feeling unsafe or having thoughts of harming yourself or others, please tell me now so we can keep you safe. 
+ PATIENT: Honestly, I’ve been feeling totally overwhelmed — appointments everywhere, bills piling up, and tension at home. My asthma’s out of control; I get winded easy and that scares me, but it feels like everything’s too much right now. My doctor keeps saying big changes, even getting rid of my dog, and that frustrates me — she’s been with me forever. I’m not thinking about hurting myself or anyone. I guess I’d like to breathe better and have fewer ER scares, but I don’t know how to make that fit with everything else. 
+ PSYCHIATRIST: You’re carrying a lot — it makes sense you’d feel overwhelmed and scared. A few quick questions to help me support you: do you have a rescue inhaler and a written asthma action plan? How often are you using rescue meds and how many recent ER visits? How important is keeping your dog, and would you be open to alternatives (allergy testing, HEPA filter, pet-free bedroom, regular pet baths)? If you’re short of breath now, use your prescribed rescue inhaler and seek emergency care if it doesn’t improve. I can help make a step-by-step plan or a script for your doctor. 
+ PATIENT: Well, I do have a rescue inhaler but no written asthma action plan. I’m using the inhaler most days — maybe 4–5 times a week — and I’ve been to the ER twice in the past year, once a few months ago. The dog means a lot — she’s been with me longer than my wife, so I’m not ready to give her up. I might consider a pet-free bedroom or a cheaper HEPA filter, but allergy testing and more appointments worry me because of cost. If I’m short of breath I’ll use my inhaler and go to the ER if it gets worse. 
+ PSYCHIATRIST: You’re right to be worried — using rescue inhaler 4–5×/week plus two ER visits suggests uncontrolled asthma. When you see the doctor ask for: review inhaler technique, spirometry, a step-up to a daily controller (inhaled steroid), and a written asthma action plan. Consider allergy testing/referral. Pet steps you can try: pet-free bedroom, HEPA in the bedroom, weekly dog baths, keep dog off furniture, wash bedding weekly. Ask about generics/samples or community clinics for cost help. Want me to write a short script you can bring to your doctor or a step-by-step plan? 
+ PATIENT: Okay — I’ll take a short script, as long as it’s simple. Ask the doc for spirometry, check my inhaler technique, start a daily inhaled steroid (controller), and give me a written asthma action plan. Also ask about low‑cost options/samples and allergy testing. Note I’m not giving up my dog — I’m willing to try a pet‑free bedroom and HEPA. I’ll try it if it’s easy. 
+ PSYCHIATRIST: “Hi — my asthma feels uncontrolled: I use my rescue inhaler 4–5×/week and had two ER visits last year. Could you please:
+- do spirometry and review my inhaler technique,
+- start a daily inhaled steroid (controller) and give me a written asthma action plan,
+- discuss allergy testing and low‑cost options/samples or community clinic resources?
+I want to keep my dog and will try a pet‑free bedroom and a HEPA—any other simple steps you recommend?” 
+ PATIENT: That sounds good — I’ll bring that. Please make sure it says I don’t want to give up my dog and that I’ll try a pet‑free bedroom and a HEPA. Also ask the doctor to show me inhaler technique in the clinic, to suggest low‑cost meds/samples or community help, and to tell me exactly when I should go to the ER if things get worse. I’m nervous but willing to try if it’s simple. 
+ PSYCHIATRIST: Here’s a tightened script you can bring:
+
+"Hi — my asthma feels uncontrolled (rescue inhaler 4–5×/wk; two ER visits last year). Please:
+- do spirometry and demonstrate inhaler technique;
+- start a daily inhaled steroid and provide a written asthma action plan with clear ER thresholds (e.g., severe breathlessness, unable to speak full sentences, blue lips/face, minimal relief from rescue inhaler, or peak flow in the red zone → go to ER);
+- discuss allergy testing, pet‑management (I am not giving up my dog; I’ll try a pet‑free bedroom and HEPA), and low‑cost meds/samples or community resources.
+I will bring my inhalers and ER records." 
+ PATIENT: This looks useful — I’ll bring it. Make sure it clearly says I’m not giving up my dog and that the doctor demonstrates inhaler/spacer technique and tells me exactly when to go to the ER. I’m really worried about costs, so please keep the bit about samples, generics, or community clinics. I’ll try a pet‑free bedroom and a HEPA if it’s easy, but I’m not ready for bigger changes yet. 
+ PSYCHIATRIST: This is great — and realistic. A few quick additions you might ask the doctor to include: demonstrate inhaler + spacer technique (and offer a spacer), provide/teach a peak flow meter and baseline values, arrange follow‑up within 2–6 weeks after starting the controller, and refer to an asthma educator or nurse for hands‑on teaching. Also ask about medication assistance programs/coupons. Want me to rehearse the conversation with you or make a printable version of your script? 
+ PATIENT: A printable version would help most — I’m already swamped, so giving the doctor something to read takes the pressure off. Please include spacer + peak flow teaching, 2–6 week follow‑up, asthma educator referral, meds assistance, and that I refuse to give up my dog but will try a pet‑free bedroom and HEPA. If you’ve got time, a quick rehearsal after would be okay too. 
+ PSYCHIATRIST: Printable script to bring to your doctor:
+
+"Hi — my asthma feels uncontrolled: rescue inhaler 4–5×/wk; two ER visits last year.
+
+Please:
+- do spirometry and demonstrate inhaler + spacer technique; provide a spacer if needed.
+- start a daily inhaled steroid (controller) and give a written asthma action plan with clear ER thresholds.
+- teach peak flow meter use and provide baseline values.
+- arrange follow‑up in 2–6 weeks and refer to an asthma educator/nurse.
+- discuss allergy testing, pet‑management (I will not give up my dog; I’ll try a pet‑free bedroom and HEPA), and low‑cost meds/samples/coupons or assistance programs.
+
+I will bring my inhalers and ER records."
+
+Want to rehearse this now? 
+ PATIENT: Yeah, okay, we can do a quick rehearsal — but keep it short. I want to make sure it clearly says I’m not giving up my dog, that they show me inhaler+spacer technique and peak flow, and tell me exactly when to go to the ER. I’m nervous about costs and time, so if you can run it line-by-line, I’ll repeat it after you. 
+ PSYCHIATRIST: Okay — line 1: “Hi — my asthma feels uncontrolled: I use my rescue inhaler 4–5×/wk and had two ER visits last year.”  
+Now you say it out loud. 
+ PATIENT: Hi — my asthma feels uncontrolled: I use my rescue inhaler 4–5×/week and had two ER visits last year. 
+ PSYCHIATRIST: Nice job. Now you say that line back when you’re ready—use a calm, clear voice and breathe between phrases. When you’ve repeated it, I’ll read line 2 for you. 
+ PATIENT: Okay, I’ll say it: Hi — my asthma feels uncontrolled: I use my rescue inhaler four to five times a week, and I had two ER visits last year. 
+ PSYCHIATRIST: Hi — my asthma feels uncontrolled: I use my rescue inhaler four to five times a week, and I had two ER visits last year. (breath) I’m ready for line 2. 
+ PATIENT: Alright, I’m ready. Say line 2 and I’ll repeat it — I’m nervous, but I’ll try to keep it clear. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The clinician consistently communicated nonjudgmental, respectful regard for Marcus. Opening with “I’m here to listen and support you” and the safety check framed the encounter as caring. The clinician validated Marcus’s feelings directly (“You’re carrying a lot — it makes sense you’d feel overwhelmed and scared”) and repeatedly honored Marcus’s attachment to his dog (including wording in the script that explicitly states “I will not give up my dog”), rather than pressuring him to comply. There were no blaming or shaming statements; the clinician normalized the difficulty of the situation and accepted Marcus’s priorities (cost, time, emotional attachment). This consistent, warm stance warrants a top rating.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The clinician demonstrated good reflective listening and perspective-taking on multiple occasions. Examples: immediately acknowledging Marcus’s overwhelm and fear (“You’re carrying a lot — it makes sense you’d feel overwhelmed and scared”) and later validating the clinical concern (“You’re right to be worried — using rescue inhaler 4–5×/week plus two ER visits suggests uncontrolled asthma”). These reflections showed understanding of both emotional state and clinical risk. However, empathy could have been deeper by exploring the emotional texture of Marcus’s attachments and stressors (e.g., asking what the dog means to him in more depth, reflecting the strain of finances/follow-up appointments) rather than moving quickly into problem-solving and scripting. Because reflections were accurate but sometimes brief and followed by rapid transition to solutions, a 4 is appropriate.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The clinician created many opportunities for change talk and reinforced practical, doable steps. Opening with “what would you most like to address or change?” invited Marcus to state goals; Marcus produced change language (“I’d like to breathe better and have fewer ER scares”). The clinician repeatedly framed concrete actions (spirometry, controller therapy, inhaler technique, written action plan) and offered a tangible tool (script) that prompted Marcus to commit to specific behaviors (bring inhalers and ER records; try a pet‑free bedroom and HEPA if easy). Those problem‑solving moves helped elicit change talk and commitment language. Where improvement is needed: the clinician could have more actively amplified and explored Marcus’s own motivations and values for breathing better (e.g., asking “What would breathing better allow you to do?” or reflecting and summarizing Marcus’s reasons) to deepen and sustain change talk rather than primarily moving to logistics.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 5/5
+
+Explanation:
+The clinician avoided reinforcing Marcus’s sustain talk and did not argue for giving up what Marcus valued. Marcus repeatedly expressed sustain talk about the dog, finances, and overwhelm (“The dog has been there before my wife,” “finances is a problem right now,” “everything’s all over”), and the clinician responded by offering harm‑reduction alternatives (pet‑free bedroom, HEPA, weekly baths) and practical supports (samples, low‑cost options) rather than insisting on the unacceptable option (remove dog). The clinician accepted Marcus’s boundary (“I will not give up my dog”) and worked around it. This is a strong example of softening sustain talk and redirecting attention to feasible change strategies.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The clinician consistently fostered shared decision‑making and power sharing. Examples include repeatedly asking Marcus what he wanted (initial open question), offering choices (“Want me to write a short script… or a step‑by‑step plan?”), inviting edits to the script (incorporating Marcus’s insistence about the dog and concerns about cost), and offering to rehearse the conversation with him. The clinician tailored the plan to Marcus’s expressed limits and preferences and incorporated Marcus’s language into the script (e.g., explicitly stating he will not give up his dog). These behaviors show true partnership where Marcus’s expertise about his life shaped the plan.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The clinician maintained a clear, appropriate focus on asthma management throughout the session. From the initial safety/opening question the clinician rapidly narrowed to clinically relevant targets: inhaler usage, ER visits, action plan, inhaler technique, spirometry, controller therapy, and concrete pet‑management strategies. The clinician kept moving the conversation toward concrete, measurable clinical steps (spirometry, written action plan, follow‑up 2–6 weeks, peak flow, spacer) and did not allow the session to drift into unrelated topics. The clinician balanced focus with responsiveness to Marcus’s concerns (cost, dog), preserving direction while remaining patient‑centered.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The clinician repeatedly affirmed Marcus’s choice and control over decisions. Early statements like “I’m here to listen and support you” and offers such as “Want me to write a short script…?” reinforced Marcus’s agency. The clinician explicitly honored Marcus’s decision about keeping the dog and built the medical plan around what Marcus was willing to try (pet‑free bedroom, HEPA). The clinician avoided coercive language and instead offered options and support (printable script, rehearsal), clearly signaling that final decisions rest with Marcus.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The session was conducted as a true collaboration. The clinician and Marcus co‑constructed the plan: the clinician drafted scripts, invited Marcus to revise wording (ensuring it included his refusal to give up the dog), and rehearsed lines together. The clinician asked Marcus what would help most (printable script versus rehearsal) and followed Marcus’s preference. This back‑and‑forth, with Marcus actively shaping content and delivery, exemplifies high‑level collaboration.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The clinician elicited some motivation (Marcus voiced desire for fewer ER visits and to breathe better, and agreed to concrete, low‑effort steps). However, the clinician relied heavily on information‑giving and problem‑solving (providing lists of recommended actions, drafting scripts, advising clinical tests and medications) rather than systematically evoking Marcus’s internal reasons, values, and confidence. For example, after Marcus said he wants to breathe better, the clinician could have asked “What would breathing better allow you to do that matters most?” or “What makes you confident you can try a pet‑free bedroom?” Instead, the clinician moved quickly to logistics and scripting. This yielded practical progress but less exploration and amplification of intrinsic motivation; therefore a mid‑level score is appropriate.
+
+---
+
+**Overall Global Ratings Score:** **4.6/5**
+
+Strengths: The clinician demonstrated strong acceptance, partnership, collaboration, autonomy support, and direction — consistently respectful, patient‑centered, and focused on actionable steps tailored to Marcus’s priorities (keeping his dog, cost constraints). The clinician created practical tools (printable script, rehearsal) that mobilized Marcus into specific commitments (bringing inhalers/ER records, trying pet‑free bedroom and HEPA) and softened sustain talk by offering harm‑reduction strategies.
+Areas for improvement: The clinician relied more on advice and structured problem‑solving than on evocation of Marcus’s internal motivations. To strengthen MI, the clinician should increase open questions that explore Marcus’s personal reasons, values, and confidence for change (e.g., “Why is breathing better important to you?” “What strengths have helped you make other changes?”), and more frequently reflect and amplify change talk when it appears. Deeper emotional reflections about Marcus’s attachment to his dog and the stressors (finances, appointments) could also build empathy and deepen motivation before transitioning to concrete plans.

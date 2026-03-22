@@ -1,0 +1,78 @@
+PSYCHIATRIST: Hi — I’m glad you reached out. I’m here to listen and support you. What’s been on your mind or most difficult lately? How have you been feeling emotionally and physically?
+PATIENT: Um, lately it hits me physically — I get hot, start sweating, my heart races and I go blank, like I can’t focus on the shot. I feel distracted and shaky, and then I avoid clients or small events ’cause it’s embarrassing. I don’t know how to stop it, kind of feel stuck. I mean, I hope therapy might help, but I’m not sure what would actually work — it’s been this way for a while and nothing I’ve tried has really helped.
+PSYCHIATRIST: That sounds really upsetting — those physical symptoms and avoidance are common and treatable. Can I ask how often this happens and what situations trigger it? What have you already tried? 
+
+If you want, try a quick grounding: box breathing—inhale 4, hold 4, exhale 4, hold 4 for several cycles; then do 5-4-3-2-1 grounding (name 5 things you see, 4 you can touch, 3 you hear, 2 you smell, 1 you taste). 
+
+We can work on CBT and gradual exposure or discuss medication if appropriate. Want to try the breathing now?
+PATIENT: Yeah, it happens pretty often — a few times a week, worse when I’m shooting with clients or if people are watching me. I get hot, sweaty, my heart races and I go blank. I’ve tried deep breaths before, rehearsing, cutting back on caffeine, and sometimes I just avoid or cancel — kind of shaky that none of it helps. I can try the box breathing now, though I don’t know if it’ll do much.
+PSYCHIATRIST: That’s totally understandable — thanks for trying. I’ll guide you: sit comfortably, hand on your belly. Inhale through your nose for 4 seconds, feel your belly rise; hold 4; exhale slowly through your mouth for 4, feel the belly fall; hold 4. Repeat 4–6 cycles. After that, try 5-4-3-2-1 grounding (name 5 things you see, 4 you can touch, 3 you hear, 2 you smell, 1 you taste). Notice any small changes in heart rate, temperature, or thoughts, and tell me what you notice.
+PATIENT: Okay, I did it. My heart slowed a little and I felt a tiny bit cooler, but I’m still shaky and my thoughts are all over — kind of helped for a minute. I don’t know if it’d actually work during a shoot when I’m panicking. It’s something, though, I guess.
+PSYCHIATRIST: That was a helpful try — small changes matter. A few quick strategies you could use during a shoot: 1) micro-breathing (inhale 3–4, exhale 3–4) between shots; 2) discreet grounding (press feet into floor, feel your grip on the camera or a small object); 3) label the feeling out loud (“I’m anxious, that’s okay”); 4) give yourself a scripted pause (“one minute”), sip water, reset; 5) reframe symptoms as energy for performance. 
+
+If you’d like, we can make a brief graded-exposure plan and a one-page “coping script” to use on shoots. Which sounds most useful?
+PATIENT: I guess a one-page coping script sounds more useful right now — something I could actually read when I’m panicking on a shoot. But I don’t know if I’d remember to use it when I go blank, I get tongue-tied. Graded exposure seems kind of scary, but maybe it’d help long-term. I’d be willing to try the script first, I think.
+PSYCHIATRIST: Shoot Coping Script (keep it on your phone or a small card)
+
+1. Say to yourself: “One minute.”  
+2. 3 slow belly breaths (inhale 4, exhale 4).  
+3. Press feet into floor, feel camera, name 3 things you see.  
+4. Quietly label: “I’m anxious. This will pass.”  
+5. Sip water, reset stance, take next shot when ready.  
+6. Reframe: “This energy helps my focus.”  
+7. If needed: tell client, “Give me a moment,” and step back.
+
+Practice this aloud once daily and glance at the card before each shoot.
+PATIENT: Hmm, that sounds kind of doable. I like having it on my phone, but I don’t know if I’ll remember to look at it when I go blank. Saying “one minute” out loud feels awkward with clients — I’d probably mumble. Maybe shorten it to breathing, feet, and a sip of water. I’ll try practicing once a day, though I’ll probably forget some days. I want it to help — I just feel unsure it’ll work in the moment.
+PSYCHIATRIST: That makes total sense — shorter, discreet steps are easier in the moment. Try this micro-script you can hide on your strap or phone lock screen:
+
+1) 3 slow belly breaths.  
+2) Press feet into floor + squeeze camera strap.  
+3) Sip water & silently say “steady.”
+
+Make it automatic by rehearsing aloud 1–2 min daily, practicing during a mock shoot, and setting a phone reminder 10–15 minutes before jobs. Want a version sized for a camera strap card or your lock screen?
+PATIENT: Maybe I’ll try the lock-screen — I look at my phone more than my strap. I’m still not sure I’ll remember it in the moment, though; I get kind of blank. Keep it super short please: “3 breaths. Feet. Sip. Steady.” I’ll try setting a reminder to practice once a day, but I can’t promise I won’t forget some days.
+PSYCHIATRIST: Perfect — that’s short and clear. Use exactly:  
+3 breaths. Feet. Sip. Steady.
+
+Put it on your lock screen or wallpaper. Practice aloud 1–2 minutes daily and set a reminder 10–15 minutes before shoots. During a mock shoot, cue the lock screen and run the steps until it feels automatic. Want me to create a simple lock-screen image with that text?
+PATIENT: That might actually help. I’m kind of hesitant though — I worry clients might see it, so make it subtle and plain. Yes, please make a simple lock-screen with exactly:  
+3 breaths. Feet. Sip. Steady.  
+Maybe small white text on a dark, blurred background so it’s discreet. I’ll try the reminder, but I don’t know if I’ll remember every day. I’ll give it a shot, though.
+PSYCHIATRIST: Save this as "lockscreen.svg" (1170×2532). Set as your lock-screen/wallpaper.
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="2532" viewBox="0 0 1170 2532">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b0b0b"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <filter id="b" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+  <rect width="1170" height="2532" fill="url(#g)" filter="url(#b)"/>
+  <text x="50%" y="88%" fill="#ffffff" fill-opacity="0.95"
+        font-family="-apple-system, system-ui, Roboto, 'Helvetica Neue', Arial"
+        font-size="56" text-anchor="middle" dominant-baseline="middle"
+        style="letter-spacing:0.5px;">
+    3 breaths. Feet. Sip. Steady.
+  </text>
+</svg>
+PATIENT: Thanks — that looks good. I’ll save it and set it as my lock screen. It’s subtle, so I’m less worried about clients seeing it. I’ll set the reminder to practice, but I’m not sure I’ll remember every day or use it when I go blank. I’ll try anyway.
+PSYCHIATRIST: That’s completely understandable — forgetting is normal, especially when you’re anxious. A few brief tips: pair practice with an existing habit (phone unlock, morning coffee), set both a daily reminder and a pre-job alert, put a tiny sticker on your camera strap, and run the 3-step script once during a mock shoot so it feels automatic. Even using it some of the time helps. Want to practice the micro-script together once now or set a reminder plan?
+PATIENT: Hmm, I think setting a reminder plan sounds more doable right now — I get weird practicing out loud. I’ll pair practice with unlocking my phone and set a daily reminder at 9am, plus a 15-minute pre-job alert. I’ll put a tiny sticker on my strap too. I’ll try to run the script once during a mock shoot this week, but I don’t know if I’ll remember every day. I’ll give it a go, though.
+PSYCHIATRIST: That sounds like a solid plan — good choices. A few quick additions:
+
+- Use clear reminder labels: daily 9am = “Practice: 3 breaths. Feet. Sip. Steady.” Pre-job 15m = “Run micro-script now.”  
+- Implementation intention: “When I unlock my phone, I will do 3 slow breaths.”  
+- Make practice silent if that’s easier; rehearse once during a mock shoot.  
+- If you miss a day, be kind and try again tomorrow.  
+
+Want me to write those two reminder texts exactly as notifications you can paste in?
+PATIENT: Okay, yeah — please. Can you write exactly:
+
+Daily 9am: Practice: 3 breaths. Feet. Sip. Steady.
+Pre-job 15m: 3 breaths now.
+
+I don’t know if I’ll use them every time, but I’ll try.

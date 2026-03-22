@@ -27,18 +27,21 @@ class LLMManager:
         load_dotenv()
         openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
         
-        # Core LLMs (OpenAI gpt-5.4-mini)
+        # Core LLMs (OpenAI gpt-5-mini) — timeout=120s to prevent hung API calls
         self.llm_mini_summary = ChatOpenAI(
-            model="gpt-5.4-mini",
-            api_key=self.api_key
+            model="gpt-5-mini",
+            api_key=self.api_key,
+            timeout=120
         )
         self.llm_mini_virtualPatient = ChatOpenAI(
-            model="gpt-5.4-mini",
-            api_key=self.api_key
+            model="gpt-5-mini",
+            api_key=self.api_key,
+            timeout=120
         )
         self.llm_feedback = ChatOpenAI(
-            model="gpt-5.4-mini",
-            api_key=self.api_key
+            model="gpt-5-mini",
+            api_key=self.api_key,
+            timeout=120
         )
         
         # Evaluator should use OpenRouter Gemini when available
@@ -47,24 +50,28 @@ class LLMManager:
                 model="google/gemini-2.5-flash",
                 temperature=0.1,
                 api_key=SecretStr(openrouter_api_key),
-                base_url="https://openrouter.ai/api/v1"
+                base_url="https://openrouter.ai/api/v1",
+                timeout=120
             )
             logging.info("Virtual evaluator initialized with OpenRouter Gemini 2.5 Flash.")
         else:
             logging.warning("OPENROUTER_API_KEY not found in environment. Using OpenAI for virtual evaluator.")
             self.llm_mini_virtualEvaluator = ChatOpenAI(
-                model="gpt-5.4-mini",
-                api_key=self.api_key
+                model="gpt-5-mini",
+                api_key=self.api_key,
+                timeout=120
             )
         
-        # Therapist agents (for multi-agent mode) - all gpt-5.4-mini on OpenAI
+        # Therapist agents (for multi-agent mode) - all gpt-5-mini on OpenAI
         self.llm_therapist_proposer = ChatOpenAI(
-            model="gpt-5.4-mini",
-            api_key=self.api_key
+            model="gpt-5-mini",
+            api_key=self.api_key,
+            timeout=120
         )
         self.llm_therapist_judge = ChatOpenAI(
-            model="gpt-5.4-mini",
-            api_key=self.api_key
+            model="gpt-5-mini",
+            api_key=self.api_key,
+            timeout=120
         )
         
         logging.info("LLM Manager initialized with all ChatOpenAI instances.")

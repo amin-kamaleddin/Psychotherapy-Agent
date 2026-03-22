@@ -1,0 +1,11 @@
+Criterion,N,Wilcoxon_Statistic,p_value,Significant,trained_agent_mean,simple_mean,trained_agent_std,simple_std,Mean_Difference,Direction,Effect_Size,p_bonferroni,Significant_bonferroni,p_fdr_bh,Significant_fdr_bh,p_fdr_by,Significant_fdr_by
+Acceptance,133,641.0,0.0,Yes,4.702,4.516,0.21,0.278,0.186,trained_agent > simple,0.5806,0.0,Yes,0.0,Yes,0.0,Yes
+Empathy,133,214.5,0.0,Yes,4.352,3.902,0.289,0.377,0.45,trained_agent > simple,1.2138,0.0,Yes,0.0,Yes,0.0,Yes
+Direction,133,345.5,0.0,Yes,4.952,4.829,0.108,0.213,0.123,trained_agent > simple,0.5202,0.0,Yes,0.0,Yes,0.0,Yes
+Collaboration,133,254.0,0.0,Yes,4.656,4.09,0.291,0.488,0.565,trained_agent > simple,1.1363,0.0,Yes,0.0,Yes,0.0,Yes
+Autonomy Support,133,52.5,0.0,Yes,4.985,4.836,0.058,0.253,0.149,trained_agent > simple,0.594,0.0,Yes,0.0,Yes,0.0,Yes
+Evocation,133,8.0,0.0,Yes,4.117,3.346,0.445,0.447,0.771,trained_agent > simple,1.9773,0.0,Yes,0.0,Yes,0.0,Yes
+Partnership,133,1001.0,0.0,Yes,4.683,4.432,0.28,0.351,0.251,trained_agent > simple,0.61,0.0,Yes,0.0,Yes,0.0,Yes
+Cultivating Change Talk,133,16.5,0.0,Yes,4.068,3.517,0.435,0.461,0.55,trained_agent > simple,1.6553,0.0,Yes,0.0,Yes,0.0,Yes
+Softening Sustain Talk,133,417.5,0.0,Yes,3.974,3.734,0.258,0.346,0.241,trained_agent > simple,0.7684,0.0,Yes,0.0,Yes,0.0,Yes
+Overall Average,133,41.0,0.0,Yes,4.499,4.134,0.172,0.252,0.365,trained_agent > simple,1.7852,0.0,Yes,0.0,Yes,0.0,Yes

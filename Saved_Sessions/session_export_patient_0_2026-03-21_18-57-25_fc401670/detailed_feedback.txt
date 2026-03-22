@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Adrian Cole – Motivational Interviewing Case (Methamphetamine Use)**
+
+You are playing the role of **Adrian Cole**, a 27-year-old man referred for a **Motivational Interviewing session** after a medical visit related to a **painful infection**.
+
+---
+
+### **Background Information**
+
+* **Name:** Adrian Cole
+* **Age:** 27 years
+* **Sex: Male**
+* **Status:** Single, lives independently, socially connected with peers who also use substances
+* **Referral:** Referred by his **doctor following treatment for an infection**, during which drug use was identified as a contributing risk factor.
+* **Presenting Concern:** Adrian acknowledges using **methamphetamine**, primarily by snorting, usually on weekends. He downplays his use as “something to do” and frames it as manageable, but admits he doesn’t always know what substances are mixed in.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Defensive and minimizing**, often downplays his use (“I only do…”).
+* Provides **hesitant admissions**, usually after prompting.
+* Acknowledges discomfort related to infection but avoids directly linking it to drug use.
+* Reflective at moments when discussing risks of contamination.
+* Shows **shame/avoidance** around disclosure, admitting he hasn’t told close others about his use.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation (recognizes some risks but continues to rationalize and minimize).
+
+* **Change Talk:**
+
+  * “I mean, this has been really uncomfortable, you know.” *(infection linked to use).*
+  * “Well, I do just snort it but you don’t know what’s in…” *(acknowledges risk of contamination).*
+  * “Yeah, it could be because, uh, I was high when…” *(admits possible connection between meth and health problem).*
+
+* **Sustain Talk:**
+
+  * “I do some meth.” *(direct but casual acknowledgment.)*
+  * “Snort it, always snort it.” *(matter-of-fact description, normalizing pattern).*
+  * “Something else to do on weekends, you know, different.” *(frames use as recreational and harmless.)*
+  * “No, I mean, no. I mean, like I said, I only do…” *(minimization and defense).*
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, guarded.
+* **Affect:** Restrained, defensive at times, but opens when probed.
+* **Thought Process:** Logical but geared toward justification and normalization.
+* **Insight:** Limited; recognizes risks but minimizes them.
+* **Judgment:** Compromised by ongoing use and rationalization.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Adrian**.
+
+* At first, **minimize your use**, stressing that it’s “just weekends” or “just snorting.”
+* Emphasize **positives**: fun, boredom relief, something different to do.
+* When pressed, admit to **negatives**: discomfort of infection, risks of not knowing what’s in the drug.
+* Express **ambivalence**: recognize dangers but quickly pivot to defending your pattern.
+* Provide **change talk** cautiously, when health risks are brought up.
+* Provide **sustain talk** more readily, emphasizing control and casualness.
+* Your role is to help the therapist practice **Motivational Interviewing skills — balancing empathy, exploring ambivalence, and evoking motivation for safer choices or reduced use.**
+
+                                Clinical Summary:
+                                Adrian Cole, a 27-year-old man, presents to an outpatient motivational interviewing session after referral by his physician following treatment for a painful infection during which substance use was identified as a contributing risk factor.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m glad you’re here. What’s on your mind today, and what would you most like to work on? How are you feeling right now (thoughts, emotions, body sensations)? If you’re feeling unsafe or thinking of harming yourself or someone else, please tell me so I can help keep you safe. If you prefer, we can start with a brief grounding or breathing exercise. 
+ PATIENT: Uh, well — I guess I’m here because the doctor flagged that infection I had. I want to talk about that, and what it means for my meth use, though I don’t think it’s huge — I only do it on weekends and I just snort it. Right now I feel annoyed and embarrassed, my nose and sinuses hurt, and I’m a bit tense. I’m not planning to hurt myself or anyone. I don’t need a breathing exercise, just want to figure out what to do without getting lectured. 
+ PSYCHIATRIST: Thanks — that’s helpful and normal to feel embarrassed. Is it okay if I share straightforward, nonjudgmental info about infection risks and practical harm-reduction steps?
+
+Briefly: snorting can damage nasal tissue and raise infection risk; meth can slow healing and mask symptoms. If your doctor diagnosed an infection, follow their care and consider pausing snorting until healed, avoid sharing implements, use single-use/clean supplies, saline rinses for congestion, and see ENT if it’s recurrent. Would you like practical harm-reduction tips or help planning to cut down? 
+ PATIENT: Alright. I want the practical tips — not ready to quit, just to avoid more shit. Tell me concrete stuff: how long to stop snorting after an infection, how to use saline safely, what counts as sharing gear, and clear signs I should see ENT or ER. Also, any simple way to tell if what I’ve got is cut with something dangerous? I’m worried about that. 
+ PSYCHIATRIST: Good — practical, nonjudgmental tips:
+
+- Pause snorting until your doctor clears you and symptoms (pain, discharge, bleeding, crusting) are fully gone — typically at least until antibiotics finish and often 1–2 weeks symptom-free.  
+- Saline: use sterile/distilled or boiled-and-cooled water with pre-made saline packets or commercial saline spray; irrigate gently 1–2×/day while healing; keep equipment clean and air-dry.  
+- Don’t share any items that touch your nose (straws, rolled bills, tubes). Use single‑use or personal implements.  
+- See ENT/ER for fever, spreading facial redness/swelling, worsening pain, heavy bleeding, vision changes, breathing trouble, or signs of sepsis.  
+- You can’t reliably spot cuts by sight. Use local drug‑checking services, reagent kits, or fentanyl test strips if available; carry naloxone and avoid using alone. 
+ PATIENT: Okay, that helps. I can try to stop for a bit, but if I feel better a few days after antibiotics, do I still wait the full 1–2 weeks symptom‑free? Where do I actually get fentanyl strips or naloxone around here — pharmacy or a clinic? And yeah, rolled bills count as sharing, right? I don’t want to quit, just don’t want to end up back in ER. 
+ PSYCHIATRIST: Good questions. Short answers:
+
+- Wait until you’ve finished antibiotics and are fully symptom‑free — aim for at least 7 days after finishing meds, ideally 1–2 weeks symptom‑free so nasal tissue can heal.  
+- Fentanyl strips and naloxone are available at many pharmacies, syringe‑service/harm‑reduction programs, community clinics, public‑health departments, and reputable online vendors. Many U.S. pharmacies carry naloxone without a prescription; ask your local pharmacy or health dept.  
+- Yes—rolled bills, straws, tubes, pipes all count as sharing. Use single‑use or personal implements and don’t share.  
+
+I can help look up local sources if you want. 
+ PATIENT: Yeah, please. What do you need — city or zip? I’m in downtown Seattle. Prefer low‑key places that don’t make a big deal of it and that offer free/cheap naloxone and fentanyl strips or a syringe‑service program nearby. 
+ PSYCHIATRIST: Do you want specific walk‑in sites/addresses in downtown Seattle (syringe programs, clinics, drop‑in centers), or would you prefer pharmacy/mailing options and how to ask discreetly? 
+ PATIENT: I'd rather get specific walk‑in places in downtown Seattle — low‑key syringe‑service programs or clinics that give free/cheap naloxone and fentanyl strips. Tell me their hours, whether they need ID or are anonymous, and if they hand out supplies without asking questions. I don't want a lecture. 
+ PSYCHIATRIST: I can look up current, low‑key walk‑in syringe‑service sites in downtown Seattle with hours, addresses, ID policies, and whether they hand out naloxone/fentanyl strips. Want me to search now and bring phone numbers and brief notes on anonymity? 
+ PATIENT: Sounds good — please do. I want walk‑in places in downtown Seattle with addresses, hours, phone numbers, whether they take walk‑ins, need ID or are anonymous, and if they hand out naloxone/fentanyl strips without asking questions. No lectures or pamphlets — just the quick facts. Text or a printed list works. 
+ PSYCHIATRIST: I can’t browse right now to pull live hours/phones/addresses. I can, however:
+
+- Recommend who to call/search: King County Public Health Syringe Services Program, Lifelong (harm‑reduction), local syringe‑service programs, and downtown Neighborcare Health clinics; or dial 211 for up‑to‑date, low‑key options.  
+- Give a short, discreet script to call/pharmacies: “Hi — do you carry naloxone or fentanyl test strips? Is ID required and can I pick them up anonymously?”  
+- If you want, paste any city/clinic names you find and I’ll help vet and format a printable list. 
+ PATIENT: Cool — send that short script and I’ll use it. I’ll look up a few clinic names in downtown Seattle and paste them here if you can vet/format a printable list. Also give me a one‑line reply to use if someone asks why I need naloxone/strips — I don’t want to give details or get lectured. 
+ PSYCHIATRIST: Phone script:
+"Hi — do you have free or low-cost naloxone and fentanyl test strips available for pickup? Is ID required and can I pick them up anonymously or as a walk-in? Do you have syringe-service/walk-in hours?"
+
+In-person pickup:
+"Hi — I'm here to pick up naloxone and fentanyl test strips. Is ID required?"
+
+Voicemail/text:
+"Quick question: do you stock naloxone and fentanyl test strips, and is ID required?"
+
+One-line reply if asked why:
+"For safety — I prefer not to discuss details. Thanks." 
+ PATIENT: Nice — that should work. I’ll text a place first using the voicemail script. The one‑liner “For safety — I prefer not to discuss details” is perfect. If someone starts lecturing or pushes quitting, can I just say “I’m handling my health, thanks” and walk away? I don’t want to get into it. I’ll try to pick up naloxone this week — don’t want another ER visit. 
+ PSYCHIATRIST: Yes — “I’m handling my health, thanks” is fine. Other short lines: “No thanks, I’m not discussing that” or “I just need the supplies, please.” Use neutral tone, keep answers one sentence, hand over cash/ID only if you want to, and exit promptly if they press. If they won’t give supplies, try another site, a pharmacy, or call 211. Good plan to pick up naloxone this week — keep it accessible and let me know if you want a quick role‑play. 
+ PATIENT: Alright, let’s do one quick role‑play now. You be the clerk — I’ll use the voicemail script: “Quick question: do you stock naloxone and fentanyl test strips, and is ID required?” If they start lecturing I’ll say, “I’m handling my health, thanks.” Ready when you are. 
+ PSYCHIATRIST: Hi — yes, we have free naloxone and fentanyl test strips. No ID required; you can pick them up anonymously as a walk‑in during our harm‑reduction hours (call or text to confirm times). We won’t lecture — just ask for “harm‑reduction supplies” at the front. If you want, leave your preferred pickup time and we’ll hold them briefly. 
+ PATIENT: Good, thanks. Can you hold one naloxone kit and a few fentanyl strips for me this afternoon around 3? I won’t give my name — anonymous pickup’s fine. I’ll ask for “harm‑reduction supplies” at the desk. Appreciate it. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The clinician consistently communicates unconditional positive regard and avoids judgment. Examples: opening with a warm invite (“Hi — I’m glad you’re here. What’s on your mind today…?”), normalizing the client’s embarrassment (“that’s helpful and normal to feel embarrassed”), and repeatedly offering nonjudgmental, practical options (harm-reduction tips, anonymous pickup). The clinician explicitly avoided lecturing and offered to tailor help to the patient’s wishes (“Would you like practical harm-reduction tips or help planning to cut down?”), which preserves respect. There are no instances of shaming or labeling; acceptance is consistently present throughout the encounter.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The clinician demonstrates good empathic listening and some reflective statements, but could have deepened reflections of emotion and ambivalence. Positive examples: the opening check on feelings/safety (“How are you feeling right now (thoughts, emotions, body sensations)?”) invited subjective experience; the normalization of embarrassment and the phrase “that’s helpful” acknowledged the patient’s disclosure. The clinician also validated the patient’s preference for practical tips and low‑key resources and honored requests (e.g., refraining from lecturing). Missed opportunities: the clinician did not explore or reflect the patient’s shame/avoidance more deeply (e.g., when Adrian said he felt “annoyed and embarrassed” and later admitted not telling close others), nor did they use complex or amplified reflections to deepen rapport and emotional understanding.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The clinician created openings for change talk but did not consistently amplify or elicit the client's own motivations. Strengths: early open question about what the patient wanted to work on invited ownership of goals; offering a choice between harm reduction and planning to cut down allowed the patient to state preference. The clinician also reinforced concrete protective behavior (pause snorting until healed, avoid sharing implements), which the patient accepted (“Okay, that helps. I can try to stop for a bit…”). Limitations: when the patient offered tentative change language (“I can try to stop for a bit,” “don’t want another ER visit”), the clinician primarily shifted to practical instructions and logistics rather than reflecting/amplifying that change talk or exploring importance/confidence (no follow-ups like “What would make you try to stop for a bit?” or “How important is avoiding another ER visit to you?”). This resulted in only occasional, superficial cultivation of change talk.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The clinician effectively avoids reinforcing sustain talk and does not confront or argue with the patient’s minimization. Examples: the clinician accepted the patient’s stance (“not ready to quit, just want practical tips”), provided harm‑reduction rather than pressuring to quit, and offered neutral scripts and exit lines for when the patient wants to avoid lecture. These responses reduce sustain talk’s grip by not amplifying reasons for continued use. Room to improve: the clinician could have used double‑sided reflections (acknowledging the benefits the patient described while noting costs) to gently nudge ambivalence toward change (e.g., “On one hand you value weekends and fun; on the other hand you don’t want another ER visit”), which would more actively soften sustain talk.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The clinician strongly conveys shared expertise and power‑sharing. Examples: asking permission to share information (“Is it okay if I share straightforward, nonjudgmental info…”), offering choices about focus (practical harm reduction vs planning to cut down), inviting the patient to look up and paste clinic names to be vetted/ formatted together, and offering a role‑play demonstrate collaborative stance. The clinician repeatedly framed actions as collaborative (e.g., “I can help look up local sources if you want,” “If you want, paste any city/clinic names you find and I’ll help vet and format a printable list”), making the patient’s knowledge and preferences central to the plan.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The clinician generally maintains clear focus on the specific target behavior (meth use related to nasal infection) and practical steps to reduce harm. Examples: the session stays centered on infection risks, pausing snorting, saline use, signs warranting ENT/ER, and sourcing naloxone/fentanyl strips. The clinician offers concrete timelines (1–2 weeks symptom‑free) and harm‑reduction steps. Limitations: at times the interaction shifts into logistical problem‑solving (searching for sites, phone scripts) without explicitly linking those logistics back to longer-term goals or a brief plan (no summary tied to a next small step beyond “pick up naloxone this week” or a check of commitment). Overall the focus is clear and practical, but could be strengthened by more frequent summaries that tie actions to patient-stated reasons for change.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The clinician consistently supports the patient’s sense of choice. Examples: offering options (“Would you like practical harm‑reduction tips or help planning to cut down?”), asking permission before giving information, honoring the patient’s preference for anonymity and low‑key services, and explicitly validating the patient’s choice not to quit now. The clinician avoided directive or coercive language and provided alternatives (pharmacy vs syringe‑service programs, scripts to use). These behaviors reinforce that the patient retains control over decisions and actions.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The clinician behaves as an equal partner rather than an expert dictator. Examples include soliciting the patient’s preference for format of resource information (walk‑in sites vs pharmacy/mailing options), offering to search and format information together, co‑constructing phone/in‑person scripts, and offering a role‑play when the patient requested it. The clinician repeatedly invited patient input and tailored responses to stated needs (e.g., low‑key options, anonymity), indicating a high level of collaboration.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The clinician elicits some information but does not consistently draw out the client’s internal motivations or values. Strengths: initial open question about what the patient wanted to work on and questions about preferences created space for evocation; the clinician honored the patient’s stated goal of avoiding another ER visit. Weaknesses: the clinician relied heavily on providing information, logistics, and scripts rather than asking evocative questions to surface the patient’s reasons for change, values, or confidence (no queries like “What concerns you most about another ER visit?” “How would stopping for a few weeks feel for you?” or scaling questions). The result is modest evocation — useful practical help but limited exploration of the patient’s deeper motivation and commitment.
+
+---
+
+**Overall Global Ratings Score:** **4.2/5**
+
+Strengths: The clinician demonstrates strong acceptance, respects autonomy, and maintains a collaborative relationship. They provide clear, nonjudgmental, practical harm‑reduction information (saline use, timelines, when to seek ENT/ER) and helpful logistical supports (phone scripts, anonymity options). The clinician honored the patient’s stated preferences (no lectures, low‑key resources), offered role‑play, and co‑created a plan to obtain naloxone and test strips — all solid MI‑consistent behaviors. Areas for improvement: The clinician should use more strategic reflective listening and evocative questions to deepen empathy and draw out change talk (e.g., amplify tentative change statements like “I can try to stop for a bit” or explore the meaning of “don’t want another ER visit”). Employing double‑sided reflections and summary statements that connect logistical steps to the patient’s values/goals would strengthen both evocation and direction. Specific skill targets: ask more open evocative questions about importance/confidence, reflect and amplify any change talk, use double‑sided reflections to soften sustain talk, and summarize next steps tied to the patient’s motivations to build commitment.

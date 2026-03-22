@@ -1,0 +1,434 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Mei Lin – Motivational Interviewing Case (Alcohol Use & Contraceptive Reliability)**
+
+You are playing the role of **Mei Lin**, a 26-year-old woman in a **Motivational Interviewing session** focused on reducing alcohol consumption and improving reliability in contraceptive use. Mei has a family history of alcoholism and recognizes her drinking as a potential risk factor for both health and unintended pregnancy. She reports that her alcohol use interferes with her ability to use birth control consistently.
+
+---
+
+### **Background Information**
+
+* **Name:** Mei Lin
+* **Age:** 26 years
+* **Sex: Female**
+* **Status:** Single, sexually active, living independently. Comes from a family with a history of alcoholism, which contributes to her concern about her own drinking habits. She has both drinking and non-drinking peer groups but often struggles with maintaining balance.
+* **Referral:** Referred for a session after expressing concern about her alcohol use and its impact on her reproductive health.
+* **Presenting Concern (from transcript):**
+
+  * *“I would say an eight.”* (importance of drinking below risk levels)
+  * *“I would say a four.”* (confidence in ability to drink below risk levels)
+  * *“It’s because you’ve told me I’m at risk and I have alcoholism in my family and I really don’t want to go down that path.”*
+  * *“I have a group of friends that doesn’t drink that I hang out with. And I think when I hang out with them, it’s not an issue.”*
+  * *“If I drink less, I’ll be more reliable with using birth control. I tend to not use it when I drank too much and I don’t really care too much.”*
+  * *“Probably a six.”* (confidence in using birth control consistently)
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Concerned and reflective**, aware of family history and personal risk.
+* **Ambivalent**, sees change as important but doubts her own ability to maintain it.
+* **Insightful**, directly connects drinking to lapses in contraceptive use.
+* **Responsible but inconsistent**, motivated to prevent pregnancy but struggles when drinking heavily.
+* **Supported by peers**, recognizes that time with non-drinking friends reduces risk.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation/Preparation — recognizes risks and is considering action, but confidence is limited.
+
+* **Change Talk:**
+
+  * *“I really don’t want to go down that path \[of alcoholism].”*
+  * *“If I drink less, I’ll be more reliable with using birth control.”*
+
+* **Sustain Talk:**
+
+  * *“I tend to not use it when I drank too much and I don’t really care too much.”*
+
+* **Ambivalence:** Clear — high awareness of risk and importance, but doubts about self-efficacy.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Anxious but thoughtful, motivated by concern for health and future.
+* **Affect:** Serious, engaged, slightly worried.
+* **Thought Process:** Logical, makes explicit links between behaviors and outcomes.
+* **Insight:** Developing — understands the interplay between alcohol and contraception reliability.
+* **Judgment:** Moderate — values prevention but struggles with consistency under the influence.
+* **No acute psychiatric crisis.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Mei Lin**.
+
+* Begin with acknowledging importance: *“I would say an eight.”*
+* Express low confidence: *“I would say a four.”*
+* Share reason for concern: *“I have alcoholism in my family and I really don’t want to go down that path.”*
+* Describe protective factor: *“I have a group of friends that doesn’t drink, and when I’m with them, it’s not an issue.”*
+* Connect alcohol to contraception: *“If I drink less, I’ll be more reliable with using birth control. I tend to not use it when I drank too much and I don’t really care too much.”*
+* Rate contraception confidence: *“Probably a six.”*
+* Tone should be **reflective, slightly anxious, ambivalent but open to change**.
+* The role is to let the therapist practice **linking behaviors, reinforcing change talk, and building confidence in strategies that reduce alcohol use and improve contraceptive reliability.**
+
+                                Clinical Summary:
+                                Mei Lin, a 26-year-old woman, presents to an outpatient motivational interviewing session. She is self-referred after expressing concern that her alcohol use is affecting her ability to use contraception reliably.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Mei Lin, I hear you’re worried about how drinking might affect your reproductive health and that your family history makes this feel urgent. You’ve already taken a strong step by seeking help. What specifically worries you most about alcohol’s impact, and what would you like to see change? On a scale from 0–10, how important is changing your drinking right now? We can explore goals (cutting back or abstaining), triggers, and practical strategies—what would you prefer to focus on first? 
+ PATIENT: I would say an eight. I would say a four. I have alcoholism in my family and I really don’t want to go down that path. I'm worried about making risky choices when drunk, like not using birth control. I have a group of friends that doesn’t drink, and when I’m with them, it’s not an issue. If I drink less, I’ll be more reliable with using birth control. I tend to not use it when I drank too much and I don’t really care too much. Probably a six. I want to focus on cutting back and foolproof contraception. 
+ PSYCHIATRIST: You’re saying this feels urgent because of your family history, you want to cut back, and you want a “foolproof” backup so drinking won’t lead to risky sex. You see changing as important (about an 8) but your confidence is lower (around 4). 
+
+For contraception, the most reliable options are long‑acting methods (IUD or implant) that don’t depend on choices in the moment. For cutting back, doable tactics: spend more time with non‑drinking friends, set a drink limit and leave plan, schedule alcohol‑free days, track drinks, and remove alcohol at home. 
+
+Which would you like to try first—booking a contraception appointment or a small alcohol‑reduction step this week? 
+ PATIENT: I think I'd prefer booking the contraception appointment first — it feels more foolproof and would take a lot of my worry away. But I'm nervous about side effects, cost, and what the visit involves. Could you walk me through what to expect and the options? If I need more time, I'll try spending time with my non‑drinking friends this week. 
+ PSYCHIATRIST: You’re making a solid, practical choice — that “foolproof” protection can really reduce worry. It’s normal to be nervous about side effects and cost.
+
+Briefly what to expect and options:
+- IUDs (copper or hormonal): >99% effective. Inserted into the uterus. Hormonal IUDs often reduce bleeding; copper can make periods heavier. Duration: 3–10 years depending on type. Possible cramping/spotting after insertion.
+- Implant (Nexplanon): >99% effective, placed in the upper arm for ~3 years. Possible lighter or irregular bleeding.
+- Visit: consult, consent, brief exam, insertion (10–30 min). Recovery: rest same day, OTC pain relief for cramps. Fertility returns quickly after removal.
+- Cost: many insurances cover LARC; Planned Parenthood/community clinics/sliding scale can help. Some clinics offer same‑day insertion.
+
+Would you like help finding clinics/insurance info, a short list of questions to ask, or to role‑play the visit? Which concern worries you most right now — side effects, cost, or the procedure itself? 
+ PATIENT: Mostly the side effects and the procedure itself worry me — like heavier periods, mood changes from hormones, and how painful insertion will be. Cost is a close second. Yes, I’d like help finding clinics that do sliding‑scale or same‑day insertions and a short list of questions to ask the provider. Also a quick reassurance about recovery time would help me feel less nervous. 
+ PSYCHIATRIST: That’s a very reasonable worry. Brief reassurance: insertion pain is usually brief (strong cramping for minutes) with soreness/cramps for 24–48 hours; OTC ibuprofen and rest help and most people resume normal activity same day. Hormonal IUDs/implants can change bleeding; mood changes are possible but uncommon. Planned Parenthood, Title X/community health centers, and local family‑planning clinics often offer sliding‑scale or same‑day insertion. Questions to ask provider: Which LARC they recommend and why; expected side effects; pain management for insertion; cost/insurance/same‑day availability; follow‑up plan; how removal/return to fertility works. Want me to look up local clinics if you share your zip code or role‑play the visit? 
+ PATIENT: Could we role‑play the visit first? I’m most worried about how much the insertion will hurt and mood changes from hormones — I’d like to practice asking about pain control, minute‑by‑minute what happens during insertion, and whether they do same‑day placement. Also want a short way to ask about cost/insurance or sliding‑scale. After we role‑play I’ll share my zip so you can look up clinics. 
+ PSYCHIATRIST: I’ll play the provider. You can use the bolded lines to speak.
+
+You: “I’m worried about how much the insertion will hurt. What will I feel, minute‑by‑minute, and what do you do for pain control?”
+
+Provider: “Most feel a quick, strong cramp when the device passes the cervix (seconds–minutes). We give ibuprofen beforehand, can offer a local numbing gel or cervical block if needed, and you can rest here until cramps ease. Many resume normal activities same day.”
+
+You: “How common are mood changes with the hormonal IUD/implant?”
+
+Provider: “Some people report mood changes, but it’s uncommon; we’ll monitor and can remove it if it’s a problem.”
+
+You: “Do you offer same‑day placement, and what will this cost me? Do you accept [insurance] or sliding‑scale/payment help?”
+
+Provider: “We often do same‑day if available; we’ll check insurance, offer sliding‑scale or clinic assistance programs, and discuss out‑of‑pocket options before inserting.”
+
+Would you like to practice saying any of those lines out loud? 
+ PATIENT: Yeah, I’d like to practice a few lines. First: the pain question — “I’m worried about how much the insertion will hurt. What will I feel, minute‑by‑minute, and what do you do for pain control?” Second: mood changes — “How common are mood changes with the hormonal IUD/implant?” And third: cost/same‑day — “Do you offer same‑day placement, and what will this cost me? Do you accept my insurance or sliding‑scale help?” 
+ PSYCHIATRIST: Those are clear lines — good choice. A few tiny tweaks to get what you need:
+
+- Pain: add “I get very anxious/pain‑sensitive; can we plan ibuprofen, a cervical block or numbing gel, and pause if I need?”  
+- Mood: add “How likely is this for people your clinic sees, and how quickly would you remove it if it started?”  
+- Cost/same‑day: add your insurer name or say, “I need sliding‑scale — can you give an estimate before insertion?”
+
+Want to run them aloud now and I’ll play the provider and give feedback? 
+ PATIENT: Okay, let's try them.
+
+"I'm worried about how much the insertion will hurt. I get very anxious and am pain‑sensitive — can we plan ibuprofen beforehand, use a cervical block or numbing gel, and pause if I need? Could you describe, minute‑by‑minute, what I'll feel?"
+
+"How common are mood changes with the hormonal IUD/implant in patients you see, and how quickly would you remove it if it became a problem?"
+
+"Do you offer same‑day placement and sliding‑scale help? Can you give an estimated cost before insertion and confirm if you take my insurance?" 
+ PSYCHIATRIST: These lines are clear, assertive, and specific — nicely done.
+
+Quick tweaks:
+- Pain: add “what dose of ibuprofen do you recommend?” and ask if a support person can stay with me.
+- Mood: ask “about what percent of your patients report mood changes?” and “what follow‑up would you schedule if I started feeling off?”
+- Cost: be ready to name your insurer or say “I need sliding‑scale” so they can give a concrete estimate.
+
+Want me to play the provider now so you can practice tone and timing? 
+ PATIENT: Yes, please. Start with the pain question — I’ll say: “I’m worried about how much the insertion will hurt. I get very anxious and am pain‑sensitive — what dose of ibuprofen do you recommend, can a support person stay, and can we pause if I need? Could you walk me through minute‑by‑minute what I’ll feel?” After your reply I’ll practice the mood and cost lines. 
+ PSYCHIATRIST: I hear this feels scary — that’s understandable. If it’s safe for you, we usually recommend 400–600 mg ibuprofen about 30–60 minutes before. Tell me if you’re on blood thinners or have NSAID allergy. We can offer numbing gel or a local cervical block, and most clinics allow a support person to stay. Typical sequence: speculum, clean, (numbing), a quick pinch when the cervix is steadied, then a brief strong cramp as the device passes the cervix (seconds–a minute), then milder cramping/soreness for 24–48 hrs. We’ll pause anytime you need. Does that plan feel manageable? 
+ PATIENT: Okay, that sounds more manageable, and I can take 400–600 mg beforehand. I’m still nervous — how often do you actually use a cervical block versus just numbing gel? If I have to work the next day, how realistic is that? And can my support person stay in the room the whole time? I need those details to decide. 
+ PSYCHIATRIST: You sound relieved but understandably still nervous — that makes sense.
+
+Quick answers: many clinics use numbing gel routinely; a paracervical (cervical) block is offered at many sites on request for very pain‑sensitive patients — say you want it when booking. Most people can work the next day, though cramping/soreness often lasts 24–48 hours; consider a lighter day if possible. Most clinics allow one support person to stay, but ask when you call. 
+
+Would you like a short script to request the block, support person, and cost estimate? 
+ PATIENT: Yes, please — that would really help.
+
+Can the script include:
+- requesting a paracervical block (and mentioning I’ll take 400–600 mg ibuprofen),
+- asking if my support person can stay,
+- asking for a cost estimate and whether they take my insurance or offer sliding‑scale,
+- and a quick line asking how common mood changes are and how fast they’d remove it if needed?
+
+Also a one‑sentence phone line I can use to book would be great. 
+ PSYCHIATRIST: Nice plan — here’s a short script you can use.
+
+Phone booking line (1 sentence):
+- “Hi, I’d like to book a same‑day consultation and possible IUD/implant insertion; do you have availability this week?”
+
+In‑visit lines:
+- “I’m pain‑sensitive and will take 400–600 mg ibuprofen beforehand — please plan a paracervical block (or at least numbing gel) and pause if I need.”
+- “Can one support person stay with me through the visit?”
+- “Do you accept [my insurer]? If not, do you offer sliding‑scale/reduced‑cost options and can you estimate out‑of‑pocket cost before insertion?”
+- “What percent of your patients report mood changes, and how quickly would you remove it if I experienced them?”
+
+Want me to call or look up clinics in your zip code? 
+ PATIENT: Yes — please look up clinics in 02139 that offer same‑day LARC insertion and sliding‑scale or reduced‑cost options. Include Planned Parenthood/Title X sites and any clinic that lists same‑day placement, pain‑management options, and an estimated out‑of‑pocket cost. Thank you. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently communicates unconditional positive regard. Examples: opening with “You’ve already taken a strong step by seeking help,” normalizing concerns (“It’s normal to be nervous about side effects and cost”), and validating emotion (“I hear this feels scary — that’s understandable”). There is no judgment or blaming language; the clinician repeatedly supports Mei’s choices (e.g., offering options and honoring her preference for contraception first). These behaviors reflect a warm, nonjudgmental stance throughout the encounter.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+Good reflective listening and perspective-taking are evident. The clinician accurately summarizes Mei’s situation early: “You’re saying this feels urgent because of your family history...You see changing as important (about an 8) but your confidence is lower (around 4).” The psychiatrist also acknowledges ongoing anxiety and relief (“You sound relieved but understandably still nervous”). Where empathy could be deeper: the clinician could have explored the emotional texture of Mei’s worry (fear, shame, grief about family history) more fully rather than mostly moving to information and logistics.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+There are clear efforts to elicit change-related language (asking importance on 0–10, offering options, asking “Which would you like to try first?”). This led Mei to articulate change talk (e.g., “If I drink less, I’ll be more reliable with using birth control” and choosing to book a contraception appointment). However, the clinician missed multiple opportunities to amplify and deepen that change talk — for example, by asking follow-ups like “What would having that foolproof protection mean for you?” or reflecting and expanding Mei’s own reasons and hopes. The clinician more often shifted to providing information rather than strategically reinforcing Mei’s voiced motivations.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The clinician did not reinforce sustain talk and did offer alternatives to drinking. But there was limited active work to soften sustain talk when it appeared. Mei said, “I tend to not use it when I drank too much and I don’t really care too much,” and the clinician did not use double-sided reflections, reframe, or strategic summarizing to acknowledge that ambivalence while nudging toward change (e.g., “On one hand you notice decreased concern while drinking; on the other, you really don’t want to repeat family patterns”). Instead the session moved quickly to practical contraception logistics and pain-management planning.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist strongly fostered client expertise and shared decision-making. Examples: offering choices about focus (“what would you prefer to focus on first?”), asking permission before giving information, explicitly offering to role‑play or look up clinics, and following Mei’s lead (she chose contraception first; the clinician supported that choice). The clinician consistently invited Mei’s input and tailored next steps to her preferences, demonstrating genuine power‑sharing.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The clinician maintained clear, consistent focus on the target behaviors (reducing alcohol and improving contraceptive reliability). From the outset the psychiatrist framed options (cutting back vs abstaining, triggers, contraception), stayed on-topic with concrete next steps (booking an appointment, role‑play), and offered specific strategies for both behaviors (LARC options, tactics to cut back). There was no drifting to unrelated topics and each exchange tied back to how to reduce pregnancy risk and alcohol use.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+Autonomy was explicitly supported throughout. The clinician repeatedly offered choices (what to focus on first, which step to try), acknowledged Mei’s decision-making (“Which would you like to try first—booking a contraception appointment or a small alcohol-reduction step this week?”), and avoided pressuring language. The clinician also offered to help in ways Mei preferred (role-play, clinic lookup) and honored her pace, reinforcing ownership of the plan.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The interaction is clearly collaborative: the psychiatrist frames the work as a joint effort (e.g., offering options, role‑playing together), solicits Mei’s preferences, and takes direction from her (Mei chooses contraception and role‑play). The clinician shifts roles (therapist → provider in role‑play) at Mei’s request and supports her active participation (practicing lines, tailoring scripts). The clinician’s language and behavior position the two as equal partners in problem-solving.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+There is evidence of evocation: asking the 0–10 importance/confidence questions, eliciting Mei’s reasons (family history, link to contraception lapses), and prompting a choice that resulted in a concrete change step (booking LARC). However, evocation could be stronger and more consistent. The clinician often moved quickly into providing factual information and procedural reassurance rather than employing more questions or reflections designed to draw out Mei’s internal motivations, values, and confidence-enhancing memories (e.g., asking about past successes spending time with non‑drinking friends or exploring what helped her maintain reliability in those contexts).
+
+---
+
+**Overall Global Ratings Score:** **4.3/5**
+
+Strengths: The clinician demonstrates a warm, nonjudgmental stance with excellent partnership, autonomy support, and clear direction. They skillfully normalize concerns, provide practical, concrete options (LARC details, pain management, cost resources), and engage Mei in shared planning (role‑play, scripts, clinic lookup). Areas to improve: More strategic evocation and cultivation of change talk (amplify Mei’s own reasons and hopes), active softening of sustain talk (use double‑sided reflections and summaries that hold both sides of ambivalence), and deeper empathic exploration of emotional content. Specific actionable suggestions: 1) When Mei gives importance/confidence numbers, follow with open questions like “What makes it an 8 instead of a 5?” and “Why a 4 and what would increase it to a 6?” to elicit and amplify change talk and identify strengths. 2) Use double‑sided reflections when sustain talk appears (e.g., “You enjoy the way drinking feels in the moment, and at the same time you’re worried about family risk and pregnancy — tell me more about those two sides.”). 3) After factual information, return to elicitation (Elicit‑Provide‑Elicit) to invite Mei’s interpretation and commitment language (e.g., “Given that, what feels most doable?”). These refinements will help convert the strong supportive and practical work already present into more consistent, skillful MI that both elicits and strengthens Mei’s intrinsic motivation and confidence.
