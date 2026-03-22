@@ -123,15 +123,21 @@ def perform_friedman_test(feedback_df):
     results_df = pd.DataFrame(results)
     
     if not results_df.empty:
-        # --- Multiple testing correction across 10 criteria ---
-        # BH-FDR controls the False Discovery Rate, less conservative than Bonferroni
-        # and appropriate when testing multiple related outcomes (MI criteria).
-        reject_fdr, p_fdr, _, _ = multipletests(
-            results_df['p_value'].values, alpha=0.05, method='fdr_bh'
-        )
-        results_df['p_fdr_bh'] = np.round(p_fdr, 6)
-        results_df['Significant_fdr'] = ['Yes' if r else 'No' for r in reject_fdr]
-    
+        p_values = results_df['p_value'].values
+
+        # 1. BH-FDR: controls FDR assuming positive dependence (PRDS) between criteria.
+        #    Less conservative; appropriate because MI criteria are positively correlated.
+        reject_bh, p_bh, _, _ = multipletests(p_values, alpha=0.05, method='fdr_bh')
+        results_df['p_fdr_bh'] = np.round(p_bh, 6)
+        results_df['Significant_fdr_bh'] = ['Yes' if r else 'No' for r in reject_bh]
+
+        # 2. BY-FDR: controls FDR under arbitrary/unknown dependence structure.
+        #    More conservative than BH (multiplies by harmonic number ~2.93 for N=10);
+        #    provides a robustness check that doesn't assume positive dependence.
+        reject_by, p_by, _, _ = multipletests(p_values, alpha=0.05, method='fdr_by')
+        results_df['p_fdr_by'] = np.round(p_by, 6)
+        results_df['Significant_fdr_by'] = ['Yes' if r else 'No' for r in reject_by]
+
     return results_df
 
 
@@ -240,19 +246,25 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
     if not results_df.empty:
         p_values = results_df['p_value'].values
         n_pairs = 6  # C(4 modes, 2) = 6 pairwise comparisons
-        
+
         # 1. Bonferroni correction for 6 pairwise comparisons (standard post-hoc family)
-        #    Controls family-wise error rate (FWER) across the 6 mode comparisons.
+        #    Controls FWER across the 6 mode comparisons.
         p_bonf = np.minimum(p_values * n_pairs, 1.0)
         results_df['p_bonferroni'] = np.round(p_bonf, 6)
         results_df['Significant_bonferroni'] = ['Yes' if p < 0.05 else 'No' for p in p_bonf]
-        
+
         # 2. BH-FDR correction across 10 criteria within this pair
-        #    Controls False Discovery Rate for simultaneously testing all MI criteria.
-        reject_fdr, p_fdr, _, _ = multipletests(p_values, alpha=0.05, method='fdr_bh')
-        results_df['p_fdr_bh'] = np.round(p_fdr, 6)
-        results_df['Significant_fdr'] = ['Yes' if r else 'No' for r in reject_fdr]
-    
+        #    Controls FDR assuming positive dependence (PRDS); less conservative.
+        reject_bh, p_bh, _, _ = multipletests(p_values, alpha=0.05, method='fdr_bh')
+        results_df['p_fdr_bh'] = np.round(p_bh, 6)
+        results_df['Significant_fdr_bh'] = ['Yes' if r else 'No' for r in reject_bh]
+
+        # 3. BY-FDR correction across 10 criteria within this pair
+        #    Controls FDR under arbitrary dependence; more conservative robustness check.
+        reject_by, p_by, _, _ = multipletests(p_values, alpha=0.05, method='fdr_by')
+        results_df['p_fdr_by'] = np.round(p_by, 6)
+        results_df['Significant_fdr_by'] = ['Yes' if r else 'No' for r in reject_by]
+
     return results_df
 
 
@@ -294,13 +306,15 @@ def main():
     print(f"\nResults saved to: {output_path}")
     
     # Summary
-    n_significant = len(results_df[results_df['Significant'] == 'Yes'])
-    n_significant_fdr = len(results_df[results_df['Significant_fdr'] == 'Yes']) if 'Significant_fdr' in results_df.columns else 'N/A'
+    n_significant     = len(results_df[results_df['Significant'] == 'Yes'])
+    n_significant_bh  = len(results_df[results_df['Significant_fdr_bh'] == 'Yes']) if 'Significant_fdr_bh' in results_df.columns else 'N/A'
+    n_significant_by  = len(results_df[results_df['Significant_fdr_by'] == 'Yes']) if 'Significant_fdr_by' in results_df.columns else 'N/A'
     print(f"\nSummary:")
     print(f"  - Total criteria tested: {len(results_df)}")
     print(f"  - Significant (raw p < 0.05):            {n_significant}")
-    print(f"  - Significant after BH-FDR correction:   {n_significant_fdr}")
-    print(f"  NOTE: BH-FDR corrects for {len(results_df)} simultaneous Friedman tests (one per criterion).")
+    print(f"  - Significant after BH-FDR correction:   {n_significant_bh}  (assumes positive dependence)")
+    print(f"  - Significant after BY-FDR correction:   {n_significant_by}  (arbitrary dependence; more conservative)")
+    print(f"  NOTE: Both FDR methods correct for {len(results_df)} simultaneous Friedman tests (one per criterion).") 
     
     # Perform pairwise Wilcoxon tests
     print("\n" + "="*80)
@@ -338,14 +352,16 @@ def main():
         # Summary for this pair
         n_sig_raw  = len(wilcoxon_results[wilcoxon_results['Significant'] == 'Yes'])
         n_sig_bonf = len(wilcoxon_results[wilcoxon_results['Significant_bonferroni'] == 'Yes']) if 'Significant_bonferroni' in wilcoxon_results.columns else 'N/A'
-        n_sig_fdr  = len(wilcoxon_results[wilcoxon_results['Significant_fdr'] == 'Yes']) if 'Significant_fdr' in wilcoxon_results.columns else 'N/A'
+        n_sig_bh   = len(wilcoxon_results[wilcoxon_results['Significant_fdr_bh'] == 'Yes']) if 'Significant_fdr_bh' in wilcoxon_results.columns else 'N/A'
+        n_sig_by   = len(wilcoxon_results[wilcoxon_results['Significant_fdr_by'] == 'Yes']) if 'Significant_fdr_by' in wilcoxon_results.columns else 'N/A'
         print(f"\nSummary ({mode1} vs {mode2}):")
         print(f"  - Total criteria tested: {len(wilcoxon_results)}")
-        print(f"  - Significant (raw p < 0.05):                  {n_sig_raw}")
-        print(f"  - Significant after Bonferroni (×6 pairs):     {n_sig_bonf}  [α = 0.0083]")
-        print(f"  - Significant after BH-FDR (10 criteria):      {n_sig_fdr}")
+        print(f"  - Significant (raw p < 0.05):                          {n_sig_raw}")
+        print(f"  - Significant after Bonferroni (×6 pairs):             {n_sig_bonf}  [α = 0.0083]")
+        print(f"  - Significant after BH-FDR (10 criteria):              {n_sig_bh}  (assumes positive dependence)")
+        print(f"  - Significant after BY-FDR (10 criteria):              {n_sig_by}  (arbitrary dependence; more conservative)")
         print(f"  NOTE: Bonferroni corrects for C(4,2)=6 post-hoc pairwise comparisons;")
-        print(f"        BH-FDR corrects for {len(wilcoxon_results)} criteria tested within this pair.")
+        print(f"        BH/BY-FDR correct for {len(wilcoxon_results)} criteria tested within this pair.")
 
 
 if __name__ == "__main__":

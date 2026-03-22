@@ -6,9 +6,9 @@ This document explains how all statistical tests and corrections in `feedback_st
 
 ## Overview
 
-The analysis compares 3 therapist modes (**simple**, **complex**, **multi_agent**) across 10 MI criteria using a two-stage procedure:
+The analysis compares **4 therapist modes** (`simple`, `trained_agent`, `complex`, `multi_agent`) across **10 MI criteria** using a two-stage procedure:
 
-1. **Friedman test** — omnibus test: is there *any* difference across the 3 modes?
+1. **Friedman test** — omnibus test: is there *any* difference across the 4 modes?
 2. **Pairwise Wilcoxon tests** — post-hoc: *which* pairs differ?
 
 Both stages apply multiple testing corrections.
@@ -17,16 +17,16 @@ Both stages apply multiple testing corrections.
 
 ## Step 1 — Data Shaping (per criterion)
 
-For each criterion (e.g. *Empathy*), the raw session-level data is pivoted into a matrix of **N = 133 rows × 3 columns**, where:
+For each criterion (e.g. *Empathy*), the raw session-level data is pivoted into a matrix of **N rows × 4 columns**, where:
 - Each **row** is one patient
 - Each **column** is a therapist mode
-- Each **cell** is the mean score across all 5 folds that patient had in that mode
+- Each **cell** is the mean score across all folds that patient had in that mode
 
 $$
-\text{pivot}[i, m] = \frac{1}{K}\sum_{k=1}^{K} \text{score}_{i,m,k}, \quad K = 5 \text{ folds}
+\text{pivot}[i, m] = \frac{1}{K}\sum_{k=1}^{K} \text{score}_{i,m,k}
 $$
 
-This produces **matched/paired samples** — the same 133 patients appear in all 3 modes, which is required by both the Friedman and Wilcoxon tests.
+This produces **matched/paired samples** — the same patients appear in all 4 modes, which is required by both the Friedman and Wilcoxon tests.
 
 ---
 
@@ -34,10 +34,10 @@ This produces **matched/paired samples** — the same 133 patients appear in all
 
 The Friedman test is a non-parametric alternative to repeated-measures ANOVA. It ranks mode scores **within each patient row**, then tests whether the rank sums differ more than chance.
 
-**For each patient $i$**, rank the 3 scores (1 = lowest, 3 = highest):
+**For each patient $i$**, rank the 4 scores (1 = lowest, 4 = highest):
 
 $$
-r_{i,m} \in \{1, 2, 3\}
+r_{i,m} \in \{1, 2, 3, 4\}
 $$
 
 **Sum ranks per mode** across all N patients:
@@ -46,44 +46,52 @@ $$
 R_m = \sum_{i=1}^{N} r_{i,m}
 $$
 
-**Test statistic** (N = 133 patients, k = 3 modes):
+**Test statistic** (N patients, k = 4 modes):
 
 $$
 \chi^2_F = \frac{12}{Nk(k+1)} \sum_{m=1}^{k} R_m^2 - 3N(k+1)
 $$
 
-This follows a $\chi^2$ distribution with $k - 1 = 2$ degrees of freedom. The p-value is:
+This follows a $\chi^2$ distribution with $k - 1 = 3$ degrees of freedom. The p-value is:
 
 $$
-p = P\!\left(\chi^2_2 \geq \chi^2_F\right)
+p = P\!\left(\chi^2_3 \geq \chi^2_F\right)
 $$
-
-**Example** — *Empathy*: $\chi^2_F = 195.28$, $p \approx 0$ → strong evidence that the 3 modes differ on Empathy.
 
 ---
 
-## Step 3 — BH-FDR Correction on Friedman Tests (`p_fdr_bh`, `Significant_fdr`)
+## Step 3 — Multiple Testing Corrections on Friedman Tests
 
-Since 10 Friedman tests run simultaneously (one per criterion), we correct for multiple comparisons using the **Benjamini-Hochberg False Discovery Rate** procedure:
+Since 10 Friedman tests run simultaneously (one per criterion), two FDR corrections are applied:
 
-1. Sort the 10 raw p-values in ascending order: $p_{(1)} \leq p_{(2)} \leq \cdots \leq p_{(10)}$
+### 3a — BH-FDR (`p_fdr_bh`, `Significant_fdr_bh`)
+
+**Benjamini-Hochberg** controls the False Discovery Rate assuming *positive regression dependence* (PRDS) among the test statistics — appropriate here because MI criteria are positively correlated.
+
+1. Sort the 10 raw p-values ascending: $p_{(1)} \leq \cdots \leq p_{(10)}$
 2. Compute adjusted p-values:
 
 $$
 p^{BH}_{(j)} = p_{(j)} \times \frac{10}{j}
 $$
 
-3. Enforce monotonicity by taking the cumulative minimum from the largest rank downward.
+3. Enforce monotonicity from the largest rank downward.
 
-**Interpretation**: BH-FDR controls the *False Discovery Rate* at 5% — among all criteria declared significant, at most 5% are expected to be false positives. It is less conservative than Bonferroni and appropriate when testing multiple related outcomes (MI criteria).
+### 3b — BY-FDR (`p_fdr_by`, `Significant_fdr_by`)
 
-**Result**: All 10 criteria survive BH-FDR correction (p-values are all ~0).
+**Benjamini-Yekutieli** controls the False Discovery Rate under *arbitrary or unknown dependence* — a more conservative robustness check. It multiplies by the harmonic number $c(10) = \sum_{i=1}^{10} \frac{1}{i} \approx 2.93$:
+
+$$
+p^{BY}_{(j)} = p_{(j)} \times \frac{10 \cdot c(10)}{j}
+$$
+
+**Interpretation**: If results survive BY-FDR, they are robust even if the dependence structure between criteria is unknown or adversarial. Including both BH and BY allows reporting that findings hold under both the standard and the most conservative FDR procedure.
 
 ---
 
 ## Step 4 — Pairwise Wilcoxon Signed-Rank Tests (`Wilcoxon_Statistic`, `p_value`)
 
-For each of the 3 mode pairs and each criterion, the Wilcoxon signed-rank test compares **paired** patient scores:
+For each of the $\binom{4}{2} = 6$ mode pairs and each criterion, the Wilcoxon signed-rank test compares **paired** patient scores:
 
 1. Compute signed differences per patient:
 
@@ -101,38 +109,52 @@ $$
 
 Under $H_0$ (no difference), $W$ follows the Wilcoxon signed-rank distribution. A two-sided test is used (`alternative='two-sided'`).
 
-**The 3 pairs tested**:
-- `multi_agent` vs `complex`
-- `complex` vs `simple`
-- `multi_agent` vs `simple`
+**The 6 pairs tested** (ordered by expected effect direction):
+
+| Pair | Description |
+|---|---|
+| `multi_agent` vs `trained_agent` | Most complex vs second-most complex |
+| `multi_agent` vs `complex` | Most complex vs middle |
+| `multi_agent` vs `simple` | Most complex vs baseline |
+| `trained_agent` vs `complex` | Trained vs middle |
+| `complex` vs `simple` | Middle vs baseline |
+| `trained_agent` vs `simple` | Trained vs baseline |
 
 ---
 
-## Step 5 — Bonferroni Correction for 3 Pairs (`p_bonferroni`, `Significant_bonferroni`)
+## Step 5 — Bonferroni Correction for 6 Pairs (`p_bonferroni`, `Significant_bonferroni`)
 
-There are $\binom{3}{2} = 3$ pairwise comparisons (post-hoc family). Bonferroni multiplies each raw p-value by 3, capped at 1:
+There are $\binom{4}{2} = 6$ pairwise comparisons (post-hoc family). Bonferroni multiplies each raw p-value by 6, capped at 1:
 
 $$
-p^{\text{Bonf}} = \min(p \times 3,\ 1)
+p^{\text{Bonf}} = \min(p \times 6,\ 1)
 $$
 
-**Significance threshold**: $\alpha^{\text{Bonf}} = 0.05 / 3 \approx 0.0167$
+**Significance threshold**: $\alpha^{\text{Bonf}} = 0.05 / 6 \approx 0.0083$
 
-**Interpretation**: Bonferroni controls the *Family-Wise Error Rate* (FWER) — the probability of making *any* false positive across the 3 comparisons. It is the standard post-hoc correction after a significant omnibus test.
-
-**Example** — *Direction* (multi_agent vs complex): $p = 0.035 \rightarrow p^{\text{Bonf}} = 0.106$ → not significant after correction (and notably, complex slightly outperforms multi_agent on this criterion).
+**Interpretation**: Bonferroni controls the *Family-Wise Error Rate* (FWER) — the probability of making *any* false positive across the 6 comparisons. It is the standard post-hoc correction after a significant omnibus Friedman test.
 
 ---
 
-## Step 6 — BH-FDR Correction Across 10 Criteria Within Each Pair (`p_fdr_bh`, `Significant_fdr`)
+## Step 6 — FDR Corrections Across 10 Criteria Within Each Pair
 
-Separately from the Bonferroni correction across pairs, BH-FDR is also applied **within each pair** across the 10 criteria simultaneously:
+Separately from the Bonferroni correction across pairs, both FDR methods are also applied **within each pair** across the 10 criteria:
+
+### 6a — BH-FDR (`p_fdr_bh`, `Significant_fdr_bh`)
 
 $$
 p^{BH}_{(j)} = p_{(j)} \times \frac{10}{j}
 $$
 
-This corrects for testing all 10 MI criteria in a single pairwise comparison and is less conservative than Bonferroni.
+Appropriate when MI criteria are positively correlated (less conservative).
+
+### 6b — BY-FDR (`p_fdr_by`, `Significant_fdr_by`)
+
+$$
+p^{BY}_{(j)} = p_{(j)} \times \frac{10 \cdot c(10)}{j}, \quad c(10) \approx 2.93
+$$
+
+Valid under arbitrary dependence (more conservative robustness check).
 
 ---
 
@@ -144,13 +166,13 @@ $$
 d = \frac{\bar{d}}{\text{SD}(d_i)}
 $$
 
-where the individual differences and their mean are defined as:
+where:
 
 $$
 d_i = \text{score}_{i,\text{mode}_1} - \text{score}_{i,\text{mode}_2}, \qquad \bar{d} = \frac{1}{N}\sum_{i=1}^{N} d_i
 $$
 
-and $\text{SD}(d_i)$ is the standard deviation of those differences.
+and $\text{SD}(d_i)$ is the sample standard deviation of those differences (ddof=1).
 
 **Conventional thresholds** (Cohen, 1988):
 
@@ -161,23 +183,17 @@ and $\text{SD}(d_i)$ is the standard deviation of those differences.
 | 0.8 | Large |
 | > 1.0 | Very large |
 
-**Examples**:
-
-| Criterion | Comparison | d | Interpretation |
-|:---|:---|:---:|:---|
-| Empathy | multi_agent vs complex | 0.74 | Large |
-| Evocation | multi_agent vs simple | 2.51 | Very large |
-| Direction | multi_agent vs complex | -0.13 | Negligible (complex slightly higher) |
-
 ---
 
 ## Summary of Corrections Applied
 
-| Test | Family | Correction | Controls |
-|---|---|---|---|
-| Friedman (10 criteria) | 10 simultaneous omnibus tests | BH-FDR | False Discovery Rate |
-| Wilcoxon post-hoc (3 pairs) | 3 pairwise comparisons | Bonferroni (×3) | Family-Wise Error Rate |
-| Wilcoxon (10 criteria per pair) | 10 criteria within each pair | BH-FDR | False Discovery Rate |
+| Test | Family | Correction | Controls | Assumption |
+|---|---|---|---|---|
+| Friedman (10 criteria) | 10 omnibus tests | BH-FDR | False Discovery Rate | Positive dependence (PRDS) |
+| Friedman (10 criteria) | 10 omnibus tests | BY-FDR | False Discovery Rate | Arbitrary dependence |
+| Wilcoxon post-hoc (6 pairs) | 6 pairwise comparisons | Bonferroni (×6) | Family-Wise Error Rate | None |
+| Wilcoxon (10 criteria per pair) | 10 criteria within each pair | BH-FDR | False Discovery Rate | Positive dependence (PRDS) |
+| Wilcoxon (10 criteria per pair) | 10 criteria within each pair | BY-FDR | False Discovery Rate | Arbitrary dependence |
 
 ---
 
@@ -185,7 +201,10 @@ and $\text{SD}(d_i)$ is the standard deviation of those differences.
 
 | File | Contents |
 |---|---|
-| `csv/friedman_test_results.csv` | Friedman $\chi^2$, raw p, BH-FDR p, means/SDs per criterion |
-| `csv/wilcoxon_test_multi_agent_vs_complex.csv` | Wilcoxon W, raw p, Bonferroni p, BH-FDR p, effect size |
-| `csv/wilcoxon_test_complex_vs_simple.csv` | Same for complex vs simple |
+| `csv/friedman_test_results.csv` | Friedman $\chi^2$, raw p, BH-FDR p, BY-FDR p, means/SDs per criterion |
+| `csv/wilcoxon_test_multi_agent_vs_trained_agent.csv` | Wilcoxon W, raw p, Bonferroni p, BH-FDR p, BY-FDR p, effect size |
+| `csv/wilcoxon_test_multi_agent_vs_complex.csv` | Same for multi_agent vs complex |
 | `csv/wilcoxon_test_multi_agent_vs_simple.csv` | Same for multi_agent vs simple |
+| `csv/wilcoxon_test_trained_agent_vs_complex.csv` | Same for trained_agent vs complex |
+| `csv/wilcoxon_test_complex_vs_simple.csv` | Same for complex vs simple |
+| `csv/wilcoxon_test_trained_agent_vs_simple.csv` | Same for trained_agent vs simple |

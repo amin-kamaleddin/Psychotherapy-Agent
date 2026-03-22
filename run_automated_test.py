@@ -335,59 +335,66 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         # Uniqueness across folds is provided by timestamp in folder name
         patient_number = args.start_patient + patient_idx
         
-        try:
-            with print_lock:
-                print(f"\n{'=' * 60}")
-                print(f"Processing Patient {patient_number} (Fold {fold_idx+1}/{fold}): {os.path.basename(patient_file)}")
-                print(f"Mode: {therapist_mode}")
-                print(f"{'=' * 60}")
-                print(f"  [STEP 1] Running test ({therapist_mode} mode)...")
-            
-            # Run the test
-            results = run_test(
-                patient_file,
-                therapist_profile_number=therapist_num,
-                patient_number=patient_number,
-                therapist_mode=therapist_mode
-            )
-            
-            # Look for the feedback file
-            folder_name = results["folder_name"]
-            possible_names = ["detailed_feedback.txt", "feedback.txt"]
-            
-            feedback_path = None
-            for name in possible_names:
-                potential_path = os.path.join(folder_name, name)
-                if os.path.exists(potential_path):
-                    feedback_path = potential_path
-                    break
-            
-            if feedback_path is None:
+        max_retries = 3
+        for attempt in range(1, max_retries + 1):
+            try:
                 with print_lock:
-                    print(f"  Warning: Could not find feedback file in {folder_name}")
-                feedback_path = os.path.join(folder_name, "detailed_feedback.txt")
+                    print(f"\n{'=' * 60}")
+                    print(f"Processing Patient {patient_number} (Fold {fold_idx+1}/{fold}): {os.path.basename(patient_file)}")
+                    print(f"Mode: {therapist_mode}")
+                    print(f"{'=' * 60}")
+                    print(f"  [STEP 1] Running test ({therapist_mode} mode)...")
+                
+                # Run the test
+                results = run_test(
+                    patient_file,
+                    therapist_profile_number=therapist_num,
+                    patient_number=patient_number,
+                    therapist_mode=therapist_mode
+                )
+                
+                # Look for the feedback file
+                folder_name = results["folder_name"]
+                possible_names = ["detailed_feedback.txt", "feedback.txt"]
+                
+                feedback_path = None
+                for name in possible_names:
+                    potential_path = os.path.join(folder_name, name)
+                    if os.path.exists(potential_path):
+                        feedback_path = potential_path
+                        break
+                
+                if feedback_path is None:
+                    with print_lock:
+                        print(f"  Warning: Could not find feedback file in {folder_name}")
+                    feedback_path = os.path.join(folder_name, "detailed_feedback.txt")
+                
+                scores = extract_scores([feedback_path])
+                
+                # Store therapist result
+                row = {
+                    "Therapist": df.iloc[therapist_num]["Name"],
+                    "Patient": os.path.basename(patient_file),
+                    "Mode": therapist_mode,
+                    "Session": os.path.basename(folder_name)
+                }
+                for key, values in scores.items():
+                    row[key] = values[0] if values else None
+                
+                with print_lock:
+                    print(f"  Completed Patient {patient_number}: {os.path.basename(patient_file)}")
+                
+                return row
             
-            scores = extract_scores([feedback_path])
-            
-            # Store therapist result
-            row = {
-                "Therapist": df.iloc[therapist_num]["Name"],
-                "Patient": os.path.basename(patient_file),
-                "Mode": therapist_mode,
-                "Session": os.path.basename(folder_name)
-            }
-            for key, values in scores.items():
-                row[key] = values[0] if values else None
-            
-            with print_lock:
-                print(f"  Completed Patient {patient_number}: {os.path.basename(patient_file)}")
-            
-            return row
+            except Exception as e:
+                with print_lock:
+                    print(f"  Attempt {attempt}/{max_retries} failed for Patient {patient_number} ({os.path.basename(patient_file)}): {str(e)}")
+                if attempt < max_retries:
+                    time.sleep(5 * attempt)  # backoff: 5s, 10s, 15s
         
-        except Exception as e:
-            with print_lock:
-                print(f"  Error processing Patient {patient_number} ({os.path.basename(patient_file)}): {str(e)}")
-            return None
+        with print_lock:
+            print(f"  All {max_retries} attempts failed for Patient {patient_number} ({os.path.basename(patient_file)}), skipping.")
+        return None
 
     # Determine number of parallel workers
     max_workers = args.max_workers if hasattr(args, 'max_workers') else 3
@@ -407,12 +414,22 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         future_to_patient = {executor.submit(process_single_patient, data): data for data in patient_data_list}
         
         # Collect results as they complete
+        # timeout=600 per task (10 min) prevents a single hung API call from blocking forever
         completed = 0
-        for future in as_completed(future_to_patient):
+        for future in as_completed(future_to_patient, timeout=None):
             completed += 1
-            result = future.result()
-            if result is not None:
-                all_results.append(result)
+            try:
+                result = future.result(timeout=600)  # 10-minute per-task timeout
+                if result is not None:
+                    all_results.append(result)
+            except TimeoutError:
+                patient_data = future_to_patient[future]
+                with print_lock:
+                    print(f"  WARNING: Task timed out after 600s, skipping: {patient_data}")
+            except Exception as e:
+                patient_data = future_to_patient[future]
+                with print_lock:
+                    print(f"  WARNING: Task raised exception, skipping: {patient_data} — {e}")
             
             with print_lock:
                 print(f"Progress: {completed}/{total_runs} runs completed")
