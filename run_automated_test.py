@@ -1,6 +1,4 @@
-import csv
 import os
-import random
 import re
 import time
 import json
@@ -20,8 +18,6 @@ warnings.filterwarnings("ignore", message=".*Importing verbose from langchain ro
 # Thread-safe print lock
 print_lock = Lock()
 
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 # Import PsychotherapyAgent classes from modular version
@@ -237,31 +233,6 @@ def extract_scores(eval_file_paths):
 # =============================
 # === Experiment Pipeline ====
 # =============================
-
-def run_experiment(therapist_num, patient_files, therapist_csv_path, label, save_folder):
-    """Run experiment for one therapist configuration."""
-    df = pd.read_csv(therapist_csv_path, quotechar='"', skipinitialspace=True)
-    all_results = []
-    saved_data_directory = []
-
-    # Run tests for each patient
-    for patient_idx, patient in enumerate(patient_files):
-        # Extract patient number from filename or use index
-        patient_basename = os.path.basename(patient)
-        patient_number = patient_idx + 1  # Or extract from filename if it contains a number
-
-        results = run_test(
-            patient,
-            therapist_num,
-            patient_number=patient_number,
-            therapist_mode=label
-        )
-        feedback_path = results["folder_name"] + f"/detailed_feedback_{label}.txt"
-        saved_data_directory.append(feedback_path)
-
-
-    return saved_data_directory
-
 
 def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num=None, complex_therapist_num=None):
     """Main function for parallel execution mode.
