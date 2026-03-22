@@ -568,12 +568,16 @@ def compare_results_three_way(simple_csv_path, complex_csv_path, multiagent_csv_
                 })
     
     comparison_df = pd.DataFrame(comparison_data)
-    
+
+    # Round all float columns to 4 dp before saving
+    float_cols = comparison_df.select_dtypes(include='float').columns
+    comparison_df[float_cols] = comparison_df[float_cols].round(4)
+
     # Save comparison CSV to Eval/csv directory
     eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
     csv_dir = os.path.join(eval_dir, "csv")
     os.makedirs(csv_dir, exist_ok=True)
-    
+
     # Save comparison CSV
     comparison_csv = os.path.join(csv_dir, "comparison_results.csv")
     comparison_df.to_csv(comparison_csv, index=False)
@@ -681,6 +685,10 @@ def compare_results_four_way(simple_csv_path, complex_csv_path, multiagent_csv_p
         })
 
     comparison_df = pd.DataFrame(comparison_data)
+
+    # Round all float columns to 4 dp before saving
+    float_cols = comparison_df.select_dtypes(include='float').columns
+    comparison_df[float_cols] = comparison_df[float_cols].round(4)
 
     eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
     csv_dir = os.path.join(eval_dir, "csv")

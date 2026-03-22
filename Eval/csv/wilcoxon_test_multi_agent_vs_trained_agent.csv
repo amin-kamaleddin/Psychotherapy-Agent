@@ -1,11 +1,11 @@
 Criterion,N,Wilcoxon_Statistic,p_value,Significant,multi_agent_mean,trained_agent_mean,multi_agent_std,trained_agent_std,Mean_Difference,Direction,Effect_Size,p_bonferroni,Significant_bonferroni,p_fdr_bh,Significant_fdr_bh,p_fdr_by,Significant_fdr_by
-Acceptance,133,790.0,0.0,Yes,4.842,4.702,0.163,0.21,0.14,multi_agent > trained_agent,0.5625,0.0,Yes,0.0,Yes,0.0,Yes
-Empathy,133,370.5,0.0,Yes,4.705,4.352,0.224,0.289,0.353,multi_agent > trained_agent,1.0078,0.0,Yes,0.0,Yes,0.0,Yes
-Direction,133,299.5,0.257769,No,4.967,4.952,0.086,0.108,0.015,multi_agent > trained_agent,0.1104,1.0,No,0.28641,No,0.838886,No
-Collaboration,133,1140.5,7.6e-05,Yes,4.777,4.656,0.211,0.291,0.122,multi_agent > trained_agent,0.3842,0.000456,Yes,0.000127,Yes,0.000371,Yes
-Autonomy Support,133,81.0,0.827259,No,4.986,4.985,0.05,0.058,0.002,multi_agent > trained_agent,0.0189,1.0,No,0.827259,No,1.0,No
-Evocation,133,574.5,0.0,Yes,4.417,4.117,0.289,0.445,0.299,multi_agent > trained_agent,0.6965,0.0,Yes,0.0,Yes,0.0,Yes
-Partnership,133,1608.0,0.001385,Yes,4.776,4.683,0.21,0.28,0.093,multi_agent > trained_agent,0.278,0.00831,Yes,0.001979,Yes,0.005795,Yes
-Cultivating Change Talk,133,880.5,0.0,Yes,4.335,4.068,0.295,0.435,0.268,multi_agent > trained_agent,0.6386,0.0,Yes,0.0,Yes,0.0,Yes
-Softening Sustain Talk,133,1542.0,0.016849,Yes,4.033,3.974,0.227,0.258,0.059,multi_agent > trained_agent,0.2099,0.101094,No,0.021061,Yes,0.061688,No
-Overall Average,133,784.0,0.0,Yes,4.649,4.499,0.12,0.172,0.15,multi_agent > trained_agent,0.859,0.0,Yes,0.0,Yes,0.0,Yes
+Acceptance,133,790.0,4.617578975009689e-08,Yes,4.842,4.702,0.163,0.21,0.14,multi_agent > trained_agent,0.5625,2.770547385005813e-07,Yes,9.235157950019377e-08,Yes,2.7049484455989294e-07,Yes
+Empathy,133,370.5,1.53726539701086e-16,Yes,4.705,4.352,0.224,0.289,0.353,multi_agent > trained_agent,1.0078,9.22359238206516e-16,Yes,1.53726539701086e-15,Yes,4.5026015457687126e-15,Yes
+Direction,133,299.5,0.2577687002427974,No,4.967,4.952,0.086,0.108,0.015,multi_agent > trained_agent,0.1104,1.0,No,0.28640966693644154,No,0.8388848220864584,No
+Collaboration,133,1140.5,7.620674993211331e-05,Yes,4.777,4.656,0.211,0.291,0.122,multi_agent > trained_agent,0.3842,0.00045724049959267987,Yes,0.00012701124988685552,Yes,0.0003720119188154288,Yes
+Autonomy Support,133,81.0,0.8272593465627114,No,4.986,4.985,0.05,0.058,0.002,multi_agent > trained_agent,0.0189,1.0,No,0.8272593465627114,No,1.0,No
+Evocation,133,574.5,3.7080439171974325e-12,Yes,4.417,4.117,0.289,0.445,0.299,multi_agent > trained_agent,0.6965,2.2248263503184597e-11,Yes,1.2360146390658108e-11,Yes,3.6202476392637895e-11,Yes
+Partnership,133,1608.0,0.001384793969549634,Yes,4.776,4.683,0.21,0.28,0.093,multi_agent > trained_agent,0.278,0.008308763817297804,Yes,0.0019782770993566202,Yes,0.005794310821567941,Yes
+Cultivating Change Talk,133,880.5,7.394521253848462e-11,Yes,4.335,4.068,0.295,0.435,0.268,multi_agent > trained_agent,0.6386,4.436712752309077e-10,Yes,1.8486303134621153e-10,Yes,5.414579501453918e-10,Yes
+Softening Sustain Talk,133,1542.0,0.01684897353644782,Yes,4.033,3.974,0.227,0.258,0.059,multi_agent > trained_agent,0.2099,0.10109384121868692,No,0.021061216920559775,Yes,0.0616876357502586,No
+Overall Average,133,763.0,4.607596314613528e-16,Yes,4.649,4.499,0.12,0.172,0.15,multi_agent > trained_agent,0.859,2.764557788768117e-15,Yes,2.303798157306764e-15,Yes,6.747751666302072e-15,Yes

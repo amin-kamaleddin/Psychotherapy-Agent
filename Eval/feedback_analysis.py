@@ -188,7 +188,7 @@ def main():
                     'patient_id': patient_id,
                     'therapist_mode': therapist_mode,
                     'criterion': criterion,
-                    'score': score,
+                    'score': round(score, 4),
                     'num_folds': len(all_scores)
                 })
         
@@ -206,7 +206,7 @@ def main():
                 'patient_id': patient_id,
                 'therapist_mode': therapist_mode,
                 'criterion': 'Overall Average',
-                'score': overall_avg,
+                'score': round(overall_avg, 4),
                 'num_folds': len(all_scores)
             })
     

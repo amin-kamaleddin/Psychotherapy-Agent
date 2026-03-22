@@ -1,11 +1,11 @@
 Criterion,N,Wilcoxon_Statistic,p_value,Significant,trained_agent_mean,complex_mean,trained_agent_std,complex_std,Mean_Difference,Direction,Effect_Size,p_bonferroni,Significant_bonferroni,p_fdr_bh,Significant_fdr_bh,p_fdr_by,Significant_fdr_by
-Acceptance,133,2466.0,0.974503,No,4.702,4.705,0.21,0.202,-0.003,complex > trained_agent,-0.0101,1.0,No,0.974503,No,1.0,No
-Empathy,133,2475.0,0.862243,No,4.352,4.37,0.289,0.294,-0.018,complex > trained_agent,-0.0531,1.0,No,0.974503,No,1.0,No
-Direction,133,291.0,0.316317,No,4.952,4.965,0.108,0.087,-0.014,complex > trained_agent,-0.1,1.0,No,0.974503,No,1.0,No
-Collaboration,133,2586.5,0.892034,No,4.656,4.656,0.291,0.277,0.0,Equal,0.0,1.0,No,0.974503,No,1.0,No
-Autonomy Support,133,77.0,0.12663,No,4.985,4.974,0.058,0.071,0.011,trained_agent > complex,0.1331,0.75978,No,0.974503,No,1.0,No
-Evocation,133,2340.0,0.894336,No,4.117,4.126,0.445,0.397,-0.009,complex > trained_agent,-0.029,1.0,No,0.974503,No,1.0,No
-Partnership,133,2767.0,0.827128,No,4.683,4.675,0.28,0.282,0.008,trained_agent > complex,0.022,1.0,No,0.974503,No,1.0,No
-Cultivating Change Talk,133,1866.5,0.363598,No,4.068,4.101,0.435,0.391,-0.033,complex > trained_agent,-0.116,1.0,No,0.974503,No,1.0,No
-Softening Sustain Talk,133,2222.0,0.690276,No,3.974,3.968,0.258,0.259,0.006,trained_agent > complex,0.0222,1.0,No,0.974503,No,1.0,No
-Overall Average,133,3969.0,0.819122,No,4.499,4.505,0.172,0.165,-0.006,complex > trained_agent,-0.0398,1.0,No,0.974503,No,1.0,No
+Acceptance,133,2466.0,0.9745030559579705,No,4.702,4.705,0.21,0.202,-0.003,complex > trained_agent,-0.0101,1.0,No,0.9745030559579705,No,1.0,No
+Empathy,133,2475.0,0.8622429125982087,No,4.352,4.37,0.289,0.294,-0.018,complex > trained_agent,-0.0531,1.0,No,0.9745030559579705,No,1.0,No
+Direction,133,291.0,0.31631685626821304,No,4.952,4.965,0.108,0.087,-0.014,complex > trained_agent,-0.1,1.0,No,0.9745030559579705,No,1.0,No
+Collaboration,133,2586.5,0.8920342256718926,No,4.656,4.656,0.291,0.277,0.0,Equal,0.0,1.0,No,0.9745030559579705,No,1.0,No
+Autonomy Support,133,77.0,0.12663045794761718,No,4.985,4.974,0.058,0.071,0.011,trained_agent > complex,0.1331,0.7597827476857031,No,0.9745030559579705,No,1.0,No
+Evocation,133,2340.0,0.8943356896152611,No,4.117,4.126,0.445,0.397,-0.009,complex > trained_agent,-0.029,1.0,No,0.9745030559579705,No,1.0,No
+Partnership,133,2767.0,0.8271278505555317,No,4.683,4.675,0.28,0.282,0.008,trained_agent > complex,0.022,1.0,No,0.9745030559579705,No,1.0,No
+Cultivating Change Talk,133,1866.5,0.3635981943135306,No,4.068,4.101,0.435,0.391,-0.033,complex > trained_agent,-0.116,1.0,No,0.9745030559579705,No,1.0,No
+Softening Sustain Talk,133,2222.0,0.6902763613916765,No,3.974,3.968,0.258,0.259,0.006,trained_agent > complex,0.0222,1.0,No,0.9745030559579705,No,1.0,No
+Overall Average,133,3945.0,0.7745453632089332,No,4.499,4.505,0.172,0.165,-0.006,complex > trained_agent,-0.0398,1.0,No,0.9745030559579705,No,1.0,No

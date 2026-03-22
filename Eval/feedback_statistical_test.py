@@ -105,7 +105,7 @@ def perform_friedman_test(feedback_df):
                 'Criterion': criterion,
                 'N': n_samples,
                 'Friedman_Chi2': round(statistic, 4),
-                'p_value': round(p_value, 6),
+                'p_value': p_value,
                 'Significant': 'Yes' if significant else 'No',
                 'simple_mean': round(means['simple'], 3),
                 'trained_agent_mean': round(means['trained_agent'], 3),
@@ -128,14 +128,14 @@ def perform_friedman_test(feedback_df):
         # 1. BH-FDR: controls FDR assuming positive dependence (PRDS) between criteria.
         #    Less conservative; appropriate because MI criteria are positively correlated.
         reject_bh, p_bh, _, _ = multipletests(p_values, alpha=0.05, method='fdr_bh')
-        results_df['p_fdr_bh'] = np.round(p_bh, 6)
+        results_df['p_fdr_bh'] = p_bh
         results_df['Significant_fdr_bh'] = ['Yes' if r else 'No' for r in reject_bh]
 
         # 2. BY-FDR: controls FDR under arbitrary/unknown dependence structure.
         #    More conservative than BH (multiplies by harmonic number ~2.93 for N=10);
         #    provides a robustness check that doesn't assume positive dependence.
         reject_by, p_by, _, _ = multipletests(p_values, alpha=0.05, method='fdr_by')
-        results_df['p_fdr_by'] = np.round(p_by, 6)
+        results_df['p_fdr_by'] = p_by
         results_df['Significant_fdr_by'] = ['Yes' if r else 'No' for r in reject_by]
 
     return results_df
@@ -227,7 +227,7 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
                 'Criterion': criterion,
                 'N': n_samples,
                 'Wilcoxon_Statistic': round(statistic, 4),
-                'p_value': round(p_value, 6),
+                'p_value': p_value,
                 'Significant': 'Yes' if significant else 'No',
                 f'{mode1}_mean': round(mean1, 3),
                 f'{mode2}_mean': round(mean2, 3),
@@ -250,19 +250,19 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
         # 1. Bonferroni correction for 6 pairwise comparisons (standard post-hoc family)
         #    Controls FWER across the 6 mode comparisons.
         p_bonf = np.minimum(p_values * n_pairs, 1.0)
-        results_df['p_bonferroni'] = np.round(p_bonf, 6)
+        results_df['p_bonferroni'] = p_bonf
         results_df['Significant_bonferroni'] = ['Yes' if p < 0.05 else 'No' for p in p_bonf]
 
         # 2. BH-FDR correction across 10 criteria within this pair
         #    Controls FDR assuming positive dependence (PRDS); less conservative.
         reject_bh, p_bh, _, _ = multipletests(p_values, alpha=0.05, method='fdr_bh')
-        results_df['p_fdr_bh'] = np.round(p_bh, 6)
+        results_df['p_fdr_bh'] = p_bh
         results_df['Significant_fdr_bh'] = ['Yes' if r else 'No' for r in reject_bh]
 
         # 3. BY-FDR correction across 10 criteria within this pair
         #    Controls FDR under arbitrary dependence; more conservative robustness check.
         reject_by, p_by, _, _ = multipletests(p_values, alpha=0.05, method='fdr_by')
-        results_df['p_fdr_by'] = np.round(p_by, 6)
+        results_df['p_fdr_by'] = p_by
         results_df['Significant_fdr_by'] = ['Yes' if r else 'No' for r in reject_by]
 
     return results_df

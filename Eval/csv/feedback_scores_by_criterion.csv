@@ -8,7 +8,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 0,simple,Partnership,4.8,5
 0,simple,Cultivating Change Talk,2.8,5
 0,simple,Softening Sustain Talk,3.6,5
-0,simple,Overall Average,3.8444444444444446,5
+0,simple,Overall Average,3.8444,5
 0,trained_agent,Acceptance,4.8,5
 0,trained_agent,Empathy,4.0,5
 0,trained_agent,Direction,5.0,5
@@ -18,7 +18,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 0,trained_agent,Partnership,4.6,5
 0,trained_agent,Cultivating Change Talk,3.6,5
 0,trained_agent,Softening Sustain Talk,4.2,5
-0,trained_agent,Overall Average,4.355555555555556,5
+0,trained_agent,Overall Average,4.3556,5
 0,complex,Acceptance,4.8,5
 0,complex,Empathy,4.0,5
 0,complex,Direction,4.8,5
@@ -38,7 +38,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 0,multi_agent,Partnership,5.0,5
 0,multi_agent,Cultivating Change Talk,4.4,5
 0,multi_agent,Softening Sustain Talk,4.0,5
-0,multi_agent,Overall Average,4.688888888888889,5
+0,multi_agent,Overall Average,4.6889,5
 100,simple,Acceptance,4.4,5
 100,simple,Empathy,4.0,5
 100,simple,Direction,4.6,5
@@ -48,7 +48,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 100,simple,Partnership,4.4,5
 100,simple,Cultivating Change Talk,3.8,5
 100,simple,Softening Sustain Talk,3.6,5
-100,simple,Overall Average,4.177777777777778,5
+100,simple,Overall Average,4.1778,5
 100,trained_agent,Acceptance,4.4,5
 100,trained_agent,Empathy,4.4,5
 100,trained_agent,Direction,5.0,5
@@ -58,7 +58,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 100,trained_agent,Partnership,4.4,5
 100,trained_agent,Cultivating Change Talk,3.6,5
 100,trained_agent,Softening Sustain Talk,4.0,5
-100,trained_agent,Overall Average,4.4222222222222225,5
+100,trained_agent,Overall Average,4.4222,5
 100,complex,Acceptance,4.8,5
 100,complex,Empathy,4.6,5
 100,complex,Direction,5.0,5
@@ -68,7 +68,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 100,complex,Partnership,4.6,5
 100,complex,Cultivating Change Talk,4.2,5
 100,complex,Softening Sustain Talk,4.2,5
-100,complex,Overall Average,4.555555555555555,5
+100,complex,Overall Average,4.5556,5
 100,multi_agent,Acceptance,4.6,5
 100,multi_agent,Empathy,4.6,5
 100,multi_agent,Direction,5.0,5
@@ -78,7 +78,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 100,multi_agent,Partnership,4.6,5
 100,multi_agent,Cultivating Change Talk,4.4,5
 100,multi_agent,Softening Sustain Talk,4.2,5
-100,multi_agent,Overall Average,4.622222222222223,5
+100,multi_agent,Overall Average,4.6222,5
 101,simple,Acceptance,4.6,5
 101,simple,Empathy,4.0,5
 101,simple,Direction,4.6,5
@@ -88,7 +88,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 101,simple,Partnership,4.0,5
 101,simple,Cultivating Change Talk,3.6,5
 101,simple,Softening Sustain Talk,3.6,5
-101,simple,Overall Average,4.177777777777778,5
+101,simple,Overall Average,4.1778,5
 101,trained_agent,Acceptance,4.6,5
 101,trained_agent,Empathy,4.4,5
 101,trained_agent,Direction,5.0,5
@@ -98,7 +98,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 101,trained_agent,Partnership,4.4,5
 101,trained_agent,Cultivating Change Talk,4.4,5
 101,trained_agent,Softening Sustain Talk,4.0,5
-101,trained_agent,Overall Average,4.466666666666667,5
+101,trained_agent,Overall Average,4.4667,5
 101,complex,Acceptance,4.8,5
 101,complex,Empathy,4.0,5
 101,complex,Direction,4.6,5
@@ -108,7 +108,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 101,complex,Partnership,4.6,5
 101,complex,Cultivating Change Talk,3.8,5
 101,complex,Softening Sustain Talk,3.6,5
-101,complex,Overall Average,4.377777777777777,5
+101,complex,Overall Average,4.3778,5
 101,multi_agent,Acceptance,5.0,5
 101,multi_agent,Empathy,5.0,5
 101,multi_agent,Direction,5.0,5
@@ -118,7 +118,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 101,multi_agent,Partnership,4.8,5
 101,multi_agent,Cultivating Change Talk,4.4,5
 101,multi_agent,Softening Sustain Talk,4.0,5
-101,multi_agent,Overall Average,4.7555555555555555,5
+101,multi_agent,Overall Average,4.7556,5
 102,simple,Acceptance,4.8,5
 102,simple,Empathy,4.6,5
 102,simple,Direction,5.0,5
@@ -128,7 +128,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 102,simple,Partnership,4.8,5
 102,simple,Cultivating Change Talk,3.8,5
 102,simple,Softening Sustain Talk,4.0,5
-102,simple,Overall Average,4.511111111111111,5
+102,simple,Overall Average,4.5111,5
 102,trained_agent,Acceptance,4.8,5
 102,trained_agent,Empathy,4.6,5
 102,trained_agent,Direction,4.8,5
@@ -138,7 +138,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 102,trained_agent,Partnership,4.6,5
 102,trained_agent,Cultivating Change Talk,4.2,5
 102,trained_agent,Softening Sustain Talk,4.2,5
-102,trained_agent,Overall Average,4.577777777777778,5
+102,trained_agent,Overall Average,4.5778,5
 102,complex,Acceptance,4.8,5
 102,complex,Empathy,4.2,5
 102,complex,Direction,5.0,5
@@ -148,7 +148,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 102,complex,Partnership,4.8,5
 102,complex,Cultivating Change Talk,4.2,5
 102,complex,Softening Sustain Talk,4.2,5
-102,complex,Overall Average,4.622222222222223,5
+102,complex,Overall Average,4.6222,5
 102,multi_agent,Acceptance,5.0,5
 102,multi_agent,Empathy,4.6,5
 102,multi_agent,Direction,5.0,5
@@ -158,7 +158,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 102,multi_agent,Partnership,4.6,5
 102,multi_agent,Cultivating Change Talk,4.6,5
 102,multi_agent,Softening Sustain Talk,5.0,5
-102,multi_agent,Overall Average,4.7555555555555555,5
+102,multi_agent,Overall Average,4.7556,5
 103,simple,Acceptance,4.6,5
 103,simple,Empathy,3.8,5
 103,simple,Direction,4.4,5
@@ -168,7 +168,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 103,simple,Partnership,4.2,5
 103,simple,Cultivating Change Talk,3.2,5
 103,simple,Softening Sustain Talk,3.2,5
-103,simple,Overall Average,3.933333333333333,5
+103,simple,Overall Average,3.9333,5
 103,trained_agent,Acceptance,4.8,5
 103,trained_agent,Empathy,4.4,5
 103,trained_agent,Direction,5.0,5
@@ -178,7 +178,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 103,trained_agent,Partnership,5.0,5
 103,trained_agent,Cultivating Change Talk,4.4,5
 103,trained_agent,Softening Sustain Talk,4.0,5
-103,trained_agent,Overall Average,4.622222222222223,5
+103,trained_agent,Overall Average,4.6222,5
 103,complex,Acceptance,4.6,5
 103,complex,Empathy,4.6,5
 103,complex,Direction,5.0,5
@@ -188,7 +188,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 103,complex,Partnership,4.8,5
 103,complex,Cultivating Change Talk,4.0,5
 103,complex,Softening Sustain Talk,3.8,5
-103,complex,Overall Average,4.422222222222222,5
+103,complex,Overall Average,4.4222,5
 103,multi_agent,Acceptance,5.0,5
 103,multi_agent,Empathy,5.0,5
 103,multi_agent,Direction,4.8,5
@@ -208,7 +208,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 104,simple,Partnership,4.6,5
 104,simple,Cultivating Change Talk,3.8,5
 104,simple,Softening Sustain Talk,4.0,5
-104,simple,Overall Average,4.333333333333333,5
+104,simple,Overall Average,4.3333,5
 104,trained_agent,Acceptance,5.0,5
 104,trained_agent,Empathy,5.0,5
 104,trained_agent,Direction,5.0,5
@@ -218,7 +218,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 104,trained_agent,Partnership,5.0,5
 104,trained_agent,Cultivating Change Talk,4.2,5
 104,trained_agent,Softening Sustain Talk,4.0,5
-104,trained_agent,Overall Average,4.733333333333333,5
+104,trained_agent,Overall Average,4.7333,5
 104,complex,Acceptance,4.8,5
 104,complex,Empathy,4.6,5
 104,complex,Direction,5.0,5
@@ -228,7 +228,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 104,complex,Partnership,4.2,5
 104,complex,Cultivating Change Talk,4.0,5
 104,complex,Softening Sustain Talk,4.0,5
-104,complex,Overall Average,4.422222222222222,5
+104,complex,Overall Average,4.4222,5
 104,multi_agent,Acceptance,5.0,5
 104,multi_agent,Empathy,4.8,5
 104,multi_agent,Direction,5.0,5
@@ -238,7 +238,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 104,multi_agent,Partnership,4.8,5
 104,multi_agent,Cultivating Change Talk,4.6,5
 104,multi_agent,Softening Sustain Talk,4.4,5
-104,multi_agent,Overall Average,4.822222222222222,5
+104,multi_agent,Overall Average,4.8222,5
 105,simple,Acceptance,4.4,5
 105,simple,Empathy,3.6,5
 105,simple,Direction,5.0,5
@@ -258,7 +258,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 105,trained_agent,Partnership,4.8,5
 105,trained_agent,Cultivating Change Talk,4.0,5
 105,trained_agent,Softening Sustain Talk,3.8,5
-105,trained_agent,Overall Average,4.444444444444445,5
+105,trained_agent,Overall Average,4.4444,5
 105,complex,Acceptance,5.0,5
 105,complex,Empathy,4.6,5
 105,complex,Direction,5.0,5
@@ -268,7 +268,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 105,complex,Partnership,5.0,5
 105,complex,Cultivating Change Talk,4.2,5
 105,complex,Softening Sustain Talk,3.8,5
-105,complex,Overall Average,4.555555555555555,5
+105,complex,Overall Average,4.5556,5
 105,multi_agent,Acceptance,4.8,5
 105,multi_agent,Empathy,4.6,5
 105,multi_agent,Direction,5.0,5
@@ -288,7 +288,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 106,simple,Partnership,4.8,5
 106,simple,Cultivating Change Talk,3.6,5
 106,simple,Softening Sustain Talk,3.6,5
-106,simple,Overall Average,4.2444444444444445,5
+106,simple,Overall Average,4.2444,5
 106,trained_agent,Acceptance,4.8,5
 106,trained_agent,Empathy,4.4,5
 106,trained_agent,Direction,5.0,5
@@ -298,7 +298,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 106,trained_agent,Partnership,4.8,5
 106,trained_agent,Cultivating Change Talk,4.4,5
 106,trained_agent,Softening Sustain Talk,4.0,5
-106,trained_agent,Overall Average,4.622222222222223,5
+106,trained_agent,Overall Average,4.6222,5
 106,complex,Acceptance,4.6,5
 106,complex,Empathy,4.4,5
 106,complex,Direction,5.0,5
@@ -308,7 +308,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 106,complex,Partnership,4.8,5
 106,complex,Cultivating Change Talk,4.0,5
 106,complex,Softening Sustain Talk,3.6,5
-106,complex,Overall Average,4.466666666666667,5
+106,complex,Overall Average,4.4667,5
 106,multi_agent,Acceptance,4.8,5
 106,multi_agent,Empathy,4.4,5
 106,multi_agent,Direction,5.0,5
@@ -328,7 +328,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 107,simple,Partnership,4.6,5
 107,simple,Cultivating Change Talk,3.4,5
 107,simple,Softening Sustain Talk,3.8,5
-107,simple,Overall Average,4.022222222222222,5
+107,simple,Overall Average,4.0222,5
 107,trained_agent,Acceptance,4.8,5
 107,trained_agent,Empathy,4.2,5
 107,trained_agent,Direction,5.0,5
@@ -348,7 +348,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 107,complex,Partnership,4.8,5
 107,complex,Cultivating Change Talk,3.6,5
 107,complex,Softening Sustain Talk,4.0,5
-107,complex,Overall Average,4.333333333333333,5
+107,complex,Overall Average,4.3333,5
 107,multi_agent,Acceptance,5.0,5
 107,multi_agent,Empathy,5.0,5
 107,multi_agent,Direction,5.0,5
@@ -358,7 +358,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 107,multi_agent,Partnership,4.8,5
 107,multi_agent,Cultivating Change Talk,4.0,5
 107,multi_agent,Softening Sustain Talk,4.2,5
-107,multi_agent,Overall Average,4.666666666666667,5
+107,multi_agent,Overall Average,4.6667,5
 108,simple,Acceptance,4.8,5
 108,simple,Empathy,3.6,5
 108,simple,Direction,4.6,5
@@ -368,7 +368,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 108,simple,Partnership,4.2,5
 108,simple,Cultivating Change Talk,3.6,5
 108,simple,Softening Sustain Talk,3.2,5
-108,simple,Overall Average,3.888888888888889,5
+108,simple,Overall Average,3.8889,5
 108,trained_agent,Acceptance,4.6,5
 108,trained_agent,Empathy,4.2,5
 108,trained_agent,Direction,5.0,5
@@ -378,7 +378,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 108,trained_agent,Partnership,4.4,5
 108,trained_agent,Cultivating Change Talk,4.0,5
 108,trained_agent,Softening Sustain Talk,4.0,5
-108,trained_agent,Overall Average,4.333333333333333,5
+108,trained_agent,Overall Average,4.3333,5
 108,complex,Acceptance,4.6,5
 108,complex,Empathy,4.4,5
 108,complex,Direction,5.0,5
@@ -398,7 +398,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 108,multi_agent,Partnership,5.0,5
 108,multi_agent,Cultivating Change Talk,4.8,5
 108,multi_agent,Softening Sustain Talk,4.2,5
-108,multi_agent,Overall Average,4.866666666666666,5
+108,multi_agent,Overall Average,4.8667,5
 109,simple,Acceptance,4.6,5
 109,simple,Empathy,4.0,5
 109,simple,Direction,5.0,5
@@ -408,7 +408,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 109,simple,Partnership,3.8,5
 109,simple,Cultivating Change Talk,3.8,5
 109,simple,Softening Sustain Talk,3.8,5
-109,simple,Overall Average,4.066666666666666,5
+109,simple,Overall Average,4.0667,5
 109,trained_agent,Acceptance,4.8,5
 109,trained_agent,Empathy,4.4,5
 109,trained_agent,Direction,5.0,5
@@ -418,7 +418,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 109,trained_agent,Partnership,5.0,5
 109,trained_agent,Cultivating Change Talk,4.2,5
 109,trained_agent,Softening Sustain Talk,3.8,5
-109,trained_agent,Overall Average,4.622222222222223,5
+109,trained_agent,Overall Average,4.6222,5
 109,complex,Acceptance,4.6,5
 109,complex,Empathy,4.2,5
 109,complex,Direction,5.0,5
@@ -428,7 +428,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 109,complex,Partnership,5.0,5
 109,complex,Cultivating Change Talk,4.0,5
 109,complex,Softening Sustain Talk,4.0,5
-109,complex,Overall Average,4.511111111111111,5
+109,complex,Overall Average,4.5111,5
 109,multi_agent,Acceptance,4.6,5
 109,multi_agent,Empathy,4.6,5
 109,multi_agent,Direction,5.0,5
@@ -438,7 +438,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 109,multi_agent,Partnership,4.6,5
 109,multi_agent,Cultivating Change Talk,4.0,5
 109,multi_agent,Softening Sustain Talk,4.0,5
-109,multi_agent,Overall Average,4.488888888888889,5
+109,multi_agent,Overall Average,4.4889,5
 10,simple,Acceptance,5.0,5
 10,simple,Empathy,4.2,5
 10,simple,Direction,4.6,5
@@ -448,7 +448,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 10,simple,Partnership,4.8,5
 10,simple,Cultivating Change Talk,3.6,5
 10,simple,Softening Sustain Talk,3.8,5
-10,simple,Overall Average,4.333333333333333,5
+10,simple,Overall Average,4.3333,5
 10,trained_agent,Acceptance,4.6,5
 10,trained_agent,Empathy,4.4,5
 10,trained_agent,Direction,4.8,5
@@ -458,7 +458,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 10,trained_agent,Partnership,4.8,5
 10,trained_agent,Cultivating Change Talk,4.0,5
 10,trained_agent,Softening Sustain Talk,4.0,5
-10,trained_agent,Overall Average,4.511111111111111,5
+10,trained_agent,Overall Average,4.5111,5
 10,complex,Acceptance,4.6,5
 10,complex,Empathy,4.2,5
 10,complex,Direction,5.0,5
@@ -468,7 +468,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 10,complex,Partnership,4.6,5
 10,complex,Cultivating Change Talk,4.2,5
 10,complex,Softening Sustain Talk,4.2,5
-10,complex,Overall Average,4.444444444444445,5
+10,complex,Overall Average,4.4444,5
 10,multi_agent,Acceptance,5.0,5
 10,multi_agent,Empathy,5.0,5
 10,multi_agent,Direction,5.0,5
@@ -478,7 +478,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 10,multi_agent,Partnership,4.6,5
 10,multi_agent,Cultivating Change Talk,4.6,5
 10,multi_agent,Softening Sustain Talk,4.0,5
-10,multi_agent,Overall Average,4.666666666666667,5
+10,multi_agent,Overall Average,4.6667,5
 110,simple,Acceptance,4.8,5
 110,simple,Empathy,4.2,5
 110,simple,Direction,5.0,5
@@ -488,7 +488,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 110,simple,Partnership,4.2,5
 110,simple,Cultivating Change Talk,3.6,5
 110,simple,Softening Sustain Talk,3.8,5
-110,simple,Overall Average,4.288888888888889,5
+110,simple,Overall Average,4.2889,5
 110,trained_agent,Acceptance,4.8,5
 110,trained_agent,Empathy,4.2,5
 110,trained_agent,Direction,5.0,5
@@ -498,7 +498,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 110,trained_agent,Partnership,4.8,5
 110,trained_agent,Cultivating Change Talk,4.0,5
 110,trained_agent,Softening Sustain Talk,3.6,5
-110,trained_agent,Overall Average,4.466666666666667,5
+110,trained_agent,Overall Average,4.4667,5
 110,complex,Acceptance,4.4,5
 110,complex,Empathy,4.0,5
 110,complex,Direction,5.0,5
@@ -508,7 +508,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 110,complex,Partnership,4.4,5
 110,complex,Cultivating Change Talk,4.0,5
 110,complex,Softening Sustain Talk,3.8,5
-110,complex,Overall Average,4.377777777777777,5
+110,complex,Overall Average,4.3778,5
 110,multi_agent,Acceptance,5.0,5
 110,multi_agent,Empathy,4.6,5
 110,multi_agent,Direction,5.0,5
@@ -518,7 +518,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 110,multi_agent,Partnership,4.8,5
 110,multi_agent,Cultivating Change Talk,4.2,5
 110,multi_agent,Softening Sustain Talk,4.2,5
-110,multi_agent,Overall Average,4.666666666666667,5
+110,multi_agent,Overall Average,4.6667,5
 111,simple,Acceptance,4.8,5
 111,simple,Empathy,4.0,5
 111,simple,Direction,5.0,5
@@ -528,7 +528,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 111,simple,Partnership,4.2,5
 111,simple,Cultivating Change Talk,3.4,5
 111,simple,Softening Sustain Talk,3.8,5
-111,simple,Overall Average,4.222222222222222,5
+111,simple,Overall Average,4.2222,5
 111,trained_agent,Acceptance,4.8,5
 111,trained_agent,Empathy,4.4,5
 111,trained_agent,Direction,5.0,5
@@ -538,7 +538,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 111,trained_agent,Partnership,4.6,5
 111,trained_agent,Cultivating Change Talk,3.6,5
 111,trained_agent,Softening Sustain Talk,4.0,5
-111,trained_agent,Overall Average,4.355555555555556,5
+111,trained_agent,Overall Average,4.3556,5
 111,complex,Acceptance,4.8,5
 111,complex,Empathy,4.4,5
 111,complex,Direction,5.0,5
@@ -548,7 +548,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 111,complex,Partnership,4.4,5
 111,complex,Cultivating Change Talk,4.0,5
 111,complex,Softening Sustain Talk,4.2,5
-111,complex,Overall Average,4.488888888888889,5
+111,complex,Overall Average,4.4889,5
 111,multi_agent,Acceptance,4.8,5
 111,multi_agent,Empathy,4.6,5
 111,multi_agent,Direction,5.0,5
@@ -558,7 +558,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 111,multi_agent,Partnership,5.0,5
 111,multi_agent,Cultivating Change Talk,4.6,5
 111,multi_agent,Softening Sustain Talk,4.0,5
-111,multi_agent,Overall Average,4.688888888888888,5
+111,multi_agent,Overall Average,4.6889,5
 112,simple,Acceptance,4.6,5
 112,simple,Empathy,4.0,5
 112,simple,Direction,4.8,5
@@ -568,7 +568,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 112,simple,Partnership,4.6,5
 112,simple,Cultivating Change Talk,3.8,5
 112,simple,Softening Sustain Talk,3.2,5
-112,simple,Overall Average,4.177777777777778,5
+112,simple,Overall Average,4.1778,5
 112,trained_agent,Acceptance,4.8,5
 112,trained_agent,Empathy,4.4,5
 112,trained_agent,Direction,5.0,5
@@ -578,7 +578,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 112,trained_agent,Partnership,4.6,5
 112,trained_agent,Cultivating Change Talk,4.0,5
 112,trained_agent,Softening Sustain Talk,4.0,5
-112,trained_agent,Overall Average,4.488888888888889,5
+112,trained_agent,Overall Average,4.4889,5
 112,complex,Acceptance,5.0,5
 112,complex,Empathy,4.8,5
 112,complex,Direction,5.0,5
@@ -588,7 +588,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 112,complex,Partnership,4.6,5
 112,complex,Cultivating Change Talk,4.0,5
 112,complex,Softening Sustain Talk,4.0,5
-112,complex,Overall Average,4.533333333333333,5
+112,complex,Overall Average,4.5333,5
 112,multi_agent,Acceptance,4.6,5
 112,multi_agent,Empathy,4.6,5
 112,multi_agent,Direction,4.8,5
@@ -598,7 +598,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 112,multi_agent,Partnership,4.8,5
 112,multi_agent,Cultivating Change Talk,4.4,5
 112,multi_agent,Softening Sustain Talk,3.8,5
-112,multi_agent,Overall Average,4.577777777777778,5
+112,multi_agent,Overall Average,4.5778,5
 113,simple,Acceptance,4.6,5
 113,simple,Empathy,3.4,5
 113,simple,Direction,5.0,5
@@ -608,7 +608,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 113,simple,Partnership,4.2,5
 113,simple,Cultivating Change Talk,3.2,5
 113,simple,Softening Sustain Talk,4.0,5
-113,simple,Overall Average,4.111111111111111,5
+113,simple,Overall Average,4.1111,5
 113,trained_agent,Acceptance,4.6,5
 113,trained_agent,Empathy,4.6,5
 113,trained_agent,Direction,5.0,5
@@ -618,7 +618,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 113,trained_agent,Partnership,4.8,5
 113,trained_agent,Cultivating Change Talk,4.2,5
 113,trained_agent,Softening Sustain Talk,4.0,5
-113,trained_agent,Overall Average,4.577777777777778,5
+113,trained_agent,Overall Average,4.5778,5
 113,complex,Acceptance,4.6,5
 113,complex,Empathy,4.4,5
 113,complex,Direction,5.0,5
@@ -628,7 +628,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 113,complex,Partnership,4.8,5
 113,complex,Cultivating Change Talk,4.2,5
 113,complex,Softening Sustain Talk,4.0,5
-113,complex,Overall Average,4.555555555555555,5
+113,complex,Overall Average,4.5556,5
 113,multi_agent,Acceptance,4.6,5
 113,multi_agent,Empathy,4.2,5
 113,multi_agent,Direction,5.0,5
@@ -638,7 +638,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 113,multi_agent,Partnership,4.4,5
 113,multi_agent,Cultivating Change Talk,3.8,5
 113,multi_agent,Softening Sustain Talk,4.0,5
-113,multi_agent,Overall Average,4.333333333333333,5
+113,multi_agent,Overall Average,4.3333,5
 114,simple,Acceptance,4.6,5
 114,simple,Empathy,3.8,5
 114,simple,Direction,5.0,5
@@ -648,7 +648,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 114,simple,Partnership,3.8,5
 114,simple,Cultivating Change Talk,3.4,5
 114,simple,Softening Sustain Talk,3.6,5
-114,simple,Overall Average,4.066666666666666,5
+114,simple,Overall Average,4.0667,5
 114,trained_agent,Acceptance,4.2,5
 114,trained_agent,Empathy,4.2,5
 114,trained_agent,Direction,5.0,5
@@ -658,7 +658,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 114,trained_agent,Partnership,5.0,5
 114,trained_agent,Cultivating Change Talk,3.8,5
 114,trained_agent,Softening Sustain Talk,4.0,5
-114,trained_agent,Overall Average,4.444444444444445,5
+114,trained_agent,Overall Average,4.4444,5
 114,complex,Acceptance,4.8,5
 114,complex,Empathy,4.2,5
 114,complex,Direction,5.0,5
@@ -668,7 +668,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 114,complex,Partnership,4.6,5
 114,complex,Cultivating Change Talk,4.4,5
 114,complex,Softening Sustain Talk,3.8,5
-114,complex,Overall Average,4.511111111111111,5
+114,complex,Overall Average,4.5111,5
 114,multi_agent,Acceptance,4.8,5
 114,multi_agent,Empathy,4.8,5
 114,multi_agent,Direction,5.0,5
@@ -678,7 +678,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 114,multi_agent,Partnership,4.8,5
 114,multi_agent,Cultivating Change Talk,4.4,5
 114,multi_agent,Softening Sustain Talk,3.6,5
-114,multi_agent,Overall Average,4.644444444444444,5
+114,multi_agent,Overall Average,4.6444,5
 115,simple,Acceptance,4.8,5
 115,simple,Empathy,3.8,5
 115,simple,Direction,4.8,5
@@ -688,7 +688,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 115,simple,Partnership,4.2,5
 115,simple,Cultivating Change Talk,3.4,5
 115,simple,Softening Sustain Talk,4.0,5
-115,simple,Overall Average,4.177777777777778,5
+115,simple,Overall Average,4.1778,5
 115,trained_agent,Acceptance,4.6,5
 115,trained_agent,Empathy,4.2,5
 115,trained_agent,Direction,4.8,5
@@ -698,7 +698,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 115,trained_agent,Partnership,5.0,5
 115,trained_agent,Cultivating Change Talk,4.2,5
 115,trained_agent,Softening Sustain Talk,4.0,5
-115,trained_agent,Overall Average,4.533333333333333,5
+115,trained_agent,Overall Average,4.5333,5
 115,complex,Acceptance,4.6,5
 115,complex,Empathy,4.2,5
 115,complex,Direction,5.0,5
@@ -708,7 +708,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 115,complex,Partnership,4.6,5
 115,complex,Cultivating Change Talk,4.2,5
 115,complex,Softening Sustain Talk,4.0,5
-115,complex,Overall Average,4.488888888888889,5
+115,complex,Overall Average,4.4889,5
 115,multi_agent,Acceptance,4.8,5
 115,multi_agent,Empathy,4.8,5
 115,multi_agent,Direction,5.0,5
@@ -718,7 +718,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 115,multi_agent,Partnership,4.8,5
 115,multi_agent,Cultivating Change Talk,4.6,5
 115,multi_agent,Softening Sustain Talk,4.2,5
-115,multi_agent,Overall Average,4.733333333333333,5
+115,multi_agent,Overall Average,4.7333,5
 116,simple,Acceptance,4.4,5
 116,simple,Empathy,3.8,5
 116,simple,Direction,5.0,5
@@ -728,7 +728,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 116,simple,Partnership,4.4,5
 116,simple,Cultivating Change Talk,3.2,5
 116,simple,Softening Sustain Talk,3.8,5
-116,simple,Overall Average,4.066666666666666,5
+116,simple,Overall Average,4.0667,5
 116,trained_agent,Acceptance,4.6,5
 116,trained_agent,Empathy,4.2,5
 116,trained_agent,Direction,4.8,5
@@ -738,7 +738,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 116,trained_agent,Partnership,4.4,5
 116,trained_agent,Cultivating Change Talk,3.4,5
 116,trained_agent,Softening Sustain Talk,4.0,5
-116,trained_agent,Overall Average,4.266666666666667,5
+116,trained_agent,Overall Average,4.2667,5
 116,complex,Acceptance,4.2,5
 116,complex,Empathy,4.0,5
 116,complex,Direction,5.0,5
@@ -748,7 +748,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 116,complex,Partnership,5.0,5
 116,complex,Cultivating Change Talk,4.0,5
 116,complex,Softening Sustain Talk,4.6,5
-116,complex,Overall Average,4.533333333333333,5
+116,complex,Overall Average,4.5333,5
 116,multi_agent,Acceptance,4.8,5
 116,multi_agent,Empathy,4.6,5
 116,multi_agent,Direction,5.0,5
@@ -758,7 +758,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 116,multi_agent,Partnership,4.8,5
 116,multi_agent,Cultivating Change Talk,4.6,5
 116,multi_agent,Softening Sustain Talk,4.2,5
-116,multi_agent,Overall Average,4.711111111111111,5
+116,multi_agent,Overall Average,4.7111,5
 117,simple,Acceptance,5.0,5
 117,simple,Empathy,4.2,5
 117,simple,Direction,5.0,5
@@ -768,7 +768,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 117,simple,Partnership,5.0,5
 117,simple,Cultivating Change Talk,4.2,5
 117,simple,Softening Sustain Talk,3.6,5
-117,simple,Overall Average,4.488888888888889,5
+117,simple,Overall Average,4.4889,5
 117,trained_agent,Acceptance,4.8,5
 117,trained_agent,Empathy,4.2,5
 117,trained_agent,Direction,5.0,5
@@ -788,7 +788,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 117,complex,Partnership,5.0,5
 117,complex,Cultivating Change Talk,4.6,5
 117,complex,Softening Sustain Talk,4.0,5
-117,complex,Overall Average,4.733333333333333,5
+117,complex,Overall Average,4.7333,5
 117,multi_agent,Acceptance,5.0,5
 117,multi_agent,Empathy,5.0,5
 117,multi_agent,Direction,5.0,5
@@ -798,7 +798,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 117,multi_agent,Partnership,4.8,5
 117,multi_agent,Cultivating Change Talk,4.8,5
 117,multi_agent,Softening Sustain Talk,4.0,5
-117,multi_agent,Overall Average,4.822222222222222,5
+117,multi_agent,Overall Average,4.8222,5
 118,simple,Acceptance,5.0,5
 118,simple,Empathy,4.0,5
 118,simple,Direction,4.6,5
@@ -808,7 +808,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 118,simple,Partnership,4.0,5
 118,simple,Cultivating Change Talk,2.0,5
 118,simple,Softening Sustain Talk,4.2,5
-118,simple,Overall Average,3.8444444444444446,5
+118,simple,Overall Average,3.8444,5
 118,trained_agent,Acceptance,4.8,5
 118,trained_agent,Empathy,4.0,5
 118,trained_agent,Direction,5.0,5
@@ -818,7 +818,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 118,trained_agent,Partnership,3.6,5
 118,trained_agent,Cultivating Change Talk,3.0,5
 118,trained_agent,Softening Sustain Talk,4.2,5
-118,trained_agent,Overall Average,4.022222222222222,5
+118,trained_agent,Overall Average,4.0222,5
 118,complex,Acceptance,5.0,5
 118,complex,Empathy,4.8,5
 118,complex,Direction,4.8,5
@@ -828,7 +828,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 118,complex,Partnership,4.8,5
 118,complex,Cultivating Change Talk,3.2,5
 118,complex,Softening Sustain Talk,4.2,5
-118,complex,Overall Average,4.422222222222222,5
+118,complex,Overall Average,4.4222,5
 118,multi_agent,Acceptance,4.8,5
 118,multi_agent,Empathy,4.4,5
 118,multi_agent,Direction,5.0,5
@@ -838,7 +838,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 118,multi_agent,Partnership,4.4,5
 118,multi_agent,Cultivating Change Talk,3.0,5
 118,multi_agent,Softening Sustain Talk,4.4,5
-118,multi_agent,Overall Average,4.177777777777778,5
+118,multi_agent,Overall Average,4.1778,5
 119,simple,Acceptance,4.6,5
 119,simple,Empathy,4.0,5
 119,simple,Direction,5.0,5
@@ -848,7 +848,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 119,simple,Partnership,4.2,5
 119,simple,Cultivating Change Talk,4.0,5
 119,simple,Softening Sustain Talk,3.8,5
-119,simple,Overall Average,4.2444444444444445,5
+119,simple,Overall Average,4.2444,5
 119,trained_agent,Acceptance,4.4,5
 119,trained_agent,Empathy,4.4,5
 119,trained_agent,Direction,5.0,5
@@ -858,7 +858,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 119,trained_agent,Partnership,5.0,5
 119,trained_agent,Cultivating Change Talk,4.2,5
 119,trained_agent,Softening Sustain Talk,4.0,5
-119,trained_agent,Overall Average,4.577777777777778,5
+119,trained_agent,Overall Average,4.5778,5
 119,complex,Acceptance,5.0,5
 119,complex,Empathy,4.6,5
 119,complex,Direction,5.0,5
@@ -868,7 +868,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 119,complex,Partnership,4.6,5
 119,complex,Cultivating Change Talk,4.0,5
 119,complex,Softening Sustain Talk,4.2,5
-119,complex,Overall Average,4.555555555555555,5
+119,complex,Overall Average,4.5556,5
 119,multi_agent,Acceptance,5.0,5
 119,multi_agent,Empathy,4.8,5
 119,multi_agent,Direction,5.0,5
@@ -878,7 +878,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 119,multi_agent,Partnership,5.0,5
 119,multi_agent,Cultivating Change Talk,4.2,5
 119,multi_agent,Softening Sustain Talk,4.0,5
-119,multi_agent,Overall Average,4.688888888888889,5
+119,multi_agent,Overall Average,4.6889,5
 11,simple,Acceptance,4.6,5
 11,simple,Empathy,3.6,5
 11,simple,Direction,4.6,5
@@ -898,7 +898,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 11,trained_agent,Partnership,5.0,5
 11,trained_agent,Cultivating Change Talk,4.4,5
 11,trained_agent,Softening Sustain Talk,4.2,5
-11,trained_agent,Overall Average,4.555555555555555,5
+11,trained_agent,Overall Average,4.5556,5
 11,complex,Acceptance,4.6,5
 11,complex,Empathy,4.2,5
 11,complex,Direction,5.0,5
@@ -908,7 +908,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 11,complex,Partnership,4.8,5
 11,complex,Cultivating Change Talk,4.4,5
 11,complex,Softening Sustain Talk,4.0,5
-11,complex,Overall Average,4.577777777777778,5
+11,complex,Overall Average,4.5778,5
 11,multi_agent,Acceptance,4.6,5
 11,multi_agent,Empathy,4.4,5
 11,multi_agent,Direction,5.0,5
@@ -918,7 +918,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 11,multi_agent,Partnership,5.0,5
 11,multi_agent,Cultivating Change Talk,4.2,5
 11,multi_agent,Softening Sustain Talk,4.0,5
-11,multi_agent,Overall Average,4.577777777777778,5
+11,multi_agent,Overall Average,4.5778,5
 120,simple,Acceptance,4.2,5
 120,simple,Empathy,3.6,5
 120,simple,Direction,4.0,5
@@ -928,7 +928,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 120,simple,Partnership,3.6,5
 120,simple,Cultivating Change Talk,3.0,5
 120,simple,Softening Sustain Talk,3.0,5
-120,simple,Overall Average,3.488888888888889,5
+120,simple,Overall Average,3.4889,5
 120,trained_agent,Acceptance,4.2,5
 120,trained_agent,Empathy,4.0,5
 120,trained_agent,Direction,5.0,5
@@ -938,7 +938,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 120,trained_agent,Partnership,4.4,5
 120,trained_agent,Cultivating Change Talk,4.2,5
 120,trained_agent,Softening Sustain Talk,3.6,5
-120,trained_agent,Overall Average,4.4222222222222225,5
+120,trained_agent,Overall Average,4.4222,5
 120,complex,Acceptance,4.6,5
 120,complex,Empathy,4.2,5
 120,complex,Direction,4.8,5
@@ -958,7 +958,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 120,multi_agent,Partnership,4.4,5
 120,multi_agent,Cultivating Change Talk,4.0,5
 120,multi_agent,Softening Sustain Talk,4.0,5
-120,multi_agent,Overall Average,4.355555555555556,5
+120,multi_agent,Overall Average,4.3556,5
 121,simple,Acceptance,4.4,5
 121,simple,Empathy,3.8,5
 121,simple,Direction,4.8,5
@@ -968,7 +968,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 121,simple,Partnership,4.6,5
 121,simple,Cultivating Change Talk,3.2,5
 121,simple,Softening Sustain Talk,3.4,5
-121,simple,Overall Average,4.088888888888889,5
+121,simple,Overall Average,4.0889,5
 121,trained_agent,Acceptance,4.8,5
 121,trained_agent,Empathy,4.6,5
 121,trained_agent,Direction,5.0,5
@@ -978,7 +978,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 121,trained_agent,Partnership,4.6,5
 121,trained_agent,Cultivating Change Talk,4.2,5
 121,trained_agent,Softening Sustain Talk,3.8,5
-121,trained_agent,Overall Average,4.466666666666667,5
+121,trained_agent,Overall Average,4.4667,5
 121,complex,Acceptance,4.8,5
 121,complex,Empathy,4.8,5
 121,complex,Direction,5.0,5
@@ -988,7 +988,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 121,complex,Partnership,4.6,5
 121,complex,Cultivating Change Talk,3.6,5
 121,complex,Softening Sustain Talk,3.8,5
-121,complex,Overall Average,4.488888888888889,5
+121,complex,Overall Average,4.4889,5
 121,multi_agent,Acceptance,5.0,5
 121,multi_agent,Empathy,4.8,5
 121,multi_agent,Direction,5.0,5
@@ -998,7 +998,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 121,multi_agent,Partnership,5.0,5
 121,multi_agent,Cultivating Change Talk,4.2,5
 121,multi_agent,Softening Sustain Talk,3.8,5
-121,multi_agent,Overall Average,4.666666666666667,5
+121,multi_agent,Overall Average,4.6667,5
 122,simple,Acceptance,4.6,5
 122,simple,Empathy,4.2,5
 122,simple,Direction,5.0,5
@@ -1008,7 +1008,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 122,simple,Partnership,4.8,5
 122,simple,Cultivating Change Talk,4.0,5
 122,simple,Softening Sustain Talk,4.2,5
-122,simple,Overall Average,4.422222222222222,5
+122,simple,Overall Average,4.4222,5
 122,trained_agent,Acceptance,5.0,5
 122,trained_agent,Empathy,4.6,5
 122,trained_agent,Direction,5.0,5
@@ -1018,7 +1018,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 122,trained_agent,Partnership,4.6,5
 122,trained_agent,Cultivating Change Talk,4.6,5
 122,trained_agent,Softening Sustain Talk,4.2,5
-122,trained_agent,Overall Average,4.711111111111111,5
+122,trained_agent,Overall Average,4.7111,5
 122,complex,Acceptance,4.8,5
 122,complex,Empathy,4.4,5
 122,complex,Direction,5.0,5
@@ -1028,7 +1028,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 122,complex,Partnership,4.4,5
 122,complex,Cultivating Change Talk,4.2,5
 122,complex,Softening Sustain Talk,4.0,5
-122,complex,Overall Average,4.533333333333333,5
+122,complex,Overall Average,4.5333,5
 122,multi_agent,Acceptance,4.6,5
 122,multi_agent,Empathy,4.4,5
 122,multi_agent,Direction,4.8,5
@@ -1038,7 +1038,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 122,multi_agent,Partnership,5.0,5
 122,multi_agent,Cultivating Change Talk,4.8,5
 122,multi_agent,Softening Sustain Talk,4.0,5
-122,multi_agent,Overall Average,4.644444444444444,5
+122,multi_agent,Overall Average,4.6444,5
 123,simple,Acceptance,4.2,5
 123,simple,Empathy,3.6,5
 123,simple,Direction,4.8,5
@@ -1048,7 +1048,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 123,simple,Partnership,5.0,5
 123,simple,Cultivating Change Talk,3.6,5
 123,simple,Softening Sustain Talk,3.6,5
-123,simple,Overall Average,4.066666666666666,5
+123,simple,Overall Average,4.0667,5
 123,trained_agent,Acceptance,4.8,5
 123,trained_agent,Empathy,4.8,5
 123,trained_agent,Direction,4.8,5
@@ -1068,7 +1068,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 123,complex,Partnership,4.4,5
 123,complex,Cultivating Change Talk,4.0,5
 123,complex,Softening Sustain Talk,4.2,5
-123,complex,Overall Average,4.488888888888889,5
+123,complex,Overall Average,4.4889,5
 123,multi_agent,Acceptance,5.0,5
 123,multi_agent,Empathy,4.6,5
 123,multi_agent,Direction,5.0,5
@@ -1078,7 +1078,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 123,multi_agent,Partnership,5.0,5
 123,multi_agent,Cultivating Change Talk,4.6,5
 123,multi_agent,Softening Sustain Talk,4.4,5
-123,multi_agent,Overall Average,4.777777777777778,5
+123,multi_agent,Overall Average,4.7778,5
 124,simple,Acceptance,4.4,5
 124,simple,Empathy,3.8,5
 124,simple,Direction,5.0,5
@@ -1088,7 +1088,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 124,simple,Partnership,4.4,5
 124,simple,Cultivating Change Talk,3.2,5
 124,simple,Softening Sustain Talk,3.4,5
-124,simple,Overall Average,4.088888888888889,5
+124,simple,Overall Average,4.0889,5
 124,trained_agent,Acceptance,4.4,5
 124,trained_agent,Empathy,4.2,5
 124,trained_agent,Direction,5.0,5
@@ -1098,7 +1098,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 124,trained_agent,Partnership,4.6,5
 124,trained_agent,Cultivating Change Talk,4.2,5
 124,trained_agent,Softening Sustain Talk,4.0,5
-124,trained_agent,Overall Average,4.488888888888889,5
+124,trained_agent,Overall Average,4.4889,5
 124,complex,Acceptance,4.4,5
 124,complex,Empathy,4.2,5
 124,complex,Direction,5.0,5
@@ -1108,7 +1108,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 124,complex,Partnership,5.0,5
 124,complex,Cultivating Change Talk,3.8,5
 124,complex,Softening Sustain Talk,4.0,5
-124,complex,Overall Average,4.466666666666667,5
+124,complex,Overall Average,4.4667,5
 124,multi_agent,Acceptance,5.0,5
 124,multi_agent,Empathy,4.8,5
 124,multi_agent,Direction,5.0,5
@@ -1118,7 +1118,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 124,multi_agent,Partnership,4.8,5
 124,multi_agent,Cultivating Change Talk,4.4,5
 124,multi_agent,Softening Sustain Talk,4.0,5
-124,multi_agent,Overall Average,4.711111111111111,5
+124,multi_agent,Overall Average,4.7111,5
 125,simple,Acceptance,4.8,5
 125,simple,Empathy,4.0,5
 125,simple,Direction,5.0,5
@@ -1128,7 +1128,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 125,simple,Partnership,4.2,5
 125,simple,Cultivating Change Talk,3.2,5
 125,simple,Softening Sustain Talk,4.0,5
-125,simple,Overall Average,4.177777777777778,5
+125,simple,Overall Average,4.1778,5
 125,trained_agent,Acceptance,5.0,5
 125,trained_agent,Empathy,4.6,5
 125,trained_agent,Direction,5.0,5
@@ -1138,7 +1138,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 125,trained_agent,Partnership,4.8,5
 125,trained_agent,Cultivating Change Talk,4.0,5
 125,trained_agent,Softening Sustain Talk,3.8,5
-125,trained_agent,Overall Average,4.577777777777778,5
+125,trained_agent,Overall Average,4.5778,5
 125,complex,Acceptance,4.6,5
 125,complex,Empathy,4.6,5
 125,complex,Direction,4.8,5
@@ -1148,7 +1148,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 125,complex,Partnership,4.4,5
 125,complex,Cultivating Change Talk,3.8,5
 125,complex,Softening Sustain Talk,3.6,5
-125,complex,Overall Average,4.355555555555555,5
+125,complex,Overall Average,4.3556,5
 125,multi_agent,Acceptance,4.8,5
 125,multi_agent,Empathy,4.8,5
 125,multi_agent,Direction,5.0,5
@@ -1168,7 +1168,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 126,simple,Partnership,4.2,5
 126,simple,Cultivating Change Talk,3.4,5
 126,simple,Softening Sustain Talk,3.6,5
-126,simple,Overall Average,3.9777777777777774,5
+126,simple,Overall Average,3.9778,5
 126,trained_agent,Acceptance,5.0,5
 126,trained_agent,Empathy,4.4,5
 126,trained_agent,Direction,5.0,5
@@ -1178,7 +1178,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 126,trained_agent,Partnership,5.0,5
 126,trained_agent,Cultivating Change Talk,4.4,5
 126,trained_agent,Softening Sustain Talk,4.2,5
-126,trained_agent,Overall Average,4.711111111111111,5
+126,trained_agent,Overall Average,4.7111,5
 126,complex,Acceptance,4.4,5
 126,complex,Empathy,4.2,5
 126,complex,Direction,5.0,5
@@ -1188,7 +1188,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 126,complex,Partnership,4.6,5
 126,complex,Cultivating Change Talk,4.2,5
 126,complex,Softening Sustain Talk,3.8,5
-126,complex,Overall Average,4.422222222222222,5
+126,complex,Overall Average,4.4222,5
 126,multi_agent,Acceptance,5.0,5
 126,multi_agent,Empathy,4.8,5
 126,multi_agent,Direction,4.8,5
@@ -1198,7 +1198,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 126,multi_agent,Partnership,4.8,5
 126,multi_agent,Cultivating Change Talk,4.8,5
 126,multi_agent,Softening Sustain Talk,4.2,5
-126,multi_agent,Overall Average,4.800000000000001,5
+126,multi_agent,Overall Average,4.8,5
 127,simple,Acceptance,4.4,5
 127,simple,Empathy,4.0,5
 127,simple,Direction,5.0,5
@@ -1208,7 +1208,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 127,simple,Partnership,4.4,5
 127,simple,Cultivating Change Talk,3.6,5
 127,simple,Softening Sustain Talk,3.4,5
-127,simple,Overall Average,4.066666666666666,5
+127,simple,Overall Average,4.0667,5
 127,trained_agent,Acceptance,4.4,5
 127,trained_agent,Empathy,4.0,5
 127,trained_agent,Direction,5.0,5
@@ -1218,7 +1218,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 127,trained_agent,Partnership,4.8,5
 127,trained_agent,Cultivating Change Talk,4.6,5
 127,trained_agent,Softening Sustain Talk,4.0,5
-127,trained_agent,Overall Average,4.555555555555555,5
+127,trained_agent,Overall Average,4.5556,5
 127,complex,Acceptance,5.0,5
 127,complex,Empathy,4.8,5
 127,complex,Direction,5.0,5
@@ -1228,7 +1228,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 127,complex,Partnership,5.0,5
 127,complex,Cultivating Change Talk,5.0,5
 127,complex,Softening Sustain Talk,3.8,5
-127,complex,Overall Average,4.822222222222222,5
+127,complex,Overall Average,4.8222,5
 127,multi_agent,Acceptance,4.8,5
 127,multi_agent,Empathy,4.8,5
 127,multi_agent,Direction,4.8,5
@@ -1238,7 +1238,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 127,multi_agent,Partnership,5.0,5
 127,multi_agent,Cultivating Change Talk,4.8,5
 127,multi_agent,Softening Sustain Talk,4.0,5
-127,multi_agent,Overall Average,4.733333333333333,5
+127,multi_agent,Overall Average,4.7333,5
 128,simple,Acceptance,4.4,5
 128,simple,Empathy,3.8,5
 128,simple,Direction,4.8,5
@@ -1248,7 +1248,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 128,simple,Partnership,4.6,5
 128,simple,Cultivating Change Talk,3.4,5
 128,simple,Softening Sustain Talk,3.6,5
-128,simple,Overall Average,4.133333333333333,5
+128,simple,Overall Average,4.1333,5
 128,trained_agent,Acceptance,4.8,5
 128,trained_agent,Empathy,4.2,5
 128,trained_agent,Direction,5.0,5
@@ -1258,7 +1258,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 128,trained_agent,Partnership,5.0,5
 128,trained_agent,Cultivating Change Talk,4.2,5
 128,trained_agent,Softening Sustain Talk,3.8,5
-128,trained_agent,Overall Average,4.577777777777778,5
+128,trained_agent,Overall Average,4.5778,5
 128,complex,Acceptance,4.2,5
 128,complex,Empathy,4.2,5
 128,complex,Direction,5.0,5
@@ -1278,7 +1278,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 128,multi_agent,Partnership,4.8,5
 128,multi_agent,Cultivating Change Talk,4.2,5
 128,multi_agent,Softening Sustain Talk,3.8,5
-128,multi_agent,Overall Average,4.555555555555555,5
+128,multi_agent,Overall Average,4.5556,5
 129,simple,Acceptance,4.0,5
 129,simple,Empathy,3.0,5
 129,simple,Direction,4.8,5
@@ -1288,7 +1288,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 129,simple,Partnership,4.6,5
 129,simple,Cultivating Change Talk,3.0,5
 129,simple,Softening Sustain Talk,3.8,5
-129,simple,Overall Average,3.933333333333333,5
+129,simple,Overall Average,3.9333,5
 129,trained_agent,Acceptance,4.6,5
 129,trained_agent,Empathy,4.4,5
 129,trained_agent,Direction,4.8,5
@@ -1308,7 +1308,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 129,complex,Partnership,4.8,5
 129,complex,Cultivating Change Talk,3.8,5
 129,complex,Softening Sustain Talk,4.0,5
-129,complex,Overall Average,4.466666666666667,5
+129,complex,Overall Average,4.4667,5
 129,multi_agent,Acceptance,4.8,5
 129,multi_agent,Empathy,4.8,5
 129,multi_agent,Direction,5.0,5
@@ -1318,7 +1318,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 129,multi_agent,Partnership,4.8,5
 129,multi_agent,Cultivating Change Talk,3.6,5
 129,multi_agent,Softening Sustain Talk,3.8,5
-129,multi_agent,Overall Average,4.511111111111111,5
+129,multi_agent,Overall Average,4.5111,5
 12,simple,Acceptance,4.6,5
 12,simple,Empathy,4.0,5
 12,simple,Direction,5.0,5
@@ -1328,7 +1328,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 12,simple,Partnership,5.0,5
 12,simple,Cultivating Change Talk,3.6,5
 12,simple,Softening Sustain Talk,3.8,5
-12,simple,Overall Average,4.377777777777777,5
+12,simple,Overall Average,4.3778,5
 12,trained_agent,Acceptance,5.0,5
 12,trained_agent,Empathy,4.6,5
 12,trained_agent,Direction,4.8,5
@@ -1338,7 +1338,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 12,trained_agent,Partnership,4.6,5
 12,trained_agent,Cultivating Change Talk,3.6,5
 12,trained_agent,Softening Sustain Talk,3.8,5
-12,trained_agent,Overall Average,4.377777777777777,5
+12,trained_agent,Overall Average,4.3778,5
 12,complex,Acceptance,4.8,5
 12,complex,Empathy,4.4,5
 12,complex,Direction,4.8,5
@@ -1348,7 +1348,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 12,complex,Partnership,4.8,5
 12,complex,Cultivating Change Talk,3.8,5
 12,complex,Softening Sustain Talk,4.0,5
-12,complex,Overall Average,4.444444444444445,5
+12,complex,Overall Average,4.4444,5
 12,multi_agent,Acceptance,4.6,5
 12,multi_agent,Empathy,4.6,5
 12,multi_agent,Direction,5.0,5
@@ -1358,7 +1358,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 12,multi_agent,Partnership,4.8,5
 12,multi_agent,Cultivating Change Talk,4.0,5
 12,multi_agent,Softening Sustain Talk,3.6,5
-12,multi_agent,Overall Average,4.444444444444445,5
+12,multi_agent,Overall Average,4.4444,5
 130,simple,Acceptance,4.4,5
 130,simple,Empathy,3.8,5
 130,simple,Direction,4.6,5
@@ -1368,7 +1368,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 130,simple,Partnership,4.4,5
 130,simple,Cultivating Change Talk,3.4,5
 130,simple,Softening Sustain Talk,3.8,5
-130,simple,Overall Average,4.111111111111111,5
+130,simple,Overall Average,4.1111,5
 130,trained_agent,Acceptance,4.8,5
 130,trained_agent,Empathy,4.4,5
 130,trained_agent,Direction,5.0,5
@@ -1388,7 +1388,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 130,complex,Partnership,5.0,5
 130,complex,Cultivating Change Talk,4.2,5
 130,complex,Softening Sustain Talk,3.6,5
-130,complex,Overall Average,4.444444444444445,5
+130,complex,Overall Average,4.4444,5
 130,multi_agent,Acceptance,4.8,5
 130,multi_agent,Empathy,4.6,5
 130,multi_agent,Direction,5.0,5
@@ -1398,7 +1398,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 130,multi_agent,Partnership,4.4,5
 130,multi_agent,Cultivating Change Talk,4.4,5
 130,multi_agent,Softening Sustain Talk,4.2,5
-130,multi_agent,Overall Average,4.644444444444444,5
+130,multi_agent,Overall Average,4.6444,5
 131,simple,Acceptance,4.4,5
 131,simple,Empathy,4.0,5
 131,simple,Direction,4.8,5
@@ -1408,7 +1408,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 131,simple,Partnership,4.6,5
 131,simple,Cultivating Change Talk,4.4,5
 131,simple,Softening Sustain Talk,3.8,5
-131,simple,Overall Average,4.333333333333333,5
+131,simple,Overall Average,4.3333,5
 131,trained_agent,Acceptance,4.6,5
 131,trained_agent,Empathy,4.4,5
 131,trained_agent,Direction,4.8,5
@@ -1428,7 +1428,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 131,complex,Partnership,5.0,5
 131,complex,Cultivating Change Talk,4.6,5
 131,complex,Softening Sustain Talk,4.2,5
-131,complex,Overall Average,4.822222222222222,5
+131,complex,Overall Average,4.8222,5
 131,multi_agent,Acceptance,4.8,5
 131,multi_agent,Empathy,4.6,5
 131,multi_agent,Direction,5.0,5
@@ -1438,7 +1438,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 131,multi_agent,Partnership,5.0,5
 131,multi_agent,Cultivating Change Talk,4.2,5
 131,multi_agent,Softening Sustain Talk,4.0,5
-131,multi_agent,Overall Average,4.644444444444444,5
+131,multi_agent,Overall Average,4.6444,5
 132,simple,Acceptance,4.6,5
 132,simple,Empathy,4.2,5
 132,simple,Direction,5.0,5
@@ -1448,7 +1448,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 132,simple,Partnership,4.0,5
 132,simple,Cultivating Change Talk,3.8,5
 132,simple,Softening Sustain Talk,3.6,5
-132,simple,Overall Average,4.222222222222222,5
+132,simple,Overall Average,4.2222,5
 132,trained_agent,Acceptance,5.0,5
 132,trained_agent,Empathy,4.8,5
 132,trained_agent,Direction,5.0,5
@@ -1458,7 +1458,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 132,trained_agent,Partnership,5.0,5
 132,trained_agent,Cultivating Change Talk,4.0,5
 132,trained_agent,Softening Sustain Talk,4.0,5
-132,trained_agent,Overall Average,4.711111111111111,5
+132,trained_agent,Overall Average,4.7111,5
 132,complex,Acceptance,4.6,5
 132,complex,Empathy,4.2,5
 132,complex,Direction,5.0,5
@@ -1468,7 +1468,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 132,complex,Partnership,4.6,5
 132,complex,Cultivating Change Talk,4.2,5
 132,complex,Softening Sustain Talk,3.6,5
-132,complex,Overall Average,4.444444444444445,5
+132,complex,Overall Average,4.4444,5
 132,multi_agent,Acceptance,4.6,5
 132,multi_agent,Empathy,4.6,5
 132,multi_agent,Direction,5.0,5
@@ -1488,7 +1488,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 13,simple,Partnership,4.4,5
 13,simple,Cultivating Change Talk,3.6,5
 13,simple,Softening Sustain Talk,4.0,5
-13,simple,Overall Average,4.355555555555556,5
+13,simple,Overall Average,4.3556,5
 13,trained_agent,Acceptance,4.8,5
 13,trained_agent,Empathy,4.6,5
 13,trained_agent,Direction,4.8,5
@@ -1498,7 +1498,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 13,trained_agent,Partnership,4.6,5
 13,trained_agent,Cultivating Change Talk,4.2,5
 13,trained_agent,Softening Sustain Talk,4.2,5
-13,trained_agent,Overall Average,4.577777777777778,5
+13,trained_agent,Overall Average,4.5778,5
 13,complex,Acceptance,4.8,5
 13,complex,Empathy,4.6,5
 13,complex,Direction,5.0,5
@@ -1518,7 +1518,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 13,multi_agent,Partnership,4.8,5
 13,multi_agent,Cultivating Change Talk,4.2,5
 13,multi_agent,Softening Sustain Talk,4.4,5
-13,multi_agent,Overall Average,4.733333333333333,5
+13,multi_agent,Overall Average,4.7333,5
 14,simple,Acceptance,4.4,5
 14,simple,Empathy,4.0,5
 14,simple,Direction,4.8,5
@@ -1528,7 +1528,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 14,simple,Partnership,4.4,5
 14,simple,Cultivating Change Talk,4.0,5
 14,simple,Softening Sustain Talk,4.0,5
-14,simple,Overall Average,4.2444444444444445,5
+14,simple,Overall Average,4.2444,5
 14,trained_agent,Acceptance,4.8,5
 14,trained_agent,Empathy,4.2,5
 14,trained_agent,Direction,5.0,5
@@ -1538,7 +1538,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 14,trained_agent,Partnership,5.0,5
 14,trained_agent,Cultivating Change Talk,4.2,5
 14,trained_agent,Softening Sustain Talk,4.2,5
-14,trained_agent,Overall Average,4.533333333333333,5
+14,trained_agent,Overall Average,4.5333,5
 14,complex,Acceptance,4.4,5
 14,complex,Empathy,4.0,5
 14,complex,Direction,5.0,5
@@ -1548,7 +1548,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 14,complex,Partnership,4.6,5
 14,complex,Cultivating Change Talk,4.0,5
 14,complex,Softening Sustain Talk,4.0,5
-14,complex,Overall Average,4.333333333333333,5
+14,complex,Overall Average,4.3333,5
 14,multi_agent,Acceptance,4.6,5
 14,multi_agent,Empathy,4.6,5
 14,multi_agent,Direction,5.0,5
@@ -1558,7 +1558,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 14,multi_agent,Partnership,5.0,5
 14,multi_agent,Cultivating Change Talk,4.8,5
 14,multi_agent,Softening Sustain Talk,4.0,5
-14,multi_agent,Overall Average,4.7555555555555555,5
+14,multi_agent,Overall Average,4.7556,5
 15,simple,Acceptance,3.8,5
 15,simple,Empathy,3.2,5
 15,simple,Direction,4.8,5
@@ -1568,7 +1568,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 15,simple,Partnership,4.6,5
 15,simple,Cultivating Change Talk,3.0,5
 15,simple,Softening Sustain Talk,3.6,5
-15,simple,Overall Average,3.8666666666666663,5
+15,simple,Overall Average,3.8667,5
 15,trained_agent,Acceptance,4.4,5
 15,trained_agent,Empathy,4.0,5
 15,trained_agent,Direction,5.0,5
@@ -1578,7 +1578,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 15,trained_agent,Partnership,4.8,5
 15,trained_agent,Cultivating Change Talk,4.2,5
 15,trained_agent,Softening Sustain Talk,4.0,5
-15,trained_agent,Overall Average,4.488888888888889,5
+15,trained_agent,Overall Average,4.4889,5
 15,complex,Acceptance,5.0,5
 15,complex,Empathy,4.0,5
 15,complex,Direction,5.0,5
@@ -1588,7 +1588,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 15,complex,Partnership,4.6,5
 15,complex,Cultivating Change Talk,3.8,5
 15,complex,Softening Sustain Talk,3.2,5
-15,complex,Overall Average,4.266666666666667,5
+15,complex,Overall Average,4.2667,5
 15,multi_agent,Acceptance,4.6,5
 15,multi_agent,Empathy,4.6,5
 15,multi_agent,Direction,5.0,5
@@ -1608,7 +1608,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 16,simple,Partnership,4.6,5
 16,simple,Cultivating Change Talk,4.2,5
 16,simple,Softening Sustain Talk,3.0,5
-16,simple,Overall Average,4.222222222222222,5
+16,simple,Overall Average,4.2222,5
 16,trained_agent,Acceptance,4.8,5
 16,trained_agent,Empathy,4.0,5
 16,trained_agent,Direction,5.0,5
@@ -1618,7 +1618,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 16,trained_agent,Partnership,5.0,5
 16,trained_agent,Cultivating Change Talk,4.6,5
 16,trained_agent,Softening Sustain Talk,4.0,5
-16,trained_agent,Overall Average,4.644444444444444,5
+16,trained_agent,Overall Average,4.6444,5
 16,complex,Acceptance,4.2,5
 16,complex,Empathy,4.0,5
 16,complex,Direction,5.0,5
@@ -1628,7 +1628,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 16,complex,Partnership,4.6,5
 16,complex,Cultivating Change Talk,4.4,5
 16,complex,Softening Sustain Talk,3.6,5
-16,complex,Overall Average,4.466666666666667,5
+16,complex,Overall Average,4.4667,5
 16,multi_agent,Acceptance,4.8,5
 16,multi_agent,Empathy,4.8,5
 16,multi_agent,Direction,5.0,5
@@ -1638,7 +1638,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 16,multi_agent,Partnership,5.0,5
 16,multi_agent,Cultivating Change Talk,4.6,5
 16,multi_agent,Softening Sustain Talk,4.0,5
-16,multi_agent,Overall Average,4.777777777777778,5
+16,multi_agent,Overall Average,4.7778,5
 17,simple,Acceptance,4.6,5
 17,simple,Empathy,4.0,5
 17,simple,Direction,5.0,5
@@ -1648,7 +1648,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 17,simple,Partnership,4.8,5
 17,simple,Cultivating Change Talk,3.8,5
 17,simple,Softening Sustain Talk,4.0,5
-17,simple,Overall Average,4.333333333333333,5
+17,simple,Overall Average,4.3333,5
 17,trained_agent,Acceptance,5.0,5
 17,trained_agent,Empathy,4.8,5
 17,trained_agent,Direction,4.8,5
@@ -1658,7 +1658,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 17,trained_agent,Partnership,5.0,5
 17,trained_agent,Cultivating Change Talk,4.2,5
 17,trained_agent,Softening Sustain Talk,4.0,5
-17,trained_agent,Overall Average,4.644444444444444,5
+17,trained_agent,Overall Average,4.6444,5
 17,complex,Acceptance,5.0,5
 17,complex,Empathy,4.6,5
 17,complex,Direction,5.0,5
@@ -1668,7 +1668,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 17,complex,Partnership,4.4,5
 17,complex,Cultivating Change Talk,4.2,5
 17,complex,Softening Sustain Talk,4.0,5
-17,complex,Overall Average,4.577777777777778,5
+17,complex,Overall Average,4.5778,5
 17,multi_agent,Acceptance,5.0,5
 17,multi_agent,Empathy,5.0,5
 17,multi_agent,Direction,4.8,5
@@ -1678,7 +1678,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 17,multi_agent,Partnership,4.8,5
 17,multi_agent,Cultivating Change Talk,4.6,5
 17,multi_agent,Softening Sustain Talk,4.0,5
-17,multi_agent,Overall Average,4.7555555555555555,5
+17,multi_agent,Overall Average,4.7556,5
 18,simple,Acceptance,4.4,5
 18,simple,Empathy,3.8,5
 18,simple,Direction,5.0,5
@@ -1688,7 +1688,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 18,simple,Partnership,4.4,5
 18,simple,Cultivating Change Talk,3.6,5
 18,simple,Softening Sustain Talk,4.0,5
-18,simple,Overall Average,4.133333333333334,5
+18,simple,Overall Average,4.1333,5
 18,trained_agent,Acceptance,4.4,5
 18,trained_agent,Empathy,4.2,5
 18,trained_agent,Direction,5.0,5
@@ -1698,7 +1698,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 18,trained_agent,Partnership,4.8,5
 18,trained_agent,Cultivating Change Talk,4.0,5
 18,trained_agent,Softening Sustain Talk,4.2,5
-18,trained_agent,Overall Average,4.466666666666667,5
+18,trained_agent,Overall Average,4.4667,5
 18,complex,Acceptance,4.4,5
 18,complex,Empathy,4.2,5
 18,complex,Direction,5.0,5
@@ -1708,7 +1708,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 18,complex,Partnership,4.6,5
 18,complex,Cultivating Change Talk,4.0,5
 18,complex,Softening Sustain Talk,4.2,5
-18,complex,Overall Average,4.466666666666667,5
+18,complex,Overall Average,4.4667,5
 18,multi_agent,Acceptance,4.8,5
 18,multi_agent,Empathy,5.0,5
 18,multi_agent,Direction,5.0,5
@@ -1718,7 +1718,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 18,multi_agent,Partnership,5.0,5
 18,multi_agent,Cultivating Change Talk,4.4,5
 18,multi_agent,Softening Sustain Talk,4.2,5
-18,multi_agent,Overall Average,4.688888888888889,5
+18,multi_agent,Overall Average,4.6889,5
 19,simple,Acceptance,4.6,5
 19,simple,Empathy,4.0,5
 19,simple,Direction,4.8,5
@@ -1728,7 +1728,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 19,simple,Partnership,4.0,5
 19,simple,Cultivating Change Talk,4.0,5
 19,simple,Softening Sustain Talk,3.4,5
-19,simple,Overall Average,4.133333333333333,5
+19,simple,Overall Average,4.1333,5
 19,trained_agent,Acceptance,4.8,5
 19,trained_agent,Empathy,4.6,5
 19,trained_agent,Direction,5.0,5
@@ -1738,7 +1738,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 19,trained_agent,Partnership,5.0,5
 19,trained_agent,Cultivating Change Talk,4.6,5
 19,trained_agent,Softening Sustain Talk,3.6,5
-19,trained_agent,Overall Average,4.666666666666667,5
+19,trained_agent,Overall Average,4.6667,5
 19,complex,Acceptance,4.6,5
 19,complex,Empathy,4.2,5
 19,complex,Direction,5.0,5
@@ -1758,7 +1758,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 19,multi_agent,Partnership,4.8,5
 19,multi_agent,Cultivating Change Talk,4.4,5
 19,multi_agent,Softening Sustain Talk,4.2,5
-19,multi_agent,Overall Average,4.644444444444444,5
+19,multi_agent,Overall Average,4.6444,5
 1,simple,Acceptance,3.6,5
 1,simple,Empathy,3.8,5
 1,simple,Direction,4.6,5
@@ -1768,7 +1768,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 1,simple,Partnership,4.8,5
 1,simple,Cultivating Change Talk,3.2,5
 1,simple,Softening Sustain Talk,3.2,5
-1,simple,Overall Average,3.8000000000000003,5
+1,simple,Overall Average,3.8,5
 1,trained_agent,Acceptance,4.4,5
 1,trained_agent,Empathy,4.0,5
 1,trained_agent,Direction,4.8,5
@@ -1778,7 +1778,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 1,trained_agent,Partnership,4.6,5
 1,trained_agent,Cultivating Change Talk,4.0,5
 1,trained_agent,Softening Sustain Talk,4.2,5
-1,trained_agent,Overall Average,4.422222222222222,5
+1,trained_agent,Overall Average,4.4222,5
 1,complex,Acceptance,5.0,5
 1,complex,Empathy,4.8,5
 1,complex,Direction,5.0,5
@@ -1788,7 +1788,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 1,complex,Partnership,4.8,5
 1,complex,Cultivating Change Talk,4.4,5
 1,complex,Softening Sustain Talk,4.2,5
-1,complex,Overall Average,4.666666666666667,5
+1,complex,Overall Average,4.6667,5
 1,multi_agent,Acceptance,4.8,5
 1,multi_agent,Empathy,4.8,5
 1,multi_agent,Direction,5.0,5
@@ -1798,7 +1798,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 1,multi_agent,Partnership,4.8,5
 1,multi_agent,Cultivating Change Talk,4.2,5
 1,multi_agent,Softening Sustain Talk,4.2,5
-1,multi_agent,Overall Average,4.644444444444444,5
+1,multi_agent,Overall Average,4.6444,5
 20,simple,Acceptance,4.2,5
 20,simple,Empathy,3.8,5
 20,simple,Direction,4.6,5
@@ -1808,7 +1808,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 20,simple,Partnership,5.0,5
 20,simple,Cultivating Change Talk,3.4,5
 20,simple,Softening Sustain Talk,3.8,5
-20,simple,Overall Average,4.155555555555555,5
+20,simple,Overall Average,4.1556,5
 20,trained_agent,Acceptance,4.4,5
 20,trained_agent,Empathy,4.2,5
 20,trained_agent,Direction,5.0,5
@@ -1818,7 +1818,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 20,trained_agent,Partnership,4.8,5
 20,trained_agent,Cultivating Change Talk,4.4,5
 20,trained_agent,Softening Sustain Talk,4.0,5
-20,trained_agent,Overall Average,4.577777777777778,5
+20,trained_agent,Overall Average,4.5778,5
 20,complex,Acceptance,4.6,5
 20,complex,Empathy,4.2,5
 20,complex,Direction,5.0,5
@@ -1828,7 +1828,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 20,complex,Partnership,4.6,5
 20,complex,Cultivating Change Talk,4.2,5
 20,complex,Softening Sustain Talk,4.2,5
-20,complex,Overall Average,4.444444444444445,5
+20,complex,Overall Average,4.4444,5
 20,multi_agent,Acceptance,5.0,5
 20,multi_agent,Empathy,5.0,5
 20,multi_agent,Direction,5.0,5
@@ -1838,7 +1838,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 20,multi_agent,Partnership,5.0,5
 20,multi_agent,Cultivating Change Talk,4.2,5
 20,multi_agent,Softening Sustain Talk,4.0,5
-20,multi_agent,Overall Average,4.777777777777778,5
+20,multi_agent,Overall Average,4.7778,5
 21,simple,Acceptance,4.8,5
 21,simple,Empathy,3.8,5
 21,simple,Direction,5.0,5
@@ -1848,7 +1848,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 21,simple,Partnership,4.2,5
 21,simple,Cultivating Change Talk,3.6,5
 21,simple,Softening Sustain Talk,4.0,5
-21,simple,Overall Average,4.222222222222222,5
+21,simple,Overall Average,4.2222,5
 21,trained_agent,Acceptance,4.4,5
 21,trained_agent,Empathy,5.0,5
 21,trained_agent,Direction,5.0,5
@@ -1858,7 +1858,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 21,trained_agent,Partnership,4.8,5
 21,trained_agent,Cultivating Change Talk,4.8,5
 21,trained_agent,Softening Sustain Talk,4.0,5
-21,trained_agent,Overall Average,4.733333333333333,5
+21,trained_agent,Overall Average,4.7333,5
 21,complex,Acceptance,4.6,5
 21,complex,Empathy,4.0,5
 21,complex,Direction,5.0,5
@@ -1878,7 +1878,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 21,multi_agent,Partnership,4.8,5
 21,multi_agent,Cultivating Change Talk,4.4,5
 21,multi_agent,Softening Sustain Talk,4.2,5
-21,multi_agent,Overall Average,4.7555555555555555,5
+21,multi_agent,Overall Average,4.7556,5
 22,simple,Acceptance,4.4,5
 22,simple,Empathy,3.8,5
 22,simple,Direction,4.6,5
@@ -1888,7 +1888,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 22,simple,Partnership,4.6,5
 22,simple,Cultivating Change Talk,3.6,5
 22,simple,Softening Sustain Talk,3.4,5
-22,simple,Overall Average,4.177777777777778,5
+22,simple,Overall Average,4.1778,5
 22,trained_agent,Acceptance,4.8,5
 22,trained_agent,Empathy,4.2,5
 22,trained_agent,Direction,4.8,5
@@ -1898,7 +1898,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 22,trained_agent,Partnership,4.6,5
 22,trained_agent,Cultivating Change Talk,4.2,5
 22,trained_agent,Softening Sustain Talk,3.6,5
-22,trained_agent,Overall Average,4.444444444444445,5
+22,trained_agent,Overall Average,4.4444,5
 22,complex,Acceptance,4.8,5
 22,complex,Empathy,4.6,5
 22,complex,Direction,5.0,5
@@ -1908,7 +1908,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 22,complex,Partnership,4.8,5
 22,complex,Cultivating Change Talk,4.2,5
 22,complex,Softening Sustain Talk,3.8,5
-22,complex,Overall Average,4.622222222222223,5
+22,complex,Overall Average,4.6222,5
 22,multi_agent,Acceptance,4.6,5
 22,multi_agent,Empathy,4.4,5
 22,multi_agent,Direction,5.0,5
@@ -1918,7 +1918,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 22,multi_agent,Partnership,5.0,5
 22,multi_agent,Cultivating Change Talk,4.2,5
 22,multi_agent,Softening Sustain Talk,3.8,5
-22,multi_agent,Overall Average,4.555555555555555,5
+22,multi_agent,Overall Average,4.5556,5
 23,simple,Acceptance,4.6,5
 23,simple,Empathy,3.8,5
 23,simple,Direction,5.0,5
@@ -1928,7 +1928,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 23,simple,Partnership,4.8,5
 23,simple,Cultivating Change Talk,3.6,5
 23,simple,Softening Sustain Talk,3.4,5
-23,simple,Overall Average,4.199999999999999,5
+23,simple,Overall Average,4.2,5
 23,trained_agent,Acceptance,4.8,5
 23,trained_agent,Empathy,4.2,5
 23,trained_agent,Direction,5.0,5
@@ -1938,7 +1938,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 23,trained_agent,Partnership,4.2,5
 23,trained_agent,Cultivating Change Talk,4.0,5
 23,trained_agent,Softening Sustain Talk,4.0,5
-23,trained_agent,Overall Average,4.444444444444445,5
+23,trained_agent,Overall Average,4.4444,5
 23,complex,Acceptance,4.8,5
 23,complex,Empathy,4.2,5
 23,complex,Direction,5.0,5
@@ -1948,7 +1948,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 23,complex,Partnership,4.6,5
 23,complex,Cultivating Change Talk,4.8,5
 23,complex,Softening Sustain Talk,4.0,5
-23,complex,Overall Average,4.577777777777778,5
+23,complex,Overall Average,4.5778,5
 23,multi_agent,Acceptance,4.8,5
 23,multi_agent,Empathy,5.0,5
 23,multi_agent,Direction,5.0,5
@@ -1958,7 +1958,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 23,multi_agent,Partnership,4.8,5
 23,multi_agent,Cultivating Change Talk,4.6,5
 23,multi_agent,Softening Sustain Talk,4.2,5
-23,multi_agent,Overall Average,4.733333333333333,5
+23,multi_agent,Overall Average,4.7333,5
 24,simple,Acceptance,4.6,5
 24,simple,Empathy,3.8,5
 24,simple,Direction,5.0,5
@@ -1968,7 +1968,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 24,simple,Partnership,4.8,5
 24,simple,Cultivating Change Talk,3.6,5
 24,simple,Softening Sustain Talk,3.6,5
-24,simple,Overall Average,4.311111111111111,5
+24,simple,Overall Average,4.3111,5
 24,trained_agent,Acceptance,4.4,5
 24,trained_agent,Empathy,4.2,5
 24,trained_agent,Direction,5.0,5
@@ -1978,7 +1978,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 24,trained_agent,Partnership,4.4,5
 24,trained_agent,Cultivating Change Talk,4.2,5
 24,trained_agent,Softening Sustain Talk,4.2,5
-24,trained_agent,Overall Average,4.488888888888889,5
+24,trained_agent,Overall Average,4.4889,5
 24,complex,Acceptance,4.8,5
 24,complex,Empathy,4.2,5
 24,complex,Direction,5.0,5
@@ -1988,7 +1988,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 24,complex,Partnership,4.8,5
 24,complex,Cultivating Change Talk,4.4,5
 24,complex,Softening Sustain Talk,4.0,5
-24,complex,Overall Average,4.622222222222223,5
+24,complex,Overall Average,4.6222,5
 24,multi_agent,Acceptance,4.8,5
 24,multi_agent,Empathy,4.8,5
 24,multi_agent,Direction,5.0,5
@@ -1998,7 +1998,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 24,multi_agent,Partnership,5.0,5
 24,multi_agent,Cultivating Change Talk,4.4,5
 24,multi_agent,Softening Sustain Talk,4.0,5
-24,multi_agent,Overall Average,4.7555555555555555,5
+24,multi_agent,Overall Average,4.7556,5
 25,simple,Acceptance,4.6,5
 25,simple,Empathy,4.0,5
 25,simple,Direction,4.8,5
@@ -2018,7 +2018,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 25,trained_agent,Partnership,5.0,5
 25,trained_agent,Cultivating Change Talk,4.8,5
 25,trained_agent,Softening Sustain Talk,4.2,5
-25,trained_agent,Overall Average,4.866666666666666,5
+25,trained_agent,Overall Average,4.8667,5
 25,complex,Acceptance,4.8,5
 25,complex,Empathy,4.8,5
 25,complex,Direction,5.0,5
@@ -2028,7 +2028,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 25,complex,Partnership,5.0,5
 25,complex,Cultivating Change Talk,4.6,5
 25,complex,Softening Sustain Talk,4.2,5
-25,complex,Overall Average,4.777777777777778,5
+25,complex,Overall Average,4.7778,5
 25,multi_agent,Acceptance,5.0,5
 25,multi_agent,Empathy,5.0,5
 25,multi_agent,Direction,4.8,5
@@ -2038,7 +2038,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 25,multi_agent,Partnership,4.8,5
 25,multi_agent,Cultivating Change Talk,4.4,5
 25,multi_agent,Softening Sustain Talk,4.0,5
-25,multi_agent,Overall Average,4.711111111111111,5
+25,multi_agent,Overall Average,4.7111,5
 26,simple,Acceptance,5.0,5
 26,simple,Empathy,4.0,5
 26,simple,Direction,4.8,5
@@ -2048,7 +2048,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 26,simple,Partnership,4.2,5
 26,simple,Cultivating Change Talk,3.6,5
 26,simple,Softening Sustain Talk,4.2,5
-26,simple,Overall Average,4.288888888888889,5
+26,simple,Overall Average,4.2889,5
 26,trained_agent,Acceptance,4.6,5
 26,trained_agent,Empathy,4.4,5
 26,trained_agent,Direction,5.0,5
@@ -2058,7 +2058,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 26,trained_agent,Partnership,4.6,5
 26,trained_agent,Cultivating Change Talk,4.0,5
 26,trained_agent,Softening Sustain Talk,3.8,5
-26,trained_agent,Overall Average,4.466666666666667,5
+26,trained_agent,Overall Average,4.4667,5
 26,complex,Acceptance,4.8,5
 26,complex,Empathy,4.8,5
 26,complex,Direction,5.0,5
@@ -2068,7 +2068,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 26,complex,Partnership,5.0,5
 26,complex,Cultivating Change Talk,4.2,5
 26,complex,Softening Sustain Talk,4.2,5
-26,complex,Overall Average,4.666666666666667,5
+26,complex,Overall Average,4.6667,5
 26,multi_agent,Acceptance,4.8,5
 26,multi_agent,Empathy,4.8,5
 26,multi_agent,Direction,4.6,5
@@ -2078,7 +2078,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 26,multi_agent,Partnership,4.4,5
 26,multi_agent,Cultivating Change Talk,4.2,5
 26,multi_agent,Softening Sustain Talk,3.8,5
-26,multi_agent,Overall Average,4.511111111111111,5
+26,multi_agent,Overall Average,4.5111,5
 27,simple,Acceptance,4.4,5
 27,simple,Empathy,4.2,5
 27,simple,Direction,4.6,5
@@ -2088,7 +2088,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 27,simple,Partnership,4.4,5
 27,simple,Cultivating Change Talk,3.6,5
 27,simple,Softening Sustain Talk,3.6,5
-27,simple,Overall Average,4.222222222222222,5
+27,simple,Overall Average,4.2222,5
 27,trained_agent,Acceptance,4.6,5
 27,trained_agent,Empathy,4.6,5
 27,trained_agent,Direction,4.8,5
@@ -2098,7 +2098,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 27,trained_agent,Partnership,4.8,5
 27,trained_agent,Cultivating Change Talk,4.2,5
 27,trained_agent,Softening Sustain Talk,3.8,5
-27,trained_agent,Overall Average,4.533333333333333,5
+27,trained_agent,Overall Average,4.5333,5
 27,complex,Acceptance,4.8,5
 27,complex,Empathy,4.4,5
 27,complex,Direction,5.0,5
@@ -2108,7 +2108,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 27,complex,Partnership,4.6,5
 27,complex,Cultivating Change Talk,4.0,5
 27,complex,Softening Sustain Talk,3.8,5
-27,complex,Overall Average,4.466666666666667,5
+27,complex,Overall Average,4.4667,5
 27,multi_agent,Acceptance,4.8,5
 27,multi_agent,Empathy,4.6,5
 27,multi_agent,Direction,5.0,5
@@ -2118,7 +2118,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 27,multi_agent,Partnership,4.8,5
 27,multi_agent,Cultivating Change Talk,4.4,5
 27,multi_agent,Softening Sustain Talk,3.8,5
-27,multi_agent,Overall Average,4.622222222222223,5
+27,multi_agent,Overall Average,4.6222,5
 28,simple,Acceptance,4.4,5
 28,simple,Empathy,4.2,5
 28,simple,Direction,4.8,5
@@ -2128,7 +2128,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 28,simple,Partnership,4.8,5
 28,simple,Cultivating Change Talk,4.0,5
 28,simple,Softening Sustain Talk,4.0,5
-28,simple,Overall Average,4.311111111111111,5
+28,simple,Overall Average,4.3111,5
 28,trained_agent,Acceptance,4.6,5
 28,trained_agent,Empathy,4.0,5
 28,trained_agent,Direction,5.0,5
@@ -2138,7 +2138,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 28,trained_agent,Partnership,4.8,5
 28,trained_agent,Cultivating Change Talk,4.4,5
 28,trained_agent,Softening Sustain Talk,3.8,5
-28,trained_agent,Overall Average,4.577777777777778,5
+28,trained_agent,Overall Average,4.5778,5
 28,complex,Acceptance,4.6,5
 28,complex,Empathy,4.6,5
 28,complex,Direction,5.0,5
@@ -2148,7 +2148,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 28,complex,Partnership,4.8,5
 28,complex,Cultivating Change Talk,4.2,5
 28,complex,Softening Sustain Talk,4.0,5
-28,complex,Overall Average,4.577777777777778,5
+28,complex,Overall Average,4.5778,5
 28,multi_agent,Acceptance,5.0,5
 28,multi_agent,Empathy,4.6,5
 28,multi_agent,Direction,5.0,5
@@ -2158,7 +2158,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 28,multi_agent,Partnership,5.0,5
 28,multi_agent,Cultivating Change Talk,4.2,5
 28,multi_agent,Softening Sustain Talk,4.0,5
-28,multi_agent,Overall Average,4.666666666666667,5
+28,multi_agent,Overall Average,4.6667,5
 29,simple,Acceptance,3.8,5
 29,simple,Empathy,3.4,5
 29,simple,Direction,4.8,5
@@ -2168,7 +2168,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 29,simple,Partnership,3.6,5
 29,simple,Cultivating Change Talk,3.0,5
 29,simple,Softening Sustain Talk,3.2,5
-29,simple,Overall Average,3.7333333333333334,5
+29,simple,Overall Average,3.7333,5
 29,trained_agent,Acceptance,4.8,5
 29,trained_agent,Empathy,4.2,5
 29,trained_agent,Direction,5.0,5
@@ -2178,7 +2178,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 29,trained_agent,Partnership,4.4,5
 29,trained_agent,Cultivating Change Talk,3.8,5
 29,trained_agent,Softening Sustain Talk,3.8,5
-29,trained_agent,Overall Average,4.377777777777777,5
+29,trained_agent,Overall Average,4.3778,5
 29,complex,Acceptance,5.0,5
 29,complex,Empathy,4.0,5
 29,complex,Direction,5.0,5
@@ -2188,7 +2188,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 29,complex,Partnership,4.8,5
 29,complex,Cultivating Change Talk,4.0,5
 29,complex,Softening Sustain Talk,3.6,5
-29,complex,Overall Average,4.377777777777777,5
+29,complex,Overall Average,4.3778,5
 29,multi_agent,Acceptance,4.8,5
 29,multi_agent,Empathy,4.8,5
 29,multi_agent,Direction,5.0,5
@@ -2198,7 +2198,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 29,multi_agent,Partnership,4.8,5
 29,multi_agent,Cultivating Change Talk,4.4,5
 29,multi_agent,Softening Sustain Talk,3.8,5
-29,multi_agent,Overall Average,4.688888888888889,5
+29,multi_agent,Overall Average,4.6889,5
 2,simple,Acceptance,4.4,5
 2,simple,Empathy,3.8,5
 2,simple,Direction,4.6,5
@@ -2208,7 +2208,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 2,simple,Partnership,5.0,5
 2,simple,Cultivating Change Talk,3.8,5
 2,simple,Softening Sustain Talk,4.0,5
-2,simple,Overall Average,4.266666666666667,5
+2,simple,Overall Average,4.2667,5
 2,trained_agent,Acceptance,5.0,5
 2,trained_agent,Empathy,4.4,5
 2,trained_agent,Direction,5.0,5
@@ -2218,7 +2218,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 2,trained_agent,Partnership,4.8,5
 2,trained_agent,Cultivating Change Talk,4.2,5
 2,trained_agent,Softening Sustain Talk,4.2,5
-2,trained_agent,Overall Average,4.622222222222223,5
+2,trained_agent,Overall Average,4.6222,5
 2,complex,Acceptance,4.8,5
 2,complex,Empathy,4.8,5
 2,complex,Direction,5.0,5
@@ -2228,7 +2228,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 2,complex,Partnership,5.0,5
 2,complex,Cultivating Change Talk,4.6,5
 2,complex,Softening Sustain Talk,4.2,5
-2,complex,Overall Average,4.800000000000001,5
+2,complex,Overall Average,4.8,5
 2,multi_agent,Acceptance,4.8,5
 2,multi_agent,Empathy,4.8,5
 2,multi_agent,Direction,5.0,5
@@ -2238,7 +2238,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 2,multi_agent,Partnership,4.8,5
 2,multi_agent,Cultivating Change Talk,4.6,5
 2,multi_agent,Softening Sustain Talk,4.0,5
-2,multi_agent,Overall Average,4.7555555555555555,5
+2,multi_agent,Overall Average,4.7556,5
 30,simple,Acceptance,4.6,5
 30,simple,Empathy,3.6,5
 30,simple,Direction,4.8,5
@@ -2248,7 +2248,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 30,simple,Partnership,4.4,5
 30,simple,Cultivating Change Talk,3.0,5
 30,simple,Softening Sustain Talk,4.0,5
-30,simple,Overall Average,4.088888888888889,5
+30,simple,Overall Average,4.0889,5
 30,trained_agent,Acceptance,4.8,5
 30,trained_agent,Empathy,3.8,5
 30,trained_agent,Direction,5.0,5
@@ -2258,7 +2258,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 30,trained_agent,Partnership,5.0,5
 30,trained_agent,Cultivating Change Talk,3.6,5
 30,trained_agent,Softening Sustain Talk,3.8,5
-30,trained_agent,Overall Average,4.355555555555556,5
+30,trained_agent,Overall Average,4.3556,5
 30,complex,Acceptance,4.6,5
 30,complex,Empathy,4.2,5
 30,complex,Direction,5.0,5
@@ -2268,7 +2268,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 30,complex,Partnership,4.4,5
 30,complex,Cultivating Change Talk,3.6,5
 30,complex,Softening Sustain Talk,3.6,5
-30,complex,Overall Average,4.311111111111111,5
+30,complex,Overall Average,4.3111,5
 30,multi_agent,Acceptance,5.0,5
 30,multi_agent,Empathy,4.4,5
 30,multi_agent,Direction,5.0,5
@@ -2278,7 +2278,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 30,multi_agent,Partnership,5.0,5
 30,multi_agent,Cultivating Change Talk,4.0,5
 30,multi_agent,Softening Sustain Talk,4.0,5
-30,multi_agent,Overall Average,4.577777777777778,5
+30,multi_agent,Overall Average,4.5778,5
 31,simple,Acceptance,3.6,5
 31,simple,Empathy,3.0,5
 31,simple,Direction,4.4,5
@@ -2298,7 +2298,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 31,trained_agent,Partnership,4.4,5
 31,trained_agent,Cultivating Change Talk,4.0,5
 31,trained_agent,Softening Sustain Talk,3.8,5
-31,trained_agent,Overall Average,4.333333333333333,5
+31,trained_agent,Overall Average,4.3333,5
 31,complex,Acceptance,4.8,5
 31,complex,Empathy,4.8,5
 31,complex,Direction,5.0,5
@@ -2308,7 +2308,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 31,complex,Partnership,4.6,5
 31,complex,Cultivating Change Talk,4.0,5
 31,complex,Softening Sustain Talk,4.2,5
-31,complex,Overall Average,4.488888888888889,5
+31,complex,Overall Average,4.4889,5
 31,multi_agent,Acceptance,4.8,5
 31,multi_agent,Empathy,4.6,5
 31,multi_agent,Direction,5.0,5
@@ -2318,7 +2318,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 31,multi_agent,Partnership,5.0,5
 31,multi_agent,Cultivating Change Talk,4.6,5
 31,multi_agent,Softening Sustain Talk,4.2,5
-31,multi_agent,Overall Average,4.711111111111111,5
+31,multi_agent,Overall Average,4.7111,5
 32,simple,Acceptance,4.8,5
 32,simple,Empathy,4.0,5
 32,simple,Direction,5.0,5
@@ -2328,7 +2328,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 32,simple,Partnership,4.0,5
 32,simple,Cultivating Change Talk,3.8,5
 32,simple,Softening Sustain Talk,3.2,5
-32,simple,Overall Average,4.177777777777778,5
+32,simple,Overall Average,4.1778,5
 32,trained_agent,Acceptance,5.0,5
 32,trained_agent,Empathy,4.4,5
 32,trained_agent,Direction,5.0,5
@@ -2338,7 +2338,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 32,trained_agent,Partnership,4.8,5
 32,trained_agent,Cultivating Change Talk,4.4,5
 32,trained_agent,Softening Sustain Talk,3.8,5
-32,trained_agent,Overall Average,4.622222222222223,5
+32,trained_agent,Overall Average,4.6222,5
 32,complex,Acceptance,4.6,5
 32,complex,Empathy,4.6,5
 32,complex,Direction,5.0,5
@@ -2348,7 +2348,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 32,complex,Partnership,4.4,5
 32,complex,Cultivating Change Talk,4.2,5
 32,complex,Softening Sustain Talk,3.8,5
-32,complex,Overall Average,4.466666666666667,5
+32,complex,Overall Average,4.4667,5
 32,multi_agent,Acceptance,5.0,5
 32,multi_agent,Empathy,4.8,5
 32,multi_agent,Direction,5.0,5
@@ -2358,7 +2358,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 32,multi_agent,Partnership,4.8,5
 32,multi_agent,Cultivating Change Talk,4.6,5
 32,multi_agent,Softening Sustain Talk,4.0,5
-32,multi_agent,Overall Average,4.777777777777778,5
+32,multi_agent,Overall Average,4.7778,5
 33,simple,Acceptance,4.4,5
 33,simple,Empathy,4.0,5
 33,simple,Direction,5.0,5
@@ -2368,7 +2368,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 33,simple,Partnership,3.6,5
 33,simple,Cultivating Change Talk,3.4,5
 33,simple,Softening Sustain Talk,3.4,5
-33,simple,Overall Average,4.022222222222222,5
+33,simple,Overall Average,4.0222,5
 33,trained_agent,Acceptance,4.6,5
 33,trained_agent,Empathy,4.2,5
 33,trained_agent,Direction,5.0,5
@@ -2378,7 +2378,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 33,trained_agent,Partnership,4.6,5
 33,trained_agent,Cultivating Change Talk,4.0,5
 33,trained_agent,Softening Sustain Talk,4.0,5
-33,trained_agent,Overall Average,4.466666666666667,5
+33,trained_agent,Overall Average,4.4667,5
 33,complex,Acceptance,4.6,5
 33,complex,Empathy,4.0,5
 33,complex,Direction,5.0,5
@@ -2388,7 +2388,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 33,complex,Partnership,4.4,5
 33,complex,Cultivating Change Talk,4.0,5
 33,complex,Softening Sustain Talk,3.8,5
-33,complex,Overall Average,4.355555555555556,5
+33,complex,Overall Average,4.3556,5
 33,multi_agent,Acceptance,4.8,5
 33,multi_agent,Empathy,4.6,5
 33,multi_agent,Direction,5.0,5
@@ -2408,7 +2408,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 34,simple,Partnership,4.2,5
 34,simple,Cultivating Change Talk,2.0,5
 34,simple,Softening Sustain Talk,3.0,5
-34,simple,Overall Average,3.288888888888889,5
+34,simple,Overall Average,3.2889,5
 34,trained_agent,Acceptance,5.0,5
 34,trained_agent,Empathy,4.4,5
 34,trained_agent,Direction,5.0,5
@@ -2418,7 +2418,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 34,trained_agent,Partnership,3.4,5
 34,trained_agent,Cultivating Change Talk,2.8,5
 34,trained_agent,Softening Sustain Talk,2.8,5
-34,trained_agent,Overall Average,3.9555555555555557,5
+34,trained_agent,Overall Average,3.9556,5
 34,complex,Acceptance,4.8,5
 34,complex,Empathy,4.0,5
 34,complex,Direction,4.8,5
@@ -2428,7 +2428,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 34,complex,Partnership,3.4,5
 34,complex,Cultivating Change Talk,2.6,5
 34,complex,Softening Sustain Talk,3.0,5
-34,complex,Overall Average,3.933333333333333,5
+34,complex,Overall Average,3.9333,5
 34,multi_agent,Acceptance,4.6,5
 34,multi_agent,Empathy,4.4,5
 34,multi_agent,Direction,5.0,5
@@ -2438,7 +2438,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 34,multi_agent,Partnership,4.8,5
 34,multi_agent,Cultivating Change Talk,3.8,5
 34,multi_agent,Softening Sustain Talk,3.4,5
-34,multi_agent,Overall Average,4.422222222222222,5
+34,multi_agent,Overall Average,4.4222,5
 35,simple,Acceptance,4.8,5
 35,simple,Empathy,4.4,5
 35,simple,Direction,5.0,5
@@ -2448,7 +2448,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 35,simple,Partnership,4.0,5
 35,simple,Cultivating Change Talk,3.6,5
 35,simple,Softening Sustain Talk,3.8,5
-35,simple,Overall Average,4.266666666666667,5
+35,simple,Overall Average,4.2667,5
 35,trained_agent,Acceptance,4.8,5
 35,trained_agent,Empathy,4.6,5
 35,trained_agent,Direction,4.8,5
@@ -2458,7 +2458,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 35,trained_agent,Partnership,4.8,5
 35,trained_agent,Cultivating Change Talk,4.2,5
 35,trained_agent,Softening Sustain Talk,3.8,5
-35,trained_agent,Overall Average,4.555555555555555,5
+35,trained_agent,Overall Average,4.5556,5
 35,complex,Acceptance,5.0,5
 35,complex,Empathy,4.8,5
 35,complex,Direction,5.0,5
@@ -2468,7 +2468,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 35,complex,Partnership,4.6,5
 35,complex,Cultivating Change Talk,4.2,5
 35,complex,Softening Sustain Talk,4.4,5
-35,complex,Overall Average,4.666666666666667,5
+35,complex,Overall Average,4.6667,5
 35,multi_agent,Acceptance,4.8,5
 35,multi_agent,Empathy,4.8,5
 35,multi_agent,Direction,4.8,5
@@ -2478,7 +2478,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 35,multi_agent,Partnership,5.0,5
 35,multi_agent,Cultivating Change Talk,4.6,5
 35,multi_agent,Softening Sustain Talk,4.4,5
-35,multi_agent,Overall Average,4.711111111111111,5
+35,multi_agent,Overall Average,4.7111,5
 36,simple,Acceptance,4.2,5
 36,simple,Empathy,4.0,5
 36,simple,Direction,4.8,5
@@ -2488,7 +2488,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 36,simple,Partnership,4.6,5
 36,simple,Cultivating Change Talk,4.2,5
 36,simple,Softening Sustain Talk,4.6,5
-36,simple,Overall Average,4.422222222222222,5
+36,simple,Overall Average,4.4222,5
 36,trained_agent,Acceptance,4.6,5
 36,trained_agent,Empathy,4.2,5
 36,trained_agent,Direction,5.0,5
@@ -2498,7 +2498,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 36,trained_agent,Partnership,4.8,5
 36,trained_agent,Cultivating Change Talk,4.4,5
 36,trained_agent,Softening Sustain Talk,4.6,5
-36,trained_agent,Overall Average,4.666666666666667,5
+36,trained_agent,Overall Average,4.6667,5
 36,complex,Acceptance,4.8,5
 36,complex,Empathy,4.2,5
 36,complex,Direction,4.8,5
@@ -2508,7 +2508,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 36,complex,Partnership,4.8,5
 36,complex,Cultivating Change Talk,4.6,5
 36,complex,Softening Sustain Talk,4.6,5
-36,complex,Overall Average,4.711111111111111,5
+36,complex,Overall Average,4.7111,5
 36,multi_agent,Acceptance,4.8,5
 36,multi_agent,Empathy,5.0,5
 36,multi_agent,Direction,5.0,5
@@ -2518,7 +2518,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 36,multi_agent,Partnership,4.8,5
 36,multi_agent,Cultivating Change Talk,4.6,5
 36,multi_agent,Softening Sustain Talk,4.4,5
-36,multi_agent,Overall Average,4.800000000000001,5
+36,multi_agent,Overall Average,4.8,5
 37,simple,Acceptance,4.6,5
 37,simple,Empathy,4.2,5
 37,simple,Direction,5.0,5
@@ -2528,7 +2528,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 37,simple,Partnership,3.6,5
 37,simple,Cultivating Change Talk,3.4,5
 37,simple,Softening Sustain Talk,4.0,5
-37,simple,Overall Average,4.133333333333334,5
+37,simple,Overall Average,4.1333,5
 37,trained_agent,Acceptance,4.6,5
 37,trained_agent,Empathy,4.2,5
 37,trained_agent,Direction,4.8,5
@@ -2548,7 +2548,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 37,complex,Partnership,4.8,5
 37,complex,Cultivating Change Talk,4.0,5
 37,complex,Softening Sustain Talk,4.0,5
-37,complex,Overall Average,4.533333333333333,5
+37,complex,Overall Average,4.5333,5
 37,multi_agent,Acceptance,4.8,5
 37,multi_agent,Empathy,4.4,5
 37,multi_agent,Direction,5.0,5
@@ -2558,7 +2558,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 37,multi_agent,Partnership,4.4,5
 37,multi_agent,Cultivating Change Talk,4.0,5
 37,multi_agent,Softening Sustain Talk,4.0,5
-37,multi_agent,Overall Average,4.466666666666667,5
+37,multi_agent,Overall Average,4.4667,5
 38,simple,Acceptance,4.8,5
 38,simple,Empathy,4.0,5
 38,simple,Direction,5.0,5
@@ -2568,7 +2568,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 38,simple,Partnership,4.2,5
 38,simple,Cultivating Change Talk,3.2,5
 38,simple,Softening Sustain Talk,3.4,5
-38,simple,Overall Average,4.133333333333334,5
+38,simple,Overall Average,4.1333,5
 38,trained_agent,Acceptance,5.0,5
 38,trained_agent,Empathy,4.4,5
 38,trained_agent,Direction,4.8,5
@@ -2578,7 +2578,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 38,trained_agent,Partnership,4.6,5
 38,trained_agent,Cultivating Change Talk,3.2,5
 38,trained_agent,Softening Sustain Talk,4.4,5
-38,trained_agent,Overall Average,4.422222222222222,5
+38,trained_agent,Overall Average,4.4222,5
 38,complex,Acceptance,4.6,5
 38,complex,Empathy,4.2,5
 38,complex,Direction,5.0,5
@@ -2588,7 +2588,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 38,complex,Partnership,4.4,5
 38,complex,Cultivating Change Talk,3.6,5
 38,complex,Softening Sustain Talk,3.8,5
-38,complex,Overall Average,4.311111111111111,5
+38,complex,Overall Average,4.3111,5
 38,multi_agent,Acceptance,4.8,5
 38,multi_agent,Empathy,4.6,5
 38,multi_agent,Direction,4.6,5
@@ -2598,7 +2598,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 38,multi_agent,Partnership,4.4,5
 38,multi_agent,Cultivating Change Talk,4.2,5
 38,multi_agent,Softening Sustain Talk,4.0,5
-38,multi_agent,Overall Average,4.488888888888889,5
+38,multi_agent,Overall Average,4.4889,5
 39,simple,Acceptance,4.8,5
 39,simple,Empathy,4.6,5
 39,simple,Direction,5.0,5
@@ -2608,7 +2608,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 39,simple,Partnership,4.6,5
 39,simple,Cultivating Change Talk,4.2,5
 39,simple,Softening Sustain Talk,4.2,5
-39,simple,Overall Average,4.488888888888889,5
+39,simple,Overall Average,4.4889,5
 39,trained_agent,Acceptance,5.0,5
 39,trained_agent,Empathy,4.8,5
 39,trained_agent,Direction,5.0,5
@@ -2618,7 +2618,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 39,trained_agent,Partnership,4.8,5
 39,trained_agent,Cultivating Change Talk,4.4,5
 39,trained_agent,Softening Sustain Talk,4.2,5
-39,trained_agent,Overall Average,4.711111111111111,5
+39,trained_agent,Overall Average,4.7111,5
 39,complex,Acceptance,4.8,5
 39,complex,Empathy,4.6,5
 39,complex,Direction,5.0,5
@@ -2628,7 +2628,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 39,complex,Partnership,5.0,5
 39,complex,Cultivating Change Talk,4.2,5
 39,complex,Softening Sustain Talk,4.0,5
-39,complex,Overall Average,4.688888888888889,5
+39,complex,Overall Average,4.6889,5
 39,multi_agent,Acceptance,4.8,5
 39,multi_agent,Empathy,4.8,5
 39,multi_agent,Direction,5.0,5
@@ -2638,7 +2638,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 39,multi_agent,Partnership,4.6,5
 39,multi_agent,Cultivating Change Talk,4.2,5
 39,multi_agent,Softening Sustain Talk,4.2,5
-39,multi_agent,Overall Average,4.688888888888889,5
+39,multi_agent,Overall Average,4.6889,5
 3,simple,Acceptance,4.8,5
 3,simple,Empathy,3.8,5
 3,simple,Direction,5.0,5
@@ -2648,7 +2648,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 3,simple,Partnership,4.4,5
 3,simple,Cultivating Change Talk,3.8,5
 3,simple,Softening Sustain Talk,4.4,5
-3,simple,Overall Average,4.311111111111111,5
+3,simple,Overall Average,4.3111,5
 3,trained_agent,Acceptance,4.8,5
 3,trained_agent,Empathy,4.4,5
 3,trained_agent,Direction,5.0,5
@@ -2658,7 +2658,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 3,trained_agent,Partnership,4.8,5
 3,trained_agent,Cultivating Change Talk,4.6,5
 3,trained_agent,Softening Sustain Talk,4.2,5
-3,trained_agent,Overall Average,4.644444444444444,5
+3,trained_agent,Overall Average,4.6444,5
 3,complex,Acceptance,5.0,5
 3,complex,Empathy,4.6,5
 3,complex,Direction,5.0,5
@@ -2668,7 +2668,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 3,complex,Partnership,5.0,5
 3,complex,Cultivating Change Talk,4.0,5
 3,complex,Softening Sustain Talk,4.2,5
-3,complex,Overall Average,4.688888888888889,5
+3,complex,Overall Average,4.6889,5
 3,multi_agent,Acceptance,5.0,5
 3,multi_agent,Empathy,4.8,5
 3,multi_agent,Direction,5.0,5
@@ -2678,7 +2678,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 3,multi_agent,Partnership,4.6,5
 3,multi_agent,Cultivating Change Talk,4.4,5
 3,multi_agent,Softening Sustain Talk,4.2,5
-3,multi_agent,Overall Average,4.688888888888889,5
+3,multi_agent,Overall Average,4.6889,5
 40,simple,Acceptance,4.8,5
 40,simple,Empathy,3.8,5
 40,simple,Direction,5.0,5
@@ -2688,7 +2688,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 40,simple,Partnership,4.8,5
 40,simple,Cultivating Change Talk,3.6,5
 40,simple,Softening Sustain Talk,3.0,5
-40,simple,Overall Average,4.088888888888889,5
+40,simple,Overall Average,4.0889,5
 40,trained_agent,Acceptance,4.8,5
 40,trained_agent,Empathy,4.6,5
 40,trained_agent,Direction,5.0,5
@@ -2698,7 +2698,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 40,trained_agent,Partnership,5.0,5
 40,trained_agent,Cultivating Change Talk,4.0,5
 40,trained_agent,Softening Sustain Talk,4.0,5
-40,trained_agent,Overall Average,4.533333333333333,5
+40,trained_agent,Overall Average,4.5333,5
 40,complex,Acceptance,4.8,5
 40,complex,Empathy,4.0,5
 40,complex,Direction,5.0,5
@@ -2708,7 +2708,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 40,complex,Partnership,4.8,5
 40,complex,Cultivating Change Talk,4.2,5
 40,complex,Softening Sustain Talk,3.8,5
-40,complex,Overall Average,4.511111111111111,5
+40,complex,Overall Average,4.5111,5
 40,multi_agent,Acceptance,5.0,5
 40,multi_agent,Empathy,5.0,5
 40,multi_agent,Direction,5.0,5
@@ -2718,7 +2718,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 40,multi_agent,Partnership,5.0,5
 40,multi_agent,Cultivating Change Talk,4.8,5
 40,multi_agent,Softening Sustain Talk,4.0,5
-40,multi_agent,Overall Average,4.822222222222222,5
+40,multi_agent,Overall Average,4.8222,5
 41,simple,Acceptance,4.4,5
 41,simple,Empathy,4.2,5
 41,simple,Direction,4.6,5
@@ -2728,7 +2728,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 41,simple,Partnership,4.6,5
 41,simple,Cultivating Change Talk,4.0,5
 41,simple,Softening Sustain Talk,4.2,5
-41,simple,Overall Average,4.333333333333333,5
+41,simple,Overall Average,4.3333,5
 41,trained_agent,Acceptance,5.0,5
 41,trained_agent,Empathy,4.8,5
 41,trained_agent,Direction,4.8,5
@@ -2738,7 +2738,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 41,trained_agent,Partnership,4.6,5
 41,trained_agent,Cultivating Change Talk,4.2,5
 41,trained_agent,Softening Sustain Talk,4.0,5
-41,trained_agent,Overall Average,4.622222222222223,5
+41,trained_agent,Overall Average,4.6222,5
 41,complex,Acceptance,5.0,5
 41,complex,Empathy,4.4,5
 41,complex,Direction,4.8,5
@@ -2748,7 +2748,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 41,complex,Partnership,4.8,5
 41,complex,Cultivating Change Talk,4.2,5
 41,complex,Softening Sustain Talk,4.0,5
-41,complex,Overall Average,4.577777777777778,5
+41,complex,Overall Average,4.5778,5
 41,multi_agent,Acceptance,5.0,5
 41,multi_agent,Empathy,4.8,5
 41,multi_agent,Direction,5.0,5
@@ -2758,7 +2758,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 41,multi_agent,Partnership,4.6,5
 41,multi_agent,Cultivating Change Talk,4.2,5
 41,multi_agent,Softening Sustain Talk,4.4,5
-41,multi_agent,Overall Average,4.711111111111111,5
+41,multi_agent,Overall Average,4.7111,5
 42,simple,Acceptance,4.6,5
 42,simple,Empathy,4.0,5
 42,simple,Direction,5.0,5
@@ -2768,7 +2768,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 42,simple,Partnership,4.4,5
 42,simple,Cultivating Change Talk,3.6,5
 42,simple,Softening Sustain Talk,3.8,5
-42,simple,Overall Average,4.199999999999999,5
+42,simple,Overall Average,4.2,5
 42,trained_agent,Acceptance,4.6,5
 42,trained_agent,Empathy,4.4,5
 42,trained_agent,Direction,5.0,5
@@ -2788,7 +2788,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 42,complex,Partnership,4.8,5
 42,complex,Cultivating Change Talk,4.0,5
 42,complex,Softening Sustain Talk,4.2,5
-42,complex,Overall Average,4.466666666666667,5
+42,complex,Overall Average,4.4667,5
 42,multi_agent,Acceptance,4.8,5
 42,multi_agent,Empathy,4.4,5
 42,multi_agent,Direction,4.6,5
@@ -2798,7 +2798,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 42,multi_agent,Partnership,4.6,5
 42,multi_agent,Cultivating Change Talk,4.0,5
 42,multi_agent,Softening Sustain Talk,4.0,5
-42,multi_agent,Overall Average,4.488888888888889,5
+42,multi_agent,Overall Average,4.4889,5
 43,simple,Acceptance,4.4,5
 43,simple,Empathy,4.0,5
 43,simple,Direction,5.0,5
@@ -2808,7 +2808,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 43,simple,Partnership,4.4,5
 43,simple,Cultivating Change Talk,3.6,5
 43,simple,Softening Sustain Talk,3.6,5
-43,simple,Overall Average,4.2444444444444445,5
+43,simple,Overall Average,4.2444,5
 43,trained_agent,Acceptance,4.2,5
 43,trained_agent,Empathy,4.0,5
 43,trained_agent,Direction,5.0,5
@@ -2818,7 +2818,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 43,trained_agent,Partnership,4.8,5
 43,trained_agent,Cultivating Change Talk,3.6,5
 43,trained_agent,Softening Sustain Talk,4.0,5
-43,trained_agent,Overall Average,4.355555555555556,5
+43,trained_agent,Overall Average,4.3556,5
 43,complex,Acceptance,4.4,5
 43,complex,Empathy,3.8,5
 43,complex,Direction,5.0,5
@@ -2828,7 +2828,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 43,complex,Partnership,4.8,5
 43,complex,Cultivating Change Talk,3.8,5
 43,complex,Softening Sustain Talk,4.0,5
-43,complex,Overall Average,4.333333333333333,5
+43,complex,Overall Average,4.3333,5
 43,multi_agent,Acceptance,5.0,5
 43,multi_agent,Empathy,4.8,5
 43,multi_agent,Direction,5.0,5
@@ -2838,7 +2838,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 43,multi_agent,Partnership,4.8,5
 43,multi_agent,Cultivating Change Talk,4.6,5
 43,multi_agent,Softening Sustain Talk,4.2,5
-43,multi_agent,Overall Average,4.733333333333333,5
+43,multi_agent,Overall Average,4.7333,5
 44,simple,Acceptance,4.8,5
 44,simple,Empathy,4.0,5
 44,simple,Direction,4.8,5
@@ -2848,7 +2848,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 44,simple,Partnership,4.8,5
 44,simple,Cultivating Change Talk,4.0,5
 44,simple,Softening Sustain Talk,4.0,5
-44,simple,Overall Average,4.444444444444445,5
+44,simple,Overall Average,4.4444,5
 44,trained_agent,Acceptance,4.4,5
 44,trained_agent,Empathy,4.8,5
 44,trained_agent,Direction,5.0,5
@@ -2858,7 +2858,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 44,trained_agent,Partnership,4.8,5
 44,trained_agent,Cultivating Change Talk,4.6,5
 44,trained_agent,Softening Sustain Talk,4.0,5
-44,trained_agent,Overall Average,4.666666666666667,5
+44,trained_agent,Overall Average,4.6667,5
 44,complex,Acceptance,4.8,5
 44,complex,Empathy,4.8,5
 44,complex,Direction,5.0,5
@@ -2868,7 +2868,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 44,complex,Partnership,5.0,5
 44,complex,Cultivating Change Talk,4.6,5
 44,complex,Softening Sustain Talk,4.0,5
-44,complex,Overall Average,4.711111111111111,5
+44,complex,Overall Average,4.7111,5
 44,multi_agent,Acceptance,4.8,5
 44,multi_agent,Empathy,5.0,5
 44,multi_agent,Direction,5.0,5
@@ -2878,7 +2878,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 44,multi_agent,Partnership,4.8,5
 44,multi_agent,Cultivating Change Talk,4.4,5
 44,multi_agent,Softening Sustain Talk,4.0,5
-44,multi_agent,Overall Average,4.711111111111111,5
+44,multi_agent,Overall Average,4.7111,5
 45,simple,Acceptance,5.0,5
 45,simple,Empathy,4.4,5
 45,simple,Direction,4.8,5
@@ -2888,7 +2888,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 45,simple,Partnership,4.4,5
 45,simple,Cultivating Change Talk,3.6,5
 45,simple,Softening Sustain Talk,4.0,5
-45,simple,Overall Average,4.266666666666667,5
+45,simple,Overall Average,4.2667,5
 45,trained_agent,Acceptance,5.0,5
 45,trained_agent,Empathy,4.8,5
 45,trained_agent,Direction,5.0,5
@@ -2898,7 +2898,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 45,trained_agent,Partnership,4.8,5
 45,trained_agent,Cultivating Change Talk,4.2,5
 45,trained_agent,Softening Sustain Talk,4.2,5
-45,trained_agent,Overall Average,4.622222222222223,5
+45,trained_agent,Overall Average,4.6222,5
 45,complex,Acceptance,4.8,5
 45,complex,Empathy,4.4,5
 45,complex,Direction,5.0,5
@@ -2908,7 +2908,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 45,complex,Partnership,5.0,5
 45,complex,Cultivating Change Talk,4.0,5
 45,complex,Softening Sustain Talk,4.0,5
-45,complex,Overall Average,4.577777777777778,5
+45,complex,Overall Average,4.5778,5
 45,multi_agent,Acceptance,4.8,5
 45,multi_agent,Empathy,4.4,5
 45,multi_agent,Direction,5.0,5
@@ -2918,7 +2918,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 45,multi_agent,Partnership,4.6,5
 45,multi_agent,Cultivating Change Talk,4.2,5
 45,multi_agent,Softening Sustain Talk,3.8,5
-45,multi_agent,Overall Average,4.555555555555555,5
+45,multi_agent,Overall Average,4.5556,5
 46,simple,Acceptance,4.6,5
 46,simple,Empathy,4.4,5
 46,simple,Direction,5.0,5
@@ -2928,7 +2928,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 46,simple,Partnership,4.8,5
 46,simple,Cultivating Change Talk,4.0,5
 46,simple,Softening Sustain Talk,3.8,5
-46,simple,Overall Average,4.466666666666667,5
+46,simple,Overall Average,4.4667,5
 46,trained_agent,Acceptance,4.8,5
 46,trained_agent,Empathy,4.4,5
 46,trained_agent,Direction,4.8,5
@@ -2938,7 +2938,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 46,trained_agent,Partnership,4.6,5
 46,trained_agent,Cultivating Change Talk,4.2,5
 46,trained_agent,Softening Sustain Talk,4.0,5
-46,trained_agent,Overall Average,4.511111111111111,5
+46,trained_agent,Overall Average,4.5111,5
 46,complex,Acceptance,4.8,5
 46,complex,Empathy,4.4,5
 46,complex,Direction,5.0,5
@@ -2958,7 +2958,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 46,multi_agent,Partnership,4.8,5
 46,multi_agent,Cultivating Change Talk,4.6,5
 46,multi_agent,Softening Sustain Talk,4.0,5
-46,multi_agent,Overall Average,4.733333333333333,5
+46,multi_agent,Overall Average,4.7333,5
 47,simple,Acceptance,4.6,5
 47,simple,Empathy,4.0,5
 47,simple,Direction,5.0,5
@@ -2968,7 +2968,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 47,simple,Partnership,4.4,5
 47,simple,Cultivating Change Talk,3.8,5
 47,simple,Softening Sustain Talk,3.8,5
-47,simple,Overall Average,4.266666666666667,5
+47,simple,Overall Average,4.2667,5
 47,trained_agent,Acceptance,4.6,5
 47,trained_agent,Empathy,4.2,5
 47,trained_agent,Direction,5.0,5
@@ -2978,7 +2978,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 47,trained_agent,Partnership,4.8,5
 47,trained_agent,Cultivating Change Talk,4.0,5
 47,trained_agent,Softening Sustain Talk,4.2,5
-47,trained_agent,Overall Average,4.466666666666667,5
+47,trained_agent,Overall Average,4.4667,5
 47,complex,Acceptance,5.0,5
 47,complex,Empathy,4.4,5
 47,complex,Direction,5.0,5
@@ -2988,7 +2988,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 47,complex,Partnership,4.4,5
 47,complex,Cultivating Change Talk,4.4,5
 47,complex,Softening Sustain Talk,4.0,5
-47,complex,Overall Average,4.622222222222223,5
+47,complex,Overall Average,4.6222,5
 47,multi_agent,Acceptance,4.8,5
 47,multi_agent,Empathy,5.0,5
 47,multi_agent,Direction,4.8,5
@@ -2998,7 +2998,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 47,multi_agent,Partnership,4.6,5
 47,multi_agent,Cultivating Change Talk,4.4,5
 47,multi_agent,Softening Sustain Talk,4.0,5
-47,multi_agent,Overall Average,4.644444444444444,5
+47,multi_agent,Overall Average,4.6444,5
 48,simple,Acceptance,4.6,5
 48,simple,Empathy,4.2,5
 48,simple,Direction,5.0,5
@@ -3008,7 +3008,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 48,simple,Partnership,5.0,5
 48,simple,Cultivating Change Talk,4.0,5
 48,simple,Softening Sustain Talk,4.0,5
-48,simple,Overall Average,4.288888888888889,5
+48,simple,Overall Average,4.2889,5
 48,trained_agent,Acceptance,4.8,5
 48,trained_agent,Empathy,4.6,5
 48,trained_agent,Direction,5.0,5
@@ -3018,7 +3018,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 48,trained_agent,Partnership,5.0,5
 48,trained_agent,Cultivating Change Talk,4.4,5
 48,trained_agent,Softening Sustain Talk,4.2,5
-48,trained_agent,Overall Average,4.733333333333333,5
+48,trained_agent,Overall Average,4.7333,5
 48,complex,Acceptance,4.2,5
 48,complex,Empathy,4.6,5
 48,complex,Direction,5.0,5
@@ -3028,7 +3028,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 48,complex,Partnership,4.6,5
 48,complex,Cultivating Change Talk,4.4,5
 48,complex,Softening Sustain Talk,4.2,5
-48,complex,Overall Average,4.466666666666667,5
+48,complex,Overall Average,4.4667,5
 48,multi_agent,Acceptance,4.8,5
 48,multi_agent,Empathy,4.8,5
 48,multi_agent,Direction,4.8,5
@@ -3048,7 +3048,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 49,simple,Partnership,4.6,5
 49,simple,Cultivating Change Talk,3.8,5
 49,simple,Softening Sustain Talk,4.0,5
-49,simple,Overall Average,4.333333333333333,5
+49,simple,Overall Average,4.3333,5
 49,trained_agent,Acceptance,4.6,5
 49,trained_agent,Empathy,4.4,5
 49,trained_agent,Direction,5.0,5
@@ -3068,7 +3068,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 49,complex,Partnership,4.4,5
 49,complex,Cultivating Change Talk,4.0,5
 49,complex,Softening Sustain Talk,4.0,5
-49,complex,Overall Average,4.377777777777777,5
+49,complex,Overall Average,4.3778,5
 49,multi_agent,Acceptance,4.4,5
 49,multi_agent,Empathy,4.6,5
 49,multi_agent,Direction,5.0,5
@@ -3078,7 +3078,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 49,multi_agent,Partnership,4.6,5
 49,multi_agent,Cultivating Change Talk,4.6,5
 49,multi_agent,Softening Sustain Talk,4.2,5
-49,multi_agent,Overall Average,4.644444444444444,5
+49,multi_agent,Overall Average,4.6444,5
 4,simple,Acceptance,4.4,5
 4,simple,Empathy,3.6,5
 4,simple,Direction,4.8,5
@@ -3088,7 +3088,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 4,simple,Partnership,4.6,5
 4,simple,Cultivating Change Talk,2.6,5
 4,simple,Softening Sustain Talk,3.0,5
-4,simple,Overall Average,3.8000000000000003,5
+4,simple,Overall Average,3.8,5
 4,trained_agent,Acceptance,4.8,5
 4,trained_agent,Empathy,4.4,5
 4,trained_agent,Direction,4.8,5
@@ -3098,7 +3098,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 4,trained_agent,Partnership,4.0,5
 4,trained_agent,Cultivating Change Talk,3.2,5
 4,trained_agent,Softening Sustain Talk,3.2,5
-4,trained_agent,Overall Average,4.022222222222222,5
+4,trained_agent,Overall Average,4.0222,5
 4,complex,Acceptance,5.0,5
 4,complex,Empathy,4.4,5
 4,complex,Direction,5.0,5
@@ -3108,7 +3108,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 4,complex,Partnership,4.0,5
 4,complex,Cultivating Change Talk,3.2,5
 4,complex,Softening Sustain Talk,3.0,5
-4,complex,Overall Average,4.133333333333334,5
+4,complex,Overall Average,4.1333,5
 4,multi_agent,Acceptance,5.0,5
 4,multi_agent,Empathy,4.6,5
 4,multi_agent,Direction,5.0,5
@@ -3118,7 +3118,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 4,multi_agent,Partnership,4.6,5
 4,multi_agent,Cultivating Change Talk,4.0,5
 4,multi_agent,Softening Sustain Talk,4.0,5
-4,multi_agent,Overall Average,4.533333333333333,5
+4,multi_agent,Overall Average,4.5333,5
 50,simple,Acceptance,4.2,5
 50,simple,Empathy,4.0,5
 50,simple,Direction,4.6,5
@@ -3138,7 +3138,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 50,trained_agent,Partnership,4.6,5
 50,trained_agent,Cultivating Change Talk,4.4,5
 50,trained_agent,Softening Sustain Talk,4.0,5
-50,trained_agent,Overall Average,4.533333333333333,5
+50,trained_agent,Overall Average,4.5333,5
 50,complex,Acceptance,4.8,5
 50,complex,Empathy,4.6,5
 50,complex,Direction,5.0,5
@@ -3148,7 +3148,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 50,complex,Partnership,5.0,5
 50,complex,Cultivating Change Talk,4.4,5
 50,complex,Softening Sustain Talk,3.8,5
-50,complex,Overall Average,4.644444444444444,5
+50,complex,Overall Average,4.6444,5
 50,multi_agent,Acceptance,5.0,5
 50,multi_agent,Empathy,4.8,5
 50,multi_agent,Direction,5.0,5
@@ -3158,7 +3158,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 50,multi_agent,Partnership,5.0,5
 50,multi_agent,Cultivating Change Talk,4.6,5
 50,multi_agent,Softening Sustain Talk,4.2,5
-50,multi_agent,Overall Average,4.7555555555555555,5
+50,multi_agent,Overall Average,4.7556,5
 51,simple,Acceptance,4.0,5
 51,simple,Empathy,3.0,5
 51,simple,Direction,4.0,5
@@ -3168,7 +3168,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 51,simple,Partnership,4.2,5
 51,simple,Cultivating Change Talk,2.6,5
 51,simple,Softening Sustain Talk,3.6,5
-51,simple,Overall Average,3.288888888888889,5
+51,simple,Overall Average,3.2889,5
 51,trained_agent,Acceptance,4.6,5
 51,trained_agent,Empathy,4.0,5
 51,trained_agent,Direction,5.0,5
@@ -3178,7 +3178,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 51,trained_agent,Partnership,4.8,5
 51,trained_agent,Cultivating Change Talk,3.8,5
 51,trained_agent,Softening Sustain Talk,4.0,5
-51,trained_agent,Overall Average,4.311111111111111,5
+51,trained_agent,Overall Average,4.3111,5
 51,complex,Acceptance,4.4,5
 51,complex,Empathy,3.8,5
 51,complex,Direction,5.0,5
@@ -3188,7 +3188,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 51,complex,Partnership,4.2,5
 51,complex,Cultivating Change Talk,3.4,5
 51,complex,Softening Sustain Talk,4.0,5
-51,complex,Overall Average,4.088888888888889,5
+51,complex,Overall Average,4.0889,5
 51,multi_agent,Acceptance,5.0,5
 51,multi_agent,Empathy,4.8,5
 51,multi_agent,Direction,5.0,5
@@ -3198,7 +3198,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 51,multi_agent,Partnership,4.8,5
 51,multi_agent,Cultivating Change Talk,4.4,5
 51,multi_agent,Softening Sustain Talk,4.2,5
-51,multi_agent,Overall Average,4.688888888888889,5
+51,multi_agent,Overall Average,4.6889,5
 52,simple,Acceptance,4.8,5
 52,simple,Empathy,4.8,5
 52,simple,Direction,5.0,5
@@ -3208,7 +3208,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 52,simple,Partnership,4.4,5
 52,simple,Cultivating Change Talk,3.8,5
 52,simple,Softening Sustain Talk,4.2,5
-52,simple,Overall Average,4.444444444444445,5
+52,simple,Overall Average,4.4444,5
 52,trained_agent,Acceptance,4.6,5
 52,trained_agent,Empathy,4.4,5
 52,trained_agent,Direction,5.0,5
@@ -3218,7 +3218,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 52,trained_agent,Partnership,4.2,5
 52,trained_agent,Cultivating Change Talk,4.4,5
 52,trained_agent,Softening Sustain Talk,3.8,5
-52,trained_agent,Overall Average,4.488888888888889,5
+52,trained_agent,Overall Average,4.4889,5
 52,complex,Acceptance,4.8,5
 52,complex,Empathy,4.8,5
 52,complex,Direction,5.0,5
@@ -3228,7 +3228,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 52,complex,Partnership,4.6,5
 52,complex,Cultivating Change Talk,4.4,5
 52,complex,Softening Sustain Talk,4.0,5
-52,complex,Overall Average,4.622222222222223,5
+52,complex,Overall Average,4.6222,5
 52,multi_agent,Acceptance,4.8,5
 52,multi_agent,Empathy,4.6,5
 52,multi_agent,Direction,5.0,5
@@ -3238,7 +3238,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 52,multi_agent,Partnership,5.0,5
 52,multi_agent,Cultivating Change Talk,4.6,5
 52,multi_agent,Softening Sustain Talk,4.2,5
-52,multi_agent,Overall Average,4.7555555555555555,5
+52,multi_agent,Overall Average,4.7556,5
 53,simple,Acceptance,4.8,5
 53,simple,Empathy,3.6,5
 53,simple,Direction,5.0,5
@@ -3248,7 +3248,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 53,simple,Partnership,4.4,5
 53,simple,Cultivating Change Talk,3.2,5
 53,simple,Softening Sustain Talk,3.8,5
-53,simple,Overall Average,4.177777777777778,5
+53,simple,Overall Average,4.1778,5
 53,trained_agent,Acceptance,4.8,5
 53,trained_agent,Empathy,4.6,5
 53,trained_agent,Direction,5.0,5
@@ -3258,7 +3258,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 53,trained_agent,Partnership,4.8,5
 53,trained_agent,Cultivating Change Talk,4.0,5
 53,trained_agent,Softening Sustain Talk,4.2,5
-53,trained_agent,Overall Average,4.622222222222223,5
+53,trained_agent,Overall Average,4.6222,5
 53,complex,Acceptance,4.6,5
 53,complex,Empathy,4.2,5
 53,complex,Direction,5.0,5
@@ -3268,7 +3268,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 53,complex,Partnership,4.8,5
 53,complex,Cultivating Change Talk,4.0,5
 53,complex,Softening Sustain Talk,3.8,5
-53,complex,Overall Average,4.466666666666667,5
+53,complex,Overall Average,4.4667,5
 53,multi_agent,Acceptance,5.0,5
 53,multi_agent,Empathy,5.0,5
 53,multi_agent,Direction,5.0,5
@@ -3278,7 +3278,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 53,multi_agent,Partnership,4.8,5
 53,multi_agent,Cultivating Change Talk,4.0,5
 53,multi_agent,Softening Sustain Talk,4.2,5
-53,multi_agent,Overall Average,4.622222222222223,5
+53,multi_agent,Overall Average,4.6222,5
 54,simple,Acceptance,4.6,5
 54,simple,Empathy,4.0,5
 54,simple,Direction,5.0,5
@@ -3288,7 +3288,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 54,simple,Partnership,4.8,5
 54,simple,Cultivating Change Talk,3.8,5
 54,simple,Softening Sustain Talk,3.6,5
-54,simple,Overall Average,4.355555555555556,5
+54,simple,Overall Average,4.3556,5
 54,trained_agent,Acceptance,4.8,5
 54,trained_agent,Empathy,4.2,5
 54,trained_agent,Direction,5.0,5
@@ -3298,7 +3298,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 54,trained_agent,Partnership,5.0,5
 54,trained_agent,Cultivating Change Talk,4.2,5
 54,trained_agent,Softening Sustain Talk,4.0,5
-54,trained_agent,Overall Average,4.577777777777778,5
+54,trained_agent,Overall Average,4.5778,5
 54,complex,Acceptance,4.6,5
 54,complex,Empathy,4.0,5
 54,complex,Direction,5.0,5
@@ -3308,7 +3308,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 54,complex,Partnership,4.4,5
 54,complex,Cultivating Change Talk,4.0,5
 54,complex,Softening Sustain Talk,4.0,5
-54,complex,Overall Average,4.422222222222222,5
+54,complex,Overall Average,4.4222,5
 54,multi_agent,Acceptance,5.0,5
 54,multi_agent,Empathy,4.6,5
 54,multi_agent,Direction,5.0,5
@@ -3318,7 +3318,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 54,multi_agent,Partnership,5.0,5
 54,multi_agent,Cultivating Change Talk,4.4,5
 54,multi_agent,Softening Sustain Talk,4.0,5
-54,multi_agent,Overall Average,4.733333333333333,5
+54,multi_agent,Overall Average,4.7333,5
 55,simple,Acceptance,4.4,5
 55,simple,Empathy,3.4,5
 55,simple,Direction,4.8,5
@@ -3328,7 +3328,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 55,simple,Partnership,4.2,5
 55,simple,Cultivating Change Talk,2.8,5
 55,simple,Softening Sustain Talk,3.6,5
-55,simple,Overall Average,3.822222222222222,5
+55,simple,Overall Average,3.8222,5
 55,trained_agent,Acceptance,4.8,5
 55,trained_agent,Empathy,4.0,5
 55,trained_agent,Direction,5.0,5
@@ -3338,7 +3338,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 55,trained_agent,Partnership,4.8,5
 55,trained_agent,Cultivating Change Talk,4.0,5
 55,trained_agent,Softening Sustain Talk,3.8,5
-55,trained_agent,Overall Average,4.488888888888889,5
+55,trained_agent,Overall Average,4.4889,5
 55,complex,Acceptance,4.4,5
 55,complex,Empathy,4.2,5
 55,complex,Direction,5.0,5
@@ -3348,7 +3348,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 55,complex,Partnership,4.4,5
 55,complex,Cultivating Change Talk,3.8,5
 55,complex,Softening Sustain Talk,4.4,5
-55,complex,Overall Average,4.422222222222222,5
+55,complex,Overall Average,4.4222,5
 55,multi_agent,Acceptance,4.8,5
 55,multi_agent,Empathy,4.8,5
 55,multi_agent,Direction,5.0,5
@@ -3358,7 +3358,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 55,multi_agent,Partnership,5.0,5
 55,multi_agent,Cultivating Change Talk,4.4,5
 55,multi_agent,Softening Sustain Talk,4.0,5
-55,multi_agent,Overall Average,4.733333333333333,5
+55,multi_agent,Overall Average,4.7333,5
 56,simple,Acceptance,4.6,5
 56,simple,Empathy,4.0,5
 56,simple,Direction,5.0,5
@@ -3368,7 +3368,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 56,simple,Partnership,4.8,5
 56,simple,Cultivating Change Talk,4.0,5
 56,simple,Softening Sustain Talk,4.2,5
-56,simple,Overall Average,4.466666666666667,5
+56,simple,Overall Average,4.4667,5
 56,trained_agent,Acceptance,4.8,5
 56,trained_agent,Empathy,4.8,5
 56,trained_agent,Direction,5.0,5
@@ -3378,7 +3378,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 56,trained_agent,Partnership,4.8,5
 56,trained_agent,Cultivating Change Talk,4.8,5
 56,trained_agent,Softening Sustain Talk,4.4,5
-56,trained_agent,Overall Average,4.800000000000001,5
+56,trained_agent,Overall Average,4.8,5
 56,complex,Acceptance,5.0,5
 56,complex,Empathy,5.0,5
 56,complex,Direction,4.8,5
@@ -3388,7 +3388,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 56,complex,Partnership,5.0,5
 56,complex,Cultivating Change Talk,4.8,5
 56,complex,Softening Sustain Talk,4.0,5
-56,complex,Overall Average,4.800000000000001,5
+56,complex,Overall Average,4.8,5
 56,multi_agent,Acceptance,4.8,5
 56,multi_agent,Empathy,4.6,5
 56,multi_agent,Direction,5.0,5
@@ -3398,7 +3398,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 56,multi_agent,Partnership,5.0,5
 56,multi_agent,Cultivating Change Talk,4.4,5
 56,multi_agent,Softening Sustain Talk,4.0,5
-56,multi_agent,Overall Average,4.711111111111111,5
+56,multi_agent,Overall Average,4.7111,5
 57,simple,Acceptance,4.2,5
 57,simple,Empathy,3.4,5
 57,simple,Direction,5.0,5
@@ -3408,7 +3408,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 57,simple,Partnership,4.4,5
 57,simple,Cultivating Change Talk,3.4,5
 57,simple,Softening Sustain Talk,3.2,5
-57,simple,Overall Average,3.8444444444444446,5
+57,simple,Overall Average,3.8444,5
 57,trained_agent,Acceptance,4.8,5
 57,trained_agent,Empathy,4.4,5
 57,trained_agent,Direction,4.8,5
@@ -3428,7 +3428,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 57,complex,Partnership,5.0,5
 57,complex,Cultivating Change Talk,4.2,5
 57,complex,Softening Sustain Talk,4.4,5
-57,complex,Overall Average,4.777777777777778,5
+57,complex,Overall Average,4.7778,5
 57,multi_agent,Acceptance,5.0,5
 57,multi_agent,Empathy,5.0,5
 57,multi_agent,Direction,5.0,5
@@ -3438,7 +3438,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 57,multi_agent,Partnership,5.0,5
 57,multi_agent,Cultivating Change Talk,4.6,5
 57,multi_agent,Softening Sustain Talk,4.4,5
-57,multi_agent,Overall Average,4.888888888888889,5
+57,multi_agent,Overall Average,4.8889,5
 58,simple,Acceptance,4.2,5
 58,simple,Empathy,4.0,5
 58,simple,Direction,4.6,5
@@ -3448,7 +3448,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 58,simple,Partnership,4.4,5
 58,simple,Cultivating Change Talk,3.4,5
 58,simple,Softening Sustain Talk,3.4,5
-58,simple,Overall Average,3.9555555555555557,5
+58,simple,Overall Average,3.9556,5
 58,trained_agent,Acceptance,4.6,5
 58,trained_agent,Empathy,4.2,5
 58,trained_agent,Direction,5.0,5
@@ -3468,7 +3468,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 58,complex,Partnership,4.8,5
 58,complex,Cultivating Change Talk,4.2,5
 58,complex,Softening Sustain Talk,3.4,5
-58,complex,Overall Average,4.488888888888889,5
+58,complex,Overall Average,4.4889,5
 58,multi_agent,Acceptance,4.8,5
 58,multi_agent,Empathy,4.6,5
 58,multi_agent,Direction,5.0,5
@@ -3478,7 +3478,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 58,multi_agent,Partnership,4.4,5
 58,multi_agent,Cultivating Change Talk,4.4,5
 58,multi_agent,Softening Sustain Talk,3.4,5
-58,multi_agent,Overall Average,4.533333333333333,5
+58,multi_agent,Overall Average,4.5333,5
 59,simple,Acceptance,4.4,5
 59,simple,Empathy,2.8,5
 59,simple,Direction,4.8,5
@@ -3488,7 +3488,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 59,simple,Partnership,4.6,5
 59,simple,Cultivating Change Talk,2.4,5
 59,simple,Softening Sustain Talk,3.4,5
-59,simple,Overall Average,3.6666666666666665,5
+59,simple,Overall Average,3.6667,5
 59,trained_agent,Acceptance,4.8,5
 59,trained_agent,Empathy,4.0,5
 59,trained_agent,Direction,5.0,5
@@ -3498,7 +3498,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 59,trained_agent,Partnership,4.8,5
 59,trained_agent,Cultivating Change Talk,2.6,5
 59,trained_agent,Softening Sustain Talk,3.2,5
-59,trained_agent,Overall Average,3.9555555555555557,5
+59,trained_agent,Overall Average,3.9556,5
 59,complex,Acceptance,4.6,5
 59,complex,Empathy,3.6,5
 59,complex,Direction,5.0,5
@@ -3508,7 +3508,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 59,complex,Partnership,3.6,5
 59,complex,Cultivating Change Talk,2.8,5
 59,complex,Softening Sustain Talk,3.6,5
-59,complex,Overall Average,3.8666666666666663,5
+59,complex,Overall Average,3.8667,5
 59,multi_agent,Acceptance,4.8,5
 59,multi_agent,Empathy,4.8,5
 59,multi_agent,Direction,5.0,5
@@ -3518,7 +3518,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 59,multi_agent,Partnership,4.6,5
 59,multi_agent,Cultivating Change Talk,4.6,5
 59,multi_agent,Softening Sustain Talk,3.8,5
-59,multi_agent,Overall Average,4.622222222222223,5
+59,multi_agent,Overall Average,4.6222,5
 5,simple,Acceptance,4.6,5
 5,simple,Empathy,3.4,5
 5,simple,Direction,4.6,5
@@ -3528,7 +3528,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 5,simple,Partnership,3.6,5
 5,simple,Cultivating Change Talk,2.6,5
 5,simple,Softening Sustain Talk,3.6,5
-5,simple,Overall Average,3.5555555555555554,5
+5,simple,Overall Average,3.5556,5
 5,trained_agent,Acceptance,4.8,5
 5,trained_agent,Empathy,4.0,5
 5,trained_agent,Direction,5.0,5
@@ -3538,7 +3538,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 5,trained_agent,Partnership,4.2,5
 5,trained_agent,Cultivating Change Talk,3.6,5
 5,trained_agent,Softening Sustain Talk,4.0,5
-5,trained_agent,Overall Average,4.311111111111111,5
+5,trained_agent,Overall Average,4.3111,5
 5,complex,Acceptance,4.6,5
 5,complex,Empathy,4.6,5
 5,complex,Direction,5.0,5
@@ -3548,7 +3548,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 5,complex,Partnership,5.0,5
 5,complex,Cultivating Change Talk,4.0,5
 5,complex,Softening Sustain Talk,4.2,5
-5,complex,Overall Average,4.422222222222222,5
+5,complex,Overall Average,4.4222,5
 5,multi_agent,Acceptance,4.8,5
 5,multi_agent,Empathy,4.8,5
 5,multi_agent,Direction,5.0,5
@@ -3558,7 +3558,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 5,multi_agent,Partnership,5.0,5
 5,multi_agent,Cultivating Change Talk,4.0,5
 5,multi_agent,Softening Sustain Talk,4.2,5
-5,multi_agent,Overall Average,4.644444444444444,5
+5,multi_agent,Overall Average,4.6444,5
 60,simple,Acceptance,3.8,5
 60,simple,Empathy,3.4,5
 60,simple,Direction,5.0,5
@@ -3568,7 +3568,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 60,simple,Partnership,4.2,5
 60,simple,Cultivating Change Talk,2.8,5
 60,simple,Softening Sustain Talk,3.4,5
-60,simple,Overall Average,3.644444444444444,5
+60,simple,Overall Average,3.6444,5
 60,trained_agent,Acceptance,4.6,5
 60,trained_agent,Empathy,3.2,5
 60,trained_agent,Direction,5.0,5
@@ -3588,7 +3588,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 60,complex,Partnership,4.0,5
 60,complex,Cultivating Change Talk,3.6,5
 60,complex,Softening Sustain Talk,3.8,5
-60,complex,Overall Average,4.2444444444444445,5
+60,complex,Overall Average,4.2444,5
 60,multi_agent,Acceptance,4.6,5
 60,multi_agent,Empathy,4.6,5
 60,multi_agent,Direction,5.0,5
@@ -3598,7 +3598,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 60,multi_agent,Partnership,4.8,5
 60,multi_agent,Cultivating Change Talk,4.0,5
 60,multi_agent,Softening Sustain Talk,4.0,5
-60,multi_agent,Overall Average,4.444444444444445,5
+60,multi_agent,Overall Average,4.4444,5
 61,simple,Acceptance,4.4,5
 61,simple,Empathy,3.8,5
 61,simple,Direction,4.6,5
@@ -3608,7 +3608,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 61,simple,Partnership,4.4,5
 61,simple,Cultivating Change Talk,3.2,5
 61,simple,Softening Sustain Talk,3.8,5
-61,simple,Overall Average,4.044444444444444,5
+61,simple,Overall Average,4.0444,5
 61,trained_agent,Acceptance,4.4,5
 61,trained_agent,Empathy,4.4,5
 61,trained_agent,Direction,5.0,5
@@ -3618,7 +3618,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 61,trained_agent,Partnership,4.8,5
 61,trained_agent,Cultivating Change Talk,3.4,5
 61,trained_agent,Softening Sustain Talk,3.8,5
-61,trained_agent,Overall Average,4.377777777777777,5
+61,trained_agent,Overall Average,4.3778,5
 61,complex,Acceptance,4.8,5
 61,complex,Empathy,4.6,5
 61,complex,Direction,5.0,5
@@ -3628,7 +3628,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 61,complex,Partnership,5.0,5
 61,complex,Cultivating Change Talk,4.0,5
 61,complex,Softening Sustain Talk,4.0,5
-61,complex,Overall Average,4.533333333333333,5
+61,complex,Overall Average,4.5333,5
 61,multi_agent,Acceptance,5.0,5
 61,multi_agent,Empathy,5.0,5
 61,multi_agent,Direction,5.0,5
@@ -3638,7 +3638,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 61,multi_agent,Partnership,4.8,5
 61,multi_agent,Cultivating Change Talk,3.8,5
 61,multi_agent,Softening Sustain Talk,4.0,5
-61,multi_agent,Overall Average,4.577777777777778,5
+61,multi_agent,Overall Average,4.5778,5
 62,simple,Acceptance,4.6,5
 62,simple,Empathy,4.6,5
 62,simple,Direction,4.8,5
@@ -3648,7 +3648,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 62,simple,Partnership,4.4,5
 62,simple,Cultivating Change Talk,3.8,5
 62,simple,Softening Sustain Talk,3.8,5
-62,simple,Overall Average,4.355555555555555,5
+62,simple,Overall Average,4.3556,5
 62,trained_agent,Acceptance,4.8,5
 62,trained_agent,Empathy,4.8,5
 62,trained_agent,Direction,5.0,5
@@ -3658,7 +3658,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 62,trained_agent,Partnership,4.8,5
 62,trained_agent,Cultivating Change Talk,4.2,5
 62,trained_agent,Softening Sustain Talk,3.8,5
-62,trained_agent,Overall Average,4.577777777777778,5
+62,trained_agent,Overall Average,4.5778,5
 62,complex,Acceptance,4.8,5
 62,complex,Empathy,4.4,5
 62,complex,Direction,5.0,5
@@ -3668,7 +3668,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 62,complex,Partnership,5.0,5
 62,complex,Cultivating Change Talk,4.2,5
 62,complex,Softening Sustain Talk,4.0,5
-62,complex,Overall Average,4.622222222222223,5
+62,complex,Overall Average,4.6222,5
 62,multi_agent,Acceptance,5.0,5
 62,multi_agent,Empathy,5.0,5
 62,multi_agent,Direction,5.0,5
@@ -3678,7 +3678,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 62,multi_agent,Partnership,4.6,5
 62,multi_agent,Cultivating Change Talk,4.2,5
 62,multi_agent,Softening Sustain Talk,4.0,5
-62,multi_agent,Overall Average,4.688888888888889,5
+62,multi_agent,Overall Average,4.6889,5
 63,simple,Acceptance,4.2,5
 63,simple,Empathy,4.0,5
 63,simple,Direction,4.4,5
@@ -3688,7 +3688,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 63,simple,Partnership,4.6,5
 63,simple,Cultivating Change Talk,3.6,5
 63,simple,Softening Sustain Talk,3.4,5
-63,simple,Overall Average,3.888888888888889,5
+63,simple,Overall Average,3.8889,5
 63,trained_agent,Acceptance,5.0,5
 63,trained_agent,Empathy,4.8,5
 63,trained_agent,Direction,5.0,5
@@ -3698,7 +3698,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 63,trained_agent,Partnership,4.6,5
 63,trained_agent,Cultivating Change Talk,4.2,5
 63,trained_agent,Softening Sustain Talk,3.8,5
-63,trained_agent,Overall Average,4.577777777777778,5
+63,trained_agent,Overall Average,4.5778,5
 63,complex,Acceptance,4.6,5
 63,complex,Empathy,4.4,5
 63,complex,Direction,5.0,5
@@ -3708,7 +3708,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 63,complex,Partnership,4.6,5
 63,complex,Cultivating Change Talk,4.2,5
 63,complex,Softening Sustain Talk,3.8,5
-63,complex,Overall Average,4.466666666666667,5
+63,complex,Overall Average,4.4667,5
 63,multi_agent,Acceptance,5.0,5
 63,multi_agent,Empathy,4.8,5
 63,multi_agent,Direction,5.0,5
@@ -3718,7 +3718,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 63,multi_agent,Partnership,4.4,5
 63,multi_agent,Cultivating Change Talk,4.0,5
 63,multi_agent,Softening Sustain Talk,4.2,5
-63,multi_agent,Overall Average,4.577777777777778,5
+63,multi_agent,Overall Average,4.5778,5
 64,simple,Acceptance,4.6,5
 64,simple,Empathy,4.2,5
 64,simple,Direction,5.0,5
@@ -3728,7 +3728,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 64,simple,Partnership,4.6,5
 64,simple,Cultivating Change Talk,4.0,5
 64,simple,Softening Sustain Talk,4.0,5
-64,simple,Overall Average,4.422222222222222,5
+64,simple,Overall Average,4.4222,5
 64,trained_agent,Acceptance,4.8,5
 64,trained_agent,Empathy,4.6,5
 64,trained_agent,Direction,5.0,5
@@ -3738,7 +3738,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 64,trained_agent,Partnership,4.8,5
 64,trained_agent,Cultivating Change Talk,4.4,5
 64,trained_agent,Softening Sustain Talk,4.0,5
-64,trained_agent,Overall Average,4.644444444444444,5
+64,trained_agent,Overall Average,4.6444,5
 64,complex,Acceptance,4.8,5
 64,complex,Empathy,4.4,5
 64,complex,Direction,5.0,5
@@ -3748,7 +3748,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 64,complex,Partnership,5.0,5
 64,complex,Cultivating Change Talk,4.0,5
 64,complex,Softening Sustain Talk,3.8,5
-64,complex,Overall Average,4.555555555555555,5
+64,complex,Overall Average,4.5556,5
 64,multi_agent,Acceptance,4.8,5
 64,multi_agent,Empathy,4.6,5
 64,multi_agent,Direction,5.0,5
@@ -3758,7 +3758,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 64,multi_agent,Partnership,4.8,5
 64,multi_agent,Cultivating Change Talk,4.2,5
 64,multi_agent,Softening Sustain Talk,4.2,5
-64,multi_agent,Overall Average,4.644444444444444,5
+64,multi_agent,Overall Average,4.6444,5
 65,simple,Acceptance,4.2,5
 65,simple,Empathy,3.2,5
 65,simple,Direction,5.0,5
@@ -3768,7 +3768,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 65,simple,Partnership,4.0,5
 65,simple,Cultivating Change Talk,2.6,5
 65,simple,Softening Sustain Talk,3.6,5
-65,simple,Overall Average,3.755555555555555,5
+65,simple,Overall Average,3.7556,5
 65,trained_agent,Acceptance,4.8,5
 65,trained_agent,Empathy,4.2,5
 65,trained_agent,Direction,5.0,5
@@ -3778,7 +3778,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 65,trained_agent,Partnership,4.4,5
 65,trained_agent,Cultivating Change Talk,3.2,5
 65,trained_agent,Softening Sustain Talk,4.0,5
-65,trained_agent,Overall Average,4.133333333333334,5
+65,trained_agent,Overall Average,4.1333,5
 65,complex,Acceptance,4.6,5
 65,complex,Empathy,3.8,5
 65,complex,Direction,5.0,5
@@ -3798,7 +3798,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 65,multi_agent,Partnership,4.2,5
 65,multi_agent,Cultivating Change Talk,3.8,5
 65,multi_agent,Softening Sustain Talk,3.8,5
-65,multi_agent,Overall Average,4.355555555555556,5
+65,multi_agent,Overall Average,4.3556,5
 66,simple,Acceptance,4.4,5
 66,simple,Empathy,4.4,5
 66,simple,Direction,5.0,5
@@ -3808,7 +3808,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 66,simple,Partnership,4.4,5
 66,simple,Cultivating Change Talk,4.0,5
 66,simple,Softening Sustain Talk,4.0,5
-66,simple,Overall Average,4.355555555555556,5
+66,simple,Overall Average,4.3556,5
 66,trained_agent,Acceptance,4.4,5
 66,trained_agent,Empathy,4.2,5
 66,trained_agent,Direction,5.0,5
@@ -3818,7 +3818,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 66,trained_agent,Partnership,4.8,5
 66,trained_agent,Cultivating Change Talk,4.0,5
 66,trained_agent,Softening Sustain Talk,4.0,5
-66,trained_agent,Overall Average,4.466666666666667,5
+66,trained_agent,Overall Average,4.4667,5
 66,complex,Acceptance,4.8,5
 66,complex,Empathy,4.6,5
 66,complex,Direction,5.0,5
@@ -3828,7 +3828,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 66,complex,Partnership,4.6,5
 66,complex,Cultivating Change Talk,4.0,5
 66,complex,Softening Sustain Talk,4.4,5
-66,complex,Overall Average,4.533333333333333,5
+66,complex,Overall Average,4.5333,5
 66,multi_agent,Acceptance,4.8,5
 66,multi_agent,Empathy,4.8,5
 66,multi_agent,Direction,5.0,5
@@ -3838,7 +3838,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 66,multi_agent,Partnership,4.4,5
 66,multi_agent,Cultivating Change Talk,4.2,5
 66,multi_agent,Softening Sustain Talk,4.0,5
-66,multi_agent,Overall Average,4.555555555555555,5
+66,multi_agent,Overall Average,4.5556,5
 67,simple,Acceptance,4.4,5
 67,simple,Empathy,4.2,5
 67,simple,Direction,5.0,5
@@ -3848,7 +3848,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 67,simple,Partnership,4.8,5
 67,simple,Cultivating Change Talk,3.8,5
 67,simple,Softening Sustain Talk,3.8,5
-67,simple,Overall Average,4.288888888888889,5
+67,simple,Overall Average,4.2889,5
 67,trained_agent,Acceptance,4.8,5
 67,trained_agent,Empathy,4.2,5
 67,trained_agent,Direction,5.0,5
@@ -3858,7 +3858,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 67,trained_agent,Partnership,4.2,5
 67,trained_agent,Cultivating Change Talk,4.0,5
 67,trained_agent,Softening Sustain Talk,4.0,5
-67,trained_agent,Overall Average,4.488888888888889,5
+67,trained_agent,Overall Average,4.4889,5
 67,complex,Acceptance,4.4,5
 67,complex,Empathy,4.0,5
 67,complex,Direction,5.0,5
@@ -3868,7 +3868,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 67,complex,Partnership,4.6,5
 67,complex,Cultivating Change Talk,4.0,5
 67,complex,Softening Sustain Talk,4.2,5
-67,complex,Overall Average,4.355555555555556,5
+67,complex,Overall Average,4.3556,5
 67,multi_agent,Acceptance,4.8,5
 67,multi_agent,Empathy,4.6,5
 67,multi_agent,Direction,4.8,5
@@ -3878,7 +3878,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 67,multi_agent,Partnership,4.6,5
 67,multi_agent,Cultivating Change Talk,4.0,5
 67,multi_agent,Softening Sustain Talk,4.2,5
-67,multi_agent,Overall Average,4.555555555555555,5
+67,multi_agent,Overall Average,4.5556,5
 68,simple,Acceptance,4.6,5
 68,simple,Empathy,4.4,5
 68,simple,Direction,4.8,5
@@ -3888,7 +3888,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 68,simple,Partnership,4.8,5
 68,simple,Cultivating Change Talk,4.0,5
 68,simple,Softening Sustain Talk,4.0,5
-68,simple,Overall Average,4.444444444444445,5
+68,simple,Overall Average,4.4444,5
 68,trained_agent,Acceptance,4.6,5
 68,trained_agent,Empathy,4.2,5
 68,trained_agent,Direction,5.0,5
@@ -3898,7 +3898,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 68,trained_agent,Partnership,4.8,5
 68,trained_agent,Cultivating Change Talk,4.2,5
 68,trained_agent,Softening Sustain Talk,4.0,5
-68,trained_agent,Overall Average,4.555555555555555,5
+68,trained_agent,Overall Average,4.5556,5
 68,complex,Acceptance,5.0,5
 68,complex,Empathy,4.2,5
 68,complex,Direction,5.0,5
@@ -3908,7 +3908,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 68,complex,Partnership,4.4,5
 68,complex,Cultivating Change Talk,4.8,5
 68,complex,Softening Sustain Talk,3.8,5
-68,complex,Overall Average,4.577777777777778,5
+68,complex,Overall Average,4.5778,5
 68,multi_agent,Acceptance,5.0,5
 68,multi_agent,Empathy,4.4,5
 68,multi_agent,Direction,5.0,5
@@ -3938,7 +3938,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 69,trained_agent,Partnership,4.8,5
 69,trained_agent,Cultivating Change Talk,3.6,5
 69,trained_agent,Softening Sustain Talk,3.8,5
-69,trained_agent,Overall Average,4.133333333333334,5
+69,trained_agent,Overall Average,4.1333,5
 69,complex,Acceptance,4.6,5
 69,complex,Empathy,3.8,5
 69,complex,Direction,5.0,5
@@ -3948,7 +3948,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 69,complex,Partnership,5.0,5
 69,complex,Cultivating Change Talk,3.6,5
 69,complex,Softening Sustain Talk,3.8,5
-69,complex,Overall Average,4.266666666666667,5
+69,complex,Overall Average,4.2667,5
 69,multi_agent,Acceptance,4.8,5
 69,multi_agent,Empathy,4.8,5
 69,multi_agent,Direction,5.0,5
@@ -3958,7 +3958,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 69,multi_agent,Partnership,5.0,5
 69,multi_agent,Cultivating Change Talk,4.6,5
 69,multi_agent,Softening Sustain Talk,4.2,5
-69,multi_agent,Overall Average,4.777777777777778,5
+69,multi_agent,Overall Average,4.7778,5
 6,simple,Acceptance,4.2,5
 6,simple,Empathy,3.8,5
 6,simple,Direction,4.6,5
@@ -3968,7 +3968,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 6,simple,Partnership,4.0,5
 6,simple,Cultivating Change Talk,3.4,5
 6,simple,Softening Sustain Talk,3.2,5
-6,simple,Overall Average,3.711111111111111,5
+6,simple,Overall Average,3.7111,5
 6,trained_agent,Acceptance,4.4,5
 6,trained_agent,Empathy,4.4,5
 6,trained_agent,Direction,5.0,5
@@ -3978,7 +3978,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 6,trained_agent,Partnership,4.6,5
 6,trained_agent,Cultivating Change Talk,4.6,5
 6,trained_agent,Softening Sustain Talk,3.8,5
-6,trained_agent,Overall Average,4.577777777777778,5
+6,trained_agent,Overall Average,4.5778,5
 6,complex,Acceptance,4.6,5
 6,complex,Empathy,4.6,5
 6,complex,Direction,5.0,5
@@ -3988,7 +3988,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 6,complex,Partnership,4.8,5
 6,complex,Cultivating Change Talk,4.6,5
 6,complex,Softening Sustain Talk,4.0,5
-6,complex,Overall Average,4.711111111111111,5
+6,complex,Overall Average,4.7111,5
 6,multi_agent,Acceptance,4.4,5
 6,multi_agent,Empathy,4.6,5
 6,multi_agent,Direction,5.0,5
@@ -3998,7 +3998,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 6,multi_agent,Partnership,5.0,5
 6,multi_agent,Cultivating Change Talk,4.8,5
 6,multi_agent,Softening Sustain Talk,4.0,5
-6,multi_agent,Overall Average,4.711111111111111,5
+6,multi_agent,Overall Average,4.7111,5
 70,simple,Acceptance,4.6,5
 70,simple,Empathy,3.4,5
 70,simple,Direction,5.0,5
@@ -4008,7 +4008,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 70,simple,Partnership,4.0,5
 70,simple,Cultivating Change Talk,3.4,5
 70,simple,Softening Sustain Talk,3.2,5
-70,simple,Overall Average,4.022222222222222,5
+70,simple,Overall Average,4.0222,5
 70,trained_agent,Acceptance,4.6,5
 70,trained_agent,Empathy,4.2,5
 70,trained_agent,Direction,5.0,5
@@ -4018,7 +4018,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 70,trained_agent,Partnership,4.8,5
 70,trained_agent,Cultivating Change Talk,4.4,5
 70,trained_agent,Softening Sustain Talk,4.2,5
-70,trained_agent,Overall Average,4.577777777777778,5
+70,trained_agent,Overall Average,4.5778,5
 70,complex,Acceptance,4.8,5
 70,complex,Empathy,4.6,5
 70,complex,Direction,5.0,5
@@ -4028,7 +4028,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 70,complex,Partnership,5.0,5
 70,complex,Cultivating Change Talk,4.4,5
 70,complex,Softening Sustain Talk,4.2,5
-70,complex,Overall Average,4.688888888888889,5
+70,complex,Overall Average,4.6889,5
 70,multi_agent,Acceptance,5.0,5
 70,multi_agent,Empathy,5.0,5
 70,multi_agent,Direction,5.0,5
@@ -4038,7 +4038,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 70,multi_agent,Partnership,4.8,5
 70,multi_agent,Cultivating Change Talk,4.4,5
 70,multi_agent,Softening Sustain Talk,4.0,5
-70,multi_agent,Overall Average,4.711111111111111,5
+70,multi_agent,Overall Average,4.7111,5
 71,simple,Acceptance,4.8,5
 71,simple,Empathy,4.0,5
 71,simple,Direction,5.0,5
@@ -4048,7 +4048,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 71,simple,Partnership,4.6,5
 71,simple,Cultivating Change Talk,4.0,5
 71,simple,Softening Sustain Talk,4.2,5
-71,simple,Overall Average,4.311111111111111,5
+71,simple,Overall Average,4.3111,5
 71,trained_agent,Acceptance,4.8,5
 71,trained_agent,Empathy,4.6,5
 71,trained_agent,Direction,5.0,5
@@ -4058,7 +4058,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 71,trained_agent,Partnership,5.0,5
 71,trained_agent,Cultivating Change Talk,4.4,5
 71,trained_agent,Softening Sustain Talk,4.2,5
-71,trained_agent,Overall Average,4.7555555555555555,5
+71,trained_agent,Overall Average,4.7556,5
 71,complex,Acceptance,4.8,5
 71,complex,Empathy,4.2,5
 71,complex,Direction,5.0,5
@@ -4068,7 +4068,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 71,complex,Partnership,4.8,5
 71,complex,Cultivating Change Talk,4.2,5
 71,complex,Softening Sustain Talk,4.0,5
-71,complex,Overall Average,4.555555555555555,5
+71,complex,Overall Average,4.5556,5
 71,multi_agent,Acceptance,5.0,5
 71,multi_agent,Empathy,4.8,5
 71,multi_agent,Direction,5.0,5
@@ -4078,7 +4078,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 71,multi_agent,Partnership,4.8,5
 71,multi_agent,Cultivating Change Talk,4.6,5
 71,multi_agent,Softening Sustain Talk,4.0,5
-71,multi_agent,Overall Average,4.711111111111111,5
+71,multi_agent,Overall Average,4.7111,5
 72,simple,Acceptance,4.6,5
 72,simple,Empathy,4.0,5
 72,simple,Direction,5.0,5
@@ -4098,7 +4098,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 72,trained_agent,Partnership,4.8,5
 72,trained_agent,Cultivating Change Talk,4.8,5
 72,trained_agent,Softening Sustain Talk,4.0,5
-72,trained_agent,Overall Average,4.644444444444444,5
+72,trained_agent,Overall Average,4.6444,5
 72,complex,Acceptance,4.6,5
 72,complex,Empathy,4.8,5
 72,complex,Direction,5.0,5
@@ -4108,7 +4108,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 72,complex,Partnership,4.8,5
 72,complex,Cultivating Change Talk,4.8,5
 72,complex,Softening Sustain Talk,4.2,5
-72,complex,Overall Average,4.777777777777778,5
+72,complex,Overall Average,4.7778,5
 72,multi_agent,Acceptance,4.8,5
 72,multi_agent,Empathy,4.8,5
 72,multi_agent,Direction,5.0,5
@@ -4118,7 +4118,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 72,multi_agent,Partnership,5.0,5
 72,multi_agent,Cultivating Change Talk,4.8,5
 72,multi_agent,Softening Sustain Talk,4.4,5
-72,multi_agent,Overall Average,4.866666666666666,5
+72,multi_agent,Overall Average,4.8667,5
 73,simple,Acceptance,4.4,5
 73,simple,Empathy,3.8,5
 73,simple,Direction,4.8,5
@@ -4128,7 +4128,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 73,simple,Partnership,4.4,5
 73,simple,Cultivating Change Talk,3.8,5
 73,simple,Softening Sustain Talk,3.6,5
-73,simple,Overall Average,4.2444444444444445,5
+73,simple,Overall Average,4.2444,5
 73,trained_agent,Acceptance,4.4,5
 73,trained_agent,Empathy,4.2,5
 73,trained_agent,Direction,5.0,5
@@ -4138,7 +4138,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 73,trained_agent,Partnership,4.6,5
 73,trained_agent,Cultivating Change Talk,4.0,5
 73,trained_agent,Softening Sustain Talk,4.2,5
-73,trained_agent,Overall Average,4.466666666666667,5
+73,trained_agent,Overall Average,4.4667,5
 73,complex,Acceptance,5.0,5
 73,complex,Empathy,4.8,5
 73,complex,Direction,5.0,5
@@ -4148,7 +4148,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 73,complex,Partnership,4.8,5
 73,complex,Cultivating Change Talk,4.4,5
 73,complex,Softening Sustain Talk,4.2,5
-73,complex,Overall Average,4.7555555555555555,5
+73,complex,Overall Average,4.7556,5
 73,multi_agent,Acceptance,5.0,5
 73,multi_agent,Empathy,4.8,5
 73,multi_agent,Direction,5.0,5
@@ -4158,7 +4158,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 73,multi_agent,Partnership,5.0,5
 73,multi_agent,Cultivating Change Talk,4.6,5
 73,multi_agent,Softening Sustain Talk,3.8,5
-73,multi_agent,Overall Average,4.777777777777778,5
+73,multi_agent,Overall Average,4.7778,5
 74,simple,Acceptance,3.8,5
 74,simple,Empathy,4.0,5
 74,simple,Direction,4.8,5
@@ -4168,7 +4168,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 74,simple,Partnership,4.4,5
 74,simple,Cultivating Change Talk,3.8,5
 74,simple,Softening Sustain Talk,3.8,5
-74,simple,Overall Average,4.155555555555555,5
+74,simple,Overall Average,4.1556,5
 74,trained_agent,Acceptance,5.0,5
 74,trained_agent,Empathy,4.8,5
 74,trained_agent,Direction,5.0,5
@@ -4178,7 +4178,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 74,trained_agent,Partnership,5.0,5
 74,trained_agent,Cultivating Change Talk,4.0,5
 74,trained_agent,Softening Sustain Talk,3.8,5
-74,trained_agent,Overall Average,4.555555555555555,5
+74,trained_agent,Overall Average,4.5556,5
 74,complex,Acceptance,4.8,5
 74,complex,Empathy,4.4,5
 74,complex,Direction,4.8,5
@@ -4188,7 +4188,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 74,complex,Partnership,4.6,5
 74,complex,Cultivating Change Talk,4.2,5
 74,complex,Softening Sustain Talk,4.0,5
-74,complex,Overall Average,4.488888888888889,5
+74,complex,Overall Average,4.4889,5
 74,multi_agent,Acceptance,4.6,5
 74,multi_agent,Empathy,4.4,5
 74,multi_agent,Direction,5.0,5
@@ -4198,7 +4198,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 74,multi_agent,Partnership,4.6,5
 74,multi_agent,Cultivating Change Talk,3.8,5
 74,multi_agent,Softening Sustain Talk,4.0,5
-74,multi_agent,Overall Average,4.466666666666667,5
+74,multi_agent,Overall Average,4.4667,5
 75,simple,Acceptance,4.4,5
 75,simple,Empathy,3.8,5
 75,simple,Direction,5.0,5
@@ -4208,7 +4208,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 75,simple,Partnership,4.4,5
 75,simple,Cultivating Change Talk,3.8,5
 75,simple,Softening Sustain Talk,3.8,5
-75,simple,Overall Average,4.133333333333334,5
+75,simple,Overall Average,4.1333,5
 75,trained_agent,Acceptance,5.0,5
 75,trained_agent,Empathy,4.4,5
 75,trained_agent,Direction,5.0,5
@@ -4218,7 +4218,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 75,trained_agent,Partnership,4.6,5
 75,trained_agent,Cultivating Change Talk,4.0,5
 75,trained_agent,Softening Sustain Talk,4.0,5
-75,trained_agent,Overall Average,4.533333333333333,5
+75,trained_agent,Overall Average,4.5333,5
 75,complex,Acceptance,4.8,5
 75,complex,Empathy,4.4,5
 75,complex,Direction,5.0,5
@@ -4228,7 +4228,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 75,complex,Partnership,4.6,5
 75,complex,Cultivating Change Talk,4.0,5
 75,complex,Softening Sustain Talk,3.8,5
-75,complex,Overall Average,4.488888888888889,5
+75,complex,Overall Average,4.4889,5
 75,multi_agent,Acceptance,5.0,5
 75,multi_agent,Empathy,4.8,5
 75,multi_agent,Direction,5.0,5
@@ -4238,7 +4238,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 75,multi_agent,Partnership,4.8,5
 75,multi_agent,Cultivating Change Talk,4.0,5
 75,multi_agent,Softening Sustain Talk,4.2,5
-75,multi_agent,Overall Average,4.644444444444444,5
+75,multi_agent,Overall Average,4.6444,5
 76,simple,Acceptance,4.8,5
 76,simple,Empathy,4.0,5
 76,simple,Direction,4.8,5
@@ -4248,7 +4248,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 76,simple,Partnership,4.6,5
 76,simple,Cultivating Change Talk,3.2,5
 76,simple,Softening Sustain Talk,3.4,5
-76,simple,Overall Average,4.022222222222222,5
+76,simple,Overall Average,4.0222,5
 76,trained_agent,Acceptance,4.8,5
 76,trained_agent,Empathy,4.4,5
 76,trained_agent,Direction,5.0,5
@@ -4258,7 +4258,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 76,trained_agent,Partnership,4.6,5
 76,trained_agent,Cultivating Change Talk,3.6,5
 76,trained_agent,Softening Sustain Talk,3.8,5
-76,trained_agent,Overall Average,4.355555555555556,5
+76,trained_agent,Overall Average,4.3556,5
 76,complex,Acceptance,4.4,5
 76,complex,Empathy,4.0,5
 76,complex,Direction,5.0,5
@@ -4288,7 +4288,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 77,simple,Partnership,5.0,5
 77,simple,Cultivating Change Talk,3.4,5
 77,simple,Softening Sustain Talk,3.8,5
-77,simple,Overall Average,3.9777777777777774,5
+77,simple,Overall Average,3.9778,5
 77,trained_agent,Acceptance,4.8,5
 77,trained_agent,Empathy,4.6,5
 77,trained_agent,Direction,4.8,5
@@ -4298,7 +4298,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 77,trained_agent,Partnership,4.6,5
 77,trained_agent,Cultivating Change Talk,4.2,5
 77,trained_agent,Softening Sustain Talk,4.0,5
-77,trained_agent,Overall Average,4.533333333333333,5
+77,trained_agent,Overall Average,4.5333,5
 77,complex,Acceptance,4.6,5
 77,complex,Empathy,4.2,5
 77,complex,Direction,4.8,5
@@ -4308,7 +4308,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 77,complex,Partnership,4.4,5
 77,complex,Cultivating Change Talk,4.2,5
 77,complex,Softening Sustain Talk,4.2,5
-77,complex,Overall Average,4.422222222222222,5
+77,complex,Overall Average,4.4222,5
 77,multi_agent,Acceptance,5.0,5
 77,multi_agent,Empathy,4.8,5
 77,multi_agent,Direction,4.8,5
@@ -4318,7 +4318,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 77,multi_agent,Partnership,4.4,5
 77,multi_agent,Cultivating Change Talk,4.4,5
 77,multi_agent,Softening Sustain Talk,3.8,5
-77,multi_agent,Overall Average,4.555555555555555,5
+77,multi_agent,Overall Average,4.5556,5
 78,simple,Acceptance,4.4,5
 78,simple,Empathy,4.0,5
 78,simple,Direction,5.0,5
@@ -4328,7 +4328,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 78,simple,Partnership,5.0,5
 78,simple,Cultivating Change Talk,3.8,5
 78,simple,Softening Sustain Talk,4.6,5
-78,simple,Overall Average,4.444444444444445,5
+78,simple,Overall Average,4.4444,5
 78,trained_agent,Acceptance,5.0,5
 78,trained_agent,Empathy,4.6,5
 78,trained_agent,Direction,5.0,5
@@ -4348,7 +4348,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 78,complex,Partnership,4.6,5
 78,complex,Cultivating Change Talk,4.2,5
 78,complex,Softening Sustain Talk,4.0,5
-78,complex,Overall Average,4.533333333333333,5
+78,complex,Overall Average,4.5333,5
 78,multi_agent,Acceptance,4.8,5
 78,multi_agent,Empathy,4.8,5
 78,multi_agent,Direction,5.0,5
@@ -4358,7 +4358,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 78,multi_agent,Partnership,4.6,5
 78,multi_agent,Cultivating Change Talk,4.0,5
 78,multi_agent,Softening Sustain Talk,4.6,5
-78,multi_agent,Overall Average,4.622222222222223,5
+78,multi_agent,Overall Average,4.6222,5
 79,simple,Acceptance,4.4,5
 79,simple,Empathy,4.2,5
 79,simple,Direction,5.0,5
@@ -4368,7 +4368,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 79,simple,Partnership,5.0,5
 79,simple,Cultivating Change Talk,3.8,5
 79,simple,Softening Sustain Talk,4.0,5
-79,simple,Overall Average,4.333333333333333,5
+79,simple,Overall Average,4.3333,5
 79,trained_agent,Acceptance,5.0,5
 79,trained_agent,Empathy,4.6,5
 79,trained_agent,Direction,5.0,5
@@ -4378,7 +4378,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 79,trained_agent,Partnership,4.6,5
 79,trained_agent,Cultivating Change Talk,4.4,5
 79,trained_agent,Softening Sustain Talk,4.4,5
-79,trained_agent,Overall Average,4.666666666666667,5
+79,trained_agent,Overall Average,4.6667,5
 79,complex,Acceptance,4.6,5
 79,complex,Empathy,4.2,5
 79,complex,Direction,5.0,5
@@ -4388,7 +4388,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 79,complex,Partnership,4.4,5
 79,complex,Cultivating Change Talk,4.0,5
 79,complex,Softening Sustain Talk,4.0,5
-79,complex,Overall Average,4.422222222222222,5
+79,complex,Overall Average,4.4222,5
 79,multi_agent,Acceptance,5.0,5
 79,multi_agent,Empathy,4.4,5
 79,multi_agent,Direction,5.0,5
@@ -4398,7 +4398,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 79,multi_agent,Partnership,5.0,5
 79,multi_agent,Cultivating Change Talk,4.8,5
 79,multi_agent,Softening Sustain Talk,4.2,5
-79,multi_agent,Overall Average,4.7555555555555555,5
+79,multi_agent,Overall Average,4.7556,5
 7,simple,Acceptance,4.6,5
 7,simple,Empathy,3.0,5
 7,simple,Direction,4.6,5
@@ -4408,7 +4408,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 7,simple,Partnership,3.8,5
 7,simple,Cultivating Change Talk,2.2,5
 7,simple,Softening Sustain Talk,4.2,5
-7,simple,Overall Average,3.755555555555555,5
+7,simple,Overall Average,3.7556,5
 7,trained_agent,Acceptance,4.4,5
 7,trained_agent,Empathy,3.4,5
 7,trained_agent,Direction,4.8,5
@@ -4418,7 +4418,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 7,trained_agent,Partnership,4.0,5
 7,trained_agent,Cultivating Change Talk,2.6,5
 7,trained_agent,Softening Sustain Talk,4.6,5
-7,trained_agent,Overall Average,3.9111111111111114,5
+7,trained_agent,Overall Average,3.9111,5
 7,complex,Acceptance,5.0,5
 7,complex,Empathy,4.6,5
 7,complex,Direction,5.0,5
@@ -4428,7 +4428,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 7,complex,Partnership,4.8,5
 7,complex,Cultivating Change Talk,3.0,5
 7,complex,Softening Sustain Talk,4.0,5
-7,complex,Overall Average,4.355555555555556,5
+7,complex,Overall Average,4.3556,5
 7,multi_agent,Acceptance,5.0,5
 7,multi_agent,Empathy,5.0,5
 7,multi_agent,Direction,5.0,5
@@ -4438,7 +4438,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 7,multi_agent,Partnership,4.8,5
 7,multi_agent,Cultivating Change Talk,4.4,5
 7,multi_agent,Softening Sustain Talk,4.2,5
-7,multi_agent,Overall Average,4.777777777777778,5
+7,multi_agent,Overall Average,4.7778,5
 80,simple,Acceptance,4.4,5
 80,simple,Empathy,3.8,5
 80,simple,Direction,4.4,5
@@ -4448,7 +4448,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 80,simple,Partnership,4.0,5
 80,simple,Cultivating Change Talk,3.6,5
 80,simple,Softening Sustain Talk,4.0,5
-80,simple,Overall Average,4.044444444444444,5
+80,simple,Overall Average,4.0444,5
 80,trained_agent,Acceptance,4.6,5
 80,trained_agent,Empathy,4.4,5
 80,trained_agent,Direction,5.0,5
@@ -4458,7 +4458,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 80,trained_agent,Partnership,4.8,5
 80,trained_agent,Cultivating Change Talk,4.2,5
 80,trained_agent,Softening Sustain Talk,4.0,5
-80,trained_agent,Overall Average,4.577777777777778,5
+80,trained_agent,Overall Average,4.5778,5
 80,complex,Acceptance,5.0,5
 80,complex,Empathy,4.8,5
 80,complex,Direction,5.0,5
@@ -4468,7 +4468,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 80,complex,Partnership,4.8,5
 80,complex,Cultivating Change Talk,4.4,5
 80,complex,Softening Sustain Talk,4.2,5
-80,complex,Overall Average,4.733333333333333,5
+80,complex,Overall Average,4.7333,5
 80,multi_agent,Acceptance,4.8,5
 80,multi_agent,Empathy,4.8,5
 80,multi_agent,Direction,5.0,5
@@ -4478,7 +4478,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 80,multi_agent,Partnership,5.0,5
 80,multi_agent,Cultivating Change Talk,4.6,5
 80,multi_agent,Softening Sustain Talk,4.2,5
-80,multi_agent,Overall Average,4.800000000000001,5
+80,multi_agent,Overall Average,4.8,5
 81,simple,Acceptance,4.6,5
 81,simple,Empathy,4.0,5
 81,simple,Direction,4.6,5
@@ -4488,7 +4488,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 81,simple,Partnership,4.4,5
 81,simple,Cultivating Change Talk,3.8,5
 81,simple,Softening Sustain Talk,3.8,5
-81,simple,Overall Average,4.266666666666667,5
+81,simple,Overall Average,4.2667,5
 81,trained_agent,Acceptance,4.6,5
 81,trained_agent,Empathy,4.0,5
 81,trained_agent,Direction,4.8,5
@@ -4498,7 +4498,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 81,trained_agent,Partnership,4.4,5
 81,trained_agent,Cultivating Change Talk,4.2,5
 81,trained_agent,Softening Sustain Talk,4.2,5
-81,trained_agent,Overall Average,4.488888888888889,5
+81,trained_agent,Overall Average,4.4889,5
 81,complex,Acceptance,4.2,5
 81,complex,Empathy,4.2,5
 81,complex,Direction,4.8,5
@@ -4508,7 +4508,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 81,complex,Partnership,4.8,5
 81,complex,Cultivating Change Talk,4.2,5
 81,complex,Softening Sustain Talk,3.6,5
-81,complex,Overall Average,4.355555555555556,5
+81,complex,Overall Average,4.3556,5
 81,multi_agent,Acceptance,4.8,5
 81,multi_agent,Empathy,4.8,5
 81,multi_agent,Direction,4.8,5
@@ -4518,7 +4518,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 81,multi_agent,Partnership,4.6,5
 81,multi_agent,Cultivating Change Talk,4.6,5
 81,multi_agent,Softening Sustain Talk,3.4,5
-81,multi_agent,Overall Average,4.622222222222223,5
+81,multi_agent,Overall Average,4.6222,5
 82,simple,Acceptance,4.4,5
 82,simple,Empathy,4.0,5
 82,simple,Direction,4.8,5
@@ -4528,7 +4528,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 82,simple,Partnership,4.4,5
 82,simple,Cultivating Change Talk,3.6,5
 82,simple,Softening Sustain Talk,3.2,5
-82,simple,Overall Average,3.9777777777777774,5
+82,simple,Overall Average,3.9778,5
 82,trained_agent,Acceptance,4.6,5
 82,trained_agent,Empathy,4.4,5
 82,trained_agent,Direction,5.0,5
@@ -4538,7 +4538,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 82,trained_agent,Partnership,4.8,5
 82,trained_agent,Cultivating Change Talk,4.4,5
 82,trained_agent,Softening Sustain Talk,4.0,5
-82,trained_agent,Overall Average,4.622222222222223,5
+82,trained_agent,Overall Average,4.6222,5
 82,complex,Acceptance,4.6,5
 82,complex,Empathy,4.2,5
 82,complex,Direction,5.0,5
@@ -4548,7 +4548,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 82,complex,Partnership,5.0,5
 82,complex,Cultivating Change Talk,4.0,5
 82,complex,Softening Sustain Talk,3.6,5
-82,complex,Overall Average,4.444444444444445,5
+82,complex,Overall Average,4.4444,5
 82,multi_agent,Acceptance,5.0,5
 82,multi_agent,Empathy,5.0,5
 82,multi_agent,Direction,5.0,5
@@ -4558,7 +4558,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 82,multi_agent,Partnership,4.6,5
 82,multi_agent,Cultivating Change Talk,4.2,5
 82,multi_agent,Softening Sustain Talk,4.0,5
-82,multi_agent,Overall Average,4.666666666666667,5
+82,multi_agent,Overall Average,4.6667,5
 83,simple,Acceptance,4.6,5
 83,simple,Empathy,3.6,5
 83,simple,Direction,4.8,5
@@ -4578,7 +4578,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 83,trained_agent,Partnership,5.0,5
 83,trained_agent,Cultivating Change Talk,4.2,5
 83,trained_agent,Softening Sustain Talk,4.2,5
-83,trained_agent,Overall Average,4.577777777777778,5
+83,trained_agent,Overall Average,4.5778,5
 83,complex,Acceptance,4.8,5
 83,complex,Empathy,4.4,5
 83,complex,Direction,5.0,5
@@ -4588,7 +4588,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 83,complex,Partnership,5.0,5
 83,complex,Cultivating Change Talk,3.8,5
 83,complex,Softening Sustain Talk,4.0,5
-83,complex,Overall Average,4.488888888888889,5
+83,complex,Overall Average,4.4889,5
 83,multi_agent,Acceptance,5.0,5
 83,multi_agent,Empathy,5.0,5
 83,multi_agent,Direction,5.0,5
@@ -4598,7 +4598,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 83,multi_agent,Partnership,4.6,5
 83,multi_agent,Cultivating Change Talk,4.4,5
 83,multi_agent,Softening Sustain Talk,4.0,5
-83,multi_agent,Overall Average,4.666666666666667,5
+83,multi_agent,Overall Average,4.6667,5
 84,simple,Acceptance,4.4,5
 84,simple,Empathy,3.8,5
 84,simple,Direction,4.8,5
@@ -4608,7 +4608,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 84,simple,Partnership,4.2,5
 84,simple,Cultivating Change Talk,3.2,5
 84,simple,Softening Sustain Talk,3.4,5
-84,simple,Overall Average,3.9555555555555557,5
+84,simple,Overall Average,3.9556,5
 84,trained_agent,Acceptance,4.6,5
 84,trained_agent,Empathy,4.4,5
 84,trained_agent,Direction,5.0,5
@@ -4618,7 +4618,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 84,trained_agent,Partnership,4.4,5
 84,trained_agent,Cultivating Change Talk,3.6,5
 84,trained_agent,Softening Sustain Talk,3.8,5
-84,trained_agent,Overall Average,4.333333333333333,5
+84,trained_agent,Overall Average,4.3333,5
 84,complex,Acceptance,4.8,5
 84,complex,Empathy,4.2,5
 84,complex,Direction,5.0,5
@@ -4628,7 +4628,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 84,complex,Partnership,4.8,5
 84,complex,Cultivating Change Talk,3.8,5
 84,complex,Softening Sustain Talk,4.0,5
-84,complex,Overall Average,4.488888888888889,5
+84,complex,Overall Average,4.4889,5
 84,multi_agent,Acceptance,5.0,5
 84,multi_agent,Empathy,4.4,5
 84,multi_agent,Direction,5.0,5
@@ -4638,7 +4638,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 84,multi_agent,Partnership,4.4,5
 84,multi_agent,Cultivating Change Talk,4.2,5
 84,multi_agent,Softening Sustain Talk,4.0,5
-84,multi_agent,Overall Average,4.555555555555555,5
+84,multi_agent,Overall Average,4.5556,5
 85,simple,Acceptance,4.6,5
 85,simple,Empathy,4.2,5
 85,simple,Direction,5.0,5
@@ -4648,7 +4648,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 85,simple,Partnership,4.2,5
 85,simple,Cultivating Change Talk,4.0,5
 85,simple,Softening Sustain Talk,4.2,5
-85,simple,Overall Average,4.377777777777777,5
+85,simple,Overall Average,4.3778,5
 85,trained_agent,Acceptance,5.0,5
 85,trained_agent,Empathy,4.8,5
 85,trained_agent,Direction,5.0,5
@@ -4658,7 +4658,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 85,trained_agent,Partnership,5.0,5
 85,trained_agent,Cultivating Change Talk,4.8,5
 85,trained_agent,Softening Sustain Talk,4.0,5
-85,trained_agent,Overall Average,4.800000000000001,5
+85,trained_agent,Overall Average,4.8,5
 85,complex,Acceptance,4.8,5
 85,complex,Empathy,4.8,5
 85,complex,Direction,5.0,5
@@ -4668,7 +4668,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 85,complex,Partnership,5.0,5
 85,complex,Cultivating Change Talk,4.8,5
 85,complex,Softening Sustain Talk,4.2,5
-85,complex,Overall Average,4.822222222222222,5
+85,complex,Overall Average,4.8222,5
 85,multi_agent,Acceptance,5.0,5
 85,multi_agent,Empathy,5.0,5
 85,multi_agent,Direction,5.0,5
@@ -4678,7 +4678,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 85,multi_agent,Partnership,5.0,5
 85,multi_agent,Cultivating Change Talk,4.8,5
 85,multi_agent,Softening Sustain Talk,4.0,5
-85,multi_agent,Overall Average,4.844444444444445,5
+85,multi_agent,Overall Average,4.8444,5
 86,simple,Acceptance,4.6,5
 86,simple,Empathy,4.4,5
 86,simple,Direction,5.0,5
@@ -4688,7 +4688,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 86,simple,Partnership,4.8,5
 86,simple,Cultivating Change Talk,3.8,5
 86,simple,Softening Sustain Talk,4.0,5
-86,simple,Overall Average,4.466666666666667,5
+86,simple,Overall Average,4.4667,5
 86,trained_agent,Acceptance,4.8,5
 86,trained_agent,Empathy,4.4,5
 86,trained_agent,Direction,5.0,5
@@ -4698,7 +4698,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 86,trained_agent,Partnership,4.4,5
 86,trained_agent,Cultivating Change Talk,4.2,5
 86,trained_agent,Softening Sustain Talk,4.2,5
-86,trained_agent,Overall Average,4.511111111111111,5
+86,trained_agent,Overall Average,4.5111,5
 86,complex,Acceptance,4.4,5
 86,complex,Empathy,4.2,5
 86,complex,Direction,5.0,5
@@ -4718,7 +4718,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 86,multi_agent,Partnership,5.0,5
 86,multi_agent,Cultivating Change Talk,4.2,5
 86,multi_agent,Softening Sustain Talk,4.2,5
-86,multi_agent,Overall Average,4.644444444444444,5
+86,multi_agent,Overall Average,4.6444,5
 87,simple,Acceptance,4.2,5
 87,simple,Empathy,3.6,5
 87,simple,Direction,4.8,5
@@ -4728,7 +4728,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 87,simple,Partnership,4.2,5
 87,simple,Cultivating Change Talk,3.6,5
 87,simple,Softening Sustain Talk,3.8,5
-87,simple,Overall Average,4.044444444444444,5
+87,simple,Overall Average,4.0444,5
 87,trained_agent,Acceptance,4.8,5
 87,trained_agent,Empathy,4.2,5
 87,trained_agent,Direction,5.0,5
@@ -4748,7 +4748,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 87,complex,Partnership,5.0,5
 87,complex,Cultivating Change Talk,4.4,5
 87,complex,Softening Sustain Talk,4.0,5
-87,complex,Overall Average,4.666666666666667,5
+87,complex,Overall Average,4.6667,5
 87,multi_agent,Acceptance,4.6,5
 87,multi_agent,Empathy,4.6,5
 87,multi_agent,Direction,5.0,5
@@ -4758,7 +4758,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 87,multi_agent,Partnership,5.0,5
 87,multi_agent,Cultivating Change Talk,4.2,5
 87,multi_agent,Softening Sustain Talk,3.4,5
-87,multi_agent,Overall Average,4.555555555555555,5
+87,multi_agent,Overall Average,4.5556,5
 88,simple,Acceptance,4.6,5
 88,simple,Empathy,4.0,5
 88,simple,Direction,4.8,5
@@ -4768,7 +4768,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 88,simple,Partnership,4.6,5
 88,simple,Cultivating Change Talk,3.6,5
 88,simple,Softening Sustain Talk,4.0,5
-88,simple,Overall Average,4.288888888888889,5
+88,simple,Overall Average,4.2889,5
 88,trained_agent,Acceptance,4.6,5
 88,trained_agent,Empathy,4.2,5
 88,trained_agent,Direction,5.0,5
@@ -4778,7 +4778,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 88,trained_agent,Partnership,4.6,5
 88,trained_agent,Cultivating Change Talk,4.2,5
 88,trained_agent,Softening Sustain Talk,3.8,5
-88,trained_agent,Overall Average,4.488888888888889,5
+88,trained_agent,Overall Average,4.4889,5
 88,complex,Acceptance,4.6,5
 88,complex,Empathy,4.4,5
 88,complex,Direction,4.8,5
@@ -4788,7 +4788,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 88,complex,Partnership,5.0,5
 88,complex,Cultivating Change Talk,4.4,5
 88,complex,Softening Sustain Talk,4.6,5
-88,complex,Overall Average,4.644444444444444,5
+88,complex,Overall Average,4.6444,5
 88,multi_agent,Acceptance,4.8,5
 88,multi_agent,Empathy,4.4,5
 88,multi_agent,Direction,5.0,5
@@ -4798,7 +4798,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 88,multi_agent,Partnership,5.0,5
 88,multi_agent,Cultivating Change Talk,4.4,5
 88,multi_agent,Softening Sustain Talk,4.2,5
-88,multi_agent,Overall Average,4.622222222222223,5
+88,multi_agent,Overall Average,4.6222,5
 89,simple,Acceptance,4.8,5
 89,simple,Empathy,4.4,5
 89,simple,Direction,5.0,5
@@ -4808,7 +4808,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 89,simple,Partnership,4.8,5
 89,simple,Cultivating Change Talk,4.2,5
 89,simple,Softening Sustain Talk,4.2,5
-89,simple,Overall Average,4.555555555555555,5
+89,simple,Overall Average,4.5556,5
 89,trained_agent,Acceptance,4.8,5
 89,trained_agent,Empathy,4.6,5
 89,trained_agent,Direction,5.0,5
@@ -4818,7 +4818,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 89,trained_agent,Partnership,4.6,5
 89,trained_agent,Cultivating Change Talk,4.8,5
 89,trained_agent,Softening Sustain Talk,4.2,5
-89,trained_agent,Overall Average,4.7555555555555555,5
+89,trained_agent,Overall Average,4.7556,5
 89,complex,Acceptance,4.6,5
 89,complex,Empathy,4.6,5
 89,complex,Direction,5.0,5
@@ -4828,7 +4828,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 89,complex,Partnership,4.8,5
 89,complex,Cultivating Change Talk,4.8,5
 89,complex,Softening Sustain Talk,4.0,5
-89,complex,Overall Average,4.733333333333333,5
+89,complex,Overall Average,4.7333,5
 89,multi_agent,Acceptance,5.0,5
 89,multi_agent,Empathy,5.0,5
 89,multi_agent,Direction,5.0,5
@@ -4838,7 +4838,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 89,multi_agent,Partnership,5.0,5
 89,multi_agent,Cultivating Change Talk,4.6,5
 89,multi_agent,Softening Sustain Talk,4.0,5
-89,multi_agent,Overall Average,4.822222222222222,5
+89,multi_agent,Overall Average,4.8222,5
 8,simple,Acceptance,4.6,5
 8,simple,Empathy,3.6,5
 8,simple,Direction,4.8,5
@@ -4848,7 +4848,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 8,simple,Partnership,4.6,5
 8,simple,Cultivating Change Talk,3.4,5
 8,simple,Softening Sustain Talk,3.4,5
-8,simple,Overall Average,4.066666666666666,5
+8,simple,Overall Average,4.0667,5
 8,trained_agent,Acceptance,4.6,5
 8,trained_agent,Empathy,4.4,5
 8,trained_agent,Direction,5.0,5
@@ -4858,7 +4858,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 8,trained_agent,Partnership,4.6,5
 8,trained_agent,Cultivating Change Talk,4.0,5
 8,trained_agent,Softening Sustain Talk,4.0,5
-8,trained_agent,Overall Average,4.511111111111111,5
+8,trained_agent,Overall Average,4.5111,5
 8,complex,Acceptance,4.6,5
 8,complex,Empathy,4.2,5
 8,complex,Direction,4.8,5
@@ -4868,7 +4868,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 8,complex,Partnership,4.4,5
 8,complex,Cultivating Change Talk,4.0,5
 8,complex,Softening Sustain Talk,4.2,5
-8,complex,Overall Average,4.422222222222222,5
+8,complex,Overall Average,4.4222,5
 8,multi_agent,Acceptance,4.6,5
 8,multi_agent,Empathy,4.2,5
 8,multi_agent,Direction,5.0,5
@@ -4878,7 +4878,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 8,multi_agent,Partnership,4.6,5
 8,multi_agent,Cultivating Change Talk,4.0,5
 8,multi_agent,Softening Sustain Talk,4.0,5
-8,multi_agent,Overall Average,4.488888888888889,5
+8,multi_agent,Overall Average,4.4889,5
 90,simple,Acceptance,4.6,5
 90,simple,Empathy,3.8,5
 90,simple,Direction,4.2,5
@@ -4888,7 +4888,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 90,simple,Partnership,4.4,5
 90,simple,Cultivating Change Talk,3.4,5
 90,simple,Softening Sustain Talk,4.0,5
-90,simple,Overall Average,3.9555555555555557,5
+90,simple,Overall Average,3.9556,5
 90,trained_agent,Acceptance,4.8,5
 90,trained_agent,Empathy,4.6,5
 90,trained_agent,Direction,4.8,5
@@ -4898,7 +4898,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 90,trained_agent,Partnership,4.8,5
 90,trained_agent,Cultivating Change Talk,4.0,5
 90,trained_agent,Softening Sustain Talk,4.2,5
-90,trained_agent,Overall Average,4.533333333333333,5
+90,trained_agent,Overall Average,4.5333,5
 90,complex,Acceptance,4.6,5
 90,complex,Empathy,4.4,5
 90,complex,Direction,5.0,5
@@ -4908,7 +4908,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 90,complex,Partnership,4.6,5
 90,complex,Cultivating Change Talk,4.2,5
 90,complex,Softening Sustain Talk,4.2,5
-90,complex,Overall Average,4.533333333333333,5
+90,complex,Overall Average,4.5333,5
 90,multi_agent,Acceptance,4.6,5
 90,multi_agent,Empathy,4.6,5
 90,multi_agent,Direction,5.0,5
@@ -4918,7 +4918,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 90,multi_agent,Partnership,5.0,5
 90,multi_agent,Cultivating Change Talk,4.4,5
 90,multi_agent,Softening Sustain Talk,4.0,5
-90,multi_agent,Overall Average,4.666666666666667,5
+90,multi_agent,Overall Average,4.6667,5
 91,simple,Acceptance,4.6,5
 91,simple,Empathy,3.8,5
 91,simple,Direction,5.0,5
@@ -4928,7 +4928,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 91,simple,Partnership,4.8,5
 91,simple,Cultivating Change Talk,3.8,5
 91,simple,Softening Sustain Talk,4.0,5
-91,simple,Overall Average,4.266666666666667,5
+91,simple,Overall Average,4.2667,5
 91,trained_agent,Acceptance,4.2,5
 91,trained_agent,Empathy,4.0,5
 91,trained_agent,Direction,5.0,5
@@ -4938,7 +4938,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 91,trained_agent,Partnership,4.8,5
 91,trained_agent,Cultivating Change Talk,4.4,5
 91,trained_agent,Softening Sustain Talk,4.0,5
-91,trained_agent,Overall Average,4.488888888888889,5
+91,trained_agent,Overall Average,4.4889,5
 91,complex,Acceptance,4.8,5
 91,complex,Empathy,4.6,5
 91,complex,Direction,5.0,5
@@ -4958,7 +4958,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 91,multi_agent,Partnership,5.0,5
 91,multi_agent,Cultivating Change Talk,4.4,5
 91,multi_agent,Softening Sustain Talk,3.8,5
-91,multi_agent,Overall Average,4.622222222222223,5
+91,multi_agent,Overall Average,4.6222,5
 92,simple,Acceptance,4.6,5
 92,simple,Empathy,4.2,5
 92,simple,Direction,5.0,5
@@ -4968,7 +4968,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 92,simple,Partnership,5.0,5
 92,simple,Cultivating Change Talk,4.0,5
 92,simple,Softening Sustain Talk,4.0,5
-92,simple,Overall Average,4.377777777777777,5
+92,simple,Overall Average,4.3778,5
 92,trained_agent,Acceptance,4.8,5
 92,trained_agent,Empathy,4.4,5
 92,trained_agent,Direction,5.0,5
@@ -4978,7 +4978,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 92,trained_agent,Partnership,4.8,5
 92,trained_agent,Cultivating Change Talk,4.0,5
 92,trained_agent,Softening Sustain Talk,3.8,5
-92,trained_agent,Overall Average,4.555555555555555,5
+92,trained_agent,Overall Average,4.5556,5
 92,complex,Acceptance,4.6,5
 92,complex,Empathy,4.4,5
 92,complex,Direction,5.0,5
@@ -4988,7 +4988,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 92,complex,Partnership,5.0,5
 92,complex,Cultivating Change Talk,4.4,5
 92,complex,Softening Sustain Talk,4.0,5
-92,complex,Overall Average,4.622222222222223,5
+92,complex,Overall Average,4.6222,5
 92,multi_agent,Acceptance,4.4,5
 92,multi_agent,Empathy,4.0,5
 92,multi_agent,Direction,5.0,5
@@ -4998,7 +4998,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 92,multi_agent,Partnership,4.6,5
 92,multi_agent,Cultivating Change Talk,4.4,5
 92,multi_agent,Softening Sustain Talk,3.8,5
-92,multi_agent,Overall Average,4.444444444444445,5
+92,multi_agent,Overall Average,4.4444,5
 93,simple,Acceptance,4.6,5
 93,simple,Empathy,3.8,5
 93,simple,Direction,5.0,5
@@ -5008,7 +5008,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 93,simple,Partnership,4.0,5
 93,simple,Cultivating Change Talk,3.6,5
 93,simple,Softening Sustain Talk,3.2,5
-93,simple,Overall Average,4.111111111111111,5
+93,simple,Overall Average,4.1111,5
 93,trained_agent,Acceptance,4.6,5
 93,trained_agent,Empathy,4.2,5
 93,trained_agent,Direction,5.0,5
@@ -5018,7 +5018,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 93,trained_agent,Partnership,4.4,5
 93,trained_agent,Cultivating Change Talk,4.2,5
 93,trained_agent,Softening Sustain Talk,3.8,5
-93,trained_agent,Overall Average,4.488888888888889,5
+93,trained_agent,Overall Average,4.4889,5
 93,complex,Acceptance,4.8,5
 93,complex,Empathy,4.0,5
 93,complex,Direction,5.0,5
@@ -5038,7 +5038,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 93,multi_agent,Partnership,5.0,5
 93,multi_agent,Cultivating Change Talk,4.8,5
 93,multi_agent,Softening Sustain Talk,4.0,5
-93,multi_agent,Overall Average,4.800000000000001,5
+93,multi_agent,Overall Average,4.8,5
 94,simple,Acceptance,4.6,5
 94,simple,Empathy,4.0,5
 94,simple,Direction,5.0,5
@@ -5048,7 +5048,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 94,simple,Partnership,3.8,5
 94,simple,Cultivating Change Talk,3.0,5
 94,simple,Softening Sustain Talk,4.0,5
-94,simple,Overall Average,4.022222222222222,5
+94,simple,Overall Average,4.0222,5
 94,trained_agent,Acceptance,4.8,5
 94,trained_agent,Empathy,4.6,5
 94,trained_agent,Direction,5.0,5
@@ -5058,7 +5058,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 94,trained_agent,Partnership,4.8,5
 94,trained_agent,Cultivating Change Talk,3.6,5
 94,trained_agent,Softening Sustain Talk,4.0,5
-94,trained_agent,Overall Average,4.422222222222222,5
+94,trained_agent,Overall Average,4.4222,5
 94,complex,Acceptance,4.6,5
 94,complex,Empathy,4.4,5
 94,complex,Direction,4.8,5
@@ -5068,7 +5068,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 94,complex,Partnership,4.6,5
 94,complex,Cultivating Change Talk,3.8,5
 94,complex,Softening Sustain Talk,3.8,5
-94,complex,Overall Average,4.377777777777777,5
+94,complex,Overall Average,4.3778,5
 94,multi_agent,Acceptance,4.8,5
 94,multi_agent,Empathy,4.4,5
 94,multi_agent,Direction,5.0,5
@@ -5078,7 +5078,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 94,multi_agent,Partnership,5.0,5
 94,multi_agent,Cultivating Change Talk,4.2,5
 94,multi_agent,Softening Sustain Talk,4.0,5
-94,multi_agent,Overall Average,4.622222222222223,5
+94,multi_agent,Overall Average,4.6222,5
 95,simple,Acceptance,5.0,5
 95,simple,Empathy,4.8,5
 95,simple,Direction,4.6,5
@@ -5088,7 +5088,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 95,simple,Partnership,4.4,5
 95,simple,Cultivating Change Talk,3.2,5
 95,simple,Softening Sustain Talk,3.6,5
-95,simple,Overall Average,4.088888888888889,5
+95,simple,Overall Average,4.0889,5
 95,trained_agent,Acceptance,5.0,5
 95,trained_agent,Empathy,4.8,5
 95,trained_agent,Direction,4.8,5
@@ -5098,7 +5098,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 95,trained_agent,Partnership,4.2,5
 95,trained_agent,Cultivating Change Talk,3.0,5
 95,trained_agent,Softening Sustain Talk,3.6,5
-95,trained_agent,Overall Average,4.177777777777778,5
+95,trained_agent,Overall Average,4.1778,5
 95,complex,Acceptance,4.8,5
 95,complex,Empathy,4.8,5
 95,complex,Direction,4.6,5
@@ -5108,7 +5108,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 95,complex,Partnership,4.6,5
 95,complex,Cultivating Change Talk,3.2,5
 95,complex,Softening Sustain Talk,3.8,5
-95,complex,Overall Average,4.288888888888889,5
+95,complex,Overall Average,4.2889,5
 95,multi_agent,Acceptance,5.0,5
 95,multi_agent,Empathy,4.8,5
 95,multi_agent,Direction,5.0,5
@@ -5118,7 +5118,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 95,multi_agent,Partnership,4.6,5
 95,multi_agent,Cultivating Change Talk,4.0,5
 95,multi_agent,Softening Sustain Talk,4.0,5
-95,multi_agent,Overall Average,4.622222222222223,5
+95,multi_agent,Overall Average,4.6222,5
 96,simple,Acceptance,4.2,5
 96,simple,Empathy,3.6,5
 96,simple,Direction,5.0,5
@@ -5128,7 +5128,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 96,simple,Partnership,4.2,5
 96,simple,Cultivating Change Talk,2.4,5
 96,simple,Softening Sustain Talk,4.0,5
-96,simple,Overall Average,3.9555555555555557,5
+96,simple,Overall Average,3.9556,5
 96,trained_agent,Acceptance,4.6,5
 96,trained_agent,Empathy,4.2,5
 96,trained_agent,Direction,4.8,5
@@ -5138,7 +5138,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 96,trained_agent,Partnership,4.4,5
 96,trained_agent,Cultivating Change Talk,3.4,5
 96,trained_agent,Softening Sustain Talk,4.4,5
-96,trained_agent,Overall Average,4.333333333333333,5
+96,trained_agent,Overall Average,4.3333,5
 96,complex,Acceptance,5.0,5
 96,complex,Empathy,4.4,5
 96,complex,Direction,5.0,5
@@ -5148,7 +5148,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 96,complex,Partnership,4.4,5
 96,complex,Cultivating Change Talk,3.8,5
 96,complex,Softening Sustain Talk,4.0,5
-96,complex,Overall Average,4.466666666666667,5
+96,complex,Overall Average,4.4667,5
 96,multi_agent,Acceptance,5.0,5
 96,multi_agent,Empathy,4.4,5
 96,multi_agent,Direction,5.0,5
@@ -5168,7 +5168,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 97,simple,Partnership,4.4,5
 97,simple,Cultivating Change Talk,4.0,5
 97,simple,Softening Sustain Talk,3.4,5
-97,simple,Overall Average,4.266666666666667,5
+97,simple,Overall Average,4.2667,5
 97,trained_agent,Acceptance,4.8,5
 97,trained_agent,Empathy,4.0,5
 97,trained_agent,Direction,5.0,5
@@ -5178,7 +5178,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 97,trained_agent,Partnership,4.6,5
 97,trained_agent,Cultivating Change Talk,4.0,5
 97,trained_agent,Softening Sustain Talk,3.6,5
-97,trained_agent,Overall Average,4.377777777777777,5
+97,trained_agent,Overall Average,4.3778,5
 97,complex,Acceptance,4.8,5
 97,complex,Empathy,4.2,5
 97,complex,Direction,5.0,5
@@ -5188,7 +5188,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 97,complex,Partnership,4.4,5
 97,complex,Cultivating Change Talk,4.4,5
 97,complex,Softening Sustain Talk,3.8,5
-97,complex,Overall Average,4.466666666666667,5
+97,complex,Overall Average,4.4667,5
 97,multi_agent,Acceptance,4.8,5
 97,multi_agent,Empathy,4.6,5
 97,multi_agent,Direction,5.0,5
@@ -5198,7 +5198,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 97,multi_agent,Partnership,5.0,5
 97,multi_agent,Cultivating Change Talk,4.4,5
 97,multi_agent,Softening Sustain Talk,4.0,5
-97,multi_agent,Overall Average,4.688888888888889,5
+97,multi_agent,Overall Average,4.6889,5
 98,simple,Acceptance,4.8,5
 98,simple,Empathy,4.2,5
 98,simple,Direction,5.0,5
@@ -5208,7 +5208,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 98,simple,Partnership,4.2,5
 98,simple,Cultivating Change Talk,3.8,5
 98,simple,Softening Sustain Talk,3.8,5
-98,simple,Overall Average,4.288888888888889,5
+98,simple,Overall Average,4.2889,5
 98,trained_agent,Acceptance,4.8,5
 98,trained_agent,Empathy,4.4,5
 98,trained_agent,Direction,5.0,5
@@ -5218,7 +5218,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 98,trained_agent,Partnership,5.0,5
 98,trained_agent,Cultivating Change Talk,4.4,5
 98,trained_agent,Softening Sustain Talk,4.0,5
-98,trained_agent,Overall Average,4.666666666666667,5
+98,trained_agent,Overall Average,4.6667,5
 98,complex,Acceptance,4.8,5
 98,complex,Empathy,4.8,5
 98,complex,Direction,5.0,5
@@ -5228,7 +5228,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 98,complex,Partnership,4.6,5
 98,complex,Cultivating Change Talk,4.2,5
 98,complex,Softening Sustain Talk,4.2,5
-98,complex,Overall Average,4.666666666666667,5
+98,complex,Overall Average,4.6667,5
 98,multi_agent,Acceptance,4.8,5
 98,multi_agent,Empathy,4.4,5
 98,multi_agent,Direction,5.0,5
@@ -5238,7 +5238,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 98,multi_agent,Partnership,4.2,5
 98,multi_agent,Cultivating Change Talk,4.0,5
 98,multi_agent,Softening Sustain Talk,3.8,5
-98,multi_agent,Overall Average,4.444444444444445,5
+98,multi_agent,Overall Average,4.4444,5
 99,simple,Acceptance,4.4,5
 99,simple,Empathy,4.0,5
 99,simple,Direction,5.0,5
@@ -5248,7 +5248,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 99,simple,Partnership,4.8,5
 99,simple,Cultivating Change Talk,4.0,5
 99,simple,Softening Sustain Talk,3.8,5
-99,simple,Overall Average,4.377777777777777,5
+99,simple,Overall Average,4.3778,5
 99,trained_agent,Acceptance,4.4,5
 99,trained_agent,Empathy,4.0,5
 99,trained_agent,Direction,5.0,5
@@ -5258,7 +5258,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 99,trained_agent,Partnership,4.8,5
 99,trained_agent,Cultivating Change Talk,4.0,5
 99,trained_agent,Softening Sustain Talk,3.6,5
-99,trained_agent,Overall Average,4.377777777777777,5
+99,trained_agent,Overall Average,4.3778,5
 99,complex,Acceptance,4.8,5
 99,complex,Empathy,4.0,5
 99,complex,Direction,5.0,5
@@ -5278,7 +5278,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 99,multi_agent,Partnership,4.8,5
 99,multi_agent,Cultivating Change Talk,4.8,5
 99,multi_agent,Softening Sustain Talk,4.0,5
-99,multi_agent,Overall Average,4.711111111111111,5
+99,multi_agent,Overall Average,4.7111,5
 9,simple,Acceptance,4.6,5
 9,simple,Empathy,4.2,5
 9,simple,Direction,4.8,5
@@ -5288,7 +5288,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 9,simple,Partnership,4.6,5
 9,simple,Cultivating Change Talk,3.2,5
 9,simple,Softening Sustain Talk,3.6,5
-9,simple,Overall Average,3.9555555555555557,5
+9,simple,Overall Average,3.9556,5
 9,trained_agent,Acceptance,4.8,5
 9,trained_agent,Empathy,4.4,5
 9,trained_agent,Direction,4.6,5
@@ -5298,7 +5298,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 9,trained_agent,Partnership,4.2,5
 9,trained_agent,Cultivating Change Talk,4.0,5
 9,trained_agent,Softening Sustain Talk,3.8,5
-9,trained_agent,Overall Average,4.377777777777777,5
+9,trained_agent,Overall Average,4.3778,5
 9,complex,Acceptance,4.4,5
 9,complex,Empathy,4.4,5
 9,complex,Direction,5.0,5
@@ -5308,7 +5308,7 @@ patient_id,therapist_mode,criterion,score,num_folds
 9,complex,Partnership,4.8,5
 9,complex,Cultivating Change Talk,4.4,5
 9,complex,Softening Sustain Talk,4.0,5
-9,complex,Overall Average,4.577777777777778,5
+9,complex,Overall Average,4.5778,5
 9,multi_agent,Acceptance,5.0,5
 9,multi_agent,Empathy,5.0,5
 9,multi_agent,Direction,5.0,5
@@ -5318,4 +5318,4 @@ patient_id,therapist_mode,criterion,score,num_folds
 9,multi_agent,Partnership,4.6,5
 9,multi_agent,Cultivating Change Talk,4.2,5
 9,multi_agent,Softening Sustain Talk,4.0,5
-9,multi_agent,Overall Average,4.622222222222223,5
+9,multi_agent,Overall Average,4.6222,5
