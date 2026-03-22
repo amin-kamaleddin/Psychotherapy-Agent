@@ -107,7 +107,19 @@ $$
 W = \min(W^+,\ W^-)
 $$
 
-Under $H_0$ (no difference), $W$ follows the Wilcoxon signed-rank distribution. A two-sided test is used (`alternative='two-sided'`).
+Under $H_0$ (no difference between modes), each observed difference $d_i$ is equally likely to be positive or negative — i.e. the sign of each $d_i$ is an independent fair coin flip. The $n$ non-zero ranks $\{1, 2, \ldots, n\}$ are fixed by their absolute values, but each rank is assigned a $+$ or $-$ sign with probability $\tfrac{1}{2}$. Therefore $W^+$ is the sum of a random subset of $\{1, \ldots, n\}$, giving the **exact null distribution**:
+
+$$
+E[W^+] = \frac{n(n+1)}{4}, \qquad \operatorname{Var}(W^+) = \frac{n(n+1)(2n+1)}{24}
+$$
+
+For small $n$ the exact distribution is enumerated; for large $n$ (as in this study), a normal approximation is used:
+
+$$
+z = \frac{W^+ - \dfrac{n(n+1)}{4}}{\sqrt{\dfrac{n(n+1)(2n+1)}{24}}} \;\xrightarrow{d}\; \mathcal{N}(0,1)
+$$
+
+A two-sided test is used (`alternative='two-sided'`), so $p = 2 \cdot P(Z \geq |z|)$.
 
 **The 6 pairs tested** (ordered by expected effect direction):
 
