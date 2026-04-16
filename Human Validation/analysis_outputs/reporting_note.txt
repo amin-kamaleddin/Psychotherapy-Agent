@@ -1,0 +1,16 @@
+Publication-oriented analysis completed.
+Design: repeated-measures / within-subject ratings across four agents.
+Primary omnibus test: Friedman test.
+Post hoc comparisons: paired Wilcoxon signed-rank tests with Holm correction.
+Effect sizes: Kendall's W (omnibus) and rank-biserial correlation r (pairwise).
+Figures saved as SVG.
+
+Files created:
+- figure_1_overall_violin.svg
+- figure_2_criteria_heatmap.svg
+- figure_3_criteria_grouped_bars.svg
+- descriptive_statistics.csv
+- omnibus_friedman_tests.csv
+- pairwise_wilcoxon_posthoc.csv
+- analysis_tables.xlsx
+- invalid_values_removed.csv
