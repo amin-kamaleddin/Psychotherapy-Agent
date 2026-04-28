@@ -472,7 +472,7 @@ ax.set_title("Overall Ratings by Agent", fontweight='bold')
 ax.set_ylim(1, 12)
 ax.grid(axis="y", alpha=0.3)
 plt.tight_layout()
-plt.savefig(OUTPUT_DIR / "figure_1_overall_violin.svg", format="svg", bbox_inches="tight", dpi=300)
+plt.savefig(OUTPUT_DIR / "figure_1_overall_violin.svg", format="svg", bbox_inches="tight")
 plt.close()
 
 
@@ -502,7 +502,7 @@ for i in range(len(AGENTS)):
         ax.text(j, i, f"{value:.2f}", ha="center", va="center", fontsize=18)
 
 plt.tight_layout()
-plt.savefig(OUTPUT_DIR / "figure_2_criteria_heatmap.svg", format="svg", bbox_inches="tight", dpi=300)
+plt.savefig(OUTPUT_DIR / "figure_2_criteria_heatmap.svg", format="svg", bbox_inches="tight")
 plt.close()
 
 
@@ -550,7 +550,7 @@ ax.grid(axis="y", alpha=0.3)
 ax.set_ylim(0, 5.5)
 
 plt.tight_layout()
-plt.savefig(OUTPUT_DIR / "figure_3_criteria_grouped_bars.svg", format="svg", bbox_inches="tight", dpi=300)
+plt.savefig(OUTPUT_DIR / "figure_3_criteria_grouped_bars.svg", format="svg", bbox_inches="tight")
 plt.close()
 
 
