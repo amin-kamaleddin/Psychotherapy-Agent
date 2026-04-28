@@ -22,6 +22,7 @@ matplotlib.rcParams.update({
     'font.family': 'Arial',
     'font.size': 18,
     'axes.titlesize': 18,
+    'axes.titleweight': 'bold',
     'axes.labelsize': 18,
     'xtick.labelsize': 18,
     'ytick.labelsize': 18,

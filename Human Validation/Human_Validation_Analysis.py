@@ -41,6 +41,7 @@ matplotlib.rcParams.update({
     'font.family': 'Arial',
     'font.size': 18,
     'axes.titlesize': 18,
+    'axes.titleweight': 'bold',
     'axes.labelsize': 18,
     'xtick.labelsize': 18,
     'ytick.labelsize': 18,
@@ -467,7 +468,7 @@ for i, agent in enumerate(AGENTS, start=1):
 ax.set_xticks(np.arange(1, len(AGENTS) + 1))
 ax.set_xticklabels(AGENTS)
 ax.set_ylabel("Overall rating (1–10)")
-ax.set_title("Overall Ratings by Agent")
+ax.set_title("Overall Ratings by Agent", fontweight='bold')
 ax.set_ylim(1, 10.6)
 ax.grid(axis="y", alpha=0.3)
 plt.tight_layout()
@@ -491,7 +492,7 @@ ax.set_xticks(range(len(CRITERIA)))
 ax.set_xticklabels(CRITERIA, rotation=30, ha="right")
 ax.set_yticks(range(len(AGENTS)))
 ax.set_yticklabels(AGENTS)
-ax.set_title("Mean Criteria Ratings by Agent")
+ax.set_title("Mean Criteria Ratings by Agent", fontweight='bold')
 cbar = plt.colorbar(im, ax=ax)
 cbar.set_label("Mean rating (1–5)")
 
@@ -544,7 +545,7 @@ center_shift = width * (len(AGENTS) - 1) / 2
 ax.set_xticks(x + center_shift)
 ax.set_xticklabels(CRITERIA, rotation=20, ha='right')
 ax.set_ylabel("Mean rating (1–5)")
-ax.set_title("Mean Criteria Ratings by Agent")
+ax.set_title("Mean Criteria Ratings by Agent", fontweight='bold')
 ax.legend(frameon=False, loc='upper left', bbox_to_anchor=(1.01, 1), borderaxespad=0)
 ax.grid(axis="y", alpha=0.3)
 ax.set_ylim(0, 5.5)
