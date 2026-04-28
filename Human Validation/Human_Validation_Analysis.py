@@ -458,7 +458,7 @@ for i, agent in enumerate(AGENTS, start=1):
     ax.text(
         i,
         y_text,
-        f"{m:.2f}±{s:.2f}" if not pd.isna(s) else f"{m:.2f}",
+        f"{m:.2f}\u00b1{s:.2f}" if not pd.isna(s) else f"{m:.2f}",
         ha="center",
         va="bottom",
         fontsize=18,
@@ -467,9 +467,9 @@ for i, agent in enumerate(AGENTS, start=1):
 
 ax.set_xticks(np.arange(1, len(AGENTS) + 1))
 ax.set_xticklabels(AGENTS)
-ax.set_ylabel("Overall rating (1–10)")
+ax.set_ylabel("Overall rating (1-10)")
 ax.set_title("Overall Ratings by Agent", fontweight='bold')
-ax.set_ylim(1, 10.6)
+ax.set_ylim(1, 12)
 ax.grid(axis="y", alpha=0.3)
 plt.tight_layout()
 plt.savefig(OUTPUT_DIR / "figure_1_overall_violin.svg", format="svg", bbox_inches="tight", dpi=300)
@@ -485,7 +485,7 @@ for agent in AGENTS:
     for criterion in CRITERIA:
         criteria_means.loc[agent, criterion] = df[f"{agent} {criterion}"].mean()
 
-fig, ax = plt.subplots(figsize=(8, 5))
+fig, ax = plt.subplots(figsize=(12, 7))
 im = ax.imshow(criteria_means.values, aspect="auto")
 
 ax.set_xticks(range(len(CRITERIA)))
@@ -494,7 +494,7 @@ ax.set_yticks(range(len(AGENTS)))
 ax.set_yticklabels(AGENTS)
 ax.set_title("Mean Criteria Ratings by Agent", fontweight='bold')
 cbar = plt.colorbar(im, ax=ax)
-cbar.set_label("Mean rating (1–5)")
+cbar.set_label("Mean rating (1-5)")
 
 for i in range(len(AGENTS)):
     for j in range(len(CRITERIA)):
@@ -534,19 +534,18 @@ for i, agent in enumerate(AGENTS):
         means,
         width=width,
         yerr=sds,
-        capsize=4,
+        capsize=5,
         label=agent,
         color=AGENT_COLORS[agent],
-        edgecolor="black",
-        linewidth=0.8,
+        alpha=0.7,
     )
 
 center_shift = width * (len(AGENTS) - 1) / 2
 ax.set_xticks(x + center_shift)
-ax.set_xticklabels(CRITERIA, rotation=20, ha='right')
-ax.set_ylabel("Mean rating (1–5)")
+ax.set_xticklabels(CRITERIA, rotation=45, ha='right')
+ax.set_ylabel("Mean rating (1-5)")
 ax.set_title("Mean Criteria Ratings by Agent", fontweight='bold')
-ax.legend(frameon=False, loc='upper left', bbox_to_anchor=(1.01, 1), borderaxespad=0)
+ax.legend(loc='upper left', bbox_to_anchor=(1.01, 1), borderaxespad=0)
 ax.grid(axis="y", alpha=0.3)
 ax.set_ylim(0, 5.5)
 
