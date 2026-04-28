@@ -15,6 +15,18 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import numpy as np
+import matplotlib
+
+# Global plot settings: Arial font, minimum font size 18
+matplotlib.rcParams.update({
+    'font.family': 'Arial',
+    'font.size': 18,
+    'axes.titlesize': 18,
+    'axes.labelsize': 18,
+    'xtick.labelsize': 18,
+    'ytick.labelsize': 18,
+    'legend.fontsize': 18,
+})
 
 # File paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -164,10 +176,10 @@ def plot_counselor_words(data):
                 markersize=8
             )
     
-    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=12)
-    ax.set_ylabel('Average number of words per turn', fontsize=12)
-    ax.set_title('Average words per turn by counselors as the conversation progresses', fontsize=14, fontweight='bold')
-    ax.legend(fontsize=10)
+    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
+    ax.set_ylabel('Average number of words per turn', fontsize=18)
+    ax.set_title('Average words per turn by counselors as the conversation progresses', fontsize=18, fontweight='bold')
+    ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3)
     ax.set_xticks([20, 40, 60, 80, 100])
     
@@ -206,10 +218,10 @@ def plot_client_words(data):
                 markersize=8
             )
     
-    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=12)
-    ax.set_ylabel('Average number of words per turn', fontsize=12)
-    ax.set_title('Average words per turn by clients as the conversation progresses', fontsize=14, fontweight='bold')
-    ax.legend(fontsize=10)
+    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
+    ax.set_ylabel('Average number of words per turn', fontsize=18)
+    ax.set_title('Average words per turn by clients as the conversation progresses', fontsize=18, fontweight='bold')
+    ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3)
     ax.set_xticks([20, 40, 60, 80, 100])
     
@@ -248,10 +260,10 @@ def plot_word_ratio(data):
                 markersize=8
             )
     
-    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=12)
-    ax.set_ylabel('Ratio', fontsize=12)
-    ax.set_title('Word ratio by turn between counselors and clients as the conversation progresses', fontsize=14, fontweight='bold')
-    ax.legend(fontsize=10)
+    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
+    ax.set_ylabel('Ratio', fontsize=18)
+    ax.set_title('Word ratio by turn between counselors and clients as the conversation progresses', fontsize=18, fontweight='bold')
+    ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3)
     ax.set_xticks([20, 40, 60, 80, 100])
     
@@ -286,9 +298,7 @@ def plot_sentiment_distribution(sentiment_df):
             plot_data['neutral'][mode].append(row['prop_neu'])
             plot_data['positive'][mode].append(row['prop_pos'])
     
-    fig, ax = plt.subplots(figsize=(12, 6))
-    
-    # Calculate positions for grouped box plots
+    fig, ax = plt.subplots(figsize=(16, 6))
     n_sentiments = len(sentiment_types)
     n_modes = len(modes)
     group_width = 2.5
@@ -330,12 +340,12 @@ def plot_sentiment_distribution(sentiment_df):
         Patch(facecolor=COLORS['complex'], alpha=0.7, label='complex'),
         Patch(facecolor=COLORS['multi_agent'], alpha=0.7, label='multi-agent'),
     ]
-    ax.legend(handles=legend_elements, loc='upper right')
+    ax.legend(handles=legend_elements, loc='upper left', bbox_to_anchor=(1.01, 1), borderaxespad=0)
     
-    ax.set_xlabel('Sentiment', fontsize=12)
-    ax.set_ylabel('Percentage', fontsize=12)
+    ax.set_xlabel('Sentiment', fontsize=18)
+    ax.set_ylabel('Percentage', fontsize=18)
     ax.set_title('Distribution of positive, negative, and neutral sentiment by counseling quality', 
-                 fontsize=14, fontweight='bold')
+                 fontsize=18, fontweight='bold')
     ax.set_ylim(0, 1.0)
     ax.grid(True, alpha=0.3, axis='y')
     
@@ -397,13 +407,13 @@ def plot_positive_sentiment_over_time(sentiment_df):
                    label=MODE_LABELS.get(mode, mode),
                    color=COLORS[mode], alpha=0.7, capsize=5)
     
-    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=12)
-    ax.set_ylabel('Percentage', fontsize=12)
+    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
+    ax.set_ylabel('Percentage', fontsize=18)
     ax.set_title('Distribution of positive sentiment over 20% splits of the conversation', 
-                 fontsize=14, fontweight='bold')
+                 fontsize=18, fontweight='bold')
     ax.set_xticks([20, 40, 60, 80, 100])
     ax.set_ylim(0, 1.0)
-    ax.legend(fontsize=10)
+    ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3, axis='y')
     
     plt.tight_layout()
@@ -416,7 +426,7 @@ def plot_lsm_over_time(lsm_data):
         print("Warning: No LSM data available for LSM plot")
         return None
 
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(13, 6))
 
     for mode in ['simple', 'trained_agent', 'complex', 'multi_agent']:
         if mode in lsm_data:
@@ -445,10 +455,10 @@ def plot_lsm_over_time(lsm_data):
                 markersize=8
             )
 
-    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=12)
-    ax.set_ylabel('Average LSM', fontsize=12)
-    ax.set_title('Linguistic style matching across conversation progress', fontsize=14, fontweight='bold')
-    ax.legend(fontsize=10)
+    ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
+    ax.set_ylabel('Average LSM', fontsize=18)
+    ax.set_title('Linguistic style matching across conversation progress', fontsize=18, fontweight='bold')
+    ax.legend(fontsize=18, loc='upper left', bbox_to_anchor=(1.01, 1), borderaxespad=0)
     ax.grid(True, alpha=0.3)
     ax.set_xticks([20, 40, 60, 80, 100])
 
@@ -525,13 +535,13 @@ def plot_feedback_scores(feedback_df):
                      color=COLORS[mode], alpha=0.7, capsize=5)
     
     # Customize plot
-    ax.set_xlabel('Score Categories', fontsize=12)
-    ax.set_ylabel('Average Score', fontsize=12)
-    ax.set_title('Feedback Scores by Criterion and Therapist Mode', fontsize=14, fontweight='bold')
+    ax.set_xlabel('Score Categories', fontsize=18)
+    ax.set_ylabel('Average Score', fontsize=18)
+    ax.set_title('Feedback Scores by Criterion and Therapist Mode', fontsize=18, fontweight='bold')
     ax.set_xticks(x)
     ax.set_xticklabels(criteria_order, rotation=45, ha='right')
     ax.set_ylim(0, 6)  # Scores are 1-5, but allow some space above
-    ax.legend(fontsize=10)
+    ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3, axis='y')
     
     plt.tight_layout()
@@ -562,31 +572,31 @@ def main():
     fig7 = plot_feedback_scores(feedback_df)
     
     # Save plots
-    fig1.savefig(os.path.join(PLOTS_DIR, 'counselor_words_per_turn.png'), dpi=300, bbox_inches='tight')
-    fig2.savefig(os.path.join(PLOTS_DIR, 'client_words_per_turn.png'), dpi=300, bbox_inches='tight')
-    fig3.savefig(os.path.join(PLOTS_DIR, 'word_ratio.png'), dpi=300, bbox_inches='tight')
+    fig1.savefig(os.path.join(PLOTS_DIR, 'counselor_words_per_turn.svg'), format='svg', bbox_inches='tight')
+    fig2.savefig(os.path.join(PLOTS_DIR, 'client_words_per_turn.svg'), format='svg', bbox_inches='tight')
+    fig3.savefig(os.path.join(PLOTS_DIR, 'word_ratio.svg'), format='svg', bbox_inches='tight')
     
     if fig4:
-        fig4.savefig(os.path.join(PLOTS_DIR, 'sentiment_distribution.png'), dpi=300, bbox_inches='tight')
+        fig4.savefig(os.path.join(PLOTS_DIR, 'sentiment_distribution.svg'), format='svg', bbox_inches='tight')
     if fig5:
-        fig5.savefig(os.path.join(PLOTS_DIR, 'positive_sentiment_over_time.png'), dpi=300, bbox_inches='tight')
+        fig5.savefig(os.path.join(PLOTS_DIR, 'positive_sentiment_over_time.svg'), format='svg', bbox_inches='tight')
     if fig6:
-        fig6.savefig(os.path.join(PLOTS_DIR, 'lsm_over_time.png'), dpi=300, bbox_inches='tight')
+        fig6.savefig(os.path.join(PLOTS_DIR, 'lsm_over_time.svg'), format='svg', bbox_inches='tight')
     if fig7:
-        fig7.savefig(os.path.join(PLOTS_DIR, 'feedback_scores_by_criterion.png'), dpi=300, bbox_inches='tight')
+        fig7.savefig(os.path.join(PLOTS_DIR, 'feedback_scores_by_criterion.svg'), format='svg', bbox_inches='tight')
     
     print(f"\nPlots saved to {PLOTS_DIR}:")
-    print("  - counselor_words_per_turn.png")
-    print("  - client_words_per_turn.png")
-    print("  - word_ratio.png")
+    print("  - counselor_words_per_turn.svg")
+    print("  - client_words_per_turn.svg")
+    print("  - word_ratio.svg")
     if fig4:
-        print("  - sentiment_distribution.png")
+        print("  - sentiment_distribution.svg")
     if fig5:
-        print("  - positive_sentiment_over_time.png")
+        print("  - positive_sentiment_over_time.svg")
     if fig6:
-        print("  - lsm_over_time.png")
+        print("  - lsm_over_time.svg")
     if fig7:
-        print("  - feedback_scores_by_criterion.png")
+        print("  - feedback_scores_by_criterion.svg")
     
     # Show plots
     plt.show()

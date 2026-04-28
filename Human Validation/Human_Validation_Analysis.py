@@ -34,6 +34,18 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
+import matplotlib
+
+# Global plot settings: Arial font, minimum font size 18
+matplotlib.rcParams.update({
+    'font.family': 'Arial',
+    'font.size': 18,
+    'axes.titlesize': 18,
+    'axes.labelsize': 18,
+    'xtick.labelsize': 18,
+    'ytick.labelsize': 18,
+    'legend.fontsize': 18,
+})
 
 
 # ============================================================
@@ -246,7 +258,7 @@ def pairwise_wilcoxon_table(df_: pd.DataFrame, columns, outcome_label):
     return pd.DataFrame(rows)
 
 
-def add_bar_labels(ax, bars, means, sds, fontsize=9, offset_frac=0.03):
+def add_bar_labels(ax, bars, means, sds, fontsize=18, offset_frac=0.03):
     ymax = ax.get_ylim()[1]
     offset = ymax * offset_frac
     for bar, m, s in zip(bars, means, sds):
@@ -448,7 +460,7 @@ for i, agent in enumerate(AGENTS, start=1):
         f"{m:.2f}±{s:.2f}" if not pd.isna(s) else f"{m:.2f}",
         ha="center",
         va="bottom",
-        fontsize=10,
+        fontsize=18,
         fontweight="bold",
     )
 
@@ -486,7 +498,7 @@ cbar.set_label("Mean rating (1–5)")
 for i in range(len(AGENTS)):
     for j in range(len(CRITERIA)):
         value = criteria_means.iloc[i, j]
-        ax.text(j, i, f"{value:.2f}", ha="center", va="center", fontsize=10)
+        ax.text(j, i, f"{value:.2f}", ha="center", va="center", fontsize=18)
 
 plt.tight_layout()
 plt.savefig(OUTPUT_DIR / "figure_2_criteria_heatmap.svg", format="svg", bbox_inches="tight", dpi=300)
@@ -508,17 +520,15 @@ for agent in AGENTS:
         criteria_sds_bar.loc[agent, criterion] = vals.std(ddof=1) if len(vals) > 1 else np.nan
 
 x = np.arange(len(CRITERIA))
-width = 0.18
+width = 0.20
 
-fig, ax = plt.subplots(figsize=(11, 6))
-
-all_bar_tops = []
+fig, ax = plt.subplots(figsize=(14, 7))
 
 for i, agent in enumerate(AGENTS):
     means = criteria_means_bar.loc[agent].values.astype(float)
     sds = criteria_sds_bar.loc[agent].values.astype(float)
 
-    bars = ax.bar(
+    ax.bar(
         x + i * width,
         means,
         width=width,
@@ -530,27 +540,14 @@ for i, agent in enumerate(AGENTS):
         linewidth=0.8,
     )
 
-    # Track tops for y-limit setting
-    for m, s in zip(means, sds):
-        if pd.isna(m):
-            continue
-        all_bar_tops.append(m + (0 if pd.isna(s) else s))
-
-    add_bar_labels(ax, bars, means, sds, fontsize=8, offset_frac=0.02)
-
 center_shift = width * (len(AGENTS) - 1) / 2
 ax.set_xticks(x + center_shift)
-ax.set_xticklabels(CRITERIA, rotation=20)
+ax.set_xticklabels(CRITERIA, rotation=20, ha='right')
 ax.set_ylabel("Mean rating (1–5)")
 ax.set_title("Mean Criteria Ratings by Agent")
-ax.legend(frameon=False)
+ax.legend(frameon=False, loc='upper left', bbox_to_anchor=(1.01, 1), borderaxespad=0)
 ax.grid(axis="y", alpha=0.3)
-
-if all_bar_tops:
-    ymax = min(5.45, max(all_bar_tops) + 0.45)
-else:
-    ymax = 5.2
-ax.set_ylim(0, ymax)
+ax.set_ylim(0, 5.5)
 
 plt.tight_layout()
 plt.savefig(OUTPUT_DIR / "figure_3_criteria_grouped_bars.svg", format="svg", bbox_inches="tight", dpi=300)
