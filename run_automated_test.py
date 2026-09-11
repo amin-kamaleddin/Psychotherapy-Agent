@@ -62,13 +62,17 @@ def run_test(patient_profile_path, therapist_profile_number,
         patient_number: Optional patient identifier for folder naming
         therapist_feedback_csv: Optional CSV file with therapist feedback prompts
         api_key_input: Optional API key
-        therapist_mode: One of "simple", "trained_agent", "complex", or "multi_agent"
+        therapist_mode: One of "simple", "trained_agent", "complex", "multi_agent", or "proposer_only"
                         - "simple": Single-agent with 0_Simple_Agent prompt (index 0, no patient profile)
                         - "trained_agent": Single-agent with 1_Trained_Agent prompt (index 1, MI principles,
                                            no patient profile — distinct from the complex agent prompt)
                         - "complex": Single-agent with 2_Complex_Agent prompt (index 2, MI principles +
                                      explicit profile access, includes patient profile at runtime)
                         - "multi_agent": Multi-agent system (proposer index 3 + judge index 4)
+                        - "proposer_only": Ablation control — SAME proposer model but the selection
+                                           happens inside the single proposer LLM call (self-selection),
+                                           not via a separate judge. Matched 1-call cost vs the full
+                                           system's 2 calls, isolating the separate judge module.
     """
     api_key_input = API_KEY or api_key_input or "key"
 
@@ -84,11 +88,11 @@ def run_test(patient_profile_path, therapist_profile_number,
         add_on = df.loc[therapist_profile_number, "Prompt"]
 
     # Determine if using multi-agent system
-    use_multi_agent = (therapist_mode == "multi_agent")
+    use_multi_agent = (therapist_mode in ("multi_agent", "proposer_only"))
 
     # Initialize appropriate session manager based on mode
     if use_multi_agent:
-        # Multi-agent mode: use PsychotherapyMultiAgent
+        # Multi-agent / proposer_only mode: use PsychotherapyMultiAgent
         lb = PsychotherapyMultiAgent(api_key_input)
         
         # Set proposer and judge to use CSV rows 5 and 6 (indices 3 and 4)
@@ -98,6 +102,14 @@ def run_test(patient_profile_path, therapist_profile_number,
         proposer_index = 3  # Row 5 in CSV: 3_MultiAgent_Proposer
         judge_index = 4     # Row 6 in CSV: 4_MultiAgent_Judge
         lb.set_multi_agent_therapist_profiles(proposer_index, judge_index)
+        if therapist_mode == "proposer_only":
+            # Ablation control: same proposer model, but selection happens INSIDE the single
+            # proposer LLM call (self-selection) instead of a separate judge agent.
+            # This is a matched-cost single-agent control: 1 call vs the full system's 2 calls.
+            lb.set_selection_mode("self")
+            logging.info("proposer_only mode: single-call self-selection (proposer generates AND selects)")
+        else:
+            lb.set_selection_mode("judge")
         logging.info(f"Multi-agent mode: Proposer index {proposer_index}, Judge index {judge_index}")
     elif therapist_mode == "trained_agent":
         # Trained agent: 1_Trained_Agent prompt (index 1) — full MI principles, patient profile withheld at runtime
@@ -254,7 +266,7 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         therapist_num = 1  # CSV index 1 (row 3): 1_Trained_Agent — complex MI, no patient profile
     elif therapist_mode == "complex":
         therapist_num = complex_therapist_num if complex_therapist_num is not None else 2  # CSV index 2 (row 4)
-    else:  # multi_agent
+    else:  # multi_agent / proposer_only
         therapist_num = 3  # multi-agent uses proposer index 3 (row 5) and judge index 4 (row 6)
 
     # Get patient files for this range
@@ -870,8 +882,8 @@ if __name__ == "__main__":
                         help="Run identifier for grouping parallel runs")
     parser.add_argument("--aggregate", action="store_true",
                         help="Aggregate results from parallel runs")
-    parser.add_argument("--mode", type=str, choices=["simple", "trained_agent", "complex", "multi_agent"],
-                        help="Therapist mode: simple, trained_agent (complex MI no profile), complex, or multi_agent")
+    parser.add_argument("--mode", type=str, choices=["simple", "trained_agent", "complex", "multi_agent", "proposer_only"],
+                        help="Therapist mode: simple, trained_agent (complex MI no profile), complex, multi_agent, or proposer_only (ablation control)")
     parser.add_argument("--simple-therapist", type=int, default=None,
                         help="Therapist profile index for simple mode")
     parser.add_argument("--complex-therapist", type=int, default=None,

@@ -68,6 +68,22 @@ class PsychotherapyMultiAgent:
         
         logging.info("PsychotherapyMultiAgent initialized with multi-agent therapist system.")
     
+    def set_selection_mode(self, selection_mode: str):
+        """Set the candidate-selection mechanism (judge or self).
+
+        Ablation control: with selection_mode='self', the proposer generates the 3
+        candidates AND selects the best one within the SAME single LLM call (no separate
+        judge node). This is a matched-cost single-agent control (1 call vs the full
+        system's 2), isolating the effect of the separate/learned judge module.
+
+        Args:
+            selection_mode: 'judge' (default) or 'self'
+        """
+        self.message_workflow.selection_mode = selection_mode
+        # Rebuild workflow to apply the new selection mode
+        self.message_graph = self.message_workflow.build()
+        logging.info(f"Multi-agent candidate selection mode set to: {selection_mode}")
+    
     def set_multi_agent_therapist_profiles(self, proposer_index: int, judge_index: int):
         """
         Set therapist profile indices for multi-agent mode.

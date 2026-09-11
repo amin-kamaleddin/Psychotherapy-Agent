@@ -19,7 +19,9 @@ class MessageWorkflow:
     """Workflow for processing messages during therapy session."""
     
     def __init__(self, llm_manager, prompt_manager, use_multi_agent: bool = True,
-                 proposer_index: int = 3, judge_index: int = 4):
+                 proposer_index: int = 3, judge_index: int = 4,
+                 self_select_index: int = 5,
+                 selection_mode: str = "judge"):
         """
         Initialize the workflow.
         
@@ -29,12 +31,21 @@ class MessageWorkflow:
             use_multi_agent: If True, uses proposer+judge system
             proposer_index: CSV index for proposer agent (default: 3, row 5 = 3_MultiAgent_Proposer)
             judge_index: CSV index for judge agent (default: 4, row 6 = 4_MultiAgent_Judge)
+            self_select_index: CSV index for the single-call self-selection prompt
+                               (default: 5, row 7 = 5_Proposer_SelfSelect)
+            selection_mode: How to pick among the candidate responses.
+                            'judge' -> use the learned judge agent (full multi-agent).
+                            'self'  -> the proposer both generates 3 candidates and selects the
+                                       best one in a SINGLE LLM call (true single-agent control
+                                       with matched 1-call cost).
         """
         self.llm_manager = llm_manager
         self.prompt_manager = prompt_manager
         self.use_multi_agent = use_multi_agent
         self.proposer_index = proposer_index
         self.judge_index = judge_index
+        self.self_select_index = self_select_index
+        self.selection_mode = selection_mode
     
     def build(self):
         """Build and return the compiled message workflow."""
@@ -48,9 +59,15 @@ class MessageWorkflow:
             workflow.add_node("judge_responses", RunnableLambda(self._judge_therapist_responses))
             workflow.add_node("generate_response", RunnableLambda(self._generate_ai_response))
             workflow.set_entry_point("process_input")
-            workflow.add_edge("process_input", "propose_responses")
-            workflow.add_edge("propose_responses", "judge_responses")
-            workflow.add_edge("judge_responses", "generate_response")
+            if self.selection_mode == "self":
+                # Single-call self-selection control: proposer generates AND selects, judge is skipped.
+                workflow.add_edge("process_input", "propose_responses")
+                workflow.add_edge("propose_responses", "generate_response")
+                logging.info("Message processing workflow built with single-call self-selection (no judge).")
+            else:
+                workflow.add_edge("process_input", "propose_responses")
+                workflow.add_edge("propose_responses", "judge_responses")
+                workflow.add_edge("judge_responses", "generate_response")
             workflow.add_edge("generate_response", END)
             logging.info("Message processing workflow built with multi-agent therapist system.")
         else:
@@ -151,7 +168,61 @@ class MessageWorkflow:
                 logging.info("Added patient profile as background context")
             
             messages.extend(conversation_history)
-            
+
+            # Single-call self-selection control: the ONE proposer call both generates the 3
+            # candidates AND picks the best one. The prompt lives in the CSV (5_Proposer_SelfSelect)
+            # so no selection text is hardcoded here. This is the true single-agent ablation
+            # (1 LLM call vs the full system's 2), so any performance gap cannot be attributed
+            # to model count or a separate judge role.
+            if self.selection_mode == "self":
+                # Build the same message structure as the normal proposer path, but use the
+                # dedicated single-call self-selection prompt from the CSV.
+                self_select_prompt = self.prompt_manager.load_therapist_prompt_from_csv(self.self_select_index)
+                logging.info(f"Loaded self-select prompt from CSV (index {self.self_select_index})")
+
+                messages = [
+                    SystemMessage(content=self_select_prompt),
+                    *([SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}")]
+                      if patient_profile else []),
+                    *conversation_history
+                ]
+                response = self.llm_manager.llm_therapist_proposer.invoke(messages)
+                response_text = response.content
+
+                # Try to extract the chosen response
+                selected_response = None
+                m = re.search(r'SELECTED RESULT:\s*(.*)', response_text, re.DOTALL | re.IGNORECASE)
+                if m:
+                    selected_response = m.group(1).strip()
+
+                if not selected_response:
+                    logging.warning("Could not parse self-selected result, using parsed candidate #1.")
+                    candidate_responses = self._parse_candidate_responses(response_text, interview_messages)
+                    selected_response = candidate_responses[0] if candidate_responses else "I understand. Can you tell me more?"
+
+                logging.info("Self-selection (single call) produced the chosen therapist response.")
+
+                # Parse candidates for logging (best effort)
+                _parsed_for_log = self._parse_candidate_responses(response_text, interview_messages)
+
+                conversation_history = state.get("judge_proposer_conversation", [])
+                turn_number = sum(1 for msg in interview_messages if isinstance(msg, HumanMessage)) + 1
+                turn_record = {
+                    "turn_number": turn_number,
+                    "candidate_responses": _parsed_for_log,
+                    "judge_request": "SELF-SELECTION (single call): proposer also selected",
+                    "judge_response": "Self-selected within the proposer call",
+                    "selected_response_index": "self",
+                    "selected_response": selected_response
+                }
+                conversation_history.append(turn_record)
+
+                return {
+                    "selected_therapist_response": selected_response,
+                    "judge_proposer_conversation": conversation_history,
+                    "current_phase": "generate_response"
+                }
+
             # Generate 3 candidate responses
             response = self.llm_manager.llm_therapist_proposer.invoke(messages)
             response_text = response.content
@@ -270,7 +341,7 @@ Generate exactly 3 different therapist responses. Format strictly as:
                     "judge_proposer_conversation": conversation_history,
                     "current_phase": "generate_response"
                 }
-            
+
             # Load judge prompt from CSV
             judge_prompt = self.prompt_manager.load_therapist_prompt_from_csv(self.judge_index)
             logging.info(f"Loaded judge prompt from CSV (index {self.judge_index})")

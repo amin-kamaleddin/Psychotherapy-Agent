@@ -5319,3 +5319,1333 @@ patient_id,therapist_mode,criterion,score,num_folds
 9,multi_agent,Cultivating Change Talk,4.2,5
 9,multi_agent,Softening Sustain Talk,4.0,5
 9,multi_agent,Overall Average,4.6222,5
+0,proposer_only,Acceptance,4.8333,6
+0,proposer_only,Empathy,4.1667,6
+0,proposer_only,Direction,5.0,6
+0,proposer_only,Collaboration,5.0,6
+0,proposer_only,Autonomy Support,5.0,6
+0,proposer_only,Evocation,4.5,6
+0,proposer_only,Partnership,5.0,6
+0,proposer_only,Cultivating Change Talk,4.3333,6
+0,proposer_only,Softening Sustain Talk,3.8333,6
+0,proposer_only,Overall Average,4.6296,6
+100,proposer_only,Acceptance,5.0,6
+100,proposer_only,Empathy,4.8333,6
+100,proposer_only,Direction,5.0,6
+100,proposer_only,Collaboration,4.8333,6
+100,proposer_only,Autonomy Support,5.0,6
+100,proposer_only,Evocation,4.5,6
+100,proposer_only,Partnership,4.8333,6
+100,proposer_only,Cultivating Change Talk,4.5,6
+100,proposer_only,Softening Sustain Talk,4.5,6
+100,proposer_only,Overall Average,4.7778,6
+101,proposer_only,Acceptance,4.5,6
+101,proposer_only,Empathy,4.5,6
+101,proposer_only,Direction,5.0,6
+101,proposer_only,Collaboration,4.8333,6
+101,proposer_only,Autonomy Support,5.0,6
+101,proposer_only,Evocation,4.8333,6
+101,proposer_only,Partnership,5.0,6
+101,proposer_only,Cultivating Change Talk,4.5,6
+101,proposer_only,Softening Sustain Talk,3.5,6
+101,proposer_only,Overall Average,4.6296,6
+102,proposer_only,Acceptance,4.8333,6
+102,proposer_only,Empathy,4.6667,6
+102,proposer_only,Direction,5.0,6
+102,proposer_only,Collaboration,5.0,6
+102,proposer_only,Autonomy Support,5.0,6
+102,proposer_only,Evocation,4.5,6
+102,proposer_only,Partnership,4.6667,6
+102,proposer_only,Cultivating Change Talk,4.3333,6
+102,proposer_only,Softening Sustain Talk,4.1667,6
+102,proposer_only,Overall Average,4.6852,6
+103,proposer_only,Acceptance,5.0,6
+103,proposer_only,Empathy,4.8333,6
+103,proposer_only,Direction,5.0,6
+103,proposer_only,Collaboration,5.0,6
+103,proposer_only,Autonomy Support,5.0,6
+103,proposer_only,Evocation,4.1667,6
+103,proposer_only,Partnership,5.0,6
+103,proposer_only,Cultivating Change Talk,4.5,6
+103,proposer_only,Softening Sustain Talk,4.0,6
+103,proposer_only,Overall Average,4.7222,6
+104,proposer_only,Acceptance,5.0,6
+104,proposer_only,Empathy,4.8333,6
+104,proposer_only,Direction,5.0,6
+104,proposer_only,Collaboration,5.0,6
+104,proposer_only,Autonomy Support,5.0,6
+104,proposer_only,Evocation,4.6667,6
+104,proposer_only,Partnership,4.8333,6
+104,proposer_only,Cultivating Change Talk,4.6667,6
+104,proposer_only,Softening Sustain Talk,4.3333,6
+104,proposer_only,Overall Average,4.8148,6
+105,proposer_only,Acceptance,4.8333,6
+105,proposer_only,Empathy,4.3333,6
+105,proposer_only,Direction,5.0,6
+105,proposer_only,Collaboration,4.8333,6
+105,proposer_only,Autonomy Support,5.0,6
+105,proposer_only,Evocation,4.0,6
+105,proposer_only,Partnership,4.6667,6
+105,proposer_only,Cultivating Change Talk,4.0,6
+105,proposer_only,Softening Sustain Talk,4.1667,6
+105,proposer_only,Overall Average,4.537,6
+106,proposer_only,Acceptance,4.8333,6
+106,proposer_only,Empathy,4.5,6
+106,proposer_only,Direction,5.0,6
+106,proposer_only,Collaboration,5.0,6
+106,proposer_only,Autonomy Support,5.0,6
+106,proposer_only,Evocation,4.3333,6
+106,proposer_only,Partnership,4.8333,6
+106,proposer_only,Cultivating Change Talk,4.1667,6
+106,proposer_only,Softening Sustain Talk,3.5,6
+106,proposer_only,Overall Average,4.5741,6
+107,proposer_only,Acceptance,4.8333,6
+107,proposer_only,Empathy,4.6667,6
+107,proposer_only,Direction,5.0,6
+107,proposer_only,Collaboration,5.0,6
+107,proposer_only,Autonomy Support,5.0,6
+107,proposer_only,Evocation,4.3333,6
+107,proposer_only,Partnership,5.0,6
+107,proposer_only,Cultivating Change Talk,4.0,6
+107,proposer_only,Softening Sustain Talk,4.0,6
+107,proposer_only,Overall Average,4.6481,6
+108,proposer_only,Acceptance,4.8333,6
+108,proposer_only,Empathy,4.8333,6
+108,proposer_only,Direction,4.8333,6
+108,proposer_only,Collaboration,5.0,6
+108,proposer_only,Autonomy Support,5.0,6
+108,proposer_only,Evocation,4.5,6
+108,proposer_only,Partnership,4.8333,6
+108,proposer_only,Cultivating Change Talk,4.5,6
+108,proposer_only,Softening Sustain Talk,4.3333,6
+108,proposer_only,Overall Average,4.7407,6
+109,proposer_only,Acceptance,4.6667,6
+109,proposer_only,Empathy,4.1667,6
+109,proposer_only,Direction,4.8333,6
+109,proposer_only,Collaboration,4.8333,6
+109,proposer_only,Autonomy Support,5.0,6
+109,proposer_only,Evocation,4.0,6
+109,proposer_only,Partnership,4.8333,6
+109,proposer_only,Cultivating Change Talk,4.0,6
+109,proposer_only,Softening Sustain Talk,4.0,6
+109,proposer_only,Overall Average,4.4815,6
+10,proposer_only,Acceptance,5.0,6
+10,proposer_only,Empathy,4.3333,6
+10,proposer_only,Direction,5.0,6
+10,proposer_only,Collaboration,5.0,6
+10,proposer_only,Autonomy Support,5.0,6
+10,proposer_only,Evocation,4.6667,6
+10,proposer_only,Partnership,5.0,6
+10,proposer_only,Cultivating Change Talk,4.5,6
+10,proposer_only,Softening Sustain Talk,4.0,6
+10,proposer_only,Overall Average,4.7222,6
+110,proposer_only,Acceptance,4.8333,6
+110,proposer_only,Empathy,4.3333,6
+110,proposer_only,Direction,5.0,6
+110,proposer_only,Collaboration,4.5,6
+110,proposer_only,Autonomy Support,5.0,6
+110,proposer_only,Evocation,4.1667,6
+110,proposer_only,Partnership,4.5,6
+110,proposer_only,Cultivating Change Talk,4.1667,6
+110,proposer_only,Softening Sustain Talk,3.8333,6
+110,proposer_only,Overall Average,4.4815,6
+111,proposer_only,Acceptance,4.8333,6
+111,proposer_only,Empathy,4.5,6
+111,proposer_only,Direction,4.8333,6
+111,proposer_only,Collaboration,4.5,6
+111,proposer_only,Autonomy Support,4.8333,6
+111,proposer_only,Evocation,4.0,6
+111,proposer_only,Partnership,4.8333,6
+111,proposer_only,Cultivating Change Talk,4.1667,6
+111,proposer_only,Softening Sustain Talk,4.0,6
+111,proposer_only,Overall Average,4.5,6
+112,proposer_only,Acceptance,4.8333,6
+112,proposer_only,Empathy,5.0,6
+112,proposer_only,Direction,5.0,6
+112,proposer_only,Collaboration,4.8333,6
+112,proposer_only,Autonomy Support,5.0,6
+112,proposer_only,Evocation,4.6667,6
+112,proposer_only,Partnership,5.0,6
+112,proposer_only,Cultivating Change Talk,4.6667,6
+112,proposer_only,Softening Sustain Talk,4.0,6
+112,proposer_only,Overall Average,4.7778,6
+113,proposer_only,Acceptance,4.6667,6
+113,proposer_only,Empathy,4.1667,6
+113,proposer_only,Direction,5.0,6
+113,proposer_only,Collaboration,4.6667,6
+113,proposer_only,Autonomy Support,5.0,6
+113,proposer_only,Evocation,4.5,6
+113,proposer_only,Partnership,5.0,6
+113,proposer_only,Cultivating Change Talk,4.0,6
+113,proposer_only,Softening Sustain Talk,4.1667,6
+113,proposer_only,Overall Average,4.5741,6
+114,proposer_only,Acceptance,4.6667,6
+114,proposer_only,Empathy,4.3333,6
+114,proposer_only,Direction,5.0,6
+114,proposer_only,Collaboration,5.0,6
+114,proposer_only,Autonomy Support,5.0,6
+114,proposer_only,Evocation,4.3333,6
+114,proposer_only,Partnership,4.8333,6
+114,proposer_only,Cultivating Change Talk,4.6667,6
+114,proposer_only,Softening Sustain Talk,3.8333,6
+114,proposer_only,Overall Average,4.6296,6
+115,proposer_only,Acceptance,4.6667,6
+115,proposer_only,Empathy,4.5,6
+115,proposer_only,Direction,5.0,6
+115,proposer_only,Collaboration,4.3333,6
+115,proposer_only,Autonomy Support,5.0,6
+115,proposer_only,Evocation,4.1667,6
+115,proposer_only,Partnership,4.6667,6
+115,proposer_only,Cultivating Change Talk,4.1667,6
+115,proposer_only,Softening Sustain Talk,4.5,6
+115,proposer_only,Overall Average,4.5556,6
+116,proposer_only,Acceptance,4.6667,6
+116,proposer_only,Empathy,4.3333,6
+116,proposer_only,Direction,5.0,6
+116,proposer_only,Collaboration,4.6667,6
+116,proposer_only,Autonomy Support,5.0,6
+116,proposer_only,Evocation,4.0,6
+116,proposer_only,Partnership,4.8333,6
+116,proposer_only,Cultivating Change Talk,4.0,6
+116,proposer_only,Softening Sustain Talk,4.5,6
+116,proposer_only,Overall Average,4.5556,6
+117,proposer_only,Acceptance,4.5,6
+117,proposer_only,Empathy,4.6667,6
+117,proposer_only,Direction,5.0,6
+117,proposer_only,Collaboration,5.0,6
+117,proposer_only,Autonomy Support,5.0,6
+117,proposer_only,Evocation,4.5,6
+117,proposer_only,Partnership,5.0,6
+117,proposer_only,Cultivating Change Talk,4.5,6
+117,proposer_only,Softening Sustain Talk,3.6667,6
+117,proposer_only,Overall Average,4.6481,6
+118,proposer_only,Acceptance,4.8333,6
+118,proposer_only,Empathy,4.1667,6
+118,proposer_only,Direction,5.0,6
+118,proposer_only,Collaboration,4.6667,6
+118,proposer_only,Autonomy Support,5.0,6
+118,proposer_only,Evocation,4.0,6
+118,proposer_only,Partnership,4.6667,6
+118,proposer_only,Cultivating Change Talk,4.0,6
+118,proposer_only,Softening Sustain Talk,4.3333,6
+118,proposer_only,Overall Average,4.5185,6
+119,proposer_only,Acceptance,4.6667,6
+119,proposer_only,Empathy,4.3333,6
+119,proposer_only,Direction,5.0,6
+119,proposer_only,Collaboration,5.0,6
+119,proposer_only,Autonomy Support,5.0,6
+119,proposer_only,Evocation,4.3333,6
+119,proposer_only,Partnership,4.8333,6
+119,proposer_only,Cultivating Change Talk,4.3333,6
+119,proposer_only,Softening Sustain Talk,3.6667,6
+119,proposer_only,Overall Average,4.5741,6
+11,proposer_only,Acceptance,4.3333,6
+11,proposer_only,Empathy,4.1667,6
+11,proposer_only,Direction,5.0,6
+11,proposer_only,Collaboration,4.6667,6
+11,proposer_only,Autonomy Support,5.0,6
+11,proposer_only,Evocation,4.3333,6
+11,proposer_only,Partnership,4.8333,6
+11,proposer_only,Cultivating Change Talk,4.3333,6
+11,proposer_only,Softening Sustain Talk,4.1667,6
+11,proposer_only,Overall Average,4.537,6
+120,proposer_only,Acceptance,4.6667,6
+120,proposer_only,Empathy,4.5,6
+120,proposer_only,Direction,4.8333,6
+120,proposer_only,Collaboration,4.6667,6
+120,proposer_only,Autonomy Support,5.0,6
+120,proposer_only,Evocation,4.1667,6
+120,proposer_only,Partnership,4.6667,6
+120,proposer_only,Cultivating Change Talk,4.5,6
+120,proposer_only,Softening Sustain Talk,4.0,6
+120,proposer_only,Overall Average,4.5556,6
+121,proposer_only,Acceptance,4.8333,6
+121,proposer_only,Empathy,4.8333,6
+121,proposer_only,Direction,5.0,6
+121,proposer_only,Collaboration,4.8333,6
+121,proposer_only,Autonomy Support,5.0,6
+121,proposer_only,Evocation,4.1667,6
+121,proposer_only,Partnership,4.6667,6
+121,proposer_only,Cultivating Change Talk,4.5,6
+121,proposer_only,Softening Sustain Talk,4.0,6
+121,proposer_only,Overall Average,4.6481,6
+122,proposer_only,Acceptance,4.5,6
+122,proposer_only,Empathy,4.5,6
+122,proposer_only,Direction,5.0,6
+122,proposer_only,Collaboration,4.8333,6
+122,proposer_only,Autonomy Support,5.0,6
+122,proposer_only,Evocation,4.1667,6
+122,proposer_only,Partnership,4.8333,6
+122,proposer_only,Cultivating Change Talk,4.5,6
+122,proposer_only,Softening Sustain Talk,4.0,6
+122,proposer_only,Overall Average,4.5926,6
+123,proposer_only,Acceptance,5.0,6
+123,proposer_only,Empathy,4.8333,6
+123,proposer_only,Direction,5.0,6
+123,proposer_only,Collaboration,5.0,6
+123,proposer_only,Autonomy Support,5.0,6
+123,proposer_only,Evocation,4.6667,6
+123,proposer_only,Partnership,4.8333,6
+123,proposer_only,Cultivating Change Talk,4.6667,6
+123,proposer_only,Softening Sustain Talk,4.3333,6
+123,proposer_only,Overall Average,4.8148,6
+124,proposer_only,Acceptance,4.8333,6
+124,proposer_only,Empathy,4.5,6
+124,proposer_only,Direction,5.0,6
+124,proposer_only,Collaboration,4.8333,6
+124,proposer_only,Autonomy Support,5.0,6
+124,proposer_only,Evocation,4.5,6
+124,proposer_only,Partnership,5.0,6
+124,proposer_only,Cultivating Change Talk,4.3333,6
+124,proposer_only,Softening Sustain Talk,3.6667,6
+124,proposer_only,Overall Average,4.6296,6
+125,proposer_only,Acceptance,5.0,6
+125,proposer_only,Empathy,4.5,6
+125,proposer_only,Direction,4.8333,6
+125,proposer_only,Collaboration,4.6667,6
+125,proposer_only,Autonomy Support,5.0,6
+125,proposer_only,Evocation,4.3333,6
+125,proposer_only,Partnership,4.8333,6
+125,proposer_only,Cultivating Change Talk,4.1667,6
+125,proposer_only,Softening Sustain Talk,3.8333,6
+125,proposer_only,Overall Average,4.5741,6
+126,proposer_only,Acceptance,4.3333,6
+126,proposer_only,Empathy,4.1667,6
+126,proposer_only,Direction,5.0,6
+126,proposer_only,Collaboration,4.8333,6
+126,proposer_only,Autonomy Support,5.0,6
+126,proposer_only,Evocation,4.5,6
+126,proposer_only,Partnership,4.8333,6
+126,proposer_only,Cultivating Change Talk,4.3333,6
+126,proposer_only,Softening Sustain Talk,4.0,6
+126,proposer_only,Overall Average,4.5556,6
+127,proposer_only,Acceptance,5.0,6
+127,proposer_only,Empathy,4.8333,6
+127,proposer_only,Direction,5.0,6
+127,proposer_only,Collaboration,4.6667,6
+127,proposer_only,Autonomy Support,5.0,6
+127,proposer_only,Evocation,4.5,6
+127,proposer_only,Partnership,4.8333,6
+127,proposer_only,Cultivating Change Talk,4.6667,6
+127,proposer_only,Softening Sustain Talk,4.1667,6
+127,proposer_only,Overall Average,4.7407,6
+128,proposer_only,Acceptance,5.0,6
+128,proposer_only,Empathy,4.3333,6
+128,proposer_only,Direction,5.0,6
+128,proposer_only,Collaboration,4.8333,6
+128,proposer_only,Autonomy Support,5.0,6
+128,proposer_only,Evocation,4.5,6
+128,proposer_only,Partnership,5.0,6
+128,proposer_only,Cultivating Change Talk,4.5,6
+128,proposer_only,Softening Sustain Talk,3.6667,6
+128,proposer_only,Overall Average,4.6481,6
+129,proposer_only,Acceptance,4.8333,6
+129,proposer_only,Empathy,4.1667,6
+129,proposer_only,Direction,5.0,6
+129,proposer_only,Collaboration,4.8333,6
+129,proposer_only,Autonomy Support,5.0,6
+129,proposer_only,Evocation,4.3333,6
+129,proposer_only,Partnership,4.8333,6
+129,proposer_only,Cultivating Change Talk,4.3333,6
+129,proposer_only,Softening Sustain Talk,4.0,6
+129,proposer_only,Overall Average,4.5926,6
+12,proposer_only,Acceptance,4.3333,6
+12,proposer_only,Empathy,4.1667,6
+12,proposer_only,Direction,5.0,6
+12,proposer_only,Collaboration,4.6667,6
+12,proposer_only,Autonomy Support,5.0,6
+12,proposer_only,Evocation,4.0,6
+12,proposer_only,Partnership,4.6667,6
+12,proposer_only,Cultivating Change Talk,4.0,6
+12,proposer_only,Softening Sustain Talk,3.5,6
+12,proposer_only,Overall Average,4.3704,6
+130,proposer_only,Acceptance,4.6667,6
+130,proposer_only,Empathy,4.5,6
+130,proposer_only,Direction,5.0,6
+130,proposer_only,Collaboration,4.8333,6
+130,proposer_only,Autonomy Support,5.0,6
+130,proposer_only,Evocation,4.3333,6
+130,proposer_only,Partnership,4.6667,6
+130,proposer_only,Cultivating Change Talk,4.3333,6
+130,proposer_only,Softening Sustain Talk,3.6667,6
+130,proposer_only,Overall Average,4.5556,6
+131,proposer_only,Acceptance,4.5,6
+131,proposer_only,Empathy,4.5,6
+131,proposer_only,Direction,5.0,6
+131,proposer_only,Collaboration,4.6667,6
+131,proposer_only,Autonomy Support,5.0,6
+131,proposer_only,Evocation,4.6667,6
+131,proposer_only,Partnership,4.8333,6
+131,proposer_only,Cultivating Change Talk,4.5,6
+131,proposer_only,Softening Sustain Talk,4.0,6
+131,proposer_only,Overall Average,4.6296,6
+132,proposer_only,Acceptance,4.6667,6
+132,proposer_only,Empathy,4.5,6
+132,proposer_only,Direction,5.0,6
+132,proposer_only,Collaboration,4.5,6
+132,proposer_only,Autonomy Support,5.0,6
+132,proposer_only,Evocation,4.5,6
+132,proposer_only,Partnership,4.6667,6
+132,proposer_only,Cultivating Change Talk,4.1667,6
+132,proposer_only,Softening Sustain Talk,3.6667,6
+132,proposer_only,Overall Average,4.5185,6
+13,proposer_only,Acceptance,5.0,6
+13,proposer_only,Empathy,4.6667,6
+13,proposer_only,Direction,5.0,6
+13,proposer_only,Collaboration,4.6667,6
+13,proposer_only,Autonomy Support,5.0,6
+13,proposer_only,Evocation,4.1667,6
+13,proposer_only,Partnership,5.0,6
+13,proposer_only,Cultivating Change Talk,4.1667,6
+13,proposer_only,Softening Sustain Talk,4.3333,6
+13,proposer_only,Overall Average,4.6667,6
+14,proposer_only,Acceptance,4.5,6
+14,proposer_only,Empathy,4.5,6
+14,proposer_only,Direction,4.8333,6
+14,proposer_only,Collaboration,4.8333,6
+14,proposer_only,Autonomy Support,5.0,6
+14,proposer_only,Evocation,4.5,6
+14,proposer_only,Partnership,4.8333,6
+14,proposer_only,Cultivating Change Talk,4.5,6
+14,proposer_only,Softening Sustain Talk,4.1667,6
+14,proposer_only,Overall Average,4.6296,6
+15,proposer_only,Acceptance,4.3333,6
+15,proposer_only,Empathy,4.0,6
+15,proposer_only,Direction,5.0,6
+15,proposer_only,Collaboration,4.1667,6
+15,proposer_only,Autonomy Support,5.0,6
+15,proposer_only,Evocation,3.5,6
+15,proposer_only,Partnership,3.6667,6
+15,proposer_only,Cultivating Change Talk,3.6667,6
+15,proposer_only,Softening Sustain Talk,2.8333,6
+15,proposer_only,Overall Average,4.0185,6
+16,proposer_only,Acceptance,4.5,6
+16,proposer_only,Empathy,4.3333,6
+16,proposer_only,Direction,4.8333,6
+16,proposer_only,Collaboration,4.6667,6
+16,proposer_only,Autonomy Support,4.8333,6
+16,proposer_only,Evocation,4.6667,6
+16,proposer_only,Partnership,5.0,6
+16,proposer_only,Cultivating Change Talk,4.6667,6
+16,proposer_only,Softening Sustain Talk,4.3333,6
+16,proposer_only,Overall Average,4.6481,6
+17,proposer_only,Acceptance,4.6667,6
+17,proposer_only,Empathy,4.5,6
+17,proposer_only,Direction,5.0,6
+17,proposer_only,Collaboration,4.8333,6
+17,proposer_only,Autonomy Support,5.0,6
+17,proposer_only,Evocation,4.5,6
+17,proposer_only,Partnership,4.8333,6
+17,proposer_only,Cultivating Change Talk,4.5,6
+17,proposer_only,Softening Sustain Talk,4.3333,6
+17,proposer_only,Overall Average,4.6852,6
+18,proposer_only,Acceptance,4.6667,6
+18,proposer_only,Empathy,4.3333,6
+18,proposer_only,Direction,4.8333,6
+18,proposer_only,Collaboration,4.5,6
+18,proposer_only,Autonomy Support,5.0,6
+18,proposer_only,Evocation,4.1667,6
+18,proposer_only,Partnership,4.6667,6
+18,proposer_only,Cultivating Change Talk,4.3333,6
+18,proposer_only,Softening Sustain Talk,4.0,6
+18,proposer_only,Overall Average,4.5,6
+19,proposer_only,Acceptance,4.8333,6
+19,proposer_only,Empathy,4.5,6
+19,proposer_only,Direction,5.0,6
+19,proposer_only,Collaboration,4.8333,6
+19,proposer_only,Autonomy Support,5.0,6
+19,proposer_only,Evocation,4.0,6
+19,proposer_only,Partnership,4.6667,6
+19,proposer_only,Cultivating Change Talk,4.8333,6
+19,proposer_only,Softening Sustain Talk,4.1667,6
+19,proposer_only,Overall Average,4.6481,6
+1,proposer_only,Acceptance,4.8333,6
+1,proposer_only,Empathy,4.6667,6
+1,proposer_only,Direction,5.0,6
+1,proposer_only,Collaboration,4.6667,6
+1,proposer_only,Autonomy Support,5.0,6
+1,proposer_only,Evocation,4.1667,6
+1,proposer_only,Partnership,4.8333,6
+1,proposer_only,Cultivating Change Talk,4.1667,6
+1,proposer_only,Softening Sustain Talk,4.1667,6
+1,proposer_only,Overall Average,4.6111,6
+20,proposer_only,Acceptance,4.8333,6
+20,proposer_only,Empathy,4.6667,6
+20,proposer_only,Direction,5.0,6
+20,proposer_only,Collaboration,4.8333,6
+20,proposer_only,Autonomy Support,5.0,6
+20,proposer_only,Evocation,4.5,6
+20,proposer_only,Partnership,4.6667,6
+20,proposer_only,Cultivating Change Talk,4.5,6
+20,proposer_only,Softening Sustain Talk,3.8333,6
+20,proposer_only,Overall Average,4.6481,6
+21,proposer_only,Acceptance,5.0,6
+21,proposer_only,Empathy,4.8333,6
+21,proposer_only,Direction,5.0,6
+21,proposer_only,Collaboration,5.0,6
+21,proposer_only,Autonomy Support,5.0,6
+21,proposer_only,Evocation,4.5,6
+21,proposer_only,Partnership,4.8333,6
+21,proposer_only,Cultivating Change Talk,4.6667,6
+21,proposer_only,Softening Sustain Talk,4.3333,6
+21,proposer_only,Overall Average,4.7963,6
+22,proposer_only,Acceptance,4.8333,6
+22,proposer_only,Empathy,4.6667,6
+22,proposer_only,Direction,5.0,6
+22,proposer_only,Collaboration,4.8333,6
+22,proposer_only,Autonomy Support,5.0,6
+22,proposer_only,Evocation,4.3333,6
+22,proposer_only,Partnership,4.6667,6
+22,proposer_only,Cultivating Change Talk,4.5,6
+22,proposer_only,Softening Sustain Talk,3.8333,6
+22,proposer_only,Overall Average,4.6296,6
+23,proposer_only,Acceptance,5.0,6
+23,proposer_only,Empathy,4.6667,6
+23,proposer_only,Direction,4.8333,6
+23,proposer_only,Collaboration,5.0,6
+23,proposer_only,Autonomy Support,4.8333,6
+23,proposer_only,Evocation,4.8333,6
+23,proposer_only,Partnership,4.8333,6
+23,proposer_only,Cultivating Change Talk,4.6667,6
+23,proposer_only,Softening Sustain Talk,4.0,6
+23,proposer_only,Overall Average,4.7407,6
+24,proposer_only,Acceptance,4.8333,6
+24,proposer_only,Empathy,4.3333,6
+24,proposer_only,Direction,5.0,6
+24,proposer_only,Collaboration,4.8333,6
+24,proposer_only,Autonomy Support,5.0,6
+24,proposer_only,Evocation,4.5,6
+24,proposer_only,Partnership,4.8333,6
+24,proposer_only,Cultivating Change Talk,4.5,6
+24,proposer_only,Softening Sustain Talk,3.8333,6
+24,proposer_only,Overall Average,4.6296,6
+25,proposer_only,Acceptance,4.8333,6
+25,proposer_only,Empathy,5.0,6
+25,proposer_only,Direction,5.0,6
+25,proposer_only,Collaboration,5.0,6
+25,proposer_only,Autonomy Support,5.0,6
+25,proposer_only,Evocation,4.6667,6
+25,proposer_only,Partnership,5.0,6
+25,proposer_only,Cultivating Change Talk,4.6667,6
+25,proposer_only,Softening Sustain Talk,4.1667,6
+25,proposer_only,Overall Average,4.8148,6
+26,proposer_only,Acceptance,4.8333,6
+26,proposer_only,Empathy,4.6667,6
+26,proposer_only,Direction,5.0,6
+26,proposer_only,Collaboration,4.8333,6
+26,proposer_only,Autonomy Support,5.0,6
+26,proposer_only,Evocation,4.3333,6
+26,proposer_only,Partnership,5.0,6
+26,proposer_only,Cultivating Change Talk,4.5,6
+26,proposer_only,Softening Sustain Talk,4.0,6
+26,proposer_only,Overall Average,4.6852,6
+27,proposer_only,Acceptance,5.0,6
+27,proposer_only,Empathy,4.3333,6
+27,proposer_only,Direction,5.0,6
+27,proposer_only,Collaboration,4.8333,6
+27,proposer_only,Autonomy Support,5.0,6
+27,proposer_only,Evocation,4.3333,6
+27,proposer_only,Partnership,4.6667,6
+27,proposer_only,Cultivating Change Talk,4.1667,6
+27,proposer_only,Softening Sustain Talk,3.8333,6
+27,proposer_only,Overall Average,4.5741,6
+28,proposer_only,Acceptance,4.8333,6
+28,proposer_only,Empathy,4.5,6
+28,proposer_only,Direction,5.0,6
+28,proposer_only,Collaboration,4.8333,6
+28,proposer_only,Autonomy Support,5.0,6
+28,proposer_only,Evocation,4.1667,6
+28,proposer_only,Partnership,4.8333,6
+28,proposer_only,Cultivating Change Talk,4.1667,6
+28,proposer_only,Softening Sustain Talk,4.0,6
+28,proposer_only,Overall Average,4.5926,6
+29,proposer_only,Acceptance,4.8333,6
+29,proposer_only,Empathy,4.5,6
+29,proposer_only,Direction,4.8333,6
+29,proposer_only,Collaboration,5.0,6
+29,proposer_only,Autonomy Support,5.0,6
+29,proposer_only,Evocation,4.0,6
+29,proposer_only,Partnership,5.0,6
+29,proposer_only,Cultivating Change Talk,4.1667,6
+29,proposer_only,Softening Sustain Talk,3.8333,6
+29,proposer_only,Overall Average,4.5741,6
+2,proposer_only,Acceptance,4.8333,6
+2,proposer_only,Empathy,4.5,6
+2,proposer_only,Direction,5.0,6
+2,proposer_only,Collaboration,5.0,6
+2,proposer_only,Autonomy Support,5.0,6
+2,proposer_only,Evocation,4.8333,6
+2,proposer_only,Partnership,5.0,6
+2,proposer_only,Cultivating Change Talk,5.0,6
+2,proposer_only,Softening Sustain Talk,4.0,6
+2,proposer_only,Overall Average,4.7963,6
+30,proposer_only,Acceptance,4.6667,6
+30,proposer_only,Empathy,4.1667,6
+30,proposer_only,Direction,5.0,6
+30,proposer_only,Collaboration,4.3333,6
+30,proposer_only,Autonomy Support,5.0,6
+30,proposer_only,Evocation,3.6667,6
+30,proposer_only,Partnership,5.0,6
+30,proposer_only,Cultivating Change Talk,3.8333,6
+30,proposer_only,Softening Sustain Talk,3.8333,6
+30,proposer_only,Overall Average,4.3889,6
+31,proposer_only,Acceptance,5.0,6
+31,proposer_only,Empathy,5.0,6
+31,proposer_only,Direction,5.0,6
+31,proposer_only,Collaboration,5.0,6
+31,proposer_only,Autonomy Support,5.0,6
+31,proposer_only,Evocation,4.8333,6
+31,proposer_only,Partnership,5.0,6
+31,proposer_only,Cultivating Change Talk,4.6667,6
+31,proposer_only,Softening Sustain Talk,4.5,6
+31,proposer_only,Overall Average,4.8889,6
+32,proposer_only,Acceptance,4.6667,6
+32,proposer_only,Empathy,4.6667,6
+32,proposer_only,Direction,4.8333,6
+32,proposer_only,Collaboration,4.6667,6
+32,proposer_only,Autonomy Support,5.0,6
+32,proposer_only,Evocation,4.6667,6
+32,proposer_only,Partnership,5.0,6
+32,proposer_only,Cultivating Change Talk,4.8333,6
+32,proposer_only,Softening Sustain Talk,3.8333,6
+32,proposer_only,Overall Average,4.6852,6
+33,proposer_only,Acceptance,4.5,6
+33,proposer_only,Empathy,4.6667,6
+33,proposer_only,Direction,5.0,6
+33,proposer_only,Collaboration,4.8333,6
+33,proposer_only,Autonomy Support,5.0,6
+33,proposer_only,Evocation,4.8333,6
+33,proposer_only,Partnership,5.0,6
+33,proposer_only,Cultivating Change Talk,4.8333,6
+33,proposer_only,Softening Sustain Talk,4.1667,6
+33,proposer_only,Overall Average,4.7593,6
+34,proposer_only,Acceptance,4.1667,6
+34,proposer_only,Empathy,3.3333,6
+34,proposer_only,Direction,4.6667,6
+34,proposer_only,Collaboration,3.8333,6
+34,proposer_only,Autonomy Support,5.0,6
+34,proposer_only,Evocation,3.1667,6
+34,proposer_only,Partnership,4.0,6
+34,proposer_only,Cultivating Change Talk,2.5,6
+34,proposer_only,Softening Sustain Talk,3.0,6
+34,proposer_only,Overall Average,3.7407,6
+35,proposer_only,Acceptance,4.8333,6
+35,proposer_only,Empathy,4.5,6
+35,proposer_only,Direction,5.0,6
+35,proposer_only,Collaboration,4.8333,6
+35,proposer_only,Autonomy Support,5.0,6
+35,proposer_only,Evocation,4.5,6
+35,proposer_only,Partnership,5.0,6
+35,proposer_only,Cultivating Change Talk,4.3333,6
+35,proposer_only,Softening Sustain Talk,4.1667,6
+35,proposer_only,Overall Average,4.6852,6
+36,proposer_only,Acceptance,4.8333,6
+36,proposer_only,Empathy,4.5,6
+36,proposer_only,Direction,5.0,6
+36,proposer_only,Collaboration,4.5,6
+36,proposer_only,Autonomy Support,5.0,6
+36,proposer_only,Evocation,4.3333,6
+36,proposer_only,Partnership,5.0,6
+36,proposer_only,Cultivating Change Talk,4.3333,6
+36,proposer_only,Softening Sustain Talk,4.3333,6
+36,proposer_only,Overall Average,4.6481,6
+37,proposer_only,Acceptance,4.8333,6
+37,proposer_only,Empathy,4.6667,6
+37,proposer_only,Direction,5.0,6
+37,proposer_only,Collaboration,4.8333,6
+37,proposer_only,Autonomy Support,5.0,6
+37,proposer_only,Evocation,4.3333,6
+37,proposer_only,Partnership,4.8333,6
+37,proposer_only,Cultivating Change Talk,4.1667,6
+37,proposer_only,Softening Sustain Talk,4.1667,6
+37,proposer_only,Overall Average,4.6481,6
+38,proposer_only,Acceptance,5.0,6
+38,proposer_only,Empathy,4.8333,6
+38,proposer_only,Direction,5.0,6
+38,proposer_only,Collaboration,4.3333,6
+38,proposer_only,Autonomy Support,5.0,6
+38,proposer_only,Evocation,3.8333,6
+38,proposer_only,Partnership,4.8333,6
+38,proposer_only,Cultivating Change Talk,3.6667,6
+38,proposer_only,Softening Sustain Talk,4.1667,6
+38,proposer_only,Overall Average,4.5185,6
+39,proposer_only,Acceptance,4.6667,6
+39,proposer_only,Empathy,4.5,6
+39,proposer_only,Direction,5.0,6
+39,proposer_only,Collaboration,4.6667,6
+39,proposer_only,Autonomy Support,5.0,6
+39,proposer_only,Evocation,4.1667,6
+39,proposer_only,Partnership,4.8333,6
+39,proposer_only,Cultivating Change Talk,4.1667,6
+39,proposer_only,Softening Sustain Talk,3.8333,6
+39,proposer_only,Overall Average,4.537,6
+3,proposer_only,Acceptance,4.5,6
+3,proposer_only,Empathy,4.5,6
+3,proposer_only,Direction,5.0,6
+3,proposer_only,Collaboration,5.0,6
+3,proposer_only,Autonomy Support,5.0,6
+3,proposer_only,Evocation,4.6667,6
+3,proposer_only,Partnership,5.0,6
+3,proposer_only,Cultivating Change Talk,4.5,6
+3,proposer_only,Softening Sustain Talk,4.1667,6
+3,proposer_only,Overall Average,4.7037,6
+40,proposer_only,Acceptance,4.6667,6
+40,proposer_only,Empathy,4.6667,6
+40,proposer_only,Direction,5.0,6
+40,proposer_only,Collaboration,4.8333,6
+40,proposer_only,Autonomy Support,5.0,6
+40,proposer_only,Evocation,4.3333,6
+40,proposer_only,Partnership,4.8333,6
+40,proposer_only,Cultivating Change Talk,4.5,6
+40,proposer_only,Softening Sustain Talk,3.8333,6
+40,proposer_only,Overall Average,4.6296,6
+41,proposer_only,Acceptance,4.6667,6
+41,proposer_only,Empathy,4.3333,6
+41,proposer_only,Direction,5.0,6
+41,proposer_only,Collaboration,4.6667,6
+41,proposer_only,Autonomy Support,5.0,6
+41,proposer_only,Evocation,4.0,6
+41,proposer_only,Partnership,5.0,6
+41,proposer_only,Cultivating Change Talk,4.0,6
+41,proposer_only,Softening Sustain Talk,3.6667,6
+41,proposer_only,Overall Average,4.4815,6
+42,proposer_only,Acceptance,4.5,6
+42,proposer_only,Empathy,4.0,6
+42,proposer_only,Direction,5.0,6
+42,proposer_only,Collaboration,4.6667,6
+42,proposer_only,Autonomy Support,5.0,6
+42,proposer_only,Evocation,4.0,6
+42,proposer_only,Partnership,4.8333,6
+42,proposer_only,Cultivating Change Talk,4.0,6
+42,proposer_only,Softening Sustain Talk,3.8333,6
+42,proposer_only,Overall Average,4.4259,6
+43,proposer_only,Acceptance,4.3333,6
+43,proposer_only,Empathy,4.5,6
+43,proposer_only,Direction,5.0,6
+43,proposer_only,Collaboration,4.5,6
+43,proposer_only,Autonomy Support,5.0,6
+43,proposer_only,Evocation,4.5,6
+43,proposer_only,Partnership,5.0,6
+43,proposer_only,Cultivating Change Talk,4.5,6
+43,proposer_only,Softening Sustain Talk,4.1667,6
+43,proposer_only,Overall Average,4.6111,6
+44,proposer_only,Acceptance,4.6667,6
+44,proposer_only,Empathy,4.6667,6
+44,proposer_only,Direction,5.0,6
+44,proposer_only,Collaboration,5.0,6
+44,proposer_only,Autonomy Support,4.8333,6
+44,proposer_only,Evocation,4.6667,6
+44,proposer_only,Partnership,4.8333,6
+44,proposer_only,Cultivating Change Talk,4.8333,6
+44,proposer_only,Softening Sustain Talk,4.1667,6
+44,proposer_only,Overall Average,4.7407,6
+45,proposer_only,Acceptance,4.6667,6
+45,proposer_only,Empathy,4.0,6
+45,proposer_only,Direction,5.0,6
+45,proposer_only,Collaboration,4.8333,6
+45,proposer_only,Autonomy Support,4.8333,6
+45,proposer_only,Evocation,4.0,6
+45,proposer_only,Partnership,4.6667,6
+45,proposer_only,Cultivating Change Talk,4.1667,6
+45,proposer_only,Softening Sustain Talk,4.5,6
+45,proposer_only,Overall Average,4.5185,6
+46,proposer_only,Acceptance,4.8333,6
+46,proposer_only,Empathy,4.6667,6
+46,proposer_only,Direction,4.8333,6
+46,proposer_only,Collaboration,4.6667,6
+46,proposer_only,Autonomy Support,4.8333,6
+46,proposer_only,Evocation,4.3333,6
+46,proposer_only,Partnership,4.6667,6
+46,proposer_only,Cultivating Change Talk,4.3333,6
+46,proposer_only,Softening Sustain Talk,4.1667,6
+46,proposer_only,Overall Average,4.5926,6
+47,proposer_only,Acceptance,4.5,6
+47,proposer_only,Empathy,4.5,6
+47,proposer_only,Direction,5.0,6
+47,proposer_only,Collaboration,4.6667,6
+47,proposer_only,Autonomy Support,5.0,6
+47,proposer_only,Evocation,4.3333,6
+47,proposer_only,Partnership,5.0,6
+47,proposer_only,Cultivating Change Talk,4.6667,6
+47,proposer_only,Softening Sustain Talk,4.0,6
+47,proposer_only,Overall Average,4.6296,6
+48,proposer_only,Acceptance,4.6667,6
+48,proposer_only,Empathy,4.3333,6
+48,proposer_only,Direction,5.0,6
+48,proposer_only,Collaboration,4.5,6
+48,proposer_only,Autonomy Support,5.0,6
+48,proposer_only,Evocation,4.3333,6
+48,proposer_only,Partnership,4.8333,6
+48,proposer_only,Cultivating Change Talk,4.1667,6
+48,proposer_only,Softening Sustain Talk,3.8333,6
+48,proposer_only,Overall Average,4.5185,6
+49,proposer_only,Acceptance,4.6667,6
+49,proposer_only,Empathy,4.3333,6
+49,proposer_only,Direction,5.0,6
+49,proposer_only,Collaboration,4.6667,6
+49,proposer_only,Autonomy Support,5.0,6
+49,proposer_only,Evocation,4.6667,6
+49,proposer_only,Partnership,5.0,6
+49,proposer_only,Cultivating Change Talk,4.6667,6
+49,proposer_only,Softening Sustain Talk,4.0,6
+49,proposer_only,Overall Average,4.6667,6
+4,proposer_only,Acceptance,4.8333,6
+4,proposer_only,Empathy,4.5,6
+4,proposer_only,Direction,5.0,6
+4,proposer_only,Collaboration,5.0,6
+4,proposer_only,Autonomy Support,5.0,6
+4,proposer_only,Evocation,4.1667,6
+4,proposer_only,Partnership,4.6667,6
+4,proposer_only,Cultivating Change Talk,3.8333,6
+4,proposer_only,Softening Sustain Talk,3.8333,6
+4,proposer_only,Overall Average,4.537,6
+50,proposer_only,Acceptance,4.6667,6
+50,proposer_only,Empathy,4.8333,6
+50,proposer_only,Direction,5.0,6
+50,proposer_only,Collaboration,4.8333,6
+50,proposer_only,Autonomy Support,5.0,6
+50,proposer_only,Evocation,4.5,6
+50,proposer_only,Partnership,4.8333,6
+50,proposer_only,Cultivating Change Talk,4.6667,6
+50,proposer_only,Softening Sustain Talk,4.0,6
+50,proposer_only,Overall Average,4.7037,6
+51,proposer_only,Acceptance,4.6667,6
+51,proposer_only,Empathy,4.5,6
+51,proposer_only,Direction,4.8333,6
+51,proposer_only,Collaboration,5.0,6
+51,proposer_only,Autonomy Support,5.0,6
+51,proposer_only,Evocation,4.1667,6
+51,proposer_only,Partnership,4.6667,6
+51,proposer_only,Cultivating Change Talk,4.1667,6
+51,proposer_only,Softening Sustain Talk,4.1667,6
+51,proposer_only,Overall Average,4.5741,6
+52,proposer_only,Acceptance,4.8333,6
+52,proposer_only,Empathy,4.8333,6
+52,proposer_only,Direction,5.0,6
+52,proposer_only,Collaboration,5.0,6
+52,proposer_only,Autonomy Support,5.0,6
+52,proposer_only,Evocation,4.8333,6
+52,proposer_only,Partnership,5.0,6
+52,proposer_only,Cultivating Change Talk,5.0,6
+52,proposer_only,Softening Sustain Talk,4.1667,6
+52,proposer_only,Overall Average,4.8519,6
+53,proposer_only,Acceptance,5.0,6
+53,proposer_only,Empathy,4.5,6
+53,proposer_only,Direction,5.0,6
+53,proposer_only,Collaboration,4.5,6
+53,proposer_only,Autonomy Support,5.0,6
+53,proposer_only,Evocation,3.8333,6
+53,proposer_only,Partnership,4.5,6
+53,proposer_only,Cultivating Change Talk,4.0,6
+53,proposer_only,Softening Sustain Talk,4.0,6
+53,proposer_only,Overall Average,4.4815,6
+54,proposer_only,Acceptance,4.8333,6
+54,proposer_only,Empathy,4.0,6
+54,proposer_only,Direction,5.0,6
+54,proposer_only,Collaboration,4.8333,6
+54,proposer_only,Autonomy Support,5.0,6
+54,proposer_only,Evocation,4.1667,6
+54,proposer_only,Partnership,5.0,6
+54,proposer_only,Cultivating Change Talk,4.1667,6
+54,proposer_only,Softening Sustain Talk,4.0,6
+54,proposer_only,Overall Average,4.5556,6
+55,proposer_only,Acceptance,4.6667,6
+55,proposer_only,Empathy,4.5,6
+55,proposer_only,Direction,4.8333,6
+55,proposer_only,Collaboration,4.6667,6
+55,proposer_only,Autonomy Support,4.8333,6
+55,proposer_only,Evocation,4.3333,6
+55,proposer_only,Partnership,4.8333,6
+55,proposer_only,Cultivating Change Talk,4.3333,6
+55,proposer_only,Softening Sustain Talk,4.0,6
+55,proposer_only,Overall Average,4.5556,6
+56,proposer_only,Acceptance,4.6667,6
+56,proposer_only,Empathy,4.1667,6
+56,proposer_only,Direction,5.0,6
+56,proposer_only,Collaboration,4.8333,6
+56,proposer_only,Autonomy Support,5.0,6
+56,proposer_only,Evocation,4.5,6
+56,proposer_only,Partnership,5.0,6
+56,proposer_only,Cultivating Change Talk,4.5,6
+56,proposer_only,Softening Sustain Talk,4.3333,6
+56,proposer_only,Overall Average,4.6667,6
+57,proposer_only,Acceptance,4.8333,6
+57,proposer_only,Empathy,4.8333,6
+57,proposer_only,Direction,5.0,6
+57,proposer_only,Collaboration,4.8333,6
+57,proposer_only,Autonomy Support,5.0,6
+57,proposer_only,Evocation,4.3333,6
+57,proposer_only,Partnership,4.5,6
+57,proposer_only,Cultivating Change Talk,4.3333,6
+57,proposer_only,Softening Sustain Talk,4.0,6
+57,proposer_only,Overall Average,4.6296,6
+58,proposer_only,Acceptance,4.5,6
+58,proposer_only,Empathy,4.3333,6
+58,proposer_only,Direction,5.0,6
+58,proposer_only,Collaboration,4.5,6
+58,proposer_only,Autonomy Support,5.0,6
+58,proposer_only,Evocation,4.1667,6
+58,proposer_only,Partnership,4.5,6
+58,proposer_only,Cultivating Change Talk,4.3333,6
+58,proposer_only,Softening Sustain Talk,3.6667,6
+58,proposer_only,Overall Average,4.4444,6
+59,proposer_only,Acceptance,4.8333,6
+59,proposer_only,Empathy,4.5,6
+59,proposer_only,Direction,5.0,6
+59,proposer_only,Collaboration,4.6667,6
+59,proposer_only,Autonomy Support,5.0,6
+59,proposer_only,Evocation,4.3333,6
+59,proposer_only,Partnership,4.8333,6
+59,proposer_only,Cultivating Change Talk,4.3333,6
+59,proposer_only,Softening Sustain Talk,3.8333,6
+59,proposer_only,Overall Average,4.5926,6
+5,proposer_only,Acceptance,4.8333,6
+5,proposer_only,Empathy,4.8333,6
+5,proposer_only,Direction,4.8333,6
+5,proposer_only,Collaboration,4.6667,6
+5,proposer_only,Autonomy Support,5.0,6
+5,proposer_only,Evocation,3.8333,6
+5,proposer_only,Partnership,4.3333,6
+5,proposer_only,Cultivating Change Talk,4.0,6
+5,proposer_only,Softening Sustain Talk,4.3333,6
+5,proposer_only,Overall Average,4.5185,6
+60,proposer_only,Acceptance,4.8333,6
+60,proposer_only,Empathy,4.1667,6
+60,proposer_only,Direction,5.0,6
+60,proposer_only,Collaboration,5.0,6
+60,proposer_only,Autonomy Support,5.0,6
+60,proposer_only,Evocation,4.1667,6
+60,proposer_only,Partnership,4.8333,6
+60,proposer_only,Cultivating Change Talk,4.0,6
+60,proposer_only,Softening Sustain Talk,3.8333,6
+60,proposer_only,Overall Average,4.537,6
+61,proposer_only,Acceptance,4.5,6
+61,proposer_only,Empathy,4.1667,6
+61,proposer_only,Direction,5.0,6
+61,proposer_only,Collaboration,4.8333,6
+61,proposer_only,Autonomy Support,5.0,6
+61,proposer_only,Evocation,3.6667,6
+61,proposer_only,Partnership,4.6667,6
+61,proposer_only,Cultivating Change Talk,4.0,6
+61,proposer_only,Softening Sustain Talk,3.8333,6
+61,proposer_only,Overall Average,4.4074,6
+62,proposer_only,Acceptance,4.8333,6
+62,proposer_only,Empathy,4.8333,6
+62,proposer_only,Direction,5.0,6
+62,proposer_only,Collaboration,4.6667,6
+62,proposer_only,Autonomy Support,5.0,6
+62,proposer_only,Evocation,4.3333,6
+62,proposer_only,Partnership,5.0,6
+62,proposer_only,Cultivating Change Talk,4.3333,6
+62,proposer_only,Softening Sustain Talk,4.1667,6
+62,proposer_only,Overall Average,4.6852,6
+63,proposer_only,Acceptance,4.5,6
+63,proposer_only,Empathy,4.3333,6
+63,proposer_only,Direction,5.0,6
+63,proposer_only,Collaboration,4.8333,6
+63,proposer_only,Autonomy Support,5.0,6
+63,proposer_only,Evocation,4.1667,6
+63,proposer_only,Partnership,4.8333,6
+63,proposer_only,Cultivating Change Talk,4.1667,6
+63,proposer_only,Softening Sustain Talk,3.6667,6
+63,proposer_only,Overall Average,4.5,6
+64,proposer_only,Acceptance,4.5,6
+64,proposer_only,Empathy,4.3333,6
+64,proposer_only,Direction,5.0,6
+64,proposer_only,Collaboration,5.0,6
+64,proposer_only,Autonomy Support,5.0,6
+64,proposer_only,Evocation,4.5,6
+64,proposer_only,Partnership,4.8333,6
+64,proposer_only,Cultivating Change Talk,4.3333,6
+64,proposer_only,Softening Sustain Talk,4.0,6
+64,proposer_only,Overall Average,4.6111,6
+65,proposer_only,Acceptance,5.0,6
+65,proposer_only,Empathy,4.8333,6
+65,proposer_only,Direction,5.0,6
+65,proposer_only,Collaboration,5.0,6
+65,proposer_only,Autonomy Support,5.0,6
+65,proposer_only,Evocation,4.0,6
+65,proposer_only,Partnership,4.8333,6
+65,proposer_only,Cultivating Change Talk,4.1667,6
+65,proposer_only,Softening Sustain Talk,3.6667,6
+65,proposer_only,Overall Average,4.6111,6
+66,proposer_only,Acceptance,4.5,6
+66,proposer_only,Empathy,4.1667,6
+66,proposer_only,Direction,5.0,6
+66,proposer_only,Collaboration,4.5,6
+66,proposer_only,Autonomy Support,5.0,6
+66,proposer_only,Evocation,4.3333,6
+66,proposer_only,Partnership,5.0,6
+66,proposer_only,Cultivating Change Talk,4.1667,6
+66,proposer_only,Softening Sustain Talk,4.0,6
+66,proposer_only,Overall Average,4.5185,6
+67,proposer_only,Acceptance,4.5,6
+67,proposer_only,Empathy,4.5,6
+67,proposer_only,Direction,4.8333,6
+67,proposer_only,Collaboration,4.5,6
+67,proposer_only,Autonomy Support,5.0,6
+67,proposer_only,Evocation,4.0,6
+67,proposer_only,Partnership,4.6667,6
+67,proposer_only,Cultivating Change Talk,4.1667,6
+67,proposer_only,Softening Sustain Talk,4.0,6
+67,proposer_only,Overall Average,4.463,6
+68,proposer_only,Acceptance,4.1667,6
+68,proposer_only,Empathy,4.1667,6
+68,proposer_only,Direction,5.0,6
+68,proposer_only,Collaboration,4.6667,6
+68,proposer_only,Autonomy Support,5.0,6
+68,proposer_only,Evocation,4.3333,6
+68,proposer_only,Partnership,4.8333,6
+68,proposer_only,Cultivating Change Talk,4.1667,6
+68,proposer_only,Softening Sustain Talk,3.8333,6
+68,proposer_only,Overall Average,4.463,6
+69,proposer_only,Acceptance,4.8333,6
+69,proposer_only,Empathy,4.3333,6
+69,proposer_only,Direction,4.8333,6
+69,proposer_only,Collaboration,4.6667,6
+69,proposer_only,Autonomy Support,5.0,6
+69,proposer_only,Evocation,4.5,6
+69,proposer_only,Partnership,4.6667,6
+69,proposer_only,Cultivating Change Talk,4.6667,6
+69,proposer_only,Softening Sustain Talk,4.0,6
+69,proposer_only,Overall Average,4.6111,6
+6,proposer_only,Acceptance,4.8333,6
+6,proposer_only,Empathy,4.1667,6
+6,proposer_only,Direction,5.0,6
+6,proposer_only,Collaboration,4.6667,6
+6,proposer_only,Autonomy Support,5.0,6
+6,proposer_only,Evocation,4.3333,6
+6,proposer_only,Partnership,4.8333,6
+6,proposer_only,Cultivating Change Talk,4.3333,6
+6,proposer_only,Softening Sustain Talk,4.1667,6
+6,proposer_only,Overall Average,4.5926,6
+70,proposer_only,Acceptance,4.5,6
+70,proposer_only,Empathy,4.3333,6
+70,proposer_only,Direction,4.8333,6
+70,proposer_only,Collaboration,4.6667,6
+70,proposer_only,Autonomy Support,5.0,6
+70,proposer_only,Evocation,4.1667,6
+70,proposer_only,Partnership,4.6667,6
+70,proposer_only,Cultivating Change Talk,4.5,6
+70,proposer_only,Softening Sustain Talk,3.6667,6
+70,proposer_only,Overall Average,4.4815,6
+71,proposer_only,Acceptance,5.0,6
+71,proposer_only,Empathy,4.6667,6
+71,proposer_only,Direction,5.0,6
+71,proposer_only,Collaboration,4.8333,6
+71,proposer_only,Autonomy Support,5.0,6
+71,proposer_only,Evocation,4.6667,6
+71,proposer_only,Partnership,5.0,6
+71,proposer_only,Cultivating Change Talk,4.5,6
+71,proposer_only,Softening Sustain Talk,4.1667,6
+71,proposer_only,Overall Average,4.7593,6
+72,proposer_only,Acceptance,4.5,6
+72,proposer_only,Empathy,4.5,6
+72,proposer_only,Direction,4.8333,6
+72,proposer_only,Collaboration,5.0,6
+72,proposer_only,Autonomy Support,5.0,6
+72,proposer_only,Evocation,4.6667,6
+72,proposer_only,Partnership,5.0,6
+72,proposer_only,Cultivating Change Talk,4.3333,6
+72,proposer_only,Softening Sustain Talk,4.3333,6
+72,proposer_only,Overall Average,4.6852,6
+73,proposer_only,Acceptance,4.8333,6
+73,proposer_only,Empathy,4.5,6
+73,proposer_only,Direction,5.0,6
+73,proposer_only,Collaboration,5.0,6
+73,proposer_only,Autonomy Support,5.0,6
+73,proposer_only,Evocation,4.8333,6
+73,proposer_only,Partnership,5.0,6
+73,proposer_only,Cultivating Change Talk,4.8333,6
+73,proposer_only,Softening Sustain Talk,4.0,6
+73,proposer_only,Overall Average,4.7778,6
+74,proposer_only,Acceptance,4.3333,6
+74,proposer_only,Empathy,3.8333,6
+74,proposer_only,Direction,5.0,6
+74,proposer_only,Collaboration,4.0,6
+74,proposer_only,Autonomy Support,4.6667,6
+74,proposer_only,Evocation,3.8333,6
+74,proposer_only,Partnership,4.3333,6
+74,proposer_only,Cultivating Change Talk,3.6667,6
+74,proposer_only,Softening Sustain Talk,3.5,6
+74,proposer_only,Overall Average,4.1296,6
+75,proposer_only,Acceptance,4.1667,6
+75,proposer_only,Empathy,4.1667,6
+75,proposer_only,Direction,4.8333,6
+75,proposer_only,Collaboration,4.6667,6
+75,proposer_only,Autonomy Support,4.8333,6
+75,proposer_only,Evocation,4.3333,6
+75,proposer_only,Partnership,5.0,6
+75,proposer_only,Cultivating Change Talk,4.3333,6
+75,proposer_only,Softening Sustain Talk,3.8333,6
+75,proposer_only,Overall Average,4.463,6
+76,proposer_only,Acceptance,4.3333,6
+76,proposer_only,Empathy,4.1667,6
+76,proposer_only,Direction,5.0,6
+76,proposer_only,Collaboration,4.6667,6
+76,proposer_only,Autonomy Support,5.0,6
+76,proposer_only,Evocation,3.8333,6
+76,proposer_only,Partnership,5.0,6
+76,proposer_only,Cultivating Change Talk,4.0,6
+76,proposer_only,Softening Sustain Talk,3.8333,6
+76,proposer_only,Overall Average,4.4259,6
+77,proposer_only,Acceptance,4.8333,6
+77,proposer_only,Empathy,4.8333,6
+77,proposer_only,Direction,5.0,6
+77,proposer_only,Collaboration,4.6667,6
+77,proposer_only,Autonomy Support,5.0,6
+77,proposer_only,Evocation,4.1667,6
+77,proposer_only,Partnership,4.8333,6
+77,proposer_only,Cultivating Change Talk,4.5,6
+77,proposer_only,Softening Sustain Talk,4.1667,6
+77,proposer_only,Overall Average,4.6667,6
+78,proposer_only,Acceptance,4.6667,6
+78,proposer_only,Empathy,4.3333,6
+78,proposer_only,Direction,5.0,6
+78,proposer_only,Collaboration,4.6667,6
+78,proposer_only,Autonomy Support,5.0,6
+78,proposer_only,Evocation,4.1667,6
+78,proposer_only,Partnership,4.6667,6
+78,proposer_only,Cultivating Change Talk,4.3333,6
+78,proposer_only,Softening Sustain Talk,4.1667,6
+78,proposer_only,Overall Average,4.5556,6
+79,proposer_only,Acceptance,4.6667,6
+79,proposer_only,Empathy,4.5,6
+79,proposer_only,Direction,5.0,6
+79,proposer_only,Collaboration,4.5,6
+79,proposer_only,Autonomy Support,5.0,6
+79,proposer_only,Evocation,4.5,6
+79,proposer_only,Partnership,4.6667,6
+79,proposer_only,Cultivating Change Talk,4.5,6
+79,proposer_only,Softening Sustain Talk,4.0,6
+79,proposer_only,Overall Average,4.5926,6
+7,proposer_only,Acceptance,5.0,6
+7,proposer_only,Empathy,4.6667,6
+7,proposer_only,Direction,5.0,6
+7,proposer_only,Collaboration,5.0,6
+7,proposer_only,Autonomy Support,5.0,6
+7,proposer_only,Evocation,4.3333,6
+7,proposer_only,Partnership,4.6667,6
+7,proposer_only,Cultivating Change Talk,4.3333,6
+7,proposer_only,Softening Sustain Talk,4.1667,6
+7,proposer_only,Overall Average,4.6852,6
+80,proposer_only,Acceptance,4.5,6
+80,proposer_only,Empathy,4.3333,6
+80,proposer_only,Direction,5.0,6
+80,proposer_only,Collaboration,4.8333,6
+80,proposer_only,Autonomy Support,5.0,6
+80,proposer_only,Evocation,4.3333,6
+80,proposer_only,Partnership,4.8333,6
+80,proposer_only,Cultivating Change Talk,4.1667,6
+80,proposer_only,Softening Sustain Talk,3.8333,6
+80,proposer_only,Overall Average,4.537,6
+81,proposer_only,Acceptance,4.8333,6
+81,proposer_only,Empathy,4.5,6
+81,proposer_only,Direction,5.0,6
+81,proposer_only,Collaboration,4.6667,6
+81,proposer_only,Autonomy Support,5.0,6
+81,proposer_only,Evocation,4.3333,6
+81,proposer_only,Partnership,5.0,6
+81,proposer_only,Cultivating Change Talk,4.6667,6
+81,proposer_only,Softening Sustain Talk,4.1667,6
+81,proposer_only,Overall Average,4.6852,6
+82,proposer_only,Acceptance,4.5,6
+82,proposer_only,Empathy,4.3333,6
+82,proposer_only,Direction,5.0,6
+82,proposer_only,Collaboration,5.0,6
+82,proposer_only,Autonomy Support,5.0,6
+82,proposer_only,Evocation,4.3333,6
+82,proposer_only,Partnership,4.8333,6
+82,proposer_only,Cultivating Change Talk,4.5,6
+82,proposer_only,Softening Sustain Talk,4.1667,6
+82,proposer_only,Overall Average,4.6296,6
+83,proposer_only,Acceptance,5.0,6
+83,proposer_only,Empathy,4.6667,6
+83,proposer_only,Direction,4.8333,6
+83,proposer_only,Collaboration,4.8333,6
+83,proposer_only,Autonomy Support,5.0,6
+83,proposer_only,Evocation,4.5,6
+83,proposer_only,Partnership,5.0,6
+83,proposer_only,Cultivating Change Talk,4.6667,6
+83,proposer_only,Softening Sustain Talk,4.0,6
+83,proposer_only,Overall Average,4.7222,6
+84,proposer_only,Acceptance,4.5,6
+84,proposer_only,Empathy,4.0,6
+84,proposer_only,Direction,4.8333,6
+84,proposer_only,Collaboration,5.0,6
+84,proposer_only,Autonomy Support,5.0,6
+84,proposer_only,Evocation,4.0,6
+84,proposer_only,Partnership,4.6667,6
+84,proposer_only,Cultivating Change Talk,4.0,6
+84,proposer_only,Softening Sustain Talk,4.0,6
+84,proposer_only,Overall Average,4.4444,6
+85,proposer_only,Acceptance,4.6667,6
+85,proposer_only,Empathy,4.6667,6
+85,proposer_only,Direction,5.0,6
+85,proposer_only,Collaboration,4.8333,6
+85,proposer_only,Autonomy Support,5.0,6
+85,proposer_only,Evocation,4.3333,6
+85,proposer_only,Partnership,4.6667,6
+85,proposer_only,Cultivating Change Talk,4.3333,6
+85,proposer_only,Softening Sustain Talk,3.8333,6
+85,proposer_only,Overall Average,4.5926,6
+86,proposer_only,Acceptance,4.6667,6
+86,proposer_only,Empathy,4.5,6
+86,proposer_only,Direction,5.0,6
+86,proposer_only,Collaboration,4.8333,6
+86,proposer_only,Autonomy Support,5.0,6
+86,proposer_only,Evocation,4.3333,6
+86,proposer_only,Partnership,5.0,6
+86,proposer_only,Cultivating Change Talk,4.3333,6
+86,proposer_only,Softening Sustain Talk,4.5,6
+86,proposer_only,Overall Average,4.6852,6
+87,proposer_only,Acceptance,4.6667,6
+87,proposer_only,Empathy,4.3333,6
+87,proposer_only,Direction,5.0,6
+87,proposer_only,Collaboration,4.8333,6
+87,proposer_only,Autonomy Support,5.0,6
+87,proposer_only,Evocation,4.0,6
+87,proposer_only,Partnership,4.6667,6
+87,proposer_only,Cultivating Change Talk,4.0,6
+87,proposer_only,Softening Sustain Talk,3.6667,6
+87,proposer_only,Overall Average,4.463,6
+88,proposer_only,Acceptance,4.8333,6
+88,proposer_only,Empathy,4.8333,6
+88,proposer_only,Direction,4.8333,6
+88,proposer_only,Collaboration,5.0,6
+88,proposer_only,Autonomy Support,5.0,6
+88,proposer_only,Evocation,4.6667,6
+88,proposer_only,Partnership,5.0,6
+88,proposer_only,Cultivating Change Talk,4.8333,6
+88,proposer_only,Softening Sustain Talk,4.1667,6
+88,proposer_only,Overall Average,4.7963,6
+89,proposer_only,Acceptance,4.8333,6
+89,proposer_only,Empathy,4.6667,6
+89,proposer_only,Direction,5.0,6
+89,proposer_only,Collaboration,4.5,6
+89,proposer_only,Autonomy Support,5.0,6
+89,proposer_only,Evocation,4.3333,6
+89,proposer_only,Partnership,5.0,6
+89,proposer_only,Cultivating Change Talk,4.6667,6
+89,proposer_only,Softening Sustain Talk,4.0,6
+89,proposer_only,Overall Average,4.6667,6
+8,proposer_only,Acceptance,4.6667,6
+8,proposer_only,Empathy,4.0,6
+8,proposer_only,Direction,5.0,6
+8,proposer_only,Collaboration,4.6667,6
+8,proposer_only,Autonomy Support,5.0,6
+8,proposer_only,Evocation,4.3333,6
+8,proposer_only,Partnership,4.8333,6
+8,proposer_only,Cultivating Change Talk,4.1667,6
+8,proposer_only,Softening Sustain Talk,4.1667,6
+8,proposer_only,Overall Average,4.537,6
+90,proposer_only,Acceptance,4.5,6
+90,proposer_only,Empathy,4.3333,6
+90,proposer_only,Direction,4.8333,6
+90,proposer_only,Collaboration,4.6667,6
+90,proposer_only,Autonomy Support,5.0,6
+90,proposer_only,Evocation,4.3333,6
+90,proposer_only,Partnership,4.8333,6
+90,proposer_only,Cultivating Change Talk,4.5,6
+90,proposer_only,Softening Sustain Talk,4.3333,6
+90,proposer_only,Overall Average,4.5926,6
+91,proposer_only,Acceptance,4.5,6
+91,proposer_only,Empathy,4.1667,6
+91,proposer_only,Direction,5.0,6
+91,proposer_only,Collaboration,4.6667,6
+91,proposer_only,Autonomy Support,5.0,6
+91,proposer_only,Evocation,4.1667,6
+91,proposer_only,Partnership,4.6667,6
+91,proposer_only,Cultivating Change Talk,4.1667,6
+91,proposer_only,Softening Sustain Talk,3.8333,6
+91,proposer_only,Overall Average,4.463,6
+92,proposer_only,Acceptance,4.6667,6
+92,proposer_only,Empathy,4.3333,6
+92,proposer_only,Direction,5.0,6
+92,proposer_only,Collaboration,5.0,6
+92,proposer_only,Autonomy Support,5.0,6
+92,proposer_only,Evocation,4.6667,6
+92,proposer_only,Partnership,5.0,6
+92,proposer_only,Cultivating Change Talk,4.5,6
+92,proposer_only,Softening Sustain Talk,4.1667,6
+92,proposer_only,Overall Average,4.7037,6
+93,proposer_only,Acceptance,4.8333,6
+93,proposer_only,Empathy,4.5,6
+93,proposer_only,Direction,5.0,6
+93,proposer_only,Collaboration,5.0,6
+93,proposer_only,Autonomy Support,5.0,6
+93,proposer_only,Evocation,4.8333,6
+93,proposer_only,Partnership,4.8333,6
+93,proposer_only,Cultivating Change Talk,4.8333,6
+93,proposer_only,Softening Sustain Talk,4.1667,6
+93,proposer_only,Overall Average,4.7778,6
+94,proposer_only,Acceptance,5.0,6
+94,proposer_only,Empathy,4.6667,6
+94,proposer_only,Direction,5.0,6
+94,proposer_only,Collaboration,4.8333,6
+94,proposer_only,Autonomy Support,5.0,6
+94,proposer_only,Evocation,4.3333,6
+94,proposer_only,Partnership,5.0,6
+94,proposer_only,Cultivating Change Talk,4.1667,6
+94,proposer_only,Softening Sustain Talk,4.1667,6
+94,proposer_only,Overall Average,4.6852,6
+95,proposer_only,Acceptance,5.0,6
+95,proposer_only,Empathy,4.6667,6
+95,proposer_only,Direction,5.0,6
+95,proposer_only,Collaboration,4.6667,6
+95,proposer_only,Autonomy Support,5.0,6
+95,proposer_only,Evocation,3.8333,6
+95,proposer_only,Partnership,4.8333,6
+95,proposer_only,Cultivating Change Talk,3.6667,6
+95,proposer_only,Softening Sustain Talk,4.0,6
+95,proposer_only,Overall Average,4.5185,6
+96,proposer_only,Acceptance,4.5,6
+96,proposer_only,Empathy,4.1667,6
+96,proposer_only,Direction,5.0,6
+96,proposer_only,Collaboration,4.5,6
+96,proposer_only,Autonomy Support,5.0,6
+96,proposer_only,Evocation,4.3333,6
+96,proposer_only,Partnership,4.8333,6
+96,proposer_only,Cultivating Change Talk,4.3333,6
+96,proposer_only,Softening Sustain Talk,4.5,6
+96,proposer_only,Overall Average,4.5741,6
+97,proposer_only,Acceptance,4.5,6
+97,proposer_only,Empathy,4.5,6
+97,proposer_only,Direction,5.0,6
+97,proposer_only,Collaboration,4.8333,6
+97,proposer_only,Autonomy Support,5.0,6
+97,proposer_only,Evocation,4.3333,6
+97,proposer_only,Partnership,4.8333,6
+97,proposer_only,Cultivating Change Talk,4.3333,6
+97,proposer_only,Softening Sustain Talk,3.8333,6
+97,proposer_only,Overall Average,4.5741,6
+98,proposer_only,Acceptance,4.8333,6
+98,proposer_only,Empathy,4.6667,6
+98,proposer_only,Direction,5.0,6
+98,proposer_only,Collaboration,4.8333,6
+98,proposer_only,Autonomy Support,5.0,6
+98,proposer_only,Evocation,4.3333,6
+98,proposer_only,Partnership,4.6667,6
+98,proposer_only,Cultivating Change Talk,4.3333,6
+98,proposer_only,Softening Sustain Talk,4.0,6
+98,proposer_only,Overall Average,4.6296,6
+99,proposer_only,Acceptance,4.6667,6
+99,proposer_only,Empathy,4.5,6
+99,proposer_only,Direction,5.0,6
+99,proposer_only,Collaboration,4.6667,6
+99,proposer_only,Autonomy Support,5.0,6
+99,proposer_only,Evocation,4.5,6
+99,proposer_only,Partnership,4.5,6
+99,proposer_only,Cultivating Change Talk,4.6667,6
+99,proposer_only,Softening Sustain Talk,4.1667,6
+99,proposer_only,Overall Average,4.6296,6
+9,proposer_only,Acceptance,4.5,6
+9,proposer_only,Empathy,4.5,6
+9,proposer_only,Direction,5.0,6
+9,proposer_only,Collaboration,4.6667,6
+9,proposer_only,Autonomy Support,5.0,6
+9,proposer_only,Evocation,4.3333,6
+9,proposer_only,Partnership,4.6667,6
+9,proposer_only,Cultivating Change Talk,4.1667,6
+9,proposer_only,Softening Sustain Talk,3.8333,6
+9,proposer_only,Overall Average,4.5185,6
