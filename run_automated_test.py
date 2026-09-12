@@ -49,6 +49,78 @@ def model_runs_dir(model: str):
     return base
 
 
+def find_complete_mode_csv(mode: str, args, start_patient=0, end_patient=133):
+    """Locate a COMPLETE results CSV for a mode in the model's Session_Metadata root.
+
+    'Complete' means it has the expected number of rows (num_patients * fold). This lets
+    --compare --resume skip modes that already finished.
+
+    Returns:
+        (path, folder) if a complete CSV is found, else (None, None).
+    """
+    import glob as _glob
+    meta_root = os.environ.get("PSYCH_META_DIR") or "Session_Metadata"
+    # Expected rows for a complete run
+    try:
+        pats = get_patient_files(start_patient, end_patient)
+        num_patients = len(pats)
+    except Exception:
+        num_patients = end_patient - start_patient
+    fold = getattr(args, 'fold', 1)
+    expected = num_patients * fold
+
+    candidates = _glob.glob(os.path.join(meta_root, "*", f"results_{mode}.csv"))
+    for csv_path in candidates:
+        try:
+            df = pd.read_csv(csv_path)
+            if len(df) >= expected:
+                return csv_path, os.path.dirname(csv_path)
+        except Exception:
+            continue
+    return None, None
+
+
+def find_existing_session_folders(mode: str, args):
+    """Map which patient_ids already have saved session folders for a mode.
+
+    Determines completeness at PATIENT granularity by parsing the 'Session' folder names
+    (which encode patient_{id}) referenced by any already-saved results CSV of that mode,
+    OR by scanning Saved_Sessions for folders whose names match the mode.
+
+    Returns:
+        dict: {patient_id_str: count_of_saved_sessions}. A patient is 'done' when count >= fold.
+    """
+    import glob as _glob
+    meta_root = os.environ.get("PSYCH_META_DIR") or "Session_Metadata"
+    save_root = os.environ.get("PSYCH_SAVE_DIR") or "Saved_Sessions"
+
+    per_patient_count = {}
+
+    # 1) From results CSVs already written for this mode.
+    #    Count a session as saved ONLY if its folder is present AND has the required files.
+    REQUIRED = ["detailed_feedback.txt", "interview_transcript.txt", "MI_EVAL.txt"]
+    for csv_path in _glob.glob(os.path.join(meta_root, "*", f"results_{mode}.csv")):
+        try:
+            df = pd.read_csv(csv_path)
+            for _, row in df.iterrows():
+                sess = str(row.get('Session', ''))
+                m = re.search(r'patient_(\d+)', sess)
+                if m and str(row.get('Mode')) == mode:
+                    pid = m.group(1)
+                    folder = os.path.join(save_root, sess)
+                    # Validate the session folder actually has the core files before counting.
+                    if os.path.isdir(folder) and all(
+                        os.path.isfile(os.path.join(folder, f)) for f in REQUIRED
+                    ):
+                        per_patient_count[pid] = per_patient_count.get(pid, 0) + 1
+        except Exception:
+            continue
+
+    # 2) Only results-CSV references are authoritative for mode attribution; orphan session
+    #    folders (no results CSV) cannot be safely attributed to a mode, so they are ignored.
+    return per_patient_count
+
+
 # =============================
 # === Core Helper Functions ===
 # =============================
@@ -262,7 +334,8 @@ def extract_scores(eval_file_paths):
 # === Experiment Pipeline ====
 # =============================
 
-def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num=None, complex_therapist_num=None):
+def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num=None, complex_therapist_num=None,
+                             resume_skip_patients=None):
     """Main function for parallel execution mode.
     
     Args:
@@ -270,8 +343,10 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         therapist_mode: One of "simple", "trained_agent", "complex", or "multi_agent"
         simple_therapist_num: Therapist profile index for simple mode (default: 0, CSV index 0/row 2)
         complex_therapist_num: Therapist profile index for complex mode (default: 2, CSV index 2/row 4)
+        resume_skip_patients: Optional set of patient_id strings to SKIP (already fully saved).
     """
     start_time = time.time()
+    resume_skip_patients = resume_skip_patients or set()
     
     # Determine which therapist profile number to use
     # CSV structure: 0=simple (row 2), 1=trained_agent (row 3), 2=complex (row 4),
@@ -404,14 +479,42 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         print(f"\nStarting parallel processing with {max_workers} workers...")
         print(f"Processing {num_patients} patients x {fold} folds = {total_runs} total runs in {therapist_mode} mode\n")
     
+    # Sort key for patient order (used by checkpoint writes and final save)
+    patient_file_basenames = {os.path.basename(f): idx for idx, f in enumerate(patient_files)}
+    
     # Process patients in parallel
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         # Submit all tasks - create fold copies of each patient
         patient_data_list = []
+        skipped_resume = 0
         for fold_idx in range(fold):
             for patient_idx, patient_file in enumerate(patient_files):
+                pid = str(args.start_patient + patient_idx)
+                if pid in resume_skip_patients:
+                    skipped_resume += 1
+                    continue
                 patient_data_list.append((fold_idx, patient_idx, patient_file))
+        if skipped_resume:
+            print(f"  [resume] Skipping {skipped_resume} patient-fold combos already saved.")
         
+        # Incremental checkpoint: write progress CSV after each completed patient so a crash
+        # leaves a resumable partial results CSV (helps find_existing_session_folders).
+        csv_path = os.path.join(save_folder, f"results_{therapist_mode}.csv")
+        checkpoint_lock = Lock()
+
+        def _write_checkpoint():
+            if not all_results:
+                return
+            snapshot = sorted(
+                all_results,
+                key=lambda x: patient_file_basenames.get(x["Patient"], 999)
+            )
+            # Atomic write: write to a temp file then os.replace(), so a crash mid-write never
+            # leaves a truncated/corrupt checkpoint CSV.
+            tmp_path = f"{csv_path}.tmp.{os.getpid()}"
+            pd.DataFrame(snapshot).to_csv(tmp_path, index=False)
+            os.replace(tmp_path, csv_path)
+
         future_to_patient = {executor.submit(process_single_patient, data): data for data in patient_data_list}
         
         # Collect results as they complete
@@ -422,7 +525,9 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
             try:
                 result = future.result(timeout=600)  # 10-minute per-task timeout
                 if result is not None:
-                    all_results.append(result)
+                    with checkpoint_lock:
+                        all_results.append(result)
+                        _write_checkpoint()
             except TimeoutError:
                 patient_data = future_to_patient[future]
                 with print_lock:
@@ -436,13 +541,14 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
                 print(f"Progress: {completed}/{total_runs} runs completed")
     
     # Sort results by patient filename to maintain order
-    patient_file_basenames = {os.path.basename(f): idx for idx, f in enumerate(patient_files)}
     all_results.sort(key=lambda x: patient_file_basenames.get(x["Patient"], 999))
 
-    # Save results to CSV
+    # Save results to CSV (atomic)
     results_df = pd.DataFrame(all_results)
     csv_path = os.path.join(save_folder, f"results_{therapist_mode}.csv")
-    results_df.to_csv(csv_path, index=False)
+    tmp_path = f"{csv_path}.tmp.{os.getpid()}"
+    results_df.to_csv(tmp_path, index=False)
+    os.replace(tmp_path, csv_path)
     print(f"\nResults saved to {csv_path}")
 
     # Save all results to CSV files
@@ -455,7 +561,11 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
 
 
 def run_comparison_experiment(args):
-    """Run all five therapist modes (simple, trained_agent, complex, multi-agent, proposer_only) and compare."""  
+    """Run all five therapist modes (simple, trained_agent, complex, multi-agent, proposer_only) and compare.
+
+    With --resume, modes that already have a COMPLETE results CSV are skipped (reused), so an
+    interrupted --compare run can pick up where it left off.
+    """
     print("\n" + "=" * 80)
     print("RUNNING COMPARISON EXPERIMENT: Simple vs Trained Agent vs Complex vs Proposer-Only vs Multi-Agent")
     print("=" * 80)
@@ -464,56 +574,55 @@ def run_comparison_experiment(args):
     fold = getattr(args, 'fold', 1)
     if fold > 1:
         print(f"Running with {fold} folds per patient")
-    
+
+    resume = getattr(args, 'resume', False)
+    if resume:
+        print("[resume] Skipping modes with existing complete results.")
+
     # Get therapist profile numbers from args
     # CSV structure: 0=simple (row 2), 1=trained_agent (row 3), 2=complex (row 4), 3=proposer (row 5), 4=judge (row 6)
     simple_num = args.simple_therapist if hasattr(args, 'simple_therapist') and args.simple_therapist is not None else 0
     complex_num = args.complex_therapist if hasattr(args, 'complex_therapist') and args.complex_therapist is not None else 2  # CSV index 2
-    
-    # Run simple mode
-    print("\n[PHASE 1] Running SIMPLE prompt mode...")
-    simple_folder, simple_csv = run_parallel_experiments(
-        args, 
-        therapist_mode="simple",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
-    
-    # Run trained_agent mode
-    print("\n[PHASE 2] Running TRAINED AGENT mode (1_Trained_Agent prompt, index 1, no patient profile)...")
-    trained_agent_folder, trained_agent_csv = run_parallel_experiments(
-        args,
-        therapist_mode="trained_agent",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
-    
-    # Run complex mode
-    print("\n[PHASE 3] Running COMPLEX prompt mode...")
-    complex_folder, complex_csv = run_parallel_experiments(
-        args,
-        therapist_mode="complex",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
 
-    # Run proposer_only mode
-    print("\n[PHASE 4] Running PROPOSER-ONLY mode (self-selection ablation)...")
-    proposer_only_folder, proposer_only_csv = run_parallel_experiments(
-        args,
-        therapist_mode="proposer_only",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
-    
-    # Run multi-agent mode
-    print("\n[PHASE 5] Running MULTI-AGENT mode...")
-    multiagent_folder, multiagent_csv = run_parallel_experiments(
-        args,
-        therapist_mode="multi_agent",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
+    mode_phases = [
+        ("simple",         "SIMPLE prompt mode"),
+        ("trained_agent",  "TRAINED AGENT mode (1_Trained_Agent prompt, index 1, no patient profile)"),
+        ("complex",        "COMPLEX prompt mode"),
+        ("proposer_only",  "PROPOSER-ONLY mode (self-selection ablation)"),
+        ("multi_agent",    "MULTI-AGENT mode"),
+    ]
+
+    results = {}
+    for idx, (mode, label) in enumerate(mode_phases, start=1):
+        print(f"\n[PHASE {idx}] Running {label}...")
+        if resume:
+            existing_csv, existing_folder = find_complete_mode_csv(mode, args)
+            if existing_csv:
+                print(f"  [resume] Found complete results for '{mode}': {existing_csv}")
+                results[mode] = {"folder": existing_folder, "csv": existing_csv}
+                continue
+            print(f"  [resume] No complete results for '{mode}' — running (patient-level skip where saved).")
+        # Compute already-saved patients for this mode so resume re-runs only what's missing.
+        skip_pats = set()
+        if resume:
+            saved_counts = find_existing_session_folders(mode, args)
+            skip_pats = {pid for pid, cnt in saved_counts.items() if cnt >= fold}
+        results[mode] = run_parallel_experiments(
+            args, therapist_mode=mode,
+            simple_therapist_num=simple_num,
+            complex_therapist_num=complex_num,
+            resume_skip_patients=skip_pats
+        )
+
+    def _get(mode):
+        r = results.get(mode, {})
+        return r.get("folder"), r.get("csv")
+
+    simple_folder, simple_csv = _get("simple")
+    trained_agent_folder, trained_agent_csv = _get("trained_agent")
+    complex_folder, complex_csv = _get("complex")
+    proposer_only_folder, proposer_only_csv = _get("proposer_only")
+    multiagent_folder, multiagent_csv = _get("multi_agent")
     
     # Compare results (5-way)
     print("\n[PHASE 6] Comparing results...")
@@ -1019,6 +1128,8 @@ if __name__ == "__main__":
                         help="Therapist profile index for complex mode")
     parser.add_argument("--compare", action="store_true",
                         help="Run all five modes (simple, trained_agent, complex, proposer_only, multi-agent) and compare results")
+    parser.add_argument("--resume", action="store_true",
+                        help="With --compare, skip modes that already have complete results CSVs (resume an interrupted run)")
     parser.add_argument("--max-workers", type=int, default=20,
                         help="Number of parallel workers for processing patients (default: 20)")
     parser.add_argument("--skip-sentiment", action="store_true",
