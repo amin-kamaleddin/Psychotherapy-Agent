@@ -33,6 +33,22 @@ PATIENT_DIR = "Patient_Profiles/MI/"
 API_KEY = load_openai_api_key()
 
 
+def model_runs_dir(model: str):
+    """Resolve the Model_Runs/<model>/ root directory (sessions + metadata).
+
+    Args:
+        model: Model identifier, e.g. 'gpt-5-mini', 'qwen/qwen3.8-27b', 'deepseek/deepseek-v4-flash'.
+               Use None/'' for the legacy root layout (Saved_Sessions, Session_Metadata).
+    """
+    if not model:
+        return None
+    # Sanitize model id (e.g. 'qwen/qwen3.8-27b') into a safe folder name
+    folder = model.replace("/", "-")
+    base = os.path.join("Model_Runs", folder)
+    os.makedirs(base, exist_ok=True)
+    return base
+
+
 # =============================
 # === Core Helper Functions ===
 # =============================
@@ -285,8 +301,10 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     # Create save folder
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     fold_str = f"_fold{fold}" if fold > 1 else ""
+    # Model-aware metadata root (Model_Runs/<model>/Session_Metadata) when --model given
+    meta_root = os.environ.get("PSYCH_META_DIR", "Session_Metadata")
     save_folder = os.path.join(
-        "Session_Metadata",
+        meta_root,
         f"{args.run_id}_{therapist_mode}_patients_{args.start_patient}_{args.end_patient}{fold_str}_{timestamp}"
     )
     os.makedirs(save_folder, exist_ok=True)
@@ -437,9 +455,9 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
 
 
 def run_comparison_experiment(args):
-    """Run all four therapist modes (simple, trained_agent, complex, multi-agent) and compare results."""
+    """Run all five therapist modes (simple, trained_agent, complex, multi-agent, proposer_only) and compare."""  
     print("\n" + "=" * 80)
-    print("RUNNING COMPARISON EXPERIMENT: Simple vs Trained Agent vs Complex vs Multi-Agent")
+    print("RUNNING COMPARISON EXPERIMENT: Simple vs Trained Agent vs Complex vs Proposer-Only vs Multi-Agent")
     print("=" * 80)
     
     # Get fold parameter
@@ -478,9 +496,18 @@ def run_comparison_experiment(args):
         simple_therapist_num=simple_num,
         complex_therapist_num=complex_num
     )
+
+    # Run proposer_only mode
+    print("\n[PHASE 4] Running PROPOSER-ONLY mode (self-selection ablation)...")
+    proposer_only_folder, proposer_only_csv = run_parallel_experiments(
+        args,
+        therapist_mode="proposer_only",
+        simple_therapist_num=simple_num,
+        complex_therapist_num=complex_num
+    )
     
     # Run multi-agent mode
-    print("\n[PHASE 4] Running MULTI-AGENT mode...")
+    print("\n[PHASE 5] Running MULTI-AGENT mode...")
     multiagent_folder, multiagent_csv = run_parallel_experiments(
         args,
         therapist_mode="multi_agent",
@@ -488,9 +515,11 @@ def run_comparison_experiment(args):
         complex_therapist_num=complex_num
     )
     
-    # Compare results
-    print("\n[PHASE 5] Comparing results...")
-    comparison_results = compare_results_four_way(simple_csv, complex_csv, multiagent_csv, trained_agent_csv, args)
+    # Compare results (5-way)
+    print("\n[PHASE 6] Comparing results...")
+    comparison_results = compare_results_five_way(
+        simple_csv, complex_csv, multiagent_csv, trained_agent_csv, proposer_only_csv, args
+    )
     
     print("\n" + "=" * 80)
     print("COMPARISON COMPLETE!")
@@ -509,10 +538,12 @@ def run_comparison_experiment(args):
         "complex_folder": complex_folder,
         "multiagent_folder": multiagent_folder,
         "trained_agent_folder": trained_agent_folder,
+        "proposer_only_folder": proposer_only_folder,
         "simple_csv": simple_csv,
         "complex_csv": complex_csv,
         "multiagent_csv": multiagent_csv,
         "trained_agent_csv": trained_agent_csv,
+        "proposer_only_csv": proposer_only_csv,
         "comparison": comparison_results
     }
 
@@ -732,6 +763,97 @@ def compare_results_four_way(simple_csv_path, complex_csv_path, multiagent_csv_p
     }
 
 
+def compare_results_five_way(simple_csv_path, complex_csv_path, multiagent_csv_path,
+                             trained_agent_csv_path, proposer_only_csv_path, args):
+    """Compare results from simple, trained_agent, complex, multi-agent, and proposer_only modes."""
+    simple_df = pd.read_csv(simple_csv_path)
+    complex_df = pd.read_csv(complex_csv_path)
+    multiagent_df = pd.read_csv(multiagent_csv_path)
+    trained_agent_df = pd.read_csv(trained_agent_csv_path)
+    proposer_only_df = pd.read_csv(proposer_only_csv_path)
+
+    for df in [simple_df, complex_df, multiagent_df, trained_agent_df, proposer_only_df]:
+        df.sort_values("Patient", inplace=True)
+        df.reset_index(drop=True, inplace=True)
+
+    # Score categories
+    categories = [
+        "Cultivating Change Talk",
+        "Softening Sustain Talk",
+        "Partnership",
+        "Empathy",
+        "Acceptance",
+        "Direction",
+        "Autonomy Support",
+        "Collaboration",
+        "Evocation",
+        "Overall Average"
+    ]
+
+    all_cols = (set(simple_df.columns) & set(complex_df.columns) & set(multiagent_df.columns)
+                & set(trained_agent_df.columns) & set(proposer_only_df.columns))
+
+    modes_map = {
+        "Simple": simple_df, "TrainedAgent": trained_agent_df,
+        "Complex": complex_df, "MultiAgent": multiagent_df, "ProposerOnly": proposer_only_df,
+    }
+
+    comparison_data = []
+    for cat in categories:
+        if cat not in all_cols:
+            continue
+        means = {name: df[cat].dropna() for name, df in modes_map.items() if cat in df.columns}
+        if not all(len(s) > 0 for s in means.values()):
+            continue
+        mean_vals = {name: s.mean() for name, s in means.items()}
+        best_name = max(mean_vals, key=mean_vals.get)
+        best_mode = {"Simple": "Simple", "TrainedAgent": "Trained Agent", "Complex": "Complex",
+                     "MultiAgent": "Multi-Agent", "ProposerOnly": "Proposer-Only"}[best_name]
+
+        row = {"Category": cat, "Best_Mode": best_mode}
+        for name, s in means.items():
+            row[f"{name}_Mean"] = s.mean()
+            row[f"{name}_Std"] = s.std()
+        for a in list(means.items()):
+            for b in list(means.items()):
+                if a[0] < b[0]:
+                    row[f"{a[0]}_vs_{b[0]}"] = means[b[0]].mean() - means[a[0]].mean()
+        comparison_data.append(row)
+
+    comparison_df = pd.DataFrame(comparison_data)
+
+    float_cols = comparison_df.select_dtypes(include='float').columns
+    comparison_df[float_cols] = comparison_df[float_cols].round(4)
+
+    eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
+    csv_dir = os.path.join(eval_dir, "csv")
+    os.makedirs(csv_dir, exist_ok=True)
+
+    comparison_csv = os.path.join(csv_dir, "comparison_results.csv")
+    comparison_df.to_csv(comparison_csv, index=False)
+
+    print("\n" + "=" * 80)
+    print("FIVE-WAY COMPARISON SUMMARY")
+    print("=" * 80)
+    print(comparison_df.to_string(index=False))
+    print(f"\nComparison saved to: {comparison_csv}")
+
+    if "Overall Average" in comparison_df["Category"].values:
+        overall_row = comparison_df[comparison_df["Category"] == "Overall Average"].iloc[0]
+        print(f"\n{'=' * 80}")
+        print("OVERALL AVERAGE COMPARISON")
+        print(f"{'=' * 80}")
+        for name in ["Simple", "TrainedAgent", "Complex", "ProposerOnly", "MultiAgent"]:
+            if f"{name}_Mean" in overall_row:
+                print(f"{name:<14} {overall_row[f'{name}_Mean']:.3f} ± {overall_row[f'{name}_Std']:.3f}")
+        print(f"\nBest Performing: {overall_row['Best_Mode']}")
+
+    return {
+        "comparison_df": comparison_df,
+        "comparison_csv": comparison_csv
+    }
+
+
 def regenerate_comparison_results():
     """Regenerate comparison_results.csv by combining ALL batch results from Session_Metadata.
 
@@ -741,7 +863,8 @@ def regenerate_comparison_results():
     """
     import glob as _glob
 
-    session_metadata_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Session_Metadata")
+    # Model-aware metadata root (default: root Session_Metadata, or PSYCH_META_DIR for Model_Runs).
+    session_metadata_dir = os.getenv("PSYCH_META_DIR") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "Session_Metadata")
     eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
     csv_dir = os.path.join(eval_dir, "csv")
     os.makedirs(csv_dir, exist_ok=True)
@@ -749,7 +872,7 @@ def regenerate_comparison_results():
     print("\n[regenerate_comparison_results] Collecting all batch results from Session_Metadata...")
 
     combined = {}
-    for mode in ["simple", "trained_agent", "complex", "multi_agent"]:
+    for mode in ["simple", "trained_agent", "complex", "multi_agent", "proposer_only"]:
         dfs = []
         for csv_path in _glob.glob(os.path.join(session_metadata_dir, "*", f"results_{mode}.csv")):
             try:
@@ -776,7 +899,13 @@ def regenerate_comparison_results():
     class _Args:
         pass
 
-    if "trained_agent" in tmp_paths:
+    # Proposer_only available -> 5-way comparison; else 4-way; else 3-way.
+    if "proposer_only" in tmp_paths and "trained_agent" in tmp_paths:
+        compare_results_five_way(
+            tmp_paths["simple"], tmp_paths["complex"], tmp_paths["multi_agent"],
+            tmp_paths["trained_agent"], tmp_paths["proposer_only"], _Args()
+        )
+    elif "trained_agent" in tmp_paths:
         compare_results_four_way(
             tmp_paths["simple"], tmp_paths["complex"],
             tmp_paths["multi_agent"], tmp_paths["trained_agent"], _Args()
@@ -889,7 +1018,7 @@ if __name__ == "__main__":
     parser.add_argument("--complex-therapist", type=int, default=None,
                         help="Therapist profile index for complex mode")
     parser.add_argument("--compare", action="store_true",
-                        help="Run all four modes (simple, trained_agent, complex, multi-agent) and compare results")
+                        help="Run all five modes (simple, trained_agent, complex, proposer_only, multi-agent) and compare results")
     parser.add_argument("--max-workers", type=int, default=20,
                         help="Number of parallel workers for processing patients (default: 20)")
     parser.add_argument("--skip-sentiment", action="store_true",
@@ -898,8 +1027,34 @@ if __name__ == "__main__":
                         help="Skip aggregation/evaluation scripts (only run therapy sessions)")
     parser.add_argument("--fold", type=int, default=5,
                         help="Number of times to run each patient (e.g., fold=5 with 10 patients = 50 total runs)")
+    parser.add_argument("--model", type=str, default=None,
+                        help="Model identifier for Model_Runs/<model>/ layout and therapist model "
+                             "(e.g. gpt-5-mini, qwen/qwen3.8-27b, deepseek/deepseek-v4-flash). "
+                             "Omit for legacy root layout + default gpt-5-mini.")
 
     args = parser.parse_args()
+
+    # Configure model-aware output directories (Model_Runs/<model>/Saved_Sessions + Session_Metadata).
+    # The env vars are picked up by FileManager (PSYCH_SAVE_DIR) and the aggregation scripts.
+
+    # PSYCH_MODEL is used as a FILE PREFIX/tag, so we must sanitize it (no '/', which would
+    # otherwise create nested paths). PSYCH_THERAPIST_MODEL keeps the raw OpenRouter id for routing.
+    def model_tag(model_id):
+        return model_id.replace("/", "-") if model_id else ""
+
+    model_root = model_runs_dir(args.model)
+    if model_root:
+        os.environ["PSYCH_SAVE_DIR"] = os.path.join(model_root, "Saved_Sessions")
+        os.environ["PSYCH_META_DIR"] = os.path.join(model_root, "Session_Metadata")
+        os.environ["PSYCH_MODEL"] = model_tag(args.model)
+        # Point the therapist/proposer/judge at the configured model (OpenRouter for ids with '/').
+        if args.model:
+            os.environ["PSYCH_THERAPIST_MODEL"] = args.model
+        print(f"[model] Using Model_Runs layout: {model_root} (model={args.model}, tag={model_tag(args.model)})")
+    else:
+        os.environ["PSYCH_SAVE_DIR"] = os.environ.get("PSYCH_SAVE_DIR", "Saved_Sessions")
+        os.environ["PSYCH_META_DIR"] = os.environ.get("PSYCH_META_DIR", "Session_Metadata")
+        os.environ["PSYCH_MODEL"] = os.environ.get("PSYCH_MODEL", "")
 
     if args.aggregate:
         # Run only the evaluation/aggregation scripts

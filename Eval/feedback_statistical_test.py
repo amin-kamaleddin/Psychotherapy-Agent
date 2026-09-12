@@ -350,7 +350,7 @@ def main():
         print(f"\nSummary ({mode1} vs {mode2}):")
         print(f"  - Total criteria tested: {len(wilcoxon_results)}")
         print(f"  - Significant (raw p < 0.05):                          {n_sig_raw}")
-        print(f"  - Significant after Bonferroni (×{len(pairs)} pairs):       {n_sig_bonf}  [α = {0.05/len(pairs):.4f}]")
+        print(f"  - Significant after Bonferroni (x{len(pairs)} pairs):       {n_sig_bonf}  [a = {0.05/len(pairs):.4f}]")
         print(f"  - Significant after BH-FDR (10 criteria):              {n_sig_bh}  (assumes positive dependence)")
         print(f"  - Significant after BY-FDR (10 criteria):              {n_sig_by}  (arbitrary dependence; more conservative)")
         print(f"  NOTE: Bonferroni corrects for C({len(available_modes)},2)={len(pairs)} post-hoc pairwise comparisons;")

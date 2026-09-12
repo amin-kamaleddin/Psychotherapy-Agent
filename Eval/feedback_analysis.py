@@ -47,7 +47,8 @@ def build_session_mode_map(root_dir):
     """
     import glob as _glob
     session_map = {}
-    session_metadata_dir = os.path.join(root_dir, 'Session_Metadata')
+    # Model-aware: resolve Session_Metadata from env (PSYCH_META_DIR) when set.
+    session_metadata_dir = os.getenv("PSYCH_META_DIR") or os.path.join(root_dir, 'Session_Metadata')
 
     if not os.path.exists(session_metadata_dir):
         return session_map
@@ -116,7 +117,8 @@ def main():
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     ensure_csv_dir()
 
-    saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
+    # Model-aware: resolve sessions dir from env (PSYCH_SAVE_DIR) when set.
+    saved_sessions_dir = os.getenv("PSYCH_SAVE_DIR") or os.path.join(root_dir, 'Saved_Sessions')
 
     # 1. Build session -> (patient_id, mode) map from results CSVs.
     # This replaces the old timestamp-based approach which was unreliable when
@@ -213,7 +215,10 @@ def main():
     # 4. Save Output
     if final_rows:
         df = pd.DataFrame(final_rows)
-        output_path = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
+        # Model-tagged output filename when PSYCH_MODEL is set (keeps per-model results separate)
+        model_tag = os.getenv("PSYCH_MODEL", "")
+        scores_name = f"{model_tag}_feedback_scores_by_criterion.csv" if model_tag else "feedback_scores_by_criterion.csv"
+        output_path = os.path.join(CSV_DIR, scores_name)
         df.to_csv(output_path, index=False)
         print(f"\nSaved feedback scores dataset to {output_path}")
         print(f"Total records: {len(df)}")
@@ -244,8 +249,10 @@ def main():
             for _, row in grouped.iterrows():
                 print(f"{row['criterion']:<30} | {row['mean']:<12.2f} | {row['std']:<10.2f} | {int(row['count']):<10}")
                 
-            # Save to CSV similar to other metrics files
+            # Save to CSV similar to other metrics files (model-tagged when PSYCH_MODEL set)
             output_csv_name = f'feedback_metrics_{mode}.csv'
+            if model_tag:
+                output_csv_name = f"{model_tag}_feedback_metrics_{mode}.csv"
             output_csv_path = os.path.join(CSV_DIR, output_csv_name)
             grouped.to_csv(output_csv_path, index=False)
             print(f"Saved aggregated metrics to {output_csv_path}")

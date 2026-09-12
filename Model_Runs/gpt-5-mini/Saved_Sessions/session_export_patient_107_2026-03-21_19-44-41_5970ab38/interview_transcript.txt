@@ -1,0 +1,103 @@
+PSYCHIATRIST: Hi—I'm here to listen and support you. What brings you to therapy today, and how are you feeling right now? If you’re currently thinking about harming yourself or someone else, please tell me so we can make a safety plan; if you’re in immediate danger, call emergency services or your local crisis line now.
+PATIENT: Mostly I'm here because of my coffee habit — I drink a lot since it keeps me alert and gets me through long workdays. I'm feeling okay right now and not thinking about hurting myself or anyone. I enjoy the ritual and the burst of focus, but I do get jittery sometimes and I've seen stuff saying it could raise blood pressure. I'm curious to talk it through, though I'm not sure it's really a problem yet.
+PSYCHIATRIST: That makes sense — caffeine helps you get through work but causes jitteriness and health worries. A few quick questions: about how many cups or mg of caffeine do you have per day, and when (first thing, late afternoon)? Do you notice sleep problems, heart palpitations, anxiety, or high blood pressure, or take meds/pregnant?
+
+If you want to cut back: track intake for a week, set a small reduction goal, swap some drinks for decaf/tea/water, avoid caffeine after mid-afternoon, and taper gradually. Want to make a simple plan now?
+PATIENT: Usually I have about 4–6 cups a day (roughly 300–600 mg), first thing in the morning and then spread through the day — sometimes even late afternoon. I usually sleep okay, though a late cup can make falling asleep harder. I do get the jitters and the occasional racing heart. No high blood pressure diagnosis and I’m not on meds (and, um, I’m not pregnant — I’m a guy). I’m not ready to cut back yet, but I could try tracking intake for a week to see what’s actually happening.
+PSYCHIATRIST: Great — here’s a simple week-long tracking plan:
+
+Fields to record each time: time, drink/type, size, estimated mg, reason (habit/energy), mood/anxiety level (1–5), physical symptoms (jitters/heart racing), and sleep quality.
+
+Quick mg estimates: brewed coffee ~95 mg/8 oz, espresso ~63 mg/shot, black tea ~47 mg/8 oz, energy drinks 80–200+, decaf ~2 mg. Aim to stay ≤400 mg/day and avoid caffeine within ~6 hours of bedtime. If palpitations or dizziness are frequent, see a clinician. Want a ready-to-use log or taper plan after tracking?
+PATIENT: Okay, I can try tracking for a week — mostly to see what the numbers look like. I do get the occasional racing heart and sometimes sleep’s worse if I drink late. I’m not ready for a taper plan yet; I like the ritual. A simple ready-to-use log or a recommended app would be helpful so I can actually stick to tracking.
+PSYCHIATRIST: Ready-to-use log (copy into notes/spreadsheet):
+
+Date | Time | Drink/Type | Size | Est. mg | Reason (habit/energy) | Mood (1–5) | Symptoms (jitters/heart?) | Sleep quality (1–5)
+
+Use estimates: brewed coffee 95 mg/8 oz, espresso 63 mg/shot, black tea 47 mg/8 oz, energy drinks 80–200+, decaf ~2 mg. Record each drink immediately, total mg each evening, aim ≤400 mg/day and avoid caffeine within ~6 hours of bedtime. For apps, search “caffeine tracker” in your app store (many show daily totals); MyFitnessPal can work too. Want this as a Google Sheet or printable?
+PATIENT: A Google Sheet would be perfect — I can update it on my phone throughout the day. If it could auto-sum daily mg and have a column for sleep quality and symptoms that’d be ideal. A simple printable PDF version would be nice too for when I want to jot things down. Thanks.
+PSYCHIATRIST: Great — here’s everything to build a Google Sheet quickly.
+
+Sheet1 (Entries) headers in row1:
+Date | Time | Drink/Type | Size | Est. mg | Reason | Mood (1–5) | Symptoms | Sleep quality (1–5)
+
+Daily Totals (new sheet):
+A2: =UNIQUE(Sheet1!A2:A)
+B2 (then copy down): =IF(A2="","",SUMIF(Sheet1!A:A,A2,Sheet1!E:E))
+
+Conditional formatting: DailyTotals!B2:B > 400 → red fill.
+
+To create: sheets.google.com → Blank → paste headers. To save/print PDF: File > Download > PDF or File > Print > Save as PDF. Want me to format a printable layout (portrait/landscape)?
+PATIENT: Portrait works best for me. Keep it simple — the entries table and a daily totals summary (with auto-sum and red highlight >400 mg). Include a small notes box for bedtime/symptoms and a column for sleep quality. If you can make a phone-friendly narrow-column version too, that’d be great. Thanks.
+PSYCHIATRIST: Perfect — here’s a compact build guide (portrait + phone-friendly):
+
+Sheet1 "Entries" (row1): Date | Time | Drink/Type | Size | Est. mg | Reason | Mood (1–5) | Symptoms | Sleep quality (1–5)
+- Suggested column widths (px): A 90, B 70, C 140, D 60, E 70, F 110, G 70, H 140, I 90. Wrap text on H.
+
+Sheet2 "DailyTotals":
+A2: =SORT(UNIQUE(FILTER(Sheet1!A2:A,Sheet1!A2:A<>"")),1,TRUE)
+B2: =IF(A2="","",SUMIF(Sheet1!A:A,A2,Sheet1!E:E))
+C2 (avg sleep): =IF(A2="","",AVERAGEIF(Sheet1!A:A,A2,Sheet1!I:I))
+
+Conditional formatting: DailyTotals!B2:B > 400 → red fill.
+
+Printable (File > Print): Portrait, Fit to width, Narrow margins, include DailyTotals and top of Entries. Merge D2:G4 on DailyTotals for "Bedtime / Symptoms notes".
+
+Phone-friendly sheet "PhoneLog":
+- Same headers but single-column form layout (Timestamp, Drink, Size, Est. mg, Mood, Symptoms, Sleep quality). Freeze header, enable wrap text, use dropdowns for quick entry. Want me to create the Sheet file for you?
+PATIENT: That’d be helpful — please create it and share a link I can copy into my Drive. Make sure it auto-sums daily mg with the red >400 highlight, includes the PhoneLog sheet and printable portrait layout, has dropdowns for common drinks, and a small notes box for bedtime/symptoms. I’m still not ready to cut back, but this will help me see patterns.
+PSYCHIATRIST: I can’t create/share a Google Sheet directly, but you can make it in <2 minutes with these exact steps:
+
+1) New Sheet → rename Sheet1 “Entries”. Row1 paste:
+Date | Time | Drink/Type | Size | Est. mg | Reason | Mood (1–5) | Symptoms | Sleep quality (1–5)
+Freeze row1. Set column widths and wrap Symptoms.
+
+2) Add Sheet “DailyTotals”. A2:
+=SORT(UNIQUE(FILTER(Entries!A2:A,Entries!A2:A<>"")),1,TRUE)
+B2:
+=IF(A2="","",SUMIF(Entries!A:A,A2,Entries!E:E))
+C2:
+=IF(A2="","",AVERAGEIF(Entries!A:A,A2,Entries!I:I))
+Apply conditional formatting B2:B > 400 → red.
+
+3) Add “PhoneLog” sheet with single-column form layout; add data validation dropdowns for Drink (Brewed coffee; Espresso; Black tea; Energy drink; Decaf; Other) and Mood/Sleep 1–5.
+
+4) Merge D2:G4 on DailyTotals for notes. Print: File > Print → Portrait > Fit to width > Narrow margins.
+
+Want a downloadable .xlsx or a copy-paste CSV to import?
+PATIENT: Thanks — an .xlsx would be ideal so I can import it to Drive and tweak on my phone. Make sure PhoneLog dropdowns, auto-sum daily mg, red >400 highlight, and the printable portrait layout are included. I’m not ready to cut back yet — mostly curious to see patterns — but this should help me figure out if it’s actually a problem.
+PSYCHIATRIST: I’m sorry—I can’t create or share a .xlsx file directly. I can either:
+
+A) Provide three ready-to-paste CSV blocks (Entries, PhoneLog, DailyTotals) you can import to Excel/Drive, plus the exact formulas and conditional-format steps to paste in (fast).  
+B) Walk you step‑by‑step to build the .xlsx in Excel/Sheets (1–2 minutes).
+
+Which would you prefer?
+PATIENT: Option A works for me — paste the three CSV blocks and the exact formulas plus the conditional-format steps. Make sure the PhoneLog has the dropdowns, DailyTotals auto-sums mg with >400 red, and the printable portrait layout is covered. I’m mostly tracking for patterns, not ready to cut back yet.
+PSYCHIATRIST: Entries CSV:
+Date,Time,Drink/Type,Size,Est. mg,Reason,Mood (1-5),Symptoms,Sleep quality (1-5)
+
+PhoneLog CSV:
+Timestamp,Drink,Size,Est. mg,Mood (1-5),Symptoms,Sleep quality (1-5),Notes
+
+DailyTotals CSV:
+Date,Total mg,Avg sleep
+(Import these three as separate sheets named Entries, PhoneLog, DailyTotals.)
+
+Formulas (put on DailyTotals):
+A2: =SORT(UNIQUE(FILTER(Entries!A2:A,Entries!A2:A<>"")),1,TRUE)
+B2: =IF(A2="","",SUMIF(Entries!A:A,A2,Entries!E:E))
+C2: =IF(A2="","",AVERAGEIF(Entries!A:A,A2,Entries!I:I))
+
+Conditional formatting:
+Range DailyTotals!B2:B, Condition: Greater than 400 → red fill.
+
+Dropdowns (PhoneLog sheet):
+Data > Data validation:
+- Drink: List of items — Brewed coffee, Espresso, Black tea, Energy drink, Decaf, Other
+- Mood & Sleep: List of items — 1,2,3,4,5
+
+Other setup:
+Freeze header row; wrap Symptoms. Merge DailyTotals D2:G4 for bedtime/notes. Print: File > Print → Portrait, Fit to width, Narrow margins.
+PATIENT: Nice — thanks, I’ll import these today. I like the PhoneLog dropdowns and the red >400 alert. Quick question: when I log espresso, should I enter each shot as its own row or combine shots into one entry? Also, for Size do you want ounces or labels like small/med/large? Still not ready to cut back — just seeing patterns.
+PSYCHIATRIST: Good questions. I’d recommend logging each consumption event as its own row. If you drink a double espresso at once, put one row and note “2 shots” in Size and calculate Est. mg (2×63 = 126 mg). Use ounces for brewed drinks for accuracy; for espresso use “1 shot,” “2 shots,” etc. Consistency matters most — pick a method and stick with it.
+PATIENT: Alright, that works. I’ll log each drink as its own row — a double espresso as “2 shots” with the combined mg, brewed coffee in ounces. I’ll stay consistent with that method. Still not planning to cut back yet; mostly curious to see the patterns. Thanks — having the structure makes it easier to actually do the tracking.

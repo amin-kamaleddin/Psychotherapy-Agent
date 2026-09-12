@@ -29,7 +29,7 @@ def build_session_mode_map(root_dir):
         dict: {session_folder_name: (patient_id, mode)}
     """
     session_map = {}
-    session_metadata_dir = os.path.join(root_dir, 'Session_Metadata')
+    session_metadata_dir = os.getenv("PSYCH_META_DIR") or os.path.join(root_dir, 'Session_Metadata')
     if not os.path.exists(session_metadata_dir):
         return session_map
     for csv_path in glob.glob(os.path.join(session_metadata_dir, '*', 'results_*.csv')):
@@ -176,7 +176,7 @@ def main(max_workers=20):
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     api_key = load_openai_api_key()
     
-    saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
+    saved_sessions_dir = os.getenv("PSYCH_SAVE_DIR") or os.path.join(root_dir, 'Saved_Sessions')
 
     # 1. Build session -> (patient_id, mode) map from results CSVs.
     # This replaces the old timestamp-based approach which was unreliable when

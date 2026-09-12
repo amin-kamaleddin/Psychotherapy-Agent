@@ -184,7 +184,7 @@ def build_session_mode_map(root_dir):
         dict: {session_folder_name: (patient_id, mode)}
     """
     session_map = {}
-    session_metadata_dir = os.path.join(root_dir, 'Session_Metadata')
+    session_metadata_dir = os.getenv("PSYCH_META_DIR") or os.path.join(root_dir, 'Session_Metadata')
     if not os.path.exists(session_metadata_dir):
         return session_map
     for csv_path in glob.glob(os.path.join(session_metadata_dir, '*', 'results_*.csv')):
@@ -287,7 +287,7 @@ def main():
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     ensure_csv_dir()
     
-    saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
+    saved_sessions_dir = os.getenv("PSYCH_SAVE_DIR") or os.path.join(root_dir, 'Saved_Sessions')
 
     # Initialize LSM calculator
     lsm_calc = LSMCalculator()

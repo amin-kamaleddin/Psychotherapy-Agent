@@ -1,0 +1,453 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Alessia, I hear you—you value accurate health information and felt reassured after speaking with the pharmacist, yet you’re still a bit unsure about the next step. That mix of relief and uncertainty makes total sense and is okay. What matters most to you right now about this health decision—feeling confident in the information, minimizing side effects, or something else?
+
+
+Response 2:
+You’ve already done a strong thing by talking with the pharmacist and provider. Let’s treat you as the expert in your life: would gathering one trusted source, scheduling a quick follow-up, or trying one small change first feel most doable given your work and family commitments?
+
+
+Response 3:
+I notice you’re leaning toward wanting clearer guidance and seem ready to act once you feel confident—that’s hopeful and realistic. I believe you can make a choice that fits your values and schedule while protecting your health. If you had that confidence, what would be different for you and your family in the coming weeks?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Alessia, I hear you—you value accurate health information and felt reassured after speaking with the pharmacist, yet you’re still a bit unsure about the next step. That mix of relief and uncertainty makes total sense and is okay. What matters most to you right now about this health decision—feeling confident in the information, minimizing side effects, or something else?
+
+CANDIDATE RESPONSE 2:
+You’ve already done a strong thing by talking with the pharmacist and provider. Let’s treat you as the expert in your life: would gathering one trusted source, scheduling a quick follow-up, or trying one small change first feel most doable given your work and family commitments?
+
+CANDIDATE RESPONSE 3:
+I notice you’re leaning toward wanting clearer guidance and seem ready to act once you feel confident—that’s hopeful and realistic. I believe you can make a choice that fits your values and schedule while protecting your health. If you had that confidence, what would be different for you and your family in the coming weeks?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It best reflects her feelings (reassured but uncertain) with genuine acceptance, then invites her priorities and expertise with gentle options rather than directing next steps.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+Alessia, I hear you—you value accurate health information and felt reassured after speaking with the pharmacist, yet you’re still a bit unsure about the next step. That mix of relief and uncertainty makes total sense and is okay. What matters most to you right now about this health decision—feeling confident in the information, minimizing side effects, or something else?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear that safety is your main concern—you want to be sure citalopram won’t react badly with your phenelzine and that you understand common side effects and how likely they are. It makes sense the pharmacist reassured you yet left some uncertainty. That mix of relief and doubt is totally normal. What one piece of information would make you feel confident enough to decide?
+
+
+Response 2:
+You clearly value accurate, straightforward information and want to minimize risk. Let’s collaborate—I can help you list specific questions to bring to your prescriber or pharmacist (interaction risk, warning signs, side‑effect likelihood, alternatives, monitoring). Which of those would you most want to prioritize, or do you have another idea?
+
+
+Response 3:
+It’s hopeful to hear you want to weigh benefits versus risks carefully—shows you’re taking thoughtful steps for your health. I believe you can get the clear answers you need. Would you like me to help draft concise, clear questions and phrasing so you feel more confident in your next conversation with the pharmacist or provider?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear that safety is your main concern—you want to be sure citalopram won’t react badly with your phenelzine and that you understand common side effects and how likely they are. It makes sense the pharmacist reassured you yet left some uncertainty. That mix of relief and doubt is totally normal. What one piece of information would make you feel confident enough to decide?
+
+CANDIDATE RESPONSE 2:
+You clearly value accurate, straightforward information and want to minimize risk. Let’s collaborate—I can help you list specific questions to bring to your prescriber or pharmacist (interaction risk, warning signs, side‑effect likelihood, alternatives, monitoring). Which of those would you most want to prioritize, or do you have another idea?
+
+CANDIDATE RESPONSE 3:
+It’s hopeful to hear you want to weigh benefits versus risks carefully—shows you’re taking thoughtful steps for your health. I believe you can get the clear answers you need. Would you like me to help draft concise, clear questions and phrasing so you feel more confident in your next conversation with the pharmacist or provider?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It most accurately reflects Alessia’s feelings (the relief and lingering uncertainty), shows acceptance, and invites her to name the single piece of information she needs, supporting collaboration and autonomy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I hear that safety is your main concern—you want to be sure citalopram won’t react badly with your phenelzine and that you understand common side effects and how likely they are. It makes sense the pharmacist reassured you yet left some uncertainty. That mix of relief and doubt is totally normal. What one piece of information would make you feel confident enough to decide?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear that safety and a clear timeline matter to you — and that accurate information helps you decide. You shouldn’t take phenelzine and citalopram together. The usual guidance is to wait at least 14 days after stopping phenelzine before starting citalopram (and likewise 14 days after stopping most SSRIs before starting phenelzine). Watch for serotonin syndrome: high fever, confusion, severe muscle stiffness, rapid heartbeat, tremor, sweating, severe agitation, vomiting or diarrhea. If any appear, seek emergency care and contact your prescriber or pharmacist.
+
+
+Response 2:
+You’re asking for a clear, practical plan — great. Two common, safe options to discuss with your prescriber: (A) stop phenelzine, wait 14 days, then start citalopram with monitoring; or (B) stay on phenelzine and explore non‑SSRI options. Which of those sounds more acceptable, or would you want me to help you list questions for your prescriber/pharmacist (e.g., exact dates, monitoring, who to call if symptoms start)?
+
+
+Response 3:
+It makes sense you want confidence before deciding — that’s wise. The typical washout is 14 days and knowing the red‑flag symptoms (high fever, confusion, severe muscle rigidity, very rapid heartbeat) gives you a concrete safety net. Many people feel more confident after agreeing on a start date and an emergency plan with their prescriber. What’s one small next step you’d like to take — call your prescriber, confirm the timeline with the pharmacist, or write down the symptoms to watch for?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear that safety and a clear timeline matter to you — and that accurate information helps you decide. You shouldn’t take phenelzine and citalopram together. The usual guidance is to wait at least 14 days after stopping phenelzine before starting citalopram (and likewise 14 days after stopping most SSRIs before starting phenelzine). Watch for serotonin syndrome: high fever, confusion, severe muscle stiffness, rapid heartbeat, tremor, sweating, severe agitation, vomiting or diarrhea. If any appear, seek emergency care and contact your prescriber or pharmacist.
+
+CANDIDATE RESPONSE 2:
+You’re asking for a clear, practical plan — great. Two common, safe options to discuss with your prescriber: (A) stop phenelzine, wait 14 days, then start citalopram with monitoring; or (B) stay on phenelzine and explore non‑SSRI options. Which of those sounds more acceptable, or would you want me to help you list questions for your prescriber/pharmacist (e.g., exact dates, monitoring, who to call if symptoms start)?
+
+CANDIDATE RESPONSE 3:
+It makes sense you want confidence before deciding — that’s wise. The typical washout is 14 days and knowing the red‑flag symptoms (high fever, confusion, severe muscle rigidity, very rapid heartbeat) gives you a concrete safety net. Many people feel more confident after agreeing on a start date and an emergency plan with their prescriber. What’s one small next step you’d like to take — call your prescriber, confirm the timeline with the pharmacist, or write down the symptoms to watch for?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It offers clear, safe options, invites Alessia’s preference, supports collaboration with her prescriber, and asks if she wants help formulating questions rather than prescribing a single course.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You’re asking for a clear, practical plan — great. Two common, safe options to discuss with your prescriber: (A) stop phenelzine, wait 14 days, then start citalopram with monitoring; or (B) stay on phenelzine and explore non‑SSRI options. Which of those sounds more acceptable, or would you want me to help you list questions for your prescriber/pharmacist (e.g., exact dates, monitoring, who to call if symptoms start)?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you want clear, practical wording for your prescriber—exact washout/taper timing, a short list of serious symptoms (serotonin syndrome vs hypertensive crisis), who to call first, and a written plan with dates. That makes total sense given how much you value accurate health information. I can draft those questions in plain language. Which single piece of information would most increase your confidence right now: exact timing, symptom specifics, or the written step‑by‑step plan?
+
+
+Response 2:
+You’ve named exactly the items a prescriber needs. Here are concise question phrasings you could use — pick which to lead with: 1) Do I need to taper phenelzine? 2) How long must I wait after stopping phenelzine before starting citalopram? 3) If stopping citalopram, how long before phenelzine? 4) Which symptoms need urgent care and how to tell them apart? 5) Who should I call first? 6) Safe alternatives and meds/foods/supplements to avoid? Which would you like me to prioritize or tweak?
+
+
+Response 3:
+You’re clearly aiming for a safe, concrete plan — that’s a strong, practical approach. I can turn your questions into a one‑page checklist and suggested wording to bring to the visit and share with the pharmacist. Would you like that formatted as a timeline with exact fields for dates and emergency contacts? What would make that checklist feel most usable for you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you want clear, practical wording for your prescriber—exact washout/taper timing, a short list of serious symptoms (serotonin syndrome vs hypertensive crisis), who to call first, and a written plan with dates. That makes total sense given how much you value accurate health information. I can draft those questions in plain language. Which single piece of information would most increase your confidence right now: exact timing, symptom specifics, or the written step‑by‑step plan?
+
+CANDIDATE RESPONSE 2:
+You’ve named exactly the items a prescriber needs. Here are concise question phrasings you could use — pick which to lead with: 1) Do I need to taper phenelzine? 2) How long must I wait after stopping phenelzine before starting citalopram? 3) If stopping citalopram, how long before phenelzine? 4) Which symptoms need urgent care and how to tell them apart? 5) Who should I call first? 6) Safe alternatives and meds/foods/supplements to avoid? Which would you like me to prioritize or tweak?
+
+CANDIDATE RESPONSE 3:
+You’re clearly aiming for a safe, concrete plan — that’s a strong, practical approach. I can turn your questions into a one‑page checklist and suggested wording to bring to the visit and share with the pharmacist. Would you like that formatted as a timeline with exact fields for dates and emergency contacts? What would make that checklist feel most usable for you?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It gives concrete, patient-centered question phrasing (useful and actionable), affirms what the patient named, and invites collaboration by asking which items to prioritize or tweak.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You’ve named exactly the items a prescriber needs. Here are concise question phrasings you could use — pick which to lead with: 1) Do I need to taper phenelzine? 2) How long must I wait after stopping phenelzine before starting citalopram? 3) If stopping citalopram, how long before phenelzine? 4) Which symptoms need urgent care and how to tell them apart? 5) Who should I call first? 6) Safe alternatives and meds/foods/supplements to avoid? Which would you like me to prioritize or tweak?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear safety and exact timelines matter most to you. Try: "Exactly how many days after stopping phenelzine can I start citalopram? Please give a specific day count and calendar dates." Then: "Which symptoms require urgent care—list concrete examples (e.g., high fever, severe muscle stiffness, rapid heartbeat, confusion), how to tell them apart, and what to do immediately." Finally: "Do I need to taper phenelzine—if so, please provide a day‑by‑day taper plan." What would make you feel most confident?
+
+
+Response 2:
+You want clear, actionable answers—let’s co‑word it. Options to lead with: A) "State the exact number of days between stopping phenelzine and starting citalopram and write the calendar dates." B) "List specific red‑flag symptoms (examples) and how to distinguish them, plus immediate steps." C) "If taper is needed, give a day‑by‑day schedule." Which would you like to open with or tweak?
+
+
+Response 3:
+I’m glad you’re asking for a written safety plan—that’s wise. Use: "Please provide exact waiting times both ways (days and calendar dates), a short list of high‑risk symptoms with examples (severe fever, confusion, stiff muscles, very high BP), immediate actions and who to call first, safe medication/OTC/supplement/food avoids, and a written plan with contact numbers." How would having that written plan change your sense of safety?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear safety and exact timelines matter most to you. Try: "Exactly how many days after stopping phenelzine can I start citalopram? Please give a specific day count and calendar dates." Then: "Which symptoms require urgent care—list concrete examples (e.g., high fever, severe muscle stiffness, rapid heartbeat, confusion), how to tell them apart, and what to do immediately." Finally: "Do I need to taper phenelzine—if so, please provide a day‑by‑day taper plan." What would make you feel most confident?
+
+CANDIDATE RESPONSE 2:
+You want clear, actionable answers—let’s co‑word it. Options to lead with: A) "State the exact number of days between stopping phenelzine and starting citalopram and write the calendar dates." B) "List specific red‑flag symptoms (examples) and how to distinguish them, plus immediate steps." C) "If taper is needed, give a day‑by‑day schedule." Which would you like to open with or tweak?
+
+CANDIDATE RESPONSE 3:
+I’m glad you’re asking for a written safety plan—that’s wise. Use: "Please provide exact waiting times both ways (days and calendar dates), a short list of high‑risk symptoms with examples (severe fever, confusion, stiff muscles, very high BP), immediate actions and who to call first, safe medication/OTC/supplement/food avoids, and a written plan with contact numbers." How would having that written plan change your sense of safety?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It best reflects your concern using your words, offers concrete clinician‑phrased questions, and invites your input (“What would make you feel most confident?”) in a collaborative, nonjudgmental way.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I hear safety and exact timelines matter most to you. Try: "Exactly how many days after stopping phenelzine can I start citalopram? Please give a specific day count and calendar dates." Then: "Which symptoms require urgent care—list concrete examples (e.g., high fever, severe muscle stiffness, rapid heartbeat, confusion), how to tell them apart, and what to do immediately." Finally: "Do I need to taper phenelzine—if so, please provide a day‑by‑day taper plan." What would make you feel most confident?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you, Alessia — safety, exact timelines, and clear warning signs are what will let you decide. You want exact day counts with calendar dates, a day‑by‑day taper if needed, concrete symptom examples (serotonin syndrome vs hypertensive crisis), immediate steps, contacts, and risk likelihood. That need for precise, reliable information is completely reasonable. Which single piece of information — exact waiting days, or a written taper plan — would most increase your confidence right now?
+
+
+Response 2:
+You’re asking for a concrete, written plan to bring to your prescriber: exact days and calendar dates, a day‑by‑day taper, clear symptom examples and how to tell them apart, what to do immediately, who to call, and how likely serious reactions are. Would you like me to draft a short script you can read aloud, a one‑page checklist, or both? Which format do you think would be most useful at your appointment?
+
+
+Response 3:
+It’s hopeful to hear you’re ready to move once you have specifics — that makes sense, and I believe you can get the clarity you need. I can prepare a concise, plain‑language plan with exact‑day phrasing, symptom examples, immediate actions, suggested questions for your prescriber, and space for contact numbers. Would you like me to draft that now for you to review and tweak?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you, Alessia — safety, exact timelines, and clear warning signs are what will let you decide. You want exact day counts with calendar dates, a day‑by‑day taper if needed, concrete symptom examples (serotonin syndrome vs hypertensive crisis), immediate steps, contacts, and risk likelihood. That need for precise, reliable information is completely reasonable. Which single piece of information — exact waiting days, or a written taper plan — would most increase your confidence right now?
+
+CANDIDATE RESPONSE 2:
+You’re asking for a concrete, written plan to bring to your prescriber: exact days and calendar dates, a day‑by‑day taper, clear symptom examples and how to tell them apart, what to do immediately, who to call, and how likely serious reactions are. Would you like me to draft a short script you can read aloud, a one‑page checklist, or both? Which format do you think would be most useful at your appointment?
+
+CANDIDATE RESPONSE 3:
+It’s hopeful to hear you’re ready to move once you have specifics — that makes sense, and I believe you can get the clarity you need. I can prepare a concise, plain‑language plan with exact‑day phrasing, symptom examples, immediate actions, suggested questions for your prescriber, and space for contact numbers. Would you like me to draft that now for you to review and tweak?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It best reflects her feeling of readiness and need for specifics, accepts where she is, and collaboratively offers to draft a plain‑language plan now that she can review and tweak.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+It’s hopeful to hear you’re ready to move once you have specifics — that makes sense, and I believe you can get the clarity you need. I can prepare a concise, plain‑language plan with exact‑day phrasing, symptom examples, immediate actions, suggested questions for your prescriber, and space for contact numbers. Would you like me to draft that now for you to review and tweak?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear that safety, exact day counts, and a printable timeline matter most — and that the pharmacist’s reassurance helped but you still need concrete dates, a day‑by‑day taper, and clear symptom examples (serotonin syndrome vs hypertensive crisis). I can draft that precise, plain‑language plan with spaces for phone numbers and calendar dates. Would you like me to prepare a one‑page checklist with exact day counts for both switching directions now?
+
+
+Response 2:
+You’ve asked for a practical, clinician‑ready plan: exact waiting days both ways, a day‑by‑day taper option, concrete urgent‑symptom examples and immediate actions, who to call, safe alternatives, and printable calendar slots. I’ll keep language plain and include likelihood info. Which format would help you most when talking with your prescriber — a single concise checklist or a dated, stepwise calendar you can hand them?
+
+
+Response 3:
+It’s hopeful and practical that you’re ready to move once you have specifics — that clarity will help you decide safely. I believe you can use a clear plan to feel confident; I’ll include exact day counts, symptom distinctions (with examples), immediate steps, sample calendar dates, and space for contact numbers. Would you like me to draft it using today as the example stop date so you can see concrete calendar dates?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear that safety, exact day counts, and a printable timeline matter most — and that the pharmacist’s reassurance helped but you still need concrete dates, a day‑by‑day taper, and clear symptom examples (serotonin syndrome vs hypertensive crisis). I can draft that precise, plain‑language plan with spaces for phone numbers and calendar dates. Would you like me to prepare a one‑page checklist with exact day counts for both switching directions now?
+
+CANDIDATE RESPONSE 2:
+You’ve asked for a practical, clinician‑ready plan: exact waiting days both ways, a day‑by‑day taper option, concrete urgent‑symptom examples and immediate actions, who to call, safe alternatives, and printable calendar slots. I’ll keep language plain and include likelihood info. Which format would help you most when talking with your prescriber — a single concise checklist or a dated, stepwise calendar you can hand them?
+
+CANDIDATE RESPONSE 3:
+It’s hopeful and practical that you’re ready to move once you have specifics — that clarity will help you decide safely. I believe you can use a clear plan to feel confident; I’ll include exact day counts, symptom distinctions (with examples), immediate steps, sample calendar dates, and space for contact numbers. Would you like me to draft it using today as the example stop date so you can see concrete calendar dates?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It best reflects your concerns, affirms readiness, and invites collaboration by offering clear options (checklist vs dated calendar) while keeping language practical and non‑directive.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You’ve asked for a practical, clinician‑ready plan: exact waiting days both ways, a day‑by‑day taper option, concrete urgent‑symptom examples and immediate actions, who to call, safe alternatives, and printable calendar slots. I’ll keep language plain and include likelihood info. Which format would help you most when talking with your prescriber — a single concise checklist or a dated, stepwise calendar you can hand them?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you want a dated, stepwise calendar plus a one‑page checklist with exact day counts, a day‑by‑day taper option, plain symptom examples, immediate actions, and space for contact numbers so you can feel confident handing this to your prescriber. I’ll draft that packet in plain language with brief likelihood notes for review and tweaks. What would make you feel most confident when you hand this to your prescriber?
+
+
+Response 2:
+That combination (dated calendar + concise checklist) makes sense and will be clinician‑ready. I can prepare two versions: (A) pre‑filled example dates using standard washout/taper templates, or (B) blank dated slots to fill with your prescriber. Which would help you more, or would you like both so you can choose in the moment?
+
+
+Response 3:
+You’re ready to act once you have precise specifics — that’s practical and hopeful. I’ll include the dated stepwise plan, exact day counts, a printable day‑by‑day taper, clear comparisons of serotonin syndrome vs hypertensive crisis with immediate steps, and space for contact numbers. What from past medication changes helped you feel safe that we can repeat here?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you want a dated, stepwise calendar plus a one‑page checklist with exact day counts, a day‑by‑day taper option, plain symptom examples, immediate actions, and space for contact numbers so you can feel confident handing this to your prescriber. I’ll draft that packet in plain language with brief likelihood notes for review and tweaks. What would make you feel most confident when you hand this to your prescriber?
+
+CANDIDATE RESPONSE 2:
+That combination (dated calendar + concise checklist) makes sense and will be clinician‑ready. I can prepare two versions: (A) pre‑filled example dates using standard washout/taper templates, or (B) blank dated slots to fill with your prescriber. Which would help you more, or would you like both so you can choose in the moment?
+
+CANDIDATE RESPONSE 3:
+You’re ready to act once you have precise specifics — that’s practical and hopeful. I’ll include the dated stepwise plan, exact day counts, a printable day‑by‑day taper, clear comparisons of serotonin syndrome vs hypertensive crisis with immediate steps, and space for contact numbers. What from past medication changes helped you feel safe that we can repeat here?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It best reflects her feelings (“ready to act,” “practical and hopeful”), accepts her position, offers the exact materials she asked for, and actively invites her expertise by asking what worked before so the plan can be tailored collaboratively.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+You’re ready to act once you have precise specifics — that’s practical and hopeful. I’ll include the dated stepwise plan, exact day counts, a printable day‑by‑day taper, clear comparisons of serotonin syndrome vs hypertensive crisis with immediate steps, and space for contact numbers. What from past medication changes helped you feel safe that we can repeat here?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Alessia, I hear that a dated step‑by‑step calendar, a day‑by‑day taper, a short red‑flag list with plain actions, contact numbers, a follow‑up within a week, a low‑start dose, and a pharmacist review made you feel safe. I can draft that now—would you like me to start with the dated calendar or the one‑page checklist first?
+
+
+Response 2:
+I can put together both: a printable, fillable dated calendar showing exact day counts both ways, a day‑by‑day taper template, and a concise checklist with immediate actions and blank contact slots. Which format would help most when you hand it to your prescriber—a fillable PDF or a simple printable table?
+
+
+Response 3:
+You’re ready and have a clear sense of what keeps you safe—written dates, taper, red flags, phone numbers, early follow‑up, low dose, and a pharmacist check. That’s a strong plan and I believe it will help. Would you like me to include a short script you can read aloud to your prescriber when you hand them the plan?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Alessia, I hear that a dated step‑by‑step calendar, a day‑by‑day taper, a short red‑flag list with plain actions, contact numbers, a follow‑up within a week, a low‑start dose, and a pharmacist review made you feel safe. I can draft that now—would you like me to start with the dated calendar or the one‑page checklist first?
+
+CANDIDATE RESPONSE 2:
+I can put together both: a printable, fillable dated calendar showing exact day counts both ways, a day‑by‑day taper template, and a concise checklist with immediate actions and blank contact slots. Which format would help most when you hand it to your prescriber—a fillable PDF or a simple printable table?
+
+CANDIDATE RESPONSE 3:
+You’re ready and have a clear sense of what keeps you safe—written dates, taper, red flags, phone numbers, early follow‑up, low dose, and a pharmacist check. That’s a strong plan and I believe it will help. Would you like me to include a short script you can read aloud to your prescriber when you hand them the plan?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It mirrors her stated safety needs using her words, shows acceptance, and invites collaborative choice (start with the dated calendar or the one‑page checklist) without being prescriptive.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+Alessia, I hear that a dated step‑by‑step calendar, a day‑by‑day taper, a short red‑flag list with plain actions, contact numbers, a follow‑up within a week, a low‑start dose, and a pharmacist review made you feel safe. I can draft that now—would you like me to start with the dated calendar or the one‑page checklist first?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you want the dated, step‑by‑step calendar first, with a day‑by‑day taper, red‑flag actions, contact spaces, starting‑dose info, and a follow‑up slot. That clear, written plan is what helped you feel safe before, and I’ll keep language plain and exact. Do you have a preferred target date to begin the transition so I can pre‑fill the calendar for your prescriber?
+
+
+Response 2:
+That sounds practical — we’ll draft the calendar you can hand your prescriber, plus the one‑page checklist, taper schedule, symptom box, and printable contact fields. I’ll keep exact day counts and space for calendar dates. Would you like me to pre‑fill example dates using a 14‑day washout or leave blanks to complete with your prescriber?
+
+
+Response 3:
+You’re ready to act once you have specifics — that’s hopeful and doable. I’ll create a dated calendar, a concise checklist with exact day counts, a plain‑language urgent‑symptom guide, and slots for phone numbers and a follow‑up appointment. Which follow‑up timing would feel safest to you — a check‑in within 3 days or within 7 days after switching?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you want the dated, step‑by‑step calendar first, with a day‑by‑day taper, red‑flag actions, contact spaces, starting‑dose info, and a follow‑up slot. That clear, written plan is what helped you feel safe before, and I’ll keep language plain and exact. Do you have a preferred target date to begin the transition so I can pre‑fill the calendar for your prescriber?
+
+CANDIDATE RESPONSE 2:
+That sounds practical — we’ll draft the calendar you can hand your prescriber, plus the one‑page checklist, taper schedule, symptom box, and printable contact fields. I’ll keep exact day counts and space for calendar dates. Would you like me to pre‑fill example dates using a 14‑day washout or leave blanks to complete with your prescriber?
+
+CANDIDATE RESPONSE 3:
+You’re ready to act once you have specifics — that’s hopeful and doable. I’ll create a dated calendar, a concise checklist with exact day counts, a plain‑language urgent‑symptom guide, and slots for phone numbers and a follow‑up appointment. Which follow‑up timing would feel safest to you — a check‑in within 3 days or within 7 days after switching?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It best reflects her feelings and need for safety, affirms what helped before, and respectfully invites her to provide the target date so the collaborative, dated calendar can be pre‑filled.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I hear you — you want the dated, step‑by‑step calendar first, with a day‑by‑day taper, red‑flag actions, contact spaces, starting‑dose info, and a follow‑up slot. That clear, written plan is what helped you feel safe before, and I’ll keep language plain and exact. Do you have a preferred target date to begin the transition so I can pre‑fill the calendar for your prescriber?
+

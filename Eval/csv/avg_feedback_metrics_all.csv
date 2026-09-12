@@ -1,0 +1,51 @@
+therapist_mode,criterion,mean,std
+complex,Acceptance,4.705,0.202
+complex,Empathy,4.37,0.294
+complex,Direction,4.965,0.087
+complex,Collaboration,4.656,0.277
+complex,Autonomy Support,4.974,0.071
+complex,Evocation,4.126,0.397
+complex,Partnership,4.675,0.282
+complex,Cultivating Change Talk,4.101,0.391
+complex,Softening Sustain Talk,3.968,0.259
+complex,Overall Average,4.505,0.165
+multi_agent,Acceptance,4.842,0.163
+multi_agent,Empathy,4.705,0.224
+multi_agent,Direction,4.967,0.086
+multi_agent,Collaboration,4.777,0.211
+multi_agent,Autonomy Support,4.986,0.05
+multi_agent,Evocation,4.417,0.289
+multi_agent,Partnership,4.776,0.21
+multi_agent,Cultivating Change Talk,4.335,0.295
+multi_agent,Softening Sustain Talk,4.033,0.227
+multi_agent,Overall Average,4.649,0.12
+proposer_only,Acceptance,4.714,0.227
+proposer_only,Empathy,4.466,0.278
+proposer_only,Direction,4.976,0.065
+proposer_only,Collaboration,4.764,0.233
+proposer_only,Autonomy Support,4.986,0.056
+proposer_only,Evocation,4.32,0.299
+proposer_only,Partnership,4.815,0.228
+proposer_only,Cultivating Change Talk,4.337,0.327
+proposer_only,Softening Sustain Talk,3.995,0.302
+proposer_only,Overall Average,4.597,0.152
+simple,Acceptance,4.516,0.278
+simple,Empathy,3.902,0.377
+simple,Direction,4.829,0.213
+simple,Collaboration,4.09,0.488
+simple,Autonomy Support,4.836,0.253
+simple,Evocation,3.346,0.447
+simple,Partnership,4.432,0.351
+simple,Cultivating Change Talk,3.517,0.461
+simple,Softening Sustain Talk,3.734,0.346
+simple,Overall Average,4.134,0.252
+trained_agent,Acceptance,4.702,0.21
+trained_agent,Empathy,4.352,0.289
+trained_agent,Direction,4.952,0.108
+trained_agent,Collaboration,4.656,0.291
+trained_agent,Autonomy Support,4.985,0.058
+trained_agent,Evocation,4.117,0.445
+trained_agent,Partnership,4.683,0.28
+trained_agent,Cultivating Change Talk,4.068,0.435
+trained_agent,Softening Sustain Talk,3.974,0.258
+trained_agent,Overall Average,4.499,0.172
