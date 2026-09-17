@@ -52,15 +52,18 @@ def model_runs_dir(model: str):
 def find_complete_mode_csv(mode: str, args, start_patient=0, end_patient=133):
     """Locate a COMPLETE results CSV for a mode in the model's Session_Metadata root.
 
-    'Complete' means it has the expected number of rows (num_patients * fold). This lets
-    --compare --resume skip modes that already finished.
+    'Complete' means the mode has the expected number of UNIQUE, fully-saved session folders
+    (num_patients * fold). Sessions may be split across multiple result-CSV folders (e.g. from
+    resumed partial runs), so we aggregate unique sessions referenced by any result CSV for this
+    mode and require each to correspond to a fully-present folder in Saved_Sessions.
 
     Returns:
-        (path, folder) if a complete CSV is found, else (None, None).
+        (path, folder) of the last result CSV contributing to completeness, else (None, None).
     """
     import glob as _glob
     meta_root = os.environ.get("PSYCH_META_DIR") or "Session_Metadata"
-    # Expected rows for a complete run
+    save_root = os.environ.get("PSYCH_SAVE_DIR") or "Saved_Sessions"
+    # Expected sessions for a complete run
     try:
         pats = get_patient_files(start_patient, end_patient)
         num_patients = len(pats)
@@ -68,8 +71,10 @@ def find_complete_mode_csv(mode: str, args, start_patient=0, end_patient=133):
         num_patients = end_patient - start_patient
     fold = getattr(args, 'fold', 1)
     expected = num_patients * fold
+    REQUIRED = ["detailed_feedback.txt", "interview_transcript.txt", "MI_EVAL.txt"]
 
     candidates = _glob.glob(os.path.join(meta_root, "*", f"results_{mode}.csv"))
+    # If any SINGLE folder already has >= expected rows, it's trivially complete.
     for csv_path in candidates:
         try:
             df = pd.read_csv(csv_path)
@@ -77,6 +82,26 @@ def find_complete_mode_csv(mode: str, args, start_patient=0, end_patient=133):
                 return csv_path, os.path.dirname(csv_path)
         except Exception:
             continue
+
+    # Otherwise aggregate UNIQUE valid sessions across all result CSVs for this mode.
+    unique_sessions = set()
+    last_csv = None
+    for csv_path in candidates:
+        last_csv = csv_path
+        try:
+            df = pd.read_csv(csv_path)
+            for s in df['Session']:
+                sess = str(s)
+                folder = os.path.join(save_root, sess)
+                if os.path.isdir(folder) and all(
+                    os.path.isfile(os.path.join(folder, f)) for f in REQUIRED
+                ):
+                    unique_sessions.add(sess)
+        except Exception:
+            continue
+
+    if len(unique_sessions) >= expected and last_csv:
+        return last_csv, os.path.dirname(last_csv)
     return None, None
 
 
@@ -548,9 +573,19 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     # Sort results by patient filename to maintain order
     all_results.sort(key=lambda x: patient_file_basenames.get(x["Patient"], 999))
 
-    # Save results to CSV (atomic)
-    results_df = pd.DataFrame(all_results)
+    # Save results to CSV (atomic). If NOTHING was newly run (e.g. resume skipped all patient-fold
+    # combos) and a complete results CSV already exists for this mode, avoid writing an empty file
+    # that would shadow the existing complete data.
     csv_path = os.path.join(save_folder, f"results_{therapist_mode}.csv")
+    if not all_results:
+        existing_csv, existing_folder = find_complete_mode_csv(therapist_mode, args)
+        if existing_csv:
+            os.makedirs(save_folder, exist_ok=True)
+            with open(os.path.join(save_folder, "metadata.json"), "w") as f:
+                json.dump(metadata, f, indent=2)
+            print(f"\n[resume] All runs already saved; reusing complete results: {existing_csv}")
+            return existing_folder, existing_csv
+    results_df = pd.DataFrame(all_results)
     tmp_path = f"{csv_path}.tmp.{os.getpid()}"
     results_df.to_csv(tmp_path, index=False)
     os.replace(tmp_path, csv_path)
