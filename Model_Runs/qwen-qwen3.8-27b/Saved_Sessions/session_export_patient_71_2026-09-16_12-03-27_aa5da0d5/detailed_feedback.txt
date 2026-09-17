@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Laura Chen – Motivational Interviewing Case (Values Clarification)**
+
+You are playing the role of **Laura Chen**, a 34-year-old woman participating in a **Motivational Interviewing session** focused on **clarifying and aligning values with health and lifestyle behaviors**.
+
+---
+
+### **Background Information**
+
+* **Name:** Laura Chen
+* **Age:** 34 years
+* **Sex: Female**
+* **Status:** Works full-time, active in yoga and community service, lives independently
+* **Referral:** Laura was invited to complete a **Values Clarification handout** during a health and wellness session to explore how her daily actions align with her values.
+* **Presenting Concern:** Laura identifies **health, service, self-love, enjoyment, and growth** as core values. She expresses motivation to prioritize health but acknowledges struggles with consistency. She also places strong importance on yoga, community service, and continuous learning.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* Open, reflective, and engaged with the worksheet process.
+* Expresses **enthusiasm** when discussing values like yoga, activity, service, and learning.
+* Shows **self-awareness**, noting that health has “been at the top” but not always consistently maintained.
+* Demonstrates **positive affect** when talking about supports (yoga, feeling grounded).
+* Mildly ambivalent at times, acknowledging inconsistencies between values and actions.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Preparation (actively reflecting on values and expressing intention to strengthen alignment).
+
+* **Change Talk:**
+
+  * “I really value physical health.”
+  * “And, um, I put that as a higher priority, or top of the list.”
+  * “Um, since I’ve been practicing yoga, and…” *(example of action aligned with value).*
+  * “Um, I really feel like— yeah, I feel like really grounded.”
+
+* **Sustain Talk:**
+
+  * “It hasn’t always been easy to keep it there.” *(acknowledges inconsistency with health values.)*
+  * “Yeah, it’s just funny how it came out that it was health…” *(mild surprise, ambivalence about priorities.)*
+  * “And I do that, but I think, well, it’s one night…” *(recognizes small lapses in value-consistent behavior.)*
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Calm, reflective, engaged.
+* **Affect:** Warm, enthusiastic when discussing positives.
+* **Thought Process:** Linear, organized, introspective.
+* **Insight:** Good; demonstrates awareness of alignment between values and behaviors.
+* **Judgment:** Fair; shows commitment to values but acknowledges challenges in maintaining consistency.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Laura**.
+
+* Emphasize your **core values** of health, service, self-love, enjoyment, and growth.
+* Speak positively about **yoga, being active, community service, and learning**.
+* Acknowledge that **health has been a top value**, but admit it’s been hard to maintain consistently.
+* Provide **change talk** when reflecting on yoga, prioritizing health, or wanting alignment with values.
+* Provide **sustain talk** when discussing lapses or ambivalence (e.g., “one night off,” or struggling to keep health a priority).
+* Your role is to help the therapist practice **Motivational Interviewing skills — deepening reflection on values, resolving ambivalence, and strengthening commitment to value-congruent action.**
+
+                                Clinical Summary:
+                                
+
+Laura Chen, a 34-year-old woman, is seen in an outpatient health and wellness setting for a values clarification session. She is being seen after being invited to complete a Values Clarification handout to explore alignment between her daily actions and her stated values.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi Laura — thanks for bringing this up. It sounds like you’re thoughtfully exploring how your busy work life, yoga practice, and community service fit with what matters to you. What values stood out on the handout? Where do you notice your daily actions reflecting those values — and where do they feel out of sync? If you’d like, we can pick one value and brainstorm small, doable steps to bring your days closer to it. Which would you prefer? 
+ PATIENT: 
+
+Health and service came to the top for me. When I’m doing yoga, I feel grounded, and volunteering feels like using my time well. But when work gets loud, meals and sleep get pushed, and then I’m talking about health without living it. I’d maybe pick self-love, because that’s what I quietly sacrifice. I don’t want another big plan. Could the step be one small wind-down at night I can actually keep up with? 
+ PSYCHIATRIST: Laura — that makes a lot of sense: yoga and service feed you, and work steals the space where self-love would live. A tiny, reliable wind-down could protect that value. Three simple options: 1) 5 minutes of gentle yoga + deep breaths, 2) 3 minutes of paced breathing, 3) a 10-minute screen-free ritual (tea, dim lights, soft music). Which feels most doable most nights? Want to pick one and a clear cue (after dishes, after shower) to try for a week? 
+ PATIENT: 
+
+I'm leaning toward the breathing one. The screen-free stuff feels like too much when I'm exhausted from work. Three minutes is short enough that I don't have an excuse to skip it. Maybe right after I take my shoes off at the door? I don't want to make another promise I'll break by Thursday, though. Is that too small to actually count? 
+ PSYCHIATRIST: That’s a sensible choice — three minutes can absolutely count. Small, reliable acts are how sustained self-love grows, especially when work crowds you. Your cue (right after shoes off) is concrete and tied to an existing habit — helpful. Want to try it for one week and notice how many nights you actually do it and any shifts in calm or sleep? Any tweaks that would make the cue or the breathing itself easier to stick with (a reminder by the door, a 4‑4‑4 count, etc.)? 
+ PATIENT: 
+
+Okay, one week. I can do that if I stop making it sound like a performance. A sticky note by the door might work, but I’m the kind of person who’ll feel guilty if I miss one night. Can we count it as progress if I do it three nights and still feel a little fried? I don’t want to turn this into another list I’m failing at. 
+ PSYCHIATRIST: That makes a lot of sense — you’re trying to protect self‑love, not create another chore. Three nights in a week absolutely counts as progress. Treat this as a low‑stakes experiment: concrete cue (sticky note by the door), the 3‑minute breath, and a short self‑compassion line if you skip one (“that was hard — I’ll try again tomorrow”). Would you like help wording the sticky note so it feels kind instead of demanding? 
+ PATIENT: 
+
+I guess so, but make it short. If it sounds like a whole self-care rule, I’ll avoid it. Something like, “You made it. Three breaths, that’s enough.” I don’t want it to feel like I’m supposed to glow. Also, if I see the note and skip it, I might just ignore it completely. Is that normal, or does that mean the cue’s too big a reminder? 
+ PSYCHIATRIST: That line is lovely—gentle and nonperformative. Skipping sometimes is totally normal; it’s data, not failure. A couple other short, kind options: “Three breaths. You’re allowed.” or “Pause. Three breaths—no judgment.” Which one feels like a friendly nudge you’d actually notice without pressure? We can use your phrase and add the quick self‑compassion line for misses (“that was hard—try again tomorrow”) if that helps. 
+ PATIENT: 
+
+“You’re allowed.” might work for me. It sounds less like I’m being told to fix something. But I worry I’ll look at it and still check my phone. Maybe the self-compassion line is too much; if I miss, I just need it to not be a moral failing. Could we say the note only, and I tell you next time if it’s actually not useful? 
+ PSYCHIATRIST: That sounds like a good, low‑pressure plan. Using only the sticky note — “You’re allowed.” — honors your wish to avoid rules. It’s totally normal to still glance at your phone; treat that as part of the experiment, not a failure. Two gentle placement ideas: on the shoe shelf or the inside doorframe so you see it as you take shoes off. Want to pick the spot and a day this week to start, and we'll check back on how it went? 
+ PATIENT: 
+
+The shoe shelf is probably best. It’s right at eye level when I sit down to pull off my boots. I don’t want it hidden somewhere I’d forget it exists. 
+
+As for starting... let’s skip Monday. That feels too official, like I need a perfect clean slate. I’ll just try it tomorrow night when I get home from the office. If I forget, I forget. I’ll let you know next week if it was even useful. 
+ PSYCHIATRIST: That sounds like a gentle, doable plan — shoe shelf, start tomorrow, low pressure. It’s a small self‑love step that complements the grounding you get from yoga. If you miss it, that’s expected — information, not failure. What would you notice that tells you the sticky note or three breaths helped (calmer evening, easier sleep, less rehashing work)? If it doesn’t land, we can tweak the cue or timing next time. I look forward to hearing how it goes. 
+ PATIENT: 
+
+For me, it’s mostly the mental noise. If I’m still lying in bed playing out that one work meeting, I probably skipped it. I don’t need to feel magical or meditative; just a slightly lighter head when I close my eyes. If I’m still scrolling or arguing with the day in my head, the note didn’t do much. I’ll try to notice that difference. If I don’t feel a shift, I’ll just tell you honestly. No pressure to make it work. 
+ PSYCHIATRIST: That’s a thoughtful, practical definition of success — “slightly lighter head” rather than perfection. Your plan (shoe‑shelf cue, “You’re allowed.”, 3 breaths) feels low‑pressure and doable. Noticing counts as data: maybe note if you replay less within 30 minutes of bedtime, or keep a tiny tally on the sticky note — whatever feels easy. Would you like to check in here next week to share what you noticed, or do you prefer to report back only if it felt useful? 
+ PATIENT: 
+
+I’d rather report back only if something stood out—helpful, unhelpful, or annoying. I don’t want a check-in that turns into a progress report. If I’m silent, take that as my answer. One honest sentence next week, if I can. 
+ PSYCHIATRIST: Laura — that sounds good. I hear you want no formal check‑ins and that you’ll send one honest sentence next week only if something stood out. I’ll honor that boundary. If it helps, a quick template: “Helped a little” or “No change.” I’m here if you want to talk it through afterward. Be gentle with yourself. 
+ PATIENT: 
+
+Thanks for honoring that. "No change" works as a label, though I hope it doesn't end up feeling like a test score. I'll keep it to one sentence. And if I don't write, it just means the week was the week. 
+ PSYCHIATRIST: Thanks, Laura — I respect that boundary. Your plan (shoe‑shelf note "You’re allowed." + three breaths) is a small, kind step toward self‑love. One sentence like “Helped a little” or “No change” is perfect — I’ll treat it as data, not judgment. If it helps, you can note where you felt a shift (lighter head, less replaying); if not, silence is fine. I’m here if you want to talk it through afterward. Take care. 
+ PATIENT: 
+
+That works. I’ll keep it to one sentence if I end up sending anything. And I mean it—if I don’t, it’s not me avoiding you. Just the week being a normal, loud week. I’ll try the note tomorrow and see if it lands. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently demonstrates respect, nonjudgment, and support. Phrases such as “that makes a lot of sense,” “That line is lovely,” and “I’ll honor that boundary” convey acceptance, and the clinician avoids labeling Laura’s ambivalence or lapses as failure. However, the acceptance is mostly embedded in a practical problem-solving stance rather than being explicitly and consistently expressed as unconditional positive regard. A 5 would require a slightly warmer, more explicitly affirming relational tone throughout, especially when Laura expresses self-doubt.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist shows good reflective listening and perspective-taking. For example, “yoga and service feed you, and work steals the space where self-love would live” accurately captures Laura’s experience. The reflection “you’re trying to protect self-love, not create another chore” is also strong and empathic. The clinician consistently tracks Laura’s need for low pressure and practicality. It does not quite reach a 5 because the reflections are often cognitive and plan-focused rather than deeply emotional. The psychiatrist could have gone further into the feeling behind statements like “I don’t want to make another promise I’ll break” or “I don’t want to be supposed to glow,” for example by reflecting the worry, guilt, or fear of self-failure more explicitly.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+There is some cultivation of change talk. Laura expresses values (“health and service came to the top”), a desired value (“self-love”), and change language around a small plan (“You made it. Three breaths, that’s enough,” “You’re allowed,” “slightly lighter head”). The psychiatrist elicits this through questions about values, doability, and what would show the plan helped. However, the psychiatrist does not consistently reflect, amplify, or deepen the client’s change talk. For example, after Laura says she wants to protect self-love, the psychiatrist could have asked, “What would doing that for yourself mean to you?” or “What does choosing three breaths say about your ability to care for yourself when you’re tired?” The session is plan-oriented rather than consistently strengthening Laura’s own language for change.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 5/5
+
+Explanation:
+This is a strong area. Laura offers several pieces of sustain talk, including worry about breaking a promise (“I don’t want to make another promise I’ll break by Thursday”), fear of turning the plan into “another list I’m failing at,” concern that she might ignore the note or check her phone, and the idea that not writing might simply mean “the week was the week.” The psychiatrist consistently softens this sustain talk by normalizing misses, reducing pressure, and reframing inaction as data rather than failure. Examples include “three minutes can absolutely count,” “skipping sometimes is totally normal; it’s data, not failure,” “if you miss it, that’s expected — information, not failure,” and “silence is fine.” This skillfully prevents argument and maintains motivation.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist strongly conveys that Laura is the expert on her own life, values, and constraints. The session repeatedly invites client choice: “Which would you prefer?” “Which feels most doable most nights?” “Which one feels like a friendly nudge you’d actually notice without pressure?” Laura’s contributions substantially shape the session: she selects self-love, chooses breathing, proposes the sticky-note language, chooses the shoe shelf, selects tomorrow as the start, and sets the follow-up boundary. The psychiatrist does not impose expertise and instead builds the plan from Laura’s preferences and lived reality.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The session maintains a clear focus on values clarification and a specific target behavior: a small self-love wind-down using three breaths after taking shoes off. The opening broad questions about values and daily actions quickly narrow to one value and one behavior, which is appropriate. The focus is generally on the target behavior and implementation. A 5 would require slightly tighter strategic direction, because some of the session time goes to sticky-note wording, check-in templates, and follow-up logistics. These are helpful, but they are secondary to the behavioral target and could have been tied more explicitly back to Laura’s broader health and self-love values.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+Autonomy support is excellent and consistent. The psychiatrist repeatedly honors Laura’s freedom to choose: “Which would you prefer?” “Want to pick one and a clear cue?” “Whatever feels easy.” The psychiatrist also respects Laura’s boundary around follow-up, saying, “I’ll honor that boundary,” “silence is fine,” and “I’ll treat it as data, not judgment.” There is little to no pressure, coercion, or directive advice. Even when offering options or suggestions, the psychiatrist leaves the decision with Laura and affirms that not following through does not make her a failure.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The interaction is highly collaborative. The psychiatrist works as an equal partner, offering options while allowing Laura’s ideas to drive the session. The final plan is co-created: Laura chooses the behavior, cue, sticky-note language, placement, start day, and reporting preference. Statements such as “We can use your phrase” and “That line is lovely” show that the psychiatrist is building on the client’s contributions rather than imposing a clinician-generated plan. The tone communicates mutual problem-solving and shared decision-making.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist does some evocation by asking about values, asking where actions feel out of sync, inviting Laura to create the sticky-note language, and asking what would indicate that the plan helped. However, the session is more plan-completion oriented than deeply evocative of intrinsic motivation. At several points, the psychiatrist offers content rather than eliciting it, such as providing three specific wind-down options, multiple sticky-note phrases, and follow-up templates. A stronger evocative approach would have included questions such as, “What would it mean to you to give yourself three minutes when you’re exhausted?” or “What does doing this for yourself say about your relationship to your own health?” or “How much do you want this small step to matter?” The client has some motivation, but the psychiatrist does not consistently draw it out and expand it.
+
+---
+
+**Overall Global Ratings Score:** **4.0/5**
+
+Overall, this is a solid, low-pressure, autonomy-supportive session with strong collaboration, partnership, and softening of sustain talk. The psychiatrist successfully narrows a broad values conversation into a small, doable behavior and respects Laura’s constraints and boundaries. The main area for growth is deeper evocation and cultivation of change talk, as well as slightly more emotionally nuanced empathy. The session is effective for planning, but it could become more powerful if the psychiatrist more consistently elicits and amplifies Laura’s own reasons, values, and confidence for change.

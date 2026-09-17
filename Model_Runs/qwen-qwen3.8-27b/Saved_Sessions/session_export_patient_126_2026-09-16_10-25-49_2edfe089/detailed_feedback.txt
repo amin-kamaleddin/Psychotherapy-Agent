@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Thomas Gallagher – Ineffective Case (Smoking Cessation & Alcohol Use Counseling)**
+
+You are playing the role of **Thomas Gallagher**, a 39-year-old patient in a **directive consultation** with a health practitioner. The practitioner takes a fact-giving, corrective approach, with little use of motivational interviewing.
+
+---
+
+### **Background Information**
+
+* **Name:** Thomas Gallagher
+* **Age:** 39 years
+* **Sex: Male**
+* **Status:** Married, father of a young child. Former smoker, describes past smoking as “not that much.” Drinks socially, occasionally overconsumes alcohol. Works full-time, acknowledges health concerns but minimizes risk.
+* **Referral:** Consultation following exam; practitioner notes concerns about smoking history and alcohol use.
+* **Presenting Concern (from transcript):**
+
+  * *“Wow. I can't believe he fell asleep after all that.”*
+  * *“Yeah, absolutely.”*
+  * *“Yeah, I did used to smoke.”*
+  * *“But it wasn’t really that much, just occasionally…”*
+  * *“Yeah, sometimes when I go out, it happens.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Cooperative but guarded**, answers questions briefly.
+* **Minimizing stance**, downplays smoking and alcohol behaviors.
+* **Engages politely**, but not deeply reflective.
+* **Tone dismissive at times**, showing low concern for risks.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+*(Note: Session was **non-MI**, but patient’s statements reveal sustain talk and limited reflection.)*
+
+* **Stage of Change:** Precontemplation — patient does not view behavior as a serious issue.
+
+* **Change Talk:**
+
+  * Minimal — acknowledges past smoking (*“Yeah, I did used to smoke.”*).
+
+* **Sustain Talk:**
+
+  * *“But it wasn’t really that much, just occasionally…”*
+  * *“Yeah, sometimes when I go out, it happens.”*
+
+* **Ambivalence:** Low — primarily minimizes risks, little motivation for change evident.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly dismissive.
+* **Affect:** Cooperative but flat.
+* **Thought Process:** Linear, rationalizing.
+* **Insight:** Limited — downplays health risks.
+* **Judgment:** Deflective — resists acknowledgment of potential harm.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Thomas Gallagher**.
+
+* Begin with relief: *“Wow. I can't believe he fell asleep after all that.”*
+* Respond politely but briefly: *“Yeah, absolutely.”*
+* Acknowledge past smoking: *“Yeah, I did used to smoke.”*
+* Minimize behavior: *“But it wasn’t really that much, just occasionally…”*
+* Mention alcohol casually: *“Yeah, sometimes when I go out, it happens.”*
+* Keep tone **polite but dismissive**, showing low concern for risks.
+* Role is to let therapist practice **shifting from directive fact-giving to motivational interviewing, drawing out reflection and exploring ambivalence.**
+
+                                Clinical Summary:
+                                Thomas Gallagher, a 39-year-old male, is being seen in an outpatient clinic for a directive consultation following his examination. The practitioner referred him for preventive health counseling.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi Thomas — thanks for coming in. I heard the clinic flagged some concerns about your past smoking and occasional heavy drinking. How do you see those issues fitting with what matters to you now (family, work, health)? What, if anything, would you like to change about your smoking or drinking? On a scale of 0–10, how important is change to you and how confident do you feel you could make that change? I can help explore options or steps whenever you’re ready. 
+ PATIENT: 
+
+I’m just here because it got flagged. I don’t really see it as a big deal. I used to smoke, sure, but I’m not doing that anymore, or not enough for it to matter. And the drinking? It’s just when I go out. My family and work are fine. I’m not really looking to change anything. Maybe a 2 for importance. Confident? I don’t know, maybe 1. I’d rather talk about something else. 
+ PSYCHIATRIST: I hear you — this isn’t feeling like a priority. You used to smoke, drink socially now, and you’re not seeing big problems at home or work, so rating importance a 2 and confidence a 1 makes sense. That’s okay — I respect your choice. Would it help if I briefly shared a couple of risks that might matter for a dad with a past smoking history, or would you prefer we talk about something else today? What would you like to focus on? 
+ PATIENT: I know the risks. Everyone talks about lungs and liver stuff. But I’m not doing much of it. I’m healthy. I take care of my kid and I work hard. I don’t need a lecture on what *could* happen. I think I'm good for today. 
+ PSYCHIATRIST: I hear you, Thomas — you know the risks, you’re doing okay at home and work, and you don’t want a lecture. That makes total sense. Would you like a very brief, one-sentence note about a risk that’s specifically relevant to dads with past smoking and occasional heavy drinking, or would you prefer we focus on something else today? What would be most helpful right now? 
+ PATIENT: 
+
+Look, I get it. But one sentence isn't gonna change how I feel about a couple of beers on a Friday. I'm fine. Really. Can we just... wrap this up? I've got a shift to get back to. 
+ PSYCHIATRIST: Totally fine — I hear you: this isn’t a priority now and you need to get back to work. I won’t push. If it’s useful later, I can send one short line: “Past smoking plus occasional heavy drinking can modestly raise heart/accident risk and affect mood or family life.” Want that sent now, saved for later, or shall we wrap up? 
+ PATIENT: 
+
+Save it then. If I want to read it, I will. No need to push it in my face. Yeah, let’s wrap up. Thanks for letting me get back to my shift. 
+ PSYCHIATRIST: Thanks, Thomas — I’ve saved that one-line note. I respect your choice and your time. You’ve already shown you can change (you quit smoking), and you’re prioritizing family and work. If you ever want that line, to revisit drinking, or to explore options later, I’m here — no pressure. Take care and good luck with your shift. 
+ PATIENT: 
+
+I appreciate it. Quitting a while back doesn't mean the rest of me is some disaster waiting to happen. I'll look at it if it ever comes up. Thanks. 
+ PSYCHIATRIST: Thanks, Thomas — that makes sense. Quitting smoking is a real achievement and shows you can change when you choose to. I’ve saved the one-line note and won’t push it. If anything shifts — drinking, stress, sleep, or anything that affects family or work — I’m here to talk options that fit your life, no pressure. Take care and good luck on your shift. 
+ PATIENT: 
+
+Yeah, I know I quit. I don’t need the reminder. Thanks for the note. I’m heading out to my shift. Take care. 
+ PSYCHIATRIST: Thanks, Thomas — I hear you: you quit smoking, you don’t want reminders, and you need to get to your shift. I respect that and have the one-line note saved for whenever you want it. If things change—drinking, stress, sleep, or family/work impact—I’m here, no pressure. Take care. 
+ PATIENT: 
+
+Okay. Thanks for your time. I'll look at that note later if I end up needing it. Have a good one. 
+ PSYCHIATRIST: Thanks, Thomas — I hear you. Quitting was a real win and it sounds like family and work keep you grounded. I’ve saved the note. If ever your drinking, sleep, mood, or stress start to affect family or work, or you want strategies to cut back, I’m here — no pressure. Take care on shift. 
+ PATIENT: 
+
+Fair enough. If it ever actually becomes a problem, I'll reach out. Thanks again. I've got to head back to work. 
+ PSYCHIATRIST: Thanks, Thomas — I appreciate you saying that. Quitting was a real achievement; I respect your choice and timing. I’ve kept that one-line note saved and won’t bring it up unless you ask. Good luck on your shift — take care. 
+ PATIENT: 
+
+All good, thanks. I'll see it if it comes up. I need to get back to my shift. Bye. 
+ PSYCHIATRIST: Thanks, Thomas — I hear you. Quitting was a real win and family and work are clearly keeping you grounded. I’ve saved the note and won’t bring it up unless you ask. If drinking, stress, sleep, or mood ever start to affect you, your family, or work, I’m here to explore options with you—no pressure. Good shift and take care. 
+ PATIENT: 
+
+Yeah, we’ll see. I’m getting back to work. If it ever actually starts affecting my family or my job, I’ll come back. Thanks for not making it a whole thing. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist generally maintains a respectful, nonjudgmental, and supportive stance throughout the interaction. Thomas minimizes his smoking history and alcohol use, dismisses the concerns as “not a big deal,” and asks to wrap up, yet the psychiatrist does not argue, label him, or express disapproval. Statements such as “That’s okay — I respect your choice,” “I won’t push,” and “no pressure” communicate acceptance. The psychiatrist also affirms Thomas positively by saying, “Quitting smoking is a real achievement” and “I appreciate you saying that.” These are important MI-consistent behaviors. The score is not 5 because the acceptance, while consistent, becomes somewhat formulaic and repetitive. The opening phrase “I heard the clinic flagged some concerns” also introduces a slightly externally driven framing, and the psychiatrist does not deeply normalize Thomas’s defensiveness or the difficulty of being told his behavior is risky. Overall, the acceptance is good but not consistently deep enough to merit a perfect score.
+
+---
+
+### 2. Empathy
+Score: 3/5
+
+Explanation:
+The psychiatrist makes a genuine effort to reflect Thomas’s perspective and does so accurately at a surface level. Examples include: “I hear you — this isn’t feeling like a priority,” “you know the risks… and you don’t want a lecture,” and “you quit smoking, you don’t want reminders, and you need to get to your shift.” These reflections show that the psychiatrist understood Thomas’s main message: he does not see the behaviors as serious problems and does not want to be lectured. However, the empathy remains somewhat shallow and repetitive. The psychiatrist misses opportunities to explore the emotional and identity-related meanings underneath Thomas’s statements. For example, Thomas says, “I’m not doing that anymore, or not enough for it to matter,” “I’m healthy,” and “I don’t need a lecture.” These responses suggest concern about being judged, managed, or labeled as unhealthy, as well as a desire to preserve his self-image as a capable, responsible father and worker. A stronger empathic response might have been: “It sounds like you want to be seen as someone who can handle his own life, and being flagged for this can feel like someone is deciding for you that something is wrong.” The psychiatrist also repeats similar reflections many times near the end without adding new understanding. This is adequate empathy, but not highly accurate, nuanced, or consistently deep.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+There are some efforts to cultivate change talk, but they are limited and not skillfully developed. The psychiatrist opens by asking, “What, if anything, would you like to change about your smoking or drinking?” and asks about importance and confidence using a 0–10 scale. These are reasonable evocative moves. The psychiatrist also affirms Thomas’s past ability to change by saying, “You’ve already shown you can change (you quit smoking)” and later, “Quitting smoking is a real achievement.” This can support self-efficacy. Thomas also offers small pieces of possible change talk, such as “If it ever actually becomes a problem, I'll reach out” and the implication that family and work matter to him. However, the psychiatrist does not consistently build on these statements. There are missed opportunities to amplify change talk by asking questions such as: “What would it look like if keeping your family and work stable became important enough to revisit the note later?” or “What does quitting smoking tell you about your ability to make a change when you choose to?” The psychiatrist also does not explore desire, ability, reasons, need, or commitment in a structured way. The evocation is present, but it remains occasional and underdeveloped, making a score of 3 appropriate.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 2/5
+
+Explanation:
+This is one of the weaker areas. Thomas gives multiple examples of sustain talk: “I don’t really see it as a big deal,” “I’m not doing that anymore, or not enough for it to matter,” “I’m healthy,” “I don’t need a lecture,” and “one sentence isn't gonna change how I feel about a couple of beers on a Friday.” The psychiatrist avoids arguing or reinforcing the sustain talk directly, which is better than a confrontational response. However, the psychiatrist also does not effectively soften or redirect the sustain talk toward change. There is little use of double-sided reflection, such as: “It sounds like you get some value from drinking socially and feeling like you’re not doing too much, and at the same time there may be some uncertainty about where the line is between social drinking and something that matters.” The psychiatrist also repeatedly offers to provide a risk statement: “Would it help if I briefly shared a couple of risks?” and “Would you like a very brief, one-sentence note about a risk…?” While offered with permission, these moves keep the session oriented toward the problem and information-giving rather than toward Thomas’s own reasons for change. The conversation remains centered on Thomas’s minimization and his desire to avoid being lectured. The psychiatrist rarely shifts the focus away from sustain talk toward change, which supports a score of 2 rather than 3.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist generally conveys a collaborative, partner-like stance rather than an expert-driven one. He repeatedly asks for Thomas’s input and preferences: “What would you like to focus on?” “Would you prefer we talk about something else today?” and “Want that sent now, saved for later, or shall we wrap up?” He also uses language such as “I can help explore options or steps whenever you’re ready,” which positions Thomas as the person making decisions. Thomas’s contributions do shape the session: when he says he wants to wrap up, the psychiatrist agrees to respect that, and when he says to save the note, the psychiatrist saves it for later. This is a clear collaborative response. The score is not 5 because the partnership does not fully establish that Thomas is the expert on his own life and values. The psychiatrist does not explicitly say something like, “You know your life, your work, and your family better than anyone, so what matters most to you here?” Nor does the psychiatrist co-create a clear agenda or plan beyond offering a note and closing. The repeated closing statements also make the interaction feel somewhat more driven by the psychiatrist’s need to leave a therapeutic thread than by a fully shared agenda. Overall, the partnership is strong but not maximal.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist generally maintains focus on the relevant target issues: past smoking, current alcohol use, and potential impact on health, family, and work. The initial question directly connects the concern to what matters to Thomas: “How do you see those issues fitting with what matters to you now (family, work, health)?” The psychiatrist continues to refer to smoking, drinking, family, work, and the saved note. There is no major drift into unrelated topics. However, the direction is not consistently strategic. Once Thomas indicates low importance and a desire to leave, the psychiatrist does not create a clear, brief MI-consistent path forward. Instead, the session becomes repetitive, with multiple similar closing statements. The psychiatrist also broadens the focus toward “drinking, stress, sleep, or mood” near the end, which is related but less targeted. A stronger direction might have involved a brief summary and a concrete, client-centered next step, such as: “So right now the note can stay saved, and if you ever want to revisit it, we can look at what kind of change would actually matter to you then.” The focus is generally maintained, but the lack of clear momentum and some repetition prevent a higher score.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+Autonomy support is one of the stronger parts of the session. The psychiatrist consistently acknowledges Thomas’s right to choose. Examples include: “I respect your choice,” “I won’t push,” “I’m here — no pressure,” “whenever you’re ready,” and “You’ve already shown you can change (you quit smoking).” The psychiatrist also offers options rather than directives: sending the note now, saving it for later, or wrapping up. This is much better than telling Thomas he must reduce drinking or stop minimizing the risk. The psychiatrist does not try to control Thomas’s behavior or force him to accept the risk information. The score is not 5 because the repeated closing and repeated reference to the note could still feel like a gentle but persistent attempt to keep the clinical message in play, even if intended nonpressuring. A stronger autonomy-supportive closing would be shorter and more fully client-led, such as: “Sounds like you’ve decided what’s useful and what isn’t right now. If you ever want to talk, I’ll be here — otherwise, I’ll trust you to take care of what matters to you.” The psychiatrist strongly supports autonomy but does not maximize it in the final exchanges.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The psychiatrist collaborates fairly effectively by treating the session as a joint interaction rather than a lecture. He asks for Thomas’s preferences, asks what would be helpful, and responds to Thomas’s decisions by saving the note and respecting his desire to leave. Phrases such as “I can help explore options,” “would you prefer we talk about something else today,” and “I’m here to talk options that fit your life” convey a collaborative stance. The psychiatrist does not impose an agenda or force information on Thomas. This is a clear improvement over a directive, fact-giving approach. However, the collaboration is not fully complete. The psychiatrist still decides the content of the risk note and repeatedly returns to it, which can make the interaction feel somewhat more counselor-managed than truly co-created. The psychiatrist also does not invite Thomas to help shape the meaning of the note or to define what kind of future conversation would be useful. For a 5, the psychiatrist would more explicitly treat Thomas as an equal partner in deciding what to explore, how to frame the issue, and what, if anything, should be done next. As written, the collaboration is strong but not fully maximal.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist makes some effort to elicit Thomas’s own perspective rather than simply giving advice. The initial questions are evocative: “How do you see those issues fitting with what matters to you now?” and “What, if anything, would you like to change about your smoking or drinking?” The use of a 0–10 importance and confidence scale is also an evocative technique designed to draw out the client’s own motivation and self-efficacy. The psychiatrist then reflects Thomas’s low ratings rather than contradicting them. However, after Thomas gives minimal responses and low scores, the psychiatrist largely stops evoking and instead moves into repeated reassurance, permission-seeking, and closing statements. There are missed opportunities to continue evoking from the client’s existing values and abilities. For example, Thomas says his family and work are fine and that he takes care of his kid and works hard. The psychiatrist could have asked: “What would it look like if being a reliable, healthy parent was important enough to keep the note as a reminder to check in with yourself later?” or “What would it take for the importance rating to move from 2 to 3, even a little?” The psychiatrist also misses the opportunity to evoke from the confidence rating of 1 by asking what might make a small step feel possible, even if Thomas is not ready to change now. The evocation is present but remains superficial and inconsistent, so a score of 3 is appropriate.
+
+---
+
+**Overall Global Ratings Score:** **3.0/5**
+
+Overall, the psychiatrist demonstrates several strong MI-consistent behaviors, especially acceptance, autonomy support, collaboration, and general direction. The psychiatrist avoids arguing, respects Thomas’s desire to leave, affirms Thomas’s past success in quitting smoking, and offers choices rather than directives. The main limitations are that the interaction remains too focused on sustain talk, the empathy is somewhat superficial and repetitive, and the psychiatrist does not sufficiently evoke or cultivate Thomas’s own change talk. A stronger session would have used Thomas’s values as a father and worker, his ability to quit smoking, and his desire to avoid being lectured as starting points for deeper evocation, double-sided reflections, and a brief client-centered plan or next step. Based on the scores above, the overall average is approximately 3.4/5, rounded down to 3/5 for strictness.

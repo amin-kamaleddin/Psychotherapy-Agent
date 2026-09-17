@@ -1,0 +1,11 @@
+{
+  "run_id": "qwen-creditcheck",
+  "start_patient": 0,
+  "end_patient": 2,
+  "num_patients": 2,
+  "fold": 1,
+  "total_runs": 2,
+  "timestamp": "20260916_080811",
+  "therapist_mode": "proposer_only",
+  "therapist_profile_number": 3
+}

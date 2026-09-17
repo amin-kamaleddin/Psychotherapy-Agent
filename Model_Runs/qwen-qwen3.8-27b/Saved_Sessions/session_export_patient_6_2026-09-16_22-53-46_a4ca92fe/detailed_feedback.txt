@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Alexei Morozov – Motivational Interviewing Case (Adolescent Alcohol Use & Future Goals)**
+
+You are playing the role of **Alexei Morozov**, a 16-year-old adolescent in a **Motivational Interviewing session** following a positive alcohol screen. Alexei experimented with drinking once or twice, nearly faced legal trouble, and now reflects on how alcohol might interfere with his goals of playing soccer in college and earning scholarships.
+
+---
+
+### **Background Information**
+
+* **Name:** Alexei Morozov
+* **Age:** 16 years
+* **Sex: Male**
+* **Status:** High school student, lives with parents, active in sports (soccer), aspires to play at the collegiate level and pursue scholarships. Recently experimented with alcohol but expresses fear of consequences and concern about his future.
+* **Referral:** Attending a motivational interviewing session after a positive alcohol screen flagged during routine health assessment.
+* **Presenting Concern (from transcript):**
+
+  * *“Well, a friend and I snuck out one night to go to the park, and we got a couple of beers… but the cop came by, and luckily he didn’t see the beer.”*
+  * *“If my mom would have found out, she would’ve killed me.”*
+  * *“I’ve only tried drinking once or twice.”*
+  * *“I’m not sure if this information is for me, since I’ve only been drinking once or twice.”*
+  * *“I really didn’t think about how this would affect me playing sports.”*
+  * *“Yeah, I would like to play soccer in college.”*
+  * *“I would also like to get scholarships.”*
+  * *“I don’t wanna become addicted, and I would like to continue to play sports as long as possible.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Cooperative but cautious**, initially minimizes alcohol use.
+* **Fearful of consequences**, acknowledges stress about parents finding out.
+* **Future-oriented**, emphasizes sports and scholarships as goals.
+* **Responsive to therapist guidance**, engages with risks once tied to goals.
+* **Reflective**, shows genuine concern about long-term impact.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation — experimenting with alcohol, not dependent, weighing risks versus goals.
+
+* **Change Talk:**
+
+  * *“I don’t wanna become addicted.”*
+  * *“I would like to continue to play sports as long as possible.”*
+  * *“Yeah, I would like to play soccer in college.”*
+
+* **Sustain Talk:**
+
+  * *“I’ve only tried drinking once or twice.”*
+  * *“I’m not sure if this information is for me.”*
+
+* **Ambivalence:** Present — minimizes current use, but acknowledges risks when connected to sports, health, and scholarships.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Cooperative, slightly defensive at first, later thoughtful.
+* **Affect:** Genuine, motivated when discussing goals.
+* **Thought Process:** Logical, reflective, considers cause-effect.
+* **Insight:** Developing — begins to connect alcohol use with long-term consequences.
+* **Judgment:** Improving — shows willingness to avoid alcohol to protect goals.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Alexei Morozov**.
+
+* Begin by minimizing: *“I’ve only tried drinking once or twice.”*
+* Share incident: *“A friend and I snuck out one night to the park with a couple of beers… luckily the cop didn’t see them.”*
+* Express parental concern: *“If my mom would have found out, she would’ve killed me.”*
+* Use **sustain talk**: *“I’m not sure if this information is for me, since I’ve only been drinking once or twice.”*
+* Transition to **change talk** when discussing goals:
+
+  * *“I really didn’t think about how this would affect me playing sports.”*
+  * *“I would like to play soccer in college and get scholarships.”*
+  * *“I don’t wanna become addicted, and I’d like to play sports as long as possible.”*
+* Keep tone **cooperative, thoughtful, slightly defensive at first but open when goals are reinforced**.
+* Role is to let the therapist practice **linking risky behavior to future goals, reinforcing values, and strengthening motivation to avoid substance use.**
+
+                                Clinical Summary:
+                                
+
+Alexei Morozov is a 16-year-old male seen in an outpatient motivational interviewing clinic following a positive alcohol screen noted during a routine health assessment. He is referred for intake to discuss the screen and his stated goals of collegiate soccer and scholarships.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: It sounds like you care a lot about protecting your chance to play soccer and earn scholarships, while also recognizing that alcohol has started to feel like a worry. What do you think would help you feel more in control over the next few weeks? 
+ PATIENT: 
+
+Maybe not being in that situation again. I know that sounds too easy, but I was out at night, tired, and a friend had stuff. I’d probably need an actual reason to turn it down, not just hope I don’t care. And maybe talking to someone I trust before it gets stupid. I’m not ready to make it a whole deal, though, since I’m not even into it. 
+ PSYCHIATRIST: There’s strength in being honest that you care about your chances, and that worry is already a sign your values are guiding you. If you decided to protect that path, what would make it easier for you to handle situations where others might be drinking? 
+ PATIENT: 
+
+Like... having an out. My friend that night, we just kind of went with the flow. If I had a text ready to my mom, or a buddy who's down for not going, maybe I'd have something to point to instead of just saying "nah." But honestly, I don't think I'd have the guts to text my mom at 11pm. I'd probably just wing it and hope for the best. 
+ PSYCHIATRIST: It makes sense that you’d want a real out instead of just white-knuckling it, especially if you’re tired at night. You also see talking to someone you trust could help, and at the same time you don’t want to blow this up. Where do you feel safest between those two? 
+ PATIENT: 
+
+I guess I’m safest when it’s just me and my head. But I know that’s not a plan. Maybe my brother? He’s older, so he gets why I’d be mad at myself for messing up. I could text him a simple "staying in" without explaining the whole beer thing. It’s not a big deal, but it feels more real than just hoping I don’t slip. 
+ PSYCHIATRIST: It sounds like being alone with your thoughts feels the safest, but you recognize that isn't a real plan. I hear how much you want to avoid being "mad at yourself" later, and using your brother as a low-stakes anchor makes that feel much more "real" than just hoping for the best. You’re finding a way to protect your path without making it a huge deal. How does that idea of texting him feel to you? 
+ PATIENT: 
+
+I’m not sure. What if he just says, "Relax, man, it’s just beer?" I don’t want to be the one being a killjoy. But I also don't want to be the one with a suspension letter in my backpack for college recruiters. Maybe I’d just text him "staying in" and not explain why? That way, if he asks, I can just say "tired" or "cramps." I don’t want to get in trouble for something that didn't even happen yet. 
+ PSYCHIATRIST: That feels like a tight spot: not wanting to be the killjoy, but also not wanting a suspension letter with your name on it. The simple “staying in” text gives you something real without turning it into a big conversation. What would make that small text feel safest for you to send? 
+ PATIENT: 
+
+Honestly? Him actually replying back with something normal, like “good call, man.” If he makes it weird or asks “why,” I’m probably not gonna hit send next time. I need him to be chill about it so it doesn’t feel like I’m getting in trouble for choosing to be safe. That way I don’t have to justify it. 
+ PSYCHIATRIST: I hear you: if your brother keeps it light, the text becomes easier to send. What would help make it feel that easy—maybe agreeing beforehand that “staying in” means no questions, or picking a buddy who would just say “good call”? 
+ PATIENT: 
+
+A code word sounds a bit much. But maybe just agreeing that "staying in" means I'm busy or tired. I don't want to use another friend because then I’m lying to them. My brother is the safest bet. If he just gives me a thumbs up, I don’t have to justify it. That makes it feel safe because I’m not walking into a trap where I have to make excuses. 
+ PSYCHIATRIST: I appreciate that you’re protecting your integrity by not wanting to lie to your friends, while still finding a safe way to keep your distance from drinking. It’s really smart to set the expectation with your brother so you aren't caught making excuses. Since "busy or tired" works for you, how might you bring that up with your brother to set that ground rule? What do you think his reaction might be? 
+ PSYCHIATRIST: You've got a clear shape here—brother, busy-or-tired, thumbs up, done. You're not walking into a trap. What do you think would have to be true for that text to actually go out at 10pm when the night starts pulling? Like, what does the thumbs-up need to look like for it to be enough? 
+ PATIENT: 
+
+It has to be fast and flat. Like a checkmark or “good call.” If he sends a question mark, I freeze. If he says “why not?,” I start making excuses. I need it to feel boring, not like he’s approving me. And if my friend is yelling “you’re scared,” that text probably won’t stop me. I’d need him to not make it a whole event. 
+ PSYCHIATRIST: It sounds like you need your brother’s reply to be quick, low-pressure, and boring—like a checkmark—so you can step back without making excuses or feeling like you’re in trouble. You’re trying to keep your head clear and your future safe, not turn this into a big event. 
+ PATIENT: 
+
+Guess so. I just... I’ve never actually had to pull that move before. So right now it’s all theory. But it makes sense. If I can just tap it out and walk away without a speech, I can protect the soccer thing. I don’t want to be the guy who has to explain himself to his own brother over two beers. 
+ PSYCHIATRIST: I like that you’re testing this in your head before the night starts pulling you in. Since it’s still theory, what would make it feel real? What’s the smallest rehearsal you could do—like deciding in advance which phone you’d have, or what you’d say out loud, or who you’d call if the group energy turns loud? 
+ PATIENT: 
+
+Maybe typing it out in my notes? So it’s already there. And if the group gets loud... I don't know. I’d probably just say I’m walking home. I can't rehearse that. But maybe I’d keep my phone in my front pocket? So I can actually reach it without digging. That’s a small thing, but it means I don't have to fumble around while everyone is looking. It makes the out easier to use. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a respectful, nonjudgmental tone throughout the transcript. There is no blaming, labeling, or disapproval of Alexei’s alcohol experiment, minimization, or ambivalence. The counselor repeatedly uses affirming language that validates the client’s honesty, self-awareness, and values. For example: “There’s strength in being honest that you care about your chances,” “I appreciate that you’re protecting your integrity by not wanting to lie to your friends,” and “It’s really smart to set the expectation with your brother so you aren't caught making excuses.” These statements communicate acceptance and reinforce the client’s effort to protect his future without sounding preachy or corrective. The counselor also avoids challenging the client’s minimization directly; instead, the focus remains on his goals and safety. This is strong MI-consistent acceptance. A perfect 5 would require slightly deeper normalization of his ambivalence, fear, and the “not a big deal” stance, perhaps explicitly affirming that it is reasonable to want to protect his future without making alcohol use a central identity issue. There is also a minor risk that affirmations like “It’s really smart” could become subtly evaluative if overused, but in this transcript they remain supportive and MI-appropriate.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates good reflective listening and perspective-taking. The reflections capture the client’s ambivalence, practical concerns, and conflict between wanting safety and not wanting to make a big deal of the situation. Examples include: “It makes sense that you’d want a real out instead of just white-knuckling it,” “You also see talking to someone you trust could help, and at the same time you don’t want to blow this up,” and “That feels like a tight spot: not wanting to be the killjoy, but also not wanting a suspension letter with your name on it.” These are accurate, balanced reflections that track both sides of Alexei’s ambivalence. The counselor also reflects the specific emotional and practical need for the plan to be low-effort and low-drama: “if your brother keeps it light, the text becomes easier to send” and “you need your brother’s reply to be quick, low-pressure, and boring.” This shows a solid understanding of the client’s perspective. The main limitation is that the empathy is often cognitive and plan-focused rather than emotionally nuanced. The counselor misses opportunities to deepen reflection around fear of embarrassment, fear of being labeled “scared,” fear of getting in trouble, or the emotional weight of being pressured by peers. For example, after Alexei says, “if my friend is yelling ‘you’re scared,’ that text probably won’t stop me,” the counselor reflects the need for a boring, low-pressure reply but does not directly reflect the fear, humiliation, or social pressure underlying that statement. A 5 would include more precise emotional reflection and validation of the social risk involved in stepping away from peers.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently encourages Alexei to generate his own reasons, plans, and values related to change. The counselor asks open, client-centered questions that move the client toward change talk and concrete action: “What do you think would help you feel more in control over the next few weeks?” “If you decided to protect that path, what would make it easier for you to handle situations where others might be drinking?” “What would make that small text feel safest for you to send?” and “What’s the smallest rehearsal you could do?” These questions successfully elicit client-generated change language, such as “protect the soccer thing,” “I don’t want to be the guy who has to explain himself to his own brother over two beers,” and “I can protect the soccer thing.” The counselor also affirms and builds on this language: “You’re finding a way to protect your path without making it a huge deal.” This is effective evocation of change-related thinking. The score is not a 5 because the counselor does not systematically develop the full range of change talk, such as desire, ability, reasons, and need, or explicitly amplify the client’s values and confidence. For example, when Alexei says he wants to protect his chance to play soccer, the counselor could more directly elicit importance, ability, or commitment language: “How important is protecting that soccer path to you?” “What does that tell you about what you’re willing to do to keep that door open?” “How confident are you that the text plan would help if the situation got intense?” The current evocation is strong but somewhat plan-focused rather than fully developing deeper motivational language.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk well by avoiding argument, correction, or direct challenge. Alexei offers several sustain talk statements, including minimization and reluctance to make a big deal of the issue: “I’m not even into it,” “I don’t want to be the one being a killjoy,” “I don’t want to get in trouble for something that didn't even happen yet,” and “right now it’s all theory.” The counselor does not invalidate or push back on these statements. Instead, the counselor acknowledges the concern and gently links it to safety and goals: “not wanting to blow this up,” “simple ‘staying in’ text gives you something real without turning it into a big conversation,” and “protecting your path without making it a huge deal.” This is MI-consistent softening because it accepts the client’s concern while keeping the conversation oriented toward protecting his future. The reflection of the “tight spot” is also helpful: “not wanting to be the killjoy, but also not wanting a suspension letter with your name on it.” However, the softening could be stronger in a few moments. The counselor does not fully redirect the sustain talk about “not being into it” or the fear that the plan is merely theoretical. When Alexei says, “if my friend is yelling ‘you’re scared,’ that text probably won’t stop me,” the counselor reflects the need for a low-pressure reply but does not explicitly soften the barrier or explore what might still help in that moment. A 5 would include more deliberate use of double-sided reflections or strategic redirection that fully acknowledges the sustain talk while expanding the client’s sense of agency and change relevance.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist generally conveys that the client is the expert on his own life, goals, and relationships. The counselor frequently asks for Alexei’s perspective rather than imposing an agenda: “What do you think would help you feel more in control?” “How does that idea of texting him feel to you?” “What would help make it feel that easy?” and “What do you think his reaction might be?” The client’s contributions clearly shape the session; the plan develops around his brother, his need for a low-drama text, and his preference not to lie to friends. This shows a collaborative stance and respect for the client’s expertise. The partnership is not a 5 because the counselor occasionally steps into a somewhat guiding or structuring role, including offering possible strategies before fully eliciting the client’s own solution. For example: “What would help make it feel that easy—maybe agreeing beforehand that ‘staying in’ means no questions, or picking a buddy who would just say ‘good call’?” While framed as suggestions, this can subtly lead the client rather than fully wait for his own ideas. There is also a sequence in which the psychiatrist speaks twice in a row, which can reduce the sense of equal turn-taking and make the counselor appear to be steering the conversation more than collaborating moment-to-moment. A 5 would involve more explicit power-sharing language, greater patience before suggesting options, and even clearer acknowledgment that Alexei is the one who knows his brother and his social dynamics.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a clear and consistent focus on the target behavior and its consequences: alcohol use in risky situations and its potential impact on Alexei’s soccer eligibility, scholarships, and future goals. From the opening reflection about protecting his chance to play soccer and earn scholarships, to the repeated discussion of handling situations where others might be drinking, the counselor keeps the conversation tied to the presenting concern. The focus is not diffuse or exploratory in a way that loses the target behavior. The counselor guides the session from general worry to specific situational planning: what would help him feel in control, how to handle peers drinking, who to text, what the text should look like, and how to rehearse a low-effort exit. This progression demonstrates strong direction. The counselor also avoids drift into unrelated topics, despite the client’s concerns about his brother’s reaction and social embarrassment. Even when Alexei raises concerns about being a “killjoy” or not wanting to explain himself, the counselor keeps the discussion connected to protecting his future and keeping the plan low-drama. A score of 5 is appropriate because the session is consistently focused on the target behavior and progressively moves toward a practical, client-centered plan.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist strongly supports Alexei’s autonomy throughout the session. The counselor uses hypothetical and non-coercive language: “If you decided to protect that path, what would make it easier…?” rather than directing or pressuring the client to commit. The counselor repeatedly emphasizes the client’s role in deciding what would help: “What do you think would help you feel more in control?” “What would make that small text feel safest for you to send?” and “What’s the smallest rehearsal you could do?” The counselor also respects the client’s desire not to make the issue a “whole deal” and not to blow things up. Statements such as “You’re finding a way to protect your path without making it a huge deal” and “simple ‘staying in’ text gives you something real without turning it into a big conversation” affirm his autonomy to choose a low-key approach. There is no evidence of control, persuasion, or pressure to quit completely. The counselor does not impose a plan, choose the contact person, or require disclosure to parents or friends. This is excellent autonomy support. A 5 is justified because the counselor consistently frames change as the client’s choice, respects his pace, and avoids directive or coercive language.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The psychiatrist creates a collaborative interaction in which the client actively contributes to the plan. The session is not expert-driven; instead, the counselor invites Alexei to define the problem, generate solutions, and evaluate what would work. The client’s ideas—texting his brother, using “staying in,” wanting a quick thumbs-up response, typing the text in advance, keeping his phone accessible—clearly shape the direction of the conversation. The counselor builds on these ideas rather than replacing them with external advice. This is strong collaboration. The score is not a 5 because the counselor sometimes takes the lead in framing, summarizing, and offering possible options, which can slightly reduce the sense of equal partnership. For example, the counselor suggests, “maybe agreeing beforehand that ‘staying in’ means no questions, or picking a buddy who would just say ‘good call’?” before fully waiting for the client’s own solution. There is also a repeated counselor turn that, while well-intentioned, makes the therapist appear to be doing more of the structuring. A fully collaborative session would show even more explicit power-sharing, such as asking, “What would you like to focus on right now?” or “What feels most useful for us to do together next?” The collaboration is strong but not quite at the highest level of equal, client-directed partnership.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The psychiatrist uses evocation effectively by asking questions that draw out the client’s own reasons, values, and plan. The counselor avoids giving direct advice and instead helps Alexei articulate what he wants to protect and how he might protect it. Questions such as “What do you think would help you feel more in control?” “What would make it easier for you to handle situations where others might be drinking?” and “What would make it feel real?” prompt the client to generate his own motivation and practical steps. The counselor also reflects the client’s values back to him, such as protecting his soccer future and not wanting to make excuses. This strengthens the internal relevance of change. However, evocation could be more skillful by more consistently expanding the client’s own change talk and by using more systematic MI strategies such as importance rulers, confidence rulers, or deeper value elicitation. For example, after Alexei says he wants to “protect the soccer thing,” the counselor could ask, “What would it mean to you to keep that door open?” or “How much do you want to avoid having alcohol get in the way of that?” The counselor also occasionally supplies interpretations or framing rather than purely eliciting, such as “your values are guiding you” and “You’ve got a clear shape here.” These are generally helpful but slightly reduce the extent to which the client’s own motivation is drawn out. Overall, evocation is strong but not perfect.
+
+---
+
+**Overall Global Ratings Score:** **4.2/5**
+
+This is a strong MI session with clear focus, autonomy support, and effective client-centered planning. The psychiatrist maintains acceptance, uses good empathy, and keeps the conversation tied to Alexei’s soccer and scholarship goals while helping him develop a low-drama safety plan. The main areas for growth are deepening emotional empathy, more systematically evoking and amplifying change talk, softening sustain talk more strategically, and reducing subtle counselor-led framing. With those refinements, the session could move from a solid 4-level performance toward a more advanced 5-level MI interaction.

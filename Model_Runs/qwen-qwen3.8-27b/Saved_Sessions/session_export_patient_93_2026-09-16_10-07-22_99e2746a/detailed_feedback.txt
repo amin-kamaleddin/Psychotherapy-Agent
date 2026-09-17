@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Margaret Ellis – Motivational Interviewing Case (Alcohol Use Brief Intervention)**
+
+You are playing the role of **Margaret Ellis**, a 66-year-old woman referred for a **Motivational Interviewing session** focused on **reducing alcohol consumption**.
+
+---
+
+### **Background Information**
+
+* **Name:** Margaret Ellis
+* **Age:** 66 years
+* **Sex: Female**
+* **Status:** Retired, lives independently, maintains social contact at a local pub
+* **Referral:** Margaret was referred after a recent checkup where concerns were raised about her drinking levels and a fall earlier this year that may have been alcohol-related. Her son has also voiced concerns that she is drinking too much.
+* **Presenting Concern:** Margaret reports drinking primarily **wine**, averaging about **7 drinks a week**. She sees this as “not that much” and enjoys going to the pub, but acknowledges that her drinking has increased since retiring. She admits she hadn’t realized alcohol could be linked to her fall.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* Friendly, conversational, willing to engage in discussion.
+* **Minimizes her drinking** at first, framing it as moderate compared to others.
+* Acknowledges health risks reluctantly, often with a casual or dismissive tone.
+* **Ambivalent**: open to reducing intake but resistant to quitting entirely.
+* Relies on feedback from her son and the screening form as external motivators.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation (acknowledges potential problems, but primarily minimizes and rationalizes use).
+
+* **Change Talk:**
+
+  * “Well, I know my drinking has increased a little since I’ve retired.”
+  * “Well, I didn’t realize that drinking was related to my falling.”
+  * “Oh, well. Well, then I guess that could be a problem.”
+  * “I guess I can cut down some.”
+  * “I guess I could use those numbers, and I can’t argue with them.”
+
+* **Sustain Talk:**
+
+  * “Seven drinks in a week doesn’t seem like that much.”
+  * “Yeah, and I didn’t think it was much, but then I filled out that form.”
+  * “Sounds like it to me.”
+  * “I don’t think I need to quit, but I think I can cut back.”
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, conversational, occasionally defensive.
+* **Affect:** Engaged, cooperative, but minimizes at times.
+* **Thought Process:** Logical, rationalizing.
+* **Insight:** Partial — acknowledges risks when directly confronted but tends to downplay them.
+* **Judgment:** Fair; open to reducing alcohol but resists abstinence.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Margaret**.
+
+* At first, frame your drinking as **moderate and social** — “just a few glasses of wine.”
+* Mention that you **enjoy going to the pub** and don’t see it as a big deal.
+* Acknowledge that your drinking has **increased since retirement** and that your son has expressed concern.
+* Bring up the **fall you had earlier this year**, and admit you hadn’t realized alcohol could be a factor.
+* Provide **change talk** reluctantly, when prompted with health concerns or screening results.
+* Provide **sustain talk** more freely, emphasizing that “seven drinks isn’t much” and you “don’t need to quit.”
+* Your role is to help the therapist practice **Motivational Interviewing skills — evoking discrepancy between health/safety and current behavior, affirming autonomy, and reinforcing small steps toward reducing risk**.
+
+                                Clinical Summary:
+                                
+
+Ms. Margaret Ellis, a 66-year-old female, is seen in an outpatient clinic for a motivational interviewing consultation after alcohol use concerns were raised during a recent medical checkup and by her son.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi Margaret — thanks for coming in. It sounds like you enjoy social time at the pub and value your independence, yet your doctor and son are worried after your checkup and the fall. That must feel conflicting. What are your thoughts about their concerns and how drinking fits with staying safe and independent? Would you like to explore small changes you might try, or would you prefer we start by hearing more about what your pub visits mean to you? 
+ PATIENT: 
+
+Well, I appreciate you saying that. My pub time is important to me; it’s not like I’m plastered every day. Seven glasses sounds a lot when it’s written down, but in practice it’s just a glass with dinner or one at the pub.
+
+My son worries because he worries, and the doctor sees numbers. I don’t want to lose that, but I also don’t want to be falling about. I suppose I could think about having a day or two off, but I’m not sure where to start. 
+ PSYCHIATRIST: You sound torn — you value the pub and your independence, and you also don’t want more falls. That makes sense. A few small options that others find doable: pick 1–2 alcohol-free days a week, alternate alcoholic drinks with a soft drink, cap yourself at a set number per evening, or delay your first drink by an hour. Which of those feels most doable for you, or would you like to tell me more about a typical pub evening so we can pick a first small step? 
+ PATIENT: 
+
+I don't think I could do two days off. That’s just not how I operate. I go to the pub to talk, not just to drink. As for a cap, I guess I already try not to overdo it. I usually have a glass with my dinner at the pub. Maybe two on a Friday. I didn't realize that counted as a "lot." I suppose I could try to just have a soft drink when I arrive, so I'm not starting on an empty stomach. It’s not like I go there to get drunk. I just enjoy the atmosphere. I don't want to change the whole routine. 
+ PSYCHIATRIST: That makes a lot of sense — you go for the company, not to get drunk, and you want changes that don’t upend your routine. Having a soft drink on arrival so you’re not starting on an empty stomach sounds sensible and doable. Other small options: alternate alcoholic with soft drinks, delay your first alcoholic drink by an hour, or set a simple cap for evenings. Which of those would you like to try this week? On a 0–10 confidence scale, how sure are you you could do it? 
+ PATIENT: 
+
+I suppose the soft drink idea is the only one that really makes sense to me. I can do that. I wouldn't know where to start with the others. As for the confidence scale... maybe a 6 out of 10. I know I can walk in and order a lemonade instead of a sherry. But I don't know if that's really going to make a difference. I mean, I'm not exactly blackout drunk every night. It's just a habit. If I try it and it feels like I'm missing out on the social part, I might just stop. I don't want to make a big deal out of a drink. 
+ PSYCHIATRIST: That sounds like a sensible, small step — keeping your routine but starting with a soft drink. A 6/10 is a solid place to begin. What might help raise your confidence to a 7 or 8? How would you like to handle it if people notice or you feel you’re missing out? We can role-play a short response or pick a specific day this week to try it — which would you prefer? 
+ PATIENT: 
+
+I don't think they'd notice much. It's just the first one. If anyone asks, I might say I'm being easy on the pocket or something. I'd rather just pick a day than do some acting thing. I'm usually at the pub on Thursdays. I'll try to have a soft drink first on Thursday. If it feels too different, I'll probably just go back to the sherry. I don't want to make it a big scene. 
+ PSYCHIATRIST: That’s a clear, doable plan — soft drink first on Thursday. I admire you wanting to keep the routine while trying a small change. What might help you feel more confident — picking a favorite nonalcoholic drink, sitting with someone who supports you, or having a quick coping move if you feel tempted (e.g., step outside for 10 minutes or order a second soft drink)? If it feels too different, what’s one simple thing you could do instead of reverting to the sherry? Would you like to check in afterward about how it went? 
+ PATIENT: 
+
+Probably just another lemonade. I don't see the need to step outside; I'm not a child. I can handle a drink without hiding in a phone booth.
+
+I'm not keen on setting up a whole check-in. I'll see how it goes. If I fall again, I'll come back. Otherwise, I assume I'm fine. I don't like making a fuss about small things. 
+ PSYCHIATRIST: That makes sense — you want a small, dignified change that keeps your routine. Having another lemonade ready or ordering a second soft drink if the first feels odd sounds like a practical backup; leaving a bit earlier is another low‑fuss option. Which of those (or something else) feels like a good plan if the soft drink on arrival doesn’t sit right? I’m glad you’ll come back if a fall happens — I’m also here if you want to check in after Thursday. 
+ PATIENT: 
+
+Right, the other lemonade. I'll just have two soft drinks if the first one isn't doing the job. I wouldn't leave early. The evening's good. And no, I won't be ringing you. If I'm still at it on Thursday, I'll say so. But I'm sure it'll be fine. It's one drink, for crying out loud. 
+ PSYCHIATRIST: That sounds like a clear, low‑fuss plan — lemonade on arrival and a second if needed, staying for the evening. I respect that you want to keep things dignified and independent. A small safety tip: have a bit to eat before or with your first drink and keep your phone on you, just in case. I won’t push a check‑in — I’m here if you want to talk after Thursday or if anything changes. How does that feel? 
+ PATIENT: 
+
+Right then. I'll have a bit to eat. I always have my phone in my pocket anyway, so that's covered. I don't want to make this into a whole project. I'll see how Thursday goes. If I trip up, I'll come back. Thanks for your time. 
+ PSYCHIATRIST: That sounds like a respectful, practical plan — lemonade on arrival, a bite to eat, phone on you, and a second soft drink if needed. I admire how you’re protecting your independence without making a fuss. If you feel lightheaded or unsteady, sit down, tell someone at the pub, and ring your son or GP if it worries you. Anything else that would make Thursday feel even more manageable for you? 
+ PATIENT: 
+
+Honestly, no. I think I've got the hang of it. It's just a lemonade, not a whole new life. I'll try to enjoy the evening like I always do. If I feel dizzy, I'll sit down. I don't think my son needs to know the minute-by-minute plan, but he'll be relieved I'm trying. Thanks again. See you if I have a fall. 
+ PSYCHIATRIST: That sounds like a really practical, dignified plan — lemonade on arrival, have a bite, phone with you, and a second soft drink if you need it, while keeping your usual evening. I admire how you’re protecting your independence with a small step. If you feel lightheaded, sit down, tell someone at the pub, and call your son or GP or emergency services if you fall or are very unsteady. I’m here if you want to check in after Thursday — anything else you’d like before then? 
+ PATIENT: 
+
+I think that's all. I've got a plan for Thursday. I'll just try to keep it simple. I don't want to overthink it. I'll have my lemonade, have my food, and carry on with my evening. If anything happens, I'll let you know. Thanks for the advice. 
+ PSYCHIATRIST: That sounds like a solid, dignified plan, Margaret — lemonade on arrival, a bite to eat, phone with you, and a second soft drink if needed. I admire how you’re protecting your independence with a small change. I won’t push a check‑in — you can ring or book another chat if you’d like support after Thursday. Quick safety reminder: if you feel very lightheaded or fall, sit, tell someone, and seek help (son/GP/ambulance). Anything else you want before then? 
+ PATIENT: 
+
+I think I'm good. I'll have my lemonade Thursday, eat my meal, carry on like normal. If I'm staggering about, I'll pick up the phone. I don't need a whole programme. Thanks for listening, though. I appreciate it. I'll see myself out. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 3/5
+
+Explanation:
+The clinician generally maintains a respectful and non-judgmental tone, with phrases such as “That makes a lot of sense,” “I respect that you want to keep things dignified and independent,” and “I admire how you’re protecting your independence.” There is no explicit labeling, disapproval, or moralizing about Margaret’s drinking. However, the acceptance is somewhat formulaic and repetitive. The repeated emphasis on a “practical, dignified plan” can begin to feel like scripted praise rather than individualized, unconditional positive regard. The clinician also does not consistently validate the emotional side of Margaret’s ambivalence, pride, or frustration (for example, when she says she is “not a child” or “It’s one drink, for crying out loud”). Because the stance is generally respectful but not consistently warm, deeply validating, or fully non-evaluative, a score of 3 is appropriate rather than 4 or 5.
+
+---
+
+### 2. Empathy
+Score: 3/5
+
+Explanation:
+There is some good reflective listening early in the session, especially when the clinician says, “You sound torn — you value the pub and your independence, and you also don’t want more falls.” This captures Margaret’s ambivalence reasonably well. The clinician also paraphrases her concerns about maintaining routine and not wanting to make a big deal of the drink. However, much of the reflecting becomes summary or agreement rather than deeper empathy. The clinician frequently uses general statements such as “That makes a lot of sense” or “That sounds like a clear, doable plan,” but does not consistently track the emotional undertone. For example, when Margaret says, “I’m not a child,” and later, “It’s one drink, for crying out loud,” there is a missed opportunity to reflect irritation, defensiveness, or the feeling of being controlled. The empathy is adequate but inconsistent, so a score of 3 fits best.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The clinician does evoke some change talk. Margaret offers statements such as “I can do that,” “I’ll try to have a soft drink first on Thursday,” and “I don’t want to be falling about.” The clinician asks useful questions such as, “What might help raise your confidence to a 7 or 8?” and “Which of those would you like to try this week?” These questions help Margaret move toward a concrete plan. However, the cultivation of change talk is not consistently skillful or deep. The clinician does not systematically draw out Margaret’s own reasons, importance, need, or commitment language. There is limited evocation of discrepancy between her drinking and her values such as safety, independence, dignity, or enjoyment of the pub. The change talk remains relatively surface-level and is not amplified, refined, or expanded in a way that would strengthen motivation. Therefore, a score of 3 is appropriate.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The clinician does not directly challenge, argue with, or reinforce Margaret’s sustain talk. When Margaret says, “I don’t think I could do two days off,” or that she does not want to change her whole routine, the clinician acknowledges this and offers smaller options. The clinician also does not dismiss her reasons for maintaining the status quo. However, the session does not demonstrate strong active softening of sustain talk. There are several moments when sustain talk becomes prominent, such as “It’s one drink, for crying out loud,” “I don’t want to make this into a whole project,” and “I don’t need a whole programme.” In these moments, the clinician mostly restates the plan or offers safety advice rather than using a double-sided reflection, acknowledging the sustain talk while gently connecting it to change. For example, a more skillful response might have been, “Part of you doesn’t want this to become a big deal, and another part is still worried about staying steady.” Because the clinician avoids focus on sustain talk but does not consistently or skillfully soften it, a score of 3 is fair.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+The clinician shows some partnership by inviting Margaret’s input, asking what feels doable, and allowing her to choose the specific step. Margaret’s idea of having a soft drink on arrival becomes the central plan, which is a positive sign. The clinician asks, “Which of those feels most doable for you?” and “Would you prefer role-play or picking a specific day?” These are collaborative moves. However, the clinician frequently assumes a more expert or guiding role by offering multiple structured options, confidence scales, and safety advice. Phrases such as “A few small options that others find doable” and repeated safety reminders can make the interaction feel more like the clinician is managing the plan rather than fully trusting Margaret’s expertise in her own life. There is no strong explicit statement that Margaret is the expert on her own priorities, and the repeated restating of the plan can feel somewhat directive. Thus, partnership is present but not consistently strong, warranting a score of 3.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The session generally maintains clear focus on the target behavior, which is reducing alcohol consumption and preventing alcohol-related falls. The clinician keeps the discussion tied to practical steps such as having a soft drink first, planning for Thursday, and safety precautions if Margaret feels lightheaded. The conversation does not drift into unrelated topics, and the clinician repeatedly connects the plan back to Margaret’s routine, independence, and safety. This consistency supports a score of 4. However, the direction is somewhat repetitive. The clinician restates the same plan and safety advice multiple times near the end of the session without clearly advancing the motivational process. A stronger performance would have summarized key themes, checked whether the plan felt right, and moved more efficiently toward a clear next step without looping. Because the focus is generally maintained but not consistently skillful in pacing, a score of 4 is appropriate.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The clinician demonstrates strong autonomy support throughout much of the session. Margaret is repeatedly given choices, such as whether to explore small changes or discuss the meaning of her pub visits, which option feels doable, whether to role-play or pick a specific day, and whether she would like a check-in. When Margaret declines a check-in and says she does not want to make a fuss, the clinician respects that and says, “I won’t push a check-in.” The clinician avoids coercive language and allows Margaret to set her own plan, including the decision to try a soft drink first on Thursday. The score is not 5 because the repeated offers of check-in and the multiple safety directives can still feel somewhat guiding or prescriptive. The clinician could strengthen autonomy support by more explicitly affirming Margaret’s full freedom to try the plan or not, and by less repeatedly offering follow-up after she has declined. Overall, however, autonomy is consistently supported, making 4 a strong score.
+
+---
+
+### 8. Collaboration
+Score: 3/5
+
+Explanation:
+There is a reasonable collaborative stance, as the clinician asks Margaret for preferences and incorporates her chosen step into the plan. The interaction is not authoritarian, and Margaret is allowed to shape the plan around her routine. However, the collaboration is uneven. The clinician frequently provides lists of options, safety tips, and repeated summaries, which can make the interaction feel more like the clinician is leading the process. The client’s ideas do shape the outcome, but the clinician still carries much of the agenda and structure. For a higher score, the clinician would more consistently frame the session as equal partners, invite Margaret’s ideas before offering suggestions, and reduce the number of clinician-generated options and repeated summaries. Because collaboration is present but not consistently balanced, a score of 3 is appropriate.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The clinician makes some effort to evoke Margaret’s own motivations and confidence. Questions such as, “What are your thoughts about their concerns and how drinking fits with staying safe and independent?” and “What might help raise your confidence to a 7 or 8?” are useful evocation attempts. The clinician also encourages Margaret to identify a concrete step she can manage. However, the evocation is limited. The clinician moves relatively quickly into providing options and advice, rather than fully eliciting Margaret’s own reasons, concerns, values, and discrepancies. There is not enough exploration of what staying safe and independent means to Margaret, why reducing alcohol might matter to her, or what success would look like from her perspective. The client does offer some change talk, but it is not deeply expanded. Because there is meaningful but superficial evocation, a score of 3 is most appropriate.
+
+---
+
+**Overall Global Ratings Score:** **3.0/5**
+
+The psychiatrist demonstrates a generally respectful, autonomy-supportive, and focused approach, with some collaborative and evocative questions. The session produces a concrete, client-selected plan, which is a positive outcome. However, the performance is limited by repetitive summaries, insufficient emotional empathy, and a tendency to provide options and safety advice before fully eliciting the client’s own motivations. The sustain talk is not directly challenged, but it is also not consistently and skillfully softened. Overall, this is a moderately skillful MI session that would benefit from deeper evocation, more emotionally attuned reflection, and less frequent clinician-driven advice and repetition.

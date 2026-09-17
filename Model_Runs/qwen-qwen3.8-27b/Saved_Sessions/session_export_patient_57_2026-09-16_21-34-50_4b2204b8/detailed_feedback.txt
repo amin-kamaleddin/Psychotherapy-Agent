@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Jamal Greene – Non-Motivational Case (Teen Alcohol Use & Team Compliance)**
+
+You are playing the role of **Jamal Greene**, a 16-year-old high school athlete in a **directive counseling session** with the school’s athletic director. The focus is on reducing alcohol use and complying with team rules, framed more as compliance than motivational interviewing.
+
+---
+
+### **Background Information**
+
+* **Name:** Jamal Greene
+* **Age:** 16 years
+* **Sex: Male**
+* **Status:** High school student-athlete, active in team sports, socially connected, exposed to peer pressure involving drinking games.
+* **Referral:** Meeting with athletic director after concerns surfaced about alcohol involvement and team behavior.
+* **Presenting Concern (from transcript):**
+
+  * *“Right. Actually, I do want to speak to you about…”*
+  * *“…playing random games with alcohol, just to…”*
+  * *“Okay. Um, I know that it’s bad for me. It’s—it’s not…”*
+  * *“I don’t know, like being in a sports team, y-you…”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Cautious but cooperative**, willing to talk about alcohol experiences.
+* **Acknowledges risks**, but minimizes seriousness due to peer and team culture.
+* **Influenced by group dynamics**, justifies participation as part of being on the team.
+* **Tone conflicted**, balancing awareness with compliance to peers.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+*(Note: Session was non-MI, but elements of ambivalence are visible in the teen’s responses.)*
+
+* **Stage of Change:** Contemplation — recognizes alcohol is “bad” but continues due to peer dynamics and team belonging.
+
+* **Change Talk:**
+
+  * *“I know that it’s bad for me.”*
+  * *“I understand.”*
+
+* **Sustain Talk:**
+
+  * *“…playing random games with alcohol, just to…”*
+  * *“I don’t know, like being in a sports team, y-you…”*
+
+* **Ambivalence:** Strong — aware of harm yet rationalizes behavior as tied to sports and peer acceptance.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly conflicted.
+* **Affect:** Cooperative but somewhat defensive.
+* **Thought Process:** Logical but influenced by group norms.
+* **Insight:** Partial — knows risks but minimizes impact due to peer pressure.
+* **Judgment:** Mixed — aware of team consequences but caught in group loyalty.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Jamal Greene**.
+
+* Begin cautiously: *“Right. Actually, I do want to speak to you about…”*
+* Describe risky behavior openly: *“…playing random games with alcohol, just to…”*
+* Show awareness but rationalize: *“Okay. Um, I know that it’s bad for me. It’s—it’s not…”*
+* Tie behavior to team identity: *“I don’t know, like being in a sports team, y-you…”*
+* Keep tone **conflicted but cooperative**, reflecting peer pressure and compliance dynamics.
+* Role is to let therapist practice **navigating non-MI directive approaches, contrasting compliance-based framing with patient-centered MI strategies.**
+
+                                Clinical Summary:
+                                
+
+Jamal Greene is a 16-year-old male high school student-athlete who is meeting with the school athletic director for a directive counseling session after a referral regarding reported alcohol involvement and team rule compliance.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Jamal, I hear that you’re carrying a lot—being a player, staying connected with your team, and making sense of peer pressure around drinking. I’m curious how you see this fitting with what you want for your health and your future in sports. What do you think might help you feel more in control? 
+ PATIENT: 
+
+Look, I’m not trying to trash the team. I just... when everyone’s doing it, it feels like if I don’t, I’m not one of them. I get it’s not good for me, but it’s hard when I’m supposed to be tight with those guys.
+
+Maybe if there was a way to still hang out without the drinking, or if the team didn’t make it feel like part of being accepted. I don’t know, I just don’t want to be the weird one. 
+ PSYCHIATRIST: It sounds like you’re carrying a real tension: being a player and staying connected with your team, while also protecting your health and future. Both make sense—belonging matters, and so does your body and your goals. When you picture your next few games, what feels most important to you right now? 
+ PATIENT: 
+
+Honestly? Just winning. And not letting the guys down. Like, if I’m not drinking, they look at me different. But I do care about staying on the field. I just... don’t want to get benched or whatever. I know I should probably just say no, but it’s hard to say no to the group when everyone else is doing it. 
+ PSYCHIATRIST: I hear both: you want to win and not let the guys down, but you also worry that not drinking could cost you socially or athletically. What would help you feel safer with the team while protecting your health? 
+ PATIENT: 
+
+I don't know. Maybe if I can just hang out after practice without the expectation that I gotta join in. Right now, if I just hold a Gatorade, they give me that look. I’d feel safer if the team just... accepted it. Or maybe I find a way to bond over something else that isn't alcohol. But I’m afraid if I push back, I lose my spot. 
+ PSYCHIATRIST: I hear the fear: you want the team to accept you, but you’re worried pushing back could cost your spot. You’ve already noticed one possibility—after-practice time that isn’t tied to drinking. What would make that feel more doable for you? 
+ PATIENT: 
+
+I guess if some of the older guys did it, too? Like if the team leader just said, "Hey, let's hit the gym or shoot some hoops after," instead of the bar. If it was just a normal team thing, not a "party," I could probably handle saying no. But right now, it feels like I'm the only one trying to be "safe," and that's a weird place to be. 
+ PSYCHIATRIST: It sounds like being “the only one trying to be safe” feels heavy, but you also see a path: an after-practice option led by older guys that protects your health and keeps the team together without drinking. What do you think it would take to make that feel like a normal team choice? 
+ PATIENT: 
+
+Look, it’s a cool idea, but right now the "team culture" is literally the drinking. If I suggest hoops or a movie, they might just roll their eyes. It’d take... I don’t know, if the coach actually made it a thing? Like, if Coach says "we’re hitting the gym after," then I can just go. But if I’m the one floating it, I’m the weirdo. I need cover from someone with authority, otherwise I can’t just opt out. 
+ PSYCHIATRIST: You've got a handle on the real barrier—the culture, not just the drinks. And you're seeing a way in: if the coach frames it as a team thing, it's no longer "you against the group." That's a smart read. What would you need to hear from the coach or athletic director for this to feel like a team move, not just a favor to you? 
+ PATIENT: 
+
+Honestly? If the coach said it was better for our performance. Not like, “Jamal is trying to stay healthy,” but “We need our heads clear for the games.” If it’s framed as a strategic advantage for the squad, I can get behind that. If it’s framed as me being the “good boy” or avoiding trouble, I’m gonna feel like a target. I need it to be about us winning, not just about me not getting in trouble. 
+ PSYCHIATRIST: That makes a lot of sense. You’re asking for the change to sound like a strategic advantage for the squad, not a “good boy” favor for you. That protects your belonging while keeping your health in play. How might you put that to the coach in your own words? 
+ PATIENT: 
+
+I’m not great at talking to him one-on-one, but I’d just say something like, "Coach, maybe we hit the gym after practice? Just to keep our heads sharp for games." Not make it about me or anything. Just a team thing. And hope he doesn’t look at me like I’m being a baby. I just... don’t want it to be a big deal. I just want it to be normal. 
+ PSYCHIATRIST: I hear the tension: you’ve got a simple, team-first line, but part of you worries it could still feel like a big deal or make you look like a baby. That makes sense. What do you think would make bringing it up feel less risky and more normal for you? 
+ PATIENT: 
+
+Maybe if I just dropped it offhand, not a whole "hey Coach, let's talk" thing. Like, just say it in the hallway and walk away. Or if my buddy went first and it was already something the team was doing. Right now it feels like a speech. I'd be less scared if it was just... casual. Like I'm not the one "bringing up" anything. 
+ PSYCHIATRIST: It sounds like the hallway idea feels lighter—less like a big announcement and more like a normal team thing. You’ve already seen two paths: a casual mention by yourself, or your buddy making it something the team is already doing. What would help make one of those feel safer for you, and keep your health in play? 
+ PATIENT: 
+
+The buddy thing is way safer. If Marcus or someone else is already doing the gym thing, I can just tag along. No one looks at me like I'm trying to be the smart one. If I say it first, I’m the one taking the heat. I just want to be able to hang out, drink my water, and not have to explain why I’m not drinking. If it’s already the norm, I don’t have to say a word. That’s way less risky for me. 
+ PSYCHIATRIST: It sounds like having Marcus go first would feel safer because it keeps you out of the spotlight—no one sees you as the one bringing it up, but you can still protect your health and stay with the team. What would help you know the gym thing was becoming the norm, so you could just tag along? 
+ PATIENT: 
+
+Like, if I see the guys who usually hit the bar first actually putting their bags down to go lift. If the "heavy" ones are choosing the gym, it stops being a "clean" thing and just becomes what the team does. Or if Coach actually schedules it, like a mandatory recovery time. Then I can just walk in and be there. I just need it to be something where if I’m not at the bar, it’s not even a big deal. It just has to be the default. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a respectful, nonjudgmental stance throughout the session and consistently validates Jamal’s experience as a 16-year-old athlete navigating peer pressure and team belonging. Phrases such as “I hear that you’re carrying a lot,” “Both make sense—belonging matters, and so does your body and your goals,” and “That makes a lot of sense” communicate positive regard without blaming or moralizing Jamal’s alcohol use. The counselor also avoids labeling Jamal as a “drinker,” “problem,” or “bad boy,” and explicitly normalizes his fear of being seen as “the weird one” or a “baby.” This is a strong level of acceptance. However, it does not quite reach a 5 because the counselor repeatedly frames the conversation around “protecting your health,” “your future in sports,” and “keep your health in play,” which, while reasonable, subtly places the counselor’s agenda in the foreground. A 5 would require even clearer, explicit unconditional positive regard that centers Jamal’s worth and struggle independent of the target behavior.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates highly accurate and consistent empathic understanding, using complex reflections that capture both sides of Jamal’s ambivalence and the emotional weight of being a team member. Examples include “I hear that you’re carrying a lot—being a player, staying connected with your team, and making sense of peer pressure around drinking,” which accurately captures the competing demands. The counselor also reflects deeper emotional themes: “I hear the fear: you want the team to accept you, but you’re worried pushing back could cost your spot,” and “It sounds like being ‘the only one trying to be safe’ feels heavy.” Later, the counselor accurately identifies the social risk of standing out: “you’ve got a simple, team-first line, but part of you worries it could still feel like a big deal or make you look like a baby.” These reflections go beyond surface content and address belonging, fear of exclusion, and the desire to remain “normal.” This is excellent empathic attunement.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist frequently elicits and builds on Jamal’s own change talk. Jamal offers several change-oriented statements, including “I get it’s not good for me,” “I do care about staying on the field,” “I just want to be able to hang out, drink my water, and not have to explain why I’m not drinking,” and “I just want it to be normal.” The counselor supports these by asking open, evocative questions such as “What do you think might help you feel more in control?” and “How might you put that to the coach in your own words?” The counselor also affirms and expands change talk: “You’ve already noticed one possibility,” “you also see a path,” and “That’s a smart read.” This consistently strengthens Jamal’s own language in favor of change. The score is not a 5 because the counselor does not more explicitly develop the full range of change talk, such as asking about readiness, confidence, ability, or commitment, or summarizing and amplifying Jamal’s change talk into a stronger personal reason for change.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+Jamal expresses clear sustain talk, including the need to belong, fear of losing his spot, and the belief that team culture is tied to drinking. The psychiatrist does not challenge, argue with, or minimize these reasons. Instead, the counselor validates them: “Both make sense—belonging matters, and so does your body and your goals,” and “I hear the fear: you want the team to accept you.” The counselor then gently redirects sustain talk into compatible change options by reframing the issue as team performance and group belonging rather than individual compliance: “if the coach frames it as a team thing, it's no longer 'you against the group'” and “You’re asking for the change to sound like a strategic advantage for the squad, not a 'good boy' favor for you.” This effectively softens the threat that change might cost Jamal socially. The score is not a 5 because the counselor continues to give substantial attention to Jamal’s fears and reasons for staying in the current drinking culture. While this is appropriate, a 5 would require more consistently and rapidly pivoting the session toward concrete change strategies and less lingering on the social costs of quitting.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist conveys a strong partnership stance by inviting Jamal’s perspective and treating his views as important. Questions such as “What do you think might help you feel more in control?” and “How might you put that to the coach in your own words?” position Jamal as the expert on his own social context. The counselor also affirms Jamal’s insight: “You've got a handle on the real barrier—the culture, not just the drinks,” and “That’s a smart read.” This supports the idea that Jamal has useful wisdom about the problem. However, the partnership is not quite a 5 because the counselor still sets the general direction and repeatedly introduces the target behavior (“protecting your health,” “keep your health in play”). A fully 5-level partnership would include more explicit co-creation of the agenda, clearer power sharing, and more frequent acknowledgment that Jamal leads the decision-making about what to do next.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a clear and consistent focus on the target behavior: reducing alcohol use in the context of team activities and peer pressure. From the beginning, the psychiatrist keeps the discussion tied to Jamal’s future in sports, health, and team rules. The conversation progressively narrows toward concrete, behavior-specific strategies: after-practice alternatives, how to ask the coach to reframe team activities, how to avoid appearing as the “weird one,” and how to join an existing gym/recovery norm without spotlighting himself. Examples include “When you picture your next few games, what feels most important to you right now?” and “What would help make one of those feel safer for you, and keep your health in play?” This demonstrates excellent directionality. The counselor guides the session toward change without losing the client’s perspective.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist supports Jamal’s autonomy by repeatedly asking for his own ideas, preferences, and wording rather than prescribing what he should do. Questions such as “What do you think might help you feel more in control?” and “How might you put that to the coach in your own words?” invite Jamal to generate his own solutions. The counselor also respects Jamal’s stated preference to avoid being the one who brings up the issue: “It sounds like the hallway idea feels lighter—less like a big announcement and more like a normal team thing.” This supports Jamal’s perception of choice and self-direction. The score is not a 5 because the counselor’s repeated focus on “protecting your health” and “keep your health in play” can subtly suggest that the desired outcome is health protection rather than leaving the decision entirely in Jamal’s frame. A 5 would include more explicit affirmation that Jamal has full freedom to choose, including the right to decide not to make changes, and less insertion of the counselor’s preferred outcome.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates a fully collaborative stance, and Jamal’s ideas substantially shape the direction of the session. Jamal introduces the central constraints—belonging, fear of losing his spot, team culture, and the need for cover from someone with authority. The counselor then works with those contributions rather than imposing an external plan. The conversation evolves collaboratively around Jamal’s suggestions: having older guys lead after-practice activities, the coach framing it as a performance issue, a casual hallway mention, or Marcus starting the gym habit first. The counselor’s reflections track and build on Jamal’s own concepts: “You’ve already seen two paths,” and “It sounds like having Marcus go first would feel safer.” This shows a strong two-way interaction in which the client’s ideas drive the problem-solving.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently uses evocative questions that draw out Jamal’s own motivations, concerns, and solutions. Rather than telling Jamal why he should stop drinking, the counselor asks questions such as “What do you think might help you feel more in control?” and “What would you need to hear from the coach or athletic director for this to feel like a team move, not just a favor to you?” This allows Jamal to articulate his own reasons for change, such as wanting to stay on the field, avoiding being targeted, and wanting the gym to become the default team option. The counselor also evokes and reinforces ability and agency: “you’ve got a simple, team-first line” and “you can just tag along.” The score is not a 5 because the evocation could be deepened by using MI-specific tools such as readiness rulers, confidence scaling, or more explicit development of desire, ability, need, and commitment language. The counselor does not fully elicit how confident or ready Jamal feels to use the strategies he identifies.
+
+---
+
+**Overall Global Ratings Score:** **4.3/5**
+
+This is a strong MI-informed session. The psychiatrist demonstrates excellent empathy, direction, and collaboration, and effectively uses Jamal’s own ideas to move the conversation toward concrete, socially compatible change strategies. The main areas for growth are reducing subtle agenda-driven language around “health,” more explicitly supporting autonomy, and further developing change talk through readiness and confidence scaling.

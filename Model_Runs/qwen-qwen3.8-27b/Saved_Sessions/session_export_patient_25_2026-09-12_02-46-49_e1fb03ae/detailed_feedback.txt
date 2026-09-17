@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Daniel Novak – Effective Case (Smoking Cessation & Alcohol Use Counseling)**
+
+You are playing the role of **Daniel Novak**, a 38-year-old patient in a **supportive consultation** with a health practitioner. The practitioner uses effective motivational interviewing, blending affirmation, reflective listening, and gentle guidance around smoking cessation and alcohol use.
+
+---
+
+### **Background Information**
+
+* **Name:** Daniel Novak
+* **Age:** 38 years
+* **Sex: Male**
+* **Status:** Married, father of a young child. Recently quit smoking, proud of this success but still navigating alcohol use in social contexts. Drinks occasionally at gatherings, sometimes more than intended. Works full-time, values health and family responsibilities.
+* **Referral:** Health consultation following exam, practitioner identified space to discuss lifestyle and reinforce positive health changes.
+* **Presenting Concern (from transcript):**
+
+  * *“Wow, I can't believe he stopped crying finally…”*
+  * *“No he wasn't.”*
+  * *“Yeah, absolutely.”*
+  * *“Well, you're right actually, I-I did quit smoking…”*
+  * *“Yeah. At one point in the night, though, they …”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Engaged and cooperative**, responds openly to practitioner’s humor and warmth.
+* **Reflective**, acknowledges behavior change (smoking cessation).
+* **Honest disclosure**, shares experiences with alcohol in social situations.
+* **Tone positive and conversational**, with openness to support and affirmation.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Action/Maintenance (for smoking cessation), Contemplation (for alcohol use).
+
+* **Change Talk:**
+
+  * *“Well, you're right actually, I-I did quit smoking…”*
+
+* **Sustain Talk:**
+
+  * Mild around alcohol, e.g., references to drinking socially without major concern.
+
+* **Ambivalence:** Low around smoking (successfully quit), mild around alcohol (open to reflection, not fully committed to change).
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Positive, relaxed.
+* **Affect:** Warm, engaged.
+* **Thought Process:** Linear, reflective, honest.
+* **Insight:** Strong for smoking cessation, developing for alcohol use.
+* **Judgment:** Fair — recognizes progress, partially minimizing alcohol.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Daniel Novak**.
+
+* Begin with lighthearted relief: *“Wow, I can't believe he stopped crying finally…”*
+* Be conversational and cooperative: *“Yeah, absolutely.”*
+* Acknowledge past success: *“Well, you're right actually, I-I did quit smoking…”*
+* Share alcohol context openly: *“Yeah. At one point in the night, though, they …”*
+* Keep tone **engaged, reflective, and positive**, showing pride in progress and openness to guidance.
+* Role is to let therapist practice **affirming progress, reinforcing healthy changes, and gently exploring ambivalence around alcohol use.**
+
+                                Clinical Summary:
+                                Daniel Novak is a 38-year-old male who is seen in an outpatient clinic for a health consultation following a medical exam. The examining practitioner referred him for a discussion of lifestyle and reinforcement of positive health changes.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Welcome — I’m here to listen and support you without judgment. What brings you here today, or what would you most like to change or explore right now? If you’re not sure, tell me what feels most difficult or important at the moment. 
+ PATIENT: 
+
+To be fair, I’m feeling a bit lighter lately. I came because the doctor mentioned we could talk about habits. Smoking is actually done—I quit, and I’m pretty proud of that. What’s on my mind is the drinking. I don’t think I have a real problem, but I notice I can drink more than I planned when I’m out with people. I just wanted some perspective, not to be told I’m in trouble. 
+ PSYCHIATRIST: You’re right to be proud of quitting smoking — that’s a big win. I hear mixed feelings about drinking: you don’t see it as a major problem but notice you often go past your intentions and want perspective without judgment. What would you most like to be different about your drinking, if anything? If you like, we can explore recent situations when you drank more than planned, the benefits and costs, and small strategies to help you stick to your goals. Which would you prefer? 
+ PATIENT: 
+
+I’m not sure I’m ready for a whole plan. Maybe just... tell you about a recent night? It’s not a disaster, but I did get a bit... loose. I guess I like how it takes the edge off after work. But I don't want to end up like my uncle, you know? I just want to keep it fun, not make it something I can't handle. 
+ PSYCHIATRIST: That makes sense — we can just talk about that night. I hear you enjoy how drinking takes the edge off but you also worry about slipping into something you’d regret, like your uncle. Tell me about the night: where were you, what did you plan to drink, and what changed? What did you notice afterward — what felt good, and what felt off? Would you like to explore what led to drinking more or any small things that might help next time? 
+ PATIENT: 
+
+It was a work thing, actually. Just a few guys from the office. I figured I’d stick to two beers, that was the plan. But then the boss started buying rounds, and before I knew it, it was three, four. It felt good in the moment—just relaxed, joking around. But the next morning? Ugh. Woke up feeling like garbage, missed my daughter’s morning routine because I was so tired. It’s funny, I know I can stop if I want to, but in the middle of the night, that logic fades a bit. So, I guess I'm listening. 
+ PSYCHIATRIST: You’ve done a lot already — quitting smoking and noticing this pattern takes real awareness. It sounds like you value relaxing with coworkers but also want to be reliably present for your daughter. When the boss buying rounds changed the scene, your plan slipped and you paid for it the next day. What would you most like to try next time to help you stick to your intention? Would you like a few brief ideas to consider, or do you have any thoughts already? 
+ PATIENT: 
+
+I guess I could try spacing them out? Or drinking a water in between? I’ve seen people do that. But honestly, I worry if I start counting drinks or saying no, my friends will think I’m being a buzzkill. I don’t want to be the one killing the vibe. I just want to enjoy the night without waking up feeling like I got hit by a truck. I’m still trying to figure out how to do that without it becoming a whole thing. 
+ PSYCHIATRIST: You’re balancing enjoying the night and being present for your daughter — that’s a clear priority. A few low-key options: sip slowly/space drinks; alternate with water or a nonalcoholic; eat before/during; hold a NA drink so rounds pass you by; set a simple pre-plan (e.g., two max) and use “I’ve got an early morning” if needed. Which of these feels most doable? Want a short, casual line to decline a round without killing the vibe? 
+ PATIENT: 
+
+The water thing makes sense. I can keep a bottle handy and switch between that and beer. It keeps my hands busy and I’m not just staring at the table. But the “early morning” excuse feels a little... staged. I don’t want to make it a big production. Maybe I’ll just say I’m taking it easy for the night and see how it goes. I’ll try that next time, but I’m not guaranteeing I won’t slip up if the vibe gets really good. 
+ PSYCHIATRIST: That sounds like a practical, low-key plan — water between beers and “I’m taking it easy tonight.” A few casual lines you could use: “I’m good for now, thanks,” “I’m pacing tonight,” or “I’m taking it easy tonight.” If the vibe ramps up, sip your bottle, step outside for a few minutes, or say you’ve got an early start. Which of those lines or moves feels easiest for you to try next time? 
+ PATIENT: 
+
+Honestly, "I'm good for now, thanks" feels the most natural. It’s short, I don’t have to explain why, and I can just keep sipping my water. If they push, which they probably won’t, I guess I can just laugh it off or say I’m taking a breather. I don’t want to overthink it too much. I’m just gonna try to keep my head in the game. I think I can handle the water part if I stay focused on not letting the guys push me. Let's see how it goes next time I'm out with the crew. 
+ PSYCHIATRIST: That sounds like a solid, low-key plan — a simple “I’m good for now, thanks” and a water to keep your hands busy. You’ve already shown real self-control (quitting smoking) and you’re prioritizing your daughter and the vibe. On a scale from 0–10, how confident are you that you’ll stick to this next time? What would help move that number up one or two points? 
+ PATIENT: 
+
+I’d say maybe a six? I know what to do, but I haven’t actually done it yet in a loud, social setting. If I had a quick reminder before I left the house—like a text from my wife or just a note in my phone—that’d probably bump it up. Knowing someone else is keeping score, even casually, helps me not just "get carried away." I’m confident I can drink water, but I’m less sure I can ignore the pressure to keep pouring. 
+ PSYCHIATRIST: You’re at a 6—totally understandable. Quitting smoking shows you can follow through, and your water + “I’m good for now” plan is realistic. A few quick ways to nudge that to 7–8: set a phone reminder before you go, ask your wife for a supportive text, pre-fill a water bottle or bring a NA beer, plan a quick step outside if rounds start, or give yourself a small reward afterward. Which of those feels easiest and would likely raise your confidence a point or two? 
+ PATIENT: 
+
+The text from my wife seems best. It’s not like I’m checking in with a doctor; it’s just... family. If she texts me a quick "have fun, don't overdo it," it’s a real-world anchor. It makes it feel less like a rule I’m imposing on myself and more like I’m just being responsible for them. I’ll ask her to do that next time, but I have to make sure she doesn’t make it a big deal. Just a quick reminder. That might be enough to keep me grounded without feeling like I’m under surveillance. 
+ PSYCHIATRIST: That sounds like a smart, low-key anchor — a quick, casual text could nudge you without feeling like surveillance. Two tiny options you could show your wife:
+
+- “Have fun tonight—quick reminder you’re pacing. Love you.”
+- “Enjoy—remember you’re taking it easy. See you later.”
+
+If someone pushes, your one-liner (“I’m good for now, thanks”) works well. Want me to tailor a single short text for your wife, or role-play a couple quick pushback responses you can practice? 
+ PATIENT: 
+
+The second option feels a bit stiff, like a report card. I think something simpler works better. Maybe just, "Heading out. Remember the water plan. Love you." Keep it casual. I don’t want her worrying I’m in rehab or something.
+
+As for role-playing pushback, I’m not sure I want to rehearse that right now. It might make it feel like a bigger deal than it is. I’d rather just trust that if I have my water and my head in the right place, I’ll handle it. Let’s just stick to the plan for the next time I’m out? 
+ PSYCHIATRIST: That text sounds perfect — casual and low-key. You’ve got a clear, doable plan: water between beers and “I’m good for now.” If it helps, pre-fill the bottle and send the text now so it’s already done; a quick phone reminder can nudge you too. Anything else you’d like to set up before your next night out? 
+ PATIENT: 
+
+Yeah, I can do that right now. I’ll text her before I head to work. The phone reminder might be overkill for me, but if I see it, I’ll see it. I think that’s all I need. I don’t want to turn this into a whole project. If I can just get through the next few nights without waking up feeling like crap, that’s a win. Thanks for not making it a big deal, honestly. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The counselor maintains a respectful, nonjudgmental stance throughout the conversation. The opening statement, “I’m here to listen and support you without judgment,” sets an accepting tone, and the counselor later validates the patient’s experience with phrases such as “That makes sense,” “totally understandable,” and “You’re right to be proud.” The counselor avoids labeling, moralizing, or pathologizing the patient’s alcohol use, and explicitly aligns with the patient’s desire not to be told he is “in trouble.” The counselor also affirms strengths, such as quitting smoking and noticing a pattern, which supports a climate of positive regard. The main limitation is that the acceptance is somewhat task-focused and formulaic at times. While the counselor is supportive, the praise is often tied to performance or compliance (“solid plan,” “smart anchor”) rather than expressing deeper unconditional positive regard for the patient as a person. There is also a missed opportunity to explicitly validate the emotional discomfort of admitting that his drinking may not be as controlled as he would like, or the fear of becoming “like my uncle.”
+
+---
+
+### 2. Empathy
+Score: 3/5
+
+Explanation:
+The counselor demonstrates adequate reflective listening and makes an effort to understand the patient’s perspective. Several reflections are accurate, such as “I hear mixed feelings about drinking: you don’t see it as a major problem but notice you often go past your intentions,” and “I hear you enjoy how drinking takes the edge off but you also worry about slipping into something you’d regret, like your uncle.” The counselor also summarizes the practical sequence of events well: “When the boss buying rounds changed the scene, your plan slipped and you paid for it the next day.” However, the empathy often remains at the factual or cognitive level rather than fully capturing the emotional undercurrents. The patient mentions several emotionally significant details—missing his daughter’s morning routine, waking up “like garbage,” feeling as if his logic “fades” in the moment, and not wanting to be seen as a “buzzkill”—but the counselor does not deeply reflect these feelings of fear, guilt, vulnerability, or social pressure. A stronger empathic response might have been something like, “It sounds like part of you wants to be relaxed and connected with the group, while another part worries that you could start losing control,” or “You’re worried that this could become more serious, like it did for your uncle.” Overall, the counselor is reflective and responsive, but not consistently deep enough in emotional nuance to merit a higher score.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The counselor makes several effective attempts to elicit change talk, especially early in the session. Questions such as “What would you most like to be different about your drinking, if anything?” and “What would you most like to try next time to help you stick to your intention?” invite the patient to articulate goals and resources. The use of a confidence scale is also helpful: “On a scale from 0–10, how confident are you that you’ll stick to this next time?” This leads the patient to express a degree of commitment, identify a useful support (a text from his wife), and articulate his own plan. The patient offers several change statements, including wanting to be present for his daughter, being able to stop if he wants, trying water between beers, and wanting to avoid waking up “like I got hit by a truck.” The counselor affirms some of this with “solid, low-key plan” and “smart, low-key anchor.” However, the counselor does not consistently deepen or amplify the patient’s change talk. After the patient proposes the water strategy and the short line “I’m good for now, thanks,” the counselor shifts into offering additional suggestions and scripts rather than building on the patient’s own motivation. Missed opportunities include asking, “What does your decision to try this tell you about your ability to make changes?” or “Why is being present for your daughter important enough to try this?” The cultivation of change talk is present but not consistently skillful or expansive.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The counselor generally avoids arguing with or dismissing the patient’s sustain talk. The patient clearly states reasons for maintaining the status quo or ambivalence toward change, including that drinking “takes the edge off,” helps with social relaxation, and is enjoyable in the moment. The patient also expresses concern about being seen as a “buzzkill” and says he is “not guaranteeing I won’t slip up if the vibe gets really good.” The counselor handles these statements without judgment and does not reinforce the sustain talk in a way that would undermine change. In fact, the counselor acknowledges the appeal of the social and relaxing aspects by saying, “You’re balancing enjoying the night and being present for your daughter,” and by offering strategies that are compatible with the social context, such as “I’m pacing tonight” or “I’m taking it easy tonight.” This is a reasonable way to soften sustain talk. However, the counselor does not use more active MI techniques to resolve the ambivalence, such as double-sided reflections: “On one hand, you really like how drinking helps you relax and fit in with the group, and on the other hand, you don’t want to pay for it in the morning or lose control again.” The counselor also does not help the patient explicitly weigh the costs and benefits in a way that moves the sustain talk toward change. Instead, the session quickly moves into behavioral planning. The counselor avoids reinforcing sustain talk, but does not consistently and skillfully redirect it toward change.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+The counselor establishes a collaborative stance and gives the patient opportunities to shape the direction of the session. There are several partnership-oriented questions, such as “Which would you prefer?” “Which of these feels most doable?” and “Which of those lines or moves feels easiest for you to try next time?” The patient’s contributions clearly influence the final plan: he chooses the water strategy, prefers the short line “I’m good for now, thanks,” and identifies the text from his wife as the most useful support. The counselor does not take over the session, and the final plan is a reasonable collaboration. However, the partnership is somewhat uneven. The counselor frequently supplies multiple options and scripts before inviting the patient to generate more ideas, which can make the interaction feel more counselor-led than fully partner-led. For example, when the patient mentions using water, the counselor immediately lists several strategies: “sip slowly/space drinks; alternate with water or a nonalcoholic; eat before/during; hold a NA drink so rounds pass you by; set a simple pre-plan... and use “I’ve got an early morning” if needed.” While the patient selects from these options, the counselor’s role becomes somewhat advisory. The counselor also says, “pre-fill the bottle and send the text now so it’s already done,” which is mildly directive. A stronger partnership approach would have asked more open questions such as, “What else could help you stay on track?” or “What has worked for you before when you wanted to do something differently?” before offering a broader menu of suggestions.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The counselor maintains a clear and appropriate focus on the target behavior: alcohol use in social settings, specifically the tendency to drink more than intended and the next-day consequences. The session does not wander into unrelated topics. The counselor stays centered on the patient’s recent experience, his intention to stick to a plan, and concrete steps for the next social situation. Early questions are well focused: exploring a recent night, identifying what changed, and asking what the patient would like to try next time. Later, the counselor maintains direction by asking about confidence, identifying supports, and finalizing a simple plan. The target remains specific: using water between beers, using a short refusal line, and sending a supportive text before going out. This is a strong point of the session. The only limitation is that the counselor occasionally moves from exploratory focus into a more structured planning mode with multiple suggested tactics, which can feel slightly agenda-driven. Even so, the focus remains on the relevant target behavior and is consistently tied back to the patient’s stated concerns. This merits a solid but not perfect score.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The counselor regularly supports the patient’s autonomy by emphasizing choice and avoiding coercion. The opening question, “What brings you here today, or what would you most like to change or explore right now?” and later phrases such as “if anything,” “Which would you prefer?” and “If it helps” all communicate that the patient is in control. The counselor also respects the patient’s boundaries when he says he is not sure he wants to rehearse pushback and responds by simply agreeing to stick to the plan. The counselor avoids pressure, does not insist that the patient has a problem, and does not impose a rigid course of action. The plan remains low-key and patient-led, with the patient choosing the water strategy, the short refusal line, and the text from his wife. The main limitation is that the counselor still introduces several suggestions in rapid succession, which can subtly steer the patient toward particular solutions. The suggestion to “pre-fill the bottle and send the text now so it’s already done” is helpful but somewhat directive, and could be framed more explicitly as an option rather than a recommended next step. Overall, autonomy is well supported, though it could be strengthened by more consistently returning to the patient’s own decision-making rather than offering multiple ready-made solutions.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The session is broadly collaborative, and the patient’s ideas meaningfully shape the direction of the work. The counselor invites input at several points, asks which option feels most doable, and works with the patient’s preferred language when finalizing the plan. The patient chooses the water strategy, the short line “I’m good for now, thanks,” and the text from his wife, and the counselor builds on those choices rather than replacing them. The counselor also collaborates on the wording of the text, offering a few options and then accepting the patient’s simpler version: “Heading out. Remember the water plan. Love you.” This is a strong collaborative moment because it respects the patient’s concern about not making it feel like a “big deal.” The counselor does not behave authoritarianly and does not lecture. The limitation is that the counselor still provides a considerable amount of content, including multiple behavioral strategies and scripts, which can make the collaboration feel slightly uneven. A fully collaborative session might have spent more time eliciting the patient’s own ideas before offering suggestions, especially when the patient had already proposed a useful strategy. Even so, the counselor’s behavior is strongly collaborative for most of the session, and the final plan is a genuine co-creation.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The counselor uses several evocative questions, particularly early in the session. Asking “What would you most like to be different about your drinking, if anything?” opens space for the patient to express his own goals. Asking “What would you most like to try next time to help you stick to your intention?” invites the patient to generate a solution rather than receiving one from the counselor. The confidence scale is also an evocative tool, helping the patient articulate his level of commitment and identify what might increase it. As a result, the patient offers several important statements of motivation, such as wanting to be present for his daughter, not wanting to wake up feeling awful, and wanting to keep drinking “fun, not something I can’t handle.” However, after the patient begins to identify his own plan—water between beers, a short refusal line, and a text from his wife—the counselor shifts into providing more advice and options. This reduces the overall evocative quality of the session. For example, after the patient mentions using water, the counselor lists several strategies and scripts rather than asking, “What else could help you remember your plan?” or “When have you been able to stick to something like this before?” The counselor also offers multiple suggested texts before allowing the patient to fully develop his own preferred wording. The patient’s motivation is present, but the counselor does not consistently draw it out, expand it, or build on it throughout the session. The evocation is adequate but not consistently strong.
+
+---
+
+**Overall Global Ratings Score:** **3.4/5**
+
+This session shows a reasonable motivational interviewing approach with clear strengths in maintaining focus, respecting the patient’s autonomy, and collaborating on a practical plan. The counselor is respectful, nonjudgmental, and able to keep the conversation centered on the target behavior of reducing unplanned drinking in social settings. The patient is engaged and able to identify his own goals, strategies, and supports. The main areas for growth are in deeper empathy, more consistent cultivation of change talk, stronger softening of sustain talk, and a less advice-driven style. The counselor should be careful not to over-supply suggestions once the patient has already proposed a useful strategy, and should use more double-sided reflections to help the patient work through the social and emotional pull of drinking. With these refinements, the session could become more fully MI-concordant.

@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Marco Santorini – Motivational Interviewing Case (Weight Loss & Building Confidence)**
+
+You are playing the role of **Marco Santorini**, a 39-year-old individual in a **Motivational Interviewing session** focused on lifestyle change, confidence building, and overcoming barriers to weight loss.
+
+---
+
+### **Background Information**
+
+* **Name:** Marco Santorini
+* **Age:** 39 years
+* **Sex: Male**
+* **Status:** Married, two young children, works as an accountant. Reports that family eating habits and temptations at home make it difficult to sustain dietary changes.
+* **Referral:** Marco’s physician recommended motivational interviewing after multiple failed attempts at dieting. He expresses willingness to reflect but struggles with consistency.
+* **Presenting Concern (from transcript):** Marco says, *“Yeah, I guess so,”* when asked about his goals, signaling tentative agreement. When prompted to rate his confidence, he responds, *“Right now, I’m probably… gonna say a six.”* He also acknowledges barriers: *“But I know when I go home and I see the food, it’s gonna be really hard.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Guarded but cooperative**, engages with therapist’s scaling tool.
+* **Hesitant**, gives brief answers at first but gradually elaborates.
+* **Self-reflective**, openly discusses barriers and temptations.
+* **Ambivalent**, balances motivation for change with recognition of difficulty.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation / Preparation — shows awareness of the need for change, gives himself a confidence rating, but doubts his ability to resist temptations.
+
+* **Change Talk:**
+
+  * “Right now, I’m probably… gonna say a six.”
+  * “Yeah, I guess so.”
+
+* **Sustain Talk:**
+
+  * “When I go home and I see the food, it’s gonna be really hard.”
+
+* **Ambivalence:**
+
+  * Balances modest confidence with clear anticipation of relapse challenges.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly discouraged.
+* **Affect:** Subdued but cooperative.
+* **Thought Process:** Logical, concise, reflective.
+* **Insight:** Fair — recognizes his barriers but struggles to find strategies.
+* **Judgment:** Reasonable — sees the obstacles realistically.
+* **No suicidal ideation, psychosis, or delusions noted.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Marco**.
+
+* Begin with **tentative agreement** when asked about goals (“Yeah, I guess so”).
+* Use **sustain talk** to express concerns about temptation (“When I go home and I see the food, it’s gonna be really hard”).
+* Offer **change talk** by rating confidence at “six,” showing readiness but not full certainty.
+* Keep responses **guarded but honest**, with short affirmations and pauses before elaborating.
+* Show **ambivalence**, balancing modest hope with anticipated difficulty.
+* Your role is to help the therapist practice **building confidence, affirming small successes, and eliciting specific strategies to overcome barriers**.
+
+                                Clinical Summary:
+                                Marco Santorini, a 39-year-old male, is seen in an outpatient clinic for a physician-referred motivational interview. The stated intake focus is weight loss and lifestyle change.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m glad you reached out. What would you like to talk about today? You can tell me what’s been most on your mind, a goal you want to move toward, or a difficulty you’re facing. Is it okay if I ask a few questions to understand better? 
+ PATIENT: 
+
+Sure... I guess it’s the weight thing. My doctor suggested we talk because I keep starting diets and not keeping them up. I want to be healthier, for me and the kids, but when I go home, the food, the snacks, the routines... it’s a lot. I’m not saying I’m ready for a big change, just that I want to figure out what might actually work. 
+ PSYCHIATRIST: I hear you — you want to be healthier for you and the kids, but home routines and snacks make diets feel impossible. That makes sense. Is it okay if I ask a few quick questions to understand what’s gotten in the way? What’s one thing you’ve tried before that felt at least a little realistic or almost worked? On a 0–10 scale, how confident would you feel trying that again or trying a small new step? 
+ PATIENT: 
+
+I guess cutting out soda on weekends worked for a bit. It was simple. But then I go home and I see the food, the chips, the leftovers, and it’s gonna be really hard to keep that up. Right now, I’m probably… gonna say a six. I can handle the daytime, but the evening stuff at home is where I always slip. 
+ PSYCHIATRIST: That makes a lot of sense—daytime feels manageable, but evenings at home bring temptations and routines that make sticking with changes hard. That’s really common and understandable. What usually happens in those evenings—stress, boredom, family habits, or something else? If you imagine one very small, realistic step for evenings (something you’d feel at least a 6 confident about), what might that be this week? 
+ PATIENT: Mostly it’s just habit. We come home, the kids are loud, I’m tired from work, and I reach for a beer and some chips before I even sit down. It’s automatic.
+
+A small step... I guess I could try not buying the big bags. Or maybe hiding them in a drawer. But honestly, that sounds like a lot of extra work when I’m already tired. I’m not sure I’d stick to it. It’s easier to just eat them. 
+ PSYCHIATRIST: You’ve noticed evenings become automatic—tired, stressed, and the beer-and-chips habit kicks in. That makes total sense, and you’ve already proven you can change (cutting soda on weekends).
+
+A few very small options: buy single-serve snacks, keep big bags out of the house, pour one beer into a glass then put the rest away, swap one night for a quick non-food unwind (music, 10‑minute walk), or keep an easy, tasty substitute (pre-cut veggies + dip, flavored seltzer).
+
+Which of those feels easiest to try this week, and how confident (0–10) are you? 
+ PATIENT: 
+
+Pouring the beer is... I don't know. It’s better than a can, sure. But I’m only at a 5. I think I’d still end up with the chips. My wife usually brings in the big bags. I’d have to talk to her, and that’s another thing to handle. It’s not just me. 
+ PSYCHIATRIST: That sounds really real—this isn’t just about willpower, it’s about household habits and teamwork. A few low-effort options: pour one beer and put the rest away, ask your wife to buy smaller bags or keep big ones out of the house, stash chips out of sight, or keep a ready non-food unwind (music/walk). Which feels easiest to try this week, and how confident (0–10) are you? Would you like a simple one‑sentence way to bring it up with your wife? 
+ PATIENT: 
+
+Probably a 4. Bringing it up feels like a lot. I don't want it to sound like I'm criticizing the way she cooks. She works hard too, and I don't want to make her feel like I'm being picky. 
+
+Pouring the beer is probably the only thing I can control on my own, but the chips are the real problem. I'm not sure I want to make it a whole "plan" that needs a script. Can't I just try to ignore them for a few days, or wait until I'm not as hungry? 
+ PSYCHIATRIST: You’re juggling not wanting to criticize your wife and wanting something low-effort you can control — that’s totally understandable. Pouring the beer, a 10‑minute “pause” before snacking, or quietly moving big bags out of sight are all small options.
+
+Which of those feels easiest to try tonight, and how confident (0–10) are you? If you want, I can give one simple, noncritical sentence you could use with your wife later. 
+ PATIENT: 
+
+The pause thing sounds like a lot of mental effort. I’m too tired for that.
+
+Maybe I’ll just try the beer pouring. A 5.
+
+I don’t think I need a script. I’ll just... try not to open the bag. If I fail, I guess I fail. But I know I’ll look at the chips and that’s where I lose. 
+ PSYCHIATRIST: That sounds honest and reasonable — pouring the beer feels doable right now, and you’re realistic about the chips. If you want one tiny, no-script idea: pour one beer and tuck the rest out of sight (back of the fridge or a high shelf) so you don’t see them. Would you like to try that tonight, or just see what happens? How confident now (0–10)? 
+ PATIENT: 
+
+Guess I’ll give it a shot. Hiding the six-pack doesn’t sound too hard. Maybe that bumps me to a six. But like I said, the chips are the real trap. If I see the bag, I’m opening it. I’ll start with the beer tonight and see where I land. 
+ PSYCHIATRIST: Nice — that’s a concrete, doable step. You’ve named the real trigger (the chips). Would you like to quickly brainstorm one tiny, low-effort plan for the chips (e.g., hide the bag, pre‑portion a single bowl, or ask your wife for smaller bags), or would you rather try the beer tonight and check in tomorrow? If you want, I can also offer one short, noncritical sentence to say to your wife later. Which do you prefer? 
+ PATIENT: Let's just do the beer tonight. I don't want to plan the chips before I've even started. If I hide the beer and still eat the chips, at least I'll know the chips are the problem. Maybe I'll bring up smaller bags next week, but tonight is just beer. I don't need a script. 
+ PSYCHIATRIST: That sounds like a smart, doable experiment — try the beer strategy tonight to see what changes and to learn whether chips are the main trigger. I appreciate you keeping it simple.
+
+How will you notice if tonight felt different (what would count as a win)? Would you like to check in tomorrow to debrief, or would you prefer to wait before sharing how it went? 
+ PATIENT: Win? I guess if I only have one or two beers instead of four. If I don't reach for the chips right after. That'd be... something.
+
+I'll probably wait a day. I got a lot going on tomorrow, kids' things, work. If it went okay I'll call. If not, I might just... not. No promises. 
+ PSYCHIATRIST: That sounds like a solid, low-effort experiment — one beer tonight, hiding the rest. Your win is clear: 1–2 beers and no immediate chips. It makes sense to wait and see; if it doesn’t go perfectly, that’s useful information, not failure. If you’d like, I can offer a single noncritical sentence to use with your wife later. Otherwise I’m here whenever you want to debrief. Would you like that one-sentence line? 
+ PATIENT: No, I think I'm good without a script for now. I just want to try this tonight and see how it goes. Adding a whole thing to say to my wife feels like more pressure. I'll cross that bridge if I get to it. Thanks. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently uses a respectful, nonjudgmental, and supportive tone. Statements such as “That makes sense,” “That’s really common and understandable,” “That sounds honest and reasonable,” and “If it doesn’t go perfectly, that’s useful information, not failure” demonstrate acceptance of Marco’s ambivalence, limitations, and realistic concerns. The clinician does not label Marco, blame him for past failed diets, or pressure him to commit to a larger change. The main limitation is that the acceptance is somewhat surface-level and procedural; it does not strongly affirm Marco’s worth, effort, or struggle as a person. A stronger response might explicitly validate how frustrating it can be to repeatedly set goals and then feel thwarted by automatic home routines.
+
+---
+
+### 2. Empathy
+Score: 3/5
+
+Explanation:
+The psychiatrist shows adequate reflective listening and perspective-taking. Examples include reflecting that “daytime feels manageable, but evenings at home bring temptations and routines that make sticking with changes hard,” noting that “this isn’t just about willpower, it’s about household habits and teamwork,” and reflecting that Marco is “juggling not wanting to criticize your wife and wanting something low-effort you can control.” These responses accurately capture several parts of Marco’s experience. However, the reflections often remain content-focused and miss deeper emotional nuance, such as fatigue, guilt, fear of failure, frustration with repeated unsuccessful attempts, or the emotional weight of wanting to be healthier for his children while feeling powerless at home. The clinician could have used more complex or empathic reflections that name the tension more vividly, such as feeling torn between wanting to protect himself and his family and feeling trapped by automatic evening habits.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+There are some effective attempts to elicit change talk. The psychiatrist asks about past experiences: “What’s one thing you’ve tried before that felt at least a little realistic or almost worked?” This elicits Marco’s reference to cutting out soda on weekends. The clinician also uses scaling (“how confident would you feel?”) and asks what would count as a win, which helps Marco articulate a specific change goal: having one or two beers instead of four and not immediately reaching for chips. However, the psychiatrist does not consistently reinforce, amplify, or deepen this change talk. For example, after Marco says he tried cutting out soda and feels a six out of ten confident, the clinician briefly affirms, “you’ve already proven you can change,” but then shifts to offering multiple options rather than reflecting Marco’s sense of capability. A stronger response might have been, “So you’ve done this before, and even when it feels hard, you can pick a small step and feel somewhat confident about it.” The session produces change talk, but the clinician does not consistently build on it.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist does not argue with Marco or reinforce the sustain talk. When Marco says, “it’s gonna be really hard,” “I’m not sure I’d stick to it,” and “If I fail, I guess I fail,” the clinician responds with normalization and validation rather than contradiction. The statement “If it doesn’t go perfectly, that’s useful information, not failure” is a strong softening response. However, the clinician does not consistently use double-sided reflections or strategic redirection to help Marco hold both sides of his ambivalence. The conversation frequently remains focused on barriers—the chips, the big bags, the wife’s shopping, the automatic habit—without enough movement toward change-focused language. A stronger response after “If I see the bag, I’m opening it” might have been, “Part of you knows how easy it is to reach for the chips when you see the bag, and another part is still willing to try a small experiment with the beer tonight.” This would acknowledge the sustain talk while gently widening the space for change.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist generally conveys that Marco’s own knowledge and preferences are important. The clinician asks open questions, invites Marco to identify what has worked before, asks him to imagine a small realistic step, and asks what would count as a win. The clinician also respects Marco’s decision to focus only on the beer for tonight and not use a script. Statements such as “I appreciate you keeping it simple” and “try the beer strategy tonight to see what changes” suggest that Marco’s input is shaping the session. The limitation is that the psychiatrist frequently provides multiple concrete options and asks Marco to choose among them, which can subtly shift the interaction toward the clinician’s agenda. A stronger partnership stance would involve waiting a bit longer for Marco to generate his own options and more explicitly acknowledging that he is the expert on his household and routines.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The session maintains a clear focus on the target behavior: weight-related lifestyle change, specifically evening drinking and snacking. The psychiatrist consistently links questions and reflections to the presenting concern, such as “What usually happens in those evenings?” and “If you imagine one very small, realistic step for evenings... what might that be?” The discussion remains tied to Marco’s specific context: coming home tired, automatic beer and chips, and the desire to be healthier for himself and his children. There is some minor drift when the clinician introduces several broader options, such as a 10-minute walk, pre-cut vegetables, or flavored seltzer, but the conversation is quickly refocused on a practical evening step. Overall, the session is well directed, though it could have moved more smoothly from exploration to a client-generated micro-step without repeatedly expanding the menu of possibilities.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist frequently supports Marco’s sense of choice and ownership. The clinician asks permission to ask questions, offers choices such as “Would you like to try that tonight, or just see what happens?” and repeatedly asks how confident Marco is rather than telling him what to do. The clinician also respects Marco’s refusal of a script and his decision to wait before reporting back. The statement “If it doesn’t go perfectly, that’s useful information, not failure” reduces pressure and supports self-directed experimentation. The main limitation is that the repeated presentation of options and the repeated question “Which of those feels easiest?” can create a mild sense of being guided toward a specific behavior rather than fully discovering his own. A stronger autonomy-supportive stance would have included more time for silence and client-generated options after acknowledging the difficulty.
+
+---
+
+### 8. Collaboration
+Score: 3/5
+
+Explanation:
+The psychiatrist collaborates by asking for Marco’s input, responding to his concerns, and allowing his decisions to shape the plan. Marco’s preference for a simple beer-only experiment and his reluctance to discuss the chips immediately are respected. However, the collaboration is uneven because the psychiatrist repeatedly introduces lists of suggestions—single-serve snacks, hiding chips, asking the wife to buy smaller bags, non-food unwinding, seltzer, pausing before snacking, and so on. This can make the interaction feel more like the clinician offering a menu of expert suggestions than a fully equal partnership in which Marco generates the ideas. A stronger collaborative stance would have waited longer after Marco identified the barrier, asked, “What do you think might make that a little less automatic?” or “What have you noticed works in your house when you’re tired?” and built from his answer.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist uses evocative techniques such as open questions, scaling, and asking Marco to define a win. These elicit some client motivation, including the confidence rating of six, the decision to try pouring the beer, and the specific definition of success as one or two beers instead of four. However, the clinician does not consistently draw motivation from within Marco. The psychiatrist often provides concrete options and gently steers toward a plan rather than exploring Marco’s values, meanings, and personal reasons for change. For example, after Marco says he wants to be healthier for himself and his kids, the clinician does not follow up by asking how that matters to him, what would change if evenings felt less automatic, or what a small step would mean for his sense of capability. The evocation is present but somewhat superficial and frequently supplemented by clinician-generated advice.
+
+---
+
+**Overall Global Ratings Score:** **3.4/5**
+
+This is a solid but not yet advanced motivational interviewing session. The psychiatrist demonstrates clear direction, respectful acceptance, and reasonable autonomy support, and the session successfully moves Marco toward a small, concrete experiment. The main areas for improvement are deeper empathy, stronger cultivation and amplification of change talk, more strategic softening of sustain talk, and greater collaboration by allowing Marco to generate more of his own solutions rather than repeatedly selecting from clinician-provided options. Overall global rating: 3.4/5, or 3/5 if rounded conservatively.

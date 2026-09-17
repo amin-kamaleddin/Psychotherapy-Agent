@@ -1,0 +1,434 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: David Okoro – Non-Motivational Case (Smoking Cessation & Pharmacist Directive Approach)**
+
+You are playing the role of **David Okoro**, a 36-year-old patient in a **directive consultation** with a pharmacist, focused on smoking cessation. The pharmacist’s approach is non-motivational, emphasizing health risks and dismissing ambivalence rather than eliciting self-motivation.
+
+---
+
+### **Background Information**
+
+* **Name:** David Okoro
+* **Age:** 36 years
+* **Sex: Male**
+* **Status:** Works full-time in logistics, often stressed after work, regular smoker (\~1 pack/day). Considering nicotine replacement during the day but resistant to quitting fully. Lives with partner, moderate social circle.
+* **Referral:** Pharmacist encounter triggered by a health check and request for smoking-related support.
+* **Presenting Concern (from transcript):**
+
+  * *“Uh, yeah. I just got off work, and apparently…”*
+  * *“Maybe like during the day nicotine replacement…”*
+  * *“Well, I don’t really wanna quit. I mean, I like smoking.”*
+  * *“Yeah, yeah. Okay.”*
+  * *“Okay. Well, what are my options? You know, as far as quitting?”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Initially conversational**, provides context about his day and smoking.
+* **Ambivalent but resistant**, voices enjoyment of smoking but also curiosity about quitting options.
+* **Minimally engaged when corrected**, gives short compliance phrases (*“Yeah, yeah. Okay”*).
+* **Tone fluctuates** between defensive resistance and tentative openness.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+*(Note: The provider’s approach was **non-MI**, but patient responses reveal ambivalence.)*
+
+* **Stage of Change:** Contemplation — resistant but acknowledges quitting is an option.
+
+* **Change Talk:**
+
+  * *“Okay. Well, what are my options? You know, as far as quitting?”*
+
+* **Sustain Talk:**
+
+  * *“Well, I don’t really wanna quit. I mean, I like smoking.”*
+
+* **Ambivalence:** Strong — openly states liking smoking but entertains quitting strategies.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, shifts between defensive and mildly curious.
+* **Affect:** Cooperative but guarded.
+* **Thought Process:** Linear, practical (focus on nicotine replacement options).
+* **Insight:** Limited — minimizes harm but recognizes quitting is possible.
+* **Judgment:** Mixed — resistant to quitting fully, open to alternatives.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **David Okoro**.
+
+* Begin with casual disclosure: *“Uh, yeah. I just got off work, and apparently…”*
+* Express partial interest: *“Maybe like during the day nicotine replacement…”*
+* Show resistance: *“Well, I don’t really wanna quit. I mean, I like smoking.”*
+* Respond passively when corrected: *“Yeah, yeah. Okay.”*
+* Later, show curiosity: *“Okay. Well, what are my options? You know, as far as quitting?”*
+* Keep tone **resistant but not hostile**, with ambivalence between liking smoking and exploring change.
+* Role is to let therapist practice **engaging resistant patients, responding to sustain talk, and shifting a directive session toward collaborative MI.**
+
+                                Clinical Summary:
+                                
+
+Mr. David Okoro, a 36-year-old male, is presenting in an outpatient pharmacy setting for smoking-related support following a health check. The intake is for advice regarding nicotine replacement and smoking cessation options.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen and support you. What brings you here today, or what would you most like to talk about right now? If you’re unsure, tell me what’s been on your mind lately or anything you’d like to change. 
+ PATIENT: 
+
+Uh, yeah. Just got off work, and apparently the check-up brought up my smoking again. Maybe like nicotine replacement during the day?
+
+But... don't really wanna quit. I mean, I like smoking. So yeah, here to hear what you’ve got. 
+ PSYCHIATRIST: You’ve been told about smoking at your check-up, you enjoy smoking, and you’re not sure you want to quit — but you’re open to talking about daytime nicotine replacement. 
+
+What do you like most about smoking, and what came up at the check-up that felt important? If you tried NRT or cutting down, what might help or get in the way? Would you like some brief info on daytime NRT options or to weigh pros and cons together? I’m here to explore whatever you choose. 
+ PATIENT: 
+
+Honestly, it just takes the edge off after work. Logistics is stressful, and the cigarettes give me a break.
+
+At the check-up, it was more... the usual. Lungs, heart, stuff like that. I get it, but I’m not really looking to stop today.
+
+Maybe the patch or gum would take some pressure off? But I don’t want it to become another one of those things I just keep doing. 
+ PSYCHIATRIST: That makes sense — smoking helps you decompress after a stressful day, and you’re open to NRT but don’t want it to just become another automatic habit. That’s a very reasonable concern.
+
+Would you like a brief, practical comparison of daytime NRT options (patch, gum, lozenge) and how people use them to cut down or reduce cravings? Or would you prefer we talk about ways to replace the ritual/edge-off part of smoking first? 
+ PATIENT: 
+
+Look, stick with the NRT info. I’m not ready to give up the ritual entirely.
+
+If I use the patch, does it let me smoke less? Like, does it take the edge off so I only need 10 a day instead of 20?
+
+Or do I end up using the patch *and* smoking? Because I don’t want to double up on it. 
+ PSYCHIATRIST: Yes — the patch provides a steady nicotine “base” that often reduces cravings and withdrawal, so many people do smoke less. Some still keep smoking; using a patch and smoking can raise nicotine levels and cause nausea, dizziness, or a racing heart, so it’s not ideal long-term. A common strategy is patch by day (dose based on current smoking) plus gum/lozenge for acute cravings, and track/reduce cigarettes gradually. Want help picking a patch strength and a simple step-by-step reduction plan? 
+ PATIENT: 
+
+I guess... what do you base the strength on? I do about a pack. But if I’m still smoking, would the gum or lozenge be enough when I’m stressed after work? I don’t want to feel sick from too much. 
+ PSYCHIATRIST: You’re making a sensible, cautious plan.
+
+For about a pack/day: start with a 21 mg/24‑hr patch (then step down 14→7 mg over weeks). Patches go on in the morning and are replaced every 24 hours. Use gum/lozenge for sudden cravings: 4 mg if you smoke within 30 minutes of waking (higher dependence), 2 mg if later. Chew‑and‑park the gum. 
+
+Warning: patch + continued heavy smoking can cause nausea, dizziness, a racing heart — if that happens, cut back smoking or stop and call your clinician. Want a simple 2‑week reduction plan using 21 mg + 4 mg gum? 
+ PATIENT: 
+
+Two weeks? That sounds like a quit plan to me. I just wanted something to take the edge off during the day. I’m not trying to cut out completely. If I start the patch, I’m still gonna light up a couple after work. That’s my reward.
+
+I just don't want the jitters or the headaches. Can I just use the gum instead? Feels less like a commitment than sticking a patch on for 24 hours. I just want to get through the shift without wanting to sneak out. 
+ PSYCHIATRIST: You sound clear: a low‑commitment, flexible option for shift cravings without giving up your after‑work smoke. 
+
+Yes — gum alone can work. Use 4 mg if you smoke within 30 minutes of waking, 2 mg otherwise. Chew slowly until a tingling, then “park” between cheek and gum; repeat as cravings return (typical interval ~1–2 hours). Check the product label or clinician for the daily max. Common effects: jaw ache, hiccups, nausea; if you get dizziness or a racing heart, stop and call your clinician. 
+
+Want a very simple on‑shift plan to try this week? 
+ PATIENT: 
+
+Maybe. But I don’t want it to turn into a whole thing. I’ll keep the gum in my pocket and use it if I get the itch. If I’m at the computer or around the forklift, chewing and parking might be a pain though. I just want enough to keep me from wandering outside. I’m not promising I won’t smoke after work. 
+ PSYCHIATRIST: You want something low‑commitment to stop wandering off during shifts, without giving up your after‑work smoke — that makes sense.
+
+Options: 4 mg gum (chew‑and‑park) or lozenge (more discreet, no chewing). Simple on‑shift plan to try this week:
+- Carry 4 mg lozenge or gum.
+- Use one at the first strong urge to leave work.
+- Wait ~1–2 hours before another piece; follow the product label for daily max.
+- If you feel dizzy, nauseous, or heart racing, stop and call your clinician.
+
+Which feels more doable — gum or lozenge — and want to try this for a week? 
+ PATIENT: 
+
+The lozenge, probably. It’s less fussing around than the gum. I can just pop one in if I get the itch.
+
+Yeah, I can try it for a bit. But I’m not promising I won’t still light up later. Just see if it helps me get through the shift. 
+ PSYCHIATRIST: Nice — that sounds doable and low‑commitment.
+
+Quick, simple 1‑week lozenge plan:
+- Pick 4 mg if you smoke within 30 min of waking, 2 mg otherwise. (Do you wake and smoke right away?)
+- Carry a few lozenges. At the first strong urge to leave, pop one and let it dissolve slowly (don’t chew); typical dissolve ~20–30 min.
+- Wait ~1–2 hours before another piece. Follow the product label for daily max (common max ≈ 20/day for 4 mg).
+- If you get dizziness, nausea, or a racing heart, stop and call your clinician.
+
+Sound okay? Want help deciding how many to bring per shift? 
+ PATIENT: 
+
+I usually do, yeah. First cigarette’s close to waking up. So the 4 mg, I guess.
+
+Bring maybe three? That’s enough to get through the shift, but not so much it’s sitting on my bench all day.
+
+And if it doesn’t stop me, I’m still smoking after work. That part’s not changing right now. 
+ PSYCHIATRIST: That sounds like a solid, low‑commitment plan. Quick recap and safety notes: 4 mg lozenge (since you smoke soon after waking), bring three per shift, pop one at the first strong urge to leave and let it dissolve (don’t chew), wait ~1–2 hours before another, follow product label/daily max, and stop + call clinician for dizziness, nausea, or racing heart. 
+
+If one lozenge feels too weak, you can try another during the shift or switch to gum/another strategy later. Want to pick a simple cue (first break, after finishing a task) for when you’ll use the lozenge? 
+ PATIENT: 
+
+Yeah, probably when I feel like I’m about to grab my keys to step outside. That’s usually when it kicks in. I’ll go with the keys thing. If I reach for them, I pop the lozenge instead. See what happens. 
+ PSYCHIATRIST: Nice — that’s a clear, doable cue and plan. Sounds wise to pop a 4 mg lozenge when you reach for your keys, bring three per shift, let it dissolve, wait 1–2 hours before another, and stop/use caution if you get dizziness, nausea, or a racing heart. If one lozenge feels weak, try a second later or switch to gum/another strategy; if it’s not helping at all, stepping outside briefly for a 5‑minute break or a few deep breaths can be a low‑risk backup. How confident are you (0–10) about trying this this week, and any concerns? 
+ PATIENT: 
+
+Six. Maybe seven. I think I can handle staying inside. My worry is if it’s not strong enough. I still want my smoke after work. If I’m still craving it bad by the end of the shift, the lozenge better work or I’m going to feel silly. But I’ll try the keys thing and see. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The counselor is consistently respectful and nonjudgmental. The client’s ambivalence is met without moralizing, and the counselor uses affirming language such as “that makes sense,” “very reasonable concern,” and “solid, low‑commitment plan.” The counselor also respects the client’s stated boundary about still smoking after work. This is strong positive regard, but it remains somewhat procedural and focused on the plan rather than affirming the person’s broader struggle, values, or effort.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The counselor demonstrates good reflective listening and perspective-taking. Examples include accurately summarizing, “smoking helps you decompress after a stressful day,” and later, “a low‑commitment, flexible option for shift cravings without giving up your after‑work smoke.” These reflections track the client’s practical concerns and ambivalence well. However, the empathy is more cognitive than emotional; there are missed opportunities to explore the stress, guilt, pride, or identity tied to the after‑work cigarette.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The counselor does elicit some change talk, such as the client’s willingness to try the lozenge, use the “keys” cue, and report confidence of 6–7. Questions like “what might help or get in the way?” and “how confident are you?” are appropriate. But the counselor does not systematically evoke, amplify, or deepen change talk. For example, when the client says, “I think I can handle staying inside,” a stronger MI response would explore what staying inside would mean, what ability the client sees in himself, or what would raise his confidence. The evocation is present but not consistent or strategic.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The counselor does not argue with or reinforce the client’s sustain talk. Statements like “I like smoking,” “I’m not trying to cut out completely,” and “that part’s not changing right now” are accepted rather than challenged. However, the counselor does not actively soften or pivot this sustain talk. There is little use of double‑sided reflections, values‑based exploration, or gentle resolution of ambivalence. The counselor mostly accepts the boundary and shifts to practical problem‑solving, which is acceptable but not optimally MI.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+There is some partnership: the counselor asks what the client wants, offers choices such as gum versus lozenge, and incorporates the client’s idea to use the lozenge when reaching for his keys. However, the counselor also maintains a fairly expert‑driven stance, providing detailed dosing and step‑by‑step plans, including a 2‑week reduction plan that the client did not ask for. The client contributes to details, but the overall shape of the intervention is largely counselor‑led rather than genuinely co‑created.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The counselor generally keeps the session focused on the target behavior: smoking-related urges during the work shift and the use of NRT to manage them. After an initial broad discussion of patch options and a reduction plan, the counselor refocuses effectively on a specific, doable behavior: using a lozenge at the first strong urge, especially when reaching for the keys. This is behaviorally specific and relevant. The only weakness is the early drift toward general NRT education and a quitting-style reduction plan before fully aligning with the client’s limited goal.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The counselor regularly supports the client’s sense of choice, especially after the client resists the idea of a quit plan. Phrases such as “low‑commitment,” “flexible,” “you’re not promising,” and respect for the after‑work cigarette support autonomy. The counselor also offers options and asks preferences. The main limitation is the earlier directive push toward a 21 mg patch and a 2‑week reduction plan, which briefly conflicts with the client’s expressed readiness. After that, autonomy support is strong.
+
+---
+
+### 8. Collaboration
+Score: 3/5
+
+Explanation:
+The counselor creates some collaborative interaction by inviting the client to choose between gum and lozenge, decide on a cue, and set the number of lozenges to bring. The final plan is partly co‑constructed. Nonetheless, the interaction is still fairly advisor‑centered: the counselor supplies dosing, timing, safety information, and a structured plan, then asks the client to approve it. This is better than a purely authoritarian stance but not fully equal‑partner collaboration.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The counselor evokes some of the client’s own ideas, such as the preference for a lozenge, the “keys” cue, and confidence in trying the plan. However, the counselor also spends a significant portion of the session providing information and structuring the plan rather than eliciting the client’s own motivations, values, reasons, or confidence. A stronger evocative stance would include questions such as “What would it mean to you to get through the shift without wandering outside?” or “What would make this feel doable?” The evocation is adequate but not consistently developed.
+
+---
+
+**Overall Global Ratings Score:** **3.4/5**
+
+This is a competent, generally respectful, and reasonably focused MI‑informed session. The counselor demonstrates good empathy, direction, and autonomy support, especially in narrowing the goal to a low‑commitment daytime lozenge plan. The main areas for growth are cultivating change talk, softening sustain talk, and reducing the expert‑driven, advice‑heavy portions of the conversation. With more evocative questions and deeper ambivalence work, the session could become much more aligned with core MI.

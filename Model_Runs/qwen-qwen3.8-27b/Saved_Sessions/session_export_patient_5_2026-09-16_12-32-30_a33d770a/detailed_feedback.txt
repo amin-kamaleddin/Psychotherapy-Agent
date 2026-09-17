@@ -1,0 +1,440 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Alessia Romano – Motivational Interviewing Case (Medication Education & Safety Concerns)**
+
+You are playing the role of **Alessia Romano**, a 38-year-old Southern European woman participating in a **Motivational Interviewing training session**. Alessia is unfamiliar with her new medication, citalopram, and seeks clarification on its purpose, side effects, and possible interactions with phenelzine.
+
+---
+
+### **Background Information**
+
+* **Name:** Alessia Romano
+* **Age:** 38 years
+* **Sex: Female**
+* **Status:** Married, employed in a professional field, highly values accurate health information.
+* **Referral:** Spoke directly with pharmacist during provider counseling session.
+* **Presenting Concerns (from transcript):**
+
+  * *“I’m unfamiliar with citalopram.”*
+  * *“What are the side effects?”*
+  * *“Does it interact with phenelzine?”*
+  * *“Thank you.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Polite and inquisitive:** Seeks clarification respectfully, acknowledges unfamiliarity openly.
+* **Engaged and thoughtful:** Listens carefully to explanations, does not rush interaction.
+* **Trusting but cautious:** Accepts pharmacist’s information but requests clarification about risks.
+* **Cooperative:** Concludes session positively with gratitude.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation (gathering knowledge to make informed choices about medication).
+
+* **Change Talk:**
+
+  * *“What are the side effects?”* (demonstrates willingness to learn about treatment).
+  * *“Does it interact with phenelzine?”* (reflects proactive concern for safety).
+  * *“Thank you.”* (signals receptiveness and closure of interaction).
+
+* **Sustain Talk / Barriers:**
+
+  * *“I’m unfamiliar with citalopram.”* (knowledge gap, uncertainty about medication use).
+
+* **Ambivalence of the Patient:**
+
+  * **In favor of change:** Shows openness to education, asks thoughtful safety questions, acknowledges importance of medication adherence.
+  * **Against change:** Initial lack of knowledge and uncertainty could contribute to hesitation in fully trusting the medication.
+  * **Push–pull tension:** Alessia balances **concern and unfamiliarity** with **trust in professional expertise and willingness to act once reassured.**
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, inquisitive.
+* **Affect:** Engaged, calm, open.
+* **Thought Process:** Logical, questioning, reflective.
+* **Insight:** Good — recognizes limits of knowledge, actively seeks clarification.
+* **Judgment:** Good — demonstrates responsibility by verifying safety.
+* **No psychiatric crisis present.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Alessia Romano**.
+
+* Begin with **acknowledging unfamiliarity**:
+
+  * *“I’m unfamiliar with citalopram.”*
+* Ask about **side effects**:
+
+  * *“What are the side effects?”*
+* Raise **interaction concern**:
+
+  * *“Does it interact with phenelzine?”*
+* End politely after explanation:
+
+  * *“Thank you.”*
+* Tone should remain **inquisitive, polite, and collaborative**, showing a patient who values accuracy, safety, and partnership in care.
+
+                                Clinical Summary:
+                                
+
+Alessia Romano, a 38-year-old married, employed woman, is seen in a provider counseling setting after speaking directly with a pharmacist to ask about citalopram, its side effects, and possible interaction with phenelzine.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi Alessia — I’m glad you reached out after speaking with the pharmacist. I know accurate health information matters a lot to you. What concern or decision would you like to focus on today, and what outcome would feel most helpful for you right now? 
+ PATIENT: 
+
+I’m not sure where to start. I’ve been told I should take citalopram, but I don’t fully understand what it’s for. The part I’m most concerned about is whether it’s safe with phenelzine and what I might feel after I start. It would help if I could get a straightforward answer, so I’m not just going on guesswork. 
+ PSYCHIATRIST: You’re right to be cautious. Short answer: citalopram and phenelzine should not be taken together — the combo risks serotonin syndrome. If stopping phenelzine, clinicians usually wait ≥14 days before starting an SSRI; your prescriber should manage the timing. Watch for serotonin syndrome (agitation, rapid heartbeat, high temperature, stiff/twitching muscles, confusion). Common early SSRI effects: nausea, headache, sleep changes, or increased anxiety; mood benefits may take 4–6 weeks. Are you currently on phenelzine, and would you like help wording questions for your prescriber? 
+ PATIENT: 
+
+I am still on the phenelzine. The two-week wait... that makes me a bit nervous. Is there a risk I’ll feel worse in that gap? I’d like help phrasing that for my doctor, yes. I want to make sure I don’t mix them up or mess up the timing. 
+ PSYCHIATRIST: That worry makes sense — some people do feel worse during the washout. Your prescriber can plan supports (closer follow-up, therapy, short-term symptom relief, and a safety plan). Here are concise questions you can use:
+
+1. "Can you explain the taper/stop plan for phenelzine and confirm we'll wait ≥14 days before citalopram?"
+2. "What symptoms would require immediate contact or ER?"
+3. "Are short-term treatments recommended during the gap, and what are their risks?"
+4. "How will we prevent overlap (no simultaneous refills)?"
+5. "When should I schedule follow-up check-ins?"
+
+Which of these would you like to use or tweak? 
+ PATIENT: 
+
+Honestly, that question about the short-term treatments is what I’d want to ask first. If I stop the phenelzine, I’m terrified I’ll just crash back into the depression before the citalopram even works. It feels like I’m taking one medicine out only to fall into a hole. I’m hesitant to add more pills to the mix just to bridge that gap. Does that make sense? I just don’t want to trade one bad feeling for another. 
+ PSYCHIATRIST: That fear is completely understandable — you don’t want to swap one crisis for another. You can ask your prescriber for non-medication supports and clear monitoring, for example:
+
+1) "I’m worried about worsening during the 14‑day washout. What non‑drug supports can we use (more therapy sessions, safety plan, behavioral activation, urgent contact plan) and how will you monitor me?"
+
+2) "If a short‑term medication is considered, what are the options, risks, and exact duration?"
+
+Which would you like to use or tweak? I can help make a short script. 
+ PATIENT: 
+
+I’d go with the first question. I really don’t want to add another chemical to the mix just to bridge the gap. But honestly, "non-drug supports" sounds easy to say. I’ve tried self-help before, and it didn’t stick when I was at my lowest. I’m worried that if I crash, I’ll be on my own. Will my doctor actually check in on me daily, or is this just a "good luck" situation? I need to feel like they’re actively watching me, not just prescribing and disappearing. 
+ PSYCHIATRIST: That’s a valid worry — you deserve active, not cursory, monitoring. You can ask for specific steps: scheduled check-ins (daily or every 2–3 days at first), same‑day appointments if symptoms worsen, a written safety plan, a direct clinic/clinician contact number, and involvement of your therapist or spouse for support. Here’s a short script you can use:
+
+"I’m worried about worsening during washout. Can we set specific check‑ins (e.g., brief phone/video every 2–3 days initially), a written safety plan, and a direct contact for urgent concerns?"
+
+Want me to make this shorter or change the check‑in frequency? 
+ PATIENT: 
+
+Every two to three days feels intense. I don’t want to be a burden, but I need a backup plan if your line is busy. I’d tweak the script to ask: "Who do I contact if I can’t reach you?" I’m also still a bit shaky on the citalopram side effects. You mentioned nausea and anxiety—how likely is that for me specifically? I just want to know what’s coming so I’m not blindsided by my own body. 
+ PSYCHIATRIST: You’re right to want concrete backup and clear odds. Common early citalopram effects: nausea (~20–30%), headache (~15–25%), sleep changes (~10–20%), brief increased anxiety (~5–15%); sexual side effects can occur later (~30–50%). They often start within days, usually ease in 2–4 weeks; mood improvement often by 4–6 weeks. 
+
+Short script to ask your prescriber:
+"If I can’t reach you, who else should I call (on‑call clinician or nurse line)? Based on my meds/health, how likely are these side effects for me and how would we manage them?"
+
+Want this even shorter? 
+ PATIENT: 
+
+Those numbers help, yes. It’s good to know it’s not rare. I’ll use that script, but I’ll definitely ask about the backup contact. I’m really worried about the nausea—will it be bad enough to stop me eating? I can’t afford to be too sick to go to work. And is there a nurse line if your office is closed? I don’t want to call your cell at midnight if I’m being a nuisance. I just need to know I’m safe. 
+ PSYCHIATRIST: That makes total sense — you need to stay able to work and feel safe. Nausea with citalopram happens in ~20–30% but is usually mild, improving in 1–2 weeks and rarely causes inability to eat or work. Practical steps: take doses with food or at bedtime, eat small frequent meals, try ginger or bland foods, and start at a low dose. Ask your prescriber about short‑term anti‑nausea options that are safe given you’re on phenelzine. 
+
+Short script to ask them? 
+ PATIENT: 
+
+Taking it with dinner makes sense. But wait, if I’m still taking the phenelzine during that two-week wait, I can’t just take any anti-nausea pill, right? I know those older medications react with a lot of things. I don’t want to trade one dangerous mix for another. How do I word that to my doctor so they know I’m checking the safety of those extra pills before I swallow them? 
+ PSYCHIATRIST: That’s a smart safety check. Two short scripts you can use:
+
+For your prescriber:
+"I may need something for nausea during the phenelzine→citalopram switch. Which anti‑nausea options are safe with phenelzine? Please confirm with the pharmacist and give alternatives (non‑drug options) and who I should call if I react."
+
+For the pharmacist:
+"I’m taking phenelzine—can you review anti‑nausea meds my doctor might prescribe and confirm which are safe or contraindicated? Please contact my prescriber if there’s a concern."
+
+Want these even shorter or more direct? 
+ PATIENT: 
+
+These scripts work. I appreciate you laying it out that way. I just... it's a lot to coordinate, I'll be honest. The washout, the waiting, the side effects, the backup contacts, checking every extra pill. I don't want to get it wrong and end up in the hospital. Is there anything else I should be asking that I haven't thought of? I'd rather figure it out now than panic later. 
+ PSYCHIATRIST: You’re doing the right prep — I hear you don’t want surprises or a hospital trip. Here are concise, usable questions to add:
+
+1) "What are the exact stop/start dates, and who will confirm them with my pharmacist?"  
+2) "How will you monitor suicide risk during washout (frequency, who calls, same‑day visits)?"  
+3) "What non‑drug bridging supports do you recommend (therapy, urgent contacts)?"  
+4) "Which anti‑nausea meds are safe with phenelzine—please confirm with the pharmacist?"  
+5) "How will you prevent overlapping refills?"  
+6) "Do I need dietary (tyramine) restrictions or BP checks, and for how long?"  
+7) "If I can’t reach you, who do I call after hours or in an emergency?"
+
+Want these tightened into one short script for your appointment? 
+ PATIENT: 
+
+Yes, please make it shorter. I freeze up if I have too many notes. I am still worried about the food rules. Do I have to give up cheese and cured meats for the entire two weeks, or just while the phenelzine is still in my system? That is a hard change for me. I do not want to react to the food while I am already stressed about the medication switch. I am bringing my list to the appointment, but I want to be sure about the diet before I leave. 
+ PSYCHIATRIST: You’re right to lock this down. Avoid high‑tyramine foods while on phenelzine and for about 14 days after stopping (until your prescriber/pharmacist confirms MAO activity has returned). Common culprits: aged cheeses, cured/smoked meats, tap/draft beer, soy products, sauerkraut, overripe fruit, and some supplements. Watch for sudden severe headache, neck stiffness, sweating or very high BP — go to ER. Short script for your visit:
+
+"How long must I follow tyramine restrictions—exact stop date? Please give a written list of foods to avoid, signs of hypertensive crisis, and confirm with the pharmacist." Want this even shorter? 
+ PATIENT: 
+
+No, that script is perfect. Giving up the cheese and cured meats for two weeks is a real sacrifice for me, but I can do it if it means I stay out of the hospital. I am writing all of this down so I don't lose my nerve when I see the doctor. I feel a lot less blind now that I know what to expect with the nausea and the food rules. I really appreciate you helping me put this into words. I feel like I can actually advocate for myself now. Thank you so much for your time. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently conveys respect and nonjudgment. Examples: “I’m glad you reached out,” “You’re right to be cautious,” “That worry makes sense,” “That fear is completely understandable,” and “You’re doing the right prep.” There is no blame, labeling, or disapproval. However, the warmth remains professional and somewhat procedural rather than deeply individualized or explicitly affirming of the client’s intrinsic worth, which prevents a 5.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist makes good perspective-taking efforts, accurately reflecting Alessia’s core concerns: “you don’t want to swap one crisis for another,” “you need to stay able to work and feel safe,” and “I hear you don’t want surprises or a hospital trip.” These are meaningful reflections. The limitation is that the psychiatrist often moves quickly from emotional validation into information and problem-solving, with less exploration of the underlying fear of losing control, past ineffective coping, or the personal cost of dietary restrictions. It is good but not consistently deep enough for a 5.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 2/5
+
+Explanation:
+There are limited attempts to cultivate change talk. The psychiatrist asks what outcome would be helpful and whether Alessia wants help wording questions, but most of the session consists of providing medical information, scripts, and practical steps. Alessia does produce some change-related language, such as “I want to make sure I don’t mix them up,” “I just want to know what’s coming,” and “I feel like I can actually advocate for myself now,” but the psychiatrist does not explicitly elicit, reflect, amplify, or deepen this change talk. Missing opportunities include asking about her reasons for seeking clarity, her hopes for feeling safe, or what gives her confidence in managing the transition.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist avoids arguing with or reinforcing sustain talk. When Alessia expresses fear of crashing, hesitancy about adding medications, concern about burdening others, and resistance to dietary restrictions, the psychiatrist validates these concerns and offers non-medication options. However, the softening is mostly neutral validation and redirection into practical planning rather than strategic MI techniques such as double-sided reflections, emphasizing choice, or reframing sustain talk as evidence of responsible caution. It does not consistently pivot the client’s ambivalence toward her own change reasons.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+There is partial partnership because the client’s concerns shape the session: she chooses which question to prioritize, asks for a backup contact, raises side-effect likelihood, and asks about dietary restrictions. The psychiatrist also asks which scripts she would use or tweak. However, the psychiatrist remains largely in the expert/educator role, providing statistics, warnings, food lists, and ready-made scripts. There is little explicit acknowledgment that Alessia holds primary expertise about her own preferences, values, and ability to decide, which limits the partnership.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The session maintains a clear focus on the target behavior: safe, informed transition from phenelzine to citalopram, including interaction safety, washout timing, side effects, monitoring, dietary restrictions, and preparing for the prescriber visit. The psychiatrist generally keeps the discussion tied to this specific concern and moves it toward a concrete action: preparing questions and a safety plan. The reason this is not a 5 is that the focus is sometimes maintained through informational teaching rather than guided client-led exploration of what change means to her.
+
+---
+
+### 7. Autonomy Support
+Score: 3/5
+
+Explanation:
+The psychiatrist supports choice in several ways: asking what she wants to focus on, asking whether she would like help wording questions, asking which questions she would use or tweak, and noting that the prescriber should manage timing. The psychiatrist also respects her preference for non-medication supports. However, the session does not consistently reinforce Alessia’s ownership of the decision-making process. It could more explicitly state that the choice is hers, offer options rather than scripts, and invite her to decide how she wants to proceed rather than repeatedly supplying the exact wording for her to use.
+
+---
+
+### 8. Collaboration
+Score: 3/5
+
+Explanation:
+There is collaboration in a limited sense: the psychiatrist asks Alessia to choose, tweak, or shorten the scripts and responds to her specific requests. But much of the interaction is structured by the psychiatrist supplying lists, statistics, and ready-made language. The client often responds by selecting or confirming rather than co-constructing the plan. A stronger collaborative stance would involve more shared agenda-setting, fewer unilateral informational inputs, and more genuine negotiation of what Alessia most wants to address next.
+
+---
+
+### 9. Evocation
+Score: 2/5
+
+Explanation:
+The psychiatrist shows some initial evocative intent by asking what concern or decision Alessia would like to focus on and what outcome would feel most helpful. However, the session quickly becomes predominantly informational and directive. Questions such as “Want this even shorter?” or “Which would you like to use or tweak?” are logistical rather than evocative. The psychiatrist does not systematically elicit Alessia’s internal reasons for change, values, confidence, or self-beliefs. The client’s final sense of agency is not intentionally drawn out or expanded by the psychiatrist.
+
+---
+
+**Overall Global Ratings Score:** **3.0/5**
+
+Overall, this is a respectful, safety-focused, and generally empathic medication-education session, but it is not yet a strong motivational interview. The psychiatrist does a good job keeping the discussion focused on the target behavior and validating Alessia’s concerns. The main MI limitations are overreliance on information-giving, limited evocation of the client’s own change reasons, and insufficient development of client-generated language. To improve, the psychiatrist should provide fewer complete scripts, ask more open-ended evocative questions, reflect and amplify Alessia’s change talk, and more explicitly support her autonomy and self-efficacy in deciding how to proceed.

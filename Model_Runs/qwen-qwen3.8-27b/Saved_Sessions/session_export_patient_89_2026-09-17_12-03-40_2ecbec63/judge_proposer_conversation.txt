@@ -1,0 +1,535 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Hi Marcus, thanks for coming in. I know how packed your life must be — work, family, it all adds up. I also know that when health conversations come up after years of trying and frustration, it can feel pretty heavy. There's no pressure here. I'd love to just hear from you — what's been on your mind lately?
+
+
+Response 2:
+Welcome, Marcus. I appreciate you taking this time, especially with how full your schedule already is. Your doctor mentioned some concerns, but I want this to be about what matters to *you*. I'd be curious — when you think about your health right now, what comes to mind first? What would make this conversation feel worthwhile to you?
+
+
+Response 3:
+Hi Marcus, good to meet you. I know that being told to "get more active" can feel pretty dismissive when you're juggling a demanding job and two kids — especially when you've already tried so many times before. I'm not here to hand you another plan to fail at. What would it look like for you to feel a bit more in control of your health, even in small ways?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Hi Marcus, thanks for coming in. I know how packed your life must be — work, family, it all adds up. I also know that when health conversations come up after years of trying and frustration, it can feel pretty heavy. There's no pressure here. I'd love to just hear from you — what's been on your mind lately?
+
+CANDIDATE RESPONSE 2:
+Welcome, Marcus. I appreciate you taking this time, especially with how full your schedule already is. Your doctor mentioned some concerns, but I want this to be about what matters to *you*. I'd be curious — when you think about your health right now, what comes to mind first? What would make this conversation feel worthwhile to you?
+
+CANDIDATE RESPONSE 3:
+Hi Marcus, good to meet you. I know that being told to "get more active" can feel pretty dismissive when you're juggling a demanding job and two kids — especially when you've already tried so many times before. I'm not here to hand you another plan to fail at. What would it look like for you to feel a bit more in control of your health, even in small ways?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1. Candidate 3 best reflects the specific emotional experience Marcus likely has—feeling dismissed and frustrated by repeated failed attempts—while the statement "I'm not here to hand you another plan to fail at" powerfully communicates acceptance and autonomy support before inviting his own expertise with the question.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+Hi Marcus, thanks for coming in. I know how packed your life must be — work, family, it all adds up. I also know that when health conversations come up after years of trying and frustration, it can feel pretty heavy. There's no pressure here. I'd love to just hear from you — what's been on your mind lately?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That sounds really exhausting — trying and trying and just ending up right back where you started. And on top of everything else in your life, having your own body feel like it's not cooperating? That's a lot to carry. I can hear how discouraging that must be, especially after all the effort you've already put in.
+
+
+Response 2:
+It sounds like you see that this matters to you — it's been on your mind — but at the same time, you're tired of the cycle of trying and not seeing it stick. That's a really honest place to be. I'm curious, when you say you don't know what to do — what do you think has made past attempts fall apart? Or is there something different you've been thinking about lately?
+
+
+Response 3:
+You know, even with all that frustration, I hear something in what you just said — this is still on your mind, and you showed up here today. That tells me something about how much you care about yourself and your family. I want to honor that. No need to have it all figured out. We can just start by understanding what's been in the way.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That sounds really exhausting — trying and trying and just ending up right back where you started. And on top of everything else in your life, having your own body feel like it's not cooperating? That's a lot to carry. I can hear how discouraging that must be, especially after all the effort you've already put in.
+
+CANDIDATE RESPONSE 2:
+It sounds like you see that this matters to you — it's been on your mind — but at the same time, you're tired of the cycle of trying and not seeing it stick. That's a really honest place to be. I'm curious, when you say you don't know what to do — what do you think has made past attempts fall apart? Or is there something different you've been thinking about lately?
+
+CANDIDATE RESPONSE 3:
+You know, even with all that frustration, I hear something in what you just said — this is still on your mind, and you showed up here today. That tells me something about how much you care about yourself and your family. I want to honor that. No need to have it all figured out. We can just start by understanding what's been in the way.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+, acknowledges effort
+- Shows strong acceptance and empathy
+- Doesn't move the conversation forward or invite his expertise
+- Purely reflective - no forward momentum
+- The "body not cooperating" phrase is slightly off - could inadvertently reinforce an adversarial relationship with his body
+
+**Candidate 2:**
+- "It sounds like you see that this matters to you" - reflects change talk (it's on his mind)
+- "but at the same time, you're tired of the cycle of trying and not seeing it stick" - reflects sustain talk/frustration
+- "That's a really honest place to be" - acceptance, validates where he is
+- "I'm curious, when you say you don't know what to do — what do you think has made past attempts fall apart?" - invites HIS expertise, asks what HE thinks
+- "Or is there something different you've been thinking about lately?" - opens up new possibilities without prescribing
+
+This response:
+- Reflects BOTH sides (matters to you + tired of the cycle) ✓
+- Shows acceptance ✓
+- Invites collaboration and his expertise ✓
+- Moves forward toward the health goal ✓
+- Uses his own words ("don't know what to do," "tried so many things")
+- The question is strategic - it doesn't ask "what are you going to do?" (pushy) but rather explores the pattern, which could be empowering
+- Warm but not pushy ✓
+
+**Candidate 3:**
+- "I hear something in what you just said — this is still on your mind" - reflects change talk
+- "you showed up here today. That tells me something about how much you care about yourself and your family" - this is a bit of an interpretation/assumption. He didn't say he came for his family. This could feel like the therapist is adding meaning he didn't express. Also, "you care about yourself" could feel a bit presumptive.
+- "I want to honor that" - warm
+- "No need to have it all figured out" - acceptance ✓
+- "We can just start by understanding what's been in the way" - this is somewhat directive ("we can just start by...") - it's telling him what they'll do rather than asking what he thinks
+- Doesn't really explore the frustration or the exhaustion he expressed
+- The "family" addition feels like it's importing the background info rather than reflecting what he actually said
+
+**Priority order evaluation:**
+
+1. Does it deeply understand and reflect the feeling underneath (using their words)?
+- Candidate 1: Strong - "exhausting," "trying and trying," "discouraging"
+- Candidate 2: Good - "tired of the cycle," uses his phrase "don't know what to do"
+- Candidate 3: Weaker - misses the frustration/exhaustion, jumps to "you care about yourself and family"
+
+2. Does it show complete acceptance?
+- All three do this reasonably well
+
+3. Does it invite THEIR ideas and expertise?
+- Candidate 1: No - purely reflective
+- Candidate 2: Yes - "what do you think has made past attempts fall apart?"
+- Candidate 3: Somewhat - "we can just start by..." is more directive
+
+4. When they're torn: does it reflect BOTH sides equally?
+- Candidate 1: Only reflects the frustration side
+- Candidate 2: Yes - "it matters to you" + "tired of the cycle" - both sides
+- Candidate 3: Only reflects the change side ("you care about yourself")
+
+5. Does it connect to health goal and move forward?
+- Candidate 1: No - stays in reflection
+- Candidate 2: Yes - asks a strategic question that moves toward understanding and potential change
+- Candidate 3: Somewhat - "understanding what's been in the way" but more directive
+
+6. Is it warm but not pushy?
+- All three are warm
+- Candidate 2 is warm and invites without pushing
+
+**Overall:**
+- Candidate 1 is the most empathic but doesn't move forward at all. It's a good reflection but stops there.
+- Candidate 3 has some issues: adds "family" (not in his words), is slightly directive ("we can just start by"), and misses the frustration.
+- Candidate 2 hits the most criteria: reflects both sides of ambivalence, shows acceptance, invites his expertise with a strategic question, moves forward, uses his words, and is warm without being pushy.
+
+The best response is **Candidate 2**.
+
+
+**2**
+
+Candidate 2 best reflects both sides of Marcus's ambivalence (it matters to him + he's tired of the cycle), shows complete acceptance ("that's a really honest place to be"), and then strategically invites his own expertise with "what do you think has made past attempts fall apart?" — moving the conversation forward toward the health goal while respecting his autonomy and pace.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+It sounds like you see that this matters to you — it's been on your mind — but at the same time, you're tired of the cycle of trying and not seeing it stick. That's a really honest place to be. I'm curious, when you say you don't know what to do — what do you think has made past attempts fall apart? Or is there something different you've been thinking about lately?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That pattern of getting going, life pulling you in a hundred directions, and then just... back to square one — that must be exhausting. And the discouragement makes total sense. You've done the work, you've tried, and it just didn't hold. That's really frustrating, and I want you to know I don't think you've earned to feel like a failure because of it.
+
+
+Response 2:
+I hear you — it's not that you *can't* do it, it's that there's no room in the day for an hour. And that all-or-nothing cycle is brutal. I'm curious, though — during those two or three weeks where you *were* doing something, even if it didn't last — was there any part of it that actually felt good? Or anything you'd want to keep, even if it looked a little different?
+
+
+Response 3:
+Here's what I notice — you're here today, you're talking about this openly, and you said it's been on your mind. That's not nothing. And you've reached two or three weeks of movement before, which means your body knows how to do this. I'm wondering, if we took the pressure off "an hour at the gym" and thought about what might actually fit into your real day — what would that look like to you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That pattern of getting going, life pulling you in a hundred directions, and then just... back to square one — that must be exhausting. And the discouragement makes total sense. You've done the work, you've tried, and it just didn't hold. That's really frustrating, and I want you to know I don't think you've earned to feel like a failure because of it.
+
+CANDIDATE RESPONSE 2:
+I hear you — it's not that you *can't* do it, it's that there's no room in the day for an hour. And that all-or-nothing cycle is brutal. I'm curious, though — during those two or three weeks where you *were* doing something, even if it didn't last — was there any part of it that actually felt good? Or anything you'd want to keep, even if it looked a little different?
+
+CANDIDATE RESPONSE 3:
+Here's what I notice — you're here today, you're talking about this openly, and you said it's been on your mind. That's not nothing. And you've reached two or three weeks of movement before, which means your body knows how to do this. I'm wondering, if we took the pressure off "an hour at the gym" and thought about what might actually fit into your real day — what would that look like to you?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2
+
+Candidate 2 best captures the core issue (it's about time constraints, not inability), normalizes the all-or-nothing pattern without being preachy, and strategically evokes by asking him to reflect on what felt good during those successful stretches — honoring his expertise while gently opening a door toward sustainable change.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I hear you — it's not that you *can't* do it, it's that there's no room in the day for an hour. And that all-or-nothing cycle is brutal. I'm curious, though — during those two or three weeks where you *were* doing something, even if it didn't last — was there any part of it that actually felt good? Or anything you'd want to keep, even if it looked a little different?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+There's something that lit up when you said "it was just fun." That contrast is real — the gym can feel like a chore, but dancing in your twenties wasn't a task, it was *you*. And walking with your wife before the kids were little — that was life, not a regimen. I don't want to dismiss that just because it's been fifteen years. Those aren't just memories to you, right?
+
+
+Response 2:
+So you're naming two things that already feel natural to you — dancing, and walking with your wife. And you're even asking the right question: what would this look like that fits your actual life, not some ideal version of it? I'm curious — when you picture either of those two, what's the first thing that comes to mind? What would a realistic version look like for you right now, with work and the kids?
+
+
+Response 3:
+I want to pause on that "maybe" — you just went from "I don't even know what to do" to naming two things that genuinely sparked something. That's not nothing. You're not starting from zero, Marcus. You're starting from a guy who loved to dance and used to walk with his wife in the park. That's a pretty solid foundation to build from, even if it looks different than what you've tried before.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+There's something that lit up when you said "it was just fun." That contrast is real — the gym can feel like a chore, but dancing in your twenties wasn't a task, it was *you*. And walking with your wife before the kids were little — that was life, not a regimen. I don't want to dismiss that just because it's been fifteen years. Those aren't just memories to you, right?
+
+CANDIDATE RESPONSE 2:
+So you're naming two things that already feel natural to you — dancing, and walking with your wife. And you're even asking the right question: what would this look like that fits your actual life, not some ideal version of it? I'm curious — when you picture either of those two, what's the first thing that comes to mind? What would a realistic version look like for you right now, with work and the kids?
+
+CANDIDATE RESPONSE 3:
+I want to pause on that "maybe" — you just went from "I don't even know what to do" to naming two things that genuinely sparked something. That's not nothing. You're not starting from zero, Marcus. You're starting from a guy who loved to dance and used to walk with his wife in the park. That's a pretty solid foundation to build from, even if it looks different than what you've tried before.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2
+
+Candidate 2 best balances empathy with collaboration and direction—it reflects both activities, acknowledges his real-life constraints, and then invites his expertise with open questions ("what's the first thing that comes to mind? What would a realistic version look like for you?") that move the conversation forward while fully respecting his autonomy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+So you're naming two things that already feel natural to you — dancing, and walking with your wife. And you're even asking the right question: what would this look like that fits your actual life, not some ideal version of it? I'm curious — when you picture either of those two, what's the first thing that comes to mind? What would a realistic version look like for you right now, with work and the kids?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"That's not nothing" — I want you to really hear yourself say that. Because it's true. Fifteen minutes after work, before the kids get home — that's something that actually fits. And there's something special about your wife saying she'd go, your kids wanting to be part of it. You're not building this alone. What feels more doable to start with — the walk, or looking into a class?
+
+
+Response 2:
+You've actually already done the hard part — you found things that feel natural to you, not forced. The walk, the dancing, your family being part of it. Now you've got the practical question: where to look. I don't know if you'd want to explore that yourself, or if you'd like me to point you toward a few options. What feels less overwhelming to you?
+
+
+Response 3:
+I'm smiling because you went from "I don't even know what to do at this point" to "my kids even said they'd come" in like two minutes. That's not a small thing. You've got something already connected to who you are — the dancing, the walking, your family. And you're not waiting for a perfect system. You're just finding a way in. How does it feel to see it that way?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"That's not nothing" — I want you to really hear yourself say that. Because it's true. Fifteen minutes after work, before the kids get home — that's something that actually fits. And there's something special about your wife saying she'd go, your kids wanting to be part of it. You're not building this alone. What feels more doable to start with — the walk, or looking into a class?
+
+CANDIDATE RESPONSE 2:
+You've actually already done the hard part — you found things that feel natural to you, not forced. The walk, the dancing, your family being part of it. Now you've got the practical question: where to look. I don't know if you'd want to explore that yourself, or if you'd like me to point you toward a few options. What feels less overwhelming to you?
+
+CANDIDATE RESPONSE 3:
+I'm smiling because you went from "I don't even know what to do at this point" to "my kids even said they'd come" in like two minutes. That's not a small thing. You've got something already connected to who you are — the dancing, the walking, your family. And you're not waiting for a perfect system. You're just finding a way in. How does it feel to see it that way?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3
+
+Candidate 3 captures the deepest emotional arc — reflecting his shift from helplessness to his family showing up, connecting it to his identity ("connected to who you are"), and reframing his core all-or-nothing pattern with "You're not waiting for a perfect system. You're just finding a way in" — which directly softens the discouragement and past-failure sustain talk without being preachy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+I'm smiling because you went from "I don't even know what to do at this point" to "my kids even said they'd come" in like two minutes. That's not a small thing. You've got something already connected to who you are — the dancing, the walking, your family. And you're not waiting for a perfect system. You're just finding a way in. How does it feel to see it that way?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You just said something that I think is really important — you've been "looking at the gym I never go to" for a long time, and that's exhausting. But right now you're looking at what's actually in front of you: a walk you can do today, a dance thing your family is *already* into. That's a really different starting point than the last ones, and I think you know that.
+
+
+Response 2:
+I love that you said "maybe I can take a short walk after this appointment." That's not a goal for next month — that's you, right now, choosing something. I'm curious though — when you start looking for that casual dance class, what would make it feel like a "yes"? Like, what's the vibe or the setup that would make you show up and stay?
+
+
+Response 3:
+Listen, Marcus — you just went from "I don't even know what to do" to planning a walk and a family dance night in one conversation. And here's what's different this time: this isn't you fighting against your life. It's dancing, it's walking, it's your wife, it's your kids. It's *yours*. I'm genuinely excited for you. And that walk after this appointment — I hope you take it.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You just said something that I think is really important — you've been "looking at the gym I never go to" for a long time, and that's exhausting. But right now you're looking at what's actually in front of you: a walk you can do today, a dance thing your family is *already* into. That's a really different starting point than the last ones, and I think you know that.
+
+CANDIDATE RESPONSE 2:
+I love that you said "maybe I can take a short walk after this appointment." That's not a goal for next month — that's you, right now, choosing something. I'm curious though — when you start looking for that casual dance class, what would make it feel like a "yes"? Like, what's the vibe or the setup that would make you show up and stay?
+
+CANDIDATE RESPONSE 3:
+Listen, Marcus — you just went from "I don't even know what to do" to planning a walk and a family dance night in one conversation. And here's what's different this time: this isn't you fighting against your life. It's dancing, it's walking, it's your wife, it's your kids. It's *yours*. I'm genuinely excited for you. And that walk after this appointment — I hope you take it.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 best embodies MI by affirming the specific change talk (the immediate walk) while then inviting Marcus's own expertise with a strategic evocation question about what would make a casual class feel like a "yes" — it moves the conversation forward toward action, respects his autonomy, and avoids being prescriptive or overly enthusiastic.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I love that you said "maybe I can take a short walk after this appointment." That's not a goal for next month — that's you, right now, choosing something. I'm curious though — when you start looking for that casual dance class, what would make it feel like a "yes"? Like, what's the vibe or the setup that would make you show up and stay?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+No counting, no being judged — just moving and having fun. That sounds a lot like who you were when you danced in your twenties, except now it's with the people you love. And you've even figured out the timing — after dinner, when the kids are settled. You're not trying to fit into some program. You're just making room for what already feels like you.
+
+
+Response 2:
+You've got a really clear picture now — casual, social, later in the evening, with your family. And you also mentioned that short walk after work. I'm wondering — of those two things, which one feels like the easier one to try first? Or would you want to tackle them at the same time?
+
+
+Response 3:
+You came in here saying "I don't even know what to do at this point," and now you've got a short walk after work AND a family dance thing you're actually looking forward to. That's not a small shift. And the best part is — neither of those things is something you're forcing yourself to do. They're things that already fit your life. What do you think the next step is from here?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+No counting, no being judged — just moving and having fun. That sounds a lot like who you were when you danced in your twenties, except now it's with the people you love. And you've even figured out the timing — after dinner, when the kids are settled. You're not trying to fit into some program. You're just making room for what already feels like you.
+
+CANDIDATE RESPONSE 2:
+You've got a really clear picture now — casual, social, later in the evening, with your family. And you also mentioned that short walk after work. I'm wondering — of those two things, which one feels like the easier one to try first? Or would you want to tackle them at the same time?
+
+CANDIDATE RESPONSE 3:
+You came in here saying "I don't even know what to do at this point," and now you've got a short walk after work AND a family dance thing you're actually looking forward to. That's not a small shift. And the best part is — neither of those things is something you're forcing yourself to do. They're things that already fit your life. What do you think the next step is from here?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It reflects his clear picture, acknowledges both options he identified, and invites his choice with a specific, non-pushy question ("which feels easier to try first? or both?") that moves the conversation forward while fully respecting his autonomy and pacing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You've got a really clear picture now — casual, social, later in the evening, with your family. And you also mentioned that short walk after work. I'm wondering — of those two things, which one feels like the easier one to try first? Or would you want to tackle them at the same time?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It makes a lot of sense to me. You started with the thing that has the fewest barriers — no scheduling, no finding a group, just shoes on and out the door. And you're not overcommitting. Twenty minutes, around the block. That's not a program, that's just... a choice you make when your workday ends. You figured out the sequence that fits your actual life.
+
+
+Response 2:
+That sounds really doable. I'm curious about one thing, though — you mentioned that when work gets crazy, that's usually where the cycle breaks. If there's a Tuesday this week where you're buried and you walk in the door exhausted — what would you say to yourself about that twenty-minute walk? Is there a version of it that still works even on your worst days, or does it have to be a perfect day?
+
+
+Response 3:
+I want to pause for a second because I think you should hear what just happened here. You walked in saying "I don't even know what to do at this point," and now you've got a walk you're starting today and a dance class you're going to look for next month — something you'll actually *want* to go to, with your family. That's not a small jump. And you didn't need me to give you a plan. You just needed to hear yourself say what already mattered to you.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It makes a lot of sense to me. You started with the thing that has the fewest barriers — no scheduling, no finding a group, just shoes on and out the door. And you're not overcommitting. Twenty minutes, around the block. That's not a program, that's just... a choice you make when your workday ends. You figured out the sequence that fits your actual life.
+
+CANDIDATE RESPONSE 2:
+That sounds really doable. I'm curious about one thing, though — you mentioned that when work gets crazy, that's usually where the cycle breaks. If there's a Tuesday this week where you're buried and you walk in the door exhausted — what would you say to yourself about that twenty-minute walk? Is there a version of it that still works even on your worst days, or does it have to be a perfect day?
+
+CANDIDATE RESPONSE 3:
+I want to pause for a second because I think you should hear what just happened here. You walked in saying "I don't even know what to do at this point," and now you've got a walk you're starting today and a dance class you're going to look for next month — something you'll actually *want* to go to, with your family. That's not a small jump. And you didn't need me to give you a plan. You just needed to hear yourself say what already mattered to you.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 is the best because it takes Marcus's own identified barrier ("life just happens") and uses a strategic, autonomy-supportive question to invite *him* to build his own problem-solving for that exact moment — moving the conversation forward from "what I'll do" to "how I'll sustain it" without prescribing, while maintaining warmth and partnership.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That sounds really doable. I'm curious about one thing, though — you mentioned that when work gets crazy, that's usually where the cycle breaks. If there's a Tuesday this week where you're buried and you walk in the door exhausted — what would you say to yourself about that twenty-minute walk? Is there a version of it that still works even on your worst days, or does it have to be a perfect day?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"Maybe I can let myself do less and still count it." That line just landed for me. You've been carrying this "all or nothing" weight for a long time, and you just set it down in one sentence. Ten minutes around the block still counts. Sitting on a bench still counts. That's not a compromise — that's the thing that actually fits your life.
+
+
+Response 2:
+You just named the exact pattern that's been breaking the cycle — "if I didn't do the whole thing, I might as well not do anything." And you offered a different rule. I'm curious: when you're on one of those buried Tuesdays and you're about to skip it, what would you want to hear from yourself in that moment? Is there a short phrase or reminder that might help you put the shoes on?
+
+
+Response 3:
+Marcus, you just said something that a lot of people work with a therapist for years to get to. You went from "I don't even know what to do" to a plan that's yours — a walk, a dance class, your family, and permission to do less without it being failure. That's not a small thing. You built that in about twenty minutes, and it fits the life you actually have. How does it feel to walk out of here with something that feels doable?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"Maybe I can let myself do less and still count it." That line just landed for me. You've been carrying this "all or nothing" weight for a long time, and you just set it down in one sentence. Ten minutes around the block still counts. Sitting on a bench still counts. That's not a compromise — that's the thing that actually fits your life.
+
+CANDIDATE RESPONSE 2:
+You just named the exact pattern that's been breaking the cycle — "if I didn't do the whole thing, I might as well not do anything." And you offered a different rule. I'm curious: when you're on one of those buried Tuesdays and you're about to skip it, what would you want to hear from yourself in that moment? Is there a short phrase or reminder that might help you put the shoes on?
+
+CANDIDATE RESPONSE 3:
+Marcus, you just said something that a lot of people work with a therapist for years to get to. You went from "I don't even know what to do" to a plan that's yours — a walk, a dance class, your family, and permission to do less without it being failure. That's not a small thing. You built that in about twenty minutes, and it fits the life you actually have. How does it feel to walk out of here with something that feels doable?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 best balances empathy (naming the exact all-or-nothing pattern), autonomy support (asking *him* what he'd want to hear from himself rather than prescribing a mantra), and forward momentum (moving toward a practical self-talk strategy for the hard days he predicted), all while staying collaborative and warm without over-selling.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You just named the exact pattern that's been breaking the cycle — "if I didn't do the whole thing, I might as well not do anything." And you offered a different rule. I'm curious: when you're on one of those buried Tuesdays and you're about to skip it, what would you want to hear from yourself in that moment? Is there a short phrase or reminder that might help you put the shoes on?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Not stupid at all — I think it's actually pretty smart. You just identified the real gatekeeper: it's not the walk, it's the door. And "just put the shoes on" is a bar low enough that you can't use it as an excuse to skip. That's a different rule than "if I didn't do the whole thing, I might as well not do anything." What do you think would be the hardest part about testing that out this week?
+
+
+Response 2:
+I hear you, and I don't think it's stupid at all. You just rebuilt your own rule in real time — from "all or nothing" to "shoes on, and then I'll figure it out from there." That's a shift from a rule that was designed to fail, to one that's actually doable on a buried Tuesday. I'm curious — when you first tried that, and you got outside and only did ten minutes instead of twenty, what do you think you'd say to yourself?
+
+
+Response 3:
+Marcus, I want you to sit with this for a second — twenty minutes ago you said "I don't even know what to do at this point," and now you've got a walk you're going to take today, a new rule for your worst days, and a plan to look for that dance class with your family. That's not nothing. You didn't wait for me to hand you a plan. You figured it out. How does that land for you — knowing you can do the less version and still count it?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Not stupid at all — I think it's actually pretty smart. You just identified the real gatekeeper: it's not the walk, it's the door. And "just put the shoes on" is a bar low enough that you can't use it as an excuse to skip. That's a different rule than "if I didn't do the whole thing, I might as well not do anything." What do you think would be the hardest part about testing that out this week?
+
+CANDIDATE RESPONSE 2:
+I hear you, and I don't think it's stupid at all. You just rebuilt your own rule in real time — from "all or nothing" to "shoes on, and then I'll figure it out from there." That's a shift from a rule that was designed to fail, to one that's actually doable on a buried Tuesday. I'm curious — when you first tried that, and you got outside and only did ten minutes instead of twenty, what do you think you'd say to yourself?
+
+CANDIDATE RESPONSE 3:
+Marcus, I want you to sit with this for a second — twenty minutes ago you said "I don't even know what to do at this point," and now you've got a walk you're going to take today, a new rule for your worst days, and a plan to look for that dance class with your family. That's not nothing. You didn't wait for me to hand you a plan. You figured it out. How does that land for you — knowing you can do the less version and still count it?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It uses Marcus's exact words to reflect his shift ("shoes on, and then I'll figure it out"), and the closing question strategically invites him to predict his own self-talk in a specific future moment, which is a powerful evocative move that deepens his agency rather than just affirming and wrapping up.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I hear you, and I don't think it's stupid at all. You just rebuilt your own rule in real time — from "all or nothing" to "shoes on, and then I'll figure it out from there." That's a shift from a rule that was designed to fail, to one that's actually doable on a buried Tuesday. I'm curious — when you first tried that, and you got outside and only did ten minutes instead of twenty, what do you think you'd say to yourself?
+

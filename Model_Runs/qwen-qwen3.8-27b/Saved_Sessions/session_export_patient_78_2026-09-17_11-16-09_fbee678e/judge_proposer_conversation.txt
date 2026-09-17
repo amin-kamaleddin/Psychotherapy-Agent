@@ -1,0 +1,463 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It sounds like you've heard the same warnings over and over, and that must feel exhausting — like nobody's really hearing what *you* need. I want to be different here. I'm not going to lecture you; you already know what your doctor has told you. So I'd just like to listen to what's on your mind.
+
+
+Response 2:
+You clearly already understand the health risks — I don't need to repeat that. What I'm curious about is: what do *you* think would be different in this conversation that would actually feel useful to you? You're the expert on your own life, so I'd love to hear what you're hoping to get out of our time together.
+
+
+Response 3:
+The fact that you agreed to be here, even though you're frustrated with the usual approach, tells me something — you care about your health, even if you're not sure what you want to do about it yet. That's real, and I respect it. So whatever you want to talk about, I'm here for it. What's weighing on you most right now?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It sounds like you've heard the same warnings over and over, and that must feel exhausting — like nobody's really hearing what *you* need. I want to be different here. I'm not going to lecture you; you already know what your doctor has told you. So I'd just like to listen to what's on your mind.
+
+CANDIDATE RESPONSE 2:
+You clearly already understand the health risks — I don't need to repeat that. What I'm curious about is: what do *you* think would be different in this conversation that would actually feel useful to you? You're the expert on your own life, so I'd love to hear what you're hoping to get out of our time together.
+
+CANDIDATE RESPONSE 3:
+The fact that you agreed to be here, even though you're frustrated with the usual approach, tells me something — you care about your health, even if you're not sure what you want to do about it yet. That's real, and I respect it. So whatever you want to talk about, I'm here for it. What's weighing on you most right now?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**3**
+
+Candidate 3 best reflects the client's ambivalence by naming *both* sides equally (frustration with the usual approach AND underlying care for her health), shows unconditional acceptance ("That's real, and I respect it"), explicitly connects to the health goal without pushing, and invites her to lead with an open question — making it the most therapeutically complete response.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+The fact that you agreed to be here, even though you're frustrated with the usual approach, tells me something — you care about your health, even if you're not sure what you want to do about it yet. That's real, and I respect it. So whatever you want to talk about, I'm here for it. What's weighing on you most right now?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That sounds really heavy — being asked by your own daughter, and not having a clear answer. It makes sense that you'd feel stuck between wanting to protect her and not knowing what the next step looks like for you. You don't owe her a speech.
+
+
+Response 2:
+So your daughter is in that space of noticing and asking, and it's pulling something up for you. I'm curious — when she asks you that question, what do you find yourself wanting to say? And what does it feel like inside when that moment comes up?
+
+
+Response 3:
+You showed up here today, Lucía. Part of you wanted to honor your daughter, part of you wanted to give yourself something — maybe a different kind of conversation than the one you've been getting. That's not nothing. And I'm glad you're here.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That sounds really heavy — being asked by your own daughter, and not having a clear answer. It makes sense that you'd feel stuck between wanting to protect her and not knowing what the next step looks like for you. You don't owe her a speech.
+
+CANDIDATE RESPONSE 2:
+So your daughter is in that space of noticing and asking, and it's pulling something up for you. I'm curious — when she asks you that question, what do you find yourself wanting to say? And what does it feel like inside when that moment comes up?
+
+CANDIDATE RESPONSE 3:
+You showed up here today, Lucía. Part of you wanted to honor your daughter, part of you wanted to give yourself something — maybe a different kind of conversation than the one you've been getting. That's not nothing. And I'm glad you're here.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It balances deep empathy ("it's pulling something up for you") with strategic evocation through two open questions that invite her to explore her own feelings and motivations, moving the conversation forward while fully respecting her autonomy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+So your daughter is in that space of noticing and asking, and it's pulling something up for you. I'm curious — when she asks you that question, what do you find yourself wanting to say? And what does it feel like inside when that moment comes up?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Feeling small is a really heavy thing to carry — like everyone around you already has the answer and you're the one stuck in the dark. You said "I'm not stupid," and I hear you. It sounds like the problem isn't that you don't see the issue. It's that the way it keeps getting put in front of you makes you feel like you're failing at something you should already have figured out.
+
+
+Response 2:
+It sounds like you're getting the same message from two different people — your doctor and your daughter — and it's landing in a way that doesn't feel helpful. I'm wondering, if there was a way for someone to bring this up with you that didn't make you feel small, what would that look like? What would actually land for you?
+
+
+Response 3:
+You just named something really clearly — that you feel like the one who "doesn't see the problem." But look at what you're doing right now. You're here, you're naming how it feels, you're figuring out what's actually underneath the annoyance. That's not someone who's lost. That's someone who deserves to be heard differently. I'd like to hear from you — what do you think would actually move something forward?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Feeling small is a really heavy thing to carry — like everyone around you already has the answer and you're the one stuck in the dark. You said "I'm not stupid," and I hear you. It sounds like the problem isn't that you don't see the issue. It's that the way it keeps getting put in front of you makes you feel like you're failing at something you should already have figured out.
+
+CANDIDATE RESPONSE 2:
+It sounds like you're getting the same message from two different people — your doctor and your daughter — and it's landing in a way that doesn't feel helpful. I'm wondering, if there was a way for someone to bring this up with you that didn't make you feel small, what would that look like? What would actually land for you?
+
+CANDIDATE RESPONSE 3:
+You just named something really clearly — that you feel like the one who "doesn't see the problem." But look at what you're doing right now. You're here, you're naming how it feels, you're figuring out what's actually underneath the annoyance. That's not someone who's lost. That's someone who deserves to be heard differently. I'd like to hear from you — what do you think would actually move something forward?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**1** — Candidate 1 most deeply reflects the feeling underneath (feeling "small," the frustration of already knowing but being treated as if she doesn't), uses her own words ("I'm not stupid"), and stays with the emotion without rushing to problem-solve, which is the appropriate therapeutic move when someone is in a vulnerable moment of opening up.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+Feeling small is a really heavy thing to carry — like everyone around you already has the answer and you're the one stuck in the dark. You said "I'm not stupid," and I hear you. It sounds like the problem isn't that you don't see the issue. It's that the way it keeps getting put in front of you makes you feel like you're failing at something you should already have figured out.
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That distinction you just made — "I know the risks, but what's actually hard?" — that's not small, Lucía. That's the real work, and you're the only one who can do it. You're right that nobody's ever just sat down and asked you that. So I'll ask: what's hard about it? You don't have to have it figured out. You just have to be willing to look.
+
+
+Response 2:
+You just named something really important — the difference between "here's the information" and "what's actually in the way?" Most people never get to make that distinction. You've already done the hard part of being willing to look at it. I'm curious — when you say you can't put it into words yet... if you could start anywhere, even a small place, where would your mind go first?
+
+
+Response 3:
+There's something really powerful about what you just said. You walked in frustrated, feeling small, and within a few minutes you said "what's actually hard about this?" That's not a small shift. That's you taking back the steering wheel. And I wonder if your daughter is asking because she's waiting for you to do this — not to be perfect, but to be real. What does it feel like to be the one asking yourself that question now?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That distinction you just made — "I know the risks, but what's actually hard?" — that's not small, Lucía. That's the real work, and you're the only one who can do it. You're right that nobody's ever just sat down and asked you that. So I'll ask: what's hard about it? You don't have to have it figured out. You just have to be willing to look.
+
+CANDIDATE RESPONSE 2:
+You just named something really important — the difference between "here's the information" and "what's actually in the way?" Most people never get to make that distinction. You've already done the hard part of being willing to look at it. I'm curious — when you say you can't put it into words yet... if you could start anywhere, even a small place, where would your mind go first?
+
+CANDIDATE RESPONSE 3:
+There's something really powerful about what you just said. You walked in frustrated, feeling small, and within a few minutes you said "what's actually hard about this?" That's not a small shift. That's you taking back the steering wheel. And I wonder if your daughter is asking because she's waiting for you to do this — not to be perfect, but to be real. What does it feel like to be the one asking yourself that question now?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**1**
+
+Candidate 1 is the best because it uses Lucía's exact words ("what's actually hard about this?"), validates her frustration without over-praising, and then directly asks the very question she identified as missing—moving the conversation forward collaboratively while keeping pressure low ("You don't have to have it figured out").
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+That distinction you just made — "I know the risks, but what's actually hard?" — that's not small, Lucía. That's the real work, and you're the only one who can do it. You're right that nobody's ever just sat down and asked you that. So I'll ask: what's hard about it? You don't have to have it figured out. You just have to be willing to look.
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That "little pause" you named — I want to sit with that. Everything else in your day is work, or the house, or your daughter's school. And that cigarette is the one five minutes where you're not *for* someone else. When you say you don't know who you are without it, I wonder if what you're really saying is: when would I get to just... be?
+
+
+Response 2:
+You've named something important — the cigarette is your boundary, your one small "I exist here too" moment in a day that's all about taking care of other people's needs. That makes complete sense. I'm curious: if we set aside the cigarette for a second, what do you think you actually need from that pause? What is it giving you that feels like it would be missing?
+
+
+Response 3:
+Lucía, what you just said — "I don't know who I am without that little pause" — that took real honesty to put into words. You didn't just say "I need to quit" or "I'm fine." You found the actual thread. That's not small, and it's not a step backward. You're the one who sees your own life most clearly, and right now you're looking at it with a lot of tenderness.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That "little pause" you named — I want to sit with that. Everything else in your day is work, or the house, or your daughter's school. And that cigarette is the one five minutes where you're not *for* someone else. When you say you don't know who you are without it, I wonder if what you're really saying is: when would I get to just... be?
+
+CANDIDATE RESPONSE 2:
+You've named something important — the cigarette is your boundary, your one small "I exist here too" moment in a day that's all about taking care of other people's needs. That makes complete sense. I'm curious: if we set aside the cigarette for a second, what do you think you actually need from that pause? What is it giving you that feels like it would be missing?
+
+CANDIDATE RESPONSE 3:
+Lucía, what you just said — "I don't know who I am without that little pause" — that took real honesty to put into words. You didn't just say "I need to quit" or "I'm fine." You found the actual thread. That's not small, and it's not a step backward. You're the one who sees your own life most clearly, and right now you're looking at it with a lot of tenderness.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**1**
+
+Candidate 1 most deeply captures the feeling underneath using her exact words ("for someone else," "little pause") and the closing question—"when would I get to just... be?"—is a masterful evocative move that stays in her identity concern without prescribing or pushing toward change, while still opening a door forward.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+That "little pause" you named — I want to sit with that. Everything else in your day is work, or the house, or your daughter's school. And that cigarette is the one five minutes where you're not *for* someone else. When you say you don't know who you are without it, I wonder if what you're really saying is: when would I get to just... be?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That "I hate that it's true" — that's not small. You just named the real thing in a sentence. The cigarette isn't the problem. The problem is that it's the only time you get to just *be*. And you don't even have a fallback for that. I want you to know that doesn't make you weak or stuck. It makes you a person whose life is full of caring for everyone else, and that's a lot to carry.
+
+
+Response 2:
+You don't have to have the answer today. But I'm curious — before the house and the school and the job took over all of your time... what did "just being" look like? Even something small. A song you used to listen to, a place you used to walk, a thing you used to do on a Sunday. You don't have to solve it now. But does anything come up when you let your mind wander there?
+
+
+Response 3:
+You just did something really important, Lucía. You found the actual thing underneath the smoking — not the health risk, not the habit, but the gap in your day where you get to be just you. That's not nothing. That's the key. And you don't have to figure out the rest tonight. But I'll say this: you're not the person who "doesn't see the problem." You're the person who finally found the real one. And that changes things.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That "I hate that it's true" — that's not small. You just named the real thing in a sentence. The cigarette isn't the problem. The problem is that it's the only time you get to just *be*. And you don't even have a fallback for that. I want you to know that doesn't make you weak or stuck. It makes you a person whose life is full of caring for everyone else, and that's a lot to carry.
+
+CANDIDATE RESPONSE 2:
+You don't have to have the answer today. But I'm curious — before the house and the school and the job took over all of your time... what did "just being" look like? Even something small. A song you used to listen to, a place you used to walk, a thing you used to do on a Sunday. You don't have to solve it now. But does anything come up when you let your mind wander there?
+
+CANDIDATE RESPONSE 3:
+You just did something really important, Lucía. You found the actual thing underneath the smoking — not the health risk, not the habit, but the gap in your day where you get to be just you. That's not nothing. That's the key. And you don't have to figure out the rest tonight. But I'll say this: you're not the person who "doesn't see the problem." You're the person who finally found the real one. And that changes things.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 is the best because it shows empathy and acceptance ("you don't have to have the answer today") while strategically evoking her own expertise by asking what "just being" looked like before life got full — this moves the conversation toward the health goal (finding alternatives) without prescribing, and invites HER to draw on her own history rather than the therapist interpreting for her.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You don't have to have the answer today. But I'm curious — before the house and the school and the job took over all of your time... what did "just being" look like? Even something small. A song you used to listen to, a place you used to walk, a thing you used to do on a Sunday. You don't have to solve it now. But does anything come up when you let your mind wander there?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You said "I guess that's one answer" — and I want to honor how much it costs to even say that. "Terrible watercolors," "mess around" — that sounds less about skill and more about permission to just exist for a few minutes. And that "waste of time" part... I wonder if that's the same voice that makes you feel small. The one that says you don't deserve the pause.
+
+
+Response 2:
+"Mess around" with watercolors — not paint a masterpiece, not be productive, just mess around. I like that it's not performance. What would that actually look like for you, even something tiny? And I'm curious — what do you think would get in the way if you gave yourself ten minutes this week to just do that?
+
+
+Response 3:
+Something just shifted in how you're talking about that. A second ago it was "I don't know who I am without that pause," and now you're saying "I guess that's one answer." That's not nothing, Lucía. You just reached back and touched something that was yours a long time ago. And the fact that you can see it, even if you're not ready to go get it today — that matters.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You said "I guess that's one answer" — and I want to honor how much it costs to even say that. "Terrible watercolors," "mess around" — that sounds less about skill and more about permission to just exist for a few minutes. And that "waste of time" part... I wonder if that's the same voice that makes you feel small. The one that says you don't deserve the pause.
+
+CANDIDATE RESPONSE 2:
+"Mess around" with watercolors — not paint a masterpiece, not be productive, just mess around. I like that it's not performance. What would that actually look like for you, even something tiny? And I'm curious — what do you think would get in the way if you gave yourself ten minutes this week to just do that?
+
+CANDIDATE RESPONSE 3:
+Something just shifted in how you're talking about that. A second ago it was "I don't know who I am without that pause," and now you're saying "I guess that's one answer." That's not nothing, Lucía. You just reached back and touched something that was yours a long time ago. And the fact that you can see it, even if you're not ready to go get it today — that matters.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 best balances validation with forward momentum — it honors the watercolors discovery ("I like that it's not performance"), respects her pace ("even something tiny"), and uses a classic MI evocation question ("what do you think would get in the way?") that invites her to identify her own barriers rather than having them assigned, keeping her as the expert on her own life while gently moving the conversation toward the health goal.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+"Mess around" with watercolors — not paint a masterpiece, not be productive, just mess around. I like that it's not performance. What would that actually look like for you, even something tiny? And I'm curious — what do you think would get in the way if you gave yourself ten minutes this week to just do that?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"I don't feel like me enough to try" — that's a really honest thing to say, and it makes a lot of sense. When you've been the one holding everything for everyone else for so long, the person who sits down and messes around with watercolors can start to feel like a stranger. You don't have to feel like her to try. You just have to be willing to let her back in for a little while.
+
+
+Response 2:
+You said "I'm forty-four" like it's a wall. I'm not going to tell you that voice doesn't matter — but I'm curious what you think. If the laundry and the permission slip weren't in the room, what would ten minutes of just messing around actually require from you? Not a project. Just... you and a wet brush. What do you think would get in the way of that?
+
+
+Response 3:
+You just named something, Lucía. Painting. "Mess around." You didn't have to, but you did. And you said "that's one answer" like you were surprised you had one. I don't know what the next step looks like, and I'm not going to decide that for you. But the fact that you brought her back into the room — that's something. What would it mean to you if that little easel corner was still yours?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"I don't feel like me enough to try" — that's a really honest thing to say, and it makes a lot of sense. When you've been the one holding everything for everyone else for so long, the person who sits down and messes around with watercolors can start to feel like a stranger. You don't have to feel like her to try. You just have to be willing to let her back in for a little while.
+
+CANDIDATE RESPONSE 2:
+You said "I'm forty-four" like it's a wall. I'm not going to tell you that voice doesn't matter — but I'm curious what you think. If the laundry and the permission slip weren't in the room, what would ten minutes of just messing around actually require from you? Not a project. Just... you and a wet brush. What do you think would get in the way of that?
+
+CANDIDATE RESPONSE 3:
+You just named something, Lucía. Painting. "Mess around." You didn't have to, but you did. And you said "that's one answer" like you were surprised you had one. I don't know what the next step looks like, and I'm not going to decide that for you. But the fact that you brought her back into the room — that's something. What would it mean to you if that little easel corner was still yours?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**1** — It most directly meets the emotional moment by reflecting and validating "I don't feel like me enough to try" using her own words, making sense of the feeling (holding for everyone making her a stranger to herself), and gently opening a door ("willing to let her back in for a little while") without pushing or repeating a question already asked.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+"I don't feel like me enough to try" — that's a really honest thing to say, and it makes a lot of sense. When you've been the one holding everything for everyone else for so long, the person who sits down and messes around with watercolors can start to feel like a stranger. You don't have to feel like her to try. You just have to be willing to let her back in for a little while.
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"This weekend. After she's at her friend's. Just sit down and mess with it. Not for long. You didn't say 'I'm going to quit smoking and become a new person.' You said something real and doable — and you gave yourself permission to not make it a big deal. That's actually a lot of wisdom packed into a small sentence.
+
+
+Response 2:
+I like that you said "not for long" and "I'm not making promises." You're giving yourself room to be a beginner again, which is honestly the hardest part. I'm curious — when you sit down this weekend, do you think it would help to have anything ready beforehand? Like the paint out, a cup of water? Or do you want it to stay as unstructured as possible?
+
+
+Response 3:
+From "I don't feel like me enough to try" to "I'll think about it" in one session — that's not nothing, Lucía. And the fact that you chose watercolors, the thing that used to be just *yours*, tells me something you already know about what you need. I'll be here next time to hear how it went, or how it didn't. No judgment either way.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"This weekend. After she's at her friend's. Just sit down and mess with it. Not for long. You didn't say 'I'm going to quit smoking and become a new person.' You said something real and doable — and you gave yourself permission to not make it a big deal. That's actually a lot of wisdom packed into a small sentence.
+
+CANDIDATE RESPONSE 2:
+I like that you said "not for long" and "I'm not making promises." You're giving yourself room to be a beginner again, which is honestly the hardest part. I'm curious — when you sit down this weekend, do you think it would help to have anything ready beforehand? Like the paint out, a cup of water? Or do you want it to stay as unstructured as possible?
+
+CANDIDATE RESPONSE 3:
+From "I don't feel like me enough to try" to "I'll think about it" in one session — that's not nothing, Lucía. And the fact that you chose watercolors, the thing that used to be just *yours*, tells me something you already know about what you need. I'll be here next time to hear how it went, or how it didn't. No judgment either way.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It reflects her exact words ("not for long," "I'm not making promises"), shows acceptance of her tentative stance, and then invites her own ideas and expertise with a concrete, collaborative question that offers options without prescribing, moving the work forward while respecting her autonomy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I like that you said "not for long" and "I'm not making promises." You're giving yourself room to be a beginner again, which is honestly the hardest part. I'm curious — when you sit down this weekend, do you think it would help to have anything ready beforehand? Like the paint out, a cup of water? Or do you want it to stay as unstructured as possible?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"I'll probably just make a sandwich instead" — you know yourself well enough to see that trap coming, and you're already working around it. That's not a small thing. Setting it out the night before so the decision is already made... that's not perfection, that's strategy. "Low stakes" is a really good frame, honestly. It takes the pressure off and leaves room for it to just... be a mess. Which is the whole point.
+
+
+Response 2:
+You figured that out yourself — the setup is the barrier, so remove the setup. I like that. I'm curious, though — when you sit down and the paint's already out, what do you think "mess around" would actually look like in practice? Like, are you picking up a brush and going, or is it more like just looking at the colors for a minute first? Because even that might count.
+
+
+Response 3:
+A few minutes ago you said the cigarette was the one thing that was just for you. Now you've just built a different one — ten minutes, paint out, no performance, just messing around. You didn't replace it with a "better" you. You made room for the same need in a way that doesn't cost you. That feels like real progress, Lucía. And you did the thinking.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"I'll probably just make a sandwich instead" — you know yourself well enough to see that trap coming, and you're already working around it. That's not a small thing. Setting it out the night before so the decision is already made... that's not perfection, that's strategy. "Low stakes" is a really good frame, honestly. It takes the pressure off and leaves room for it to just... be a mess. Which is the whole point.
+
+CANDIDATE RESPONSE 2:
+You figured that out yourself — the setup is the barrier, so remove the setup. I like that. I'm curious, though — when you sit down and the paint's already out, what do you think "mess around" would actually look like in practice? Like, are you picking up a brush and going, or is it more like just looking at the colors for a minute first? Because even that might count.
+
+CANDIDATE RESPONSE 3:
+A few minutes ago you said the cigarette was the one thing that was just for you. Now you've just built a different one — ten minutes, paint out, no performance, just messing around. You didn't replace it with a "better" you. You made room for the same need in a way that doesn't cost you. That feels like real progress, Lucía. And you did the thinking.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It validates her self-discovery, then invites her own expertise with a concrete, low-pressure question ("what do you think 'mess around' would actually look like?"), and "even that might count" powerfully models acceptance while moving the plan forward collaboratively without prescribing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You figured that out yourself — the setup is the barrier, so remove the setup. I like that. I'm curious, though — when you sit down and the paint's already out, what do you think "mess around" would actually look like in practice? Like, are you picking up a brush and going, or is it more like just looking at the colors for a minute first? Because even that might count.
+

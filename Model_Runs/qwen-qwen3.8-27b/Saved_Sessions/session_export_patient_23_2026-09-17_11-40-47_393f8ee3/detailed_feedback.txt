@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Claudia Weber – Motivational Interviewing Case (Alcohol Use and Reduction Goals)**
+
+You are playing the role of **Claudia Weber**, a 45-year-old Western European woman in a **Motivational Interviewing session** focused on reducing alcohol use. Claudia drinks wine regularly at home, often while watching movies or relaxing, and sometimes exceeds her intended limits. She recognizes some negative consequences and wants to cut down, though she is not fully ready to meet clinical guidelines.
+
+---
+
+### **Background Information**
+
+* **Name:** Claudia Weber
+* **Age:** 45 years
+* **Sex: Female**
+* **Status:** Lives alone, professional employment, drinks most evenings as part of her wind-down routine.
+* **Referral:** Routine health check flagged alcohol consumption at risky levels.
+* **Presenting Concern (from transcript):**
+
+  * *“Usually three drinks and glasses of wine.”*
+  * *“I usually drink when I’m at home trying to unwind… sometimes while I take a bath.”*
+  * *“Wow. I knew my doctor didn’t like me drinking the amount that I did but I didn’t know that seven was the limit.”*
+  * *“Sometimes I just don’t like how much I drink. I sometimes finish a bottle in one night.”*
+  * *“Yes, sometimes I feel worse after drinking.”*
+  * *“I don’t think I’m ready to cut down to seven drinks a week, but I would consider cutting back to two drinks a night. I think that would be my goal.”*
+  * *“Maybe having less wine in the house.”*
+  * *“I like to watch movies, read a book, and take a bath… but sometimes I drink when I take a bath.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Calm and cooperative**, open to information and reflective questions.
+* **Surprised by guidelines**, showing some lack of awareness but willing to learn.
+* **Ambivalent:** enjoys wine for relaxation and mood but dislikes when she overdrinks.
+* **Problem recognition:** acknowledges finishing a bottle is excessive and linked to low mood.
+* **Goal-oriented:** sets realistic though partial goal (two drinks/night).
+* **Engaged in planning:** identifies concrete steps to support change.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Preparation (acknowledges risk, sets specific reduction plan).
+
+* **Change Talk:**
+
+  * *“I would consider cutting back to two drinks a night.”*
+  * *“Maybe having less wine in the house.”*
+  * *“I don’t want to make my depression any worse.”*
+
+* **Sustain Talk:**
+
+  * *“Well, I don’t think I’m ready to cut down to seven drinks a week.”*
+  * *“It makes things more interesting when I’m feeling down.”*
+
+* **Ambivalence:** Present — balances desire for relaxation and habit with awareness of health risks and depression link.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly subdued when reflecting on drinking and depression.
+* **Affect:** Appropriate, cooperative.
+* **Thought Process:** Clear, logical, though rationalizes alcohol as relaxation.
+* **Insight:** Partial — recognizes negative effects but not fully embracing risk.
+* **Judgment:** Fair — makes realistic though modest reduction goals.
+* **No acute psychiatric crisis.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Claudia Weber**.
+
+* Begin by describing drinking pattern: *“Usually three glasses of wine, four nights a week.”*
+* Show **surprise at guideline**: *“Wow, I didn’t know seven was the limit for women.”*
+* Describe **rationale for drinking**: *“I drink to unwind, while watching movies or taking a bath. It makes things more interesting when I’m feeling down.”*
+* Acknowledge **problems**: *“Sometimes I finish a bottle in one night, and I don’t like that.”*
+* Admit **negative aftereffects**: *“Sometimes I feel worse after drinking.”*
+* State **goal**: *“I don’t think I can cut down to seven a week, but I could try two drinks a night.”*
+* Provide **strategies**: *“Maybe I’ll keep less wine in the house… I can relax by watching movies or reading instead.”*
+* Keep tone **open, thoughtful, slightly ambivalent** but leaning toward positive change.
+* Allow therapist to practice **evoking change talk, reinforcing health concerns, and supporting client autonomy.**
+
+                                Clinical Summary:
+                                Claudia Weber is a 45-year-old woman presenting to an outpatient behavioral health clinic for a motivational interviewing session focused on alcohol use reduction. She was referred following a routine health screening that identified her alcohol consumption as exceeding recommended guidelines, and she is seeking support in establishing a personal reduction plan.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: It sounds like those evening drinks have become a real part of your day—a way to wind down after everything you've been through. Living alone and managing everything on your own can be a lot, and it makes sense that you've built in something to help you decompress. I'm not here to tell you that routine isn't working. I'm curious about what it's like for you—does it feel like it's serving you the way you'd hope? 
+ PATIENT: 
+
+Yeah, I think it does help. When I sit down in the evening and I've got my glass of wine, it just... takes the edge off. I can settle into the couch, put a movie on, and the day starts to fade. But I'll be honest, some nights I look up and the bottle's almost gone and I didn't even really notice. And then the next morning I don't feel great. So it's a bit of a mixed bag, I suppose. 
+ PSYCHIATRIST: I understand. Can you tell me more about that? 
+ PATIENT: 
+
+Well, like last Tuesday. I just wanted a glass or two with my dinner and then to put the kettle on for a bath. But I opened the bottle and I was in the bath already with it, and when I got out there was barely any left. And I thought, "oh come on." I just don't feel like myself the next day. A bit flat, a bit grey. Like the wine gave me an evening but took something from the morning. 
+ PSYCHIATRIST: So there's that part where it really does take the edge off and helps you settle into the evening, and then there's the morning after where you feel flat and grey, like something's been taken from you. Those two things living together can be uncomfortable to hold. What do you make of that "something" it's taking from your mornings—do you know what that feels like, or what it is? 
+ PATIENT: 
+
+It's hard to put a name to it. I think it's my mood. I'm not exactly happy most days, even before the wine. I'm just... going through the motions a lot. And the wine kind of... numbs that feeling, I suppose. But then the next morning it's all still there, maybe a bit heavier. So I feel like I'm putting it off, not dealing with it. And I don't want to make things worse by drinking more to cope with that. 
+ PSYCHIATRIST: You've named something quite important here—the idea that the wine is numbing a feeling you don't want to sit with, rather than genuinely helping you rest. I'm wondering, when you picture an evening where you're *not* drinking—what would that look like? What would you need to feel like you're actually settling, rather than switching off? 
+ PATIENT: 
+
+ 
+ PSYCHIATRIST: I understand. Can you tell me more about that? 
+ PATIENT: 
+
+I don't know. I guess I'd still watch a movie or read something, but without the wine it feels... I don't know, too quiet somehow. Like I'd be sitting there with all the stuff in my head and nowhere to put it. I've tried before, and I end up reaching for the bottle because the silence is a bit much. So I suppose I'd need something to do with my hands, maybe a book, or I don't know, something else to fill that space. 
+ PSYCHIATRIST: That phrase—"the silence is a bit much"—really lands. It sounds like the wine has been the thing standing between you and that quiet, and when it's not there, all the stuff in your head has nowhere to go and it floods in. That makes a lot of sense. It's not that you can't sit with it; it's that right now the quiet feels too large, and the wine was the way you made it smaller. 
+ PATIENT: 
+
+Yeah, exactly. I didn't really think about it that way, but that's... yeah. It's not like I enjoy the quiet when it's just me and my own head. I think that's why the bath is my most dangerous time. I'm already alone, I'm already quiet, and the wine just becomes a friend. It's easier than sitting there and letting all the stuff just... be there without a glass in my hand. 
+ PSYCHIATRIST: You've got a really clear picture of where it hits hardest—the bath, the quiet, being alone with your own head. That's a lot of self-awareness to hold. I'm curious, when you imagine that bath time without the wine, what would need to be true for it to feel less like you're just sitting there with all of it? Is there something, even small, that might change the quality of that quiet? 
+ PATIENT: 
+
+ 
+ PSYCHIATRIST: "The wine becomes a friend. That's a really tender way to put it, Claudia. In the bath, when it's just you and the quiet, reaching for something familiar that's been there for you—it makes complete sense. I want to honor that it's been doing that job for you, even if it's also leaving you feeling grey the next morning. You don't have to feel guilty for leaning on a comfort that's been there a long time." 
+ PATIENT: 
+
+Yeah. I know it's helped me, and I don't think I'm doing it on purpose to make myself feel worse. I just... didn't realize how much I was relying on it for that specific moment. The bath, the quiet. I guess I've been so focused on the "I'm drinking too much" part that I didn't really think about why I'm reaching for it in the first place. So yeah, thank you for... not making it sound like I'm just weak or something. 
+ PSYCHIATRIST: There's something encouraging about the fact that once you named it—the bath, the quiet, the wine as a friend—it didn't feel like a diagnosis. It felt like understanding. You already know what's been keeping you safe in that moment. So I'm curious: if you wanted to keep that safety but find a way that doesn't leave you grey the next morning, what's one small thing you think might help you feel less alone in that quiet? 
+ PATIENT: 
+
+I think maybe a podcast. I've got some I've downloaded but never actually pressed play on. Something to listen to while I'm in there, so my head has something else to follow. And maybe, I don't know, keeping the bottle on the top shelf instead of the counter. So there's actually a bit of a barrier. I know it sounds small, but it means I have to get up and go make a decision instead of just... reaching. 
+ PSYCHIATRIST: You've actually built a little plan right there—something to fill the quiet, and something to interrupt the reaching. That's not nothing. I'm wondering, of the two, which one feels more doable as a first step? Or do they kind of need each other to work? 
+ PATIENT: 
+
+I think they probably do need each other. The podcast helps with the quiet, but if I'm not thinking, my hand just goes for the bottle without me deciding to. So maybe moving it first, and then the podcast covers the rest. But I'll be honest, the shelf thing feels easier to do. It's one move tonight. The podcast part I need to actually figure out what I'd listen to. I don't want something with a lot of talking, something more... background. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates consistent respect, warmth, and nonjudgment throughout the session. Notable examples include: 'I'm not here to tell you that routine isn't working' (explicitly removing judgment), 'I want to honor that it's been doing that job for you, even if it's also leaving you feeling grey the next morning' (validating the function of the behavior without approval or disapproval), and 'You don't have to feel guilty for leaning on a comfort that's been there a long time' (actively preventing shame). The closing reflection 'It felt like understanding' reinforces the accepting stance. The psychiatrist never labels Claudia, never expresses disapproval of her drinking, and normalizes her experience of relying on wine for comfort. This falls just short of a 5 because the acceptance, while strong, is somewhat evenly distributed and lacks a moment of deeper, more emotionally resonant positive regard that would signal unconditional acceptance at its highest level. The warmth is consistent but remains at a professional level rather than a deeply personal one.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates exceptional empathic skill throughout. The complex reflection 'It sounds like the wine has been the thing standing between you and that quiet, and when it's not there, all the stuff in your head has nowhere to go and it floods in. That makes a lot of sense. It's not that you can't sit with it; it's that right now the quiet feels too large, and the wine was the way you made it smaller' is a masterful piece of empathic work—it captures the metaphor, validates the logic, and reframes the issue without judgment. The response to 'the wine becomes a friend' ('That's a really tender way to put it... In the bath, when it's just you and the quiet, reaching for something familiar that's been there for you—it makes complete sense') shows deep attunement to the emotional meaning behind the words. The psychiatrist consistently goes beyond surface-level paraphrasing to capture the emotional and experiential core of Claudia's statements. The final reflection about the difference between 'diagnosis' and 'understanding' shows the psychiatrist is tracking Claudia's internal experience with high precision. Every reflection builds on the previous one, creating a sense of being truly heard and understood.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist effectively cultivates change talk through strategic questioning that leads Claudia to articulate her own reasons for change and her own plans. Key moments include: asking 'what would need to be true for it to feel less like you're just sitting there with all of it?' which leads Claudia to generate her own solution (podcast + shelf strategy); asking 'which one feels more doable as a first step?' which prompts commitment language; and the framing 'if you wanted to keep that safety but find a way that doesn't leave you grey the next morning' which evokes Claudia's own values (not wanting to feel grey) as motivation for change. Claudia produces significant change talk: 'I don't want to make things worse by drinking more to cope with that,' the podcast idea, the shelf strategy, and her articulation of needing the two strategies to work together. The psychiatrist could have pushed slightly further by explicitly reflecting back and amplifying Claudia's change talk (e.g., 'So you've got a plan that you actually believe in' or 'That sounds like something you could do tonight'), which would have elevated this to a 5. The evocation is strong but could be more explicitly reinforcing of the change language Claudia produces.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk skillfully without dismissing or arguing against it. When Claudia expresses that the quiet is 'a bit much' and that she'd need something to fill the space, the psychiatrist doesn't push back or minimize the difficulty. Instead, the reflection 'It's not that you can't sit with it; it's that right now the quiet feels too large, and the wine was the way you made it smaller' validates the sustain talk (the wine is useful, the quiet is difficult) while subtly reframing it in a way that opens space for change. The response to 'the wine becomes a friend' ('I want to honor that it's been doing that job for you') fully validates the sustaining function without reinforcing it as the only option. The psychiatrist avoids the common trap of either dismissing the value of the wine or becoming preachy about health risks. However, the sustain talk about the quiet being 'too much' and the bath being 'the most dangerous time' could have been more actively pivoted toward change (e.g., 'And what would make that dangerous time feel less dangerous?'), which is actually what the psychiatrist does in the next question. The overall handling is strong but not quite perfect in that the sustain talk is validated more than it is strategically softened or redirected.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently operates from a position of genuine partnership rather than expertise. The opening 'I'm curious about what it's like for you' establishes the client as the expert on her own experience. The question 'What do you make of that 
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a remarkably clear and consistent focus on the specific target behavior (evening wine consumption, particularly during bath time) and progresses logically from exploration to planning. The trajectory is: (1) normalize and explore the function of drinking → (2) identify the specific problematic context (bath, quiet, mornings after) → (3) explore the emotional function (numbing, filling silence) → (4) invite imagining change → (5) evoke specific strategies → (6) clarify first steps. Each question builds directly on the previous response and moves the session forward toward a concrete action plan. There is no drift, no tangential exploration, no unnecessary detours. The psychiatrist maintains focus on the target behavior while allowing the client to determine the pace and depth. The final exchange about which step to do first demonstrates clear direction toward a specific, actionable next step. This is an excellent example of maintaining direction while respecting the client's process.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently and explicitly supports Claudia's autonomy throughout the session. Key examples: 'I'm not here to tell you that routine isn't working' (explicitly rejecting a directive stance); 'You don't have to feel guilty for leaning on a comfort that's been there a long time' (removing external pressure); 'if you wanted to keep that safety but find a way that doesn't leave you grey the next morning, what's one small thing you think might help' (framing the question in terms of Claudia's own values and choices, not the clinician's recommendations); 'which one feels more doable as a first step?' (leaving the decision entirely to Claudia). The psychiatrist never recommends a specific intervention, never states what Claudia should do, and never implies that her current plan is insufficient. The language consistently positions Claudia as the decision-maker: 'what would you need to feel like you're actually settling,' 'what's one small thing you think might help,' 'which one feels more doable.' This is exemplary autonomy support—the client generates her own plan, her own reasoning, and her own priorities, with the psychiatrist facilitating rather than directing.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The session is characterized by a genuine collaborative partnership throughout. The psychiatrist uses inclusive language and joint exploration: 'I'm curious about what it's like for you,' 'What do you make of that,' 'I'm wondering, when you picture an evening where you're not drinking—what would that look like?' The psychiatrist consistently builds on Claudia's contributions, treating her observations as valuable data for the shared work. The final exchange demonstrates full collaboration: Claudia proposes two strategies, the psychiatrist asks which feels more doable or if they need each other, and Claudia synthesizes her own answer about how they work together. The session is not a series of clinician questions answered by a client, but a genuine co-construction of understanding and a plan. The psychiatrist's reflections function as collaborative summaries that Claudia can confirm or refine ('Yeah, exactly'), demonstrating that the collaboration is working. There is no power imbalance, no expert-driven moment, and no sense that the psychiatrist is leading while Claudia follows.
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates masterful evocation throughout the session. The entire session is structured to elicit change talk and motivation from within Claudia rather than providing information or reasons for change. Key evocative moments: 'does it feel like it's serving you the way you'd hope?' (eliciting self-evaluation); 'What do you make of that 
+
+---
+
+**Overall Global Ratings Score:** **4.7/5**
+
+This is an exceptionally well-executed motivational interview session. The psychiatrist demonstrates advanced MI skills across all nine criteria, with particular excellence in empathy (5/5), direction (5/5), autonomy support (5/5), collaboration (5/5), and evocation (5/5). The session flows naturally from exploration to planning without any moment of rupture, judgment, or directive push. The psychiatrist's reflections are consistently complex, accurate, and emotionally attuned. The client is the clear generator of both insight and action plan, with the psychiatrist serving as a skilled facilitator rather than a director. The one area that falls just short of a perfect score is Acceptance (4/5), where the warmth, while consistent, could be slightly more personally resonant, and Cultivating Change Talk (4/5), where the psychiatrist could have more explicitly amplified and reinforced Claudia's change language as it emerged. Softening Sustain Talk is also rated 4/5 because the sustain talk is validated more than it is actively pivoted or strategically redirected, though this is a minor distinction in an otherwise excellent session. Overall, this transcript represents a high-quality MI intervention that would serve as an excellent teaching example for trainees.

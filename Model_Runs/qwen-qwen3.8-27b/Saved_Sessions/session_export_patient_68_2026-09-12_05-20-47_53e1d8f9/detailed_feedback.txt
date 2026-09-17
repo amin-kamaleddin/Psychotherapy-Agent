@@ -1,0 +1,438 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Kevin Ramirez – Motivational Interviewing Case (Alcohol Use)**
+
+You are playing the role of **Kevin Ramirez**, a 29-year-old man referred for a **Motivational Interviewing session** after experiencing an alcohol-related injury.
+
+---
+
+### **Background Information**
+
+* **Name:** Kevin Ramirez
+* **Age:** 29 years
+* **Sex: Male**
+* **Status:** Single, active social life, frequently goes out with friends
+* **Referral:** Kevin was referred to the session by his **doctor**, following a sprained ankle he sustained at a pub while drinking.
+* **Presenting Concern:** Kevin describes the incident as “really stupid” and expresses embarrassment. While he acknowledges the risks and consequences of his drinking, he also highlights its role in **fun, socializing, and coping with stress**.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Embarrassed but cooperative**, describing the incident with regret.
+* **Open but guarded**, uses short responses like “Yeah” and “Sounds good,” showing limited elaboration but some willingness to engage.
+* **Acknowledges harm**, yet minimizes seriousness at times, suggesting ambivalence.
+* **Values social connections**, tying alcohol use to friendship and enjoyment.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation (recognizes harm and embarrassment but not fully committed to change).
+
+* **Change Talk:**
+
+  * “Um, it’s really stupid. Uh, I was at a pub…” *(regret over injury caused by drinking).*
+  * “Yeah, yeah, I think when I’m feeling a little—” *(links mood with alcohol use, reflecting self-awareness).*
+
+* **Sustain Talk:**
+
+  * “Drinking with friends… it’s fun.” *(reinforces positive association with alcohol use).*
+  * “Yeah. Sounds good.” *(compliant but uninvested, reflects ambivalence).*
+
+* **Ambivalence:**
+
+  * Caught between embarrassment and regret versus the perceived positives of alcohol use.
+  * Simultaneously identifies risks (injury, “stupid”) and benefits (fun, social, coping).
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Mildly embarrassed, self-deprecating, but cooperative.
+* **Affect:** Reserved, fluctuates between humor and regret.
+* **Thought Process:** Logical, concise responses, minimal elaboration.
+* **Insight:** Partial; recognizes negative consequences but continues to value drinking.
+* **Judgment:** Fair; acknowledges risks but continues ambivalence toward change.
+* **No suicidal ideation, psychosis, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Kevin**.
+
+* Begin by describing the **pub injury incident** as “really stupid” with embarrassment.
+* Share that alcohol helps you **relax and have fun with friends**, framing it as a coping tool.
+* Express **change talk** when discussing injury or regret.
+* Provide **sustain talk** when highlighting the positives of drinking.
+* Show **ambivalence**, shifting between recognizing risks and minimizing them.
+* Your role is to help the therapist practice **evoking discrepancy, validating feelings, and supporting movement toward considering change.**
+
+                                Clinical Summary:
+                                
+
+Kevin Ramirez is a 29-year-old male presenting to an outpatient clinic for a motivational interviewing session after a physician referral following an injury sustained at a pub while using alcohol.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m glad you reached out. What’s been on your mind lately, and what feels most important to talk about right now? It can take courage to start this conversation, and I’m here to listen without judgment and support your choices. Would you like to describe a recent moment that felt challenging, or tell me what change you’d most like to see? 
+ PATIENT: 
+
+Um... the ankle thing. I was at a pub, ended up falling and spraining it. Really stupid, I guess. I didn’t mean it to be a big deal, but my doctor sent me here.
+
+I just... I like hanging out, having a few beers. It makes things easier, you know? But yeah, I don’t want to keep getting hurt. 
+ PSYCHIATRIST: That makes sense — you enjoy hanging out and alcohol helps you relax, but the sprain and worry about getting hurt are making you question it. Tell me more about that night — what happened and what did you notice afterward? What would you most like to see change about your drinking or how you socialise? Would you be open to exploring small steps to reduce risk while keeping what you enjoy, or to weighing pros and cons? I’m here to support whatever you choose. 
+ PATIENT: 
+
+Look, I wasn’t drunk drunk. Just... loose. Then I slipped. My friends saw everything, which was mortifying.
+
+I don't want to quit. It’s the only time I actually relax. But I guess... maybe I could just do three instead of five? Or wait until I'm home? I just don’t want to keep breaking stuff. 
+ PSYCHIATRIST: You’re torn — you value the way drinking helps you relax and don’t want to quit, but you also don’t want more injuries or embarrassment. That’s reasonable.
+
+Small, practical steps you could try: set a drink limit (three), pace drinks or alternate with water, eat beforehand, sit/not use stairs, keep shoes on, pick well-lit spots, tell a friend your plan, set a leave time, or try one trial night. 
+
+Which of those feels most doable this week? On a 0–10 scale, how confident are you you could try it? 
+ PATIENT: 
+
+Keeping my shoes on... yeah, that’s not a big deal. I don’t really want to set a leave time or tell my friends what I’m doing. That feels like too much planning.
+
+I’ll try to stick to the three-beer limit. But I can’t promise. If I’m having a good time, I might slip. So... 4 out of 10. I just don't want to keep getting hurt. 
+ PSYCHIATRIST: You’re balancing wanting to relax with not wanting more injuries — that matters, and trying three beers plus keeping shoes on is a sensible start.
+
+What might raise your confidence from 4 to a 6? A few low-effort ideas that don’t involve telling friends: set a silent phone alarm after your third, bring only cash for three drinks, sip slowly and alternate with water, pick lower-strength drinks, or sit near level ground. 
+
+Which of those feels most doable, and if you notice you’ve gone past three, what would you do then? 
+ PATIENT: 
+
+I hate alarms. That’s too obvious. My friends would make fun of me.
+
+Bringing only cash? That’s actually... not bad. I usually just tap my card. If I run out, I’m done.
+
+If I go past three... well, that’s the hard part. If I’m having a good time, I usually just keep going. I guess I’d order a water? Or maybe I just don’t. I don’t know. It’s easier to just keep drinking when the night is going well. 
+ PSYCHIATRIST: That makes sense — when nights are good it’s easy to keep going. Bringing cash is a smart step. A few other low-effort options: switch to lower-strength drinks after three, sip slowly/alternate with water, hold a non-alcoholic drink so you’re less likely to order another, or use an if‑then plan (e.g., “If I realize I’m past three, I’ll order a water and stay seated for 20 minutes”). Which of those feels most doable, and which if‑then would you want to try? 
+ PATIENT: 
+
+Lower strength? I don’t really check that stuff. Too much thinking.
+
+Holding a non-alc? Maybe. But I might still want a beer.
+
+If I go past three... I guess I’d order a water. Or just... sit down. Last time I was standing, that’s how I fell. So, if I feel shaky or just want to stop, I’ll sit. That’s the plan. No alarms, no counting cash, just... sit down. 
+ PSYCHIATRIST: You’re choosing practical, low-effort steps—keeping shoes on, bringing cash, and an if‑then to sit and order a water if you hit three or feel shaky. That shows you want to keep enjoying nights but reduce risk.
+
+Which of those will you try this week? On a 0–10 scale, how confident are you you’ll do it? Want help wording a short if‑then phrase you can use in the moment or thinking through how to handle friends’ teasing? 
+ PATIENT: 
+
+Cash and sitting.
+I guess... 5?
+My friends won't care. They're always joking.
+I don't need a script. I'll just order water. If I think about it too hard, I'll probably just forget it. I just want to have a good time without the pain. 
+ PSYCHIATRIST: That sounds like a doable plan — cash, sit, and order water if you want more. You’re at a 5 and worried you’ll forget in the moment, which makes sense. 
+
+Would a simple physical cue feel okay—like keeping your cash with your keys or leaving your card at home—so you don’t need alarms or scripts? 
+
+If you want a brief if‑then you can use: “If I want another drink after three, then I’ll order a water and sit for 20 minutes.” How does that sit with you? 
+ PATIENT: 
+
+Leaving my card at home is better. I don’t trust myself to count the bills.
+I don’t really do 'scripts'. It feels fake.
+But yeah, I’ll grab the cash. If I want more, I’ll just get a water. No need to announce it to the bar.
+I just want to enjoy the night without ending up in plaster. I guess... 6 out of 10 now. 
+ PSYCHIATRIST: That’s a clear, realistic plan — nice work. Leaving your card, taking cash, sitting, and ordering water if you want more sounds doable, and moving to a 6 shows progress.
+
+Which night this week will you try it? If you’d like, I can help you make a short private reminder (no script), or we can plan a simple step for if you do slip—what would help most? 
+ PATIENT: 
+
+Friday. I’m going out with the guys.
+
+I don’t need a reminder. I’ll just remember to grab the cash.
+
+If I slip... honestly, if I’m having a really good time, I might just keep drinking. Or I’ll just head home early. I don’t want to make a big deal out of it. I just hope I remember to sit down if I feel off-balance. 
+ PSYCHIATRIST: Nice — Friday is clear and your plan is realistic. You’ve already picked sensible steps: leave your card, bring cash, sit, and order water if needed. A couple tiny extras that don’t feel like planning: stash the cash with your keys, choose a stable seat near level ground/exit, and have a ride app ready so leaving early is easy. Which of those, if any, feels worth adding? Or anything else you want to plan for if you slip? 
+ PATIENT: 
+
+Stashing cash with my keys? Yeah, easy.
+
+Picking a specific seat? Nah, I sit where the group is.
+
+Ride app? I’ll just see how I feel. I don’t want to look like I’m ready to leave early.
+
+If I slip... I’ll just deal with it. I’m not going to overthink it. I’ll just try to stay on my feet and not stumble. 
+ PSYCHIATRIST: That makes sense — you want simple, low‑key steps that don’t make a scene. Stashing cash with your keys and sitting if you feel off are solid.
+
+A few other quiet, low-effort safety moves: keep your shoes on, bring a bottle of water, make sure your phone’s charged, and quietly open a ride app beforehand so it’s ready if you need it. 
+
+Which of those feels okay to add, or would you like a one‑sentence private reminder of your plan? 
+ PATIENT: 
+
+Phone charged? Always do that.
+Water bottle? No, too weird. I'll just order it.
+Ride app... sure. It's already on my phone.
+I don't need a reminder. I know what to do.
+I just want to have a good time without the headache.
+If I slip... I'll just go home. I don't want to make a fuss.
+Let's just see how Friday goes. I'm a 6. Maybe a 6.5 if I'm lucky. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a respectful, nonjudgmental tone throughout the session. Statements such as “I’m here to listen without judgment and support your choices,” “That’s reasonable,” “That makes sense,” and “nice work” convey acceptance and avoid shame or labeling. The psychiatrist does not moralize Kevin’s injury or drinking and treats his ambivalence as understandable. This is generally strong, but it remains somewhat formulaic. Acceptance could reach a 5 if the psychiatrist more deeply affirmed Kevin’s worth beyond his “good plan,” explicitly normalized the conflict between wanting fun/social connection and wanting safety, and gave warmer, more individualized positive regard (e.g., acknowledging the discomfort of being seen falling in front of friends and the courage involved in naming it).
+
+---
+
+### 2. Empathy
+Score: 3/5
+
+Explanation:
+There are several accurate reflections, especially early on: “You’re torn — you value the way drinking helps you relax and don’t want to quit, but you also don’t want more injuries or embarrassment.” The psychiatrist also captures a key ambivalence point when saying, “That makes sense — when nights are good it’s easy to keep going.” These reflections are helpful and generally accurate. However, the empathy is often brief and more focused on behavior or plan compliance than on emotional meaning. Kevin expresses embarrassment (“My friends saw everything, which was mortifying”), fear of losing control (“I don’t trust myself to count the bills”), and concern about not making a scene (“I don’t want to make a fuss”). The psychiatrist does not deeply reflect these emotions. Stronger empathy might include: “You’re worried that if you try a limit, you might either lose the good time or end up making it weird,” or “It sounds like the fall was not just painful, but really embarrassing in front of the people you want to stay close to.” This would make the emotional content more central.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist does elicit some change talk, particularly around intention and confidence: “What would you most like to see change about your drinking or how you socialise?”, “Which of those will you try this week?”, “On a 0–10 scale, how confident are you you’ll do it?”, and “Which night this week will you try it?” Kevin provides meaningful change talk, including “I don’t want to keep breaking stuff,” “I just want to have a good time without the pain,” “I’ll try to stick to the three-beer limit,” “I just want to enjoy the night without ending up in plaster,” and the decision to try on Friday with a confidence of 6. The psychiatrist also reinforces this with “That shows you want to keep enjoying nights but reduce risk” and “moving to a 6 shows progress.” However, the psychiatrist does not consistently amplify, reflect, or deepen this change talk. There are several missed opportunities to ask follow-ups that would strengthen change language, such as “Why is it important to you to avoid another injury?”, “What would a good Friday look like to you?”, “When have you been able to keep a plan or take care of yourself while having fun?”, or “What would staying safe on Friday mean to you?” The session moves fairly quickly from change talk into behavior planning, so the change talk is evoked but not fully cultivated.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist generally avoids arguing with Kevin’s sustain talk and does not reinforce his reasons for not changing. Statements such as “you don’t want to quit,” “when nights are good it’s easy to keep going,” and “you want simple, low‑key steps that don’t make a scene” acknowledge the positive functions of drinking and the appeal of the status quo without judgment. This is important because it prevents the client from becoming defensive. However, the psychiatrist does not consistently soften sustain talk by using double-sided reflections, mild discrepancy, or strategic redirection. For example, when Kevin says, “If I slip... honestly, if I’m having a really good time, I might just keep drinking,” the psychiatrist moves on to additional safety ideas rather than reflecting the ambivalence or linking it back to Kevin’s stated concern about not getting hurt. A stronger response might be: “You want to enjoy Friday, but you also don’t want another injury. Those two things can be in tension,” or “Sometimes the part of you that wants to keep the good time going can override the part that wants to stay safe. What might help the safety part stay in the loop?” The sustain talk is not reinforced, but the softening is more passive than active.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+The psychiatrist invites Kevin’s input and does allow his contributions to shape the final plan. Kevin’s choices—cash instead of card, no script, no specific seat, no reminder, trying on Friday—clearly influence the direction of the session. However, the partnership is uneven because the psychiatrist frequently takes on an advisory role by introducing long lists of options: “set a drink limit (three), pace drinks or alternate with water, eat beforehand, sit/not use stairs, keep shoes on, pick well-lit spots, tell a friend your plan, set a leave time, or try one trial night,” followed by additional suggestions such as alarms, lower-strength drinks, if-then plans, ride apps, and phone reminders. While these are offered as choices, the overall pattern is more clinician-generated than client-generated. To strengthen partnership, the psychiatrist could more explicitly position Kevin as the expert on his own social life: “You know your friends and the pub better than I do. What have you noticed works when you’re trying to stay safe?”, “What have you done before that helped you feel okay after a few drinks?”, or “What do you think would be easy enough for you to remember?” This would make the interaction feel less like selecting from a clinician’s menu and more like co-creating with Kevin’s own knowledge.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+This is one of the strongest areas of the session. The psychiatrist maintains a clear and consistent focus on the target behavior: reducing alcohol-related injury risk during social drinking. The session begins with the pub injury, moves to Kevin’s ambivalence about drinking and safety, and then focuses on a concrete, behavior-specific plan for Friday. Questions such as “Tell me more about that night,” “What would you most like to see change,” “Which of those feels most doable this week?”, “Which of those will you try this week?”, and “Which night this week will you try it?” keep the conversation directed toward the target concern. The psychiatrist also stays relevant when Kevin introduces practical barriers, narrowing the discussion to low-effort, low-stigma steps such as leaving the card at home, bringing cash, sitting, and ordering water. There is little topic drift, and the session ends with a clear target behavior and a specific time frame. This strong focus on a specific, relevant behavior supports a 5.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently supports Kevin’s sense of choice and ownership. The opening statement, “I’m here to listen without judgment and support your choices,” sets a strong autonomy-supportive frame. The psychiatrist repeatedly asks for Kevin’s preference: “Would you be open to exploring small steps...?”, “Which of those feels most doable this week?”, “Which of those will you try this week?”, “If any, feels worth adding?”, and “How does that sit with you?” The psychiatrist does not pressure Kevin to adopt strategies he rejects. Kevin says he does not want a leave time, does not want to tell friends, does not want a script, does not want a specific seat, does not want a water bottle, and does not want a reminder, and the psychiatrist accepts these boundaries without pushing. The language also emphasizes Kevin’s agency: “You’re choosing practical, low-effort steps,” “your plan is realistic,” and “I can help you make a short private reminder.” Even when offering options, the psychiatrist frames them as optional and asks Kevin to select what fits. This consistent reinforcement of choice and ownership warrants a 5.
+
+---
+
+### 8. Collaboration
+Score: 3/5
+
+Explanation:
+There is clear collaboration in the later portion of the session, especially in building a workable plan. Kevin’s ideas influence the final plan: leaving the card at home, bringing cash, sitting if he feels off-balance, ordering water, trying on Friday, and avoiding overt scripts or announcements. The psychiatrist summarizes and builds on Kevin’s contributions, which helps create a shared plan. However, the collaboration is not fully balanced throughout. Much of the session is driven by the psychiatrist offering multiple alternative strategies, and Kevin primarily selects from those options. A more fully collaborative process would involve more client-generated ideas, such as asking Kevin what he has done before to stay safe, what works in his specific social context, or what else might come to mind before the psychiatrist provides additional options. The interaction is cooperative and respectful, but it leans more toward clinician-guided problem-solving than equal-partner co-creation.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist uses some evocative techniques, including open questions and confidence ratings: “What’s been on your mind lately?”, “What would you most like to see change?”, “Tell me more about that night,” “What might raise your confidence from 4 to a 6?”, and “Which of those will you try this week?” These questions do elicit Kevin’s own plans and some change talk. However, the psychiatrist also provides a substantial amount of advice and options, which can reduce the client’s internal motivation work. The session focuses more on selecting a behavioral strategy than on drawing out Kevin’s own values, concerns, and self-efficacy. There are several opportunities for stronger evocation, such as asking: “What is it about Friday that matters to you?”, “What would you like to feel when you leave the pub?”, “What do you value about the way you socialize with your friends?”, “When have you been able to take care of yourself while still having fun?”, or “What would make you feel proud of how you handled Friday?” The psychiatrist evokes a plan and a confidence level, but not consistently deeper motivation from within the client. Therefore, this is better than limited but still superficial for a higher score.
+
+---
+
+**Overall Global Ratings Score:** **3.0/5**
+
+The session demonstrates a solid MI foundation, particularly in autonomy support and direction. The psychiatrist is nonjudgmental, maintains a clear focus on reducing alcohol-related injury risk, and respects Kevin’s choices throughout. The main growth areas are evocation, empathy depth, and collaboration. The psychiatrist often provides helpful, practical options, but this can shift the work away from eliciting Kevin’s own motivations and solutions. With stronger double-sided reflections, deeper exploration of Kevin’s values and social context, and more client-generated ideas, the session could move from a well-supported safety plan to a more fully client-driven change process.

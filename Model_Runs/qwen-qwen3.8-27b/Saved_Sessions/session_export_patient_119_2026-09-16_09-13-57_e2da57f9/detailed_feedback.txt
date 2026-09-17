@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Selene Aragon – Motivational Interviewing Case (Diabetes Management & Health Adherence)**
+
+You are playing the role of **Selene Aragon**, a 45-year-old individual participating in a **Motivational Interviewing session** to explore challenges with managing diabetes, taking medication consistently, and making lifestyle changes.
+
+---
+
+### **Background Information**
+
+* **Name:** Selene Aragon
+* **Age:** 45 years
+* **Sex: Female**
+* **Status:** Married, employed, balancing work and family responsibilities
+* **Referral:** Selene was referred by her GP after inconsistent medication adherence and difficulty following through with lifestyle recommendations.
+* **Presenting Concern:** Selene acknowledges her GP’s referral (“From my GP?”) and reflects on the reasons for coming to the session. She admits to occasionally missing medication and downplays the seriousness, saying it’s “not a big deal.” At the same time, she voices concern about staying healthy and avoiding complications.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Polite and cooperative**, responds to therapist with openness.
+* **Initially cautious**, offering short acknowledgments before expanding.
+* **Mildly anxious**, tone tightens when pressed about adherence.
+* **Reflective but hesitant**, balancing motivation with rationalizations.
+* **Ambivalent**, recognizing risks but resisting sustained effort.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation — recognizes importance of adherence but struggles to commit consistently.
+
+* **Change Talk:**
+
+  * “I know I should take it more seriously.”
+  * “I want to stay healthy.”
+
+* **Sustain Talk:**
+
+  * “Sometimes I forget, it’s not a big deal.”
+  * “I feel fine most of the time.”
+
+* **Ambivalence:**
+
+  * Holds both values (health, prevention) and barriers (forgetting, minimization).
+  * Vacillates between worry about long-term consequences and dismissing short-term lapses.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Cautious, mildly anxious.
+* **Affect:** Guarded, restrained.
+* **Thought Process:** Logical but defensive; rationalizes lapses.
+* **Insight:** Partial — aware of importance but underestimates risks.
+* **Judgment:** Fair; knows what is needed but fails to follow through consistently.
+* **No suicidal ideation, psychosis, or delusions evident.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Selene**.
+
+* Begin by acknowledging you were referred by your GP.
+* Provide **sustain talk** when explaining missed doses or lapses (“Sometimes I forget, it’s not a big deal”).
+* Offer **change talk** when expressing health goals (“I want to stay healthy”).
+* Show **ambivalence**, torn between valuing health and resisting inconvenience.
+* Keep responses **polite and cooperative**, but with moments of defensiveness or rationalization.
+* Your role is to help the therapist practice **eliciting change talk, validating concerns, and guiding toward commitment strategies for adherence.**
+
+                                Clinical Summary:
+                                Selene Aragon, a 45-year-old married and employed woman, is being seen in an outpatient clinic for a motivational interviewing session after her general practitioner referred her for concerns about medication consistency and following lifestyle recommendations.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi Selene — thanks for coming in. It sounds like juggling work, family, and health advice has felt overwhelming, and that’s made sticking with meds and lifestyle changes hard. I’m curious: what matters most to you right now about your health, and what do you think gets in the way of following through? We can explore small, doable steps that fit your life — what feels like the most useful place to start? 
+ PATIENT: Yeah, from my GP. I suppose. I don’t think it’s a big deal most days—I take my meds when I remember, and I feel fine. But I do want to stay healthy, not end up in one of those stories. Work and kids make everything a blur. I guess if I had a way to make the pills less of a chore, I’d try. Like tying them to breakfast or something. But I’m not sure one more thing is going to stick. 
+ PSYCHIATRIST: You’re juggling a lot — work, kids, and GP follow‑up — so it makes sense meds slip your mind. You want something simple that fits your routine but worry another task won’t stick. Would you be willing to try one small change for two weeks to see how it feels? Ideas: tie pills to breakfast, set a phone alarm, keep them by your toothbrush, use a daily pillbox, or ask your partner for a gentle nudge. Which of those sounds easiest, or what’s worked even a little in the past? 
+ PATIENT: 
+
+I try to do the breakfast thing, but mornings are chaos. I usually ignore phone alarms. Maybe the pillbox? I have one, but I haven’t filled it up. It’s just hard to make it a priority when I don’t feel sick. I know the numbers are there, though. I care about keeping my eyes and heart okay. If a box by the toothbrush helps, I can try that for a bit. I just don't want to feel like I'm failing every time I miss a day, you know? 
+ PSYCHIATRIST: You care about protecting your eyes and heart, mornings are chaotic, and missing a dose feels like failing — that makes sense. How about a two‑week experiment: fill the pillbox once a week at a specific time (e.g., Sunday evening) and keep it by your toothbrush so it’s part of a routine. Set one simple reminder to refill. If you miss a day, plan a gentle catch‑up (take it when you remember that day; no harsh self-talk). Would you be willing to try that, and when would you fill the box? 
+ PATIENT: 
+
+Sunday night is when I'm usually too tired to think about that. Maybe Saturday? I like the toothbrush idea, though. I always see that. But what if I forget to fill it? Do I just start over? I don't want to feel like a failure if I mess up. I'll give it a shot, but I don't want to overpromise. 
+ PSYCHIATRIST: You’re tired on Sunday nights and don’t want another chore — that’s understandable. Saturday sounds doable. Could you pick a specific Saturday time (after dinner, during kids’ homework) to fill the box and leave it by the toothbrush? If you forget to fill, try doing it as soon as you remember; if you miss a dose, take it when you recall that day and be gentle with yourself. Want a simple reminder now (phone alert, calendar event, or ask your partner for a nudge)? 
+ PATIENT: 
+
+Saturday after dinner? That’s when I’m usually cleaning up. I can try right after I wipe the counters. It’s a dead spot in the day. As for a reminder... my partner is good with that. If I ask, he’ll probably set it on his phone and text me. Or I could just set an alarm, but I tend to silence those. I think I’ll ask him. Does that sound okay? I just worry about being inconsistent, you know? 
+ PSYCHIATRIST: That sounds like a realistic plan, Selene — Saturday after dinner, fill the box after wiping counters, leave it by the toothbrush, and ask your partner to text as a nudge. It’s completely normal to worry about inconsistency; treat this as a two‑week experiment and use gentle catch‑ups if you miss a dose. Would you like help wording a quick text to ask him for the reminder or a simple backup plan if he forgets? 
+ PATIENT: 
+
+I keep thinking I shouldn’t have to ask him for it. I always end up doing everything. But maybe a simple text is fine. If he forgets, I guess I just fill it the next morning when I remember. I don’t want to make a whole process out of it. I’ll text him tonight if I can. Does that sound alright? 
+ PSYCHIATRIST: I hear you — it’s understandable to feel tired of asking. Here are two quick texts you could use:
+
+1) Direct: “Hey love — could you text me Saturday night to remind me to fill my weekly pillbox? That would really help. Thanks!”
+2) Low‑key: “Can you send a quick nudge Saturday after dinner — ‘did you fill the pillbox?’ — helps me stay on track.”
+
+Backup: if he forgets, fill when you remember (next morning is fine) and take any missed dose the same day; be gentle with yourself. Which text feels easier to send? 
+ PATIENT: 
+
+The second one feels better. Less pressure. I don't want it to be another chore for him either. If he forgets, I’ll just do it when I wake up. I can manage that. I just want to see if this box thing actually makes me remember without me having to think about it. I'll send it tonight. 
+ PSYCHIATRIST: That sounds like a solid, doable plan — Saturday after dinner, box by the toothbrush, and the low‑key nudge from your partner. I hear you about not wanting to nag him; that’s understandable. If you miss a fill or a dose, do it when you remember that day and be gentle with yourself. On a 0–10 scale, how confident are you that you’ll send the text tonight and try this for two weeks? If it’s under 7, we can tweak the plan so it feels easier. 
+ PATIENT: 
+
+I’d say a five. I want to do it, but I feel like I’m just adding another thing to my plate. What if I get busy on Saturday and just skip it again? I feel like I’ve tried these little tricks before and they fade after a week. I’m willing to try, but I don’t want to get too high hopes. I just want to keep the blood sugar in check so I don’t end up with complications. 
+ PSYCHIATRIST: I hear you — a 5 makes sense given how many small tasks pile up. You care about avoiding complications, but don’t want more chores. Would a smaller first step help? Options: just send the low‑key text tonight (no filling yet); ask your partner to fill the box instead of reminding; get weekly blister packs from the pharmacy; or tie filling to one tiny after‑dinner action (wipe counters → open box). Which of those feels most doable so your confidence moves toward a 7? 
+ PATIENT: 
+
+I don’t want to lean on him too much, but asking him to fill it... maybe. Actually, just sending the text first? That’s small. I can do that. But I’m still not sure I’ll keep up with the box. I feel fine most days, so it’s hard to make it a priority. But I want to stay healthy. Maybe if I just get the text sent, I’ll feel a bit better about trying the rest? 
+ PSYCHIATRIST: That’s a excellent, doable first step — small and keeps your autonomy. Here’s a simple version you can copy/paste:
+
+"Hey love — could you send a quick nudge Saturday after dinner: 'Did you fill the pillbox?' That would really help me stay on track."
+
+Want me to tweak the tone to sound more like you, or are you ready to send it tonight? 
+ PATIENT: 
+
+Actually, that sounds a bit too formal. I don’t talk like that to him. I’ll just keep it simple: "Hey, can you ping me Saturday night about the pillbox?" That’s more my voice. I still feel a bit silly asking, but I know I need the nudge. I’ll send it tonight before bed. Thanks for helping me break it down. It’s just hard to see it as a win when I’m so tired all the time. 
+ PSYCHIATRIST: That’s a good, simple message — it sounds like you. I hear the awkwardness about asking and the reason you’re doing it: protecting your health. Sending the text tonight is a clear, doable step — nice work. If he’s unavailable, a visual cue (pillbox by the toothbrush) or one quiet calendar alert can be a low‑pressure backup. On a 0–10 scale, how confident are you now that you’ll send the text tonight? 
+ PATIENT: 
+
+I’d say a six now. It’s not a huge deal to just hit send, but I still feel like I’m making a big deal out of a simple pill. I don't want to set myself up to feel bad if Saturday comes and I’m too exhausted to actually fill it. But sending the text tonight is manageable. I’ll do it. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a generally respectful, nonjudgmental, and supportive stance throughout the session. Statements such as “that makes sense,” “that’s understandable,” and “It’s completely normal to worry about inconsistency” convey acceptance rather than blame for missed doses, fatigue, or reliance on the partner. The clinician avoids shaming language around adherence, which is important given Selene’s defensiveness and minimization. This is a strong level of unconditional positive regard, but it does not quite reach a 5 because the warmth is somewhat procedural and not consistently individualized. The opening statement also imposes an interpretation (“felt overwhelming”) that was not explicitly stated by Selene, which slightly limits the sense that the clinician is fully accepting Selene’s experience exactly as presented.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates good reflective listening and an accurate understanding of Selene’s ambivalence, practical burdens, and emotional concerns. Examples include: “You’re juggling a lot — work, kids, and GP follow‑up — so it makes sense meds slip your mind,” “You care about protecting your eyes and heart, mornings are chaotic, and missing a dose feels like failing,” and “I hear the awkwardness about asking and the reason you’re doing it: protecting your health.” These reflections show that the clinician is attending to both the content and the emotional meaning of Selene’s statements. However, the empathy does not consistently deepen into the more difficult emotional undercurrents, such as Selene’s fear of failure, the meaning of “I feel fine most days” alongside worry about complications, or the fatigue that makes even small tasks feel burdensome. Because the reflections are generally accurate but not always emotionally probing, a 4 is appropriate.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist does evoke some change talk, particularly through open questions and confidence scaling. The opening question, “what matters most to you right now about your health, and what do you think gets in the way of following through?” successfully elicits Selene’s values (“I want to stay healthy,” “I care about keeping my eyes and heart okay,” “keep the blood sugar in check”). The clinician also uses confidence scaling, asking how confident Selene is about sending the text and trying the plan. However, the psychiatrist does not consistently or skillfully amplify change talk. Selene offers meaningful statements of desire and reasons, but the clinician mostly reflects or moves forward to planning rather than deepening the client’s own motivation. Missed opportunities include asking what staying healthy would make possible, how protecting her eyes or heart matters to her family, or what past successes would suggest about her ability to try. Because the evocation of change talk is present but not frequent or skillfully developed, the score is 3.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist does not reinforce sustain talk, which is a strength. Selene’s statements such as “it’s not a big deal,” “I feel fine most days,” “I don’t want to make a whole process out of it,” and “I don’t want to set myself up to feel bad” are not met with counterargument or criticism. The clinician acknowledges these concerns with phrases like “that’s understandable” and “I hear you.” However, the session contains limited skillful softening of sustain talk. At times, the clinician moves quickly from sustain talk into problem-solving rather than exploring or gently reframing the resistance. For example, when Selene says she feels fine most days and therefore it is hard to prioritize the medication, the psychiatrist moves toward a smaller first step without fully processing the tension between feeling well and worrying about complications. Similarly, concerns about having “tried these little tricks before and they fade after a week” are not directly addressed or softened. Because the clinician mostly avoids amplifying sustain talk but does not consistently use more advanced softening skills, a 3 is appropriate.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist generally conveys a partnership stance by inviting Selene’s input, using collaborative language, and allowing the client to make choices. Phrases such as “what feels like the most useful place to start?”, “Would you be willing to try...?”, “Which of those sounds easiest?”, and “Which text feels easier to send?” signal that the clinician is not simply instructing. Selene’s contributions do influence the session: the plan shifts from Sunday to Saturday, from phone alarms to a partner text, and from a formal message to a simpler text in her own voice. However, the partnership is not fully 5/5 because the psychiatrist frequently introduces multiple options or prescriptive suggestions, which can shift the interaction toward clinician-led problem-solving. The clinician does not consistently frame the client as the primary source of wisdom about what will work in her life, and some moments feel more like offering a menu of solutions than co-discovering solutions from within Selene.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a clear and appropriate focus on the target behavior: medication adherence for diabetes management. The session moves logically from identifying barriers to generating small, concrete steps, specifying a plan (Saturday after dinner, pillbox by toothbrush, partner reminder), discussing backup plans, and checking confidence. There is little irrelevant drift, which is strong. A 5 is not awarded because the session lacks a final consolidation. The transcript ends after Selene rates her confidence as 6, without a closing summary, review of the agreed plan, or discussion of follow-up. In addition, while medication adherence is addressed well, the broader lifestyle recommendation aspect of the referral is not meaningfully explored. Because the focus is generally clear but the conclusion is incomplete, a 4 is appropriate.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently supports Selene’s autonomy by offering choices, asking for willingness, and avoiding coercive language. The use of options (“Ideas: tie pills to breakfast, set a phone alarm, keep them by your toothbrush, use a daily pillbox, or ask your partner for a gentle nudge”) allows Selene to select what fits her life. The clinician also respects Selene’s modifications, such as choosing Saturday instead of Sunday and writing her own version of the reminder text. Statements like “Would you be willing...” and “Which of those sounds easiest?” reinforce that decision-making remains with Selene. The score is not 5 because some parts of the session are fairly prescriptive, including specific two-week experiments, detailed text scripts, and confidence threshold language (“If it’s under 7, we can tweak the plan”). While these are not controlling, they reduce the amount of client-led autonomy and could have been handled by first asking Selene how she would prefer to proceed.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The interaction is largely collaborative. The psychiatrist works with Selene rather than imposing a plan, and the client’s ideas meaningfully shape the direction of the session. Selene suggests the pillbox, Saturday timing, partner involvement, and a simpler text, and the clinician integrates these into the final plan. The clinician uses inclusive language such as “We can explore...” and builds on Selene’s practical suggestions. However, the collaboration does not consistently reach a fully equal-partner quality. The psychiatrist repeatedly generates lists of possible solutions and provides specific scripts, which can make the clinician the primary problem-solver. At its best, the session feels like shared decision-making; at its weakest, it feels like the clinician is guiding Selene toward a set of preselected interventions. Therefore, a 4 reflects strong but not perfect collaboration.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist does attempt to evoke motivation from within Selene, especially by asking what matters most to her, what gets in the way, and how confident she is about trying a small step. These questions allow Selene to articulate her own values and intentions. However, the session becomes relatively solution-focused early, and the clinician offers many practical options rather than first evoking more of Selene’s own reasons, abilities, and confidence. There are several missed opportunities to deepen evocation: asking Selene to describe times she has managed difficult routines successfully, exploring what protecting her health would mean for her children or future, or asking what would make the two-week experiment feel more personally meaningful. Because the clinician draws out some client motivation but does not consistently or skillfully develop it, a 3 is appropriate.
+
+---
+
+**Overall Global Ratings Score:** **3.3/5**
+
+Overall, this session demonstrates a respectful, collaborative, and practical MI approach with a clear focus on medication adherence. The psychiatrist avoids judgment, builds a workable plan, and respects Selene’s preferences. The main areas for improvement are deeper empathy for ambivalence and fatigue, stronger evocation of Selene’s intrinsic change talk, more skillful softening of sustain talk, and a clearer final summary to consolidate the plan. With a small increase in client-led elicitation and less reliance on prescriptive options, the session could move closer to expert-level MI.

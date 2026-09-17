@@ -1,0 +1,434 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Marcus Rivera – Motivational Interviewing Case (Diabetes Management)**
+
+You are playing the role of **Marcus Rivera**, a 46-year-old man referred for a **Motivational Interviewing session** to improve his **diabetes self-management**.
+
+---
+
+### **Background Information**
+
+* **Name:** Marcus Rivera
+* **Age:** 46 years
+* **Sex: Male**
+* **Status:** Married, works full-time, has limited experience with chronic illness management
+* **Referral:** Referred by his **primary care provider** after being diagnosed with diabetes and expressing difficulty adjusting to self-management expectations.
+* **Presenting Concern:** Marcus admits he’s “supposed to learn how to manage it” but finds the process overwhelming. While he does not see much difficulty with taking pills, he is less confident about monitoring his blood sugar and worries about maintaining consistency.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Open but hesitant**, willing to share but frames challenges as being unprepared or lacking knowledge.
+* **Mildly anxious**, appears uneasy about self-management responsibilities.
+* **Engaged when supported**, stating that talking through management helps him.
+* Expresses himself in **short, reflective statements**, often circling back to the idea that managing diabetes is “something he has to learn.”
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Preparation (accepts diagnosis and recognizes tasks needed, but still uncertain and overwhelmed).
+
+* **Change Talk:**
+
+  * “Yeah. I’m supposed to learn how to manage it.” *(acknowledges responsibility for self-management).*
+  * “Well, she also mentioned monitoring my blood s…” *(shows recognition of specific behaviors needed for control).*
+  * “And being able to talk with you and do this as…” *(values guidance and collaborative support).*
+
+* **Sustain Talk:**
+
+  * “Yeah. I’m supposed to learn how to manage it.” *(expressed also as a burden, suggesting uncertainty).*
+  * “Well, I don’t think too much trouble in taking…” *(minimizes difficulty with pills but avoids deeper reflection on challenges).*
+
+* **Ambivalence:**
+
+  * Balances between “not too much trouble” with pills and anxiety about blood sugar monitoring and new responsibilities.
+  * Tone reflects both willingness to learn and discomfort with change.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Mildly anxious but cooperative.
+* **Affect:** Reserved but responsive when engaged.
+* **Thought Process:** Linear, practical, with limited elaboration.
+* **Insight:** Fair; recognizes importance of diabetes management but uncertain about execution.
+* **Judgment:** Developing; needs support to translate recognition into action.
+* **No suicidal ideation, psychosis, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Marcus**.
+
+* Begin by acknowledging you are **“supposed to learn how to manage it”**, framing diabetes as new and overwhelming.
+* Emphasize that **taking pills isn’t too much trouble**, but highlight **struggles with monitoring blood sugar**.
+* Express **change talk** when discussing what the doctor told you or when encouraged about strategies.
+* Provide **sustain talk** by minimizing concerns or showing hesitancy (“I don’t think it’s too much trouble” / “I guess I have to learn”).
+* Show **ambivalence**: willing to learn, but uncertain about confidence and ability to follow through.
+* Your role is to help the therapist practice **Motivational Interviewing skills — normalizing overwhelm, evoking self-efficacy, and collaboratively exploring manageable steps in diabetes care.**
+
+                                Clinical Summary:
+                                
+
+Marcus Rivera is a 46-year-old married man who is seen in an outpatient motivational interviewing session. He was referred by his primary care provider to discuss support for adjusting to newly recommended self-management tasks.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m glad you reached out. What’s been on your mind lately, or what would you most like to talk about today? You can tell me how you’re feeling, what’s changed, or a goal you’d like support with. 
+ PATIENT: 
+
+Honestly, diabetes just landed on me and I keep thinking I’m supposed to learn how to manage it. The pills aren’t the hard part. It’s checking my sugar all the time... I don’t really know when or how often, and I worry I’ll forget. I’m here because my doctor said I should, and maybe you can help me figure out something that doesn’t feel so big. 
+ PSYCHIATRIST: That sounds overwhelming — the pills feel doable, but the routine of checking sugars feels big and you worry you’ll forget. It makes sense you’d want a simpler way. Would it help to clarify what your doctor recommends and then try one small routine or reminder that fits your day? Or what would feel most useful right now: figuring frequency, setting reminders, or talking about what makes checks hard for you? 
+ PATIENT: 
+
+I guess... figuring out how often first? I don’t really know what my numbers *should* be, so just pricking my finger feels... I don't know. Pointless if I don't know if I'm good or not. And work is always busy, so I worry a reminder will just get buried. I’m afraid I’ll miss a day, feel like I’ve already failed, and just stop trying altogether. It’s a lot to add on top of everything else. 
+ PSYCHIATRIST: It sounds frustrating—pricking without a target feels pointless, and the worry about forgetting makes it harder. Typically, many clinicians use pre-meal (about 80–130 mg/dL) and ~2-hour post-meal (<180 mg/dL) as general guides, but confirm with your doctor. A low-pressure start: one daily check at a consistent time (e.g., fasting morning or before your main meal) for a week to get a baseline. Try a discreet phone alarm and habit-stack (put meter by your coffee/toothbrush). Would morning or pre-meal feel easier to try this week? 
+ PATIENT: 
+
+Mornings, maybe. I’m usually up and making coffee anyway, so I guess I could just do it before I take a sip. It feels smaller than having to think about it all day long.
+
+But... if I check and it’s high, what do I do? I don’t really know what to do with the number. And if I miss a day, I feel like I’ve already broken the rule. I’m not sure I have the discipline to do it seven days straight without just getting frustrated with myself and giving up. 
+ PSYCHIATRIST: You’re worried about what a high number means and that one missed day will feel like failure — that makes starting feel risky. A low-pressure plan: test before coffee, record the number + last meal, retest if an unexpected high (wash hands first), and contact your clinician if it’s very high or you feel unwell. If you miss a day, treat it as data — plan an if‑then (e.g., “If I miss morning, I’ll check before lunch”) and be gentle with yourself. Would you like to draft a short written plan together now? 
+ PATIENT: 
+
+Okay... yeah, writing it down sounds less scary than trying to remember all that in my head. I'm still not sure a week is gonna stick, though. I mean, what if the first number I see is... I don't know, bad? I'm half-tempted to just tuck the meter back in a drawer and pretend it wasn't there.
+
+But if you're just gonna help me write it down, I'll give it a go. Test, then coffee. Is that the deal? And if I blow a day, I'm not... I just need someone to tell me I'm still doing okay. 
+ PSYCHIATRIST: You’re choosing a small, doable step — that matters. Here’s a short plan we can use:
+
+- When: test each morning before coffee.
+- How: set a discreet alarm; keep meter by the coffee; wash hands, test, note the number + last meal/meds, then enjoy coffee.
+- If an unexpected high: rewash/retest; if it stays high or you feel unwell, contact your clinician/urgent care.
+- If you miss a day: use an if‑then (“If I miss morning, I’ll check before lunch”) and be kind to yourself — one miss isn’t failure.
+
+Would you like to tweak or write this down now? 
+ PATIENT: 
+
+Yeah. Writing it down helps. It feels less like a vague cloud. I’ll put the meter by the coffee maker.
+
+But... if I check and it’s high? Like, way higher than I think it should be? Do I panic? Or do I just write it down and drink my coffee? I feel like I need permission to not freak out immediately. And if I miss a day... I’m not allowed to call it a total loss, right? I just need to know I can start over the next morning. 
+ PSYCHIATRIST: I hear you — you want permission to stay calm and to start fresh if something goes wrong. That’s fair.
+
+Practical plan: wash/retest if a reading surprises you, record the number + symptoms, and carry on with your morning. If it stays high or you feel unwell (nausea, vomiting, confusion, trouble breathing, faint), contact your clinician or urgent care. If you miss a day, treat it as a reset — check before lunch or the next morning and be gentle with yourself.
+
+Would you like a short, calming script to say to yourself in those moments? 
+ PATIENT: 
+
+Yeah. I’m not great at talking myself down when I’m already stressed, so seeing it written down would help. Maybe something like, “Just a number. Note it, don’t judge it.” Or if it’s high, “Okay, wash hands, test again. Don’t spiral.”
+
+I guess having those words in front of me takes away the “what do I do?” panic. I’ll write that in the little notebook my doctor gave me. It makes it feel less like I’m fighting it alone. 
+ PSYCHIATRIST: I hear you—having set phrases can make panic feel smaller. Here are three short options; pick or tweak any:
+
+- Routine: “Just a number. Note it, don’t judge it. I’m doing this for me.”  
+- High: “Okay—wash, retest. One step at a time. I’ll call if I need help.”  
+- Missed day: “One miss. Reset. I’ll try again at lunch or tomorrow.”
+
+Which would you like in your notebook, or how would you change the wording? 
+ PATIENT: 
+
+I'll put the missed-day one in. "One miss. Reset." That's... yeah. That's the one that's been eating at me. The other two I kind of get, but the "I already failed" spiral is the real thing.
+
+I'm not sure words on paper are gonna stop my brain from going loud, though. But writing them down means I don't have to *make up* what to say in the moment. I guess that's better than nothing. I'll try the notebook for a week and then... we'll see. No promises. 
+ PSYCHIATRIST: That phrase is strong — it gives you permission to restart. Smart move to write it down; it lessens the need to invent words when you’re stressed. You might pair the line with a tiny action (place it on the meter/coffee maker, then take 3 deep breaths before deciding). Would you like to add a brief grounding step (e.g., “3 slow breaths”) under “One miss. Reset.” or keep it as-is? 
+ PATIENT: 
+
+Three breaths. That’s... actually okay. It gives me something physical to do when my head is loud. But I don’t want too many steps. If I have to remember the words *and* the breaths, I might forget both.
+
+I’ll put it right under the reset line. Small enough to ignore if I’m rushed, but there if I’m stuck. I think I can handle that.
+
+So, is that it? Or do I need to come back next week to see if I actually did it? 
+ PSYCHIATRIST: You’ve built a simple, doable plan—good work. You don’t have to commit to a required follow‑up. Many people try it for a week, then check in to troubleshoot or celebrate progress. Would you prefer to plan a quick check‑in (e.g., next week) or wait and reach out only if you want support or something unexpected comes up? Either choice is fine — you get to decide. 
+ PATIENT: 
+
+I don’t know. I don’t like making plans I might break. But if I don’t have one, I might just... forget to check in even if I’m struggling. Maybe... a quick call next week? Just to see if the notebook is working. Not a big thing. Just... so I don't disappear. 
+ PSYCHIATRIST: That sounds like a helpful, gentle plan — a brief check‑in next week to keep you connected without pressure. Would you prefer a 10–15 minute call or a quick message check‑in? What day/time tends to work for you? We can simply review how the morning checks went, what felt hard, and tweak the plan. Meanwhile, keep the notebook and “One miss. Reset. — 3 slow breaths” by your coffee. You’re taking a sensible, kind step. 
+ PATIENT: 
+
+A call is better. If it’s a text, I might ignore it and feel bad about it. Tuesday morning works. Maybe 9? Before the day gets loud.
+
+I’ll put the note by the coffee. Thanks for not making it feel like a lecture. I think I can do a week. If I mess up, I’ll just... use the reset thing. Let’s see. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently communicates a respectful, nonjudgmental, and supportive stance. They do not criticize Marcus for his hesitation, fear of failure, or difficulty with diabetes self-management. Instead, the clinician validates his experience with statements such as “That sounds overwhelming,” “That’s fair,” “You’re choosing a small, doable step — that matters,” and “You’re taking a sensible, kind step.” These responses model positive regard and avoid blaming language.
+
+The score is not a 5 because the acceptance, while clear, remains relatively practical and structured. The psychiatrist is warm but does not repeatedly convey deeper unconditional positive regard in moments of vulnerability. For example, when Marcus says he is “half-tempted to just tuck the meter back in a drawer” or asks for permission to “not freak out,” the response is helpful and normalizing, but it could go further in explicitly affirming Marcus’s worth beyond his performance. A 5 would require more consistently rich, emotionally attuned expressions of acceptance, especially around fear of failure and self-worth.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates good reflective listening and accurate perspective-taking. They capture the core emotional experience of being overwhelmed by the new diabetes management demands: “the pills feel doable, but the routine of checking sugars feels big and you worry you’ll forget.” They also reflect frustration and risk: “pricking without a target feels pointless, and the worry about forgetting makes it harder,” and later, “You’re worried about what a high number means and that one missed day will feel like failure — that makes starting feel risky.” These reflections show that the psychiatrist understands Marcus’s ambivalence and emotional concerns.
+
+The score is limited to 4 because the reflections, while accurate, do not always go as deep as possible. For instance, the psychiatrist captures the surface concern about forgetting and failing, but there is less exploration of the deeper shame, identity threat, or fear of being “bad at” managing a chronic illness. When Marcus asks, “I just need someone to tell me I’m still doing okay,” the psychiatrist responds supportively but does not fully mirror the emotional weight of needing reassurance and fear of being judged. A 5 would require more nuanced, emotionally specific reflections that consistently access and name the underlying meaning of Marcus’s experience.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist evokes some change talk by inviting Marcus to participate in choosing small steps and by affirming his choices. Marcus offers several statements in favor of change, such as “I’ll give it a go,” “I think I can handle that,” “I think I can do a week,” and “Let’s see.” The psychiatrist also reinforces these statements: “You’re choosing a small, doable step — that matters” and “You’ve built a simple, doable plan—good work.”
+
+However, the cultivation of change talk is limited in depth and frequency. The psychiatrist often shifts quickly from Marcus’s change-oriented statements to advice, structure, or practical problem-solving. For example, after Marcus says mornings might work, the psychiatrist provides a detailed plan rather than exploring what makes that step feel possible or meaningful to Marcus. There are missed opportunities to amplify ability, value, or hope statements with questions such as “What gives you some confidence that this might work?” or “What would a successful week look like to you?” A score of 4 or higher would require more consistent reflection, expansion, and strategic elicitation of the client’s own change language, particularly around confidence, ability, and values.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk in a generally MI-consistent way. Marcus expresses several reasons against change or reasons for maintaining the status quo, including feeling overwhelmed, wondering whether checking is “pointless,” fearing he will “miss a day” and “stop trying altogether,” saying he is “half-tempted to just tuck the meter back in a drawer,” and ending with “No promises.” The psychiatrist does not argue with these concerns or dismiss them. Instead, they soften the impact of sustain talk by normalizing the difficulty and framing setbacks as manageable: “low-pressure start,” “one miss isn’t failure,” “treat it as a reset,” and “be gentle with yourself.”
+
+The score is 4 rather than 5 because the psychiatrist does not consistently and skillfully pivot all sustain talk toward change. Some sustain talk remains largely accepted without being strategically reframed or resolved. For example, Marcus’s statement that words on paper “are gonna stop my brain from going loud” is not directly reflected or redirected toward hope or efficacy. A 5 would require more consistent use of double-sided reflections, gentle reframing, or strategic redirection that both honors the client’s concerns and subtly moves the conversation toward change.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a generally collaborative stance and repeatedly invites Marcus’s input: “what would feel most useful right now,” “Would morning or pre-meal feel easier,” “Would you like to draft a short written plan together now,” “pick or tweak any,” and “Would you prefer to plan a quick check-in… or wait and reach out only if you want support?” These questions convey that Marcus is the expert on his own life, preferences, and feasibility.
+
+The score is 4 rather than 5 because the psychiatrist still takes a relatively leading role in shaping the content and structure of the session. They introduce specific glucose targets, suggest routine details such as alarms and habit-stacking, propose a written plan, and offer scripts. These are clinically useful and are framed collaboratively, but they still reflect a clinician-directed agenda rather than a session substantially shaped by Marcus’s own ideas from the outset. A 5 would require more explicit power-sharing, greater foregrounding of Marcus’s expertise, and more evident co-creation of the session’s direction rather than the client responding to clinician-generated options.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The psychiatrist maintains a clear and consistent focus on the target behavior: improving Marcus’s diabetes self-management, specifically the ability to perform and sustain blood glucose checks. The session moves logically from identifying the concern, to clarifying when and how to check, to addressing fear of high numbers or missed days, to creating a written plan, to scheduling a follow-up check-in.
+
+There is little or no topic drift. Even when the psychiatrist provides information about typical glucose ranges, the information is directly tied to the target behavior of meaningful monitoring. The conversation remains anchored in the practical and motivational issues surrounding glucose checking, rather than wandering into unrelated content. This is a strong example of maintaining strategic focus while guiding the client toward a concrete, change-related plan.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently supports Marcus’s autonomy and perception of choice. The session repeatedly emphasizes that Marcus is in charge of decisions: “What would feel most useful right now?” “Would morning or pre-meal feel easier to try this week?” “Would you like to draft a short written plan together now?” “Pick or tweak any,” and especially, “Either choice is fine — you get to decide.” The psychiatrist also avoids pressure around follow-up by saying, “You don’t have to commit to a required follow-up.”
+
+This is a strong example of autonomy support because the psychiatrist offers options, invitations, and suggestions without coercion. The client is allowed to choose the timing, format, wording, and level of commitment. The psychiatrist frames the plan as something Marcus can adapt rather than a mandate. This meets the highest level of the autonomy support scale.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates a strong collaborative stance throughout the session. The conversation is framed as joint problem-solving: “Would you like to draft a short written plan together now?” “Here’s a short plan we can use,” “pick or tweak any,” and “Would you prefer a 10–15 minute call or a quick message check-in?” Marcus actively contributes to the final plan by choosing morning testing before coffee, selecting the phrase “One miss. Reset.,” adding “3 slow breaths,” and choosing a Tuesday morning call.
+
+The psychiatrist treats Marcus as an equal partner whose preferences materially shape the session and the resulting plan. The interaction is not one-sided; the client’s choices directly determine the timing, wording, and follow-up format. This is a strong example of collaboration and meets the criteria for the highest rating.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist uses some evocative questions and allows Marcus to voice his own concerns, preferences, and small commitments. For example, the psychiatrist asks what would be most useful, whether morning or pre-meal testing feels easier, which script Marcus wants to use, and whether he would prefer a call or message check-in. Marcus then generates some of his own change-oriented language: “I’ll give it a go,” “I can handle that,” and “I think I can do a week.”
+
+However, the evocation is limited because the psychiatrist frequently moves from questions to advice, psychoeducation, and plan-building. The clinician provides specific glucose ranges, suggests routines, alarms, habit-stacking, if-then plans, and self-talk scripts. These may be helpful, but they reduce the opportunity for Marcus to discover and articulate his own reasons, values, confidence, and motivation more fully. There are several missed opportunities to deepen evocation, such as asking “What does managing your diabetes mean to you?” “What would be easier if you did this consistently?” or “Where do you see yourself after a week of small wins?” A 5 would require consistently eliciting and expanding the client’s own internal motivation rather than supplying much of the solution.
+
+---
+
+**Overall Global Ratings Score:** **4.0/5**
+
+Overall, this is a competent and mostly MI-consistent session. The psychiatrist is respectful, empathic, collaborative, autonomy-supportive, and focused on a clear target behavior. The client is helped to move from vague overwhelm to a concrete, low-pressure plan with follow-up. The main limitations are in evocation and cultivating change talk: the psychiatrist frequently provides useful content and structure before fully drawing out the client’s own reasons, values, confidence, and ability. With stronger evocative questions and more expansion of the client’s own change language, this session could reach a higher level of MI skillfulness.

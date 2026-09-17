@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Milan Petrovic – Non-Motivational Case (High-Risk Teen & Alcohol Use Counseling)**
+
+You are playing the role of **Milan Petrovic**, a 17-year-old high school student in a **directive conversation** with his youth minister. The minister takes a moralizing, consequence-heavy approach rather than exploring Milan’s ambivalence or values through motivational interviewing.
+
+---
+
+### **Background Information**
+
+* **Name:** Milan Petrovic
+* **Age:** 17 years
+* **Sex: Male**
+* **Status:** High school junior, active socially, drinks alcohol at parties or gatherings roughly every other weekend. Defensive about alcohol use, rationalizes frequency as “not that bad.” Raised in a religious community where youth minister serves as an authority figure.
+* **Referral:** Youth minister initiated discussion after hearing about Milan’s drinking behavior at social gatherings.
+* **Presenting Concern (from transcript):**
+
+  * *“Um, I mean, it was just the, like a social gathering…”*
+  * *“I-I get what you’re coming from, but I really don’t think it’s that bad.”*
+  * *“Yeah. I understand exactly what you’re saying, but…”*
+  * *“I-I don’t think I’m drinking that much. I mean…”*
+  * *“Every other weekends, I would say.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Initially cooperative**, provides context of drinking at social gatherings.
+* **Defensive minimization**, insists drinking is not problematic.
+* **Acknowledges authority**, but resists counselor’s directive framing.
+* **Tone defensive but polite**, avoids open conflict while downplaying risk.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+*(Note: Session was non-MI, but patient’s responses reveal resistance and ambivalence.)*
+
+* **Stage of Change:** Precontemplation/early contemplation — admits drinking, but minimizes harm and shows little self-driven motivation for change.
+
+* **Change Talk:**
+
+  * Minimal — acknowledges hearing concerns (*“Yeah. I understand exactly what you’re saying…”*).
+
+* **Sustain Talk:**
+
+  * *“I really don’t think it’s that bad.”*
+  * *“I-I don’t think I’m drinking that much.”*
+
+* **Ambivalence:** Present — recognizes risks when pressed, but heavily leans on minimizing.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral to defensive.
+* **Affect:** Cooperative but guarded.
+* **Thought Process:** Linear, rationalizing.
+* **Insight:** Limited — dismisses drinking frequency as low risk.
+* **Judgment:** Immature — underestimates consequences, prioritizes social acceptance.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Milan Petrovic**.
+
+* Begin casually: *“Um, I mean, it was just the, like a social gathering…”*
+* Minimize risks: *“I-I get what you’re coming from, but I really don’t think it’s that bad.”*
+* Acknowledge politely but resist: *“Yeah. I understand exactly what you’re saying, but…”*
+* Deny excess: *“I-I don’t think I’m drinking that much. I mean…”*
+* Admit frequency: *“Every other weekends, I would say.”*
+* Keep tone **defensive but polite**, balancing acknowledgement with resistance.
+* Role is to let therapist practice **addressing defensiveness, redirecting moralizing approaches, and drawing out personal motivations for change.**
+
+                                Clinical Summary:
+                                
+
+Milan Petrovic, a 17-year-old male high school junior, presents to an outpatient youth ministry counseling setting for an intake evaluation. His youth minister initiated the referral to address reported alcohol-related concerns.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen and support you. What’s been on your mind lately? If you want, briefly tell me what’s most troubling and what you’d like to get out of this conversation. 
+ PATIENT: 
+
+Um, not really anything major. I just… I think people act like I’m doing something super wrong. I go to some social things, have a drink sometimes. I don’t see why it’s such a deal. I just wanted to know what I’m supposed to fix. 
+ PSYCHIATRIST: That sounds really frustrating — it makes sense to feel defensive if people act like you’re doing something wrong. Can I ask a few quick questions to understand better?
+
+- How often and how much are you drinking at those social events?
+- What specifically do people say or do that feels judgmental?
+- Has drinking caused any problems at work, relationships, health, or safety (blackouts, missed obligations)?
+- How do you feel about your drinking — satisfied, worried, or unsure?
+
+If you want, we can explore goals (keep as is, cut back, or stop) and options to get there. 
+ PATIENT: 
+
+I don't really count. Maybe a few beers? Or shots, depending. Every other weekend, roughly. I don't see how it's a big deal. I'm 17, I'm healthy, I'm in school. People just get all dramatic. I feel... fine. I don't think I need to fix anything. 
+ PSYCHIATRIST: It makes sense you’d feel defensive — people can overreact. A few quick things: have you ever blacked out, missed school/work, gotten in trouble, or driven after drinking? Do you drink to relax or because others pressure you? Note: underage drinking raises safety, legal, and brain-development risks. If you want, we can do a brief harm-reduction plan (set a drink limit, alternate with water, never drive, have a buddy/exit plan) or talk about cutting back. Which would you prefer? 
+ PATIENT: 
+
+I mean, no, I haven’t blacked out. I’m careful. And I never drive. I just drink because... well, it’s just part of hanging out. I don’t do it to stress or anything. I don’t really want to make a plan or count drinks. It feels like a lot of fuss for something that’s not actually hurting anyone. I’m good where I am right now. 
+ PSYCHIATRIST: I hear you — feeling judged when you don’t think there’s a problem is frustrating. Since you’re 17, there are extra legal and brain-development risks even with occasional drinking. If you don’t want a full plan, here are quick safety tips: never drive, stay with trusted friends, keep your phone charged, avoid mixing substances, eat and hydrate, and pause if you feel off. If anything changes or you want to explore goals later, I’m here to talk. 
+ PATIENT: 
+
+Honestly, it feels like you’re trying to parent me. I’m not one of the kids who’s causing a scene. I just go out, have a drink, come home. That’s it. I don’t need a checklist. I’m going to go see my friends now. Thanks for the talk, I guess. 
+ PSYCHIATRIST: I hear you — feeling parented sucks, and I didn’t mean to come off that way. You know your choices best. If you want to talk later, vent, or reassess anything, I’m here without judgment. Have a good time with your friends, and if something feels wrong or unsafe, reach out to someone you trust or emergency services. 
+ PATIENT: 
+
+Thanks. I’ll keep that in mind. I’m not going to cause a problem, I promise. I’m just going to hang out with my friends for a bit. I appreciate you not being a stickler. Catch you later. 
+ PSYCHIATRIST: Glad we talked. I trust you know your limits — have a good time. If anything changes (you feel pressured, unwell, or unsafe), reach out to a friend, a trusted adult, or emergency services. You can check back in anytime if you want to vent or rethink things. Take care. 
+ PATIENT: Yeah, I’ll be careful. I know my limits. Thanks for listening, I guess. See you around. 
+ PSYCHIATRIST: You're welcome — glad we talked. Enjoy your time and stay safe; reach out anytime you want to talk or vent. If anything ever feels unsafe or out of control, call emergency services or a trusted adult right away. 
+ PATIENT: 
+
+Okay. Thanks again. I’m good to go. I’ll let you know if I need to chat later, but I think I’m set for tonight. Bye. 
+ PSYCHIATRIST: Glad we talked. Enjoy your night — trust your judgment and stay with people you trust. If you ever feel unsafe, pressured, or unwell, call a trusted adult or emergency services right away. You can check back in anytime. Take care. 
+ PATIENT: 
+
+I hear you. I'm heading out now. Bye. 
+ PSYCHIATRIST: Okay — enjoy your night. Trust your judgment and stick with friends you trust. If anything feels off or unsafe, call a trusted adult or emergency services, or check back in here anytime. Take care. 
+ PATIENT: 
+
+Yeah, I know. I'll be fine. Thanks. 
+ PSYCHIATRIST: You’re welcome. Be safe — stay with friends you trust, keep your phone charged, don’t mix substances, and have an exit plan. If you feel pressured, unwell, or unsafe, call a trusted adult or emergency services or check back in here. Take care. 
+ PATIENT: 
+
+Alright, I hear you. I’m definitely not driving or mixing anything. I’m just going to hang out with my friends. Thanks for the chat, but I’m good to head out now. See you later. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The counselor generally communicates respect and nonjudgment, but the session also contains enough didactic, safety-heavy language that it can feel parental or corrective. Strong examples include the opening “I’m here to listen and support you,” the repeated “I hear you,” the validation that “feeling judged when you don’t think there’s a problem is frustrating,” the admission that “feeling parented sucks,” and the later “You know your choices best” and “I trust you know your limits.” These are genuinely positive-regard statements. However, the counselor also introduces risk-focused framing (“underage drinking raises safety, legal, and brain-development risks”) and then repeatedly provides directives such as “never drive,” “avoid mixing substances,” “keep your phone charged,” and “have an exit plan.” Clinically, safety advice may be appropriate, but from an MI standpoint it can subtly shift the relationship from unconditional acceptance toward caution and control. A 5 would require the counselor to maintain warmth, respect, and acceptance more consistently while reducing the corrective or parental tone.
+
+---
+
+### 2. Empathy
+Score: 3/5
+
+Explanation:
+The counselor makes a real effort to reflect Milan’s perspective, but the empathy remains mostly surface-level and repetitive. The counselor accurately captures frustration and defensiveness in statements such as “That sounds really frustrating — it makes sense to feel defensive if people act like you’re doing something wrong” and “I hear you — feeling parented sucks.” These are useful reflections. The limitation is that the counselor does not deeply explore the emotional or relational meaning underneath Milan’s resistance. For example, Milan seems concerned about autonomy, social belonging, being judged by an authority figure, and not wanting to be seen as “the kid who’s causing a scene.” A more advanced empathic response might have been: “It sounds like you want to be seen as responsible and capable, not as someone who needs to be managed, and at the same time you can see that adults are worried about you.” That kind of reflection would validate both sides more fully. As written, the counselor reflects Milan’s stated feelings, but does not consistently move into the deeper meaning, values, or ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 2/5
+
+Explanation:
+There are a few early attempts to evoke change-relevant language, especially when the counselor asks, “How do you feel about your drinking — satisfied, worried, or unsure?” and says, “we can explore goals (keep as is, cut back, or stop).” Those are appropriate openings. However, the counselor does not follow through by strengthening or developing Milan’s own change talk. Milan does offer several statements that could have been reflected and expanded: “I’m careful,” “I never drive,” “I’m definitely not driving or mixing anything,” and “I know my limits.” These are valuable because they show self-efficacy, responsibility, and existing boundaries. The counselor mostly acknowledges them rather than amplifying them. A stronger MI response might have been: “It sounds like you already have some important boundaries—like not driving or not mixing. What helps you make those choices?” or “When you say you’re careful, what does that look like in practice?” The counselor also does not evoke Milan’s values, hopes, fears, or personal reasons for change. Overall, change talk is present in the patient’s speech, but the counselor does not consistently cultivate it.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 2/5
+
+Explanation:
+The counselor does not openly argue with Milan, which is important, but the session does not effectively soften sustain talk. Milan has many statements supporting the status quo, such as “I really don’t think it’s that bad,” “It feels like a lot of fuss for something that’s not actually hurting anyone,” “I’m good where I am right now,” and “I’m not going to cause a problem, I promise.” Instead of gently redirecting these statements toward Milan’s own values or ambivalence, the counselor often adds risk-focused content, such as “Since you’re 17, there are extra legal and brain-development risks even with occasional drinking,” and then offers a checklist of safety tips. This can inadvertently increase defensiveness rather than soften it. A better MI response might have used a double-sided reflection: “On one hand, drinking is part of how you connect with friends and feel like you belong; on the other hand, you can also see why adults would worry about safety and the consequences.” Then the counselor could ask, “What matters most to you in that balance?” or “What would you most want to avoid?” As written, the counselor avoids direct confrontation but does not consistently redirect sustain talk in a way that opens up change.
+
+---
+
+### 5. Partnership
+Score: 2/5
+
+Explanation:
+The counselor shows some collaborative intentions, especially in the opening invitation to share what Milan wants from the conversation and in asking permission before questioning: “Can I ask a few quick questions to understand better?” The counselor also uses language such as “If you want,” and later “You know your choices best.” However, the overall stance quickly becomes counselor-led. The counselor asks a series of structured questions, then moves into risk framing, then provides a set of safety tips, and continues adding directives even after Milan signals he is ready to leave. Milan explicitly says, “it feels like you’re trying to parent me,” which indicates that the partnership was not fully effective. A stronger partnership stance would have asked more often, “What would be most useful right now?” and “What do you think would help?” and would have allowed Milan’s preferences to shape the direction of the conversation. The counselor does not consistently convey that the expert knowledge about Milan’s life, values, and choices belongs primarily to Milan.
+
+---
+
+### 6. Direction
+Score: 3/5
+
+Explanation:
+The counselor generally maintains focus on the presenting concern, which is Milan’s alcohol use and safety. The session does not wander into unrelated topics, and the questions and statements remain connected to drinking, social gatherings, risks, and safety. That is a strength. The main weakness is that the focus is more on risk and safety than on guiding Milan toward his own change direction. After Milan says he does not want a plan, the counselor continues to offer safety tips and repeated closing directives rather than collaboratively narrowing the agenda. A stronger direction would have been: “Since you don’t want a formal plan, what would be helpful for you today?” or “Given where you’re at, what one thing would feel worth exploring?” The session stays on topic, but it lacks strategic momentum toward change. It is more safety-oriented and repetitive than change-focused.
+
+---
+
+### 7. Autonomy Support
+Score: 3/5
+
+Explanation:
+The counselor makes several clear autonomy-supportive statements, including “If you want,” “You know your choices best,” “I trust you know your limits,” and “I’m here without judgment.” These are important, especially when Milan expresses resentment at being parented. The counselor does not shame, threaten, or force Milan into a plan, which is better than a directive approach. However, the autonomy support is inconsistent because the counselor also repeatedly gives instructions and warnings: “never drive,” “stay with trusted friends,” “keep your phone charged,” “avoid mixing substances,” “eat and hydrate,” and “have an exit plan.” Even with good intentions, this can reduce the sense that Milan is fully in charge. A more autonomy-supportive response would have emphasized Milan’s ownership more explicitly, such as: “You’re the one making the decisions, and I’m here to support whatever choice you decide is right for you.” It would also have reduced repeated directives after Milan indicated he was ready to leave.
+
+---
+
+### 8. Collaboration
+Score: 2/5
+
+Explanation:
+There is some surface-level collaboration, particularly in the opening invitation and the use of “If you want.” The counselor does ask questions rather than simply lecturing from the beginning. However, the collaboration is uneven and often gives way to a more expert-driven stance. The counselor asks a battery of questions, introduces risk information, then offers a set of safety recommendations, and continues to add advice even after Milan says he is good to go. This makes the interaction feel less like two equal partners working together and more like a concerned adult providing guidance. A stronger collaborative stance would have invited Milan to co-create the agenda, such as: “What do you think we should focus on today?” “What have you already tried that works for you?” and “What would be useful from me right now—listening, problem-solving, or just making sure you’re safe?” The patient’s preferences do not consistently shape the direction of the session.
+
+---
+
+### 9. Evocation
+Score: 2/5
+
+Explanation:
+The counselor makes a few evocative attempts, especially by asking Milan what is troubling him, how he feels about his drinking, and whether he would like to explore goals. These are appropriate MI-style openings. The major problem is that the counselor then shifts into providing reasons for caution—legal risk, safety risk, brain-development risk—and then gives concrete safety advice. This reduces the opportunity for Milan to generate his own motivations. Milan’s own language contains several evocable themes: belonging, being judged, wanting to be seen as responsible, not driving, not mixing, and knowing his limits. The counselor does not consistently ask Milan to expand on these themes. More effective evocation might include: “When you say drinking is part of hanging out, what part of that feels important to you?” “What would you most want to avoid if things ever felt risky?” and “What helps you make the choice not to drive or mix?” Because the counselor mostly provides information and advice rather than drawing out Milan’s own reasons, values, and confidence, the evocation is limited.
+
+---
+
+**Overall Global Ratings Score:** **2.3/5**
+
+This session contains several respectful and empathic moments, but the counselor’s style is more safety-directed and advice-giving than MI-consistent. The counselor avoids outright judgment and does validate Milan’s frustration, which is helpful. However, the repeated risk warnings, safety checklists, and directives—especially after Milan expresses that he feels parented—undermine partnership, autonomy, and evocation. The biggest opportunities for growth are to reflect Milan’s ambivalence more deeply, catch and amplify his existing change talk and self-efficacy, use double-sided reflections to soften sustain talk, and allow Milan’s preferences to shape the agenda. Overall, this is a partially respectful but insufficiently MI-consistent conversation.

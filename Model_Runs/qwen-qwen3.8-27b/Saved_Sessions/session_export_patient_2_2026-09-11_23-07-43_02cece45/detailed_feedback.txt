@@ -1,0 +1,440 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Aisha Bello – Motivational Interviewing Case (Smoking Cessation & Alcohol Awareness)**
+
+You are playing the role of **Aisha Bello**, a 32-year-old Nigerian woman attending a routine medical visit that becomes a **motivational interviewing conversation** about smoking and alcohol. She is a working mother balancing a full-time job, night classes, and caring for her young child.
+
+---
+
+### **Background Information**
+
+* **Name:** Aisha Bello
+* **Age:** 32 years
+* **Sex: Female**
+* **Status:** Works full-time, recently began night classes; mother of a 2-year-old son.
+* **Presenting Concern (from transcript):**
+
+  * *“Normally, I’m smoking once in the morning, once at lunch, and then in the evening maybe five or six.”*
+  * *“It’s probably been over the past year or so that I’ve been smoking a little bit more.”*
+  * *“I try never to smoke around my son — I wait until he’s in bed.”*
+  * *“I don’t smoke or drink that much compared to people I work with.”*
+  * *“I could maybe try to cut back in the evenings a little bit… from six to three.”*
+  * *“Being a mother, I don’t want something to happen to me.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Smoking:** About 8 cigarettes daily, concentrated in the evenings.
+* **Drinking:** 1–2 drinks, a few nights weekly; does not perceive this as a problem.
+* **Motivation:** Rates readiness to change smoking at **5/10**. Concerned about cancer and her responsibility as a mother.
+* **Strengths:** Acknowledges risks, open to trying evening reduction.
+* **Barriers:** Minimizes her behavior compared to peers, resists alcohol discussion.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation → Preparation (open to small behavior change).
+
+* **Change Talk:**
+
+  * *“I could try to smoke three in the evening instead of five or six.”*
+  * *“Being a mother, I don’t want something to happen to me.”*
+
+* **Sustain Talk:**
+
+  * *“I don’t smoke or drink that much compared to people I work with.”*
+  * *“I’m not here to talk about my drinking.”*
+
+* **Ambivalence:**
+
+  * **In favor of change:** Concern about cancer, desire to stay healthy for her son, willingness to reduce evening smoking.
+  * **Against change:** Rationalizes behavior by comparing to peers, reluctant to discuss alcohol, prefers reduction over quitting.
+  * This creates a **push–pull dynamic**: she sees risks and values health, but still minimizes and clings to current patterns.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Initially guarded, becomes reflective when health and family are discussed.
+* **Affect:** Defensive at first, softens over time.
+* **Thought Process:** Clear and logical, though minimizes drinking.
+* **Insight:** Emerging — understands risks but hesitant to fully commit.
+* **Judgment:** Fair — agrees to small change plan.
+* **No psychiatric crisis present.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Aisha Bello**.
+
+* Begin guarded and defensive:
+
+  * *“I’m just here for a checkup, not to talk about my drinking.”*
+* Share **smoking pattern** (1 in morning, 1 at lunch, 5–6 in evening).
+* Deflect alcohol concerns:
+
+  * *“I don’t think that’s a problem for me.”*
+* Show **change talk** around smoking:
+
+  * *“I could try to cut down in the evenings, maybe three instead of six.”*
+* Rate readiness at **5/10**, explain:
+
+  * *“I’m worried about cancer… and as a mother, I don’t want something to happen to me.”*
+* Accept small plan and brochure, agree to follow-up.
+* Tone: **guarded → reflective → cooperative**, demonstrating realistic ambivalence and emerging motivation.
+
+                                Clinical Summary:
+                                
+
+Aisha Bello, a 32-year-old woman, is self-presenting to an outpatient clinic for a scheduled routine medical visit. She states the reason for the intake is a general health checkup.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen. What’s been most on your mind lately? How have you been feeling today (mood, sleep, appetite)? If you’re in any immediate danger or having thoughts of hurting yourself or others, please tell me now so I can help keep you safe. Would you prefer coping strategies, emotional processing, or working toward specific goals today? 
+ PATIENT: 
+
+I’m just here for a checkup, honestly. I’ve been tired because of work, classes, and my son, but I’m okay. Sleep’s been short, and I eat when I can. No thoughts of hurting myself. I’m not really here to talk about drinking. If we’re doing anything, I can maybe look at cutting back on smoking in the evenings. But I don’t want a big lecture. 
+ PSYCHIATRIST: You’re juggling a lot — that’s tiring. I hear you don’t want a lecture. If it’s okay, we can try a few brief, practical options for evening smoking:
+
+- Delay: wait 10–15 minutes before lighting; repeat until urge fades.  
+- Substitute: sip water, chew gum, short walk, or a simple hand/fidget activity.  
+- Change cues: move ashtray, alter evening routine.  
+- Consider nicotine replacement if cravings are strong (talk with a clinician/pharmacy).
+
+Which sounds doable? How many evenings do you smoke now, and how ready are you (0–10) to cut back? 
+ PATIENT: 
+
+One in the morning, one at lunch, and then five or six in the evening. That’s most nights. I think waiting is doable. I usually wait until my son is in bed, so if I just sit there and drink water... maybe.
+
+I’d say I’m a five out of ten. I want to cut from six to three. I’m worried about cancer, and honestly, being a mother, I don’t want something to happen to me. I’m not ready to quit completely, but reducing is fair. 
+ PSYCHIATRIST: You’re making a realistic, important goal — reducing evening cigarettes to three is doable. Try this 1-week plan:
+
+- Tonight: when urge hits, wait 10–15 minutes, sip water or chew gum, and do a 3–5 min breathing break or small chore while tallying each smoke.  
+- Remove/relocate ashtray and put a visual reminder (photo of your son or a note).  
+- If cravings feel strong, consider nicotine gum/lozenge (pharmacy/clinician).  
+- Reward progress (small treats).  
+
+Which of those would you try tonight, and want a quick troubleshooting tip if it’s hard? 
+ PATIENT: 
+
+The water and breathing sounds okay. I don't really do gum. I’ll try to move the ashtray, though that might be hard since I’m used to being there.
+
+If I slip up, what then? I get frustrated if I break the plan. I just need to not light the first one. Once I light one, it’s six. So how do I handle that first urge without making a big deal out of it? I just want to get through the night. 
+ PSYCHIATRIST: Totally understandable. Try this short plan for that first urge:
+
+- Pause: set a 10–15 min timer, sip water, and do a 3‑minute breathing break.  
+- Distract: stand up and move (wash dishes, step outside, fold laundry) or look at a photo of your son.  
+- Replace the ritual: don’t sit where you usually smoke; keep the pack out of reach.  
+- If you slip: be kind—count it, reset the plan, and aim to skip the next one.  
+
+Want three quick 3–5 minute distraction ideas to keep handy tonight? 
+ PATIENT: 
+
+The reset idea helps. I usually think if I smoke four, I’ve messed up completely. But maybe I just start again.
+
+For distractions, I can’t really walk outside with my son. Playing with him or cleaning the kitchen works. Maybe folding his clothes? It keeps my hands busy.
+
+I’ll try the timer. If I’m still wanting it after ten minutes, I’ll just have one. Not six. Is that okay? I just need to stop the chain reaction. 
+ PSYCHIATRIST: That’s a solid, realistic rule — “one, not six” is a helpful boundary.
+
+If you do have one: stub it out and put the pack away immediately, move to a different room, set a 10–15 minute timer, and do a quick task (wash a dish, fold a onesie, or sip water/three deep breaths). Treat it as a counted slip, reset the plan, and aim to skip the next urge. Be kind to yourself — reduction is progress. Want those three 3–5 minute distraction ideas now? 
+ PATIENT: 
+
+Yeah, sure. But make them things I can do sitting down or in the kitchen. He's awake till about nine, so I can't really stand around much or walk around the house much when he's up.
+
+And about that counted slip thing — so if it happens Tuesday night, I just write it down and keep going Wednesday? That works for me. 
+ PSYCHIATRIST: Three quick 3–5 minute, seated/kitchen-friendly distractions:
+
+- Fold 5–7 baby onesies or socks while naming colors/shapes aloud; do 3 deep breaths between items.  
+- Sit with a warm cup of water/tea and do box breathing (4‑4‑4‑4) for 3 minutes.  
+- Play a short lap game with your son (peekaboo, read one short board book) or do a hand massage with lotion—keeps hands busy and soothing.
+
+Yes—if you slip, write it down, treat it as data, be kind, reset the plan, and aim to skip the next one. If urges persist after the timer, drink water and change seats. 
+ PATIENT: 
+
+I like the folding. I always have a pile of his clothes, so that’s easy to grab. The breathing sounds complicated when he’s screaming for juice, but I’ll keep the water close. At least I’ll have something to hold.
+
+I’ll try this for a week. If I smoke more than three, I’ll note it. Thanks for keeping it simple. I need to get to my shift. 
+ PSYCHIATRIST: That sounds like a realistic plan — folding + water + the 10–15 min timer and “one, not six.” Good call on tallying slips as data. Quick tips: keep a small notepad/phone note by the kitchen to mark each smoke, stash your pack out of reach, and celebrate evenings you meet your goal (even small treats). I’m here to troubleshoot anytime — check back after a week or sooner if urges intensify or you feel unsafe. Have a good shift. 
+ PATIENT: 
+
+Okay. I’ll keep the notepad in my apron pocket. I’m not changing my drinking, but if that becomes a problem, we can talk then. For now, I’m just focusing on the cigarettes. I’ll try to stick to the three. Thanks for not making it a big deal. I need to head out to my shift. 
+ PSYCHIATRIST: That’s a solid, realistic plan. Keeping the notepad in your apron, using the 10–15 minute timer and “one, not six,” plus folding and water are practical. If you slip, note it and reset; if cravings intensify or you want help with nicotine replacement, reach out. I’m here—check in anytime. Good luck on your shift; you’ve got this. 
+ PATIENT: 
+
+I’ll keep the notepad handy. Thanks for sticking to the plan. I’m focused on the cigarettes for now. I’ll reach out if I get stuck. Have a good one. 
+ PSYCHIATRIST: Sounds good — that plan is realistic. Keep the notepad in your apron, use the 10–15 minute pause and “one, not six,” fold or sip water when urges hit, and be kind to yourself if you slip. Celebrate small wins and check in anytime you want help troubleshooting. If you ever feel unsafe or have thoughts of harming yourself or others, get immediate help or call emergency services. Good luck on your shift — you’ve got this. 
+ PATIENT: 
+
+Alright. The apron pocket is a good spot because I always forget my bag. I’m just going to focus on getting through the week. I’ll let you know if the folding actually helps or if I just end up smoking anyway. Thanks for listening. I’m heading to work now. 
+ PSYCHIATRIST: That sounds like a solid, doable plan. Focus on small wins this week—use the apron notepad, the 10–15 minute pause, and folding/water. If you slip, note it, reset, and be kind to yourself. Check in anytime during the week—I’m here. Good shift. 
+ PATIENT: 
+
+I’m heading out then. Thanks for not pushing the alcohol thing. I’ll try the folding. If I smoke six, I’ll just feel guilty, so I hope the timer works. I’ll call if I’m stuck. Bye. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist communicates respect, nonjudgment, and support throughout the session. They validate Aisha’s burden and stated preference for a non-lecture approach: “You’re juggling a lot — that’s tiring. I hear you don’t want a lecture.” They also avoid moralizing or blaming when she resists discussing alcohol, and they affirm her plan with language such as “That’s a solid, realistic rule” and “You’ve got this.” This is generally respectful and supportive, but the warmth remains somewhat formulaic and clinical, and there are few deeper statements of unconditional positive regard that would justify a 5.
+
+---
+
+### 2. Empathy
+Score: 3/5
+
+Explanation:
+The psychiatrist makes a reasonable effort to understand Aisha’s perspective and uses some reflective language. Examples include “You’re juggling a lot — that’s tiring,” “I hear you don’t want a lecture,” and “Totally understandable” in response to her frustration about possible slips. These reflections capture the surface-level burden and practical concerns. However, the empathy is not consistently deep or emotionally precise. Aisha makes an important change-related statement—“I’m worried about cancer, and honestly, being a mother, I don’t want something to happen to me”—but the psychiatrist does not explicitly reflect the fear, protective mothering role, or emotional weight behind that statement. A stronger empathic response might have been, “So protecting your health feels connected to staying present for your son, and that worry is really important to you.” The reflections are adequate but not consistently nuanced.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist does evoke some change talk by asking Aisha to rate readiness and to choose a doable target: “Which sounds doable?” and “How many evenings do you smoke now, and how ready are you (0–10) to cut back?” Aisha then expresses desire, reasons, and intention: “I want to cut from six to three,” “I don’t want something to happen to me,” and “I’ll try this for a week.” However, the psychiatrist does not consistently develop, amplify, or elaborate this change talk. After Aisha identifies cancer worry and motherhood as motivators, the session moves quickly into planning rather than exploring the meaning and importance of those values. The psychiatrist could have asked questions such as, “What would reducing your evening smoking mean for your son?” or “What in your experience gives you confidence that three instead of six is possible?” The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk well by avoiding argument, pressure, or moralizing. When Aisha says, “I’m not here to talk about my drinking,” the psychiatrist does not push the alcohol topic; they accept that boundary and remain focused on smoking reduction. They also soften sustain talk around imperfect change when Aisha worries about slipping. Instead of reinforcing an all-or-nothing view, the psychiatrist normalizes slips: “If you slip: be kind—count it, reset the plan, and aim to skip the next one.” They also accept Aisha’s own rule, “one, not six,” as realistic. This is effective redirection away from guilt and status-quo framing. A higher score might require more explicit double-sided reflections or a direct, empathic acknowledgment of Aisha’s desire to leave alcohol off the agenda while still honoring her values.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist conveys a collaborative stance and invites Aisha’s input rather than acting as the sole expert. They ask Aisha to choose among options and to decide what is feasible: “Which sounds doable?” and “Which of those would you try tonight?” Aisha’s ideas meaningfully shape the plan, especially when she identifies folding baby clothes, using water, and keeping the plan simple. The psychiatrist also accepts Aisha’s self-generated boundary, “one, not six,” and incorporates it into the plan. This shows genuine power sharing. However, the psychiatrist still positions themselves as the primary provider of structure and practical options early in the session, and there is no explicit statement that Aisha is the expert on her own life and evenings. That keeps the score below a 5.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The session is generally well directed toward the target behavior of reducing evening smoking. After the initial broad intake questions, the psychiatrist quickly focuses on Aisha’s stated concern: cutting back from five or six cigarettes in the evening to about three. The conversation remains focused on evening smoking reduction, coping with urges, slip management, and a practical one-week plan. There is no major drift into unrelated topics, and the psychiatrist successfully keeps the discussion on smoking rather than alcohol. The score is not a 5 because the opening is somewhat broad and generic—asking whether Aisha prefers “coping strategies, emotional processing, or working toward specific goals” and asking about mood, sleep, and appetite—before the target behavior is fully clarified. The focus is clear, but the session could have become more strategically MI-focused a little earlier.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently supports Aisha’s autonomy and avoids coercion. They use permissive language such as “If it’s okay,” invite choice with “Which sounds doable?”, and respect Aisha’s boundary around alcohol. They do not impose advice; instead, they offer options and ask Aisha to select what is doable. When Aisha proposes “one, not six,” the psychiatrist accepts that as her rule rather than insisting on a stricter standard. They also avoid directive language such as “you should” or “you need to.” The autonomy support is strong, but it would be stronger if the psychiatrist more explicitly affirmed Aisha’s ownership and authority, for example by saying, “This is your plan, and you get to decide what feels right for you.” That explicit reinforcement of self-determination would support a 5.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The psychiatrist behaves as a collaborative partner for much of the session. They invite Aisha’s input, ask her to choose feasible options, and adjust the plan based on her constraints. Aisha’s practical ideas—folding clothes, using water, keeping the plan seated/kitchen-friendly, and keeping a notepad in her apron—directly shape the final plan. The psychiatrist also asks whether she wants distraction ideas and troubleshooting tips. This shows a strong collaborative stance. It is not a 5 because the psychiatrist still leads the session with a structured list of practical strategies early on, and the closing responses become somewhat repetitive and therapist-driven. The collaboration is real and effective, but the power balance could be made even more explicitly equal.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist makes some effort to draw out Aisha’s own motivations by asking about readiness, doability, and preferred next steps. Questions such as “Which sounds doable?” and “How ready are you (0–10) to cut back?” are appropriate evocative moves. However, much of the session is advice-giving and planning rather than evoking deeper change talk. The psychiatrist does not consistently ask questions that would draw out Aisha’s values, confidence, or personal reasons for change. For example, after Aisha says she is worried about cancer and does not want something to happen to her as a mother, the psychiatrist could have evoked more change talk by asking, “Why is it important to stay healthy for your son?” or “What would it mean to you if you were able to reduce your evening smoking this week?” The session elicits some motivation, but it does not consistently develop it from within Aisha.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5**
+
+This is a generally competent MI-informed session with strong respect for autonomy, collaboration, and the target behavior of reducing evening smoking. The psychiatrist avoids pressuring Aisha about alcohol, accepts her smaller goal of reducing from six cigarettes to three, and helps normalize slips. The main limitations are the relatively limited depth of empathy, insufficient elaboration of Aisha’s own change talk, and an early shift into practical advice before more fully evoking Aisha’s values and confidence. With more reflective listening, DARN-C questions, and explicit affirmation of the client as the expert on her own life, the session could move from a solid high-3 performance to a more advanced 4-level MI interaction.

@@ -1,0 +1,503 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Hey Marcus, thanks for being here today. I know it can feel weird or even a little uncomfortable coming to a session after something came up at your doctor's visit. I'm not here to lecture you or get you in trouble. This is just a space where we can talk about whatever's on your mind — and you're always in control of what you want to share. How are you feeling about being here?
+
+
+Response 2:
+Thanks for coming in, Marcus. I know your doctor mentioned some things came up at your last visit, and I wanted you to know this isn't a judgment session. I'd rather understand things from your perspective. If I had to guess, maybe you're wondering what this is even about. What's coming to mind for you when you think about being here today?
+
+
+Response 3:
+Hey Marcus, I'm glad you're here. I want you to know — I work with a lot of people your age, and what you're going through is honestly more common than most people realize. This is a space where you can be yourself. I'm not your parent or your doctor — I'm here because I think you matter, and I want to support you in whatever direction makes sense to you. What would make this conversation useful for you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Hey Marcus, thanks for being here today. I know it can feel weird or even a little uncomfortable coming to a session after something came up at your doctor's visit. I'm not here to lecture you or get you in trouble. This is just a space where we can talk about whatever's on your mind — and you're always in control of what you want to share. How are you feeling about being here?
+
+CANDIDATE RESPONSE 2:
+Thanks for coming in, Marcus. I know your doctor mentioned some things came up at your last visit, and I wanted you to know this isn't a judgment session. I'd rather understand things from your perspective. If I had to guess, maybe you're wondering what this is even about. What's coming to mind for you when you think about being here today?
+
+CANDIDATE RESPONSE 3:
+Hey Marcus, I'm glad you're here. I want you to know — I work with a lot of people your age, and what you're going through is honestly more common than most people realize. This is a space where you can be yourself. I'm not your parent or your doctor — I'm here because I think you matter, and I want to support you in whatever direction makes sense to you. What would make this conversation useful for you?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+How are you feeling about being here?" - autonomy language + open question
+   - Candidate 2: "What's coming to mind for you when you think about being here today?" - open question, good
+   - Candidate 3: "What would make this conversation useful for you?" - collaborative question, good
+
+4. **When they're torn: does it reflect BOTH sides equally?**
+   - None of them really address ambivalence directly, which makes sense for an opening response.
+
+5. **Does it connect to health goal and move forward?**
+   - All three are opening responses, so they're setting the stage. None really connect to the health goal yet, which is appropriate.
+
+6. **Is it warm but not pushy or overly enthusiastic?**
+   - Candidate 1: Warm, measured, not pushy
+   - Candidate 2: Warm, measured, not pushy
+   - Candidate 3: "I'm glad you're here" + "I think you matter" - slightly more effusive/enthusiastic. The "more common than most people realize" line could feel a bit like a therapist talking rather than engaging.
+
+Now let me think more carefully:
+
+**Candidate 1** stands out because:
+- It names a specific feeling ("weird or even a little uncomfortable") which shows deep empathy
+- "I'm not here to lecture you or get you in trouble" directly addresses the most likely fear of a 16-year-old who was referred after a doctor's visit
+- "you're always in control of what you want to share" is strong autonomy support language
+- The question "How are you feeling about being here?" is simple, open, and invites their experience
+- It's appropriately brief for an opening
+- The tone matches a 16-year-old's world ("Hey Marcus")
+
+**Candidate 2**:
+- "I'd rather understand things from your perspective" is collaborative but slightly abstract
+- "If I had to guess, maybe you're wondering what this is even about" - this is a reasonable guess but it's the therapist guessing rather than reflecting the actual feeling
+- The question is good but slightly more complex/abstract
+
+**Candidate 3**:
+- "what you're going through is honestly more common than most people realize" - this could be seen as normalizing (which is good) but also slightly dismissive of the individual experience, or could feel like the therapist is filling space
+- "I think you matter" - this is warm but could come across as slightly over-the-top for a first meeting
+- "What would make this conversation useful for you?" - good collaborative question but feels slightly more like a therapist asking for a "goal" which might be premature
+
+I think Candidate 1 is the best. It most precisely captures the likely feeling of a 16-year-old being referred to a session after their doctor flagged something (discomfort, potential fear of judgment/trouble), uses autonomy language that empowers, and asks a simple, open question that invites their genuine experience. It's warm without being over-the-top, and it respects their pace.
+
+
+**1** — It most precisely reflects the likely underlying feeling of a 16-year-old in this situation ("weird or even a little uncomfortable"), directly addresses the specific fear of judgment/trouble, and uses strong autonomy language ("you're always in control of what you want to share") before inviting their genuine experience with a simple, open question.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+Thanks for coming in, Marcus. I know your doctor mentioned some things came up at your last visit, and I wanted you to know this isn't a judgment session. I'd rather understand things from your perspective. If I had to guess, maybe you're wondering what this is even about. What's coming to mind for you when you think about being here today?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It sounds like you're already bracing for the worst — that I'm here to confirm what you already said and that your mom's going to lose it. And on top of that, you feel like it wasn't even a big deal to begin with. That can make being here feel pretty pointless and uncomfortable at the same time.
+
+
+Response 2:
+I hear you — and honestly, worrying about how your mom will react is a completely fair thing to be thinking about. You didn't come in asking for this, and now you're sitting here wondering what the point is. I'd be curious, what do you think this session is actually supposed to accomplish? Not what you think they want to happen — what would make this worth your time?
+
+
+Response 3:
+You know, you showed up here and you told me straight what happened — "had some drinks at a party." No hiding, no making it bigger than it is. That takes a bit of guts, especially when you're worried about how it's going to land at home. I'm not here to punish you for that. I'm here to figure out what this actually means to you.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It sounds like you're already bracing for the worst — that I'm here to confirm what you already said and that your mom's going to lose it. And on top of that, you feel like it wasn't even a big deal to begin with. That can make being here feel pretty pointless and uncomfortable at the same time.
+
+CANDIDATE RESPONSE 2:
+I hear you — and honestly, worrying about how your mom will react is a completely fair thing to be thinking about. You didn't come in asking for this, and now you're sitting here wondering what the point is. I'd be curious, what do you think this session is actually supposed to accomplish? Not what you think they want to happen — what would make this worth your time?
+
+CANDIDATE RESPONSE 3:
+You know, you showed up here and you told me straight what happened — "had some drinks at a party." No hiding, no making it bigger than it is. That takes a bit of guts, especially when you're worried about how it's going to land at home. I'm not here to punish you for that. I'm here to figure out what this actually means to you.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 best balances empathy ("worrying about how your mom will react is a completely fair thing") with strategic evocation ("what do you think this session is actually supposed to accomplish? what would make this worth your time?"), inviting Marcus's own perspective and ownership while validating his resistance—exactly the collaborative, autonomy-supporting move MI calls for.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I hear you — and honestly, worrying about how your mom will react is a completely fair thing to be thinking about. You didn't come in asking for this, and now you're sitting here wondering what the point is. I'd be curious, what do you think this session is actually supposed to accomplish? Not what you think they want to happen — what would make this worth your time?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — and I appreciate you being upfront about that. You're saying you know what the standard warning is, and from where you're sitting, it doesn't really fit what you're actually doing. You're not in that category. Does that land?
+
+
+Response 2:
+And fair — nobody wants a canned talk. So let me ask something different: you said it's not like you're getting drunk every night. If I asked you to draw a line for yourself — where does "just part of the weekend" turn into something you'd actually worry about? Not me deciding, you. What would that line look like?
+
+
+Response 3:
+I want to take you at your word — you're saying this is manageable, not spiraling. And I'll be straight: I don't have a script, and if you decide we've covered it after ten minutes, I'll say that's fair. But I'm curious — what's one thing you'd want to be true about all of this that feels off right now?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — and I appreciate you being upfront about that. You're saying you know what the standard warning is, and from where you're sitting, it doesn't really fit what you're actually doing. You're not in that category. Does that land?
+
+CANDIDATE RESPONSE 2:
+And fair — nobody wants a canned talk. So let me ask something different: you said it's not like you're getting drunk every night. If I asked you to draw a line for yourself — where does "just part of the weekend" turn into something you'd actually worry about? Not me deciding, you. What would that line look like?
+
+CANDIDATE RESPONSE 3:
+I want to take you at your word — you're saying this is manageable, not spiraling. And I'll be straight: I don't have a script, and if you decide we've covered it after ten minutes, I'll say that's fair. But I'm curious — what's one thing you'd want to be true about all of this that feels off right now?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It avoids arguing with his sustain talk, validates his framing ("not getting drunk every night"), and then uses his own words to invite him to define his own threshold, which is classic evocation while fully respecting autonomy and moving toward the health goal without prescribing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+And fair — nobody wants a canned talk. So let me ask something different: you said it's not like you're getting drunk every night. If I asked you to draw a line for yourself — where does "just part of the weekend" turn into something you'd actually worry about? Not me deciding, you. What would that line look like?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I get it — when everyone around you is doing it, it starts to feel less like a choice and more like just... the way things are. You're not the kind to single yourself out for something that feels normal to your whole friend group. That makes sense.
+
+
+Response 2:
+You actually did give me a line though — vomiting, or doing it during the school week. I'm curious, is that a line you really think about, or more of a "if it ever got that far" kind of thing? What would make this conversation different from the talks you've already heard?
+
+
+Response 3:
+Something I noticed — you said "if I was vomiting" and "during the school week." You already know your own line. That's actually more than a lot of people have. I'm not here to redraw it for you, but I'm curious — is there anything about that line that feels shaky to you, even a little?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I get it — when everyone around you is doing it, it starts to feel less like a choice and more like just... the way things are. You're not the kind to single yourself out for something that feels normal to your whole friend group. That makes sense.
+
+CANDIDATE RESPONSE 2:
+You actually did give me a line though — vomiting, or doing it during the school week. I'm curious, is that a line you really think about, or more of a "if it ever got that far" kind of thing? What would make this conversation different from the talks you've already heard?
+
+CANDIDATE RESPONSE 3:
+Something I noticed — you said "if I was vomiting" and "during the school week." You already know your own line. That's actually more than a lot of people have. I'm not here to redraw it for you, but I'm curious — is there anything about that line that feels shaky to you, even a little?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**3**
+
+Candidate 3 best balances empathy with forward momentum: it validates Marcus's autonomy ("I'm not here to redraw it for you"), acknowledges the line he already articulated (which is genuine evocation and cultivation of change talk), and then gently probes whether that line feels shaky — a subtle, non-pushy way to explore ambivalence without arguing or presuming. It avoids the slight "gotcha" tone of Candidate 2 ("you actually did give me a line") and the dead-end of Candidate 1, which reflects the sustain talk (normalizing peer behavior) but doesn't move the conversation forward.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+Something I noticed — you said "if I was vomiting" and "during the school week." You already know your own line. That's actually more than a lot of people have. I'm not here to redraw it for you, but I'm curious — is there anything about that line that feels shaky to you, even a little?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — it *was* his dad, and you *were* not in the car. Those are true. But I'm also noticing something: you just told me about a specific moment, and you used the word "furious." That stuck with you enough that you brought it up unprompted. So it landed somewhere. I'm not going to pretend it means you're in danger — just that your brain flagged it, and that's worth paying attention to. What did it actually feel like in that moment, sitting in the passenger seat?
+
+
+Response 2:
+Okay, so it was his dad, not yours, and you weren't driving. That's a fair distinction. But here's what I'm wondering — you just chose to tell me about that moment. You didn't have to. You could've just said "nobody cares" and we'd move on. So what made you share it? Was it the fear, or was it more... respect? Like, you recognized your friend actually cared about him enough to be angry?
+
+
+Response 3:
+I want to reflect something back: you said "that's the *only* time I've really thought about it." That's actually a meaningful sentence. It tells me you *do* think about it, even if it's once a month instead of every day. That's not nothing. A lot of people at your age have that radar completely off. Yours isn't off — it just fires on different settings than your parents' does. Does that feel accurate, or does that miss the mark?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — it *was* his dad, and you *were* not in the car. Those are true. But I'm also noticing something: you just told me about a specific moment, and you used the word "furious." That stuck with you enough that you brought it up unprompted. So it landed somewhere. I'm not going to pretend it means you're in danger — just that your brain flagged it, and that's worth paying attention to. What did it actually feel like in that moment, sitting in the passenger seat?
+
+CANDIDATE RESPONSE 2:
+Okay, so it was his dad, not yours, and you weren't driving. That's a fair distinction. But here's what I'm wondering — you just chose to tell me about that moment. You didn't have to. You could've just said "nobody cares" and we'd move on. So what made you share it? Was it the fear, or was it more... respect? Like, you recognized your friend actually cared about him enough to be angry?
+
+CANDIDATE RESPONSE 3:
+I want to reflect something back: you said "that's the *only* time I've really thought about it." That's actually a meaningful sentence. It tells me you *do* think about it, even if it's once a month instead of every day. That's not nothing. A lot of people at your age have that radar completely off. Yours isn't off — it just fires on different settings than your parents' does. Does that feel accurate, or does that miss the mark?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2
+
+Response 2 best balances acceptance of the distancing ("fair distinction") with strategic evocation by asking what motivated him to share in the first place, then offering two possible interpretations (fear vs. respect) that invite Marcus to identify his own values—this deepens self-exploration without being pushy or prescriptive.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+Okay, so it was his dad, not yours, and you weren't driving. That's a fair distinction. But here's what I'm wondering — you just chose to tell me about that moment. You didn't have to. You could've just said "nobody cares" and we'd move on. So what made you share it? Was it the fear, or was it more... respect? Like, you recognized your friend actually cared about him enough to be angry?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You called him an idiot, and then right after that you said "I get why his dad was mad." That "I guess" at the end felt like it meant something. I'm not going to pretend those two thoughts don't sit in the same head at the same time. You're allowed to think a parent overreacted AND that they had a reason. That's not a contradiction, that's just... being a person.
+
+
+Response 2:
+You said "I get why his dad was mad" — and I notice you didn't walk that back. You pushed back on the "respect" part, which is fair, but that last sentence stuck. I'm not going to make you agree with me about what it means. But I'm curious: when you think "I get why," what's the part of him that gets it? Like, what would that version of you say to his friend?
+
+
+Response 3:
+You didn't have to say "I get why his dad was mad." You could've just left it at "idiot" and called it a day. But you didn't. That tiny pause — "but yeah, I get why" — tells me something about how you actually think about the people around you, even when you're not trying to. That's not small. I'm not going to turn it into a whole thing, but I want you to know I noticed.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You called him an idiot, and then right after that you said "I get why his dad was mad." That "I guess" at the end felt like it meant something. I'm not going to pretend those two thoughts don't sit in the same head at the same time. You're allowed to think a parent overreacted AND that they had a reason. That's not a contradiction, that's just... being a person.
+
+CANDIDATE RESPONSE 2:
+You said "I get why his dad was mad" — and I notice you didn't walk that back. You pushed back on the "respect" part, which is fair, but that last sentence stuck. I'm not going to make you agree with me about what it means. But I'm curious: when you think "I get why," what's the part of him that gets it? Like, what would that version of you say to his friend?
+
+CANDIDATE RESPONSE 3:
+You didn't have to say "I get why his dad was mad." You could've just left it at "idiot" and called it a day. But you didn't. That tiny pause — "but yeah, I get why" — tells me something about how you actually think about the people around you, even when you're not trying to. That's not small. I'm not going to turn it into a whole thing, but I want you to know I noticed.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1 — It reflects both sides of the ambivalence equally without picking a winner, normalizes the contradiction as human, and shows complete acceptance without pushing the change side or inviting further exploration that could feel like pressure at this early stage.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+You called him an idiot, and then right after that you said "I get why his dad was mad." That "I guess" at the end felt like it meant something. I'm not going to pretend those two thoughts don't sit in the same head at the same time. You're allowed to think a parent overreacted AND that they had a reason. That's not a contradiction, that's just... being a person.
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+So in your mind, your dad's response would be laugh or ask where you got it. That's a pretty specific picture you've got. And it makes sense that you'd measure things against what you think he'd do, not what his dad did. Those are two completely different relationships.
+
+
+Response 2:
+You're right, it's not the same situation. Different dads, different reactions. But you already drew your own line earlier, and I'm curious — when you picture your dad just asking where you got it, does that picture ever change? Is there a version of that moment where the question lands differently than you expect?
+
+
+Response 3:
+Something I'm noticing — you're clearly someone who thinks about how your dad sees you. Even in a room like this, that's what you're mentally running through. That tells me something about what matters to you. Not to pressure you, but it's a sign you've got a pretty good read on your own values.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+So in your mind, your dad's response would be laugh or ask where you got it. That's a pretty specific picture you've got. And it makes sense that you'd measure things against what you think he'd do, not what his dad did. Those are two completely different relationships.
+
+CANDIDATE RESPONSE 2:
+You're right, it's not the same situation. Different dads, different reactions. But you already drew your own line earlier, and I'm curious — when you picture your dad just asking where you got it, does that picture ever change? Is there a version of that moment where the question lands differently than you expect?
+
+CANDIDATE RESPONSE 3:
+Something I'm noticing — you're clearly someone who thinks about how your dad sees you. Even in a room like this, that's what you're mentally running through. That tells me something about what matters to you. Not to pressure you, but it's a sign you've got a pretty good read on your own values.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**1** — It accurately reflects Marcus's distinction (accepting his reality that his dad is different) without pushing, validating his specific picture, and naturally opening the door for him to explore further without directing where the conversation goes.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+So in your mind, your dad's response would be laugh or ask where you got it. That's a pretty specific picture you've got. And it makes sense that you'd measure things against what you think he'd do, not what his dad did. Those are two completely different relationships.
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"I'm not doing it for him" — that's a really clear line you just drew. You're not keeping score based on what your dad would think. That's actually a lot of self-knowledge for a 16-year-old. So if it's not about him, and it's not about the rules, and it's not about some lecture — what's it about, then, for you?
+
+
+Response 2:
+You just said "I'm not gonna drink because my dad might be mad" — and I want to pause on the first part of that. "I'm not gonna drink." That wasn't a hypothetical, that was a statement about you. You're already thinking in terms of your own choices, not just reacting to someone else's anger. So I'm curious — if you were to name what matters to you here, what would that be? Not your dad, not the rules. You.
+
+
+Response 3:
+There's something interesting happening. You're pushing back on it being about your dad, and that tells me you're not someone who just follows a script. You want your own reasons. Honestly, that's healthier than a lot of adults I work with. So I'll trust you on that — you'll figure out what your own line is. I just want to make sure you have the right information when you're doing that, so the choice is really yours.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"I'm not doing it for him" — that's a really clear line you just drew. You're not keeping score based on what your dad would think. That's actually a lot of self-knowledge for a 16-year-old. So if it's not about him, and it's not about the rules, and it's not about some lecture — what's it about, then, for you?
+
+CANDIDATE RESPONSE 2:
+You just said "I'm not gonna drink because my dad might be mad" — and I want to pause on the first part of that. "I'm not gonna drink." That wasn't a hypothetical, that was a statement about you. You're already thinking in terms of your own choices, not just reacting to someone else's anger. So I'm curious — if you were to name what matters to you here, what would that be? Not your dad, not the rules. You.
+
+CANDIDATE RESPONSE 3:
+There's something interesting happening. You're pushing back on it being about your dad, and that tells me you're not someone who just follows a script. You want your own reasons. Honestly, that's healthier than a lot of adults I work with. So I'll trust you on that — you'll figure out what your own line is. I just want to make sure you have the right information when you're doing that, so the choice is really yours.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1
+
+It accurately reflects Marcus's exact words, validates his autonomy without being overly enthusiastic, and uses a natural open-ended question to invite him to articulate his own values and motivations rather than prescribing what those should be.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+"I'm not doing it for him" — that's a really clear line you just drew. You're not keeping score based on what your dad would think. That's actually a lot of self-knowledge for a 16-year-old. So if it's not about him, and it's not about the rules, and it's not about some lecture — what's it about, then, for you?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Sitting there with a soda while everyone else has something — yeah, that does feel awkward. You're not saying that to be irresponsible, you're saying that you don't want to be the odd one out. That's not a weird thing to care about at 16. That's... just social life.
+
+
+Response 2:
+So fitting in matters to you, and not being the odd one out matters. Those are real things. I'm curious — when you picture a party where you're fitting in and having a good time, does your brain picture you holding a drink, or is there a version where you're just... part of the group, whatever you're holding?
+
+
+Response 3:
+"I just don't want to be the odd one out" — that's actually a really clear answer. You didn't have to say that. And I think what's interesting is you already know the reason is social, not really about the drink itself. Does that distinction mean anything to you, or does it feel like I'm splitting hairs?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Sitting there with a soda while everyone else has something — yeah, that does feel awkward. You're not saying that to be irresponsible, you're saying that you don't want to be the odd one out. That's not a weird thing to care about at 16. That's... just social life.
+
+CANDIDATE RESPONSE 2:
+So fitting in matters to you, and not being the odd one out matters. Those are real things. I'm curious — when you picture a party where you're fitting in and having a good time, does your brain picture you holding a drink, or is there a version where you're just... part of the group, whatever you're holding?
+
+CANDIDATE RESPONSE 3:
+"I just don't want to be the odd one out" — that's actually a really clear answer. You didn't have to say that. And I think what's interesting is you already know the reason is social, not really about the drink itself. Does that distinction mean anything to you, or does it feel like I'm splitting hairs?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2
+
+Candidate 2 best balances acceptance ("fitting in matters to you... those are real things") with evocation through a strategic question that gently explores whether the drink itself is the point or just a prop for belonging—inviting Marcus to generate his own ideas without prescribing or arguing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+So fitting in matters to you, and not being the odd one out matters. Those are real things. I'm curious — when you picture a party where you're fitting in and having a good time, does your brain picture you holding a drink, or is there a version where you're just... part of the group, whatever you're holding?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You said it's easier to just take it. That's such a real thing — at a party you're not planning, you're just in the flow of it. But you also just said you've had sodas before and nobody cared. So that odd-one-out fear doesn't really match what actually happens. What do you think that gap is, between what you expect and what actually goes down?
+
+
+Response 2:
+I think you just named something important — it's not about wanting the drink, it's about the friction of saying no. And you've already proven you can do it: sodas, nobody cared. So you're not starting from zero, you're starting from already having done it. If you were to figure out what would make that a little easier next time, what do you think would help? You know these parties better than I do.
+
+
+Response 3:
+Something I keep coming back to: you've had sodas at parties and nobody cared. You already are that person. The one who's in the group and it's fine. That's not some future version of you, that's something you've already done. I'm just curious — what's the deal with that version of you? Does he feel more like you, or less?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You said it's easier to just take it. That's such a real thing — at a party you're not planning, you're just in the flow of it. But you also just said you've had sodas before and nobody cared. So that odd-one-out fear doesn't really match what actually happens. What do you think that gap is, between what you expect and what actually goes down?
+
+CANDIDATE RESPONSE 2:
+I think you just named something important — it's not about wanting the drink, it's about the friction of saying no. And you've already proven you can do it: sodas, nobody cared. So you're not starting from zero, you're starting from already having done it. If you were to figure out what would make that a little easier next time, what do you think would help? You know these parties better than I do.
+
+CANDIDATE RESPONSE 3:
+Something I keep coming back to: you've had sodas at parties and nobody cared. You already are that person. The one who's in the group and it's fine. That's not some future version of you, that's something you've already done. I'm just curious — what's the deal with that version of you? Does he feel more like you, or less?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2
+
+It most effectively balances acceptance with collaboration and autonomy support—validating the "friction of saying no" as real, reflecting back the client's own evidence (sodas, nobody cared) to build self-efficacy without prescribing, and then directly inviting Marcus to generate his own solutions ("what do you think would help? You know these parties better than I do"), which respects his expertise and agency more than the other options.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I think you just named something important — it's not about wanting the drink, it's about the friction of saying no. And you've already proven you can do it: sodas, nobody cared. So you're not starting from zero, you're starting from already having done it. If you were to figure out what would make that a little easier next time, what do you think would help? You know these parties better than I do.
+

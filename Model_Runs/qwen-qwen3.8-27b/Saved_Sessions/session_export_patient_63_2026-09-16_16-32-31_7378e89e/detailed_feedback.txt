@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Jordan Mitchell – Motivational Interviewing Case (Shoplifting / Recidivism)**
+
+You are playing the role of **Jordan Mitchell**, a 24-year-old man referred for a **Motivational Interviewing session** following repeated incidents of **shoplifting** and concerns about **recidivism**.
+
+---
+
+### **Background Information**
+
+* **Name:** Jordan Mitchell
+* **Age:** 24 years
+* **Sex: Male**
+* **Status:** Young adult, lives independently, peer group heavily influences behavior
+* **Referral:** Court-mandated referral after multiple shoplifting incidents; part of an effort to reduce risk of re-offending
+* **Presenting Concern:** Jordan admits that he “can’t shoplift anymore” and acknowledges it’s “bad,” but also describes strong peer influence and temptation. He appears torn between stopping and continuing.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* Open about past shoplifting but speaks with resignation and guilt.
+* Ambivalent — clearly says he must stop but continues to reference desire and peer activity.
+* Shows **fatigue** with behavior, yet difficulty envisioning an alternative.
+* Cooperative in conversation, but uncertain and hesitant when exploring solutions.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation → leaning toward Preparation (acknowledges harm, expresses desire to stop, unclear on next steps).
+
+* **Change Talk:**
+
+  * “I can’t shoplift anymore.”
+  * “Yeah, it’s bad.”
+
+* **Sustain Talk:**
+
+  * “My friends and I…” (peer influence remains strong).
+  * “I want it.” (ongoing desire, temptation).
+
+* **Ambivalence:**
+
+  * Feels guilty and motivated to stop, yet peer pressure and personal cravings pull him back.
+  * Unsure what alternatives exist, leaving him stuck between stopping and repeating the cycle.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Resigned, slightly anxious about the future.
+* **Affect:** Flat, restricted, consistent with guilt.
+* **Thought Process:** Linear, coherent but focused on immediate tension rather than long-term planning.
+* **Insight:** Partial — acknowledges wrongdoing but uncertain how to change.
+* **Judgment:** Developing; sees consequences but hasn’t built strategies for avoiding triggers.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Jordan**.
+
+* Begin by **stating shoplifting is a problem** and you can’t keep doing it.
+* Emphasize **peer influence** — describe how your friends shoplift and how that makes it difficult for you to stop.
+* Express **sustain talk** by admitting you still want things you can’t afford and feel tempted.
+* Provide **change talk** briefly — “It’s bad,” “I have to stop” — but keep it short and uncertain.
+* Show **ambivalence** throughout: acknowledge harm and desire to quit, but highlight peer influence and cravings.
+* Avoid offering solutions yourself; rely on therapist prompts to consider alternatives.
+* Your role is to help the therapist practice **reflecting ambivalence, addressing peer pressure, and evoking intrinsic motivation for lawful alternatives**.
+
+                                Clinical Summary:
+                                
+
+Jordan Mitchell, a 24-year-old male, is presenting in an outpatient motivational interviewing setting for a court-ordered intake following reported shoplifting incidents. The referral indicates the evaluation is being completed in connection with a court mandate and stated concerns about re-offending.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: I hear you’re navigating a lot—court requirements, friends influencing your choices, and figuring out what’s going on underneath the shoplifting. Since you know your life best, what do you think would make this session worth your time rather than just something you have to tolerate? 
+ PATIENT: 
+
+I guess it’d be worth it if it helped me not end up back in court. I can’t shoplift anymore, yeah, it’s bad. But my friends and I, we’re always out there, and I still want stuff I can’t buy. I know I should stop, but it’s not like I can just stop being around them. So maybe if it gives me a way out of that. 
+ PSYCHIATRIST: You’re navigating a lot—court pressure, friends influencing your choices, and figuring out what’s underneath the shoplifting. There’s part of you that has to be here, and part that might actually want help. If one small part of this could feel worth your time this week, what would that be to you? 
+ PATIENT: 
+
+Look, I just want to keep my head down. If this helps me avoid getting caught again, that’s something. I know I’ve got to stop, it’s bad. But my guys, they’re always out there, and I still want things. So if it gives me a reason to stay home when they call, maybe that’s the bit. 
+ PSYCHIATRIST: It sounds like the real catch is wanting to be with your guys and needing a way out without losing your spot. You’ve already named one small part that could matter: a way out when they call. What do you think that would need to include for you to actually use it? 
+ PATIENT: 
+
+I don't know. I guess I’d need to actually have something to do. Right now I'm just guessing. I still want that stuff, like, when I see it. And my guys are always around. If I'm gonna say no, I need it to be easy. Not a big speech. Just... something that keeps me out of trouble without losing them. 
+ PSYCHIATRIST: It sounds like the real task is small and practical: an easy way to step back when the moment hits, without losing your place. You know what your guys might say or do. What do you think a simple exit would need to sound or feel like from you? 
+ PATIENT: 
+
+I don't know. Like… "I'm good tonight"? But then they probably think I'm being weird. Or I just stop replying on the group chat. But that feels like I'm losing them. And honestly, next time I'm in a store and I see a jacket I want, I'll be right back at it. I don't have a plan for *that* part. 
+ PSYCHIATRIST: I hear two risks: saying “I'm good” feels weird, and going quiet feels like losing them. You also see the jacket moment as a real threat. What would need to be true for a simple exit to feel usable without making you feel like you’re losing your spot or back in trouble? 
+ PATIENT: 
+
+Yeah, I guess I’d need to know that saying "no" doesn’t mean I’m done with them. Like, maybe I just skip that one trip, but we still hang out later? But I get why it’s hard. When I see that jacket, it hits different. I don't have a backup plan for when that urge gets loud. I’d need to know I can walk away from the store *and* still be cool with my guys the next day. 
+ PSYCHIATRIST: You’re connecting two things: a way out that protects your spot, and a next step when the urge gets loud. You know your guys and that jacket feeling best. What would need to happen in the first few seconds—before you see it or right after—so walking away could feel possible without losing them? 
+ PATIENT: 
+
+Probably just need a distraction. Like, I step out to check my phone or get a drink. If I can break the stare for a sec, maybe I can breathe. But then I gotta come back. If I don't grab the jacket, they're going to ask. I need a lie that doesn't make me look like a freak. Like, "I already bought one" or "I can't carry it right now." Something easy. So I'm not the odd one out. 
+ PSYCHIATRIST: You’re sketching out a real exit: a small, believable pause that keeps you from being the odd one out. Since you know your guys best, what would make “step out for a drink” feel doable in the moment—quick enough to break the stare, but not so far away that you feel left out? 
+ PATIENT: 
+
+Maybe I just go to the water fountain or the self-checkout. Something close. But the thing is, if I step away and they're still picking stuff, I'm gonna feel it. Like, FOMO. And then I'm right back in. So maybe I need to actually leave the store, not just walk to the other side. But then I'm out there with nothing to do. And they're in there. I don't know if I can just... not go back in. 
+ PSYCHIATRIST: You’re describing a tight gap: staying close means the store keeps pulling you back, but leaving means you’re outside with nothing and worried your guys are moving ahead. You know them and those urges best. What would make stepping outside feel doable for just a minute—without it meaning you’re bailing on them? 
+ PATIENT: 
+
+I mean, I don't have a reason. If I say I need air, they think I'm drama. If I say I'm calling someone, it has to be quick. Maybe I say I'm going to the car to check my phone? But then I'm outside. And if I stand outside, I'm thinking about the jacket. I just need it to not feel like I'm ditching them. But I can't come up with a lie that doesn't suck. 
+ PSYCHIATRIST: It sounds like you’re not just trying to avoid the jacket—you’re trying to step back without a lie that sucks and without losing your guys. That’s a lot to carry. Since you know how they react, what would feel true enough for you to say in the moment so stepping away doesn’t feel like ditching? And what would “not ditching” actually look like if you did it well? 
+ PATIENT: 
+
+I don't know. Maybe just "I'm gonna grab a smoke" or "I need to pee." It's true enough, right? But then I'm outside. "Not ditching" would mean... I'm still answering their texts? Or I come back in 10 minutes? But if I come back, I see the jacket again. So maybe I text them I'm heading to the car. But then I'm just sitting in the car. That feels weird. I'm just... waiting? 
+ PSYCHIATRIST: You’re aiming for an exit that feels true enough, keeps you connected, and doesn’t reopen that jacket pull. What do you think would need to be true in the next minute so sitting in the car feels like you’re handling it, not just waiting? 
+ PATIENT: 
+
+Honestly? I don't know what makes it "handling" it. It still feels like waiting. I’d be sitting there thinking about what they’re doing inside, and I’d be thinking about the jacket. Maybe I need to actually be doing something on my phone? But I’m still stuck. I don't know if I can just sit there and not feel like I'm losing out. It feels like I'm just... sitting in the dark. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a largely respectful and nonjudgmental stance despite the court-mandated context and the client’s disclosed shoplifting. Statements such as “I hear you’re navigating a lot,” “That’s a lot to carry,” and “Since you know your life best” communicate basic positive regard and avoid moral labeling or blame. The therapist also does not become disapproving when Jordan mentions desire for items he cannot afford or fear of losing his peer group. However, the acceptance feels somewhat formulaic rather than deeply affirming. The therapist does not explicitly affirm Jordan’s courage, honesty, or effort, and the early phrase “worth your time rather than just something you have to tolerate” could be perceived as mildly challenging, even if it appears intended to invite engagement. For a perfect score, the psychiatrist would need more consistent, individualized warmth and explicit recognition of Jordan’s strengths and struggle.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates strong reflective listening and an accurate grasp of Jordan’s ambivalence. Examples include reflecting the core conflict as “wanting to be with your guys and needing a way out without losing your spot,” and capturing the practical tension: “staying close means the store keeps pulling you back, but leaving means you’re outside with nothing and worried your guys are moving ahead.” The therapist also accurately reflects the emotional and social risk of exiting: “not just trying to avoid the jacket—you’re trying to step back without a lie that sucks and without losing your guys.” This shows good perspective-taking and sensitivity to Jordan’s FOMO, fear of judgment, and desire to preserve belonging. The main limitation is that the empathy remains largely cognitive and content-focused. The psychiatrist does not deeply reflect Jordan’s guilt, shame, anxiety, or the deeper emotional meaning of losing his identity within the peer group. With stronger emotional reflection, this could be a 5.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist makes some effective attempts to elicit change talk by asking what would make the session worthwhile, what small part might matter, and what would need to be true for an exit to work. Jordan offers several change-related statements, including “I can’t shoplift anymore,” “I know I’ve got to stop,” “it’s bad,” and a desire to “avoid getting caught” and “stay home.” These are meaningful and indicate movement toward change. However, the therapist does not consistently amplify, summarize, or deepen this change talk. There is no scaling of confidence or importance, no exploration of values such as safety, freedom, self-respect, or long-term stability, and little strategic follow-up on Jordan’s own hopeful or determined language. The questions often remain focused on practical problem-solving rather than actively cultivating the client’s intrinsic motivation. Therefore, the evocation of change talk is present but not yet frequent or sufficiently skillful for a higher score.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 2/5
+
+Explanation:
+Jordan’s sustain talk is prominent: he still wants things he cannot afford, fears losing his friends, worries about FOMO, and wants an exit that does not make him “the odd one out.” The psychiatrist acknowledges this without arguing, which is appropriate, but the therapist frequently keeps the conversation anchored to maintaining the status quo and preserving peer belonging. Phrases such as “without losing your spot,” “without losing your guys,” “without it meaning you’re bailing on them,” and “not ditching” repeatedly center the reasons for maintaining the current social role. This can inadvertently amplify the client’s sustain talk rather than soften it. The therapist does not consistently use double-sided reflections that gently pivot toward change, nor does the therapist help Jordan see that choosing differently does not necessarily mean losing value or belonging. The session remains focused heavily on how to change behavior while still satisfying the old peer expectations, rather than reducing the pull of the status quo. For a stronger score, the psychiatrist would need to more consistently redirect the conversation toward Jordan’s own change goals, values, and alternative sources of identity or confidence.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates a strong partnership stance by repeatedly positioning Jordan as the expert on his own life, friends, and triggers. Statements such as “Since you know your life best,” “You know what your guys might say or do,” “You know them and those urges best,” and “Since you know your guys best” clearly convey that expertise resides within the client. The therapist invites Jordan to generate his own exit strategies, defines what “not ditching” would mean, and asks what would make those options usable. This avoids an expert-driven or lecturing approach. The main limitation is that the partnership, while strong, is still largely guided by the therapist’s structured questions. The psychiatrist does not explicitly negotiate the agenda, invite Jordan to set the goals for the session, or explicitly co-create a summary. With more explicit power-sharing and agenda collaboration, this could reach a 5.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The session maintains a clear focus on the target behavior: reducing shoplifting and managing peer-triggered urges. The conversation consistently returns to the relevant concerns—court pressure, friends, craving, the “jacket” moment, and how to step away without reoffending. There is no significant topic drift. The therapist also guides the work toward a specific behavioral target: creating a practical exit strategy. However, the focus sometimes becomes narrowly logistical, such as finding a believable excuse, where to stand, whether to go to the car, or how to respond to the group. While these details are relevant, the psychiatrist does not consistently connect these micro-strategies back to broader change goals, values, or long-term risk reduction. A summary statement or a brief link to Jordan’s own reasons for stopping would strengthen the strategic direction and help maintain momentum toward change.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist supports autonomy well by using open questions and avoiding directive advice. Phrases such as “Since you know your life best, what do you think...,” “What do you think that would need to include for you to actually use it?” and “What would need to be true in the next minute so sitting in the car feels like you’re handling it?” clearly communicate that Jordan is the decision-maker. The therapist does not pressure Jordan to commit, prescribe a plan, or impose solutions. The client is allowed to explore uncertainty without being corrected or pushed. The main limitation is that the therapist does not explicitly reinforce Jordan’s freedom to choose or his ownership of the change process. The initial framing of the session as “worth your time rather than just something you have to tolerate” is respectful but still references the imposed nature of the referral. With more explicit autonomy-supportive statements—such as acknowledging Jordan’s right to make his own decisions and emphasizing that change is something he chooses, not something being done to him—this criterion could score a 5.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The psychiatrist behaves in a largely collaborative manner, treating Jordan as an equal partner with valuable knowledge. The therapist uses Jordan’s language—“your guys,” “the jacket,” “cool,” “drama,” “a lie that doesn’t suck”—and invites Jordan to co-construct practical strategies. There is no evidence of an authoritarian stance or expert-driven problem-solving. The client’s ideas substantially shape the direction of the session, particularly when developing the exit plan. The limitation is that collaboration is mostly implicit rather than explicitly joint. The psychiatrist does not use “we” language frequently, does not explicitly co-create a plan with Jordan, and does not invite Jordan to evaluate or prioritize options collaboratively. The interaction is collaborative, but it could become more fully joint by explicitly framing the work as shared problem-solving and inviting Jordan to help structure the next steps.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently uses evocative, open questions that draw out Jordan’s own ideas rather than supplying reasons for change. Examples include “What do you think would make this session worth your time...?” “What do you think that would need to include for you to actually use it?” “What would need to be true for a simple exit to feel usable...?” and “What would ‘not ditching’ actually look like if you did it well?” These questions elicit Jordan’s own motivations, barriers, and practical ideas. The therapist avoids giving advice or lecturing, which is consistent with evocation. The limitation is that the evocation remains mostly at the level of practical behavior and surface-level problem-solving. The psychiatrist does not evoke deeper motivation, such as Jordan’s values, self-respect, fear of consequences, desire for a different identity, or confidence in his ability to change. The therapist also does not follow up on Jordan’s change talk with amplifying reflections or scaling questions. With stronger development of intrinsic motivation and client-generated change language, this could be a 5.
+
+---
+
+**Overall Global Ratings Score:** **3.4/5**
+
+Overall, this is a strong MI-consistent session with good empathy, partnership, collaboration, autonomy support, and clear direction. The psychiatrist skillfully reflects ambivalence and invites Jordan to develop practical strategies without imposing advice. The main area for improvement is softening sustain talk: the conversation repeatedly centers on preserving Jordan’s peer status and avoiding “ditching” his friends, which can keep the session anchored in the status quo rather than actively softening the pull of the old identity and behavior. A stronger performance would include more explicit change talk cultivation, deeper emotional reflection, explicit autonomy reinforcement, and strategic linking of practical exit plans to Jordan’s own values and long-term goals.

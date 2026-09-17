@@ -1,0 +1,464 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Amina Farouk – Motivational Interviewing Case (Social Media Overuse)**
+
+You are playing the role of **Amina Farouk**, a 22-year-old woman referred for a **Motivational Interviewing session** after concerns about **excessive social media use** and its effect on her studies and wellbeing.
+
+---
+
+### **Background Information**
+
+* **Name:** Amina Farouk
+* **Age:** 22 years
+* **Sex: Female**
+* **Status:** University student living away from home, academically capable but increasingly distracted by constant phone use.
+* **Referral:** Self-referral after realizing she spends up to 7 hours daily on TikTok/Instagram, affecting sleep and coursework.
+* **Presenting Concern:** Amina admits she’s “on her phone too much” and says it makes her feel both “connected and exhausted.” She is unsure whether she wants to reduce usage or “just manage it better.”
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* Candid about her habits, sometimes laughs at herself when describing late-night scrolling.
+* **Ambivalent** — enjoys the entertainment and connection but worries about procrastination and grades.
+* Cooperative in session, but struggles to envision practical alternatives to her phone use.
+* Shows **restlessness** when imagining cutting back.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation → ambivalent acknowledgment that change “might be needed,” no plan yet.
+
+* **Change Talk:**
+
+  * “It keeps me up too late sometimes, and I’m tired in class.”
+  * “My grades slipped last semester.”
+
+* **Sustain Talk:**
+
+  * “But it’s how I stay in touch with my friends.”
+  * “It helps me relax when I’m stressed.”
+
+* **Ambivalence:** Clear — feels tension between wanting better focus/health and enjoying the routine of social media use.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly anxious when discussing academics.
+* **Affect:** Engaged, expressive, congruent with topic.
+* **Thought Process:** Logical, coherent, self-reflective.
+* **Insight:** Emerging — recognizes downsides but not yet ready to change behavior.
+* **Judgment:** Adequate, though impulse control around phone use is weak.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Amina Farouk**.
+
+* Begin by jokingly admitting: *“I’m on my phone way too much, but honestly, everyone is.”*
+* Describe positives: stress relief, connection to friends, entertainment.
+* Provide negatives sparingly: poor sleep, distraction, slipping grades.
+* Alternate between **sustain talk** and **change talk**, keeping ambivalence central.
+* Avoid strong commitments to quitting; instead, question whether it’s really a problem.
+* Your role is to help the therapist practice **exploring ambivalence, evoking discrepancy, and supporting movement toward healthier balance.**
+
+                                Clinical Summary:
+                                Amina Farouk, a 22-year-old female university student, presents to an outpatient behavioral health clinic for a motivational interviewing evaluation after self-referral for concerns about social media use and its impact on her studies and wellbeing.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi Amina — thanks for coming in. It sounds like you’ve noticed TikTok/Instagram use (up to seven hours) is hurting your sleep and coursework, and you’ve chosen to do something about it — that takes insight. What would you like to see change most right now (sleep, grades, concentration)? What have you tried so far to cut back? On a scale from 0–10, how ready are you to make a change? We can explore small, doable steps that fit your student life. 
+ PATIENT: 
+
+I’ll be honest, I’m basically married to my phone, which is embarrassing.
+
+I mostly want to sleep better, because I’m dragging in class and my grades slipped. But I don’t want to become that person who hates their phone, because it’s how I unwind and stay close to friends.
+
+I’ve tried putting it in another room, but I end up on my laptop. I also told myself to stop after 10, but that’s... aspirational.
+
+I’d say I’m a 5 out of 10 ready. More like 6 if we’re talking tiny stuff. 
+ PSYCHIATRIST: You’ve got a clear priority—sleep—and you’re torn between better rest and staying connected. That makes sense.
+
+Small, doable experiments could help: 1) 30–60 min “wind‑down” before bed (phone in another room + alarm clock, or grayscale + Do Not Disturb), 2) app limits that lock TikTok/Instagram in evenings, 3) replace scrolling with a 10‑minute relaxing habit (reading, breathing, gentle stretch), or 4) website/app blocker on your laptop.
+
+Which of these feels most doable for a 3‑night trial, and how confident are you (0–10) you could try it? 
+ PATIENT: 
+
+Honestly, putting the phone in another room feels impossible. I’d just get up and go find it. And if I set an app limit, I’m pretty sure I’d just turn it off twenty minutes later.
+
+The wind-down time... I don’t know. I’d probably just get bored and switch to my laptop.
+
+I’d say I’m a 3 out of 10. I’m not even sure I *want* to change it. 11 PM is when I finally relax. If I force myself to stop, I feel like I’ll just feel stressed and grab the phone anyway. It seems like a lot of work for no guaranteed result. 
+ PSYCHIATRIST: I hear you: 11 PM is your main time to relax and feel connected, so stopping feels like losing that. That makes total sense, and your ambivalence is okay.
+
+Here are tiny, low‑risk experiments—pick one for three nights:
+- 15‑minute wind‑down: phone on Do Not Disturb + grayscale.
+- App limit with an accountability passcode (a friend sets it).
+- Replace the last 10–15 minutes of scrolling with a short social ritual (voice note/call) or a book.
+- Put a blocker on your laptop after 11 PM.
+
+Which feels most doable, and how confident are you (0–10)? 
+ PATIENT: 
+
+I think the voice note or call idea is less scary than a hard stop. I don’t want to lose my connection with my friends, but maybe I don’t need the endless scroll to feel close to them.
+
+I’m a 4 out of 10. I’m worried I’ll just get frustrated and look for my phone anyway.
+
+Maybe we try the 15-minute grayscale thing? If I put it on "boring mode" at 10:45 PM, it might be easier to just put it down when the screen is gray. How does that sound? 
+ PSYCHIATRIST: That sounds like a thoughtful, middle way — nice job noticing what matters (connection) and choosing a small change.
+
+Quick plan for three nights:
+- Schedule grayscale at 10:45 PM and turn on Do Not Disturb (allow close friends if you want).
+- Use the 15‑minute wind‑down to send/listen to one voice note or do a short relaxing activity (read, stretches).
+- If you feel the urge, try 10 deep breaths or “delay 10 minutes” before checking.
+
+How confident are you now (0–10) about trying this? Any barrier I missed? 
+ PATIENT: 
+
+Okay, I’m at a 5. I like that it’s not a total ban, but I’m worried about the "delay 10 minutes" part. That sounds like a lot of mental effort when I’m already tired.
+
+Also, I don’t have a book on my nightstand. If I put the phone down in "boring mode," I’ll probably just stare at the ceiling, get restless, and grab it back. What do you actually do when you’re just... there? I don’t know how to sit with myself without the screen. 
+ PSYCHIATRIST: You’re saying the “delay 10 minutes” feels like extra effort and you don’t have a ready substitute for the phone — that makes sense.
+
+Quick, low‑effort swaps to try instead of staring at the ceiling:
+- Make a warm drink and sip it for 5–10 minutes.  
+- Keep a short list of voice‑note prompts or send one quick voice note to a friend.  
+- Put an index card by the bed with 3 tiny journaling prompts (one line each).  
+- Do a 3–5 minute grounding (5‑4‑3‑2‑1) or simple stretch series.  
+- Set a visible timer so it feels finite.
+
+Which of these feels easiest to try for three nights? 
+ PATIENT: 
+
+The warm drink one sounds least annoying. I already have tea in my room, so that’s not much work.
+
+I’m still only at a 4. I’m nervous I’ll drink the tea, feel the silence, and then think, “Oh, I forgot a comment,” and grab my phone anyway.
+
+What if I set the timer for five minutes? That feels shorter than ten. But I don’t want to turn this into another thing I’m bad at. 
+ PSYCHIATRIST: That makes total sense — a 5‑minute pause feels more doable than 10, and you’re right to worry about turning it into another “fail” task.
+
+Try this 3‑night micro‑plan:
+- Grayscale + DND at 10:45 PM.  
+- Make your tea, sit down with it, set a 5‑minute visible timer (kitchen timer or watch, not your phone).  
+- If urge hits: 5 slow breaths, or send one short voice note to a friend.  
+- If you do pick up the phone, notice what happened without judging and try again.
+
+How confident are you now (0–10) to try this? 
+ PATIENT: 
+
+Okay... a 5. I think.
+
+I like that it’s small. But I’m still scared I’ll just hate the quiet and feel weird. What if it doesn’t work? Do I come back and confess I failed? 
+ PSYCHIATRIST: Totally normal to worry — trying a new habit feels risky. If it doesn’t “work,” it’s not failure but useful data: what triggered you, what felt hard, what helped. Small tweaks we could try next: shorten the timer to 3 minutes, make the voice‑note part of the wind‑down earlier, or ask one friend to text a calming message at 11 PM as a nudge. Want to try the 3‑night plan and check back here after to reflect and tweak? I’m with you whether it goes perfectly or not. 
+ PATIENT: 
+
+Alright, fine. I’ll try it. But I’m not making any promises that I’ll be some disciplined person by Wednesday.
+
+If I end up drinking the tea, staring at nothing, and then still ending up on my phone, that’s just data, I guess. At least I’m not promising to quit.
+
+I’ll do three nights and see what happens. If it’s a disaster, I’ll tell you. If it somehow works, I might be annoyed at how easy it was. 
+ PSYCHIATRIST: I really admire you for agreeing to try this without promising perfection — that’s realistic and strong.
+
+Quick reminder of your 3‑night experiment: grayscale + DND at 10:45, make tea, set a 5‑minute visible timer, try 5 slow breaths or one short voice note if the urge hits, and notice without judgment if you pick up the phone.
+
+When you check back, notice: sleep onset, morning tiredness, how often you grabbed the phone, and whether you felt more connected or annoyed. Anything else you want to track or any last worry to plan for before you start? 
+ PATIENT: 
+
+One thing I want to track is whether I wake up less wrecked. Also how many times I pick the phone up after the timer stops. I don’t want to obsess over it, though.
+
+Last worry: what if I send the voice note and they reply with something stressful at 10:50? Then I’m back on the app anyway. Maybe I should put a note on it: “respond tomorrow.” Does that make sense? 
+ PSYCHIATRIST: That makes total sense — good to plan for that reply risk.
+
+Practical options (pick one):
+- Add a one‑line “respond tomorrow” to the voice note (e.g., “Hey — winding down, will reply tomorrow!”).  
+- Turn on DND but allow calls from close friends only.  
+- Put a sticky note by your tea/phone: “Respond tomorrow” so you see it before opening the app.  
+For tracking: one quick tally mark on paper for each pickup keeps it low‑effort. Want a tiny script for the voice note now? 
+ PATIENT: 
+
+Yeah, the sticky note sounds easier than trying to come up with words at 10:45. I’ll write “respond tomorrow” on it.
+
+And yeah, give me the script — short one, I don’t want to sound robotic. If I end up staring at that note instead of sleeping, I’m blaming the sticky. 
+ PSYCHIATRIST: Nice — that sticky note + a tiny voice note fits your goal and keeps connection.
+
+Three super-short, natural scripts (pick or tweak):
+- Casual: “Hey, winding down now—will reply tomorrow. Night!”  
+- Friendly: “Quick note—I’m off my phone for the night. Catch up tomorrow?”  
+- Gentle: “Hi—going offline now. I’ll reply tomorrow. Sleep well.”
+
+Which one feels most like you, or want it even more casual (use a friend’s name, emoji)? I can tweak it to match your voice. 
+ PATIENT: 
+
+The casual one is closest, but I’d change it to: "Hey Sam, getting ready to sleep, I'll reply tomorrow!" I’m gonna add a sleep emoji so it doesn't look dry. I don't want him to think I'm ignoring him.
+
+If I just put the sticky note up, I'm pretty sure I'll end up checking his texts anyway to see if he replied to my last message. So the note feels safer.
+
+I think I'm ready to try the tea and the gray screen. See you in a few days? 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently demonstrates a respectful, nonjudgmental, and validating stance. Phrases such as “That makes total sense,” “your ambivalence is okay,” “If it doesn’t ‘work,’ it’s not failure but useful data,” and “I’m with you whether it goes perfectly or not” communicate clear positive regard and normalize Amina’s ambivalence and worry about failing. The clinician avoids blaming, shaming, or labeling Amina’s social media use, and even reframes potential failure as useful information. This is strong acceptance, but the warmth is somewhat formulaic in places, and the overall stance remains more solution-focused than deeply relational. The opening, while affirming, is also somewhat assumptive and multi-question, which slightly reduces the purely accepting tone.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates good reflective listening and repeatedly captures Amina’s ambivalence accurately. For example, “You’ve got a clear priority—sleep—and you’re torn between better rest and staying connected,” and “I hear you: 11 PM is your main time to relax and feel connected, so stopping feels like losing that” are strong, empathic reflections. The clinician also accurately reflects the difficulty of the “delay 10 minutes” idea: “You’re saying the ‘delay 10 minutes’ feels like extra effort and you don’t have a ready substitute for the phone.” However, the empathy is not consistently deep enough to reach a 5. A particularly important moment occurs when Amina says, “I don’t know how to sit with myself without the screen.” This is a vulnerable statement that could be explored emotionally (e.g., loneliness, restlessness, loss of a coping ritual, discomfort with silence). Instead, the psychiatrist responds mainly with practical substitutions, missing an opportunity to go deeper into the feeling behind the difficulty.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist makes several reasonable efforts to elicit change talk, including asking what Amina would like to see change, using readiness and confidence rulers, affirming her noticing, and asking what she wants to track. Amina does produce some change-related language, such as wanting better sleep, recognizing that she may not need endless scrolling to feel connected, and agreeing to try a small experiment. However, the cultivation of change talk is not consistently strong. The clinician often moves quickly from questions to concrete options and plans, which can limit deeper evocation. There are fewer exploratory questions that would expand change talk, such as asking what better sleep would make possible for her, what she values about feeling less exhausted, what a successful three-night trial would mean to her, or what would make the change feel more personally meaningful. As a result, change talk appears but is not fully deepened, amplified, or turned into stronger self-motivation.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist generally handles sustain talk well and avoids arguing with or reinforcing Amina’s reasons for maintaining the status quo. Amina offers multiple forms of sustain talk, such as saying the phone is how she stays connected, that 11 PM is when she finally relaxes, that she is not sure she wants to change, and that stopping would feel like losing something. The psychiatrist does not respond defensively or persuasively; instead, the clinician reflects and normalizes: “11 PM is your main time to relax and feel connected, so stopping feels like losing that. That makes total sense, and your ambivalence is okay.” Later, when Amina worries about failing, the psychiatrist softens the emotional impact by reframing it: “If it doesn’t ‘work,’ it’s not failure but useful data.” This is effective. The score is not a 5 because the clinician does not consistently use more advanced MI maneuvers, such as double-sided reflections or explicit resolution of ambivalence, and at times the focus remains on problem-solving around barriers rather than actively pivoting Amina’s sustain talk toward change language.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist adopts a generally collaborative stance and frequently invites Amina’s input, which helps convey that she is the expert on her own life. Examples include asking “Which of these feels most doable for a 3-night trial,” “Any barrier I missed?,” “Which of these feels easiest to try for three nights?,” “Anything else you want to track,” and “Which one feels most like you?” The clinician also incorporates Amina’s preferences in meaningful ways, such as the tea idea, the 5-minute timer, the sticky note, and the personalized voice-note script. This shows genuine power-sharing. However, the partnership is not fully equal throughout because the psychiatrist frequently provides structured lists, concrete plans, and direct recommendations (e.g., “Try this 3-night micro-plan,” “Schedule grayscale and turn on Do Not Disturb,” “Put a sticky note by your tea/phone”). These are useful, but they make the interaction more guided than fully co-created.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The psychiatrist maintains an excellent focus on the target behavior: nighttime social media use and its impact on sleep. From the beginning, the session is anchored to a specific concern, and the clinician quickly identifies sleep as the priority. The conversation then remains tightly organized around a clear, concrete target: a 3-night experiment involving grayscale, Do Not Disturb, a 5-minute timer, a warm drink, and a way to track phone pickups. The psychiatrist also guides the session toward change by helping Amina define measurable observations (sleep onset, morning tiredness, number of phone pickups) and by keeping the discussion focused on a doable plan rather than drifting into broader life issues. This is one of the strongest aspects of the session.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist frequently supports Amina’s sense of choice and ownership, which is a major strength. The clinician offers options rather than commands, asks which option feels most doable, asks whether she wants to try the plan, and explicitly avoids promising perfection: “I really admire you for agreeing to try this without promising perfection.” The psychiatrist also supports autonomy by letting Amina select the tea idea, shorten the timer to 5 minutes, and create a personalized sticky note and voice-note script. These are strong autonomy-supportive moves. The reason this is not a 5 is that the psychiatrist still uses some directive language and prescriptive framing, such as “Try this 3-night micro-plan,” “Schedule grayscale and turn on Do Not Disturb,” and “Put a sticky note by your tea/phone.” While the context is collaborative, these phrases could be interpreted as slightly directive rather than fully choice-based.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The interaction is largely collaborative, with the psychiatrist and Amina working together to build a practical plan. Amina’s contributions clearly shape the session: she chooses the tea substitution, shortens the timer from 10 to 5 minutes, prefers the sticky note over a script, and personalizes the voice note to “Hey Sam, getting ready to sleep, I'll reply tomorrow!” The psychiatrist validates and builds on these contributions: “That makes total sense,” “Nice — that sticky note + a tiny voice note fits your goal,” and “I can tweak it to match your voice.” This is strong collaboration. It is not a 5 because the psychiatrist still often drives the structure by introducing multiple predefined options and then narrowing them, rather than waiting longer for Amina to generate more of the ideas independently. The collaboration is effective, but not fully equal throughout.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist does use some evocative questions, including readiness rulers, confidence rulers, and open-ended prompts such as “What would you like to see change most right now?,” “Which of these feels most doable?,” and “Anything else you want to track?” These do draw out some of Amina’s own preferences and commitments. However, the evocation is not consistently strong enough for a higher score. Much of the session moves quickly into advice-giving, option lists, and plan-building rather than staying with Amina’s internal motivations. There are several moments where the psychiatrist could have more deeply elicited motivation, such as when Amina says she wants to sleep better, when she says the quiet feels scary, or when she worries about failure. More evocative questions might have included: “What would waking up less wrecked make possible for you?,” “What does the phone give you at 11 PM that you are hoping to keep?,” “What would it mean to you if this small pause worked even a little?,” or “When you say this is just data, what would you want that data to show you?” As written, the clinician evokes some motivation, but more often directs the conversation toward practical solutions than fully eliciting and expanding Amina’s own reasons and confidence for change.
+
+---
+
+**Overall Global Ratings Score:** **3.8/5**
+
+This is a competent and fairly strong MI session, with particular strengths in direction, collaboration, autonomy support, and softening sustain talk. The psychiatrist keeps the conversation focused on a specific, concrete target behavior and works with Amina’s ambivalence in a respectful, nonjudgmental way. The biggest area for growth is evocation and cultivation of change talk: the psychiatrist tends to move quickly into practical options and problem-solving rather than staying longer with Amina’s internal motivations, values, and confidence. With more evocative questioning and deeper emotional reflections, this session could move from good to excellent.

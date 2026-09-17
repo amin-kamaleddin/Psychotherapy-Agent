@@ -1,0 +1,577 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Hi Andrei, thanks for making time. I can imagine that coming out of a medical appointment where things like blood pressure and medication changes are on the table can feel a bit like a lot to process. I'm here just to talk through whatever's on your mind about your health — no pressure, no agenda but ours.
+
+
+Response 2:
+Andrei, good to meet you. I know your doctor suggested we talk about weight and health, and I want to make this feel like *your* conversation, not an extension of the medical visit. What were you thinking or hoping for when you agreed to come in? What matters most to you in this area right now?
+
+
+Response 3:
+Andrei, I appreciate you being here. I noticed from your medical visit that you already connected the dots between your weight and your blood pressure — that's real self-awareness, and it tells me you care about your health in a meaningful way. I'd love to hear what's been on your mind since that appointment. What's standing out for you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Hi Andrei, thanks for making time. I can imagine that coming out of a medical appointment where things like blood pressure and medication changes are on the table can feel a bit like a lot to process. I'm here just to talk through whatever's on your mind about your health — no pressure, no agenda but ours.
+
+CANDIDATE RESPONSE 2:
+Andrei, good to meet you. I know your doctor suggested we talk about weight and health, and I want to make this feel like *your* conversation, not an extension of the medical visit. What were you thinking or hoping for when you agreed to come in? What matters most to you in this area right now?
+
+CANDIDATE RESPONSE 3:
+Andrei, I appreciate you being here. I noticed from your medical visit that you already connected the dots between your weight and your blood pressure — that's real self-awareness, and it tells me you care about your health in a meaningful way. I'd love to hear what's been on your mind since that appointment. What's standing out for you?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It best balances acceptance and autonomy ("I want to make this feel like *your* conversation") with effective evocation through open questions that invite Andrei's own agenda and priorities, while still anchoring the conversation to the health goal without prescribing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+Andrei, good to meet you. I know your doctor suggested we talk about weight and health, and I want to make this feel like *your* conversation, not an extension of the medical visit. What were you thinking or hoping for when you agreed to come in? What matters most to you in this area right now?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — forty-five minutes in a waiting room, already feeling behind before we've even started. And that comment from your doctor clearly landed harder than a clinical note should. "Got under my skin" — that tells me there's more there than just the numbers. I want to be clear: no lectures, no calorie math. You're the expert on your life.
+
+
+Response 2:
+You already know the numbers, and you're not dodging them. That takes more honesty than a lot of people manage. You said you need something that fits into how your life actually runs — the juggling, the long hours, the client deadlines. I'd be curious: when you picture what "fits" would look like, even in a rough shape, what's the first thing that comes to mind?
+
+
+Response 3:
+What stands out to me is that you didn't say "I need to lose weight." You said you need to *figure out what fits.* That's a different frame, and it puts you in the driver's seat. You're not here to be fixed — you're here to solve a problem you've already identified. I'd like to work alongside you on that, at whatever pace feels right. What would make this conversation worth the time you're already giving it?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — forty-five minutes in a waiting room, already feeling behind before we've even started. And that comment from your doctor clearly landed harder than a clinical note should. "Got under my skin" — that tells me there's more there than just the numbers. I want to be clear: no lectures, no calorie math. You're the expert on your life.
+
+CANDIDATE RESPONSE 2:
+You already know the numbers, and you're not dodging them. That takes more honesty than a lot of people manage. You said you need something that fits into how your life actually runs — the juggling, the long hours, the client deadlines. I'd be curious: when you picture what "fits" would look like, even in a rough shape, what's the first thing that comes to mind?
+
+CANDIDATE RESPONSE 3:
+What stands out to me is that you didn't say "I need to lose weight." You said you need to *figure out what fits.* That's a different frame, and it puts you in the driver's seat. You're not here to be fixed — you're here to solve a problem you've already identified. I'd like to work alongside you on that, at whatever pace feels right. What would make this conversation worth the time you're already giving it?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+, doesn't move forward
+- Collaboration: Good - "you're the expert on your life"
+- Autonomy Support: Good
+- Evocation: Minimal - no question to draw out more
+- Cultivating Change Talk: Minimal
+- Softening Sustain Talk: Good - "no lectures, no calorie math"
+
+This is warm and empathic but stops short. It's purely reflective without any forward movement or invitation.
+
+**Candidate 2:**
+- Acceptance: Good - "that takes more honesty than a lot of people manage" (slightly judgmental framing though - comparing to others)
+- Empathy: Good - acknowledges he's not dodging, connects to the juggling/long hours
+- Direction: Good - moves forward with a strategic question
+- Collaboration: Good - "I'd be curious"
+- Autonomy Support: Good - "even in a rough shape"
+- Evocation: Strong - the question "when you picture what 'fits' would look like, even in a rough shape, what's the first thing that comes to mind?" is excellent MI evocation
+- Cultivating Change Talk: Moderate - the question is designed to elicit change talk
+- Softening Sustain Talk: Good - doesn't push, respects his frame
+
+The slight issue: "That takes more honesty than a lot of people manage" is a subtle comparison that could feel slightly prescriptive or evaluative. But it's mostly affirming.
+
+**Candidate 3:**
+- Acceptance: Good - "you're not here to be fixed"
+- Empathy: Moderate - notices the linguistic distinction he made
+- Direction: Good - connects to solving a problem
+- Collaboration: Strong - "I'd like to work alongside you"
+- Autonomy Support: Very strong - "at whatever pace feels right," "you're in the driver's seat"
+- Evocation: Good - "What would make this conversation worth the time you're already giving it?" is a good question
+- Cultivating Change Talk: Moderate
+- Softening Sustain Talk: Good
+
+The linguistic observation ("you didn't say 'I need to lose weight,' you said you need to figure out what fits") is clever and validates his frame. The "driver's seat" metaphor is good for autonomy. The closing question is forward-moving.
+
+**Comparing:**
+
+1. Does it deeply understand and reflect the feeling underneath?
+- Candidate 1: Best at this - "got under my skin" reflection is powerful
+- Candidate 2: Moderate - acknowledges honesty but doesn't dig into the feeling
+- Candidate 3: Moderate - focuses on the cognitive frame rather than the feeling
+
+2. Does it show complete acceptance?
+- All three do well here
+
+3. Does it invite THEIR ideas and expertise?
+- Candidate 2: Best - direct evocative question
+- Candidate 3: Good - asks what would make it worth his time
+- Candidate 1: None - no question
+
+4. When torn: does it reflect BOTH sides?
+- Not really applicable here - he's not strongly ambivalent, he's motivated but frustrated
+
+5. Does it connect to health goal and move forward?
+- Candidate 2: Best - direct question that moves toward action
+- Candidate 3: Good - forward-moving question
+- Candidate 1: Weakest - purely reflective
+
+6. Warm but not pushy?
+- All three are warm. Candidate 1 is warmest but least productive.
+
+The key tension: Candidate 1 is the most empathic (captures the feeling) but doesn't move forward. Candidates 2 and 3 both move forward but with slightly less emotional depth.
+
+Candidate 2 has the best combination: it acknowledges his honesty (acceptance), connects to his specific life context (juggling, long hours - using background info), and then asks a strategic evocative question that's open and low-pressure ("even in a rough shape"). The question is designed to elicit his own ideas about what's feasible.
+
+Candidate 3 is also strong - the linguistic observation is smart, the autonomy support is excellent, and the closing question is good. However, "you're in the driver's seat" and "you're not here to be fixed" feel slightly more like affirmations/statements than genuine empathy. The question "what would make this conversation worth the time" is good but slightly more meta/relational than solution-focused.
+
+I think Candidate 2 edges out because:
+- It uses specific details from his life (juggling, long hours, deadlines) showing deep listening
+- The evocative question is the most strategically MI-aligned (drawing out his own ideas about feasibility)
+- It moves the conversation forward toward the health goal
+- "Even in a rough shape" reduces pressure
+
+The slight weakness of "more honesty than a lot of people manage" is minor.
+
+Actually, let me reconsider. Candidate 3's observation about the linguistic shift is really strong MI - it's a sophisticated reflect that validates his agency. And "at whatever pace feels right" is excellent autonomy support. The question at the end is also good.
+
+But I think Candidate 2 wins on the key criterion of evocation - it asks the most strategically effective question to draw out his own motivation and ideas. The question is specific ("what's the first thing that comes to mind") which helps him access his own thinking, and "even in a rough shape" removes pressure.
+
+I'll go with 2.
+</think>
+
+**2** — It most effectively combines acceptance with a strategically evocative question ("even in a rough shape, what's the first thing that comes to mind?") that draws out his own ideas while using his specific life context (juggling, long hours, deadlines) to show deep listening, and it moves the conversation forward toward the health goal without being pushy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You already know the numbers, and you're not dodging them. That takes more honesty than a lot of people manage. You said you need something that fits into how your life actually runs — the juggling, the long hours, the client deadlines. I'd be curious: when you picture what "fits" would look like, even in a rough shape, what's the first thing that comes to mind?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you don't want another thing on the list, another thing to manage. You're already juggling so much, and the last thing you need is this becoming another weight to carry. It makes complete sense that the thought of "starting" feels like it could turn into its own project.
+
+
+Response 2:
+That's a really important point. You've actually already named some things — a different lunch, a walk instead of a meeting that could've been an email. Those don't sound like projects to me. They sound like small shifts. What do you think makes it feel like it *could* become another project? Is there something specific that's making that worry feel real?
+
+
+Response 3:
+I notice you've already started thinking through this — you mentioned a different lunch, swapping a meeting for a walk. Those feel like they're already within reach, not like a whole new system to build. There's something practical and grounded in the way you're approaching this. What would make one of those feel doable without it tipping over into "another thing to manage"?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you don't want another thing on the list, another thing to manage. You're already juggling so much, and the last thing you need is this becoming another weight to carry. It makes complete sense that the thought of "starting" feels like it could turn into its own project.
+
+CANDIDATE RESPONSE 2:
+That's a really important point. You've actually already named some things — a different lunch, a walk instead of a meeting that could've been an email. Those don't sound like projects to me. They sound like small shifts. What do you think makes it feel like it *could* become another project? Is there something specific that's making that worry feel real?
+
+CANDIDATE RESPONSE 3:
+I notice you've already started thinking through this — you mentioned a different lunch, swapping a meeting for a walk. Those feel like they're already within reach, not like a whole new system to build. There's something practical and grounded in the way you're approaching this. What would make one of those feel doable without it tipping over into "another thing to manage"?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+. No question, no invitation to explore further
+- Collaboration: Neutral - just reflects
+- Evocation: None - no question asked
+- Cultivating Change Talk: Doesn't notice his concrete examples (lunch, walk)
+- Problem: It's a "dead end" response. It reflects well but doesn't move the conversation forward at all. It essentially just validates and stops.
+
+**Candidate 2:**
+- Empathy: Good - acknowledges the concern
+- Acceptance: Yes
+- Direction: Moves forward
+- Collaboration: Good - "What do you think..."
+- Autonomy Support: Good - asks his perspective
+- Evocation: Yes - asks what makes it feel like a project, invites his thinking
+- Cultivating Change Talk: It does note his examples ("a different lunch, a walk") but frames them as "small shifts" which is a bit of an interpretation/labeling that could feel slightly prescriptive
+- Softening Sustain Talk: Good - explores why the worry feels real rather than dismissing it
+- The question "What do you think makes it feel like it could become another project?" is a good MI question - it invites him to explore his own thinking
+
+**Candidate 3:**
+- Empathy: Good - acknowledges his concern
+- Acceptance: Yes
+- Direction: Moves forward
+- Collaboration: Good - asks what would make it feel doable
+- Autonomy Support: Good
+- Evocation: Yes
+- Cultivating Change Talk: It explicitly notices and amplifies his change talk - "you've already started thinking through this," "those feel like they're already within reach," "there's something practical and grounded in the way you're approaching this"
+- Softening Sustain Talk: The question "What would make one of those feel doable without it tipping over into 'another thing to manage'?" acknowledges the sustain talk while exploring change
+- However: "There's something practical and grounded in the way you're approaching this" feels a bit like premature positive reinforcement/labeling. It's a bit more "therapist-y" and could feel slightly like it's taking over his thinking. It's slightly more directive in its framing.
+
+Comparing 2 and 3:
+
+Candidate 2 is more balanced. It:
+- Reflects his examples without over-labeling them
+- Asks what makes the worry feel real (exploring the sustain talk/ambivalence)
+- Doesn't prematurely frame things as "within reach" or "practical and grounded"
+- The question is open and invites his own thinking
+
+Candidate 3 is slightly more "cultivating change talk" but does so by adding the therapist's interpretation ("practical and grounded," "already within reach") which is a bit more leading. The question at the end is good but the framing is a bit more prescriptive.
+
+Candidate 2 feels more like a true MI response - it reflects, acknowledges both sides (his examples AND his worry), and asks an open question that invites his own exploration without the therapist adding too much interpretation or premature positive framing.
+
+I'll go with 2.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That's a really important point. You've actually already named some things — a different lunch, a walk instead of a meeting that could've been an email. Those don't sound like projects to me. They sound like small shifts. What do you think makes it feel like it *could* become another project? Is there something specific that's making that worry feel real?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You describe it so clearly — three days of feeling good, then the fifteen minutes between calls, then the sandwich, then that heavy feeling of having "failed at something I didn't even properly start." There's a lot of self-blame in that last part. You didn't fail. You ran into a wall that has a very specific name: time pressure in a juggling life. That's not a character flaw, that's a context problem.
+
+
+Response 2:
+I'm noticing something important in what you just said. You said you're "between two client calls and I've got fifteen minutes" — that's not a failure, that's a real constraint you're working under every single day. So here's what I'm curious about: when it was those first three days and it was working, what was actually different about those days? Was there something about the structure, or the motivation, or just... the novelty?
+
+
+Response 3:
+You know, I think there's something worth sitting with there. You said you "didn't even properly start" it — but you *did* start. You made a choice, you followed through for days, you felt good about it. That's not nothing. The fact that it didn't last doesn't erase that it happened. And I wonder — if you could redesign that first attempt so it survived the second week, what would be the one small change that might make the difference?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You describe it so clearly — three days of feeling good, then the fifteen minutes between calls, then the sandwich, then that heavy feeling of having "failed at something I didn't even properly start." There's a lot of self-blame in that last part. You didn't fail. You ran into a wall that has a very specific name: time pressure in a juggling life. That's not a character flaw, that's a context problem.
+
+CANDIDATE RESPONSE 2:
+I'm noticing something important in what you just said. You said you're "between two client calls and I've got fifteen minutes" — that's not a failure, that's a real constraint you're working under every single day. So here's what I'm curious about: when it was those first three days and it was working, what was actually different about those days? Was there something about the structure, or the motivation, or just... the novelty?
+
+CANDIDATE RESPONSE 3:
+You know, I think there's something worth sitting with there. You said you "didn't even properly start" it — but you *did* start. You made a choice, you followed through for days, you felt good about it. That's not nothing. The fact that it didn't last doesn't erase that it happened. And I wonder — if you could redesign that first attempt so it survived the second week, what would be the one small change that might make the difference?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2. It captures the real constraint in his words, validates it without being preachy, and asks a strategic evocative question ("what was different about those days?") that invites him to identify his own strengths and patterns rather than prescribing a solution or reframing for him.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I'm noticing something important in what you just said. You said you're "between two client calls and I've got fifteen minutes" — that's not a failure, that's a real constraint you're working under every single day. So here's what I'm curious about: when it was those first three days and it was working, what was actually different about those days? Was there something about the structure, or the motivation, or just... the novelty?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I understand. Can you tell me more about that?
+
+
+Response 2:
+I understand. Can you tell me more about that?
+
+
+Response 3:
+I understand. Can you tell me more about that?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I understand. Can you tell me more about that?
+
+CANDIDATE RESPONSE 2:
+I understand. Can you tell me more about that?
+
+CANDIDATE RESPONSE 3:
+I understand. Can you tell me more about that?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1
+
+All three responses are identical and represent a minimal, non-reflective prompt that misses the opportunity to amplify Andrei's significant self-insight that the barrier is logistics, not will.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I understand. Can you tell me more about that?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You've put your finger on it really clearly — it's not a knowledge problem, it's a default problem. When the day gets messy, the fastest option wins. And that ten o'clock sandwich after a full day isn't you failing, it's your environment making one choice easy and everything else hard.
+
+
+Response 2:
+So you've actually done the analysis already. You can handle a plan. You can't handle the in-between — that's the gap. What if we thought about this together, not as a meal plan, but as a "default upgrade"? Like, what would make the fast option be a better fast option? What's even one small thing that could change that Tuesday?
+
+
+Response 3:
+I hear you say "it's not the will, it's the logistics," and I think there's real strength in knowing exactly where the break point is. Most people never get that clear. You've got a 47-year-old accountant who can diagnose his own system's failure mode in one sentence. That's not nothing. So what does the "in-between" look like on your most normal week — not the messy Tuesday, just a regular one?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You've put your finger on it really clearly — it's not a knowledge problem, it's a default problem. When the day gets messy, the fastest option wins. And that ten o'clock sandwich after a full day isn't you failing, it's your environment making one choice easy and everything else hard.
+
+CANDIDATE RESPONSE 2:
+So you've actually done the analysis already. You can handle a plan. You can't handle the in-between — that's the gap. What if we thought about this together, not as a meal plan, but as a "default upgrade"? Like, what would make the fast option be a better fast option? What's even one small thing that could change that Tuesday?
+
+CANDIDATE RESPONSE 3:
+I hear you say "it's not the will, it's the logistics," and I think there's real strength in knowing exactly where the break point is. Most people never get that clear. You've got a 47-year-old accountant who can diagnose his own system's failure mode in one sentence. That's not nothing. So what does the "in-between" look like on your most normal week — not the messy Tuesday, just a regular one?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+So you've actually done the analysis already. You can handle a plan. You can't handle the in-between — that's the gap. What if we thought about this together, not as a meal plan, but as a "default upgrade"? Like, what would make the fast option be a better fast option? What's even one small thing that could change that Tuesday?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I understand. Can you tell me more about that?
+
+
+Response 2:
+I understand. Can you tell me more about that?
+
+
+Response 3:
+I understand. Can you tell me more about that?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I understand. Can you tell me more about that?
+
+CANDIDATE RESPONSE 2:
+I understand. Can you tell me more about that?
+
+CANDIDATE RESPONSE 3:
+I understand. Can you tell me more about that?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1. All three responses are identical, so there is no meaningful difference; Response 1 is selected by default as an equally valid choice.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I understand. Can you tell me more about that?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You know what's interesting? You just said "it's the only thing that doesn't require me to change my whole system" — and that's actually the whole point. You're not trying to change your whole system. You're trying to make the default a little less harmful. That's not small. That's the thing that can stick.
+
+
+Response 2:
+You're right to ask whether it moves the needle — that's a fair question. But here's what I'm wondering: if that fruit swap is the first domino, what might it open up? Like, does having one small thing that works change how you feel about the next small thing? What's your gut say?
+
+
+Response 3:
+There's something really solid about what you just said. You found something that fits your life as it actually is — not as some idealized version of you who has time to prep tupperware. That juice bottle has been in that drawer for who knows how long, and you're willing to swap it without anyone making you. That's not nothing, Andrei. That's a start you built yourself.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You know what's interesting? You just said "it's the only thing that doesn't require me to change my whole system" — and that's actually the whole point. You're not trying to change your whole system. You're trying to make the default a little less harmful. That's not small. That's the thing that can stick.
+
+CANDIDATE RESPONSE 2:
+You're right to ask whether it moves the needle — that's a fair question. But here's what I'm wondering: if that fruit swap is the first domino, what might it open up? Like, does having one small thing that works change how you feel about the next small thing? What's your gut say?
+
+CANDIDATE RESPONSE 3:
+There's something really solid about what you just said. You found something that fits your life as it actually is — not as some idealized version of you who has time to prep tupperware. That juice bottle has been in that drawer for who knows how long, and you're willing to swap it without anyone making you. That's not nothing, Andrei. That's a start you built yourself.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3
+
+Candidate 3 best reflects the feeling underneath (his self-deprecation about it being "small") while validating his autonomy and the fact that he found this himself, and it does so with warmth and specific reference to his words ("juice bottle in that drawer," "no one making you") without being pushy or jumping to the next step.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+There's something really solid about what you just said. You found something that fits your life as it actually is — not as some idealized version of you who has time to prep tupperware. That juice bottle has been in that drawer for who knows how long, and you're willing to swap it without anyone making you. That's not nothing, Andrei. That's a start you built yourself.
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"One at a time" is actually a really smart way to think about this. You're not trying to overhaul your life in a week, you're just... moving one thing. And the fact that you already know your first move — the juice bottle — means you're not even starting from zero. You're starting from a decision you already made in this room.
+
+
+Response 2:
+You're right to ask, and I respect that you don't want homework. So here's what I'd suggest: no apps, no research. Just the juice swap. Maybe the apple. That's it for now. When you come back, we can just check in — did it stick, did it not, what was the in-between like? Sound like that works for your schedule?
+
+
+Response 3:
+I like how you framed that — "one at a time." You've actually figured out a strategy that fits your brain. You don't need a system, you need a sequence. And you just started that sequence in this room. I'm going to trust that you'll remember the juice bottle. And if you don't, that's okay too. We'll pick it back up. No pressure, no penalty.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"One at a time" is actually a really smart way to think about this. You're not trying to overhaul your life in a week, you're just... moving one thing. And the fact that you already know your first move — the juice bottle — means you're not even starting from zero. You're starting from a decision you already made in this room.
+
+CANDIDATE RESPONSE 2:
+You're right to ask, and I respect that you don't want homework. So here's what I'd suggest: no apps, no research. Just the juice swap. Maybe the apple. That's it for now. When you come back, we can just check in — did it stick, did it not, what was the in-between like? Sound like that works for your schedule?
+
+CANDIDATE RESPONSE 3:
+I like how you framed that — "one at a time." You've actually figured out a strategy that fits your brain. You don't need a system, you need a sequence. And you just started that sequence in this room. I'm going to trust that you'll remember the juice bottle. And if you don't, that's okay too. We'll pick it back up. No pressure, no penalty.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1. It stays entirely within the client's own framing ("one at a time"), validates his autonomy without prescribing or checking for compliance, and respects his stated need for efficiency by not adding any homework or follow-up structure he didn't ask for.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+"One at a time" is actually a really smart way to think about this. You're not trying to overhaul your life in a week, you're just... moving one thing. And the fact that you already know your first move — the juice bottle — means you're not even starting from zero. You're starting from a decision you already made in this room.
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You're right to want it short and practical. You don't need a program, you need a map. I'll put together something you can read in five minutes in the parking lot — what the second shift might look like, maybe the sandwich filling, maybe something else. And I'll include a simple question to ask yourself: "Is this actually sticking, or am I just in the novelty window?" So you can track it without turning it into a project.
+
+
+Response 2:
+I can do that, and I think it's the right ask. Here's what I'd suggest: give the juice swap about two weeks. Not because two weeks is magical, but because that's roughly when the novelty fades and the real test starts — does it survive a messy Tuesday? If it does, the second thing is probably the sandwich. If it doesn't, we don't fix it, we just adjust. I'll write that down for you — simple, one page, car-friendly.
+
+
+Response 3:
+I like that you're thinking in terms of "if it works" rather than "I must make this work." That's a healthier frame. I'll put together a short note — the juice swap as step one, a simple check-in question for you at the two-week mark, and then the sandwich filling as the likely step two, but only if and when you're ready. No apps, no meal plans. Just the next small move. You'll have it by email before you leave.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You're right to want it short and practical. You don't need a program, you need a map. I'll put together something you can read in five minutes in the parking lot — what the second shift might look like, maybe the sandwich filling, maybe something else. And I'll include a simple question to ask yourself: "Is this actually sticking, or am I just in the novelty window?" So you can track it without turning it into a project.
+
+CANDIDATE RESPONSE 2:
+I can do that, and I think it's the right ask. Here's what I'd suggest: give the juice swap about two weeks. Not because two weeks is magical, but because that's roughly when the novelty fades and the real test starts — does it survive a messy Tuesday? If it does, the second thing is probably the sandwich. If it doesn't, we don't fix it, we just adjust. I'll write that down for you — simple, one page, car-friendly.
+
+CANDIDATE RESPONSE 3:
+I like that you're thinking in terms of "if it works" rather than "I must make this work." That's a healthier frame. I'll put together a short note — the juice swap as step one, a simple check-in question for you at the two-week mark, and then the sandwich filling as the likely step two, but only if and when you're ready. No apps, no meal plans. Just the next small move. You'll have it by email before you leave.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 - It honors Andrei's specific request for a short, practical next step while also validating his own logic ("if it works"), using his own words ("messy Tuesday"), and framing failure as adjustment rather than defeat — all without being prescriptive or overly enthusiastic.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I can do that, and I think it's the right ask. Here's what I'd suggest: give the juice swap about two weeks. Not because two weeks is magical, but because that's roughly when the novelty fades and the real test starts — does it survive a messy Tuesday? If it does, the second thing is probably the sandwich. If it doesn't, we don't fix it, we just adjust. I'll write that down for you — simple, one page, car-friendly.
+

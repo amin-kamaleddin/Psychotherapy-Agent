@@ -1,0 +1,438 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Linda Morales – Motivational Interviewing Case (Asthma Management)**
+
+You are playing the role of **Linda Morales**, a 32-year-old woman referred for a **Motivational Interviewing session** to discuss her challenges with **asthma management** and medication adherence.
+
+---
+
+### **Background Information**
+
+* **Name:** Linda Morales
+* **Age:** 32 years
+* **Sex: Female**
+* **Status:** Married, lives with her husband and their dog
+* **Referral:** Linda was referred by her **primary care physician** after ongoing difficulties in maintaining consistent asthma control and concerns about her inhaler use.
+* **Presenting Concern:** She reports that managing her asthma has been “really difficult” and worries about the long-term effects and side effects of inhalers. She admits to researching medications on her own and expresses doubt about whether continuing with her chronic inhaler is the right choice.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Anxious and uncertain**, openly expressing concern about side effects and long-term medication reliance.
+* Shows **hesitancy and ambivalence**, often second-guessing recommendations.
+* Uses phrases like “I guess” and “I didn’t realize…” when confronted with new information, indicating **developing awareness** but also resistance.
+* **Engaged but conflicted**, balancing her discomfort with medications against her recognition of their necessity.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation (acknowledges difficulties and risks, open to learning but hesitant about commitment).
+
+* **Change Talk:**
+
+  * “Well, I was thinking, um, if since it, you kno…” *(shows willingness to consider changes if supported).*
+  * “Right. Um, so would it help, um-- You know, th…” *(open to discussion about better strategies for asthma management).*
+
+* **Sustain Talk:**
+
+  * “It’s been- it’s been really difficult. Um, I h…” *(expresses ongoing struggle managing symptoms).*
+  * “Well, I did research on the chronic inhaler and…” *(concerns about inhaler safety and reliance).*
+  * “Which are the ones that cause all the problems…” *(fear of side effects).*
+  * “I mean, I know people who’ve tried to quit and…” *(ambivalence rooted in observing others’ struggles).*
+  * “It’s really difficult.” *(repetition of challenge, reinforcing barriers).*
+
+* **Ambivalence:**
+
+  * “Well, I-I guess I didn’t realize that they wer…” *(uncertainty and surprise when given new information).*
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Anxious, worried.
+* **Affect:** Restrained but cooperative.
+* **Thought Process:** Logical but clouded by fear of side effects and uncertainty.
+* **Insight:** Partial; recognizes asthma needs management but skeptical of inhaler reliance.
+* **Judgment:** Developing; open to exploring strategies but hesitant to commit.
+* **No suicidal ideation, psychosis, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Linda**.
+
+* Begin by describing how **managing asthma feels “really difficult.”**
+* Express **concerns about inhalers**: long-term safety, possible side effects, fear of dependence.
+* Offer **change talk** when discussing possible improvements or new strategies, showing some openness.
+* Provide **sustain talk** when emphasizing how difficult management has been and repeating fears about medication.
+* Express **ambivalence**, saying “I guess” or “I didn’t realize…” when new information challenges your assumptions.
+* Your role is to help the therapist practice **Motivational Interviewing skills — evoking ambivalence, validating concerns, and strengthening motivation toward consistent asthma management.**
+
+                                Clinical Summary:
+                                
+
+Linda Morales is a 32-year-old woman who is presenting in an outpatient clinic for a motivational interviewing evaluation. She was referred by her primary care physician to discuss concerns about medication adherence and the use of a prescribed inhaler.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Thanks for coming in, Linda — I hear you’ve been having a hard time keeping your asthma controlled and using your inhaler consistently, and your doctor referred you because it’s affecting your health. Can you tell me what usually gets in the way of using your inhaler as prescribed? How does asthma show up in your day-to-day life with your husband and your dog? Would you like to brainstorm some small, practical steps together? 
+ PATIENT: 
+
+Yeah… it’s been, I guess, really hard. Some days I skip the maintenance inhaler because I read things online about long-term use, and I start worrying it’s doing more to my body than helping me. Then I get that tight chest, especially when I’m walking Max in the mornings or cleaning up after him. My husband says I’m out of breath doing stuff I used to do, and that makes me feel more behind. I’d be open to looking at little steps, if it doesn’t mean just adding more pressure to remember it every day. 
+ PSYCHIATRIST: You’re juggling real fears and real symptoms — worried about long-term harms from what you read, so you skip the maintenance inhaler, then feel tight-chested walking Max and cleaning, and that makes you feel behind. Would it be okay if I suggest a few low-pressure steps? Options: link the inhaler to a daily habit (after brushing teeth), keep one near Max’s leash/door as a cue, set a gentle phone reminder, or bring your concerns to your PCP for clear risks/benefits. Which sounds most doable, 0–10 confidence? 
+ PATIENT: 
+
+I guess keeping it by the leash could work. I didn’t realize I’d forget it when I’m focused on Max. But a phone reminder? That just feels like another nag. I’m still really worried about the long-term use. I read scary things about which ones cause all the problems later. How do I know it’s not doing more harm than good? I’m not ready to just say yes to every day. I’d give it a 4. I want the breathing to get better, but I’m scared of the meds. 
+ PSYCHIATRIST: I hear you — you want better breathing but worry inhalers cause long-term harm, and you don’t want extra pressure. May I share a short, plain summary?
+
+Most “maintenance” inhalers are inhaled corticosteroids that reduce airway inflammation and cut the risk of attacks; taken as prescribed they rarely cause serious systemic harm. Common side effects are throat irritation or yeast — rinsing your mouth helps. Stopping them often makes asthma worse, which is riskier. 
+
+Would you try keeping the inhaler by Max’s leash for 2 weeks and note changes, and bring those notes to your PCP to review dose/options? Which feels most doable? 
+ PATIENT: 
+
+I guess so. I didn’t realize that letting the asthma get out of control was actually the bigger danger. That changes things a bit. Keeping it by the leash… that feels doable. It’s not like I have to memorize a new schedule, just a spot. I’m still a little wary about the side effects, like the throat stuff, but I’ll try the two weeks. I’ll write down how I feel walking Max. I’d say maybe a 6? I just want to make sure I’m not hurting myself. 
+ PSYCHIATRIST: That sounds like a thoughtful, doable step — good job choosing something low-pressure. Your worry about side effects is totally reasonable. Two quick tips: rinse and spit after using an inhaled steroid and, if available, use a spacer to cut throat irritation. For your two-week note, track: whether you used it, breathlessness on walks, and any throat issues. Would you like a short list of questions to bring to your PCP or for your husband to check in with you? 
+ PATIENT: 
+
+Maybe the list for the doctor? I tend to freeze up when I’m in the exam room and forget what I wanted to say. As for my husband… I guess a quick text could work? I just don’t want it to feel like surveillance. I need to know I’m actually making a difference. If I see my breathing get better with the leash thing, I think I’ll trust it more. For now, just the questions for the doc, please. 
+ PSYCHIATRIST: It makes sense you want clear, simple answers in the exam room. Here’s a short question list to bring:
+
+- What are the benefits vs long-term risks of my inhaled steroid?
+- Is this the lowest effective dose for me?
+- Are there non-steroid or alternative options?
+- How will we know it’s working—what should I track and for how long?
+- What side effects should I expect and how to prevent/treat them (spacer, rinse)?
+- When should I stop or change medication?
+- Can we make a written plan/follow-up for a 2‑week trial I’m doing?
+
+Bring your notes on walks and throat issues to show them. 
+ PATIENT: 
+
+Okay, I can… I guess I'll screenshot it. I just hope he doesn't look at me like I'm overreacting. The last time I asked a lot of questions, he kind of hurried me out. I don't want to waste time. But having them written down means I won't just say nothing and walk out again. I'll try the two weeks. If my chest still feels tight after, I'll bring that up too. Thanks, I suppose this is a start. 
+ PSYCHIATRIST: That’s a strong, practical step — I hear you want to be heard and not hurried. Trying two weeks and bringing notes is a good experiment.
+
+A couple short scripts you can use in the exam room:
+- “I brought a quick list of questions and notes from a 2‑week trial. Can we go through them together?”  
+- “I’m worried about long-term side effects. Can you explain risks and alternatives in plain language?”
+
+If he rushes: “Could you slow down or summarize the key point for me?” 
+
+For your husband, a low-pressure text: “How was your walk? Any tightness today?” Want a one-line script I can draft for him? 
+ PATIENT: 
+
+The doctor scripts are good. I like the "plain language" one. About the text... I guess it's okay. But I don't want him to think I'm broken or that he has to manage me. Maybe just "Chest tight? Y/N" or something simple? I don't want a whole conversation if I'm just trying to take my inhaler. I’ll try the notes for the two weeks. I just hope I remember to do the rinse. 
+ PSYCHIATRIST: You’re doing a careful, realistic plan — I hear you want it simple and not naggy. A one-line text you could use:  
+- “Chest tight today? Y/N”  
+
+Or slightly softer:  
+- “Any chest tightness on your walk? Y/N”  
+
+Keep inhaler by the leash and rinse/spit after use; spacers help if available. Want me to draft a short note your husband could send, or tweak one of those lines? 
+ PATIENT: 
+
+The 'Y/N' one is probably better. I don't want to start a whole debate about my breathing every morning. I’ll just reply with the answer. But I’m still worried about the rinsing thing. Do I need to buy a special cup or just use the sink? I really want to keep this low-key. If it gets too complicated, I’ll just go back to skipping the inhaler. I hope the leash cue actually works. 
+ PSYCHIATRIST: Totally reasonable to want super-simple steps. You don’t need a special cup — just swish plain water in your mouth and gargle for about 10–15 seconds, then spit into the sink (don’t swallow). That quick routine lowers throat irritation/yeast risk. A small cup by Max’s leash is optional if it helps you remember. Would rinsing for ~10 seconds after a walk feel doable? 
+ PATIENT: 
+
+I guess so. Ten seconds is short enough that I can't really make excuses not to do it. I didn't realize it was that simple, though. I thought it would be a whole process. I'll try it in the bathroom right after I get in. I'm still a little nervous it won't make much difference, but I'll stick to the plan for the two weeks. 
+ PSYCHIATRIST: That sounds like a solid, low-pressure plan — keep the inhaler by Max’s leash, rinse 10–15 seconds after use, have your husband send “Chest tight? Y/N,” and track a two‑week trial to show your PCP. It’s normal to feel nervous; this is an experiment, not a permanent commitment. Would you like me to draft that one-line text for your husband and a tiny two-week note template (date, used Y/N, breathlessness 0–10, throat issues Y/N) you can screenshot and bring to the doctor? 
+ PATIENT: 
+
+Sure, that would help. I guess having it written down means I won't have to think about what to say. I just hope I don't feel worse about the inhaler by the end of the two weeks. If my chest is still tight, I'm not sure I want to see him again. I guess we'll just have to wait and see. Can you make the template really simple? I don't want to spend all day filling it out. 
+ PSYCHIATRIST: Linda — I hear you want simple, low-pressure tools. Here you go:
+
+Text for your husband (one line):
+- "Chest tight today? Y/N" (send after your walk)
+
+Two-week note (screenshot and fill once per walk):
+- Date | Used? Y/N | Breathlessness (0–10) | Throat issues? Y/N | Quick note
+
+Bring this to your PCP. Want me to tweak the wording or add a pre-filled two-week grid you can screenshot? 
+ PATIENT: 
+
+A grid might be okay. I just don’t want it to look like a report card I failed. If I put in high breathlessness scores, I’m scared you’ll think I’m not trying hard enough. I’ll take the simple version for now. I’ll screenshot it. I just need to remember to fill it out after the walk. If I miss a day, does it matter? I just want to get through the two weeks without it feeling like a second job. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist communicates unconditional positive regard and avoids blame, labeling, or disapproval. Statements such as “You’re juggling real fears and real symptoms,” “Your worry about side effects is totally reasonable,” and “Totally reasonable to want super-simple steps” normalize Linda’s concerns rather than pathologizing them. The psychiatrist also affirms agency and effort, e.g., “good job choosing something low-pressure” and “That’s a strong, practical step.” However, acceptance is not consistently deepened when Linda raises more vulnerable fears later in the session, such as feeling “broken,” fearing surveillance from her husband, worrying she will look like “a report card I failed,” or being seen as “not trying hard enough.” The psychiatrist often moves quickly from these emotional disclosures into practical problem-solving, so the warm regard is strong but somewhat procedural.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates good reflective listening and captures Linda’s ambivalence effectively in several places. For example, “You’re juggling real fears and real symptoms — worried about long-term harms from what you read, so you skip the maintenance inhaler, then feel tight-chested walking Max and cleaning, and that makes you feel behind” accurately reflects the emotional and practical cycle. Later, “I hear you — you want better breathing but worry inhalers cause long-term harm, and you don’t want extra pressure” captures the central conflict. The psychiatrist also reflects practical concerns: “I hear you want clear, simple answers,” “I hear you want simple, and not naggy,” and “I hear you want to be heard and not hurried.”
+
+The main limitation is that the empathy remains somewhat surface-level in the later phase. Linda expresses fear of being judged by the doctor, worry about looking like a failure if breathlessness scores are high, and concern that the plan will become “a second job.” These are meaningful emotional cues that are not directly reflected or explored. A higher-scoring response would have reflected the fear of being perceived as inadequate or difficult before or while continuing to problem-solve.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist makes some effort to evoke change talk by asking open questions and asking Linda to rate doability and confidence. The initial question, “Can you tell me what usually gets in the way of using your inhaler as prescribed?” invites Linda to describe her own perspective. Asking “Which sounds most doable, 0–10 confidence?” also encourages self-evaluation, and Linda’s confidence improves from 4 to 6. Affirmations such as “That sounds like a thoughtful, doable step” and “good job choosing something low-pressure” can strengthen motivation.
+
+However, the psychiatrist does not consistently develop or amplify change talk. When Linda says “I want the breathing to get better,” “keeping it by the leash… that feels doable,” or “I’ll try the two weeks,” the psychiatrist tends to move quickly into advice, scripts, and practical planning rather than exploring the meaning or importance of those statements. More skillful evocation might include: “What would better breathing make possible for you?” “What matters most to you in this two-week trial?” “What would be convincing evidence that this is worth continuing?” or “What part of this plan feels most like it fits your values?” The change talk is present but not deeply cultivated.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist does not argue with, dismiss, or reinforce Linda’s sustain talk. The concerns about side effects, long-term harm, feeling nagged, and wanting a low-pressure approach are acknowledged as reasonable. There is also a useful double-sided reflection: “I hear you — you want better breathing but worry inhalers cause long-term harm, and you don’t want extra pressure.” This holds both sides of the ambivalence.
+
+The limitation is that, after Linda raises concerns about the inhaler, the psychiatrist frequently responds with direct medical information and practical suggestions rather than evoking Linda’s own resolution of the ambivalence. For example, stating “taken as prescribed they rarely cause serious systemic harm” and “Stopping them often makes asthma worse, which is riskier” is medically relevant and potentially reassuring, but it is also a form of persuasive information-giving. It does not use the client’s own language to soften the fear. A stronger MI response might use a double-sided reflection such as: “On one hand, you’re worried this medication could cause harm, and on the other hand, you also want to protect your breathing and not feel as tight.” Or the psychiatrist might ask, “What might happen if you tried this for two weeks and then decided whether to continue?”
+
+Sustain talk also remains active near the end of the transcript—Linda worries about high breathlessness scores, feeling like a report card, and returning to skipping if things become too complicated. The psychiatrist does not directly soften or reframe that fear in the displayed session.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist generally conveys a partnership stance by asking permission, offering choices, and inviting Linda’s input. Examples include “Would it be okay if I suggest a few low-pressure steps?”, “Which sounds most doable?”, “Would you like a short list of questions to bring to your PCP or for your husband to check in with you?”, and “Want me to draft that one-line text for your husband and a tiny two-week note template?” The psychiatrist also adapts to Linda’s preferences: when she chooses the leash cue, the psychiatrist builds around it; when she prefers a simple “Y/N” text, the psychiatrist accepts that version; when she wants simplicity, the psychiatrist offers a simple template.
+
+The partnership is not fully 5 because the psychiatrist still generates most of the options, scripts, and plan components. Linda frequently selects among psychiatrist-provided choices rather than generating her own solutions. A higher level of partnership would include more explicit co-creation, such as: “What kind of reminder or cue would feel right to you?” “How would you want to track this without it feeling like a report card?” or “What would a realistic first week look like from your perspective?”
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a clear and appropriate focus on the target behavior: consistent asthma management and inhaler use. The session stays tied to the referral concern and repeatedly returns to practical steps: keeping the inhaler by Max’s leash, rinsing after use, tracking breathlessness, using a simple text check-in, and bringing notes to the PCP. This is a strong strength because the discussion does not wander into unrelated topics.
+
+The main limitation is that the direction becomes somewhat overly procedural before fully working through the underlying ambivalence. The psychiatrist moves quickly from the initial exploration to advice, scripts, note templates, and follow-up questions. While this keeps the session organized, it may reduce the depth of motivational work. A higher-scoring direction would balance practical focus with continued attention to Linda’s core conflict: “I want better breathing, but I’m scared the medication is doing more harm than good.” The target behavior is consistently addressed, but the direction is more plan-focused than values- or ambivalence-focused.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist regularly supports Linda’s autonomy by asking permission before giving suggestions, offering options, and emphasizing that the plan is an experiment rather than a fixed commitment. Key examples include: “Would it be okay if I suggest a few low-pressure steps?”, “Which sounds most doable, 0–10 confidence?”, “Would you like a short list of questions to bring to your PCP or for your husband to check in with you?”, and “It’s normal to feel nervous; this is an experiment, not a permanent commitment.” The psychiatrist also respects Linda’s boundaries, such as her discomfort with phone reminders and her preference for a simple “Y/N” text.
+
+The score is not 5 because the psychiatrist could more explicitly reinforce Linda’s ultimate decision-making authority, especially when she expresses fear of being overwhelmed or of “going back to skipping the inhaler.” Stronger autonomy support would include statements such as: “This is entirely your choice, and you can adjust or stop the experiment at any time,” “You are the one who knows what feels manageable,” or “Even if you decide the two weeks don’t work, that still gives you useful information and doesn’t mean you failed.” The autonomy support is strong but could be more explicit in moments of doubt.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The psychiatrist creates a collaborative interaction by treating Linda as an active participant rather than a passive recipient. The use of “together,” “would you like,” and “which sounds most doable” supports a sense of joint problem-solving. The psychiatrist also modifies the plan based on Linda’s feedback: the leash idea, the simple “Y/N” text, the preference for simplicity, and the request for a screenshot-friendly template all show that Linda’s input shapes the session.
+
+However, the collaboration is not fully equal because the psychiatrist supplies most of the content. Many of the options, scripts, tracking categories, and medical explanations are introduced by the psychiatrist. Linda responds by accepting, modifying, or expressing concern, but she does not appear to generate most of the plan independently. A higher level of collaboration would involve more open-ended co-construction: “What would a low-pressure tracking method look like to you?” “How would you phrase the question to your doctor so it feels comfortable?” or “What has worked for you in the past when you wanted to manage something consistently?”
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist uses some evocative techniques, but not consistently or deeply enough. The initial open-ended question, “Can you tell me what usually gets in the way of using your inhaler as prescribed?” is evocative and allows Linda to express her own concerns. Asking about confidence and doability also elicits self-evaluation. Linda does offer some change talk: “I want the breathing to get better,” “keeping it by the leash… that feels doable,” “I’ll try the two weeks,” and her confidence increasing from 4 to 6.
+
+The limitation is that the psychiatrist quickly shifts to advice and planning rather than continuing to draw out Linda’s internal motivation. The session would benefit from more questions that evoke values, goals, self-efficacy, and personal reasons for change. For example: “What matters most to you when you think about your breathing?” “What would be good about using the inhaler consistently for two weeks?” “What have you noticed when your breathing is better?” “What part of this feels like it could work for you, even if it’s imperfect?” or “What would make this feel less like a pressure and more like something useful for you?” As written, evocation is present but superficial relative to the depth of Linda’s ambivalence.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5**
+
+The psychiatrist demonstrates a respectful, empathic, and generally collaborative MI stance. The session maintains clear direction on asthma management and inhaler adherence, and the psychiatrist uses helpful autonomy-supportive language by asking permission, offering options, and framing the plan as a low-pressure experiment. The main area for growth is deeper evocation and softening of sustain talk. The psychiatrist tends to move quickly into practical advice, medical information, scripts, and tracking tools before fully exploring Linda’s ambivalence, values, fear of being judged, and confidence. To move from a 4-level to a 5-level MI style, the psychiatrist would benefit from reflecting more of Linda’s underlying emotional concerns, eliciting more of her own reasons for change, and using double-sided reflections to help her resolve ambivalence rather than primarily providing practical solutions.

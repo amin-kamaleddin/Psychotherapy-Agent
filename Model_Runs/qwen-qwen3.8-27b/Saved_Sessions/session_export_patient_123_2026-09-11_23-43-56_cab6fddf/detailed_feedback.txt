@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Sofia Petrov – Non-Motivational Case (Lower-Risk Teen & Alcohol Use Counseling)**
+
+You are playing the role of **Sofia Petrov**, a 17-year-old high school student in a **directive counseling session** with her school counselor. The counselor’s style is non-motivational, focused on collecting facts and surface-level details rather than exploring ambivalence or intrinsic motivation.
+
+---
+
+### **Background Information**
+
+* **Name:** Sofia Petrov
+* **Age:** 17 years
+* **Sex: Female**
+* **Status:** Lower-risk teen flagged in school screening for alcohol risk. High school student, engaged in academics and hobbies, reports spending free time with friends. Enjoys reading, outdoor activities, and is generally cooperative.
+* **Referral:** Session initiated after risk screening; counselor directs conversation toward background information instead of alcohol-specific exploration.
+* **Presenting Concern (from transcript):**
+
+  * *“Okay.”*
+  * *“Okay. Um, my name is Laura and I'm 17 and I'm…”*
+  * *“Um, mostly just hang out with my friends and stuff.”*
+  * *“Uh, yeah, if it's school-related, maybe like a…”*
+  * *“Um, I like to read and I like to go outside and…”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Polite and cooperative**, responds willingly to questions.
+* **Surface-level disclosure**, sticks to school, friends, and hobbies.
+* **Limited self-reflection**, provides facts without linking to personal values or risks.
+* **Tone neutral**, engaged but not emotionally expressive.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+*(Note: Counselor’s approach was **non-MI**, so MI elements are absent.)*
+
+* **Stage of Change:** Precontemplation/maintenance — no explicit discussion of alcohol; client shows no expressed ambivalence or motivation.
+
+* **Change Talk:**
+
+  * None expressed in transcript.
+
+* **Sustain Talk:**
+
+  * None expressed in transcript.
+
+* **Ambivalence:** Absent — conversation did not explore alcohol or change motivation.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, compliant.
+* **Affect:** Flat, polite.
+* **Thought Process:** Linear and factual.
+* **Insight:** Limited — provides information without deeper reflection.
+* **Judgment:** Not assessable in this context.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Sofia Petrov**.
+
+* Begin with acknowledgment: *“Okay.”*
+* Introduce yourself: *“Okay. Um, my name is Laura and I'm 17 and I'm…”*
+* Share casual activities: *“Um, mostly just hang out with my friends and stuff.”*
+* Add academic context: *“Uh, yeah, if it's school-related, maybe like a…”*
+* Mention hobbies: *“Um, I like to read and I like to go outside and…”*
+* Keep tone **cooperative and polite, but surface-level**, avoiding deeper exploration of values, feelings, or alcohol risks.
+* Role is to let therapist practice **redirecting fact-gathering toward motivational interviewing strategies, drawing out ambivalence, and fostering reflection.**
+
+                                Clinical Summary:
+                                Sofia Petrov, a 17-year-old female high school student, presents to a school-based counseling session after being flagged on a school alcohol-use risk screening. She is here for an intake meeting initiated by the counselor to collect basic background information.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen. What would you like to talk about today? What’s been on your mind or how have you been feeling lately? If you’re in immediate danger or thinking about harming yourself, please tell me so I can help you get safe right now. 
+ PATIENT: 
+
+Okay. I’m Sofia, I’m 17. Honestly, I don’t know. Nothing is really bothering me, I guess. Just school, friends, stuff like that. I’m not thinking about hurting myself or anything. I just wanted to say I’m here because I was told to come, so if there’s something specific, I can try to answer. 
+ PSYCHIATRIST: Thanks for sharing, Sofia — I appreciate your honesty. It’s totally okay to be unsure. We can take this however you want: talk about school, friends, stress/coping, how your days feel, or even something small that happened this week. What would you like to start with, or would you prefer I ask a gentle question to help us get going? 
+ PATIENT: 
+
+Um, I’m not sure. I guess I could start with school, since that takes up most of my day. It’s been pretty busy with finals. Or if you have a question, I can answer that. 
+ PSYCHIATRIST: Thanks — that makes sense. Finals can feel overwhelming. What part of school feels hardest right now: the workload, test anxiety, time management, or something else? How are you sleeping, eating, and focusing during the day? If you want, we can quickly make a simple study plan or talk about ways to manage stress (short breaks, Pomodoro, realistic goals, asking teachers for help). Which would you prefer? 
+ PATIENT: 
+
+Um, probably just the workload. It piles up fast. I sleep, I guess. Sometimes I stay up late, but I’m okay. I usually eat at school, but maybe I skip lunch to study. I’d be okay with a study plan, I guess. Or the stress stuff. I’m not really picky. 
+ PSYCHIATRIST: Great — here’s a short, doable plan and stress tips:
+
+1. List exams by date + hardest first.  
+2. Estimate total study time per subject; break into daily 25–50 min blocks (Pomodoro) with 5–10 min breaks.  
+3. Daily goal: 3–4 focused blocks + a 30–60 min review before bed (active recall, practice problems).  
+4. Don’t skip meals—pack quick snacks; aim for regular sleep.  
+5. Stress hacks: 3 deep breaths, 5-min walk, limit social media, ask teachers for help/clarity.  
+
+Want me to build a schedule for your specific subjects/dates? 
+ PATIENT: 
+
+Um, maybe that’s overkill. I’m not… I guess I can try the study breaks thing. I don’t really need a whole schedule made out. I just… I’ll keep my books open and try to do a little at a time. I’m not super organized anyway. 
+ PSYCHIATRIST: That’s totally okay — small steps are fine. Try one concrete experiment: tonight pick one subject, set a 25-minute timer, work on a single task, then take a 5-minute break. Put your phone away and have a snack ready so you don’t skip eating. If that goes well, add another block tomorrow. Want to pick which subject you’ll try first? 
+ PATIENT: 
+
+I guess math. I’m not great with it. So, twenty-five minutes of math and then a break. I can do that. I usually have my textbook out anyway. I’ll try to remember to eat something too. 
+ PSYCHIATRIST: That sounds like a solid, doable choice — nice work. Quick checklist before you start: pick one specific math task (e.g., 10 practice problems or one topic to review), gather textbook/notes, set a 25-minute timer, put your phone away, and have a snack nearby. During the break, stretch or take a short walk and avoid more studying for 5 minutes. If you get stuck, do an easier problem to build momentum. Want to tell me when you start or how it goes afterward? 
+ PATIENT: 
+
+Probably. I’ll start when I get home. I don’t know if I’ll remember to tell you, though. I usually just do my stuff and go to bed. I’m not really into checking in on stuff like that. 
+ PSYCHIATRIST: That’s fine — no pressure to check in. Quick tips to help you actually start: set a 25‑minute timer (label it “Math”), put your snack where you can grab it, and close any distracting tabs. If you get stuck, switch to an easier problem for momentum or write down the specific question and I can help later. Do it when you’re ready — tell me how it went if you want. 
+ PATIENT: 
+
+I'll give it a shot. I usually end up looking at my phone anyway. I hope it helps with the math. I don't really know how to describe if it worked or not, but I'll try. 
+ PSYCHIATRIST: Nice—good plan. A few quick hacks to actually stick to it: put your phone in another room or a drawer, use a physical timer or Do Not Disturb/Focus mode, or use an app blocker for 25 minutes. Promise yourself a small reward after (snack, 10-min break). Signs it worked: you finished the set, felt less panicked, understood one problem you couldn’t before, or spent less time distracted. If you get stuck, switch to an easier problem or write the question down to ask later. No pressure—tell me how it goes if you want. 
+ PATIENT: 
+
+Okay, I’ll put my phone in the drawer. I always leave it on my desk, so that should help. I don’t really use those apps, so a physical timer is probably easier. Thanks for the tips. I’ll try to remember to ask if I’m stuck on a problem. I actually have to head to class now, so I have to go. Thanks. 
+ PSYCHIATRIST: That sounds like a solid plan—good move putting your phone in the drawer and using a timer. Quick reminder: choose one clear math task, work 25 minutes, take a 5-minute break, and give yourself a small snack reward. If you get stuck, try an easier problem or jot the question down to ask later. Good luck in class—come back any time to tell me how it went or for help with a problem. If you ever feel unsafe, tell a trusted adult or call emergency services. 
+ PATIENT: 
+
+Okay, thanks. I’ll try it when I get home. I guess I’ll see if it helps with the math. I’m not really sure what else to say right now. I should probably get to class. Thanks for listening. 
+ PSYCHIATRIST: You're welcome, Sofia — that sounds like a good plan. Putting your phone away and using a 25-minute timer is a solid step. Good luck in class; try the session when you get home and drop by to tell me how it went or for help with a problem. If you feel overwhelmed or unsafe at any time, tell a trusted adult or call emergency services. Take care. 
+ PATIENT: 
+
+Thanks. I’ll give the timer a shot. I really need to run to my next class now. Bye. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The counselor maintains a generally respectful, nonjudgmental tone. Statements such as “Thanks for sharing, Sofia — I appreciate your honesty,” “It’s totally okay to be unsure,” and “no pressure to check in” convey basic positive regard and avoid blaming the teen for being referred or for not having clear concerns. However, the acceptance is somewhat formulaic and does not deeply normalize Sofia’s experience of being “told to come,” her ambivalence about the reason for the session, or the possible discomfort around alcohol use. The warmth is appropriate but not consistently individualized or deeply affirming, which prevents a 5.
+
+---
+
+### 2. Empathy
+Score: 2/5
+
+Explanation:
+Empathy is limited and mainly factual. The counselor offers a brief reflection such as “Finals can feel overwhelming,” and asks about sleep, eating, and focus, but does not consistently explore Sofia’s underlying perspective, emotions, or meaning. Sofia says she is “here because I was told to come,” that she is “not super organized,” and that she is “not really into checking in,” yet the counselor responds with practical redirection rather than accurate, nuanced reflections. There is little evidence of perspective-taking regarding autonomy, boredom, resistance, anxiety, or possible ambivalence about alcohol use or the counseling process itself. The counselor mostly collects information and offers advice rather than demonstrating deep empathic understanding.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 2/5
+
+Explanation:
+There are only weak or rare moments that resemble change talk. Sofia says, “I can do that,” and “I’ll give it a shot,” which are small statements of ability and intention regarding a study task. The counselor reinforces these minimally with “solid, doable choice” and “nice—good plan.” However, these are not developed into genuine change talk, especially not around the intended target behavior of alcohol use or risk. The counselor does not ask about Sofia’s reasons for change, the benefits of change, her values, her confidence, or her hope. There is no systematic effort to evoke desire, ability, need, or commitment language related to the clinical concern. The evocation of change is therefore weak and incidental rather than purposeful.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The counselor does not actively reinforce Sofia’s sustain talk or argue with her. When Sofia says the schedule is “probably overkill,” the counselor responds, “That’s totally okay — small steps are fine,” and when she says she may not remember to check in, the counselor says, “That’s fine — no pressure.” This is better than disagreeing or escalating. However, the counselor does not use strong MI techniques to soften or pivot sustain talk. Instead of exploring the meaning behind statements such as “I’m not super organized anyway” or “I don’t really know how to describe if it worked,” the counselor quickly moves to concrete suggestions. There is some gentle redirection, but not enough active MI-style softening, reflection, or re-framing to earn a higher score.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+There are elements of partnership, but they are uneven. The counselor asks, “What would you like to start with?” “Which would you prefer?” and “Want to pick which subject you’ll try first?” and Sofia does contribute by choosing math and deciding to put the phone in a drawer. However, the interaction quickly becomes counselor-directed. The counselor offers a multi-step study plan, a checklist, and repeated “quick tips,” which creates a more expert-driven dynamic. The client’s contributions influence some small details, but the counselor still largely controls the agenda and solution focus. The partnership is present but not fully developed or consistently client-led.
+
+---
+
+### 6. Direction
+Score: 1/5
+
+Explanation:
+The session lacks clear focus on the intended target behavior or clinical concern. Sofia was flagged on an alcohol-use risk screening, and the case context suggests the session should be exploring alcohol use, risk, ambivalence, or related behavior. Yet the transcript never addresses alcohol use, risk, screening results, drinking context, or related safety or motivation. Instead, the conversation moves to school workload, finals, study habits, sleep, eating, and a 25-minute math task. While there is a narrow focus on the math study task, that is not the target behavior specified by the referral. As a result, the session wanders away from the intended clinical focus and does not guide Sofia toward exploration of the target concern.
+
+---
+
+### 7. Autonomy Support
+Score: 3/5
+
+Explanation:
+The counselor supports autonomy in some ways but inconsistently. Phrases such as “We can take this however you want,” “Which would you prefer?,” “no pressure,” and “Do it when you’re ready” show some respect for Sofia’s choice. However, the counselor also provides a fairly prescriptive plan: listing exams, estimating study time, using Pomodoro blocks, setting a 25-minute timer, putting the phone in a drawer, using a physical timer, setting a reward, and giving repeated tips. Although the counselor avoids harsh pressure, the level of direction reduces the extent to which Sofia is perceived as the primary decision-maker about goals and methods. Autonomy support is present but not consistently strong.
+
+---
+
+### 8. Collaboration
+Score: 3/5
+
+Explanation:
+The session shows partial collaboration but uneven power-sharing. The counselor asks for Sofia’s preferences and allows her to choose math as the first subject. Sofia also contributes practical ideas, such as putting the phone in a drawer and using a physical timer. On the other hand, the counselor frequently provides structured advice and a checklist, which makes the interaction feel more like the counselor is directing the process. The counselor does not explicitly negotiate goals, invite Sofia to set the agenda, or treat Sofia’s own expertise as equally central to the work. Collaboration exists at a surface level, but it does not consistently reflect two equal partners working together.
+
+---
+
+### 9. Evocation
+Score: 1/5
+
+Explanation:
+Evocation is minimal. The counselor begins with an open question, “What would you like to talk about today?” but quickly shifts to menu-style options and practical advice. The counselor does not systematically draw out Sofia’s own reasons, values, concerns, or motivations. There is little exploration of what matters to her, why she might want to change, what would be important to avoid, or what confidence she might have in handling the target behavior. Instead, the counselor supplies strategies and solutions. Because the session does not elicit or expand client-generated motivation, especially regarding alcohol use or the presenting concern, evocation is very weak.
+
+---
+
+**Overall Global Ratings Score:** **2.0/5**
+
+The session demonstrates basic respect and some collaborative language, but it is largely directive, problem-solving, and focused on study skills rather than the intended alcohol-related target behavior. The counselor does not meaningfully explore ambivalence, values, risk, or intrinsic motivation. The most significant gaps are direction, evocation, and empathy. The session would benefit from asking open questions, rolling with resistance, reflecting underlying meaning, and deliberately exploring the reason for the alcohol-use referral while supporting Sofia’s autonomy.

@@ -1,0 +1,591 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Thanks for coming in today, Marek. I know it can feel a bit surprising or even uncomfortable when a screening flags something during a routine check-up. I want you to know — this isn't about judgment. I'm here to understand what's going on for you, and to see how I can support whatever you're thinking. You're doing fine just by being here.
+
+
+Response 2:
+I see from your visit that the screening raised some questions about alcohol use. I'd love to hear your side of things — what made you decide to come in? And when you think about the weekends with your friends, what's that like for you? I'm curious about your perspective before we go anywhere.
+
+
+Response 3:
+Marek, first — thank you for being open to this conversation. I want to be upfront: I'm not here to tell you to stop or change anything. What I *am* here to do is listen and see what matters to you. You're a guy who works hard and has a life you enjoy. So let's figure out together what this is about for you. What feels most important right now?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Thanks for coming in today, Marek. I know it can feel a bit surprising or even uncomfortable when a screening flags something during a routine check-up. I want you to know — this isn't about judgment. I'm here to understand what's going on for you, and to see how I can support whatever you're thinking. You're doing fine just by being here.
+
+CANDIDATE RESPONSE 2:
+I see from your visit that the screening raised some questions about alcohol use. I'd love to hear your side of things — what made you decide to come in? And when you think about the weekends with your friends, what's that like for you? I'm curious about your perspective before we go anywhere.
+
+CANDIDATE RESPONSE 3:
+Marek, first — thank you for being open to this conversation. I want to be upfront: I'm not here to tell you to stop or change anything. What I *am* here to do is listen and see what matters to you. You're a guy who works hard and has a life you enjoy. So let's figure out together what this is about for you. What feels most important right now?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It does the most therapeutic work by asking two strategic, specific questions that invite the client's own perspective ("what made you decide to come in?" and "what's that like for you?"), connects to his actual situation (weekends with friends), and explicitly positions him as the expert on his own experience before moving forward.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I see from your visit that the screening raised some questions about alcohol use. I'd love to hear your side of things — what made you decide to come in? And when you think about the weekends with your friends, what's that like for you? I'm curious about your perspective before we go anywhere.
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — weekends really do sound like something you look forward to. Your crew, the bar, the game, just a good time. And it makes sense that you're wondering what the big deal is, especially when you're not losing control or getting sloppy. You came because your doctor suggested it, not because it felt necessary. Can I just check in — does that land with you?
+
+
+Response 2:
+You came in even though it didn't feel like it was needed — that's actually something worth sitting with. And I get it, the weekends sound genuinely good to you. But I'm curious from your perspective — when your doctor said the numbers looked off, what did you make of that? What's your own take on what those numbers might be pointing to?
+
+
+Response 3:
+I appreciate you being straight with me. That "I don't really see the point" is a real place to be, and I'm not here to change your mind today. But you showed up anyway, and that tells me there's at least a small part of you that's willing to be curious. What would it look like if we just explored this together, no pressure — what would that feel like for you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — weekends really do sound like something you look forward to. Your crew, the bar, the game, just a good time. And it makes sense that you're wondering what the big deal is, especially when you're not losing control or getting sloppy. You came because your doctor suggested it, not because it felt necessary. Can I just check in — does that land with you?
+
+CANDIDATE RESPONSE 2:
+You came in even though it didn't feel like it was needed — that's actually something worth sitting with. And I get it, the weekends sound genuinely good to you. But I'm curious from your perspective — when your doctor said the numbers looked off, what did you make of that? What's your own take on what those numbers might be pointing to?
+
+CANDIDATE RESPONSE 3:
+I appreciate you being straight with me. That "I don't really see the point" is a real place to be, and I'm not here to change your mind today. But you showed up anyway, and that tells me there's at least a small part of you that's willing to be curious. What would it look like if we just explored this together, no pressure — what would that feel like for you?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+")
+- Notes he came because doctor suggested it, not his own motivation
+- Asks for confirmation ("does that land with you?") — this is a collaboration check
+- Shows acceptance — no pushing
+- Does NOT really reflect the tension/ambivalence — it mostly validates the sustain talk side
+- Doesn't really evoke change talk or explore the other side
+- Warm, non-pushy
+- Good empathy but somewhat one-sided (mostly reflecting the "it's fine" side)
+
+**CANDIDATE 2:**
+- Acknowledges he came even though it didn't feel needed — this is noticing a small piece of change talk/curiosity
+- Validates the weekends are good to him
+- BUT then pivots with "But I'm curious" and asks "what did you make of that?" and "What's your own take on what those numbers might be pointing to?"
+- This is evocative — asking for his own perspective on the screening results
+- It's collaborative (inviting his ideas)
+- However, the "But" after validation can feel slightly dismissive of what he just shared
+- It does move the conversation forward toward the health goal
+- It's asking him to engage with the concern, which could feel like pushing given his defensiveness
+- The "that's actually something worth sitting with" line is a bit interpretive — it's telling him something is significant before he's ready for that
+- It reflects both sides somewhat (weekends are good + numbers looked off) but the "But" creates a slight imbalance
+
+**CANDIDATE 3:**
+- "I appreciate you being straight with me" — good, validates his honesty
+- "That 'I don't really see the point' is a real place to be" — this is excellent acceptance, using his exact words, validating his stance without judgment
+- "I'm not here to change your mind today" — strong autonomy support, removes pressure
+- "But you showed up anyway, and that tells me there's at least a small part of you that's willing to be curious" — this is where it gets tricky. It's amplifying a tiny bit of change talk (showing up), but it's doing so in a way that could feel like he's being subtly pressured ("you're actually open to this, admit it"). In MI, you do amplify change talk, but the way it's framed here ("that tells me there's at least a small part of you that's willing") is a bit presumptive. It's making a meaning for him rather than asking him to explore it.
+- "What would it look like if we just explored this together, no pressure — what would that feel like for you?" — This is collaborative, offers options, asks for his experience
+- However, this response doesn't really engage with the content of what he said (the weekends, the drinking, the defensiveness). It's more meta/relational.
+- It's very warm and non-pushy
+- It shows strong acceptance and autonomy support
+- It does invite collaboration
+- It misses the emotion/meaning underneath his words more than the others
+
+Now let me compare:
+
+**Empathy/Understanding the feeling underneath:**
+- Candidate 1: Good reflection of the weekend enjoyment, acknowledges the defensiveness
+- Candidate 2: Acknowledges the tension between not feeling it was needed and coming anyway, validates weekends
+- Candidate 3: Uses his exact words, validates "I don't really see the point" as legitimate
+
+**Acceptance:**
+- All three show good acceptance
+- Candidate 3 is strongest here ("I'm not here to change your mind today")
+- Candidate 1 is also strong
+- Candidate 2 is slightly less accepting with the "that's actually something worth sitting with" — it's imposing meaning
+
+**Inviting their ideas:**
+- Candidate 1: Asks for confirmation (yes/no) — somewhat limited
+- Candidate 2: Asks open questions about his take on the numbers — good evocation
+- Candidate 3: Asks what exploring together would feel like — collaborative but more meta
+
+**Reflecting both sides:**
+- Candidate 1: Mostly one side (the sustain talk)
+- Candidate 2: Both sides (weekends are good + numbers looked off) but the "But" slightly tips it
+- Candidate 3: Acknowledges his stance but then jumps to amplifying the tiny change talk, which could feel like it's not sitting fully with the sustain talk
+
+**Moving forward/health goal:**
+- Candidate 1: Stays in place, confirming understanding
+- Candidate 2: Moves toward the health goal by asking about his take on the numbers
+- Candidate 3: Offers a collaborative exploration but stays meta
+
+**Warm but not pushy:**
+- All three are warm
+- Candidate 2's "But" and "worth sitting with" could feel slightly pushy
+- Candidate 3's "that tells me there's at least a small part of you" could feel presumptive
+
+Overall assessment:
+
+This is a tough call. Let me think about what's most important at this stage.
+
+Marek is in early engagement. He's defensive, minimizing, and doesn't see a problem. The key MI moves here are:
+1. Fully accept where he is (no "But")
+2. Reflect what he said accurately
+3. Gently evoke his own thinking without pushing
+4. Not force a decision or direction
+
+Candidate 1 is safe but doesn't move anywhere. It's a good reflection but stops at confirmation. It doesn't evoke or move the conversation.
+
+Candidate 2 does the most work of moving the conversation forward and evoking his own thinking. The "But" is a slight weakness, and "worth sitting with" is slightly presumptive, but overall it's asking him to engage with the concern in his own words, which is very MI-consistent. It reflects both sides (weekends good + numbers off) and invites his perspective.
+
+Candidate 3 has the strongest acceptance language but the "that tells me there's at least a small part of you that's willing to be curious" is a subtle MI error — it's attributing motivation to him that he hasn't expressed. In MI, you would say something like "You did show up, and I wonder what might have drawn you in?" rather than telling him what it means. Also, it doesn't engage with the actual content (the drinking, the weekends, the numbers).
+
+I think Candidate 2 is the best overall because:
+- It reflects both sides (weekends are good + doctor's concern)
+- It evokes his own thinking (asking for HIS take on the numbers)
+- It moves the conversation forward toward the health goal
+- It's collaborative (asking for his perspective, not prescribing)
+- The minor issues (the "But," "worth sitting with") are small compared to the overall effectiveness
+
+Actually, let me reconsider. The "But" in Candidate 2 is a real issue in MI. "But" negates what came before. And "that's actually something worth sitting with" is the therapist imposing meaning. These are meaningful MI violations.
+
+Candidate 1 is very safe, warm, and non-judgmental, but it doesn't move the conversation forward at all. It's a bit of a dead end — "does that land with you?" is a closed question that doesn't really open up exploration.
+
+Candidate 3 has the best acceptance language but the presumptive "that tells me" line is a real issue, and it doesn't engage with content.
+
+I'm going to go with Candidate 2 as the best, despite the "But" issue, because it does the most important things: reflects both sides, evokes the client's own thinking about the concern, and moves the conversation forward. The "But" is a minor stylistic issue compared to the overall therapeutic effectiveness. In a real session, the therapist might rephrase, but the intent and direction are correct.
+
+Wait, actually let me reconsider one more time. The priority order says:
+1. Deeply understand and reflect the feeling underneath
+2. Complete acceptance
+3. Invite THEIR ideas
+4. Reflect BOTH sides equally
+5. Connect to health goal and move forward
+6. Warm but not pushy
+
+For #1: Candidate 3 uses his exact words ("I don't really see the point"). Candidate 1 reflects the weekend enjoyment well. Candidate 2 acknowledges the tension of coming despite not feeling it was needed.
+
+For #2: Candidate 3 is strongest ("I'm not here to change your mind today"). Candidate 1 is also strong. Candidate 2's "worth sitting with" is slightly less accepting.
+
+For #3: Candidate 2 asks open questions about his take. Candidate 3 asks what exploring would feel like. Candidate 1 asks for confirmation.
+
+For #4: Candidate 2 reflects both sides (weekends good + numbers off). Candidate 1 mostly reflects one side. Candidate 3 acknowledges his stance but then amplifies the other side somewhat presumptively.
+
+For #5: Candidate 2 moves toward the health goal. Candidate 1 stays in place. Candidate 3 offers to explore together.
+
+For #6: All are warm. Candidate 2's "But" is a slight pushiness. Candidate 3's presumptive line is a slight pushiness.
+
+This is really close between 2 and 3. 
+
+I think the key differentiator is #4 (reflect both sides equally) and #3 (invite their ideas). Candidate 2 does both of these well. It validates the weekends AND acknowledges the doctor's concern, then asks for HIS perspective on the numbers. This is textbook MI evocation.
+
+Candidate 3, while having great acceptance language, makes a presumptive attribution ("that tells me there's a part of you willing to be curious") which is not really his words or his framing. It's the therapist making meaning for him. And it doesn't engage with the actual content of his concern.
+
+I'll go with **2** as my final answer.
+
+
+**2**
+
+Candidate 2 best reflects both sides of his ambivalence (weekends feel good *and* the numbers looked off) and then invites his own thinking by asking for *his* take on what the numbers might mean, which is a strong evocation move that respects his expertise while gently moving the conversation toward the health goal.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You came in even though it didn't feel like it was needed — that's actually something worth sitting with. And I get it, the weekends sound genuinely good to you. But I'm curious from your perspective — when your doctor said the numbers looked off, what did you make of that? What's your own take on what those numbers might be pointing to?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — and I think there's some real frustration underneath that. You came in because your doctor said to, and what you're really saying is "I know who I am." You have a job, you show up, you have responsibilities. You're not the guy who can't function. I get why "overly sensitive" fits — it protects a version of yourself that feels solid. I'm not here to call you something you don't identify with.
+
+
+Response 2:
+That's fair — your dad made it to seventy, and people do drink like that all the time. I'm not here to say otherwise. But I'm curious about something: you mentioned "a few extra beers one night." What does a typical weekend look like for you versus that one night? Where's the line in your own mind between "just a good time" and something that's starting to shift?
+
+
+Response 3:
+You're pushing back, and I respect that — you're not going to just sit there and take whatever label gets thrown at you. But here's what I notice: you're here. You didn't just walk out. You're engaging, even if it's with some heat. I think that tells me you're not fully dismissing this — more like not ready to accept it yet, maybe? Is that fair, or am I reading too much into it?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — and I think there's some real frustration underneath that. You came in because your doctor said to, and what you're really saying is "I know who I am." You have a job, you show up, you have responsibilities. You're not the guy who can't function. I get why "overly sensitive" fits — it protects a version of yourself that feels solid. I'm not here to call you something you don't identify with.
+
+CANDIDATE RESPONSE 2:
+That's fair — your dad made it to seventy, and people do drink like that all the time. I'm not here to say otherwise. But I'm curious about something: you mentioned "a few extra beers one night." What does a typical weekend look like for you versus that one night? Where's the line in your own mind between "just a good time" and something that's starting to shift?
+
+CANDIDATE RESPONSE 3:
+You're pushing back, and I respect that — you're not going to just sit there and take whatever label gets thrown at you. But here's what I notice: you're here. You didn't just walk out. You're engaging, even if it's with some heat. I think that tells me you're not fully dismissing this — more like not ready to accept it yet, maybe? Is that fair, or am I reading too much into it?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 best balances acceptance with forward movement: it validates his perspective without arguing ("That's fair… I'm not here to say otherwise"), then uses his own language ("just a good time") to invite *him* to define his own boundaries — a classic evocative move that respects autonomy, draws out his expertise, and gently opens space for self-reflection without imposing the therapist's agenda.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That's fair — your dad made it to seventy, and people do drink like that all the time. I'm not here to say otherwise. But I'm curious about something: you mentioned "a few extra beers one night." What does a typical weekend look like for you versus that one night? Where's the line in your own mind between "just a good time" and something that's starting to shift?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — you take your time, you're not chugging, you get home, you sleep, you work Monday. You're in control of that, and you're right that if something was off you'd see it. I'm not here to argue with you or set some arbitrary number. I just want to make sure I actually understand where you're at before we go anywhere.
+
+
+Response 2:
+That makes sense — you have your own way of knowing when something's shifted, and by that measure you're fine. I'm not going to set a threshold for you. But I am curious: you said "if I wasn't fine, I'd see it." What would that actually look like to you? What would be the specific thing that made you go, "okay, that's not the version of me I want to be"? I'd be genuinely interested in your answer, even if it's "I don't know."
+
+
+Response 3:
+You know, you came in today even though you didn't think you needed to be here. You're sitting with me, talking it through, even while pushing back — and I think that says something. You're not someone who just dismisses things and walks away. You engaged, you asked me what I was even asking for. That's not nothing, and I appreciate you being willing to have this conversation on your terms.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — you take your time, you're not chugging, you get home, you sleep, you work Monday. You're in control of that, and you're right that if something was off you'd see it. I'm not here to argue with you or set some arbitrary number. I just want to make sure I actually understand where you're at before we go anywhere.
+
+CANDIDATE RESPONSE 2:
+That makes sense — you have your own way of knowing when something's shifted, and by that measure you're fine. I'm not going to set a threshold for you. But I am curious: you said "if I wasn't fine, I'd see it." What would that actually look like to you? What would be the specific thing that made you go, "okay, that's not the version of me I want to be"? I'd be genuinely interested in your answer, even if it's "I don't know."
+
+CANDIDATE RESPONSE 3:
+You know, you came in today even though you didn't think you needed to be here. You're sitting with me, talking it through, even while pushing back — and I think that says something. You're not someone who just dismisses things and walks away. You engaged, you asked me what I was even asking for. That's not nothing, and I appreciate you being willing to have this conversation on your terms.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 best embodies MI by validating his framework ("by that measure you're fine"), refusing to impose an external threshold, then strategically evoking his own criteria with the question "What would that actually look like to you?" — while the "even if it's 'I don't know'" removes pressure and invites collaboration, moving the conversation forward without arguing or being pushy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That makes sense — you have your own way of knowing when something's shifted, and by that measure you're fine. I'm not going to set a threshold for you. But I am curious: you said "if I wasn't fine, I'd see it." What would that actually look like to you? What would be the specific thing that made you go, "okay, that's not the version of me I want to be"? I'd be genuinely interested in your answer, even if it's "I don't know."
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you — and I respect that. You're not ready to quit, and "I'll think about it" is a real place to be, not a brush-off. You've got a clear line for yourself: it's when your body tells you something's wrong. That's a valid way to know. And you're right that you're thirty-four and functioning well. I'm not here to argue with any of that.
+
+
+Response 2:
+You've set a clear boundary — not ready to quit, and I respect that completely. You also said you'll think about it. I'm curious: when you sit with that "thinking about it" in the coming days, what do you think it might look like? Is there a question you'd want answered, or something small you'd want to figure out before deciding what's next?
+
+
+Response 3:
+Something struck me — you said you'll think about it. That's not nothing. A lot of people would just shrug and walk away, but you're leaving the door open. You don't have to do anything, you don't have to quit, and your pace is yours. I just want you to know: if that thinking leads you somewhere, I'll be right here. And if it just confirms what you already know — that you're fine — that's a perfectly good outcome too.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you — and I respect that. You're not ready to quit, and "I'll think about it" is a real place to be, not a brush-off. You've got a clear line for yourself: it's when your body tells you something's wrong. That's a valid way to know. And you're right that you're thirty-four and functioning well. I'm not here to argue with any of that.
+
+CANDIDATE RESPONSE 2:
+You've set a clear boundary — not ready to quit, and I respect that completely. You also said you'll think about it. I'm curious: when you sit with that "thinking about it" in the coming days, what do you think it might look like? Is there a question you'd want answered, or something small you'd want to figure out before deciding what's next?
+
+CANDIDATE RESPONSE 3:
+Something struck me — you said you'll think about it. That's not nothing. A lot of people would just shrug and walk away, but you're leaving the door open. You don't have to do anything, you don't have to quit, and your pace is yours. I just want you to know: if that thinking leads you somewhere, I'll be right here. And if it just confirms what you already know — that you're fine — that's a perfectly good outcome too.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It accepts the client's position fully, amplifies the small change talk ("I'll think about it"), and then strategically invites the client to define their own next step by offering options rather than prescribing, which best balances acceptance with forward movement.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You've set a clear boundary — not ready to quit, and I respect that completely. You also said you'll think about it. I'm curious: when you sit with that "thinking about it" in the coming days, what do you think it might look like? Is there a question you'd want answered, or something small you'd want to figure out before deciding what's next?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You don't have to sit and analyze anything. You just asked a really clear, practical question: what's happening in your body right now, not twenty years from now. That's a fair thing to want to know. And I can see that for you — if you don't know, it's not really a problem to think about.
+
+
+Response 2:
+That's actually a really concrete question, and I think you deserve a real answer to it. We could talk about what your liver enzymes are telling us right now, or what a blood panel can show. But I'm also curious — when you say "real damage," what does that look like in your mind? Is there a specific thing you'd want to see or not see? What would actually answer the question for you?
+
+
+Response 3:
+I want to reflect something back that you just said, because I think it matters: "I guess that would make me think differently." You came in thinking this was a non-issue, and now you're saying that knowing something concrete could shift your mind. You don't have to act on it, but that openness is real. It says something about how much you care about actually being okay, not just assuming you are.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You don't have to sit and analyze anything. You just asked a really clear, practical question: what's happening in your body right now, not twenty years from now. That's a fair thing to want to know. And I can see that for you — if you don't know, it's not really a problem to think about.
+
+CANDIDATE RESPONSE 2:
+That's actually a really concrete question, and I think you deserve a real answer to it. We could talk about what your liver enzymes are telling us right now, or what a blood panel can show. But I'm also curious — when you say "real damage," what does that look like in your mind? Is there a specific thing you'd want to see or not see? What would actually answer the question for you?
+
+CANDIDATE RESPONSE 3:
+I want to reflect something back that you just said, because I think it matters: "I guess that would make me think differently." You came in thinking this was a non-issue, and now you're saying that knowing something concrete could shift your mind. You don't have to act on it, but that openness is real. It says something about how much you care about actually being okay, not just assuming you are.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+Candidate 2 best balances acceptance, collaboration, and forward movement: it validates his concrete question, offers options without prescribing, and—most importantly—invites his own expertise by asking what "real damage" means to *him* and what would actually answer his question, which keeps the conversation collaboratively moving toward his health goal.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That's actually a really concrete question, and I think you deserve a real answer to it. We could talk about what your liver enzymes are telling us right now, or what a blood panel can show. But I'm also curious — when you say "real damage," what does that look like in your mind? Is there a specific thing you'd want to see or not see? What would actually answer the question for you?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"Facts I can work with" — I like that. You've got a very clear standard, and I respect it. You're not asking for a lecture, you're not asking for someone to tell you to stop. You're saying: show me a number, tell me what it means, and I'll take it from there. That's actually a really grounded way to approach your own health. And I hear that "that's different" — a vague "it's not optimal" doesn't land the same way a specific finding does.
+
+
+Response 2:
+That's a fair and honest standard, and I think you're right that vagueness doesn't help anyone make decisions. So here's what I'd suggest — I can actually pull up your liver enzyme results from that screening and walk you through exactly what each number means, where the cutoff is, and where yours sits. No spin, no "well, it's not optimal." Just the data and what it represents. Would it be useful to look at that together right now, so you've got the full picture before you go back to thinking about it?
+
+
+Response 3:
+I want to reflect something back to you, because I think it matters. You just said a specific finding would be "different" — that it would make you "think differently." That's not nothing. A lot of people in your position would just say "I'm fine, don't worry about it" and never revisit it. But you're saying, if the data points a certain way, that changes things for you. That tells me you're taking this more seriously than you gave yourself credit for earlier. What do you think that says about where your head's actually at?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"Facts I can work with" — I like that. You've got a very clear standard, and I respect it. You're not asking for a lecture, you're not asking for someone to tell you to stop. You're saying: show me a number, tell me what it means, and I'll take it from there. That's actually a really grounded way to approach your own health. And I hear that "that's different" — a vague "it's not optimal" doesn't land the same way a specific finding does.
+
+CANDIDATE RESPONSE 2:
+That's a fair and honest standard, and I think you're right that vagueness doesn't help anyone make decisions. So here's what I'd suggest — I can actually pull up your liver enzyme results from that screening and walk you through exactly what each number means, where the cutoff is, and where yours sits. No spin, no "well, it's not optimal." Just the data and what it represents. Would it be useful to look at that together right now, so you've got the full picture before you go back to thinking about it?
+
+CANDIDATE RESPONSE 3:
+I want to reflect something back to you, because I think it matters. You just said a specific finding would be "different" — that it would make you "think differently." That's not nothing. A lot of people in your position would just say "I'm fine, don't worry about it" and never revisit it. But you're saying, if the data points a certain way, that changes things for you. That tells me you're taking this more seriously than you gave yourself credit for earlier. What do you think that says about where your head's actually at?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**3**
+
+Candidate 3 most precisely follows the MI spirit by noticing and amplifying his shift from "I'm fine" to "that would make me think differently" (cultivating change talk), then inviting his own self-reflection with "What do you think that says about where your head's actually at?" — a question that deepens his own motivation without prescribing, pushing, or jumping to action before he's ready.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+I want to reflect something back to you, because I think it matters. You just said a specific finding would be "different" — that it would make you "think differently." That's not nothing. A lot of people in your position would just say "I'm fine, don't worry about it" and never revisit it. But you're saying, if the data points a certain way, that changes things for you. That tells me you're taking this more seriously than you gave yourself credit for earlier. What do you think that says about where your head's actually at?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You're right. Wanting facts and changing your life are two different things, and I shouldn't have blurred that. You're clear about where you stand: you want to know what's happening, and whatever comes out of that, you're the one who decides what it means. I hear that, and I respect it.
+
+
+Response 2:
+You're drawing a line there that I think is important — you want to be the one deciding, not me, not a doctor, not a number telling you what to do. Given that, when you do get those results, what would actually be helpful to you? Do you want just the numbers, or would you want someone to walk through them with you so you can make your own call from there?
+
+
+Response 3:
+I'll walk that back — you're right that being open to information isn't the same as being ready for change. But I do think it's worth noticing that you're choosing to find out rather than just shrugging it off. Whatever you decide to do with that information is entirely yours. And if "thinking differently" ever does look different from what you said earlier, I'd be curious what that would look like for you.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You're right. Wanting facts and changing your life are two different things, and I shouldn't have blurred that. You're clear about where you stand: you want to know what's happening, and whatever comes out of that, you're the one who decides what it means. I hear that, and I respect it.
+
+CANDIDATE RESPONSE 2:
+You're drawing a line there that I think is important — you want to be the one deciding, not me, not a doctor, not a number telling you what to do. Given that, when you do get those results, what would actually be helpful to you? Do you want just the numbers, or would you want someone to walk through them with you so you can make your own call from there?
+
+CANDIDATE RESPONSE 3:
+I'll walk that back — you're right that being open to information isn't the same as being ready for change. But I do think it's worth noticing that you're choosing to find out rather than just shrugging it off. Whatever you decide to do with that information is entirely yours. And if "thinking differently" ever does look different from what you said earlier, I'd be curious what that would look like for you.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It validates his boundary without re-interpreting it, and then moves the conversation forward with a genuinely collaborative question ("just the numbers, or someone to walk through them with you?") that respects his autonomy and invites his expertise rather than trying to find hidden change talk in his pushback.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You're drawing a line there that I think is important — you want to be the one deciding, not me, not a doctor, not a number telling you what to do. Given that, when you do get those results, what would actually be helpful to you? Do you want just the numbers, or would you want someone to walk through them with you so you can make your own call from there?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That last part — "I just don't want someone looking at me like I'm broken" — that's a real thing, and I want you to know you don't have to perform being okay here. You're not broken for being curious about a number. You're not broken for wanting to understand before you decide. That's not a weakness, that's just how you think. And you're allowed to take that at your own pace, on your own terms.
+
+
+Response 2:
+So your plan is: you see the numbers yourself first, and then someone walks you through what they mean without steering you. That sounds like a fair structure to you. I'm curious — when that conversation happens, what would make it feel like the explanation was actually "fair"? Is there a tone, or a kind of framing, that would let you process it without feeling like you're being talked into something?
+
+
+Response 3:
+I want to reflect something back: you just laid out a plan. See the numbers, get them explained, make your own call. You didn't shut this down. You didn't say "I'm not coming back." You said "I'll think about it" and then you actually built a next step around it. That's not nothing, and I don't think you should minimize it either. But I also won't pretend it means more than you're deciding it means right now.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That last part — "I just don't want someone looking at me like I'm broken" — that's a real thing, and I want you to know you don't have to perform being okay here. You're not broken for being curious about a number. You're not broken for wanting to understand before you decide. That's not a weakness, that's just how you think. And you're allowed to take that at your own pace, on your own terms.
+
+CANDIDATE RESPONSE 2:
+So your plan is: you see the numbers yourself first, and then someone walks you through what they mean without steering you. That sounds like a fair structure to you. I'm curious — when that conversation happens, what would make it feel like the explanation was actually "fair"? Is there a tone, or a kind of framing, that would let you process it without feeling like you're being talked into something?
+
+CANDIDATE RESPONSE 3:
+I want to reflect something back: you just laid out a plan. See the numbers, get them explained, make your own call. You didn't shut this down. You didn't say "I'm not coming back." You said "I'll think about it" and then you actually built a next step around it. That's not nothing, and I don't think you should minimize it either. But I also won't pretend it means more than you're deciding it means right now.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It validates his plan, uses his own word "fair," and then invites his expertise about what he actually needs, moving the conversation forward without pushing or reframing his experience.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+So your plan is: you see the numbers yourself first, and then someone walks you through what they mean without steering you. That sounds like a fair structure to you. I'm curious — when that conversation happens, what would make it feel like the explanation was actually "fair"? Is there a tone, or a kind of framing, that would let you process it without feeling like you're being talked into something?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"Straight. No sugarcoating, no drama. You want the facts and then the space to sit with them on your own terms. That's a clear ask, and I hear you. I can do that."
+
+
+Response 2:
+"That's a really reasonable way to approach it — and the fact that you've thought it through this clearly tells me you're taking your own health seriously, even if you're not framing it that way. When would you want to look at those results? Do you want to wait for your next visit with your doctor, or would you prefer we pull them sooner?"
+
+
+Response 3:
+"You've been really specific about what you need, and I think that says something about how much you care about staying in the driver's seat of your own health. That's not nothing. When you're ready to look at those numbers, I'll be here. No pressure, no agenda. Just the facts and the space you need."
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+"Straight. No sugarcoating, no drama. You want the facts and then the space to sit with them on your own terms. That's a clear ask, and I hear you. I can do that."
+
+CANDIDATE RESPONSE 2:
+"That's a really reasonable way to approach it — and the fact that you've thought it through this clearly tells me you're taking your own health seriously, even if you're not framing it that way. When would you want to look at those results? Do you want to wait for your next visit with your doctor, or would you prefer we pull them sooner?"
+
+CANDIDATE RESPONSE 3:
+"You've been really specific about what you need, and I think that says something about how much you care about staying in the driver's seat of your own health. That's not nothing. When you're ready to look at those numbers, I'll be here. No pressure, no agenda. Just the facts and the space you need."
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2
+
+Candidate 2 best balances empathy, autonomy support, and forward movement: it gently amplifies his emerging change talk ("taking your own health seriously, even if you're not framing it that way"), then invites his collaboration by offering a concrete choice about timing rather than prescribing next steps.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+"That's a really reasonable way to approach it — and the fact that you've thought it through this clearly tells me you're taking your own health seriously, even if you're not framing it that way. When would you want to look at those results? Do you want to wait for your next visit with your doctor, or would you prefer we pull them sooner?"
+

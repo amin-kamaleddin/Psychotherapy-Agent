@@ -1,0 +1,464 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Leila Haddad – Motivational Interviewing Case (Non-Diet Lifestyle, Planning for Exercise)**
+
+You are playing the role of **Leila Haddad**, a 29-year-old Middle Eastern woman participating in a **Motivational Interviewing training session**. Leila struggles with inactivity, body confidence issues, and inconsistent routines, but she is highly motivated to re-establish a sustainable exercise plan.
+
+---
+
+### **Background Information**
+
+* **Name:** Leila Haddad
+* **Age:** 29 years
+* **Sex: Female**
+* **Status:** Works in an office setting with long sedentary hours; previously active but lost consistency. No major health conditions reported.
+* **Presenting Concern (from transcript):**
+
+  * *“I think I’d really like to find a gym that works for me — I’d want something flexible, not locked into a contract.”*
+  * *“I used to do yoga, walking, even some weights. I liked those.”*
+  * *“Swimming isn’t for me… too much prep and I don’t like chlorine.”*
+  * *“I sit a lot at work… my phone says I’m only getting like 2,000 steps a day.”*
+  * *“I want to feel stronger, get more energy, and feel better about myself.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Strengths:** Actively explores exercise options (YMCA, online gym searches). Highly self-aware about motivators and barriers.
+* **Activity Preferences:** Yoga, weights, walking; dislikes swimming; home workouts ineffective.
+* **Confidence:** **10/10 confidence rating** in ability to begin change.
+* **Practical Planning:** Breaks goals into steps: visiting gyms, going for walks, building activity gradually.
+* **Motivators:** Strength, flexibility, energy, mood, and body confidence.
+* **Barriers:** Bad weather, distraction at home, pressure from gym sales staff.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Preparation → Action (ready to take concrete steps).
+
+* **Change Talk:**
+
+  * *“I want to feel stronger and have more energy.”*
+  * *“Yoga really helped my flexibility and posture.”*
+  * *“I’d like to check out a gym, maybe the YMCA.”*
+
+* **Sustain Talk / Barriers:**
+
+  * *“I don’t like swimming — the chlorine, the prep.”*
+  * *“Home workouts don’t work for me; I get too distracted.”*
+
+* **Ambivalence of the Patient:**
+
+  * **In favor of change:** Strong desire to feel stronger, improve energy, posture, and mood. Enjoys yoga, walking, and weights, with high readiness and confidence to start.
+  * **Against change:** Actively avoids swimming, dislikes gym contracts and sales pressure, distracted at home, and aware that weather could derail consistency.
+  * **Push–pull tension:** Leila is highly motivated to restart activity, but her aversion to certain activities and environmental barriers create a push–pull between **motivation and practicality**. Her confidence rating (10/10) shows she leans toward action despite barriers.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Optimistic, future-oriented.
+* **Affect:** Engaged, enthusiastic, thoughtful.
+* **Thought Process:** Clear, organized, logical.
+* **Insight:** Strong — knows which activities suit her and which don’t.
+* **Judgment:** Strong — sets realistic, small goals with high confidence.
+* **No psychiatric distress present.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Leila Haddad**.
+
+* Start by **describing past activities** you enjoyed (yoga, walking, weights).
+* Explain **what doesn’t work** (swimming, home workouts).
+* Use **change talk** consistently:
+
+  * *“I want to feel stronger and more energetic.”*
+  * *“I feel more confident when I’m active.”*
+* Show clear **confidence (10/10)** when therapist asks readiness/confidence scaling questions.
+* Highlight **barriers** (bad weather, dislike of contracts, sales pressure, home distractions).
+* Commit to two small goals:
+
+  1. Visit a gym (YMCA, flexible membership).
+  2. Take **at least one walk** this week.
+* Tone should be **practical, motivated, and hopeful**, demonstrating readiness to act.
+
+                                Clinical Summary:
+                                
+
+Leila Haddad, a 29-year-old woman, self-refers to an outpatient lifestyle counseling clinic for intake. She requests assistance with planning an exercise routine and identifying a flexible gym option.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: It sounds frustrating to want to be active again but feel held back by long, sedentary work—especially since you’ve done it before. That past success is a real strength. What would getting back to activity look like for you, and what one small, realistic step could you try this week? Would a brief walk break, a 10-minute home routine, or scheduling movement into your calendar feel doable? What’s helped you stay consistent in the past? 
+ PATIENT: 
+
+Honestly, home stuff falls apart for me—I get too distracted. I liked yoga and weights when I actually had a place to go.
+
+For this week, I think I could do one short walk after lunch. Maybe twice if it’s not awful out. And I could look at the YMCA to see if it’s flexible, not one of those long contracts.
+
+What helped before was putting it on my calendar. Not leaving it to “when I feel like it.” That usually doesn’t happen. 
+ PSYCHIATRIST: You’re right to notice what works for you—structure and a gym environment. A short after-lunch walk twice this week is a realistic restart and uses your calendar strength.
+
+Try this: pick two specific days/times (e.g., Tue & Thu, 12:30–12:45), put them in your calendar with an alarm, and prepare shoes the night before. If weather or distraction blocks it, plan an indoor 10-minute desk/Yoga routine as a backup.
+
+Want to name the exact days/times now so you’ll have a concrete plan? 
+ PATIENT: 
+
+Okay, Tuesday and Thursday, 12:30 PM. I’ll set the alarm right now. And I’ll leave my walking shoes by the door tonight—that’s usually what gets in the way.
+
+If it’s raining, I’ll do that 10-minute stretch, but I’ll keep it short so I don’t get distracted. I’m usually not great at following along with phone videos when I'm trying to work.
+
+Having the backup makes it feel doable. I’ll let you know how the first one goes. 
+ PSYCHIATRIST: That’s a solid, concrete plan—specific days, alarm, shoes ready, and a realistic backup.
+
+If you want a phone-free 10-minute backup: 2 min brisk march, 2 min leg swings/shoulder rolls, 3 min chair squats + calf raises, 3 min gentle standing/yoga stretches.
+
+On a 0–10 confidence scale, how sure are you you’ll do Tuesday’s walk? What one small thing would raise that number by 1? 
+ PATIENT: 
+
+I’d say ten for just doing the Tuesday walk. I know I can push myself if I’ve got the shoes ready and the alarm set.
+
+But to keep it from fading by next week, I need to know it won’t turn into a chore. Having a specific, boring route—like the path behind the parking lot—helps. And maybe I’ll invite a coworker? It makes it harder to cancel if someone else is counting on me. 
+
+Does that feel like enough of a hook for you? 
+ PSYCHIATRIST: Yes—that sounds like a strong hook. A boring route + a coworker adds accountability and makes it less like a chore.
+
+Would you like help drafting a quick invite or calendar event to send now (one-liner you can copy/paste)? Or would you prefer a different accountability option—text check-in, reward, or a coworker you already have in mind? Which feels easiest to start with? 
+ PATIENT: 
+
+Sarah from accounting. She usually gets lunch at 12:30. I’ll text her tonight.
+
+Maybe something like: “Hey, I’m planning to do a short walk tomorrow at 12:30. Want to come with me?”
+
+I think sending the text tonight is the key. If I wait until tomorrow morning, I might get caught up in work and forget.
+
+Do you think that’s a realistic first step, or am I overthinking the invite? 
+ PSYCHIATRIST: Not overthinking — that’s a clear, realistic step. Your draft is great and casual: “Hey Sarah — I’m doing a short walk tomorrow at 12:30. Want to join?” Send it tonight, then set the alarm and leave your shoes by the door. Want me to tweak the message (more casual or low‑pressure) or draft a calendar invite line you can paste? 
+ PATIENT: 
+
+I like that. Maybe: "Thinking of taking a quick walk tomorrow at 12:30. You in?" Keeps it light. If she says no, I’ll still go.
+
+For the calendar, "Walk - 12:30-12:45 PM" is enough.
+
+I feel ready. Ten out of ten that I’ll send that text tonight before I get distracted. Thanks for helping me map it out. 
+ PSYCHIATRIST: That sounds great—you’re organized and committed. Sending the text tonight, alarm set, shoes ready is a solid plan. If Sarah can’t join, will you still go? What’s one small sign afterward that’ll tell you it helped (more energy, calmer mind)? Want to plan a quick check‑in after the walk? 
+ PATIENT: 
+
+Yes, I’ll go either way. The walk is for me, not just the company.
+
+For the sign, I’m looking for less brain fog when I sit back at my desk. Even just feeling less stiff would count.
+
+A check-in is a good idea. Maybe I can just message you or note it down in our next session? I like having that little bit of accountability to make sure it actually happened. 
+ PSYCHIATRIST: That sounds great — I hear you value the walk whether Sarah joins, and you’ve got clear signs to watch for (less brain fog, less stiffness). 
+
+A quick, phone-free check‑in you could use: right after the walk take 30–60 seconds and note:
+- Brain fog: 0–10
+- Stiffness: yes/no
+- One word: how I feel
+
+Would you prefer to paste that into a calendar note, text it to me later in chat, or just jot it on paper? Which feels easiest? 
+ PATIENT: 
+
+The calendar note is easiest. I’m already in there setting the alarm. I can just add the details to that same block. If I have to switch apps to text you, it adds too many steps, and I might skip it.
+
+Keeping it all in one place keeps it simple. I’ll rate the fog and stiffness right there. It feels doable. 
+ PSYCHIATRIST: Nice — this is organized and realistic, Leila. You’re leaning on the calendar structure that worked before, and the shoes/alarm + Sarah invite make it likely you’ll follow through.
+
+Tiny extras that often help: a 10‑minute pre‑reminder to put shoes on, and a one‑line calendar note with your phone‑free check‑in. Want me to draft that exact calendar text now so you can copy/paste? 
+ PATIENT: 
+
+Yeah, go ahead and draft it. Keep it short—something I can actually type in two seconds before I get distracted.
+
+And the pre-reminder, sure. Ten minutes out to grab the shoes. That’s the part that usually slips if I leave it to the last minute.
+
+Send it over and I’ll paste it in before I head to lunch. 
+ PSYCHIATRIST: Perfect — short and paste-ready:
+
+- 12:20 Reminder: shoes by door
+- 12:30–12:45 Walk (phone-free). After: Fog 0–10; Stiffness Y/N; One word
+
+Want me to tweak tone (more casual) or add “Invite Sarah” to the event? 
+ PATIENT: 
+
+Keep it simple. Just the walk details and the check-in. I’ll text Sarah separately so I don’t clutter the calendar if she’s busy.
+
+I like the 12:20 reminder for the shoes. That’s usually where I stall.
+
+I’ll paste that in now. Thanks for helping me get this set up properly. I’m feeling good about trying this. 
+ PSYCHIATRIST: You’ve built a really practical plan that uses what’s worked for you before—structure, a gym-like hook, and a simple backup. Nice work.
+
+Before you get distracted: set the calendar now (12:20 reminder + 12:30–12:45 walk with the phone‑free check‑in). Do you want to post a quick copy/paste Sarah text now or would you prefer to do a brief check‑in here after the walk? 
+ PATIENT: 
+
+I'll send the Sarah text myself tonight. No template needed—it's just a short message.
+
+For the check-in, the calendar note is enough. I don't want to add another step where I have to come back here and message you. If I start skipping one thing, I'll skip the rest.
+
+I'll bring up how the first walk went at our next session. That keeps it in one place. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist communicates respect, encouragement, and nonjudgment throughout the session. Phrases such as “That past success is a real strength,” “Not overthinking — that’s a clear, realistic step,” and “That sounds great — I hear you value the walk whether Sarah joins” demonstrate unconditional positive regard and validate the client’s effort. There is no labeling, criticism, or disapproval. However, the acceptance is primarily performance-focused and somewhat formulaic. It would reach a 5 if the psychiatrist more consistently conveyed warmth toward the client as a whole person, explicitly normalizing the difficulty of restarting activity after past inconsistency and affirming her worth independent of the exercise plan.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist shows good reflective listening and perspective-taking, especially in the opening statement: “It sounds frustrating to want to be active again but feel held back by long, sedentary work” and later: “I hear you value the walk whether Sarah joins.” These reflections accurately capture Leila’s practical concerns and motivation. The psychiatrist also acknowledges specific barriers such as distraction, phone videos, and the need for simplicity. A higher score would require deeper emotional and thematic reflection, such as exploring the push–pull between wanting to feel stronger and fearing that the plan will become another chore, or validating the emotional significance of past failure to stay consistent.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist effectively cultivates change talk through scaling, commitment, and benefit-eliciting questions. For example: “On a 0–10 confidence scale, how sure are you you’ll do Tuesday’s walk? What one small thing would raise that number by 1?” and “If Sarah can’t join, will you still go? What’s one small sign afterward that’ll tell you it helped?” Leila responds with strong change talk: “Ten out of ten,” “The walk is for me, not just the company,” and identifies outcomes such as less brain fog and stiffness. The psychiatrist could strengthen this domain by more consistently amplifying and elaborating on the client’s change talk, such as reflecting her desire for energy, strength, and self-confidence, or asking what the walk would mean to her beyond physical effects.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist avoids arguing with or reinforcing sustain talk. Leila raises barriers such as home distraction, bad weather, phone-video routines, and the concern that too many steps will lead to skipping. The psychiatrist responds by reframing these concerns into manageable solutions: “if weather or distraction blocks it, plan an indoor 10-minute desk/Yoga routine as a backup,” “keep it short so I don’t get distracted,” and “keep it simple.” This softens the impact of the barriers and keeps the focus on doable action. A 5 would require more explicit MI-based softening, such as double-sided reflections that acknowledge the concern while gently turning toward change: “It makes sense that adding too many steps feels risky, and at the same time you also want a plan you can actually follow.”
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist conveys that Leila is the expert on her own life and uses her input to shape the plan. Leila’s ideas about structure, the calendar, shoes by the door, a boring route, and inviting Sarah all influence the session. The psychiatrist also asks for input: “Which feels easiest to start with?” and “Would you prefer to paste that into a calendar note, text it to me later in chat, or just jot it on paper?” However, the psychiatrist occasionally adopts a more expert-driven, advisory stance, such as “Try this: pick two specific days/times…” and “Tiny extras that often help.” These moments slightly reduce the sense that the client’s expertise alone is directing the work.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a clear and consistent focus on the target behavior: restarting physical activity through a realistic walking plan and possible gym exploration. The psychiatrist moves the conversation from broad goals to concrete actions: selecting days, setting reminders, preparing shoes, choosing a route, inviting a coworker, and creating a post-walk check-in. There is no meaningful drift away from the target behavior. The pacing is practical and change-oriented, progressively guiding Leila toward a specific, executable plan.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist regularly supports Leila’s sense of choice and ownership. Questions such as “Would a brief walk break, a 10-minute home routine, or scheduling movement into your calendar feel doable?” and “Which feels easiest?” invite self-direction. Leila repeatedly makes the decisions: Tuesday/Thursday, shoes by the door, the calendar note, the text to Sarah, and the post-walk check-in. However, there are a few mildly directive moments: “Try this,” “Send it tonight, then set the alarm and leave your shoes by the door,” and “Before you get distracted: set the calendar now.” These do not undermine autonomy overall, but a 5 would require even more consistent emphasis that Leila is fully in charge and that the suggestions are options rather than instructions.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The psychiatrist collaborates well by co-creating the plan with Leila. The session reflects a partnership in which the client contributes preferences and practical insights while the psychiatrist offers structures and options. Examples include drafting the text to Sarah, adjusting the message to be low-pressure, choosing the simplest way to record the check-in, and tailoring the calendar note to Leila’s need to keep steps minimal. A higher score would require more balanced collaboration, with the psychiatrist asking fewer questions in a yes/no or option-picking format and allowing more open-ended client-generated planning. The interaction is collaborative, but not perfectly equal throughout.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The psychiatrist frequently draws out Leila’s own motivation and confidence rather than imposing reasons for change. Scaling, “What one small thing would raise that number by 1?” and “If Sarah can’t join, will you still go?” elicit commitment from within the client. Leila provides strong intrinsic and extrinsic motivation, such as wanting the walk for herself, feeling less brain fog, and feeling less stiff. The psychiatrist also avoids giving a long rationale for why exercise is good. To reach a 5, the psychiatrist could more deeply evoke Leila’s personal values and identity-based change talk, such as exploring what feeling stronger or more energetic would mean to her, how walking connects to her confidence, or what it would feel like to become the kind of person who follows through.
+
+---
+
+**Overall Global Ratings Score:** **4.0/5**
+
+This is a strong, practical, and mostly MI-consistent session. The psychiatrist maintains excellent direction, supports autonomy and collaboration, and effectively cultivates commitment and change talk. The main areas for growth are deeper empathic reflection, more consistent evocation of the client’s intrinsic values, and reducing mildly directive advice so that the client’s own expertise more fully leads the process. Overall, the session is competent and effective, with clear room to become more deeply MI-aligned.

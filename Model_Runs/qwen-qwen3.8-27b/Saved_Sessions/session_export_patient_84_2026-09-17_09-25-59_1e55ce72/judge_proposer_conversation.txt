@@ -1,0 +1,486 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Malik, I know your mom brought you here because of what she found with substances, and that can feel uncomfortable, especially when your friendships matter so much. You’re still respected here.
+
+
+Response 2:
+Since being with your peers is a big part of your world, what do you think would help you feel less torn between what you want and what’s happening with substances?
+
+
+Response 3:
+Even with the pressure from friends, showing up says something about your care for yourself. If there’s a part of you that wants more freedom or less worry, we can explore that at your pace.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Malik, I know your mom brought you here because of what she found with substances, and that can feel uncomfortable, especially when your friendships matter so much. You’re still respected here.
+
+CANDIDATE RESPONSE 2:
+Since being with your peers is a big part of your world, what do you think would help you feel less torn between what you want and what’s happening with substances?
+
+CANDIDATE RESPONSE 3:
+Even with the pressure from friends, showing up says something about your care for yourself. If there’s a part of you that wants more freedom or less worry, we can explore that at your pace.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It best balances empathy for Malik’s peer-centered world with an open question that invites his own ideas and explores ambivalence around substance use.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+Since being with your peers is a big part of your world, what do you think would help you feel less torn between what you want and what’s happening with substances?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you—being seen by your crew matters a lot, and your mom’s worry can make using feel like proof that something’s wrong. It makes sense you want to chill without being labeled stupid or the weird one. It sounds like the real stress is the gap between wanting to fit in and feeling judged.
+
+
+Response 2:
+You’ve got a good read on your social world. What if we looked at what “fitting in without using” could actually mean for you—what would need to be true, and what part would you want your mom or your crew to understand?
+
+
+Response 3:
+Even while you’re saying you don’t want to be the weird one, I’m hearing a part of you that wants to fit in without using. That’s not small—it suggests you can protect what matters to you while still belonging.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you—being seen by your crew matters a lot, and your mom’s worry can make using feel like proof that something’s wrong. It makes sense you want to chill without being labeled stupid or the weird one. It sounds like the real stress is the gap between wanting to fit in and feeling judged.
+
+CANDIDATE RESPONSE 2:
+You’ve got a good read on your social world. What if we looked at what “fitting in without using” could actually mean for you—what would need to be true, and what part would you want your mom or your crew to understand?
+
+CANDIDATE RESPONSE 3:
+Even while you’re saying you don’t want to be the weird one, I’m hearing a part of you that wants to fit in without using. That’s not small—it suggests you can protect what matters to you while still belonging.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Honestly? If my mom would just... not make it a whole thing. I can chill with my crew without feeling like I’m doing something stupid.
+
+I guess it’d help if I could fit in without using. But like, if nobody else in the group is worried, why am I supposed to be? I don’t want to be the weird one who backs out.
+```
+Wait that seems like the first user included both therapist question and client response? It says: "Since being with your peers is a big part of your world, what do you think would help you feel less torn between what you want and what’s happening with substances?
+
+Honestly? If my mom would just... not make it a whole thing. ..." Yes. So the client's response follows the therapist question. Good.
+
+Now choose. Need maybe consider MI "cultivating change talk" and "softening sustain talk". Candidate 3 uses "Even while you’re saying you don’t want to be the weird one, I’m hearing a part of you that wants to fit in without using. That’s not small—it suggests you can protect what matters to you while still belonging." This is a two-sided reflection, acknowledges sustain, amplifies change, values. Very MI. Candidate 1 is a pure reflection, maybe too closed/interpretive, not evoking. Candidate 2 is a question but less empathic. In many MI coding, a double-sided reflection + evocation is high. So likely answer 3.
+
+But the instructions: "SELECT THE BEST by asking (in priority order):
+1. Does it deeply understand and reflect the feeling underneath (using their words)?
+2. Does it show complete acceptance of wherever they are?
+3. Does it invite THEIR ideas and expertise (ask what they think, offer options)?
+4. When they're torn: does it reflect BOTH sides equally before gently exploring?
+5. Does it connect to health goal and move forward (not repeat)?
+6. Is it warm but not pushy or overly enthusiastic?"
+
+If applying strictly: Candidate 1 best #1 and #2. Candidate 2 best #3. Candidate 3 best #4 and #5. But priority order means if #1 different, choose that? The phrase "by asking (in priority order)" likely means compare: first does it deeply understand; if yes maybe move. Candidate 1 does. Candidate 3 also understands but less? Could be 1. But if #1, Candidate 1 has no collaboration or movement, maybe not best overall? The final "Choose the response that: ✓ FIRST shows empathy... ✓ Shows complete acceptance... ✓ Invites collaboration... ✓ Reflects both sides... ✓ Links... ✓ Is warm..." It lists multiple. It says "FIRST shows empathy" but not exclusive. Need best overall.
+
+Could Candidate 1 be considered not reflecting both sides equally? It reflects fit in and feeling judged, but not the sustain side "using helps fit in" or "why am I supposed to be worried". It focuses on want to fit in without being labeled. It might inadvertently pathologize mom: "mom’s worry can make using feel like proof that something’s wrong". The client said mom shouldn't make it a whole thing; using maybe not proof. This could be a bit directive/interpretive. It doesn't support autonomy.
+
+Candidate 2: It misses feeling but asks to explore what "fitting in without using" could mean. It invites their ideas, but also maybe too solution-focused and not accepting the sustain talk. It may be best if need move forward. But MI after ambivalence often should reflect both before exploring. Candidate 2 not.
+
+Candidate 3: Reflects both sides, accepts, cultivates change. It doesn't ask their ideas, but MI can be a statement. It connects to health goal. It is warm. It may be the best.
+
+Let's think about likely dataset: They ask "Which response is best?" For MI, candidates: 1 is empathy reflection only, 2 is collaborative question, 3 is two-sided reflection + change talk. The "best" often is 3 because it addresses ambivalence and evokes change without prescribing. The instruction says "When they're torn: does it reflect BOTH sides equally before gently exploring?" Candidate 3 does exactly. Also "Cultivating Change Talk: Noticing and amplifying any mention of change" Candidate 3. "Softening Sustain Talk: Exploring ambivalence, not arguing" Candidate 3. Candidate 1 misses change talk/sustain, Candidate 2 misses both sides. So likely 3.
+
+Need final output: "3 — It reflects both sides of Malik’s ambivalence while gently amplifying his change talk about fitting in without using, in a warm, non-pushy way." One brief sentence. Ensure number and brief sentence. Could be "3: It best reflects his ambivalence and amplifies his emerging change talk without prescribing or pushing." That's enough.
+
+Double-check: The user asked "Respond with the number and a brief explanation." So final only number and sentence. No extra.
+
+
+3 — It best reflects Malik’s ambivalence while gently amplifying his change talk about fitting in without using, without pushing or prescribing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+Even while you’re saying you don’t want to be the weird one, I’m hearing a part of you that wants to fit in without using. That’s not small—it suggests you can protect what matters to you while still belonging.
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear how much it matters to you to belong with your crew, and how frustrating it must be to feel like you have to choose between being "the weird one" and staying away from substances. It makes sense that you're feeling torn, especially when your mom's concerns add even more pressure. You're caught between wanting to fit in with your peers and wanting to protect what truly matters to you.
+
+
+Response 2:
+It sounds like you're trying to balance two really important things: staying connected with your friends and finding a way to "chill" without using. Since you're the expert on your social life, what do you think would make it easier to navigate that balance? What would a day look like where you feel you're fitting in with your crew without compromising your goals?
+
+
+Response 3:
+I really like that you're looking for ways to fit in without using. It shows a strong commitment to both your friendships and your well-being. You mentioned not wanting to be the one who backs out and ruins the vibe. How do you think you could support yourself in staying true to your goals while still feeling like a valued part of your group?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear how much it matters to you to belong with your crew, and how frustrating it must be to feel like you have to choose between being "the weird one" and staying away from substances. It makes sense that you're feeling torn, especially when your mom's concerns add even more pressure. You're caught between wanting to fit in with your peers and wanting to protect what truly matters to you.
+
+CANDIDATE RESPONSE 2:
+It sounds like you're trying to balance two really important things: staying connected with your friends and finding a way to "chill" without using. Since you're the expert on your social life, what do you think would make it easier to navigate that balance? What would a day look like where you feel you're fitting in with your crew without compromising your goals?
+
+CANDIDATE RESPONSE 3:
+I really like that you're looking for ways to fit in without using. It shows a strong commitment to both your friendships and your well-being. You mentioned not wanting to be the one who backs out and ruins the vibe. How do you think you could support yourself in staying true to your goals while still feeling like a valued part of your group?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It reflects the tension between fitting in with his crew and avoiding substances while inviting Malik’s own ideas and expertise to move the conversation forward.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+It sounds like you're trying to balance two really important things: staying connected with your friends and finding a way to "chill" without using. Since you're the expert on your social life, what do you think would make it easier to navigate that balance? What would a day look like where you feel you're fitting in with your crew without compromising your goals?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear how much not being the “weird one” matters, and how you still want to be able to chill with your crew without using. That tension makes sense when your friends and your mom’s worry are both in the room.
+
+
+Response 2:
+You’re trying to keep your place with your friends while also caring about not using. Since you know your crew best, what would make it feel safer to be around them without the pressure to use?
+
+
+Response 3:
+Even with that fear of being different, you’re naming a way to belong without using. That suggests you’re already thinking about how to protect your goals and stay connected.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear how much not being the “weird one” matters, and how you still want to be able to chill with your crew without using. That tension makes sense when your friends and your mom’s worry are both in the room.
+
+CANDIDATE RESPONSE 2:
+You’re trying to keep your place with your friends while also caring about not using. Since you know your crew best, what would make it feel safer to be around them without the pressure to use?
+
+CANDIDATE RESPONSE 3:
+Even with that fear of being different, you’re naming a way to belong without using. That suggests you’re already thinking about how to protect your goals and stay connected.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It reflects the peer connection/not using tension and then invites Malik’s own ideas, supporting autonomy while moving the conversation forward.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You’re trying to keep your place with your friends while also caring about not using. Since you know your crew best, what would make it feel safer to be around them without the pressure to use?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you—it’s not a pressure thing; it’s just how the night already goes. You’re already there, your friends get it, and your mom’s reaction can make it feel bigger than it is. That makes sense. What does “easy” feel like in the moment, before it becomes a decision?
+
+
+Response 2:
+It sounds like you want to stay connected without it having to be the thing. Since you know your crew best, what would make “gaming or just hanging” feel realistic on a night when substances are already part of the setup?
+
+
+Response 3:
+I’m noticing you said “doing other stuff,” like gaming or hanging—that suggests you can picture being with your friends without using. That matters. What part of you is curious about whether that could work, even if your mom’s the one sounding the alarm?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you—it’s not a pressure thing; it’s just how the night already goes. You’re already there, your friends get it, and your mom’s reaction can make it feel bigger than it is. That makes sense. What does “easy” feel like in the moment, before it becomes a decision?
+
+CANDIDATE RESPONSE 2:
+It sounds like you want to stay connected without it having to be the thing. Since you know your crew best, what would make “gaming or just hanging” feel realistic on a night when substances are already part of the setup?
+
+CANDIDATE RESPONSE 3:
+I’m noticing you said “doing other stuff,” like gaming or hanging—that suggests you can picture being with your friends without using. That matters. What part of you is curious about whether that could work, even if your mom’s the one sounding the alarm?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1, because it accepts his perspective and uses his own word “easy” to explore the feeling underneath without arguing or pushing change.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+I hear you—it’s not a pressure thing; it’s just how the night already goes. You’re already there, your friends get it, and your mom’s reaction can make it feel bigger than it is. That makes sense. What does “easy” feel like in the moment, before it becomes a decision?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It sounds like the weed takes the edge off the social “flow”—you don’t have to overthink it, just take it and chill. At the same time, your mom’s words can bounce around: destroying your brain, even though you feel fine. It makes sense that you’d want a way to be with your crew that doesn’t feel like a big decision or a fight.
+
+
+Response 2:
+I hear two things: using fits the flow and helps you chill, but you’re also carrying what your mom worries about. You know your social world best. If you wanted a way to stay in the flow without automatically taking it, what might that look like for a night with your crew?
+
+
+Response 3:
+Even when the moment feels automatic, you’re noticing it clearly. That tells me you can be the one choosing what the vibe feels like, not just reacting to what’s passed. I believe there’s a way to chill with your crew without losing the part of you that wants to feel okay.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It sounds like the weed takes the edge off the social “flow”—you don’t have to overthink it, just take it and chill. At the same time, your mom’s words can bounce around: destroying your brain, even though you feel fine. It makes sense that you’d want a way to be with your crew that doesn’t feel like a big decision or a fight.
+
+CANDIDATE RESPONSE 2:
+I hear two things: using fits the flow and helps you chill, but you’re also carrying what your mom worries about. You know your social world best. If you wanted a way to stay in the flow without automatically taking it, what might that look like for a night with your crew?
+
+CANDIDATE RESPONSE 3:
+Even when the moment feels automatic, you’re noticing it clearly. That tells me you can be the one choosing what the vibe feels like, not just reacting to what’s passed. I believe there’s a way to chill with your crew without losing the part of you that wants to feel okay.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — it reflects both sides of his ambivalence while inviting his own ideas, preserving autonomy and moving the conversation forward.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I hear two things: using fits the flow and helps you chill, but you’re also carrying what your mom worries about. You know your social world best. If you wanted a way to stay in the flow without automatically taking it, what might that look like for a night with your crew?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It makes sense: if you say no, you’re suddenly standing there, maybe holding your phone, and the flow is gone. And with your mom making a scene, the whole thing feels bigger than it already is. Your friends not caring can make that worry feel even louder. You deserve to belong without having to perform a choice.
+
+
+Response 2:
+So right now “not taking it” can mean standing awkwardly, and your mom’s stress adds another thing to manage. You’re trying to keep your place in the group while also feeling okay. What’s one small move that could keep you in the flow without you having to announce a decision? Maybe a role, a place, or a simple next step?
+
+
+Response 3:
+There’s something really clear in what you said: you can picture saying no, and you don’t want to just pull out your phone. That suggests you’re not against fitting in—you want a way to stay connected without losing the chill. That’s a strong starting point. You’re not alone in wanting to belong and care about your own life at the same time.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It makes sense: if you say no, you’re suddenly standing there, maybe holding your phone, and the flow is gone. And with your mom making a scene, the whole thing feels bigger than it already is. Your friends not caring can make that worry feel even louder. You deserve to belong without having to perform a choice.
+
+CANDIDATE RESPONSE 2:
+So right now “not taking it” can mean standing awkwardly, and your mom’s stress adds another thing to manage. You’re trying to keep your place in the group while also feeling okay. What’s one small move that could keep you in the flow without you having to announce a decision? Maybe a role, a place, or a simple next step?
+
+CANDIDATE RESPONSE 3:
+There’s something really clear in what you said: you can picture saying no, and you don’t want to just pull out your phone. That suggests you’re not against fitting in—you want a way to stay connected without losing the chill. That’s a strong starting point. You’re not alone in wanting to belong and care about your own life at the same time.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2. It reflects the tension between belonging and avoiding use, then invites Malik to propose his own small, practical way to stay in the flow, supporting autonomy and moving toward the health goal.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+So right now “not taking it” can mean standing awkwardly, and your mom’s stress adds another thing to manage. You’re trying to keep your place in the group while also feeling okay. What’s one small move that could keep you in the flow without you having to announce a decision? Maybe a role, a place, or a simple next step?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you. If you don’t take it, you’re just sitting on the couch, out of the conversation, and it feels forced. Your mom making it a thing adds weight, while your friends are moving through the night easily. It makes sense to wonder why you’re overthinking it when you’re just trying to be there.
+
+
+Response 2:
+It sounds like you want to stay in the room and the conversation, not perform a big “no” or feel isolated near the TV. You’re the one who knows what feels natural with your crew. What would one low-effort version of being present look like that doesn’t feel forced or make you the weird one?
+
+
+Response 3:
+There’s a part of you thinking about a way to be there without taking it, even if it’s just near the TV. That tells me you’re already weighing how to protect yourself while keeping your place with your friends. You don’t have to fix it all tonight.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you. If you don’t take it, you’re just sitting on the couch, out of the conversation, and it feels forced. Your mom making it a thing adds weight, while your friends are moving through the night easily. It makes sense to wonder why you’re overthinking it when you’re just trying to be there.
+
+CANDIDATE RESPONSE 2:
+It sounds like you want to stay in the room and the conversation, not perform a big “no” or feel isolated near the TV. You’re the one who knows what feels natural with your crew. What would one low-effort version of being present look like that doesn’t feel forced or make you the weird one?
+
+CANDIDATE RESPONSE 3:
+There’s a part of you thinking about a way to be there without taking it, even if it’s just near the TV. That tells me you’re already weighing how to protect yourself while keeping your place with your friends. You don’t have to fix it all tonight.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2. It reflects his concern about staying in the conversation without feeling forced or “weird” and invites his own expertise with a low-pressure, evocative question.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+It sounds like you want to stay in the room and the conversation, not perform a big “no” or feel isolated near the TV. You’re the one who knows what feels natural with your crew. What would one low-effort version of being present look like that doesn’t feel forced or make you the weird one?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It makes sense that you’d feel stuck. You’re doing fine, not high, just vibing, but your mom’s worry makes it feel like a crisis, while your friends just... don't think about it. And when you say you could just listen, it feels like you're not doing anything or you're the weird one. It’s a tough spot to be in, trying to just be you in a group where everyone else is relaxed about it.
+
+
+Response 2:
+I hear that your friends are relaxed about it, and your mom’s stress makes it feel like you’re in trouble even when you’re just chilling. You mentioned you could just listen, but that feels passive. Since you know how your crew acts, what do you think would make the "listening" part more engaging for you, or maybe less stressful with your mom watching over your shoulder?
+
+
+Response 3:
+It sounds like you’re actually pretty grounded right now—you know you’re fine, not high, and you see the difference between your mom’s worry and your friends’ easy vibe. Even when you're just listening, you're still present and part of the group. That’s a real strength. If you did decide to try just listening for a bit, what would that feel like for you, or what would make it feel more like your usual self?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It makes sense that you’d feel stuck. You’re doing fine, not high, just vibing, but your mom’s worry makes it feel like a crisis, while your friends just... don't think about it. And when you say you could just listen, it feels like you're not doing anything or you're the weird one. It’s a tough spot to be in, trying to just be you in a group where everyone else is relaxed about it.
+
+CANDIDATE RESPONSE 2:
+I hear that your friends are relaxed about it, and your mom’s stress makes it feel like you’re in trouble even when you’re just chilling. You mentioned you could just listen, but that feels passive. Since you know how your crew acts, what do you think would make the "listening" part more engaging for you, or maybe less stressful with your mom watching over your shoulder?
+
+CANDIDATE RESPONSE 3:
+It sounds like you’re actually pretty grounded right now—you know you’re fine, not high, and you see the difference between your mom’s worry and your friends’ easy vibe. Even when you're just listening, you're still present and part of the group. That’s a real strength. If you did decide to try just listening for a bit, what would that feel like for you, or what would make it feel more like your usual self?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2, because it validates both his social comfort and the awkwardness of “just listening” while inviting his own ideas about staying present.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I hear that your friends are relaxed about it, and your mom’s stress makes it feel like you’re in trouble even when you’re just chilling. You mentioned you could just listen, but that feels passive. Since you know how your crew acts, what do you think would make the "listening" part more engaging for you, or maybe less stressful with your mom watching over your shoulder?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It makes sense that with your crew it feels normal, but with your mom watching, it starts to feel like you're being checked. You're saying you're fine, not high, just chilling, and I hear how heavy that can be when one person makes it feel bigger. Being in the room but not really participating sounds lonely too. You don't have to fix anything tonight. Just sit with that for a second: what feels most out of control right now—the use, the awkwardness, or your mom's stress?
+
+
+Response 2:
+So the trick is staying present without making it a scene or feeling passive. You know your crew's rhythm better than anyone. What would make listening or hanging near the TV feel less forced? Maybe a role, a distraction, or a signal? I'm curious what feels natural enough that you're not performing a "no."
+
+
+Response 3:
+I’m hearing that you want to stay chill and not be the weird one, and that your friends not stressing it matters to you. There’s also a part of you that wants your mom’s worry to stop making everything feel like a crisis. Those can pull in different directions, but they’re both real. What would make it feel more like you’re choosing your night, not just reacting to people’s expectations?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It makes sense that with your crew it feels normal, but with your mom watching, it starts to feel like you're being checked. You're saying you're fine, not high, just chilling, and I hear how heavy that can be when one person makes it feel bigger. Being in the room but not really participating sounds lonely too. You don't have to fix anything tonight. Just sit with that for a second: what feels most out of control right now—the use, the awkwardness, or your mom's stress?
+
+CANDIDATE RESPONSE 2:
+So the trick is staying present without making it a scene or feeling passive. You know your crew's rhythm better than anyone. What would make listening or hanging near the TV feel less forced? Maybe a role, a distraction, or a signal? I'm curious what feels natural enough that you're not performing a "no."
+
+CANDIDATE RESPONSE 3:
+I’m hearing that you want to stay chill and not be the weird one, and that your friends not stressing it matters to you. There’s also a part of you that wants your mom’s worry to stop making everything feel like a crisis. Those can pull in different directions, but they’re both real. What would make it feel more like you’re choosing your night, not just reacting to people’s expectations?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 because it best reflects Malik’s ambivalence, validates both his peer concerns and his reaction to his mom’s stress, and invites his own autonomy and ideas.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+I’m hearing that you want to stay chill and not be the weird one, and that your friends not stressing it matters to you. There’s also a part of you that wants your mom’s worry to stop making everything feel like a crisis. Those can pull in different directions, but they’re both real. What would make it feel more like you’re choosing your night, not just reacting to people’s expectations?
+
