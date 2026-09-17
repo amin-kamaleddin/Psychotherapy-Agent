@@ -88,6 +88,14 @@ def main():
     wide.to_csv(out, index=False)
     print(f'\nSaved averaged per-patient scores -> {out} ({len(wide)} rows)')
 
+    # Pipeline-compatible long format (matches feedback_scores_by_criterion.csv schema used by
+    # feedback_statistical_test.py / plot_metrics.py): patient_id, therapist_mode, criterion, score.
+    pipe = wide[['patient_id', 'therapist_mode', 'criterion', 'avg_score']].copy()
+    pipe = pipe.rename(columns={'avg_score': 'score'})
+    pipe_out = os.path.join(CSV_DIR, 'avg_feedback_pipeline.csv')
+    pipe.to_csv(pipe_out, index=False)
+    print(f'Saved pipeline-compatible averaged scores -> {pipe_out} ({len(pipe)} rows)')
+
     # Per-mode averaged metrics (mean/std over patients of avg_score)
     metrics_list = []
     for mode, g in wide.groupby('therapist_mode'):

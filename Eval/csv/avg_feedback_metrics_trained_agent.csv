@@ -1,11 +1,11 @@
 criterion,mean,std,count,therapist_mode
-Acceptance,4.702,0.21,133,trained_agent
-Autonomy Support,4.985,0.058,133,trained_agent
-Collaboration,4.656,0.291,133,trained_agent
-Cultivating Change Talk,4.068,0.435,133,trained_agent
-Direction,4.952,0.108,133,trained_agent
-Empathy,4.352,0.289,133,trained_agent
-Evocation,4.117,0.445,133,trained_agent
-Overall Average,4.499,0.172,133,trained_agent
-Partnership,4.683,0.28,133,trained_agent
-Softening Sustain Talk,3.974,0.258,133,trained_agent
+Acceptance,4.195,0.176,133,trained_agent
+Autonomy Support,4.352,0.185,133,trained_agent
+Collaboration,3.872,0.312,133,trained_agent
+Cultivating Change Talk,3.485,0.41,133,trained_agent
+Direction,4.322,0.263,133,trained_agent
+Empathy,3.724,0.289,133,trained_agent
+Evocation,3.558,0.364,133,trained_agent
+Overall Average,3.913,0.243,133,trained_agent
+Partnership,4.186,0.346,133,trained_agent
+Softening Sustain Talk,3.527,0.3,133,trained_agent
