@@ -618,7 +618,10 @@ def run_comparison_experiment(args):
 
     def _get(mode):
         r = results.get(mode, {})
-        return r.get("folder"), r.get("csv")
+        # runs store a tuple (folder, csv); resume-skipped modes store a dict.
+        if isinstance(r, dict):
+            return r.get("folder"), r.get("csv")
+        return r if isinstance(r, tuple) else (None, None)
 
     simple_folder, simple_csv = _get("simple")
     trained_agent_folder, trained_agent_csv = _get("trained_agent")
