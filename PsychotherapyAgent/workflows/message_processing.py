@@ -275,8 +275,13 @@ class MessageWorkflow:
         # Ensure we have exactly 3 responses
         if len(candidate_responses) < 3:
             if len(candidate_responses) == 0:
-                # Fallback: try to regenerate with clearer instructions
-                base_prompt = self.prompt_manager.load_prompt('Virtual Therapist')
+                # Fallback: try to regenerate with clearer instructions.
+                # Use the proposer prompt from CSV (index 3) instead of the removed
+                # 'Virtual Therapist' key, so this path never throws on a valid config.
+                base_prompt = self.prompt_manager.load_therapist_prompt_from_csv(self.proposer_index)
+                if not base_prompt:
+                    base_prompt = ("You are an expert mental health counselor conducting a therapy session. "
+                                   "Your task: Generate exactly 3 different response options.")
                 fallback_prompt = f"""{base_prompt}
 
 Generate exactly 3 different therapist responses. Format strictly as:
