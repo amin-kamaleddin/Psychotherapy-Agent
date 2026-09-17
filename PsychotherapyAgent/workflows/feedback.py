@@ -295,10 +295,25 @@ Explanation:
         try:
             # Use structured output for guaranteed 9-score format
             logging.info("Invoking structured feedback LLM with schema enforcement...")
-            structured_evaluation = self.structured_feedback_llm.invoke(messages)
-            
-            # Convert structured evaluation to formatted text
-            feedback_text = self._format_structured_evaluation(structured_evaluation)
+            # Retry once with a completeness instruction if the first structured call fails
+            # (whether due to length-limit truncation or a schema-validation error).
+            feedback_text = None
+            for attempt in range(2):
+                try:
+                    structured_evaluation = self.structured_feedback_llm.invoke(messages)
+                    feedback_text = self._format_structured_evaluation(structured_evaluation)
+                    break
+                except Exception:
+                    logging.warning(f"Structured feedback attempt {attempt+1} failed; retrying with explicit all-9-criteria instruction.")
+                    retry_msg = (
+                        "Return the COMPLETE evaluation with ALL 9 criteria scored and explained: "
+                        "acceptance, empathy, cultivating_change_talk, softening_sustain_talk, "
+                        "partnership, direction, autonomy_support, collaboration, evocation, "
+                        "plus overall_score and summary. Do not omit any field."
+                    )
+                    messages = messages[:-1] + [HumanMessage(content=retry_msg)]
+            if feedback_text is None:
+                raise RuntimeError("Structured feedback generation failed after retries.")
             
             # Also store as regular message for compatibility
             response_message = AIMessage(content=feedback_text)
@@ -349,9 +364,25 @@ Generate a structured MI form with score (1-5) and brief comments for each of th
                 HumanMessage(content="Generate the MI form evaluation:")
             ]
             
-            # Use structured output for consistent MI form format
-            structured_mi_form = self.structured_mi_form_llm.invoke(mi_messages)
-            mi_response = self._format_mi_form(structured_mi_form)
+            # Use structured output for consistent MI form format.
+            # Retry once with an explicit fill-all-9-fields instruction if the first call returns
+            # schema-invalid JSON (e.g. an omitted criterion), before falling back to unstructured.
+            mi_response = None
+            for attempt in range(2):
+                try:
+                    structured_mi_form = self.structured_mi_form_llm.invoke(mi_messages)
+                    mi_response = self._format_mi_form(structured_mi_form)
+                    break
+                except Exception:
+                    logging.warning(f"MI form structured generation attempt {attempt+1} failed; retrying with completeness instruction.")
+                    retry_prompt = (
+                        "Return the COMPLETE MI form with ALL 9 criteria: acceptance, empathy, "
+                        "direction, collaboration, autonomy_support, evocation, partnership, "
+                        "cultivating_change_talk, softening_sustain_talk. Do not omit any field."
+                    )
+                    mi_messages = [SystemMessage(content=mi_form_prompt), HumanMessage(content=retry_prompt)]
+            if mi_response is None:
+                raise RuntimeError("MI form structured generation failed after retries.")
             logging.info("MI form generated successfully with structured output.")
             
         except Exception as e:

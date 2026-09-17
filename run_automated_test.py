@@ -335,7 +335,7 @@ def extract_scores(eval_file_paths):
 # =============================
 
 def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num=None, complex_therapist_num=None,
-                             resume_skip_patients=None):
+                             resume_saved_counts=None):
     """Main function for parallel execution mode.
     
     Args:
@@ -343,10 +343,12 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         therapist_mode: One of "simple", "trained_agent", "complex", or "multi_agent"
         simple_therapist_num: Therapist profile index for simple mode (default: 0, CSV index 0/row 2)
         complex_therapist_num: Therapist profile index for complex mode (default: 2, CSV index 2/row 4)
-        resume_skip_patients: Optional set of patient_id strings to SKIP (already fully saved).
+        resume_saved_counts: Optional dict {patient_id_str: num_already_saved_sessions}. When set
+                             (fold-aware resume), only `fold - saved` fold copies are scheduled for
+                             each patient, so previously saved folds are reused.
     """
     start_time = time.time()
-    resume_skip_patients = resume_skip_patients or set()
+    resume_saved_counts = resume_saved_counts or {}
     
     # Determine which therapist profile number to use
     # CSV structure: 0=simple (row 2), 1=trained_agent (row 3), 2=complex (row 4),
@@ -484,13 +486,16 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     
     # Process patients in parallel
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # Submit all tasks - create fold copies of each patient
+        # Submit all tasks - create fold copies of each patient.
+        # Fold-aware resume: for a patient with `k` already-saved sessions, skip the first `k`
+        # fold copies so only the missing folds are re-run (reuses the saved sessions).
         patient_data_list = []
         skipped_resume = 0
         for fold_idx in range(fold):
             for patient_idx, patient_file in enumerate(patient_files):
                 pid = str(args.start_patient + patient_idx)
-                if pid in resume_skip_patients:
+                saved_k = resume_saved_counts.get(pid, 0)
+                if fold_idx < saved_k:
                     skipped_resume += 1
                     continue
                 patient_data_list.append((fold_idx, patient_idx, patient_file))
@@ -601,17 +606,14 @@ def run_comparison_experiment(args):
                 print(f"  [resume] Found complete results for '{mode}': {existing_csv}")
                 results[mode] = {"folder": existing_folder, "csv": existing_csv}
                 continue
-            print(f"  [resume] No complete results for '{mode}' — running (patient-level skip where saved).")
-        # Compute already-saved patients for this mode so resume re-runs only what's missing.
-        skip_pats = set()
-        if resume:
-            saved_counts = find_existing_session_folders(mode, args)
-            skip_pats = {pid for pid, cnt in saved_counts.items() if cnt >= fold}
+            print(f"  [resume] No complete results for '{mode}' — running (fold-aware skip where saved).")
+        # Fold-aware resume: get per-patient saved-session counts so already-saved folds are reused.
+        saved_counts = find_existing_session_folders(mode, args) if resume else {}
         results[mode] = run_parallel_experiments(
             args, therapist_mode=mode,
             simple_therapist_num=simple_num,
             complex_therapist_num=complex_num,
-            resume_skip_patients=skip_pats
+            resume_saved_counts=saved_counts
         )
 
     def _get(mode):
