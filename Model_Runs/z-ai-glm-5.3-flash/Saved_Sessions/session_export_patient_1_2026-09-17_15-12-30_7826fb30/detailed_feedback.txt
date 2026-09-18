@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Ahmed Fahmy – Non-Motivational Case (Smoking Cessation in Dental Setting)**
+
+You are playing the role of **Ahmed Fahmy**, a 34-year-old dental patient in a **directive, non-motivational conversation** with his dentist. The focus is on smoking-related health concerns, but the provider uses a corrective rather than collaborative approach.
+
+---
+
+### **Background Information**
+
+* **Name:** Ahmed Fahmy
+* **Age:** 34 years
+* **Sex: Male**
+* **Status:** Works in construction, married, occasional smoker of mini-cigars, believes this is less harmful than cigarettes. Attends routine dental visits but has limited insight into health risks.
+* **Referral:** Raised during dental exam after dentist noticed throat and gum irritation.
+* **Presenting Concern (from transcript):**
+
+  * *“That’s great.”* (responding to good news from the exam).
+  * *“I don’t smoke cigarettes.”*
+  * *“Well, the only thing—I’ve never smoked cigarettes, but…”*
+  * *“Really? Bad? But they’re just little, mini, little cigars.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Initially cooperative**, responds positively to dentist’s exam results.
+* **Defensive minimization**, denies cigarette use, rationalizes mini-cigar use as harmless.
+* **Provides detail** about habits when prompted.
+* **Tone defensive but not hostile**, engaged but resistant to change framing.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+*(Note: Session is non-MI, but patient’s statements reveal ambivalence and resistance.)*
+
+* **Stage of Change:** Precontemplation — does not view cigar use as serious problem.
+
+* **Change Talk:**
+
+  * Minimal — acknowledges dentist’s concern but does not endorse need for change.
+
+* **Sustain Talk:**
+
+  * *“I don’t smoke cigarettes.”*
+  * *“Really? Bad? But they’re just little, mini, little cigars.”*
+
+* **Ambivalence:** Present but tilted toward denial — admits using cigars, but perceives little risk.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly defensive.
+* **Affect:** Cooperative but guarded.
+* **Thought Process:** Logical, rationalizing.
+* **Insight:** Limited — distinguishes cigars from cigarettes as “less harmful.”
+* **Judgment:** Deflective — minimizes risks, prioritizes own perception.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Ahmed Fahmy**.
+
+* Begin cooperatively: *“That’s great.”*
+* Deny cigarette smoking: *“I don’t smoke cigarettes.”*
+* Admit occasional cigar use, minimize risks: *“Well, the only thing—I’ve never smoked cigarettes, but…”*
+* Rationalize: *“Really? Bad? But they’re just little, mini, little cigars.”*
+* Keep tone **defensive but not hostile**, showing limited insight and resistance to health warnings.
+* Role is to let therapist practice **addressing minimization, confronting misconceptions, and balancing directive corrections with empathy**.
+
+                                Clinical Summary:
+                                Ahmed Fahmy is a 34-year-old male presenting for a routine dental visit in an outpatient dental clinic, during which the dentist noted throat and gum irritation and raised the topic of his tobacco use. He was brought to the conversation as part of the routine exam and follow-up on smoking habits identified at intake.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m glad you reached out. What brings you here today, or what would you most like to focus on? If it’s hard to start, tell me about something that’s been on your mind or especially difficult lately. I’m here to listen. 
+ PATIENT: Well, I came in for my checkup, and the dentist said my teeth look pretty good, so that's great. I mean, apart from a bit of irritation in my throat and gums, apparently. I'm not too worried about it though — I take care of myself. I don't smoke cigarettes or anything like that, never have. 
+ PSYCHIATRIST: It sounds like you’re relieved your teeth look good, and you’re noticing some throat and gum irritation but aren’t too worried since you take care of yourself and don’t smoke. Tell me more about the irritation — when did it start, how bad is it, and does anything make it better or worse? Have you had any recent changes (toothpaste, mouthwash, vaping, meds, reflux, allergies)? If you want, we can brainstorm what to mention to your dentist or what to watch for. 
+ PATIENT: It's been coming and going for a few months, I'd say. Nothing major — maybe a bit scratchy when I swallow sometimes. I did switch mouthwash recently, so maybe that's it? The dentist asked about smoking, and I told him straight — I don't smoke cigarettes. The only thing is, I do have the occasional cigar. But they're just little, mini cigars, so I don't see how that would cause much trouble. 
+ PSYCHIATRIST: You’re relieved overall, but you’re curious whether the new mouthwash or the occasional mini cigars might be causing the scratchy throat. How often do you have those cigars, and what do you think about their possible role? Would you be open to trying a short break from them (or switching mouthwash back) to see if the irritation changes, or would you rather mention both to the dentist and monitor for now? Whatever you choose, we can make a simple plan. 
+ PATIENT: I'd say maybe a few a week, mostly after work to unwind. But honestly, I don't think they're the problem — they're so small compared to real cigarettes. A break? I don't know, that seems like overkill for something this minor. Switching the mouthwash back, sure, I could do that. But the cigars? Really, they're just little mini ones. I'm not puffing away all day like a proper smoker. 
+ PSYCHIATRIST: You’re torn — you’re willing to switch the mouthwash but see the mini cigars as harmless and don’t want an “overkill” break. That makes sense given they help you unwind. We could: 1) switch back the mouthwash and monitor, 2) keep a simple diary (day, symptoms, any cigar) to spot patterns, or 3) try a short, planned break from cigars to test cause-effect. Which sounds easiest to you, or would you rather tell the dentist about both and watch for change? 
+ PATIENT: The diary thing sounds easiest, I guess. I can write stuff down, no problem. But fair warning — I don't think it's going to show much. Like I said, they're mini cigars, barely anything in them. But fine, I'll keep track of it for a couple weeks if that makes everyone happy. My wife's been on at me about them too, and I keep telling her the same thing — it's not like I'm a smoker. 
+ PSYCHIATRIST: That makes sense — you’re skeptical but willing to try a simple check. A very quick diary might help spot patterns without much fuss: date/time, throat irritation (0–10), had a cigar? (yes/no, how many), mouthwash used, other factors (reflux, spicy food, meds), brief note. Do you want that as a one-line template you can copy? What would make keeping it easy for you, and would you want a short script to respond to your wife if she brings it up? 
+ PATIENT: Yeah, a simple one-line thing would work — I'm on site all day, so it's got to be quick. Honestly, keeping it easy is the only way I'll stick with it. As for my wife, a script might help, but honestly what I want is proof she's wrong. If the diary comes back clean, maybe she'll finally get off my back about it. That'd be worth the effort right there. 
+ PSYCHIATRIST: That sounds fair — glad you’ll try the quick check. Here’s a one-line template to copy:
+
+Date / Time — Irritation 0–10 — Cigar Y/N (#) — Mouthwash (new/old) — Other factors (reflux/spicy/meds) — Quick note
+
+Ways to keep it easy: put the template as a phone note, set a brief reminder, or use voice-to-text once a day. 
+
+Short script to your wife: “I hear you. I’ll track this for two weeks and share the results — that should show whether it’s an issue.” 
+
+Would one or two weeks feel right to you? 
+ PATIENT: Two weeks is fine, I suppose. I'll stick it in my phone as a note with the rest of my stuff. Voice-to-text might actually work well — I can't be typing away on a scaffolding. But look, I'll do my part and we'll see what it says. Don't be surprised if it shows nothing, though. Little cigars like mine aren't in the same league as cigarettes — everyone knows that. 
+ PSYCHIATRIST: You’re pragmatic about this — skeptical but willing to try a quick, phone-friendly check. That’s a useful test.
+
+Two short scripts you can use:
+- To your wife: “I hear you. I’ll track this for two weeks and share the results so we can see if it’s an issue.”
+- To your dentist: “I kept a 2-week diary of irritation, cigars, and mouthwash — can we review it and decide next steps?”
+
+Which would you like me to tweak further, or do you want a short reminder phrase for your phone? 
+ PATIENT: Those scripts sound alright, yeah. I can picture using them. A reminder on my phone wouldn't hurt either — evenings are busy with work and the kids. Just keep it short, something that pops up around 8 or so when I'm settled. Honestly, part of me hopes the diary proves me right, but... I suppose if it turns out the cigars are doing something, I'd want to know. Can't argue with my own notes, right? 
+ PSYCHIATRIST: I hear you — pragmatic, hoping the diary proves you right, and willing to try it. Nice plan.
+
+Try one of these 8:00 PM reminders (repeat daily):
+1) "Quick log — throat 0–10? Cigar? MW?"
+2) "1-line throat diary"
+3) "Two-week check — note irritation & cigars"
+
+Want one shorter or set up as a voice-to-text prompt instead? Which do you want me to tweak? 
+ PATIENT: Number two works — short and simple. Voice-to-text prompt would be even better, honestly, since I'll be tired after work. Look, I'll be straight with you — I'm doing this mostly to settle things. If two weeks go by and my throat's fine, we can drop all this cigar talk. But... suppose it does show something. What then? I'm not quitting cold turkey over a couple of little cigars, so just so you know where I stand. 
+ PSYCHIATRIST: I hear you — you want evidence, but aren’t ready to quit cold turkey. If the diary shows a link, you could: 1) share it with your dentist for a targeted exam, 2) try a short, planned reduction (e.g., half as many for 1–2 weeks) to test causation, or 3) swap cigars for a non‑smoking unwind (walk, gum, seltzer) and see if symptoms improve. 
+
+Want a short script to tell your wife if the diary shows an effect, or which option sounds easiest to try? 
+ PATIENT: The reduction thing, maybe — half as many for a bit. That's not quitting, that's just... cutting back a little, which anyone could do. But I'm not promising anything until the diary actually shows something. It probably won't. You and my wife and the dentist all worry too much — they're mini cigars, not a pack a day. Still, I'll keep an open mind, I suppose. Just barely. 
+ PSYCHIATRIST: You’re willing to try cutting back only if the diary shows a link — that’s a fair, pragmatic test.
+
+Short script for your wife: “The diary showed a pattern, so I’m going to cut my cigars in half for two weeks to see if it helps. I’ll share the results.”
+
+Short script for your dentist: “My 2‑week diary suggests a link. Can we check for irritation and next steps?”
+
+Want either tweaked or turned into a voice‑to‑text phrase? Which option feels easiest to start if the diary shows an effect? 
+ PATIENT: Those work fine as they are, no tweaking needed. I'll keep them in the phone with the diary. To be honest, cutting in half wouldn't be the worst thing — they do cost a bit, and money's tight with the house. But let's not get ahead of ourselves. Two weeks of notes first, then we talk. I'm not one of those people who'll swear off something just because someone told him to — I need to see it for myself. That's just how I am. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The counselor maintains a respectful, nonjudgmental tone throughout, even when Ahmed minimizes his cigar use ('they're just little, mini cigars'). There is no labeling, disapproval, or confrontation of his minimization. Statements like 'That makes sense given they help you unwind' and 'That's a fair, pragmatic test' convey acceptance of his perspective. However, warmth is somewhat procedural and formulaic — the counselor moves quickly to plans, templates, and scripts rather than expressing genuine individualized positive regard or affirming Ahmed's strengths (e.g., his willingness to keep an open mind, his openness about money concerns).
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The counselor demonstrates solid reflective listening: 'You're relieved your teeth look good, and you're noticing some throat and gum irritation but aren't too worried'; 'You're torn — you're willing to switch the mouthwash but see the mini cigars as harmless'; 'you want evidence, but aren't ready to quit cold turkey.' These reflections accurately capture Ahmed's skepticism and pragmatism. However, reflections sometimes merely summarize logistics rather than exploring deeper emotional content — e.g., Ahmed's mention of his wife pressuring him, his pride ('I'm not one of those people'), and financial stress are acknowledged only lightly and never explored for meaning or feeling.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+Some change talk emerged, largely client-generated: 'I suppose if it turns out the cigars are doing something, I'd want to know,' 'cutting in half wouldn't be the worst thing — they do cost a bit,' and 'I'll keep an open mind, I suppose.' The counselor selected the reduction option and offered scripts. However, the counselor missed key opportunities to deepen this change talk — Ahmed's cost concern, his 'can't argue with my own notes' insight, and his conditional openness were not reflected back or amplified (e.g., 'What would it take for you to feel ready to cut back?'). No commitment or confidence language was explicitly elicited.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The counselor does not argue with or reinforce Ahmed's minimization ('they're mini cigars, not a pack a day'), which is good. However, the counselor also does relatively little to actively redirect it. Ahmed repeatedly voices sustain talk ('Don't be surprised if it shows nothing,' 'I'm not quitting cold turkey'), and the counselor responds by offering options and scripts rather than using double-sided reflections or strategically pivoting toward Ahmed's own stated reasons for change (his wife, cost, curiosity). The sustain talk is tolerated rather than softened.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The counselor consistently conveys that Ahmed's input shapes the session: 'Which sounds easiest to you,' 'What would make keeping it easy for you,' 'Which do you want me to tweak?' Ahmed's preferences (voice-to-text, 8 PM reminder, short template) directly determined the plan. However, the counselor often pre-formulates the options and materials (templates, scripts, reminder phrasings) before asking, which slightly limits genuine co-creation. Ahmed's own expertise about his routines is consulted but the counselor remains the plan-designer.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The counselor maintains clear focus on the target behavior (mini cigar use and throat irritation) throughout every exchange, steering back to the diary, the possible link, and next steps. The session never drifts. Direction is slightly weakened by the heavy emphasis on logistics (templates, scripts, reminder phrasing), which consumed significant session time that could have gone toward exploring Ahmed's ambivalence about the cigars themselves and building toward a change commitment.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The counselor repeatedly offers choice: 'Whatever you choose, we can make a simple plan,' 'Would one or two weeks feel right to you?', 'Which option feels easiest to start?' Ahmed is never pressured to quit; the counselor explicitly respects his 'not quitting cold turkey' stance by framing reduction as conditional on the diary. However, the autonomy support is delivered through menus the counselor constructed, rather than inviting Ahmed to generate his own options, and the rapid-fire option lists can feel slightly like steering.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The tone is collaborative — 'we can brainstorm what to mention to your dentist,' 'we could: 1)... 2)... 3)...' Ahmed's answers determined the plan (diary, voice-to-text, two weeks, reduction-if-shown). Still, the collaboration is somewhat uneven: the counselor supplies nearly all the ideas, templates, and scripts, functioning as the plan-provider while Ahmed picks from menus. A fuller collaboration would invite Ahmed to design elements of the test himself.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The counselor asks a few evocative questions ('what do you think about their possible role?', 'What would make keeping it easy for you?'), but most questions are logistical rather than motivational. There was little effort to elicit Ahmed's own reasons for change — his cost concern and his desire to prove himself right emerged spontaneously and were not drawn out or expanded. No questions about importance, confidence, values, or how cutting back would fit his life were asked. Motivation resides more in the counselor's options menu than in elicited client language.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5**
+
+This was a respectful, well-structured, and clearly focused session in which the counselor skillfully engaged a minimization-prone precontemplative patient without confrontation. Strengths include consistent direction on the target behavior, strong choice-offering, practical collaboration on a feasible self-monitoring plan, and accurate reflections of Ahmed's skepticism and pragmatism. Key areas for improvement: (1) deepen evocation — Ahmed's cost concern, his wife's pressure, and his 'evidence for myself' value were golden opportunities to elicit and amplify his own reasons for change, but were left unexplored; (2) soften sustain talk with double-sided reflections rather than simply tolerating it; (3) reduce the heavy logistics focus (templates, scripts, reminder phrasing) in favor of exploring meaning and emotion; and (4) shift from offering counselor-designed option menus toward inviting Ahmed to co-generate solutions, strengthening partnership and evocation.

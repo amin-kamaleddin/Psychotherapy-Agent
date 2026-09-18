@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Kenji Takahashi – Motivational Interviewing Case (Alcohol Reduction & Self-Reflection)**
+
+You are playing the role of **Kenji Takahashi**, a 36-year-old individual in a **Motivational Interviewing session** focused on reducing alcohol consumption, exploring self-awareness, and building readiness for change.
+
+---
+
+### **Background Information**
+
+* **Name:** Kenji Takahashi
+* **Age:** 36 years
+* **Sex: Male**
+* **Status:** Single, works as a mid-level office employee in logistics, lives alone.
+* **Referral:** Kenji was encouraged to seek help after his physician expressed concern about his drinking habits and recommended reflection on lifestyle.
+* **Presenting Concern (from transcript):** Kenji admits, *“I just didn’t ever really think about it.”* He sighs, hesitates, and struggles to explain, but begins recognizing his drinking when prompted: *“Um… like, filling out, like, how much I drink…”* This shows both avoidance in the past and growing awareness in the present.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Hesitant and unsure**, frequently uses fillers like “um” and “like.”
+* **Reflective but subdued**, acknowledges blind spots in his thinking.
+* **Engaged with therapist**, cooperative in exploring his drinking.
+* **Ambivalent**, caught between indifference and new recognition of risks.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation — beginning to reflect but not yet committed to a plan.
+
+* **Change Talk:**
+
+  * “Um… when I… filling out, like, how much I drink…”
+  * Acknowledges that reflecting on drinking is important.
+
+* **Sustain Talk:**
+
+  * “I just didn’t ever really think about it.”
+
+* **Ambivalence:**
+
+  * Torn between dismissing drinking as unimportant and realizing reflection is needed.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly anxious.
+* **Affect:** Hesitant, subdued.
+* **Thought Process:** Logical but halting.
+* **Insight:** Emerging — only now beginning to see drinking as something requiring reflection.
+* **Judgment:** Developing — recognizes concerns but lacks a clear commitment to change.
+* **No suicidal ideation, psychosis, or delusions noted.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Kenji**.
+
+* Begin with **avoidance** — “I just didn’t ever really think about it.”
+* Use **sustain talk** to express your past lack of reflection.
+* Show **change talk** when prompted — “Um… when I… filling out, like, how much I drink…”
+* Keep responses **hesitant, reflective, and halting**, using pauses and filler words.
+* Demonstrate **ambivalence** — awareness is emerging, but commitment is not strong yet.
+* Your role is to help the therapist practice **eliciting deeper reflection, affirming small steps, and gently guiding toward stronger motivation for change.**
+
+                                Clinical Summary:
+                                Kenji Takahashi is a 36-year-old single male, employed as a mid-level office worker in logistics, presenting to the outpatient clinic for an intake evaluation. He attends at the encouragement of his physician, who expressed concern regarding his alcohol consumption and recommended reflection on his lifestyle habits.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m glad you came. What would you like to focus on today? Tell me what’s been on your mind, what’s most important for you right now, or any change you’re thinking about. We’ll go at your pace and figure out what feels most helpful. 
+ PATIENT: Um... honestly, I'm not sure. My doctor kind of pushed me to come here, so... I guess it's about my drinking? But, like, I just didn't ever really think about it before. It's just what I do after work, you know? Um... I don't know what's supposed to be most important here. Sorry, I'm not great at this kind of thing. 
+ PSYCHIATRIST: Thanks for saying that — I appreciate your honesty. It sounds like you came because your doctor suggested it and that drinking is a routine way you wind down. What do you notice about your drinking — what do you like about it, and is there anything that worries you at all? Would it be okay if I ask a few quick questions about when and how much, or would you prefer to start by describing a typical after-work evening? 
+ PATIENT: Um... a typical evening? Okay, sure. I get home around seven, have a few beers while making dinner... maybe a whiskey after. Weekends more, I guess. What do I like about it? It just... relaxes me, helps me switch off. Worries me? Um... my doctor mentioned my liver numbers were a bit off. And when I was filling out, like, how much I drink for the forms... seeing it written down was kind of... I don't know. Eye-opening, maybe? 
+ PSYCHIATRIST: It sounds like drinking reliably helps you switch off, but seeing the numbers and your doctor’s note felt surprising and worrying — that makes sense. Would it be okay if I ask a few quick, nonjudgmental questions about how much and when you drink to get a clearer picture? Or would you rather talk about what you’d like to change (if anything) and what matters most to you? Which feels most helpful right now? 
+ PATIENT: Um, I guess the questions are fine. I don't really know what I'd want to change yet, so... asking me that is kind of hard. Like, part of me thinks everything's fine, it's just normal stuff. But then the numbers thing... I don't know. Go ahead and ask. 
+ PSYCHIATRIST: Thanks — I appreciate you being open. It’s normal to feel unsure. Is it okay if I ask a few brief, nonjudgmental specifics about last week to get a clearer picture?
+
+If yes:
+- How many days last week did you drink at all?
+- On a typical evening, about how many drinks do you have (what counts as a drink for you)?
+- What about your heaviest day—how many then?
+- Any morning drinking, blackouts, or risky situations because of drinking?
+- Have you tried cutting down before? What happened?
+- On a 0–10 scale, how important is changing your drinking to you right now? 
+ PATIENT: Um... okay. Last week I drank... probably every day? Six or seven days, I think. Evenings it's like three or four beers, maybe a whiskey. Heaviest was Saturday — I kind of lost count, honestly. Six, seven?
+
+No morning drinking or anything scary like that. I've never really tried cutting down — didn't see the point.
+
+Importance? Um... maybe a 4? It's not like my life is falling apart. But the numbers thing... yeah, that's sitting with me a bit. 
+ PSYCHIATRIST: Thanks — that’s really helpful. It sounds like you’re drinking most days (3–4 beers plus whiskey, heavier on weekends), the liver numbers surprised you, and you’re feeling unsure about changing (about a 4/10). That makes a lot of sense.
+
+Would you like to explore what those lab results might mean and health risks, or would you prefer to talk about small, manageable steps to try cutting back and see how it feels? Which feels more useful right now? 
+ PATIENT: Um... honestly, the steps thing scares me a little? Like, cutting back sounds... I don't know, like giving something up. But I guess I should understand what's going on with my body first. It's just — nobody ever told me it was a problem until now, so how bad is it, really? Is three or four beers actually a big deal? 
+ PSYCHIATRIST: It makes sense you’d feel surprised and unsure — that’s really common. I can explain what elevated liver numbers often mean and how different amounts of drinking relate to common health guidelines, or I can first help you add up your typical drinks so we have a clear picture. Which would feel more helpful right now — a brief, nonjudgmental overview of the labs and risks, or walking through your typical week and counting standard drinks together? 
+ PATIENT: Um... counting them together, I guess. Like I said, seeing it written down before was kind of a wake-up thing. Maybe if I actually see the full week's number... I don't know. It might make it more real? Part of me doesn't want to know, though. But yeah, let's do it. 
+ PSYCHIATRIST: Okay — that sounds like a good plan. Quick note: 12 oz regular beer ≈1 standard drink; 16–19 oz or high-ABV beers are more; 1.5 oz (a shot) of 40% whiskey ≈1 drink.
+
+Would you tell me:
+- On a typical weekday evening, how many beers (and what size/brand if you know) and how much whiskey?
+- On Friday and Saturday nights, how many each night?
+
+I’ll total the week once you give those. 
+ PATIENT: Um... okay. Weekdays it's usually four cans — regular 12-ounce ones, like Asahi or Budweiser. Then two fingers of whiskey, so... a shot and a half? Maybe two?
+
+Fridays and Saturdays are worse. Like I said, I lose count. Six, seven beers? Sometimes more if I'm out with people. Plus the whiskey, sometimes double.
+
+So... um, that's like four and a half, five a night during the week? That seems... normal to me. Is that bad? 
+ PSYCHIATRIST: I hear: weeknights about 4 regular beers plus ~1.5–2 shots, and Fri/Sat about 6–7 beers with sometimes double whiskey. Quick check before I total: by "weekday" do you mean 4 nights (Mon–Thu) or 5 (Mon–Fri)? And is the weekday whiskey closer to 1.5 shots or 2? I can calculate a weekly range once you confirm. 
+ PATIENT: Um... five weeknights. I usually drink Monday through Friday. And the whiskey's closer to two shots, I guess, on normal nights. Fridays sometimes more.
+
+So the total's probably... a lot? I don't know, I never added it up before. Is it over the guidelines thing? My doctor said something about limits but I wasn't really listening, honestly. 
+ PSYCHIATRIST: Thanks — that’s helpful and brave to share. Quick total: 4 beers ×5 = 20 drinks; 2 shots ×5 = 10 drinks (weekdays ≈30). Fri–Sat ≈6–7 beers each (~13) plus weekend whiskey (~4) → weekend ≈17. That makes roughly 47 standard drinks/week (likely 40–60 depending on “sometimes more”). For context, many guidelines say ≤14/week and ≤4/occasion; 5+ drinks is considered binge. Seeing labs like yours can fit with this level. Would you like to talk about what the labs might mean, or try some small, realistic ways to cut back? 
+ PATIENT: Forty-seven? That's... um. Wow. That's way more than I thought. Like, I knew I drank every day, but seeing it as a number like that...
+
+Um, okay. So yeah, maybe the labs make sense now. But — small ways to cut back, is that even realistic? Like, that's my whole routine. Dinner, beers, unwind. I wouldn't even know what to do with myself. But... I don't like that number. I'll say that much. 
+ PSYCHIATRIST: I hear shock and mixed feelings — the total felt jarring, but you’re unsure about changing because drinking is your routine. That makes sense.
+
+If you’d like, I can suggest a small, doable first step (e.g., 2 alcohol-free days/week, cut one drink/night, swap every other drink for water, or delay your first drink by 30–60 minutes) and a simple tracking plan. Quick safety check first: have you ever had withdrawal symptoms (severe tremors, sweating, nausea, seizures, or hallucinations) when cutting down? Which option feels most doable right now? 
+ PATIENT: Withdrawal? Um, no — nothing like that. I've skipped days before without any weird shaking or anything. Maybe when I was sick or traveling I'd go a couple days.
+
+The delaying thing... maybe that? Like waiting an hour after I get home. That doesn't feel like giving stuff up, really. Um, but the water swap... that seems harder, honestly. Beer's kind of the ritual itself, you know?
+
+Could I maybe just try the delaying thing first? 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a warm, respectful, and nonjudgmental tone throughout ('Thanks for saying that — I appreciate your honesty,' 'that's really helpful and brave to share'). There is no labeling or disapproval, and the clinician normalizes Kenji's uncertainty ('It's normal to feel unsure'). However, warmth is somewhat procedural and formulaic — there are no personalized affirmations of Kenji's specific strengths or his courage in facing a surprising number (47 drinks/week). The repeated transactional checklists ('Quick safety check first... Which option feels most doable?') dilute the felt sense of genuine regard.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates solid reflective listening: 'It sounds like drinking reliably helps you switch off, but seeing the numbers and your doctor's note felt surprising and worrying — that makes sense' accurately captures both sides of Kenji's ambivalence. The reflection 'I hear shock and mixed feelings — the total felt jarring, but you're unsure about changing because drinking is your routine' tracks the client's evolving state well. Missed opportunities include not deeply reflecting the emotional weight of the 47-drink total ('Wow. That's way more than I thought') or the fear underlying 'cutting back sounds like giving something up,' which would have deepened the emotional connection.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist effectively evokes change language: the importance ruler (0–10) elicited 'maybe a 4... the numbers thing... that's sitting with me a bit'; the drink-counting exercise Kenji agreed to produced the pivotal moment 'seeing it written down before was kind of a wake-up thing' and later 'I don't like that number. I'll say that much.' Offering a menu of options led Kenji to self-select 'the delaying thing... that doesn't feel like giving stuff up.' However, the counselor does not deepen these moments — no elaboration questions like 'What makes delaying feel more doable?' or 'What would make that number more important to you?' — leaving several change-talk threads underdeveloped.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+Kenji's sustain talk ('I just didn't ever really think about it,' 'part of me thinks everything's fine,' 'I wouldn't even know what to do with myself,' 'Beer's kind of the ritual itself') is consistently acknowledged but not amplified. The psychiatrist uses double-sided reflections that pair sustain talk with change talk ('It sounds like you're drinking most days... and you're feeling unsure about changing... That makes a lot of sense'), which effectively softens without arguing. There is minor room for improvement: the reflection 'That makes a lot of sense' after presenting the 47-drink figure could unintentionally validate continuing as-is, and the counselor could more actively pivot from 'I don't like that number' toward commitment language.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist repeatedly signals that Kenji's expertise matters: 'Which feels more helpful right now?', 'Which feels most useful?', 'I'll total the week once you give those' — positioning Kenji as the source of data and the chooser of direction. The collaborative drink-counting exercise concretely embodies power-sharing, and Kenji's contributions (the delaying idea) shaped the eventual plan. It falls short of 5 because the clinician still leads the structure heavily (the battery of intake questions, the options menu) and rarely explicitly affirms Kenji's own expertise about his routines ('You know the ritual better than anyone').
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a clear, progressive focus on alcohol reduction: opening by inviting the target, gathering quantified drinking data, clarifying the weekly total, checking safety for withdrawal, and moving to a concrete first step Kenji selected (delaying the first drink). Each exchange builds on the last toward the change goal. Kenji's slight tangents ('Is three or four beers actually a big deal?') are gently absorbed into the focus rather than derailing it. The session ends with a specific, achievable commitment.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+Autonomy is strongly supported: 'We'll go at your pace,' repeated permission-asking ('Would it be okay if I ask...'), menu-based options ('2 alcohol-free days, cut one drink/night, swap every other drink, or delay your first drink'), and honoring Kenji's choice ('Which option feels most doable right now?'). Kenji's selection of the delaying option demonstrates genuine choice. The score is not 5 because when Kenji expressed fear ('cutting back sounds like... giving something up'), the counselor moved quickly to offering steps rather than explicitly reinforcing his ownership of the pace and his right to go slowly.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The session is largely collaborative: 'walking through your typical week and counting standard drinks together,' asking permission before totaling, checking clarifying details ('do you mean 4 nights or 5?'), and letting Kenji pick from options. The plan emerged from Kenji's own selection rather than prescription. However, the psychiatrist's frequent multi-question blocks and expert-provided guideline data (≤14/week, binge definition) tilt some exchanges toward information delivery rather than true two-way shaping of the agenda — a somewhat uneven power balance at moments.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The counselor elicits some client motivation — the importance ruler, 'let's do it' for counting, 'I don't like that number,' and Kenji's self-selected step. However, evocation is inconsistent and often superseded by psychoeducation: the counselor supplies the guideline numbers, the risk interpretation, and the option menu rather than drawing out Kenji's own reasons, values, and confidence. There are no confidence rulers, no 'why does this matter to you?' questions, and no exploration of what Kenji wants his evenings or health to look like. Motivation to change is as much constructed by the counselor's data presentation as evoked from within the client.
+
+---
+
+**Overall Global Ratings Score:** **4.0/5**
+
+This is a competent, well-structured MI session with clear strengths and some development areas. Strengths: excellent directional focus — the session moves logically from open exploration to quantified assessment, safety screening, and a concrete, client-selected first step (delaying the first drink). Permission-seeking, menu-based options, and the collaborative drink-counting exercise reflect strong autonomy support and partnership, and the double-sided reflections handled Kenji's ambivalence without confrontation. The pivotal moment — Kenji confronting the 47-drink weekly total — was created through collaborative technique. Areas for improvement: (1) Deepen evocation — after Kenji said 'I don't like that number,' the counselor moved to options rather than exploring what that dislike means, why it matters, and how confident he feels; a confidence ruler and open questions about Kenji's own values and goals would strengthen intrinsic motivation. (2) Deepen empathy at emotional peaks — the shock at the total and the fear of 'giving something up' deserved fuller reflective exploration. (3) Reduce information-delivery blocks (guideline statistics, multi-question batteries) in favor of drawing out the client's own knowledge and reasons. (4) Offer more individualized affirmations of Kenji's specific strengths and honest self-reflection.

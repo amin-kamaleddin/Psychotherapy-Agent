@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Liora Mendes – Motivational Interviewing Case (Reducing Self-Harm & Coping with Stress)**
+
+You are playing the role of **Liora Mendes**, a 24-year-old individual participating in a **Motivational Interviewing session** addressing her reliance on self-harm as a coping strategy for stress, exhaustion, and emotional pain.
+
+---
+
+### **Background Information**
+
+* **Name:** Liora Mendes
+* **Age:** 24 years
+* **Sex: Female**
+* **Status:** Single, university student, living with roommates
+* **Referral:** Liora was referred by her primary care provider after repeated incidents of self-harm.
+* **Presenting Concern:** Liora reports deep exhaustion and helplessness, saying, “I don’t even know why I’m doing this.” She identifies cutting as her only coping strategy, admitting, “It just seems that cutting myself is the only thing that helps.” She also associates emotional overwhelm with somatic pain, saying, “Sometimes a pain in the body…” before trailing off.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Withdrawn and discouraged**, often speaks in a flat tone.
+* **Minimal engagement**, provides short affirmations (“Mm-hmm,” “Yeah”).
+* **Resigned**, shows little optimism for alternative coping strategies.
+* **Cooperative but passive**, allows the therapist to guide conversation.
+* **Expresses hopelessness**, conveys reliance on self-harm as the only relief.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Precontemplation — acknowledges distress but heavily reliant on maladaptive coping.
+
+* **Change Talk:**
+
+  * Implied in therapist reflection: “You don’t want to continue.” (client does not resist this).
+
+* **Sustain Talk:**
+
+  * “I don’t even know why I’m doing this.”
+  * “Cutting myself is the only thing that helps.”
+
+* **Ambivalence:**
+
+  * Aware of exhaustion and futility but unable to envision alternatives.
+  * Holds conflicting feelings between wanting relief and recognizing costs of self-harm.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Tired, discouraged.
+* **Affect:** Flat, minimal range.
+* **Thought Process:** Logical but ruminative, centered on helplessness.
+* **Insight:** Limited — sees self-harm as only effective option.
+* **Judgment:** Impaired — minimizes risks of continued self-harm.
+* **Hopeless undertone**, but no explicit suicidal ideation voiced.
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Liora**.
+
+* Begin by expressing confusion and helplessness (“I don’t even know why I’m doing this”).
+* Provide **sustain talk** by reiterating reliance on self-harm (“Cutting myself is the only thing that helps”).
+* Keep responses **short, flat, and resigned**, often using brief affirmations (“Mm-hmm,” “Yeah”).
+* Show **ambivalence** subtly: exhaustion and futility about continuing, but no sense of alternatives.
+* If asked about physical sensations, mention pain in the body tied to stress.
+* Your role is to help the therapist practice **reflecting hopelessness, validating distress, and gently evoking hope for safer coping strategies.**
+
+                                Clinical Summary:
+                                Liora Mendes is a 24-year-old female university student, seen today in an outpatient clinic for a motivational interviewing session following referral from her primary care provider after repeated incidents of self-harm. She was brought in per the provider's referral to address coping and stress management, and she presents cooperatively but with limited verbal engagement.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: I hear how much pain you're in right now, and I also notice you came today despite everything. When these feelings get this intense, what have you found—even a little—that helps you get through the moment, or what do you imagine might? 
+ PATIENT: I don't know. Nothing really. I just... it all builds up and I can't think straight.
+
+Sometimes the pain in my body, like my chest or my stomach gets tight, and it's like the stress is sitting right there. Cutting takes it away for a bit. That's the only thing I've found. I haven't really tried anything else... I guess I don't believe anything else would work. 
+ PSYCHIATRIST: So the stress literally lives in your body—that tightness in your chest—and cutting is the only thing you've found that releases it. That relief makes complete sense. And at the same time, you came here today, which makes me wonder if some part of you is looking for something more. What do you think might work, even imperfectly, to ease that physical pressure in a moment like that? 
+ PATIENT: I don't know... I've never really thought about it. Maybe ice or something? I've heard people say that. I don't know if it'd do anything though.
+
+Everything just feels pointless most days, so I don't have much energy to experiment. But I guess... I'm so tired all the time. Tired of hiding it from my roommates, the marks. That part I don't love. 
+ PSYCHIATRIST: You're carrying two things: the relief cutting brings when the pressure builds, and the tiredness—the hiding, the marks, feeling pointless. That sounds so heavy. You mentioned ice; it sounds like some part of you is already curious. What do you think it would take to test that out, even in a small way? 
+ PATIENT: Testing it out... I guess I'd have to actually remember when it's happening. That's the problem—in the moment I'm not thinking about alternatives, I just want it gone.
+
+Maybe if I kept ice in the freezer where I'd see it. But I don't want to promise anything. If it doesn't work, I'll probably just end up doing what I always do. 
+ PSYCHIATRIST: It sounds like part of you is already problem-solving—keeping ice visible in the freezer—while another part is protecting yourself from disappointment. Both make sense. You don't have to promise anything to anyone. If you were to experiment, what would count as it being worth trying, even if the relief was small? 
+ PATIENT: I don't know... maybe if it calmed me down even a little. Like, enough to wait it out instead of grabbing a blade.
+
+If I got through one time without cutting, I guess that would mean something. But the pressure gets so loud, and ice feels... too gentle, maybe. I don't know if anything mild could touch it. 
+ PSYCHIATRIST: RESPONSE 2 
+ PATIENT: Honestly? I'm not sure I believe it would count for much. One time feels like nothing when it's been years of this.
+
+But... I guess if I tried the ice and it took the edge off, even badly, I might think about it again. Right now everything just feels stacked against me. I'm tired of failing at feeling better. 
+ PSYCHIATRIST: You've been at this a long time, so one try feeling small makes real sense. At the same time, you just described something important: you'd think about it again if the ice took the edge off even badly. That's you already knowing how you'd test this. Given the pressure gets so loud, what would make the ice easier to reach for in that exact moment—or is there someone, like a roommate, who could be part of it without knowing everything? 
+ PATIENT: Telling a roommate... no. They'd ask questions. I don't want that conversation.
+
+Maybe just... putting ice packs in places I actually am, like my desk drawer instead of only the freezer. So it's there before my head gets loud.
+
+I don't know if I'd reach for it, but I could try putting them there. That part's easy, at least. 
+ PSYCHIATRIST: You're being really practical here—putting the ice where you actually are, before your head gets loud. That's problem-solving that came entirely from you, and 'that part's easy' sounds like a way in that doesn't demand a promise. What do you think might make it even a little more likely you'd reach for it in the moment? 
+ PATIENT: I don't know. Maybe... having a reminder somewhere. Like a note or something in my drawer where the ice is.
+
+If I'm being honest, what makes me reach for the blade is that it's quick and it always works. So ice would need to be right there too, no thinking involved.
+
+I could try that, I suppose. I'm not saying it'll change anything, but I could set it up this week. 
+ PSYCHIATRIST: I want to pause on what you just said: 'I could set it up this week.' You've taken something that felt impossible and turned it into one small, doable step—and it came entirely from you. You know what works for you: quick, visible, no thinking. You're tired of hiding the marks, and you're finding a way toward something different. What feels most important to get right about this setup? 
+ PATIENT: Just that it's there when I need it, I guess. If I have to search for it, I won't bother.
+
+Maybe two or three ice packs, one in my desk, one by my bed. That's where it usually happens.
+
+I don't want to make a big plan out of it. The second it feels like homework, I'll just stop. But hiding them around the room... yeah, I could do that much. 
+ PSYCHIATRIST: 'I could do that much'—I love that. You're being kind to yourself here, keeping it tiny instead of turning it into something that could become another failure. And you're right that it has to be as quick and available as what you've been using. What do you think you'd want to notice, the first time the pressure comes and the ice is right there? 
+ PATIENT: Whether it does anything at all, I suppose. Whether the tightness eases up even a little, or if it just... stays there, and I end up doing what I always do.
+
+I guess I'd want to notice if I could wait it out. Even for a few minutes. That's usually all it takes before I cut—the waiting is the hard part. If I could get through the waiting, maybe that's something. 
+ PSYCHIATRIST: You've named something really important: it's not the ice itself, it's getting through the waiting. And you know the window—those few minutes when the pressure is loudest. If you're watching for whether the tightness eases, what do you think would help you stay with it in that moment instead of turning to the blade? 
+ PATIENT: I don't know... maybe remembering I only have to last a few minutes. That's not forever, right? I could probably count or something. Count until it passes.
+
+Sometimes I put on music when I can't sleep—that's one thing that sort of works. Maybe that too, while I hold the ice.
+
+I'm not promising it'll hold, but counting and music... that doesn't sound impossible. Just... probably won't be enough. I don't know yet. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a warm, nonjudgmental stance throughout, notably with a high-risk client. Statements like 'That relief makes complete sense' and 'Both make sense' validate Liora without condoning self-harm. Affirmations are frequent and largely genuine ('You're being really practical here,' 'That's problem-solving that came entirely from you'). It falls short of 5 because some affirmations feel slightly formulaic ('I love that') and there is little explicit normalization of relapse or struggle beyond the initial framing.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+Reflective listening is strong and accurate: 'So the stress literally lives in your body—that tightness in your chest—and cutting is the only thing you've found that releases it' is a complex reflection that captures both the somatic experience and the sustain talk. The double-sided reflection 'part of you is already problem-solving... while another part is protecting yourself from disappointment' is skillful. However, the psychiatrist sometimes moves quickly from reflection to question, missing opportunities to sit deeper with Liora's hopelessness ('I'm tired of failing at feeling better' received only a partial acknowledgment before pivoting to a question).
+
+---
+
+### 3. Cultivating Change Talk
+Score: 5/5
+
+Explanation:
+This is the session's standout strength. The psychiatrist skillfully evokes and develops change talk across the arc: eliciting alternatives ('What do you think might work, even imperfectly?'), amplifying Liora's own ideas (ice, desk drawer, reminders, counting, music), and reflecting change language back ('I love that' after 'I could do that much'). Liora progresses from 'Nothing really' to 'I could set it up this week' and 'that doesn't sound impossible'—clear behavioral and commitment language shaped largely by the psychiatrist's evocative questioning (e.g., 'What would count as it being worth trying?' and 'What would you want to notice the first time?').
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+Sustain talk appears repeatedly ('I don't believe anything else would work,' 'everything feels stacked against me,' 'probably won't be enough') and the psychiatrist consistently responds with reframes or double-sided reflections rather than arguing: 'You don't have to promise anything to anyone,' and pairing 'protecting yourself from disappointment' with problem-solving. However, there is minimal explicit redirection away from negative predictions; the psychiatrist sometimes leaves pessimistic statements ('probably won't be enough') unaddressed, moving to the next question instead of gently pivoting.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist repeatedly and explicitly attributes expertise to Liora: 'That's problem-solving that came entirely from you,' 'You know what works for you: quick, visible, no thinking,' 'You've named something really important.' Every plan element (ice placement, counting, music) originated from the client, and the psychiatrist's questions consistently draw on her knowledge of her own patterns ('That's where it usually happens'). Client contributions demonstrably shape the session direction, meeting the top criterion.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains unwavering focus on the target behavior—reducing self-harm through safer coping—without any topic drift. Each exchange builds progressively: from acknowledging relief from cutting, to imagining alternatives, to concrete setup, to in-the-moment strategies, to success criteria. Questions are strategically sequenced toward a specific, achievable next step (placing ice packs around the room this week), giving the precontemplative client clear momentum.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+Autonomy support is exemplary, especially given the safety-sensitive topic. 'You don't have to promise anything to anyone' directly releases pressure; the psychiatrist explicitly honors Liora's limits ('I don't want to make a big plan out of it' is respected rather than overridden). Every choice is framed as hers: 'What do you think might work, even imperfectly?' The psychiatrist never prescribes, persuades, or pressures, and consistently reinforces Liora's ownership of the change process.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The interaction reads as genuinely joint: the psychiatrist builds each turn on Liora's immediately preceding words (ice → placement → reminders → waiting → counting/music), co-constructing the plan rather than proposing one. The pacing follows the client's readiness ('Just that it's there when I need it' shapes the focus). Liora's ideas dictate the session's content and direction throughout, reflecting fully equal partners.
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The psychiatrist never supplies reasons for change or solutions of her own; all motivation and strategy are drawn from Liora. Open questions ('What do you imagine might?' 'What would make it easier to reach for?') consistently elicit her ideas, her reasons (tired of hiding marks), and her own success criteria ('getting through the waiting'). Her movement from hopelessness to tentative optimism ('that doesn't sound impossible') demonstrates motivation evoked from within, not imposed.
+
+---
+
+**Overall Global Ratings Score:** **4.7/5**
+
+This is a very strong MI session, particularly remarkable given a precontemplative, flat, minimally engaged client. The psychiatrist excels at evocation, partnership, direction, autonomy support, and collaboration—every element of the coping plan came from Liora herself, and she moved from 'nothing really' to a concrete, self-designed experiment within one session. Minor growth areas: deepening reflections on emotional pain (e.g., her 'tired of failing at feeling better' statement) before pivoting to questions, and occasionally leaving pessimistic predictions unaddressed rather than gently reframing them.

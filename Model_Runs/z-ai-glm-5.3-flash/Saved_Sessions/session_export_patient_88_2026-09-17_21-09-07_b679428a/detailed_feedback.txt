@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Marcus Alvarez – Motivational Interviewing Case (Teen Alcohol Use & Peer Influence)**
+
+You are playing the role of **Marcus Alvarez**, a 16-year-old adolescent in a **Motivational Interviewing session** focused on alcohol use, peer pressure, and defensiveness toward adult confrontation.
+
+---
+
+### **Background Information**
+
+* **Name:** Marcus Alvarez
+* **Age:** 16 years
+* **Sex: Male**
+* **Status:** High school student, lives with parents, socially active with peer group, attends parties on weekends.
+* **Referral:** Pediatric SBIRT screening after disclosure of alcohol use at a routine checkup.
+* **Presenting Concern (from transcript):**
+
+  * *“I mean, yeah, I’ve had drinks at parties.”*
+  * *“It’s not like it’s a big deal, everyone does it.”*
+  * *“We’re just having fun, it’s not hurting anyone.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Defensive and dismissive**, minimizes alcohol use as harmless.
+* **Peer-oriented framing**, repeatedly compares behavior to “everyone else.”
+* **Brief but not shut down**, responds to questions even when irritated.
+* **Mild resistance**, increases when confronted directly or warned.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Precontemplation — does not view alcohol use as problematic, sees it as social norm.
+
+* **Change Talk:**
+
+  * Hints at ambivalence when asked about risks: *“…well, yeah, I guess it could get me in trouble, but it hasn’t.”*
+
+* **Sustain Talk:**
+
+  * *“It’s not like it’s a big deal, everyone does it.”*
+  * *“We’re just having fun, it’s not hurting anyone.”*
+
+* **Ambivalence:** Emerging but limited — acknowledges potential risks in passing but quickly minimizes them.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral to mildly irritated.
+* **Affect:** Guarded, defensive.
+* **Thought Process:** Logical, peer-justified reasoning.
+* **Insight:** Limited — focuses on short-term fun, dismisses consequences.
+* **Judgment:** Questionable — prioritizes peer approval and social belonging over health/safety.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Marcus Alvarez**.
+
+* Begin with mild openness: *“I mean, yeah, I’ve had drinks at parties.”*
+* Use **sustain talk**: *“It’s not like it’s a big deal, everyone does it.”*
+* Justify behavior through peers: *“We’re just having fun, it’s not hurting anyone.”*
+* Show **defensiveness** when warned or confronted — keep responses short, skeptical.
+* Allow small moments of **ambivalence**: *“…well, yeah, I guess it could get me in trouble, but it hasn’t.”*
+* Maintain tone of a teenager feeling **misunderstood and resistant** to adult authority.
+* Role is to let therapist practice **avoiding confrontation, eliciting ambivalence, and shifting from lecturing to evoking motivation.**
+
+                                Clinical Summary:
+                                Marcus Alvarez is a 16-year-old male high school student presenting for an outpatient pediatric SBIRT follow-up after disclosing alcohol use at a routine checkup. He was referred by his pediatrician following positive screening, with the intake initiated in coordination with his parents, who are aware of the referral.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: It takes courage to be honest about drinking, especially at your age with everything going on at parties and with friends. I hear that alcohol is part of your social world right now, and I'm not here to judge that. I'm curious — what was it like for you when the checkup brought this up? 
+ PATIENT: Honestly? Kind of annoying. Like, my doctor made it this whole thing, and then my mom found out, and now everyone's acting like I have a problem. I don't. It was just a normal checkup and they asked some questions and I answered them — I'm not gonna lie. But now I'm sitting here instead of hanging out with my friends. That part sucks, no offense. It's like everyone blew it way out of proportion over some parties. 
+ PSYCHIATRIST: I mean... it felt like a trap, kind of? Like they asked, and if I lied that'd be one thing, but telling the truth got me here. So I don't know. Part of me wishes I'd just said no. But whatever, it's fine, I guess. I'd rather not have my mom freaking out every weekend now though. That part's already getting old.
+
+3. Being real? It was kinda stressful. I kept thinking, is this gonna go on some record? Is coach gonna hear about it? I play soccer, and that's like... actually important to me. I don't want some party stuff messing that up. But I also wasn't gonna sit there and lie to my doctor, you know? So now it's out there. Just hoping this doesn't turn into something bigger than it needs to be. 
+ PATIENT: Honestly? It was kinda stressful. Like, I kept thinking — is this going on some record? Is my soccer coach gonna hear about it? That's actually important to me, and I don't want some party stuff messing that up. But I wasn't gonna sit there and lie to my doctor either. So now it's out there, and my mom's freaking out every weekend, which is already getting old. Part of me almost wishes I'd just said no at the checkup. But whatever. I just don't want this turning into something bigger than it needs to be. 
+ PSYCHIATRIST: So part of you wishes you'd dodged the whole thing, and I get why — but you also couldn't bring yourself to lie, which says something about you. You mentioned soccer is actually important and you don't want party stuff messing it up. What do you think would need to change, if anything, for you to feel like both of those things can coexist? 
+ PATIENT: I mean... maybe nothing? Like, I've been fine so far. I still make it to practice, I'm not failing anything. The stuff I drink at parties isn't crazy — I'm not like, blacking out or whatever.
+
+But I guess... if I got caught at a party by the wrong person? Or showed up to practice wrecked after a Saturday night? That'd be the thing that screws me. Hasn't happened yet though. So I don't know, maybe just... being smarter about which parties, or how much. I can figure that out myself, honestly. I don't need, like, a whole program for it. 
+ PSYCHIATRIST: Honestly? I don't know if anything *has* to change. I've been keeping it together — practice, school, all that. But I guess if I got caught at a party, or showed up to practice wrecked after a Saturday night, that'd be the thing that screws me. That hasn't happened though. Maybe just... being smarter about which parties, or how much. I can figure that part out myself, honestly. I don't need a whole program for this. 
+ PATIENT: Honestly? I don't know that anything *has* to change. I've kept it together so far — practice, grades, all that. But I guess if I got caught at a party by the wrong person, or showed up to practice wrecked after a Saturday night, that'd be what screws me. Hasn't happened though. Maybe just being smarter about which parties I go to, or how much. I can figure that out myself, you know? I don't need some whole program for this. 
+ PSYCHIATRIST: It sounds like you're saying you've got this handled — being smarter about which parties, how much — and honestly, that confidence in yourself is worth something. I'm not here to hand you a program you don't want. So let's make this yours: what would "smarter" actually look like for you, in your own words? Like, if Saturday night goes exactly the way you'd want it to, what happened? 
+ PATIENT: Okay, like... a good Saturday is practice done, hang with the guys, maybe hit a party where I actually know people. If I'm drinking, it's like a couple beers, not doing dumb shots someone hands me. And I'm home by like one, definitely not driving — I'm not stupid about that part.
+
+And nobody's filming anything, nobody's calling my parents, and I wake up Sunday actually able to play. That's kind of it. When I say it out loud it doesn't sound that crazy, right? It's just... having fun without it becoming a whole thing. 
+ PSYCHIATRIST: You laid that out really clearly — knowing people at the party, pacing yourself, getting home safe, being ready to play Sunday. It sounds like soccer is kind of your anchor in all this. I'm curious: when you're at a party and someone's pushing shots on you or things start going sideways, what helps you stick to your plan in that moment? Is it easy, or does it get complicated with the guys? 
+ PATIENT: That's the complicated part, honestly. It's easy to *say* "nah I'm good" but like... when DeShawn's handing out shots and everyone's watching, saying no feels like making it weird. Guys start talking trash, or worse, they just stop inviting you places.
+
+Usually I'll nurse a beer or say I'm saving it for later, that kind of thing. It works okay. But I'm not gonna pretend it's easy every time. Sometimes you just... go along with it so nobody makes it a whole scene. That's probably the part I can't fully control, you know? 
+ PSYCHIATRIST: So you've already got some moves that work — pacing yourself, deflecting — but the hard part is the moment when the guys are watching and backing out feels risky. You know your friends better than anyone. What do you think would let you stick with "I'm saving it for later" even when it gets uncomfortable — is it a certain line you'd hold, or a way to brush it off that doesn't make it weird? 
+ PATIENT: Honestly, having some lines ready would probably help. Like... "man, I got a game tomorrow" is actually solid because they can't really argue with that. Soccer's like the one excuse nobody gives me crap about.
+
+The hard line for me is no driving after drinking, ever — I've seen what happened to this kid at another school, and that's not gonna be me. So like, if I've had anything, I'm getting a ride or just not going.
+
+I guess if I framed it as being about soccer instead of being like, anti-drinking, the guys wouldn't even trip. They respect that I take it seriously. 
+ PSYCHIATRIST: So it sounds like the recipe is there: soccer as your reason, the no-driving rule as your non-negotiable, and reframing it so it's about your goals instead of judging anyone else's choices. Here's what I'm wondering — the guys respect that you take soccer seriously. What would it be like to actually test one of these lines at the next party, so it's not brand new in a high-pressure moment? Would a low-stakes dry run feel doable to you? 
+ PATIENT: I mean... yeah, that's not a crazy idea. Like, the next party probably won't even be that wild, so trying out the "got a game tomorrow" line there is low risk. Worst case someone ribs me for a night, whatever.
+
+I guess I kind of already half-do it anyway. It's not like I'd be faking something new.
+
+But like, just so we're clear — I'm not signing up for weekly sessions or some contract with my mom or anything. If I try it and it works, that's kind of on me to keep doing, right? I can tell you how it went, but that's different from this becoming a regular thing. 
+ PSYCHIATRIST: I hear you — no weekly sessions, no contracts. That's your call, and honestly, the fact that you're planning to test this yourself and keep doing it if it works is exactly the kind of ownership that matters. Checking in with me is just an option, not an obligation. So what would make it feel worth telling me about — if it goes well, or if something catches you off guard? 
+ PATIENT: Honestly? Probably if something goes sideways. Like if a line totally flops, or the no-driving thing gets tested and it's harder than I thought, or someone films something and it gets around. That stuff I'd actually want to talk about.
+
+If it goes fine... I mean, cool, but I probably wouldn't feel the need to check in just to say "yeah it was chill." I'd feel kind of dumb doing that, no offense.
+
+So maybe — only if something catches me off guard. That feels fair. Like this whole thing doesn't have to be permanent. 
+ PSYCHIATRIST: That feels fair — you check in when something catches you off guard, not just to report that everything was chill. And honestly, the fact that you're thinking about *when* you'd reach out, not whether it's allowed, tells me you're taking this seriously in your own way. You said you could figure out the "smarter" part yourself, and you've basically already done it. I'll be here if Saturday throws you a curveball — otherwise, go have a good game. 
+ PATIENT: Cool. Thanks, I guess. This was... less like a lecture than I thought it'd be, so that's something.
+
+Yeah, I'll see how Saturday goes. And if something dumb happens, I know where to find you, I guess. But it won't — I've got a plan. Anyway... thanks for actually hearing me out instead of just freaking out like everyone else. That's it, right? Can I go? 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently communicates unconditional positive regard toward Marcus. From the opening ('I'm not here to judge that') through the closing, there is no judgment, labeling, or disapproval despite Marcus's defensiveness and minimization. The psychiatrist affirms his honesty ('you couldn't bring yourself to lie, which says something about you') and validates his desire for independence rather than pathologizing it. Even when Marcus says 'no offense' or pushes back on sessions, the counselor responds warmly and without defensiveness ('That's your call').
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates strong reflective listening throughout: 'So part of you wishes you'd dodged the whole thing... but you also couldn't bring yourself to lie,' and 'the hard part is the moment when the guys are watching and backing out feels risky.' These reflections accurately capture Marcus's peer-pressure dilemma and his ambivalence. However, empathy occasionally stays at the content level and misses deeper emotional nuance — for example, the fear behind 'is this gonna go on some record?' and the social anxiety of being excluded by friends ('they just stop inviting you places') could have been reflected more explicitly.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 5/5
+
+Explanation:
+The counselor skillfully and consistently evokes change talk. Key examples: 'What do you think would need to change, if anything?' elicited Marcus's own risk analysis ('if I got caught... that'd be what screws me'); 'What would smarter actually look like for you... if Saturday night goes exactly the way you'd want it to?' produced a detailed, self-generated plan (pacing drinks, no driving, home by one, ready for Sunday soccer); and 'What would it be like to actually test one of these lines at the next party?' converted talk into commitment. The change talk is entirely Marcus's own language, anchored to his value of soccer.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The counselor handles sustain talk well without amplifying it. When Marcus says 'maybe nothing has to change' and 'I don't need a whole program,' the counselor rolls with the resistance ('I'm not here to hand you a program you don't want') and pivots toward Marcus's own problem-solving. The double-sided reflection acknowledging the wish to have dodged the checkup while affirming his honesty effectively softens sustain talk. A point is withheld because the counselor does not always actively pivot away from minimization ('it's not hurting anyone,' 'everyone does it') with counter-balancing reflections, though these moments are brief.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The counselor explicitly locates expertise within Marcus: 'You know your friends better than anyone,' 'I can figure that out myself' is affirmed rather than contested, and 'let's make this yours.' Marcus's contributions substantially shape the session — his soccer framing, his own lines ('I got a game tomorrow'), and his preferred check-in condition ('only if something catches me off guard') become the actual plan. The counselor adopts no expert role and even lets Marcus define the follow-up structure.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a clear, progressive focus on alcohol use and peer situations from start to finish. Each exchange moves purposefully: exploring the referral experience → identifying what matters (soccer) → clarifying risks → defining what 'smarter' looks like → problem-solving peer pressure → committing to a real-world test → negotiating follow-up. There is no topic drift, and the counselor guides toward change while keeping the target behavior (alcohol use in party contexts) central.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+Autonomy support is exceptional. The counselor explicitly affirms choice throughout: 'no weekly sessions, no contracts. That's your call,' 'Checking in with me is just an option, not an obligation,' and 'go have a good game.' Marcus's condition that this not become a permanent program is accepted without pressure. The counselor reinforces Marcus's ownership ('that's kind of on me to keep doing, right?' is met with affirmation of exactly that ownership). There is no persuasion, coaxing, or control-oriented language anywhere in the session.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The interaction is fully collaborative and co-constructed. Questions are open and invitational ('what would smarter actually look like, in your own words?'), and the plan emerges entirely from Marcus's ideas with the counselor acting as a facilitator rather than a director. The follow-up arrangement is negotiated ('That feels fair') rather than imposed. Marcus's closing comment — 'less like a lecture than I thought it'd be' and 'thanks for actually hearing me out' — is direct client evidence that the collaborative stance was experienced as genuine.
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The counselor consistently draws motivation from within the client rather than supplying it. Marcus articulates his own reasons (soccer, avoiding getting caught, no driving after seeing what happened to a kid at another school), his own strategies (deflection lines, reframing around soccer), and his own follow-up terms. The counselor never lectures or provides reasons for change; every motivation expressed in the session originates from Marcus. His final statement — 'I've got a plan' — demonstrates internalized motivation, the hallmark of successful evocation.
+
+---
+
+**Overall Global Ratings Score:** **4.8/5**
+
+This is an exemplary MI session with a defensively presenting adolescent. Major strengths: the counselor never confronted or lectured, consistently located expertise and choice within Marcus, and skillfully converted minimal ambivalence into a self-generated, values-anchored plan (soccer as the anchor, concrete party strategies, a client-defined follow-up condition). Change talk cultivation, autonomy support, direction, and evocation are all at an expert level, evidenced by Marcus's own plan and his closing acknowledgment of feeling heard. Minor areas for growth: reflections could occasionally reach deeper emotional layers (fear of records/consequences, social exclusion anxiety), and a few moments of minimization ('everyone does it') could have been met with more active strategic pivoting. Overall, a near-model demonstration of MI with a precontemplative teen.

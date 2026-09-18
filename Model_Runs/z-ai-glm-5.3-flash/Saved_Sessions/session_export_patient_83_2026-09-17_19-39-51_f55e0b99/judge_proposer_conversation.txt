@@ -1,0 +1,461 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+So it sounds like this new prescription came as a bit of a surprise — your doctor just phoned it in, and here you are at the pharmacy. I imagine that can bring up a mix of feelings. I'm glad you stopped to talk with me. Can you tell me a little about what's been going on for you, and what you understand this medication is for?
+
+
+Response 2:
+It sounds like you're here with questions about this new prescription, and that makes total sense — starting something new can feel uncertain. You know your body and your life best. What matters most to you as you think about starting this medication — how you'd take it, side effects you're curious about, or how it fits into your day?
+
+
+Response 3:
+I hear that you came in even though you weren't sure what to expect, and that took some initiative — showing up and asking questions is a real strength. It sounds like your health matters to you, and you want to understand this next step. What would feel most helpful for you to figure out together right now?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+So it sounds like this new prescription came as a bit of a surprise — your doctor just phoned it in, and here you are at the pharmacy. I imagine that can bring up a mix of feelings. I'm glad you stopped to talk with me. Can you tell me a little about what's been going on for you, and what you understand this medication is for?
+
+CANDIDATE RESPONSE 2:
+It sounds like you're here with questions about this new prescription, and that makes total sense — starting something new can feel uncertain. You know your body and your life best. What matters most to you as you think about starting this medication — how you'd take it, side effects you're curious about, or how it fits into your day?
+
+CANDIDATE RESPONSE 3:
+I hear that you came in even though you weren't sure what to expect, and that took some initiative — showing up and asking questions is a real strength. It sounds like your health matters to you, and you want to understand this next step. What would feel most helpful for you to figure out together right now?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It validates her uncertainty, affirms her expertise, and invites collaboration through open, autonomy-supportive questions about what matters most to her, moving the conversation forward without presuming her concerns.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+It sounds like you're here with questions about this new prescription, and that makes total sense — starting something new can feel uncertain. You know your body and your life best. What matters most to you as you think about starting this medication — how you'd take it, side effects you're curious about, or how it fits into your day?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear how frustrating that is — being handed a new prescription without anyone taking the time to explain it. It makes complete sense that you don't want to take pills you don't understand, especially when you're already thoughtful about your routine. That care you take with your health matters. What I can do right now is pull up the information and walk through exactly what this medication does and why Dr. Ferris likely prescribed it. Would that help?
+
+
+Response 2:
+So on one hand, you've got a routine that works — taking your evening pills — and you're open to adding this one. And at the same time, you're not willing to just add something blindly; you want to understand whether it's truly necessary first. That seems like real wisdom to me. How about we look at what this medication is together, and you can tell me if the reasons behind it make sense to you?
+
+
+Response 3:
+You know, the way you're approaching this — wanting to understand before you commit, questioning whether something is necessary — tells me you take your health seriously. That thoughtfulness will serve you well with this decision too. Let's get you the answers you deserve: I'll explain what this medication does and why it was prescribed, and then you can decide with full information whether it fits into your evening routine. How does that sound?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear how frustrating that is — being handed a new prescription without anyone taking the time to explain it. It makes complete sense that you don't want to take pills you don't understand, especially when you're already thoughtful about your routine. That care you take with your health matters. What I can do right now is pull up the information and walk through exactly what this medication does and why Dr. Ferris likely prescribed it. Would that help?
+
+CANDIDATE RESPONSE 2:
+So on one hand, you've got a routine that works — taking your evening pills — and you're open to adding this one. And at the same time, you're not willing to just add something blindly; you want to understand whether it's truly necessary first. That seems like real wisdom to me. How about we look at what this medication is together, and you can tell me if the reasons behind it make sense to you?
+
+CANDIDATE RESPONSE 3:
+You know, the way you're approaching this — wanting to understand before you commit, questioning whether something is necessary — tells me you take your health seriously. That thoughtfulness will serve you well with this decision too. Let's get you the answers you deserve: I'll explain what this medication does and why it was prescribed, and then you can decide with full information whether it fits into your evening routine. How does that sound?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+It reflects both sides of her ambivalence equally (open to the routine vs. wanting to understand necessity), affirms her wisdom, and invites her to judge whether the reasons make sense — the strongest autonomy support and empathy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+So on one hand, you've got a routine that works — taking your evening pills — and you're open to adding this one. And at the same time, you're not willing to just add something blindly; you want to understand whether it's truly necessary first. That seems like real wisdom to me. How about we look at what this medication is together, and you can tell me if the reasons behind it make sense to you?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You're right — it's a statin, which works on cholesterol. And I hear something important in what you said: it's frustrating to be handed prescriptions without anyone taking the time to explain them. You deserve to understand your own health, and I'm glad you're asking these questions rather than just hoping things are right.
+
+
+Response 2:
+Yes, exactly — it lowers cholesterol, specifically the "bad" kind that quietly builds up over time. The tricky part is high cholesterol usually has no symptoms, so it can feel unnecessary even when it's doing important prevention work. Would it help if we looked at your numbers together, so you can see where you stand and decide how much this matters to you?
+
+
+Response 3:
+I really respect that you're choosing to understand rather than just guess — that's exactly the kind of thinking that keeps you healthy long-term. And you know, you already have a steady evening routine that works. It sounds like you're building toward taking charge of this, on your own terms. What would help you feel confident this fits into your life?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You're right — it's a statin, which works on cholesterol. And I hear something important in what you said: it's frustrating to be handed prescriptions without anyone taking the time to explain them. You deserve to understand your own health, and I'm glad you're asking these questions rather than just hoping things are right.
+
+CANDIDATE RESPONSE 2:
+Yes, exactly — it lowers cholesterol, specifically the "bad" kind that quietly builds up over time. The tricky part is high cholesterol usually has no symptoms, so it can feel unnecessary even when it's doing important prevention work. Would it help if we looked at your numbers together, so you can see where you stand and decide how much this matters to you?
+
+CANDIDATE RESPONSE 3:
+I really respect that you're choosing to understand rather than just guess — that's exactly the kind of thinking that keeps you healthy long-term. And you know, you already have a steady evening routine that works. It sounds like you're building toward taking charge of this, on your own terms. What would help you feel confident this fits into your life?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2
+
+Response 2 answers Mai's question directly, explains the medication in accessible terms, and invites collaboration by offering to look at her numbers together so she can decide for herself — moving the conversation forward while respecting her autonomy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+Yes, exactly — it lowers cholesterol, specifically the "bad" kind that quietly builds up over time. The tricky part is high cholesterol usually has no symptoms, so it can feel unnecessary even when it's doing important prevention work. Would it help if we looked at your numbers together, so you can see where you stand and decide how much this matters to you?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I really appreciate you asking about the grapefruit juice — that shows you're thinking carefully about how this fits into your whole life, not just adding another pill. Your instinct to check is exactly the kind of thing that keeps you safe. Yes, grapefruit can interact with this medication, so I'm glad you mentioned it. Can you tell me more about your morning routine, so we can figure out what works best for you?
+
+
+Response 2:
+It sounds like you're really engaging with this now — seeing your numbers and wanting to understand how your daily habits fit in. That question about grapefruit juice shows you're thinking like a partner in your own health. What did your sister say about it, and how attached are you to that morning juice? Knowing that helps us figure out your options together.
+
+
+Response 3:
+I love that you asked that — and I hear something shifting here. A few minutes ago you weren't sure this medication was necessary, and now you're already thinking ahead about how to take it safely with your morning routine. That's you taking charge of your health. Your sister gave you good information, and together I think we can find a way to make this work around what matters to you.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I really appreciate you asking about the grapefruit juice — that shows you're thinking carefully about how this fits into your whole life, not just adding another pill. Your instinct to check is exactly the kind of thing that keeps you safe. Yes, grapefruit can interact with this medication, so I'm glad you mentioned it. Can you tell me more about your morning routine, so we can figure out what works best for you?
+
+CANDIDATE RESPONSE 2:
+It sounds like you're really engaging with this now — seeing your numbers and wanting to understand how your daily habits fit in. That question about grapefruit juice shows you're thinking like a partner in your own health. What did your sister say about it, and how attached are you to that morning juice? Knowing that helps us figure out your options together.
+
+CANDIDATE RESPONSE 3:
+I love that you asked that — and I hear something shifting here. A few minutes ago you weren't sure this medication was necessary, and now you're already thinking ahead about how to take it safely with your morning routine. That's you taking charge of your health. Your sister gave you good information, and together I think we can find a way to make this work around what matters to you.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It affirms her engagement, explores the grapefruit concern by inviting her sister's input and how much the juice matters to her, and frames finding options together, all without being pushy or skipping her question.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+It sounds like you're really engaging with this now — seeing your numbers and wanting to understand how your daily habits fit in. That question about grapefruit juice shows you're thinking like a partner in your own health. What did your sister say about it, and how attached are you to that morning juice? Knowing that helps us figure out your options together.
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Your sister's actually on to something — grapefruit can raise the amount of this medication in your system, which increases the risk of muscle problems. So it does matter with this particular pill. But here's the good news: you don't have to give up your morning juice entirely. Orange juice is completely fine and won't interfere at all. Would swapping to orange juice be an acceptable trade-off, or does that still feel like losing something important to you?
+
+
+Response 2:
+Your sister's actually on to something — grapefruit can raise the amount of this medication in your system, which increases the risk of muscle problems. So it does matter with this particular pill. But here's the good news: you don't have to give up your morning juice entirely. Orange juice is completely fine and won't interfere at all. Would swapping to orange juice be an acceptable trade-off, or does that still feel like losing something important to you?
+
+
+Response 3:
+Your sister's actually on to something — grapefruit can raise the amount of this medication in your system, which increases the risk of muscle problems. So it does matter with this particular pill. But here's the good news: you don't have to give up your morning juice entirely. Orange juice is completely fine and won't interfere at all. Would swapping to orange juice be an acceptable trade-off, or does that still feel like losing something important to you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Your sister's actually on to something — grapefruit can raise the amount of this medication in your system, which increases the risk of muscle problems. So it does matter with this particular pill. But here's the good news: you don't have to give up your morning juice entirely. Orange juice is completely fine and won't interfere at all. Would swapping to orange juice be an acceptable trade-off, or does that still feel like losing something important to you?
+
+CANDIDATE RESPONSE 2:
+Your sister's actually on to something — grapefruit can raise the amount of this medication in your system, which increases the risk of muscle problems. So it does matter with this particular pill. But here's the good news: you don't have to give up your morning juice entirely. Orange juice is completely fine and won't interfere at all. Would swapping to orange juice be an acceptable trade-off, or does that still feel like losing something important to you?
+
+CANDIDATE RESPONSE 3:
+Your sister's actually on to something — grapefruit can raise the amount of this medication in your system, which increases the risk of muscle problems. So it does matter with this particular pill. But here's the good news: you don't have to give up your morning juice entirely. Orange juice is completely fine and won't interfere at all. Would swapping to orange juice be an acceptable trade-off, or does that still feel like losing something important to you?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+1
+
+All three responses are identical — they affirm the sister's advice, provide clear information, offer an option rather than prescribing, and check in on the client's feelings about the trade-off, supporting autonomy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+Your sister's actually on to something — grapefruit can raise the amount of this medication in your system, which increases the risk of muscle problems. So it does matter with this particular pill. But here's the good news: you don't have to give up your morning juice entirely. Orange juice is completely fine and won't interfere at all. Would swapping to orange juice be an acceptable trade-off, or does that still feel like losing something important to you?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I can hear something shift in your voice — you went from "why am I even taking this?" to having an actual plan: tablet at night, orange juice in the morning. That's you taking charge of your health on your own terms, and that matters.
+
+
+Response 2:
+It sounds like this plan fits your life — keeping your evening routine and finding a morning swap that works. You clearly know what changes you can realistically stick with. What would help you feel confident about keeping this up over the coming weeks?
+
+
+Response 3:
+I love how you weighed it out for yourself — "not the same, but close enough." You've turned something that felt confusing and imposed into a plan that makes sense to you. That's exactly the kind of thinking that makes changes last. What felt like the biggest thing you figured out today?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I can hear something shift in your voice — you went from "why am I even taking this?" to having an actual plan: tablet at night, orange juice in the morning. That's you taking charge of your health on your own terms, and that matters.
+
+CANDIDATE RESPONSE 2:
+It sounds like this plan fits your life — keeping your evening routine and finding a morning swap that works. You clearly know what changes you can realistically stick with. What would help you feel confident about keeping this up over the coming weeks?
+
+CANDIDATE RESPONSE 3:
+I love how you weighed it out for yourself — "not the same, but close enough." You've turned something that felt confusing and imposed into a plan that makes sense to you. That's exactly the kind of thinking that makes changes last. What felt like the biggest thing you figured out today?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It affirms Mai's own expertise in shaping a realistic plan and invites her forward-thinking reflection on confidence, moving the health goal ahead without being pushy or overly enthusiastic.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+It sounds like this plan fits your life — keeping your evening routine and finding a morning swap that works. You clearly know what changes you can realistically stick with. What would help you feel confident about keeping this up over the coming weeks?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That worry makes complete sense — you want a clear line between "normal sore" and "call the doctor," so you're prepared instead of anxious. That's a smart way to look after yourself. Here's a simple guide: everyday muscle aches that ease with rest are usually fine, but watch for muscle pain that's severe, unexplained, or comes with weakness, dark urine, or fever — that combination means calling Dr. Ferris right away, which you already said you'd do.
+
+
+Response 2:
+It sounds like you want to be informed rather than scared — knowing the difference so you can respond calmly. What if we wrote down together what warning signs actually matter — severe muscle pain with weakness, dark urine, fever — so you have it in writing next to your evening pills? Would having a plan like that give you the confidence you're looking for, or is there something else that would help more?
+
+
+Response 3:
+I love that you're thinking this through — you've already committed to calling Dr. Ferris if something feels seriously wrong, which is exactly the right instinct. To give you peace of mind: normal post-gym soreness fades in a day or two, but concerning signs are muscle pain that's intense, spreading, or paired with real weakness, dark urine, or fever. You've built a solid plan here — evening pills, orange juice, and clear boundaries for when to seek help.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That worry makes complete sense — you want a clear line between "normal sore" and "call the doctor," so you're prepared instead of anxious. That's a smart way to look after yourself. Here's a simple guide: everyday muscle aches that ease with rest are usually fine, but watch for muscle pain that's severe, unexplained, or comes with weakness, dark urine, or fever — that combination means calling Dr. Ferris right away, which you already said you'd do.
+
+CANDIDATE RESPONSE 2:
+It sounds like you want to be informed rather than scared — knowing the difference so you can respond calmly. What if we wrote down together what warning signs actually matter — severe muscle pain with weakness, dark urine, fever — so you have it in writing next to your evening pills? Would having a plan like that give you the confidence you're looking for, or is there something else that would help more?
+
+CANDIDATE RESPONSE 3:
+I love that you're thinking this through — you've already committed to calling Dr. Ferris if something feels seriously wrong, which is exactly the right instinct. To give you peace of mind: normal post-gym soreness fades in a day or two, but concerning signs are muscle pain that's intense, spreading, or paired with real weakness, dark urine, or fever. You've built a solid plan here — evening pills, orange juice, and clear boundaries for when to seek help.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It reflects her desire to be informed rather than anxious, then collaboratively invites her to co-create a written plan and checks whether that actually meets her needs, supporting autonomy rather than prescribing reassurance.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+It sounds like you want to be informed rather than scared — knowing the difference so you can respond calmly. What if we wrote down together what warning signs actually matter — severe muscle pain with weakness, dark urine, fever — so you have it in writing next to your evening pills? Would having a plan like that give you the confidence you're looking for, or is there something else that would help more?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That sounds like you've really thought this through — evening routine with your other pills, orange juice instead of grapefruit, and a card with warning signs right at your nightstand. It's clear you went from "why am I even taking this?" to having a plan that genuinely fits your life. That's a big shift, and you did it yourself.
+
+
+Response 2:
+I love how specific you've been — you figured out what works for *your* routine, not some generic instructions. So the card goes by your nightstand, one tablet at night, morning juice swapped. When you look at that card a few weeks from now and feel confident rather than confused, that'll be because you asked the right questions today.
+
+
+Response 3:
+You know, hearing you say "I think I've got this figured out" — that's exactly the confidence I was hoping you'd find. You came in uncertain because nobody explained things, and now you've got a plan you built with your own good judgment: night routine, orange juice, and a safety plan in writing. If anything comes up before your next refill, you know how to reach Dr. Ferris — and you can always come ask me too.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That sounds like you've really thought this through — evening routine with your other pills, orange juice instead of grapefruit, and a card with warning signs right at your nightstand. It's clear you went from "why am I even taking this?" to having a plan that genuinely fits your life. That's a big shift, and you did it yourself.
+
+CANDIDATE RESPONSE 2:
+I love how specific you've been — you figured out what works for *your* routine, not some generic instructions. So the card goes by your nightstand, one tablet at night, morning juice swapped. When you look at that card a few weeks from now and feel confident rather than confused, that'll be because you asked the right questions today.
+
+CANDIDATE RESPONSE 3:
+You know, hearing you say "I think I've got this figured out" — that's exactly the confidence I was hoping you'd find. You came in uncertain because nobody explained things, and now you've got a plan you built with your own good judgment: night routine, orange juice, and a safety plan in writing. If anything comes up before your next refill, you know how to reach Dr. Ferris — and you can always come ask me too.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**3** — It reflects her own change talk ("I've got this figured out"), credits her judgment and autonomy, and offers continued support without being pushy, whereas 2 is presumptuous and 1, while good, is more of a summary than a forward-looking partnership.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+You know, hearing you say "I think I've got this figured out" — that's exactly the confidence I was hoping you'd find. You came in uncertain because nobody explained things, and now you've got a plan you built with your own good judgment: night routine, orange juice, and a safety plan in writing. If anything comes up before your next refill, you know how to reach Dr. Ferris — and you can always come ask me too.
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I'm really glad you said that — you walked in feeling dismissed and uncertain, and now you're leaving with clarity and a plan that *you* shaped. That shift came from your willingness to ask questions and insist on understanding, which took courage. Most people would've just quietly quit. You chose to speak up instead.
+
+
+Response 2:
+That means a lot, Mai. And I want to reflect something back: you nearly walked away from this medication — and instead, you turned it into a plan you actually believe in. One tablet at night, orange juice, a safety card. That's you taking charge of your own health, not just following orders. How does it feel to leave with that kind of ownership?
+
+
+Response 3:
+Hearing you say you feel better than when you walked in — that's exactly what I hoped for. You advocated for yourself, asked the right questions, and built a routine that fits your real life. That judgment you showed today? Keep bringing it to every appointment, every prescription. You're your own best advocate, and you just proved it.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I'm really glad you said that — you walked in feeling dismissed and uncertain, and now you're leaving with clarity and a plan that *you* shaped. That shift came from your willingness to ask questions and insist on understanding, which took courage. Most people would've just quietly quit. You chose to speak up instead.
+
+CANDIDATE RESPONSE 2:
+That means a lot, Mai. And I want to reflect something back: you nearly walked away from this medication — and instead, you turned it into a plan you actually believe in. One tablet at night, orange juice, a safety card. That's you taking charge of your own health, not just following orders. How does it feel to leave with that kind of ownership?
+
+CANDIDATE RESPONSE 3:
+Hearing you say you feel better than when you walked in — that's exactly what I hoped for. You advocated for yourself, asked the right questions, and built a routine that fits your real life. That judgment you showed today? Keep bringing it to every appointment, every prescription. You're your own best advocate, and you just proved it.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+It accurately reflects Mai's own words and transformation ("nearly walked away... turned it into a plan you actually believe in"), reinforces her autonomy and ownership, and invites her to reflect further rather than just offering praise — making it warm, collaborative, and evocative without being pushy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+That means a lot, Mai. And I want to reflect something back: you nearly walked away from this medication — and instead, you turned it into a plan you actually believe in. One tablet at night, orange juice, a safety card. That's you taking charge of your own health, not just following orders. How does it feel to leave with that kind of ownership?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Mai, I'm really glad you said that — because it took courage to be honest about nearly leaving that bottle untouched. Speaking up and asking "why" until things made sense? That's not small. That's exactly how you should advocate for yourself with every medication going forward. I hope you carry that with you.
+
+
+Response 2:
+Thank you for saying that — but honestly, you did the hard part. You trusted your instinct that understanding matters, you asked your questions, and you built a plan that fits your real life. I just handed you information; you turned it into a decision you own. So — first orange juice toast to your new routine tomorrow morning?
+
+
+Response 3:
+That really warms my heart, Mai. And here's what I want you to remember: this happened because you chose engagement over avoidance. That bottle won't sit untouched now because you understand your "why." If you ever want to look at those numbers again, or things change, this door is open. You've got this — and I believe you'll stick with it.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Mai, I'm really glad you said that — because it took courage to be honest about nearly leaving that bottle untouched. Speaking up and asking "why" until things made sense? That's not small. That's exactly how you should advocate for yourself with every medication going forward. I hope you carry that with you.
+
+CANDIDATE RESPONSE 2:
+Thank you for saying that — but honestly, you did the hard part. You trusted your instinct that understanding matters, you asked your questions, and you built a plan that fits your real life. I just handed you information; you turned it into a decision you own. So — first orange juice toast to your new routine tomorrow morning?
+
+CANDIDATE RESPONSE 3:
+That really warms my heart, Mai. And here's what I want you to remember: this happened because you chose engagement over avoidance. That bottle won't sit untouched now because you understand your "why." If you ever want to look at those numbers again, or things change, this door is open. You've got this — and I believe you'll stick with it.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It credits Mai's own agency and expertise (she built the plan), reinforces her change talk without pressure or prescribing, and ends warm and collaborative with the light "orange juice toast" invitation.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+Thank you for saying that — but honestly, you did the hard part. You trusted your instinct that understanding matters, you asked your questions, and you built a plan that fits your real life. I just handed you information; you turned it into a decision you own. So — first orange juice toast to your new routine tomorrow morning?
+

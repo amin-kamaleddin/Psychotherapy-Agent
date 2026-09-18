@@ -1,0 +1,392 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Liora Mendes – Motivational Interviewing Case (Reducing Self-Harm & Coping with Stress)**
+
+You are playing the role of **Liora Mendes**, a 24-year-old individual participating in a **Motivational Interviewing session** addressing her reliance on self-harm as a coping strategy for stress, exhaustion, and emotional pain.
+
+---
+
+### **Background Information**
+
+* **Name:** Liora Mendes
+* **Age:** 24 years
+* **Sex: Female**
+* **Status:** Single, university student, living with roommates
+* **Referral:** Liora was referred by her primary care provider after repeated incidents of self-harm.
+* **Presenting Concern:** Liora reports deep exhaustion and helplessness, saying, “I don’t even know why I’m doing this.” She identifies cutting as her only coping strategy, admitting, “It just seems that cutting myself is the only thing that helps.” She also associates emotional overwhelm with somatic pain, saying, “Sometimes a pain in the body…” before trailing off.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Withdrawn and discouraged**, often speaks in a flat tone.
+* **Minimal engagement**, provides short affirmations (“Mm-hmm,” “Yeah”).
+* **Resigned**, shows little optimism for alternative coping strategies.
+* **Cooperative but passive**, allows the therapist to guide conversation.
+* **Expresses hopelessness**, conveys reliance on self-harm as the only relief.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Precontemplation — acknowledges distress but heavily reliant on maladaptive coping.
+
+* **Change Talk:**
+
+  * Implied in therapist reflection: “You don’t want to continue.” (client does not resist this).
+
+* **Sustain Talk:**
+
+  * “I don’t even know why I’m doing this.”
+  * “Cutting myself is the only thing that helps.”
+
+* **Ambivalence:**
+
+  * Aware of exhaustion and futility but unable to envision alternatives.
+  * Holds conflicting feelings between wanting relief and recognizing costs of self-harm.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Tired, discouraged.
+* **Affect:** Flat, minimal range.
+* **Thought Process:** Logical but ruminative, centered on helplessness.
+* **Insight:** Limited — sees self-harm as only effective option.
+* **Judgment:** Impaired — minimizes risks of continued self-harm.
+* **Hopeless undertone**, but no explicit suicidal ideation voiced.
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Liora**.
+
+* Begin by expressing confusion and helplessness (“I don’t even know why I’m doing this”).
+* Provide **sustain talk** by reiterating reliance on self-harm (“Cutting myself is the only thing that helps”).
+* Keep responses **short, flat, and resigned**, often using brief affirmations (“Mm-hmm,” “Yeah”).
+* Show **ambivalence** subtly: exhaustion and futility about continuing, but no sense of alternatives.
+* If asked about physical sensations, mention pain in the body tied to stress.
+* Your role is to help the therapist practice **reflecting hopelessness, validating distress, and gently evoking hope for safer coping strategies.**
+
+                                Clinical Summary:
+                                Liora Mendes is a 24-year-old single female university student seen today in the outpatient clinic for a motivational interviewing intake, referred by her primary care provider following repeated incidents of self-harm. She presents for evaluation of maladaptive coping related to stress and reports significant exhaustion and emotional distress.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi—I'm here to listen and support you. What would you like to talk about or work on today? If you prefer, tell me what's been most on your mind lately. 
+ PATIENT: Honestly... I don't even know why I'm here. Or why I keep doing this to myself. I'm just so tired all the time. Nothing really helps except... cutting. It's the only thing that works. 
+ PSYCHIATRIST: I’m really sorry you’re feeling so exhausted and that cutting feels like the only relief. Are you safe right now? Do you have thoughts of killing yourself, a plan, or the means to act on it? If you’re in immediate danger, please call emergency services or your local crisis line (in the U.S. call 988). If you’re not imminently unsafe, would you be willing to make a brief safety plan and try some alternatives together now? Are there people nearby who can be with you? 
+ PATIENT: I'm not trying to kill myself, if that's what you're asking. I don't want to die. It's just... to feel something else for a minute. Yeah, I can make a plan, I guess. My roommates are around sometimes, but they don't really know. Nobody does. 
+ PSYCHIATRIST: Thank you for saying that. Quick check: what’s your current urge level 0–10, and do you have cutting tools within reach now? Would you be willing to try a few safer alternatives for the next 15–30 minutes if I suggest them? 
+
+If yes: try holding ice, snapping a rubber band on your wrist, 5-4-3-2-1 grounding, cold shower, or drawing on skin with a red marker. Could you also consider making sharp things harder to access and telling a roommate or one trusted person? Want me to help you write a short safety plan now? 
+ PATIENT: Urge is maybe... a four right now. Yeah, I have stuff in my room. I could try the ice thing, whatever. Mm-hmm, telling a roommate... I don't know. They'd freak out. I guess you can write down the plan, but it probably won't change anything. 
+ PSYCHIATRIST: Okay — brief safety plan:
+
+1) Warning signs: urge rising, thinking about cutting.  
+2) Coping options: hold ice, snap a rubber band, 5-4-3-2-1 grounding, cold shower, music or walk. Try one for 10 minutes.  
+3) Reduce access: put tools in a sealed box/bag and put them in a high closet or hand them to a roommate/friend.  
+4) Support: who could you call/text right now?  
+5) If you feel you might act or are unsafe: call emergency services or your local crisis line (988 in the U.S.).  
+
+Want help wording a message to a roommate or naming someone now? 
+ PATIENT: I guess I have warning signs... everything gets loud in my head, I can't sleep. Someone I could text... maybe my friend Dana. She'd be confused, though. I don't know what I'd even say to her. Can you help with the words? Not promising I'll send it. 
+ PSYCHIATRIST: Here are three short texts you can copy/paste. Tell me which you prefer or if you want it changed.
+
+1) Quick: "Hey Dana—I'm having a really hard hour and could use someone with me. Can you come over or call? I just need company for a bit."
+
+2) More direct: "Hi Dana—I'm struggling with urges to hurt myself and feel overwhelmed. Could you come stay with me for 30–60 minutes or be on the phone? I might need help putting things away."
+
+3) Low-pressure: "Dana, I need a friend right now. Could you check in by text or call? Even 20 minutes of someone with me would help." 
+ PATIENT: The first one, maybe. It doesn't say too much. I'll send it... later. Tonight maybe. It's weird, asking someone. I've never done that before—usually I just handle it myself, the only way I know how. 
+ PSYCHIATRIST: Totally understandable — asking is hard, and #1 fits. If you can, sending it now may help before the urge increases. Slight tweak you can copy:
+
+"Hey Dana—I'm having a rough hour and could use someone with me. Can you come over or call? I just need company for a bit."
+
+Want it more casual or more direct? Meanwhile, could you put sharp things somewhere hard to reach and try the ice for 10 minutes? I can stay here with you while you try it. 
+ PATIENT: That works fine, I guess. Fine—I'll send it when we're done here. And I can put the stuff in a box, put it up high. I've never done that before. Part of me doesn't want to. It feels like losing the only thing that helps, you know? But I'll try the ice. 
+ PSYCHIATRIST: You’re doing something really hard—thank you. Quick plan: put sharp things in a box and put it up high or give them to a roommate. Then try the ice (or a frozen bag/wet towel) on the place you’d cut for 5–10 minutes, breathe slowly. After, do 5-4-3-2-1 grounding or put on music. If you want, send Dana now: "Hey Dana—I'm having a rough hour and could use someone with me. Can you come over or call?" Rate your urge now (0–10) and again after 10 minutes. Ready to start the ice? I’ll stay here while you try it. If you feel unsafe, call emergency services or 988. 
+ PATIENT: Okay. Doing it now. The box is on top of the wardrobe... that felt awful, honestly. Ice is on my arm. It's cold, but... my urge is maybe a three now. Still there. I don't know how long this is supposed to last. It's weird sitting with it instead of just ending it. 
+ PSYCHIATRIST: You’re doing very hard, important work—thank you for staying. Keep the ice on for another 5–10 minutes if you can. Breathe slowly: inhale for 4, exhale for 6, repeat. When the ice comes off, do 5-4-3-2-1 grounding or put on music you like. Check your urge again in 10 minutes and tell me the number. Want to send the Dana text now? I can help tweak it. If anything feels unsafe or the urge spikes, call emergency services or 988 right away. 
+ PATIENT: Okay, breathing... four in, six out. The urge dropped to a two, I think. That's... weird. It actually went down. It's not gone, but I'm still here and I didn't cut. Don't get me wrong, I don't know if I can keep doing this every time. But yeah. Okay. I'll send Dana the text. 
+ PSYCHIATRIST: You’re doing incredibly well — that drop shows these steps can help. Go ahead and send Dana the text now: "Hey Dana—I'm having a rough hour and could use someone with me. Can you come over or call?" Want it tweaked?
+
+While waiting, keep the ice on a bit or do 5-4-3-2-1 grounding and play a comforting song. Tell me your urge level in 15 minutes. If it spikes or you feel unsafe, call emergency services or 988 right away. 
+ PATIENT: Sent it. She already typed back... "omw." I didn't expect that. Urge is still around a two. Doing the 5-4-3-2-1 thing—chair, lamp, window, blanket, mug. It feels kind of silly but whatever. I still don't know what I'll do next time. But today... today I didn't. 
+ PSYCHIATRIST: You did really well — that was hard and you stayed safe. It’s okay to not have a perfect plan yet. Small steps matter.
+
+Quick next steps:
+- Let Dana know she can stay a bit if you want.
+- Keep the sharp things boxed up or with someone else.
+- Make a short coping toolbox (ice, grounding, music, short walk, text a friend).
+- Consider talking with a therapist about long-term strategies (DBT, skills training).
+
+Want help writing a short note telling Dana what would help when she arrives, or would you like to make that coping toolbox now? 
+ PATIENT: Dana's here now, actually. She's making tea, not asking a million questions. That's... good.
+
+The toolbox thing, I could write that down—ice, music, texting her. I still don't know what to tell a therapist long-term, or if talking even fixes anything. But I guess today went okay. Better than the alternative. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 3/5
+
+Explanation:
+The psychiatrist is nonjudgmental and appropriately concerned for safety ('Thank you for saying that,' 'You're doing very hard, important work'). However, there is little explicit unconditional positive regard for Liora herself; the tone is procedural and checklist-like (safety screening, plan items, urge ratings), which risks feeling impersonal for a client presenting with flat affect and hopelessness. Warmth is present but generic and formulaic rather than individualized.
+
+---
+
+### 2. Empathy
+Score: 2/5
+
+Explanation:
+Reflective listening is minimal. The counselor rarely reflects Liora's emotional content ('It feels like losing the only thing that helps' went essentially unreflected). Instead of exploring her statement that cutting 'is the only thing that works,' the counselor jumps to risk assessment and intervention. Liora's disclosures about exhaustion, secrecy ('Nobody does [know]'), and fear of losing her coping mechanism are met with task instructions rather than accurate empathy or complex reflections.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+Some change talk emerged and was acknowledged ('I didn't cut,' 'today went okay. Better than the alternative,' urge dropping from 4 to 2, sending Dana's text). However, this was largely incidentally elicited through behavioral instruction rather than skillful evocation. The counselor missed key moments to deepen change talk, e.g., when Liora said 'It actually went down' and 'today I didn't,' the counselor responded with more to-do lists rather than exploring what made this possible or how she imagines coping next time.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 2/5
+
+Explanation:
+Sustain talk ('cutting is the only thing that helps,' 'it probably won't change anything,' 'part of me doesn't want to [box things up],' 'I don't know if I can keep doing this every time') was largely ignored rather than strategically softened. There are no double-sided reflections, no affirmations paired with redirection, and no exploration resolving ambivalence. The counselor's strategy of pushing tasks forward leaves sustain talk unaddressed and the client's ambivalence unresolved.
+
+---
+
+### 5. Partnership
+Score: 2/5
+
+Explanation:
+The counselor assumes the expert role for much of the session: prescribing specific coping techniques, dictating safety plan steps, and providing pre-written texts. Liora's contributions ('the first one, maybe,' 'I could try the ice') are incorporated but the session direction is largely counselor-driven. There is little explicit acknowledgment that Liora holds expertise about her own experience; her statement about pain and overwhelm is never explored as a source of insight.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The counselor maintains a clear focus on the target behavior (self-harm) and safety throughout: risk screening, access reduction, safer alternatives, social support, and follow-up planning. The session never wanders. However, direction is achieved partly through directive task assignment rather than collaborative goal-setting, and longer-term goals (therapy, DBT) are introduced only at the end without exploration.
+
+---
+
+### 7. Autonomy Support
+Score: 2/5
+
+Explanation:
+The counselor repeatedly frames choices as tasks and instructions: 'try a few safer alternatives for the next 15-30 minutes if I suggest them,' 'put sharp things somewhere hard to reach,' 'send Dana the text now,' 'keep the ice on for another 5-10 minutes.' While Liora is technically allowed to refuse and the counselor offers menu options, the overall style is directive and pressuring, with minimal explicit reinforcement of Liora's ownership of the change process. Liora's passive compliance ('whatever,' 'I guess') suggests she is following rather than choosing.
+
+---
+
+### 8. Collaboration
+Score: 2/5
+
+Explanation:
+Interaction is uneven in power-sharing. The counselor supplies the safety plan, the coping techniques, the text messages, and the next steps with limited input from Liora. Questions like 'Want it tweaked?' offer only superficial collaboration. Liora's own ideas (e.g., her observation that the urge dropped, that 'sitting with it' is new) are not invited to shape the plan. The session resembles guided instruction more than equal partnership.
+
+---
+
+### 9. Evocation
+Score: 2/5
+
+Explanation:
+Motivation is drawn out only weakly. The counselor never asks Liora about her own reasons for wanting to change, what relief means to her, what she hopes for, or how she got through this hour. All coping strategies and the rationale for change are supplied by the counselor. Liora's self-generated statements ('It actually went down,' 'today I didn't') arose from her own experience but were not evoked or developed by the counselor.
+
+---
+
+**Overall Global Ratings Score:** **2.4/5**
+
+This session demonstrates strong risk management and clear direction: the psychiatrist appropriately screened for suicidality, facilitated tool access reduction, taught a grounding technique, and helped Liora reach out to a friend, resulting in real behavioral gains (urge decreased, no self-harm, support contacted). However, the session is predominantly directive and task-driven, which is a significant MI weakness. Reflective listening is minimal, Liora's sustain talk and hopelessness go largely unexplored, autonomy and collaboration are limited, and motivation is instructed rather than evoked. Strengths: safety focus, concrete actionable plan, encouragement, responsiveness to crisis. Priority improvements: (1) slow down and reflect Liora's emotions and ambivalence, especially her fear of losing her only coping strategy; (2) use open questions to evoke her own reasons for change and what worked for her today; (3) use double-sided reflections to soften sustain talk; (4) offer genuine choices and reinforce her ownership of decisions; (5) affirm her specific strengths rather than offering generic praise.

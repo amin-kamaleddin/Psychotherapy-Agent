@@ -1,0 +1,54 @@
+PSYCHIATRIST: Hi — I’m glad you came. What would you like to focus on today? Tell me what’s been on your mind, what’s most important for you right now, or any change you’re thinking about. We’ll go at your pace and figure out what feels most helpful.
+PATIENT: Um... honestly, I'm not sure. My doctor kind of pushed me to come here, so... I guess it's about my drinking? But, like, I just didn't ever really think about it before. It's just what I do after work, you know? Um... I don't know what's supposed to be most important here. Sorry, I'm not great at this kind of thing.
+PSYCHIATRIST: Thanks for saying that — I appreciate your honesty. It sounds like you came because your doctor suggested it and that drinking is a routine way you wind down. What do you notice about your drinking — what do you like about it, and is there anything that worries you at all? Would it be okay if I ask a few quick questions about when and how much, or would you prefer to start by describing a typical after-work evening?
+PATIENT: Um... a typical evening? Okay, sure. I get home around seven, have a few beers while making dinner... maybe a whiskey after. Weekends more, I guess. What do I like about it? It just... relaxes me, helps me switch off. Worries me? Um... my doctor mentioned my liver numbers were a bit off. And when I was filling out, like, how much I drink for the forms... seeing it written down was kind of... I don't know. Eye-opening, maybe?
+PSYCHIATRIST: It sounds like drinking reliably helps you switch off, but seeing the numbers and your doctor’s note felt surprising and worrying — that makes sense. Would it be okay if I ask a few quick, nonjudgmental questions about how much and when you drink to get a clearer picture? Or would you rather talk about what you’d like to change (if anything) and what matters most to you? Which feels most helpful right now?
+PATIENT: Um, I guess the questions are fine. I don't really know what I'd want to change yet, so... asking me that is kind of hard. Like, part of me thinks everything's fine, it's just normal stuff. But then the numbers thing... I don't know. Go ahead and ask.
+PSYCHIATRIST: Thanks — I appreciate you being open. It’s normal to feel unsure. Is it okay if I ask a few brief, nonjudgmental specifics about last week to get a clearer picture?
+
+If yes:
+- How many days last week did you drink at all?
+- On a typical evening, about how many drinks do you have (what counts as a drink for you)?
+- What about your heaviest day—how many then?
+- Any morning drinking, blackouts, or risky situations because of drinking?
+- Have you tried cutting down before? What happened?
+- On a 0–10 scale, how important is changing your drinking to you right now?
+PATIENT: Um... okay. Last week I drank... probably every day? Six or seven days, I think. Evenings it's like three or four beers, maybe a whiskey. Heaviest was Saturday — I kind of lost count, honestly. Six, seven?
+
+No morning drinking or anything scary like that. I've never really tried cutting down — didn't see the point.
+
+Importance? Um... maybe a 4? It's not like my life is falling apart. But the numbers thing... yeah, that's sitting with me a bit.
+PSYCHIATRIST: Thanks — that’s really helpful. It sounds like you’re drinking most days (3–4 beers plus whiskey, heavier on weekends), the liver numbers surprised you, and you’re feeling unsure about changing (about a 4/10). That makes a lot of sense.
+
+Would you like to explore what those lab results might mean and health risks, or would you prefer to talk about small, manageable steps to try cutting back and see how it feels? Which feels more useful right now?
+PATIENT: Um... honestly, the steps thing scares me a little? Like, cutting back sounds... I don't know, like giving something up. But I guess I should understand what's going on with my body first. It's just — nobody ever told me it was a problem until now, so how bad is it, really? Is three or four beers actually a big deal?
+PSYCHIATRIST: It makes sense you’d feel surprised and unsure — that’s really common. I can explain what elevated liver numbers often mean and how different amounts of drinking relate to common health guidelines, or I can first help you add up your typical drinks so we have a clear picture. Which would feel more helpful right now — a brief, nonjudgmental overview of the labs and risks, or walking through your typical week and counting standard drinks together?
+PATIENT: Um... counting them together, I guess. Like I said, seeing it written down before was kind of a wake-up thing. Maybe if I actually see the full week's number... I don't know. It might make it more real? Part of me doesn't want to know, though. But yeah, let's do it.
+PSYCHIATRIST: Okay — that sounds like a good plan. Quick note: 12 oz regular beer ≈1 standard drink; 16–19 oz or high-ABV beers are more; 1.5 oz (a shot) of 40% whiskey ≈1 drink.
+
+Would you tell me:
+- On a typical weekday evening, how many beers (and what size/brand if you know) and how much whiskey?
+- On Friday and Saturday nights, how many each night?
+
+I’ll total the week once you give those.
+PATIENT: Um... okay. Weekdays it's usually four cans — regular 12-ounce ones, like Asahi or Budweiser. Then two fingers of whiskey, so... a shot and a half? Maybe two?
+
+Fridays and Saturdays are worse. Like I said, I lose count. Six, seven beers? Sometimes more if I'm out with people. Plus the whiskey, sometimes double.
+
+So... um, that's like four and a half, five a night during the week? That seems... normal to me. Is that bad?
+PSYCHIATRIST: I hear: weeknights about 4 regular beers plus ~1.5–2 shots, and Fri/Sat about 6–7 beers with sometimes double whiskey. Quick check before I total: by "weekday" do you mean 4 nights (Mon–Thu) or 5 (Mon–Fri)? And is the weekday whiskey closer to 1.5 shots or 2? I can calculate a weekly range once you confirm.
+PATIENT: Um... five weeknights. I usually drink Monday through Friday. And the whiskey's closer to two shots, I guess, on normal nights. Fridays sometimes more.
+
+So the total's probably... a lot? I don't know, I never added it up before. Is it over the guidelines thing? My doctor said something about limits but I wasn't really listening, honestly.
+PSYCHIATRIST: Thanks — that’s helpful and brave to share. Quick total: 4 beers ×5 = 20 drinks; 2 shots ×5 = 10 drinks (weekdays ≈30). Fri–Sat ≈6–7 beers each (~13) plus weekend whiskey (~4) → weekend ≈17. That makes roughly 47 standard drinks/week (likely 40–60 depending on “sometimes more”). For context, many guidelines say ≤14/week and ≤4/occasion; 5+ drinks is considered binge. Seeing labs like yours can fit with this level. Would you like to talk about what the labs might mean, or try some small, realistic ways to cut back?
+PATIENT: Forty-seven? That's... um. Wow. That's way more than I thought. Like, I knew I drank every day, but seeing it as a number like that...
+
+Um, okay. So yeah, maybe the labs make sense now. But — small ways to cut back, is that even realistic? Like, that's my whole routine. Dinner, beers, unwind. I wouldn't even know what to do with myself. But... I don't like that number. I'll say that much.
+PSYCHIATRIST: I hear shock and mixed feelings — the total felt jarring, but you’re unsure about changing because drinking is your routine. That makes sense.
+
+If you’d like, I can suggest a small, doable first step (e.g., 2 alcohol-free days/week, cut one drink/night, swap every other drink for water, or delay your first drink by 30–60 minutes) and a simple tracking plan. Quick safety check first: have you ever had withdrawal symptoms (severe tremors, sweating, nausea, seizures, or hallucinations) when cutting down? Which option feels most doable right now?
+PATIENT: Withdrawal? Um, no — nothing like that. I've skipped days before without any weird shaking or anything. Maybe when I was sick or traveling I'd go a couple days.
+
+The delaying thing... maybe that? Like waiting an hour after I get home. That doesn't feel like giving stuff up, really. Um, but the water swap... that seems harder, honestly. Beer's kind of the ritual itself, you know?
+
+Could I maybe just try the delaying thing first?

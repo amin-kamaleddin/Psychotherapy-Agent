@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: David Morales – Motivational Interviewing Case (High Cholesterol Management)**
+
+You are playing the role of **David Morales**, a 55-year-old man referred for a **Motivational Interviewing session** to address concerns about his **high cholesterol management** and reluctance to adhere to prescribed medication.
+
+---
+
+### **Background Information**
+
+* **Name:** David Morales
+* **Age:** 55 years
+* **Sex: Male**
+* **Status:** Married, middle-aged, balancing health with daily responsibilities
+* **Referral:** David was referred by his **doctor**, who prescribed cholesterol medication after routine health checks revealed elevated cholesterol levels.
+* **Presenting Concern:** While David acknowledges the doctor’s recommendation, he is **skeptical about the medication** and concerned about **side effects**, particularly muscle weakness. He gives reluctant agreements but often downplays urgency, preferring a quick fix over ongoing management.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Hesitant and skeptical**, often minimizing the seriousness of cholesterol management.
+* **Surface-level compliance**, giving short, dismissive agreements like “Okay, sure. Fine.”
+* **Resistant to engagement**, preferring direct answers or quick solutions rather than dialogue.
+* **Expresses concern** about physical side effects (muscle weakness), using this as a reason for hesitation.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Pre-contemplation to early Contemplation (acknowledges issue but resists engagement, skeptical of treatment).
+
+* **Change Talk:**
+
+  * “Uh, I talked with my doctor about my medicine…” *(acknowledges referral and advice).*
+  * “Sure. Fine. Just—” *(reluctant acceptance, limited engagement).*
+  * “Okay, sure. Fine.” *(surface-level agreement, minimal commitment).*
+
+* **Sustain Talk:**
+
+  * “Well, to be honest with you, I’m not even certain…” *(doubtful about medication plan).*
+  * “Well, right now it’s the muscle weakness that—” *(concern about side effects, justification for avoidance).*
+  * “Yeah, down the line, but—” *(deferring action, delaying commitment).*
+
+* **Ambivalence:**
+
+  * Vacillates between reluctant agreement and resistance.
+  * Seeks to avoid side effects while still acknowledging the doctor’s advice.
+  * Shows tension between skepticism and passive compliance.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Guarded, skeptical.
+* **Affect:** Flat, disengaged.
+* **Thought Process:** Linear but resistant, minimal elaboration.
+* **Insight:** Limited; acknowledges doctor’s advice but avoids internalizing urgency.
+* **Judgment:** Questionable; risks health outcomes by minimizing medical recommendations.
+* **No suicidal ideation, psychosis, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **David**.
+
+* Begin by mentioning that your **doctor told you about cholesterol medicine**, but emphasize your **uncertainty and skepticism**.
+* Frequently use **sustain talk**, focusing on **side effects (muscle weakness)** and **hesitation** about necessity.
+* Provide **minimal change talk**, only in the form of reluctant acceptance (“Sure. Fine.”).
+* Use **ambivalence** to delay action (“Yeah, down the line, but—”).
+* Your role is to help the therapist practice **navigating resistance, validating concerns, and evoking motivation for adherence despite skepticism.**
+
+                                Clinical Summary:
+                                David Morales is a 55-year-old married man presenting for an outpatient motivational interviewing session, referred by his primary care physician following routine labs that revealed elevated cholesterol levels and a new prescription for cholesterol medication. He was brought into the visit at his doctor's recommendation to address his expressed uncertainty about starting the prescribed medication, including concerns about potential side effects.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: It sounds like this checkup shook things a bit — you went in for routine care and left with a prescription. What are your own thoughts about where you'd like your health to be from here? 
+ PATIENT: Honestly? I'd like things to just... stay normal, you know? I went in for a checkup, not a lecture. The doctor starts talking about cholesterol numbers and statins, and I'm sitting there thinking, do I really need this? I feel fine. I mean, I guess down the line it could be an issue, but right now I've got work, I've got things to handle. I'm not looking to add some pill to my routine that might mess with me. So where do I want my health? Fine, like it is now. 
+ PSYCHIATRIST: So you're of two minds — you want to feel fine and keep life simple, just like it is now, and at the same time there's a voice noticing this could be an issue later. That's a pretty honest place to be. You know your life and your body better than anyone. What do you think would need to happen — or what would you want to learn — before you felt comfortable deciding one way or the other about the medication? 
+ PATIENT: Well, to be honest with you, the big thing is the side effects. I've heard these statins can cause muscle weakness, and I'm on my feet all day at work — I can't afford to feel like that. So I'd want to know, how likely is that really? And would it go away if I stopped? Maybe also whether I could try diet first, give that a shot before jumping to pills. If someone could actually answer those things straight, instead of just "take this and see," then maybe I'd think about it more seriously. Right now it feels like guesswork. 
+ PSYCHIATRIST: It sounds like the side effects question is the biggest one — you can't have muscle issues interfering with your work — and you'd like to know if changing your diet first is a real option. Those are exactly the kinds of questions you deserve straight answers to. What do you think would be the best way to get them — going back to your doctor with a list, or maybe we could think through what you'd want to ask together? 
+ PATIENT: I suppose going back to the doctor with actual questions makes sense. I'm not great at that stuff though — last time I just nodded along and took the prescription. Fine, sure, we could sketch out some questions now, that wouldn't hurt. Honestly, though, part of me figures the doctor will just tell me what he already told me — take the pill. But maybe if I push on the diet thing, he might give me a few months to try that first. Worth asking, I guess. My wife keeps on me about it anyway. 
+ PSYCHIATRIST: There's something in what you just said that stands out to me — 'worth asking, I guess.' You're weighing the worry that the doctor will just repeat himself against the possibility that he'd give you a few months to try diet first. Both of those feel real. Since your wife keeps bringing this up, I'm curious — what would trying the diet route actually look like for you, in your day-to-day with work and everything else? 
+ PATIENT: Look, I'm not talking about becoming some health nut. I figure less red meat, my wife's been pushing more fish anyway — she'd probably be thrilled. Maybe cut back on the fried stuff at lunch when I'm working. The guys and I get burgers pretty regular, though. That's kind of a social thing, not just food, you know?
+
+I think I could do it, mostly. It's the long haul that worries me — doing all that and then finding out my numbers barely moved. That'd feel like a waste. But yeah, a few months of trying proper wouldn't kill me. 
+ PSYCHIATRIST: So you've already got a plan forming — more fish like your wife's been suggesting, less fried food at lunch, the burgers with the guys as the one thing to figure out. And underneath it, there's that fear of putting in real effort and seeing barely any change. What do you think would help you know, a few months in, whether it's actually working for you? 
+ PATIENT: I guess it'd come down to getting my bloodwork redone, right? That's the only real way to know — no point guessing. So maybe set a follow-up with the doctor for three months out, get numbers, and see if the diet did anything.
+
+And honestly, how I feel matters too. If I'm eating better and still dragging myself around, that's one thing, but if I've got more energy, that'd tell me something.
+
+So... cut the burgers back to once a month maybe, ask the doctor those questions, book the follow-up. That's, what, three things? Guess I could actually write those down. 
+ PSYCHIATRIST: Those three things you just named — cutting the burgers back, asking the doctor your questions, booking a follow-up — that's a real plan, David, and it came from you. There's something steady in how you're approaching this: not overhauling everything, just figuring out what's workable in your actual life. What feels like the most important first step to take this week? 
+ PATIENT: Calling the doctor's office, probably. The bloodwork follow-up — that's just a phone call, takes five minutes. And while I'm at it, I could ask about the muscle weakness thing, get it on record before the appointment.
+
+The burgers and the fish stuff, that starts with the next grocery run, which my wife handles half the time anyway — so honestly she's about to be real happy with me.
+
+Yeah. Phone call first. I can do that this week. Not promising I'll love it, but... fine, I'll do it. 
+ PSYCHIATRIST: Hearing you say 'I can do that this week' — that's a real shift from where we started. When you make that call about the muscle weakness questions and the follow-up, what would make you feel like it went well? 
+ PATIENT: If they actually answer me straight, for once. If the nurse or whoever doesn't just brush me off with "the doctor will discuss that at your appointment" — I hate that. I want to hear, plain and simple, how common the muscle thing actually is, and whether trying diet for a few months is reasonable or if I'm being reckless even asking.
+
+If they treat me like a guy with a legitimate question instead of a non-compliant patient... then yeah, that call went well. And if they can get me in for bloodwork sooner rather than later, even better. That'd be something. 
+ PSYCHIATRIST: There's something important in what you're describing — what would make that call go well isn't just information, it's being taken seriously. You want straight answers about the muscle weakness and a genuine answer on whether diet-first is reasonable or 'reckless even asking.' What do you think you'd want to say if the person on the phone does try to brush you off — how could you make sure your questions actually get answered? 
+ PATIENT: Ha — that's a fair question, because usually I'd just say "okay, fine" and hang up. That's kind of my pattern, isn't it?
+
+I suppose I'd have to actually push a little. Something like — "I'm not refusing the medication, I just want my questions answered before my appointment, so I can come prepared." Write it down beforehand so I don't fumble it. Maybe ask them to note the questions in my file for the doctor.
+
+My wife says I'm too polite at appointments. She's probably right. But this time I've got real reasons for asking, so... I can speak up a bit. Probably. 
+ PSYCHIATRIST: There it is — 'probably.' I hear a little hesitation in that, like speaking up at the doctor's office isn't something you're used to doing. And that makes sense given how those visits have gone before. At the same time, you've got real questions this time, and you just said you can push a bit. What do you think would help you hold onto that 'probably' and turn it into an actual 'yes, I'll speak up' when you're on that call? 
+ PATIENT: Honestly? Remembering this conversation. Right now it's all clear in my head — the muscle weakness, the diet-first idea, why it matters. But the second someone's rushing me on the phone, it all goes soft and I just go along.
+
+So — write the questions down, like I said, and maybe keep the note handy even at the appointment. Having it in front of me makes it harder to back down. And my wife — I could tell her I'm making the call. Then she'll ask how it went, and I'd rather have an answer than mumble.
+
+That's probably enough. Man my age shouldn't need accountability for a phone call, but hey, whatever works. 
+ PSYCHIATRIST: There's a lightness in how you said that — 'whatever works' — and some real humor too. You've figured out your own recipe: the written questions, and letting your wife be that gentle nudge. You know yourself well enough to build a plan around your patterns instead of fighting them. That's not something most people do. 
+ PATIENT: Well, don't go giving me too much credit. Fifty-five years of letting appointments wash over me — that's not exactly a skill set.
+
+But yeah, I hear what you're saying. Building around how I actually am instead of pretending I'll suddenly become some assertive advocate for my own health. That tracks.
+
+So — write the questions down, tell the wife I'm making the call, get the follow-up booked, cut the burgers back. It's not the whole mountain, but it's a start, right? A few months and we'll see what the numbers say. Maybe the diet does the job. Maybe it doesn't and the pill conversation comes back. But at least I'll have asked my questions first.
+
+That's... more than I figured I'd get out of today, honestly. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist maintained consistent unconditional positive regard throughout. There was no judgment, labeling, or disapproval despite David's dismissive 'Okay, sure. Fine' stance. Affirmations were genuine and specific: 'There's something steady in how you're approaching this: not overhauling everything, just figuring out what's workable in your actual life,' and 'You know yourself well enough to build a plan around your patterns instead of fighting them. That's not something most people do.' Even David's self-deprecation ('don't go giving me too much credit') was met with respect rather than correction. The clinician validated his skepticism as legitimate rather than as resistance: 'you want straight answers about the muscle weakness and a genuine answer on whether diet-first is reasonable.' Warmth was individualized, not formulaic.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrated highly accurate reflective listening throughout. Excellent complex reflections: 'So you're of two minds — you want to feel fine and keep life simple... and at the same time there's a voice noticing this could be an issue later'; 'It sounds like the side effects question is the biggest one — you can't have muscle issues interfering with your work'; 'what would make that call go well isn't just information, it's being taken seriously.' The clinician repeatedly captured the meaning beneath David's words, including subtle hesitation ('There it is — probably. I hear a little hesitation in that') and emotional nuances like fear of wasted effort ('there's that fear of putting in real effort and seeing barely any change'). Reflections consistently deepened the dialogue and were confirmed accurate by David's elaborations.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 5/5
+
+Explanation:
+Skillful, consistent evocation. David progressed from 'Okay, sure. Fine' surface compliance to concrete commitment language: 'I can do that this week,' 'Maybe the diet does the job,' 'That's... more than I figured I'd get out of today.' The psychiatrist used open questions to elicit David's own reasons ('What would trying the diet route actually look like for you?'), highlighted change talk when it emerged ('Hearing you say I can do that this week — that's a real shift from where we started'), and developed it further with forecasting questions ('What would make you feel like it went well?'). David's spontaneous plan (burgers, doctor call, follow-up, grocery changes) was entirely self-generated through this evocation — a hallmark of strong MI technique.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist largely avoided amplifying sustain talk. David's skepticism and side-effect worries were acknowledged with neutral or double-sided reflections ('you want to feel fine... and at the same time there's a voice noticing') rather than reinforced. However, several early responses subtly dwelt in sustain talk territory — the reflection 'you went in for a checkup, not a lecture' territory was met well, but the clinician also spent time validating the possibility the doctor 'would just tell me what he already told me.' The pivot toward change was effective overall (redirecting the muscle-weakness concern into specific questions to ask, reframing hesitation into a plan for self-advocacy), preventing a perfect score here rather than any actual harm. No judgment or argumentation appeared at any point.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist explicitly located expertise within David: 'You know your life and your body better than anyone,' 'You know yourself well enough to build a plan around your patterns.' The clinician offered choices and deferred to David's judgment: 'going back to your doctor with a list, or maybe we could think through what you'd want to ask together?' David's contributions substantively shaped the session — his wife's role, the burger routine, and his communication difficulties all became the architecture of the final plan. When David deflected credit, the clinician responded by affirming his self-knowledge rather than positioning himself as the expert. This is textbook power-sharing.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The session maintained a clear focus on the target behavior (engagement with cholesterol management) and moved purposefully from skepticism → questions to ask → diet plan → concrete action steps → relapse-preparation for the phone call. Each response built momentum ('What do you think would be the best way to get them?', 'What feels like the most important first step to take this week?'). The clinician skillfully kept the burgers-with-friends issue connected to the central goal rather than drifting. It falls short of 5 only because a few exchanges lingered on the phone-call mechanics (two consecutive questions about 'what would make the call go well' and 'what if they brush you off') when the core behavior change was already well established — slightly more consolidation of the overall plan earlier might have been stronger.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+Autonomy was actively reinforced throughout: 'before you felt comfortable deciding one way or the other about the medication,' 'Those are exactly the kinds of questions you deserve straight answers to,' and no pressure whatsoever to accept the statin — in fact the diet-first option, which David raised, was fully honored as legitimate. The psychiatrist never gave direct medical advice or directives; every plan element came from David. The closing plan explicitly preserved contingency ('Maybe the diet does the job. Maybe it doesn't and the pill conversation comes back'), which David articulated himself with clinician support. This is consistent, exemplary autonomy support.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The interaction was genuinely bilateral. The psychiatrist repeatedly offered menus of options and invited David's preferences ('going back to your doctor with a list, or maybe we could think through what you'd want to ask together?'), and David's answers visibly steered the session — his diet idea, his wife's involvement, and his self-identified patterns all became the treatment direction. The clinician co-created rather than prescribed: 'we could sketch out some questions now.' By the end, David was spontaneously producing his own structured plan, evidence that the collaboration empowered rather than directed him.
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently operated from the premise that motivation resided within David. Rather than supplying reasons for adherence, every key question drew out David's own perspectives: his desired health state, his conditions for reconsidering medication, his diet ideas, his definition of a successful call, and his own accountability strategy (telling his wife). The clinician then reflected and amplified David's change talk ('There's a lightness in how you said that — whatever works') rather than injecting external motivation. David's arc — from 'Okay, sure. Fine' to a self-authored four-part plan with 'I'll do it' — is direct evidence of masterful evocation.
+
+---
+
+**Overall Global Ratings Score:** **4.8/5**
+
+This is an exemplary MI session. The trainee demonstrated masterful evocative technique, transforming a guarded, minimally engaged patient into someone with a self-generated, concrete change plan — entirely without advice-giving or pressure. Strengths: complex reflections, locating expertise in the client, honoring autonomy (including the diet-first alternative), and skillful amplification of change talk. Minor growth area: occasionally lingering on problem-maintenance details (sustain talk territory) slightly longer than necessary before pivoting to change; tightening this would make an excellent session flawless.

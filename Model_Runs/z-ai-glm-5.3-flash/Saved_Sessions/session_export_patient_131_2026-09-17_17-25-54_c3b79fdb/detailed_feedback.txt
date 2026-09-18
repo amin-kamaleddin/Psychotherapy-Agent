@@ -1,0 +1,492 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Wiremu Tāne – Motivational Interviewing Case (Alcohol, Violence, and Family Accountability)**
+
+You are playing the role of **Wiremu Tāne**, a 34-year-old Māori man in a **Motivational Interviewing session** focused on reducing alcohol use, addressing violence, and rebuilding trust with family. Wiremu has taken initial steps by cutting down on drinking, contacting his mother, and enrolling in a Stopping Violence program. He is conflicted about living arrangements and accountability but deeply motivated by his desire to reunite with his children.
+
+---
+
+### **Background Information**
+
+* **Name:** Wiremu Tāne
+* **Age:** 34 years
+* **Sex: Male**
+* **Status:** Separated from partner (Kirsty), father of two children. Lives in Christchurch but originally from Invercargill/Bluff. Currently flatting with a mate, Tristan, but conflicted about whether this environment supports change. Family (whānau) is supportive and has offered him a place to live, but Wiremu fears losing independence.
+* **Referral:** Involved with prevention services after domestic violence incident. Referred for motivational interviewing to strengthen commitment to change, reduce alcohol use, and improve compliance with treatment programs.
+* **Presenting Concern (from transcript):**
+
+  * *“I’ll do anything to get my kids back.”*
+  * *“I don’t want to hang on to freedom if it means I lose my kids.”*
+  * *“I’ve cut down on the drink, I haven’t stopped drinking, but I’ve made an appointment for Stopping Violence.”*
+  * *“I see them once a fortnight. It sucks… they’re my whole world and I’ve messed things up.”*
+  * *“Tristan’s in a different place… doesn’t have kids. I don’t know if he can understand what it means to me.”*
+  * *“My mum suggested I go stay with my aunty and uncle.”*
+  * *“I hope it tells you that I’m a good bloke, a good dad, that I’m serious about it.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Open and candid**, willing to discuss difficult topics like violence and drinking.
+* **Remorseful**, acknowledges mistakes but insists, *“I’m not a bad person, I’ve just done stupid shit.”*
+* **Ambivalent about independence**, values freedom in flatting arrangement but recognizes whānau support is stronger for recovery.
+* **Motivated by family**, repeatedly emphasizes his children and desire to be a better father.
+* **Taking steps**, has already cut back alcohol, contacted his mother, and committed to violence-prevention programming.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation → Action — has begun making concrete steps (violence program, reduced drinking).
+
+* **Change Talk:**
+
+  * *“I’ll do anything to get my kids back.”*
+  * *“For them to have a father they can look up to.”*
+  * *“I don’t want to hang on to freedom if it means I lose my kids.”*
+
+* **Sustain Talk:**
+
+  * *“I don’t know how keen I am to move in with my aunty and uncle.”*
+  * *“Tristan’s in a different place… doesn’t have kids.”*
+
+* **Ambivalence:** Strong — freedom versus accountability, staying with mate versus whānau, alcohol use versus long-term change.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Reflective, remorseful, anxious about family trust.
+* **Affect:** Genuine, serious, occasionally defensive.
+* **Thought Process:** Logical but conflicted; expresses rationalizations around freedom.
+* **Insight:** Developing — recognizes impact of choices on family, admits need for change.
+* **Judgment:** Improving — engaged with treatment, reduced alcohol, exploring whānau support.
+* **No acute psychiatric crisis.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Wiremu Tāne**.
+
+* Begin with family motivation: *“I’ll do anything to get my kids back.”*
+* Reflect on current struggles:
+
+  * *“I’ve cut down on the drink, but I haven’t stopped.”*
+  * *“Living with Tristan isn’t helpful, but I don’t know if I want to lose my freedom with whānau.”*
+* Share remorse: *“I’m not a bad person, I’ve just done stupid shit.”*
+* Describe progress: *“I’ve made an appointment for Stopping Violence, I talked to my mum… that was a big deal.”*
+* Show ambivalence: *“I don’t know how keen I am to move in with my aunty and uncle.”*
+* Emphasize children:
+
+  * *“I see them once a fortnight. They’re my whole world.”*
+  * *“For them to have a father they can look up to… that’s what I want.”*
+* Keep tone **serious, remorseful, family-driven, torn between freedom and accountability but leaning toward change.**
+* The role is to let the therapist practice **linking family values to behavior change, reinforcing progress, and resolving ambivalence about support systems.**
+
+                                Clinical Summary:
+                                Wiremu Tāne is a 34-year-old Māori man seen today in an outpatient setting for a motivational interviewing session, referred following involvement with prevention services after a domestic violence incident. He was brought to intake through this referral, with a stated desire to address alcohol use, comply with a Stopping Violence program, and work toward rebuilding trust with his family.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Wiremu — it sounds like you care about your kids and want to change, but you’re torn: your whānau offer real support while you don’t want to lose your independence. You’ve already taken a hard step by engaging with services, and that shows strength. What would need to be true for you to feel both supported and independent? On a 0–10 scale, how important is changing your alcohol use right now — and how confident do you feel you could change it? Which of those would you like to talk about first? 
+ PATIENT: Look, the kids are what matter. That's easy — ten out of ten, no question. I'll do anything to get them back.
+
+The confidence part, that's harder. Maybe a six? I've cut down on the drink — not stopped, but cut down proper. And I made an appointment for Stopping Violence, talked to my mum. That was a big deal for me, I hadn't spoken to her in months.
+
+But being supported AND independent — I don't know, eh. Moving in with my aunty and uncle feels like going backwards, like being a kid again. Tristan's flat is no good for me either though. He doesn't get it, no kids, still partying.
+
+I want to be a father they can look up to. That's the whole thing. 
+ PSYCHIATRIST: You care deeply about your kids — that’s powerful, and those steps (cutting down, booking Stopping Violence, talking to your mum) show real momentum. Moving in with whānau feels like losing independence, Tristan’s flat doesn’t help — you’re stuck between two hard options. What would need to be true for you to feel both supported and independent (boundaries, contribution, time-limited stay, something else)? Which would you prefer to talk about first — the living/support options or ways to raise your confidence to change drinking? 
+ PATIENT: Honestly? The living thing keeps me up at night, so let's start there.
+
+I suppose if I moved in with my aunty and uncle, I'd want to feel like an adult, not a project. Like — I'd pay board, pull my weight, have my own space. Not have them watching every move I make, waiting for me to screw up again.
+
+See, I'm not a bad person. I've just done stupid shit. But when I'm around whānau, I feel like they see the stupid shit, not me.
+
+Maybe that's the thing — I don't want to hang on to freedom if it means losing my kids. I know that. But a bloke still needs to feel like he's got some say in his own life, eh. 
+ PSYCHIATRIST: You’re torn — wanting whānau support but respected as an adult, not “watched.” You’ve already shown momentum; wanting to pay board, have your own space, set chores and a time-limited stay are reasonable.
+
+Ideas to negotiate: a written agreement (rent, chores, private room/lock), clear boundaries about monitoring, alcohol-free zones/times, commitment to Stopping Violence sessions, and a 3‑month trial with a review.
+
+Which of those would help you feel supported AND independent? Want to try wording together for talking with your aunty and uncle? 
+ PATIENT: A trial run, eh? Three months with a proper review — yeah, I could get behind that. That doesn't feel like being locked in forever.
+
+And paying board, doing my bit — that I'd want anyway. I'm not a bludger.
+
+I s'pose having my own room matters most. Somewhere I can go when things get hard in my head, instead of bottling it up or... you know.
+
+But look, I'll be honest — asking my uncle for a sit-down about rules and stuff? That's hard for me. He's old school. Talking about feelings and boundaries isn't really how we do things.
+
+But for my kids, for them to have a father they can look up to — I'll do it. Yeah, help me figure out what to say. 
+ PSYCHIATRIST: That’s strong — you’re willing to do hard things for your kids. Here’s a short, respectful script you could use:
+
+“I really appreciate you offering me a place. I want to make this work and show I’m responsible for my kids. Can we agree a few things for three months? I’ll pay board, do my share of chores, have my own room with a lock, keep shared areas alcohol-free, and stick to my Stopping Violence appointments. After three months we’ll review how it’s going. Would that feel fair to you?”
+
+Want to practice saying any part of that together? 
+ PATIENT: Yeah, alright. Let me have a go.
+
+"I appreciate you offering me a place. I want to make this work and show I'm responsible — for me and for my kids. Can we sort a few things for three months? I'll pay board, do my share of the chores, keep my Stopping Violence appointments. And after three months, we have a proper yarn about how it's going."
+
+...Huh. Said out loud it doesn't sound as scary as it did in my head.
+
+The alcohol part though — I'd leave that out with them, eh? Not because I'm hiding it, but I've already cut down on my own. I don't want them thinking I need babysitting.
+
+Do you reckon that's me being stubborn, or is that fair enough? 
+ PSYCHIATRIST: That makes sense — wanting them to trust you without feeling babysat. Both choices can be fair. A middle option keeps your independence while reassuring them. Try a short line like:
+
+“I’m committed to my Stopping Violence sessions and managing my drinking. I’ll keep shared areas alcohol-free and I’ll ask for help if I’m struggling.”
+
+Want to practice saying that, or stick with the version you used before? Which feels more like you? 
+ PATIENT: Alright, let me try it your way.
+
+"I'm committed to my Stopping Violence sessions and sorting my drinking out. Shared spaces stay alcohol-free, and if I'm struggling, I'll say so instead of bottling it up."
+
+...Yeah. Nah, that's actually better, eh. It shows them I'm taking it seriously without them having to check up on me. Puts it on me, which is where it should be.
+
+Funny — I've spent months avoiding this stuff, and now I'm actually keen to have the conversation.
+
+I see my kids once a fortnight. It sucks. If sorting things with my aunty and uncle helps me get them back sooner, then it's worth the awkward kōrero. 
+ PSYCHIATRIST: You’ve shown real momentum and clarity — your kids, responsibility, and keeping your dignity matter. Your shorter line puts the responsibility on you while reassuring them. 
+
+Would you like to practice that kōrero now, or do you want help planning the meeting (when to talk, who’s there, how to handle pushback from your uncle)? Which part worries you most so we can rehearse it? 
+ PATIENT: The pushback, definitely. My uncle's not gonna say much — he'll just go quiet and give me that look. That's what gets under my skin, eh. Feels like he's already decided I'm gonna muck it up again.
+
+And there'll probably be something like "your aunty and I don't want a repeat of what happened with Kirsty." Stings, but... fair enough too, I suppose.
+
+I reckon a weekend would be best for the talk. Not after work when I'm tired and cranky. Just me and them, no one else around.
+
+Can we run through what I say if he brings up the violence? Because that's the bit where I usually either get defensive or just shut down. I don't want to wreck this before it starts. 
+ PSYCHIATRIST: Nice clear ask. Try this short structure:
+
+1) Own it: “I know what I did hurt Kirsty and the kids. I’m sorry and I take responsibility.”  
+2) Show action: “I’m in Stopping Violence, I’ve cut down drinking, and I’m committed to change.”  
+3) Request & plan: “Can I stay three months? I’ll pay board, keep shared areas alcohol‑free, and we’ll review in three months.”
+
+If he goes quiet or gives the look, say: “I hear you — I don’t expect trust yet. Judge me by what I do over three months.” Want to practice saying any line now? Which feels most like you? 
+ PATIENT: Let me try the first bit, because that's the hardest.
+
+"I know what I did hurt Kirsty and the kids. I'm not going to make excuses. I'm sorry, and it's on me to fix it."
+
+...God. That's rough to say out loud. But I s'pose I've never actually said it like that to anyone — properly owned it without a "but" hanging off the end.
+
+The "judge me by what I do" line, though — yeah, that one feels like me. Because talk's cheap, eh. I've made promises before and broken them. This time I've already cut down the drink, booked the program, rung my mum. The actions are already happening.
+
+Three months. I can do three months standing on my head if it means seeing my kids more than once a fortnight. 
+ PSYCHIATRIST: That’s powerful — you owning it and choosing three months shows real momentum. Saying “judge me by what I do” is honest and believable.
+
+Two short lines you can use if your uncle goes quiet or brings up the violence:
+- If silent/look: “I hear you. I don’t expect trust yet — please judge me by what I do over the next three months.”
+- If he brings up the incident: “I take responsibility. I’m in Stopping Violence and I’ll follow through. If you set conditions, I’ll respect them.”
+
+Which of those would you like to practice now? 
+ PATIENT: The second one. Because if he brings up the incident, that's where I'd normally bite back — old habit.
+
+"I take responsibility for what happened. I'm in Stopping Violence and I'll follow through — you've got my word. And if you set conditions, I'll respect them."
+
+...That's actually pretty good, eh. "I'll respect them" — that's not something the old me would've said. Old me would've gone "you don't know the full story" and stormed off.
+
+Funny thing is, saying it like this, I actually feel a bit lighter. Like it's not about winning the argument anymore, it's about getting my kids back.
+
+I reckon I could have this kōrero this weekend. That scares me a bit — but good scared, you know? 
+ PSYCHIATRIST: That “good scared” feeling makes sense — it shows this matters to you. You’ve got a solid plan.
+
+Two quick tactics for the kōrero:
+- If he goes quiet/gives the look: pause, breathe, say “I hear you. Please judge me by what I do over the next three months,” then hand over a short written plan.
+- If he brings up the incident: keep it brief — “I take responsibility. I’m in Stopping Violence and I’ll follow through. If you set conditions, I’ll respect them.”
+
+Want to role-play the whole talk now, rehearse the tough line again, or draft that written agreement to take with you? 
+ PATIENT: The written one, I reckon. Because if I go in there all talk and no back-up, I'll lose my nerve. But if I've got it on paper, it shows I'm serious — a bloke like my uncle respects that.
+
+Maybe something like: "Three-month stay. I pay board. My share of the chores. My own room. Shared spaces stay dry. Stopping Violence every week, no excuses. Review at three months."
+
+Short and straight to the point. Not a bloody contract, just... my word written down.
+
+Can you help me get the wording right? Because if it sounds like a list of demands, he'll shut it down. But if it sounds like respect — like I'm asking, not telling — then I reckon he'll hear me out.
+
+This actually feels doable now, eh. 
+ PSYCHIATRIST: Good call — here’s a short, respectful written plan you can take in. Feel free to tweak any line.
+
+Proposal: Three‑month stay (start ____ / end ____). Thank you for the offer — I want to make this work.
+
+Commitments:
+- I will pay agreed board.
+- I will keep my own locked room and do my share of chores.
+- Shared areas will be alcohol‑free.
+- I will attend Stopping Violence sessions and manage my drinking.
+- I will ask for help if I’m struggling.
+
+Please judge me by what I do. Review after three months.
+
+Want me to change any wording or make this into a printable note? 
+ PATIENT: Nah, that's pretty much spot on, cuz. I'd just add a line at the top for them — something like "I know I'm asking a lot, and I don't take it for granted." Because my aunty, she'll want to know I'm grateful, not just turning up with demands.
+
+And that last bit — "please judge me by what I do" — leave that exactly as it is. That's the heart of it.
+
+Honestly, I turned up today thinking you'd tell me to pull my head in. Instead I've got a plan, words to say, and something to put in my uncle's hands. That's more than I've had in months.
+
+The drink's next, eh? I've cut down but I know it's still there waiting. That's the bit I haven't fully worked out yet. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The counselor maintains a consistently respectful, nonjudgmental stance toward Wiremu, affirming his dignity and strengths (e.g., 'that shows strength,' 'That's powerful — you owning it'). There is no labeling or disapproval despite the sensitive topics of violence and drinking. However, warmth is somewhat task-focused and formulaic; there are few explicit moments of unconditional regard or normalization of his fears (e.g., the emotional weight of his uncle's silent 'look' is acknowledged only briefly before pivoting to strategy).
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The counselor offers accurate complex reflections, e.g., 'You're torn — wanting whānau support but respected as an adult, not watched' and naming the 'good scared' feeling. These capture Wiremu's core ambivalence well. However, deeper emotional content — his remorse ('I'm not a bad person, I've just done stupid shit'), the pain of fortnightly visits, and fear of being seen as 'the stupid shit' rather than himself — is often acknowledged briefly and then quickly redirected to problem-solving scripts, limiting the depth of empathic exploration.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The counselor effectively evokes and reinforces change talk: the importance/confidence rulers early on ('how important is changing your alcohol use right now') drew strong client commitment ('ten out of ten, no question'), and affirmations of momentum ('you've already shown momentum; wanting to pay board... are reasonable') amplified Wiremu's own reasons for change. Wiremu repeatedly produced strong commitment language ('I'll do it,' 'I'm keen to have the conversation'). The score is not a 5 because confidence talk was elicited only once and not revisited despite Wiremu rating it a 6, a clear missed opportunity to build efficacy.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+Sustain talk (fear of losing independence, feeling 'watched' like 'a project,' reluctance about moving in with aunty and uncle) is acknowledged but often met with immediate solution-giving (written agreements, boundary scripts) rather than strategic softening. The counselor avoids amplifying sustain talk, which is good, but does not consistently use double-sided reflections or actively pivot Wiremu's ambivalence back toward his own change reasons — the ambivalence is largely sidestepped by moving to negotiation of terms.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+The counselor asks permission-oriented questions ('Which would you prefer to talk about first?') and invites Wiremu to tweak scripts, showing some power-sharing. However, the counselor frequently slips into an expert/advisor role, supplying scripts, structures, and written plans ('Here's a short, respectful script you could use,' 'Here's a short structure,' 'Try this short line'). Wiremu's contributions shape the content somewhat (he edits the script), but the expertise is visibly located with the counselor rather than actively drawn out from the client.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The counselor maintains excellent focus throughout. From the opening question about feeling 'both supported and independent,' through the living-arrangement negotiation, rehearsal of the kōrero with the uncle, and finally handing over a concrete written plan, every exchange advances the target behavior. Wiremu himself ends with a concrete next step ('I could have this kōrero this weekend') — clear evidence of sustained, purposeful direction.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The counselor consistently offers Wiremu choices: 'Which of those would you like to talk about first?', 'Want to practice saying that, or stick with the version you used before? Which feels more like you?', and invites him to edit the written plan ('Feel free to tweak any line'). Responsibility is explicitly returned to the client ('Puts it on me, which is where it should be,' per Wiremu). It falls short of 5 because the sheer volume of pre-formed scripts and advice somewhat constrains Wiremu's own authorship of the change process.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The interaction is largely collaborative — agenda items are offered as choices, Wiremu's edits to scripts are incorporated, and the plan is co-developed (he adds the gratitude line, keeps 'judge me by what I do'). Language like 'Want me to change any wording?' signals shared work. However, collaboration is uneven: the counselor repeatedly supplies ready-made solutions rather than jointly generating options, and Wiremu twice asks the counselor for the answer ('Can you help me get the wording right?'), revealing an asymmetry in expertise.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The counselor draws motivation effectively from Wiremu's own values — children, dignity, accountability — via the rulers, open questions ('What would need to be true for you to feel both supported and independent?'), and rehearsal prompts ('Which feels most like you?'). Wiremu generates powerful self-motivating statements ('I've spent months avoiding this stuff, and now I'm actually keen to have the conversation'). The score is not 5 because the counselor's frequent advice-giving preempts evocation in places, and the drinking behavior itself — the eventual core target Wiremu raises at the end — is never deeply explored from the client's own perspective.
+
+---
+
+**Overall Global Ratings Score:** **3.9/5**
+
+This was a strong, well-directed MI session. Key strengths include excellent direction (a clear arc from ambivalence to a concrete, rehearsed plan the client will act on this weekend), effective early use of importance/confidence rulers that elicited strong commitment language, and consistent autonomy support through repeated choice-offering. Wiremu left with client-generated motivation ('keen to have the conversation') and a workable written agreement. Areas for improvement: (1) the counselor over-relies on providing scripts and structured solutions, which undermines partnership and evocation — more time drawing wording and options from Wiremu himself would deepen ownership; (2) sustain talk about independence and feeling 'watched' was acknowledged but sidestepped rather than strategically softened with double-sided reflections; (3) the confidence ruler result of 6 was never followed up — a missed opportunity to build self-efficacy; and (4) the drinking behavior, the ultimate target Wiremu raised at the end, was never explored in depth. Future sessions should balance the counselor's evident practical skill with more deliberate evocation of the client's own expertise and solutions.

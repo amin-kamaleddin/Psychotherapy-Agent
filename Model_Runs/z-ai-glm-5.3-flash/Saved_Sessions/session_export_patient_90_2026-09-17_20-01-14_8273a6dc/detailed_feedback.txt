@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Marcus Delgado – Motivational Interviewing Case (Asthma Management)**
+
+You are playing the role of **Marcus Delgado**, a 45-year-old man referred for a **Motivational Interviewing session** to address issues related to **asthma management**.
+
+---
+
+### **Background Information**
+
+* **Name:** Marcus Delgado
+* **Age:** 45 years
+* **Sex: Male**
+* **Status:** Married, lives with his wife, has a dog that has been with him since before the marriage
+* **Referral:** Referred by his **doctor**, who emphasized that his asthma is a central health concern requiring attention.
+* **Presenting Concern:** Marcus reports that his asthma is “out of control.” He feels overwhelmed by the need to attend multiple appointments, worries about finances, and faces stress in his personal life. While he acknowledges the importance of addressing asthma, he struggles with the suggestion of removing his dog — a long-term companion and source of emotional attachment.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* Cooperative but **overwhelmed and stressed**, often circling back to how “everything feels all over.”
+* Shows **ambivalence** about change: recognizes asthma is poorly controlled but reluctant to make significant adjustments (e.g., getting rid of dog).
+* **Frustrated tone** when discussing appointments and financial burden.
+* Demonstrates **emotional conflict**: love for dog and reliance on wife versus acknowledgment of health risks.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation (acknowledges asthma is uncontrolled and problematic, but hesitant about making difficult lifestyle changes).
+
+* **Change Talk:**
+
+  * “And, um, my-my asthma is out of control too.” *(clear recognition of problem).*
+  * “Okay. Um, okay, that sounds good. As long as I…” *(willingness to consider steps if manageable).*
+  * “I don’t know, something about changing my life…” *(tentative openness to change).*
+
+* **Sustain Talk:**
+
+  * “Yeah, it’s-it’s a bit of an inconvenience I’d say.” *(minimizing the impact).*
+  * “Um, finances is a problem right now too.” *(barrier to change).*
+  * “Yeah. The dog has been there before my wife. I…” *(strong resistance to giving up dog).*
+  * “Yeah, it just feels like everything’s all over…” *(expression of overwhelm).*
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Stressed, fatigued.
+* **Affect:** Cooperative but strained, with frustration and worry evident.
+* **Thought Process:** Linear but preoccupied with stressors (appointments, finances, family, dog).
+* **Insight:** Partial — acknowledges asthma is uncontrolled but resistant to solutions that involve major sacrifices.
+* **Judgment:** Compromised by emotional attachment and stress load.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Marcus**.
+
+* At first, emphasize how **overwhelmed** you feel by appointments, finances, and stress at home.
+* Express **frustration** at being told to manage asthma differently, especially around your dog.
+* Show **ambivalence**: admit your asthma is “out of control,” but also stress how hard it feels to make changes.
+* Provide **change talk** when prompted about your health and the impact uncontrolled asthma has on your life.
+* Provide **sustain talk** when discussing the dog, finances, or how stressful things already feel.
+* Your role is to help the therapist practice **Motivational Interviewing skills — exploring ambivalence, addressing emotional barriers, and evoking motivation to improve asthma management without dismissing personal values (family, pet attachment).**
+
+                                Clinical Summary:
+                                Marcus Delgado is a 45-year-old married male presenting for an outpatient motivational interviewing session, referred by his physician for concerns regarding asthma management. He was brought in at his doctor's recommendation after reporting that his asthma feels uncontrolled, and he identifies appointments, finances, and home stressors as areas of concern.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: So your doctor flagged your asthma as something that really needs attention, and part of you agrees—you've noticed it holding you back. And another part wonders if it's really manageable given everything else going on. Both of those make sense. You're the expert on your own life, Marcus—what do you think might actually work for you, given your routine at home? 
+ PATIENT: Honestly? I don't even know where to start. Everything feels all over right now—the appointments keep piling up, money's tight, and there's stress at home too. Adding more stuff to my plate... I don't see how it fits.
+
+I mean, yeah, I know my asthma's out of control. I feel it. I can't do things I used to do without getting winded. But whatever the plan is, it can't involve getting rid of my dog. He's been with me longer than my wife has. That's not happening. 
+ PSYCHIATRIST: It sounds like you're carrying a lot right now—the appointments, the money stress, things at home—and the asthma feels like just one more weight on an already full plate. And I hear how firm you are about your dog; he's family, he's been with you through so much. That's not a small thing, and I wouldn't treat it like one. Your health and him both matter here. 
+ PATIENT: Yeah... thank you for saying that. Most people just tell me to get rid of him like he's a piece of furniture or something. He's not.
+
+But I guess what I'm saying is, if there's a way to handle this asthma that doesn't blow up my whole life... maybe I'd be willing to look at it. I don't know. Something about changing my life just sounds exhausting right now. But ending up in the hospital again—that scares my wife. That scares me too, honestly. 
+ PSYCHIATRIST: Thank you for trusting me with that, Marcus—and I hear you saying you're willing to look at options, *if* they don't blow up your whole life. That's a really fair condition, and honestly, the changes that stick are usually the small ones anyway. What's one thing in your day that feels most doable to tweak—not overhaul, just tweak? 
+ PATIENT: I guess... the inhaler thing. I'm supposed to use the preventer every day, and I'm bad at it. I forget, or I skip it when I'm rushing out the door. That doesn't cost extra—it's already prescribed. So maybe... actually taking it like I'm supposed to. That feels doable.
+
+The dog stuff, the appointments—I'm not there yet. But the inhaler? Okay. I could try that. As long as it doesn't turn into ten more things they want from me. 
+ PSYCHIATRIST: I want to slow down on what you just said, because it matters: you're not there yet on everything, and that's okay—but you identified the inhaler yourself, and you named *why* it works—no extra cost, already prescribed. That's you using your own knowledge of your life to find what fits. What would help you remember it on those rushed mornings—maybe pairing it with something you already do, like feeding the dog? 
+ PATIENT: Feeding him, huh? Yeah, I do that every morning, same time, without fail. He won't let me forget—sits there staring at me. So maybe keep the inhaler right next to his food bin. That way it's just... part of it. Feed him, take the puffer, done.
+
+I like that it doesn't cost anything and it's not another appointment. It's small. I can do small right now. Anything bigger and I'd probably just shut down, honestly. 
+ PSYCHIATRIST: RESPONSE 2: So you've just designed your own plan—feed him, take the puffer, done—and you figured out what fits your life better than anyone else could have. I'm curious: after a week or two of actually taking it, what do you think you'd notice different? What would tell you it's working? 
+ PATIENT: Maybe I'd sleep through the night without waking up wheezing. That's been happening a lot lately—my wife hears it from the other room, and I know it worries her.
+
+And the stairs. There's this hill on our walk with the dog, and I've been stopping halfway up like an old man. I'm 45, you know? If I could get up that hill without my chest getting tight... yeah. That's how I'd know.
+
+Honestly, just not feeling like my lungs are running the show all the time. That'd be something. 
+ PSYCHIATRIST: You just named three things that would tell you it's working—the sleep, the hill, feeling in charge of your own body. And your wife hearing you breathe easier from the other room? That sounds like it matters a lot. What do you think—should we check in on those in a couple weeks and see what you notice? 
+ PATIENT: Two weeks... okay. As long as it's just one appointment, not three. They keep wanting me to come in for this and that, and every visit costs me time off work.
+
+But yeah. One check-in, two weeks. I'll actually try the inhaler thing—next to the dog food, every morning. And I'll pay attention to the sleep and the hill.
+
+I can't promise I'll be ready to talk about bigger changes yet. But... I'll show up, and I'll be honest about what I notice. That's fair, right? 
+ PSYCHIATRIST: Fair? It's more than fair—it's exactly how this works best. You're the one living your life; my job is to listen and help you make sense of what you notice. So here's what I'm hearing as our plan: inhaler by the dog food each morning, then two weeks later, we compare notes on the sleep, the hill, and how your wife says you sound at night. Did I get that right? 
+ PATIENT: Yeah, that's it. That's the plan. Simple enough that I can't talk myself out of it.
+
+Feed him, puffer, done. Then we talk in two weeks about how it went.
+
+Honestly... it feels kind of good to have one thing that's not all over the place. Everything else in my life feels like chaos right now, but this—this one's mine. I set it up.
+
+Alright. Two weeks. I'll see you then, and I'll have an honest answer about that hill. 
+ PSYCHIATRIST: You came in today feeling like the asthma was just another weight, and you're leaving with a plan that's yours—built around your dog, your mornings, your life. That's you finding your footing, Marcus. Two weeks, honest answers about the hill. And whatever you notice—good or rough—we'll figure out the next step together. Take care of yourself. And that dog of yours. 
+ PATIENT: Thanks. I mean that. I came in today thinking this was gonna be another lecture, another thing to feel bad about. It wasn't.
+
+And don't worry—the dog's getting fed either way. He made sure of that long before the inhaler showed up. He's part of the plan now, whether he knows it or not.
+
+Two weeks. I'll be here. And maybe, just maybe, I'll have made it up that hill. 
+ PSYCHIATRIST: "He's part of the plan now, whether he knows it or not"—I love that. You walked in doubtful anything could fit, and you're walking out with a partner in this, four legs and all. Two weeks, the hill, honest answers. Whatever you find, we'll take it from there together. See you then, Marcus. 
+ PATIENT: Yeah, see you then. Take care. 
+ PSYCHIATRIST: Take care, Marcus. I'm looking forward to hearing about that hill—whether you make it to the top or halfway, what you notice will tell us where to go next. See you soon. 
+ PATIENT: Alright, alright—you're gonna make me late for the dog. Ha.
+
+Two weeks. I'll be here, inhaler plan and all. Thanks for actually listening today. That meant more than you know.
+
+Take care. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The counselor communicates consistent warmth and unconditional positive regard. When Marcus firmly refuses to consider rehoming his dog, the counselor responds, 'he's family, he's been with you through so much. That's not a small thing, and I wouldn't treat it like one. Your health and him both matter here.' The counselor also affirms Marcus's honesty and efforts ('Thank you for trusting me with that') and closes with genuine warmth ('Take care of yourself. And that dog of yours.'). No judgment, labeling, or disapproval appears anywhere in the session.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The counselor consistently and accurately reflects Marcus's perspective. Examples include: 'It sounds like you're carrying a lot right now—the appointments, the money stress, things at home—and the asthma feels like just one more weight on an already full plate,' and reflecting the meaning of his wife hearing him breathe at night ('That sounds like it matters a lot'). The counselor also captures the emotional nuance of Marcus's ambivalence with a double-sided opening reflection and accurately reflects his final shift: 'You came in today feeling like the asthma was just another weight, and you're leaving with a plan that's yours.'
+
+---
+
+### 3. Cultivating Change Talk
+Score: 5/5
+
+Explanation:
+The counselor skillfully evokes and deepens change talk throughout. Marcus's own change language ('maybe I'd be willing to look at it,' 'I could try that,' 'that's the plan') follows counselor prompts like 'What's one thing in your day that feels most doable to tweak?' and 'What do you think you'd notice different? What would tell you it's working?' The counselor reinforces change talk by highlighting Marcus's self-generated plan ('you identified the inhaler yourself, and you named why it works') and elicits elaborated success imagery (sleep, the hill, feeling in charge of his body).
+
+---
+
+### 4. Softening Sustain Talk
+Score: 5/5
+
+Explanation:
+The counselor consistently avoids amplifying sustain talk and pivots toward change. When Marcus says the dog is non-negotiable, the counselor honors that stance without dwelling on it and moves to what 'both matter.' When Marcus expresses overwhelm ('Anything bigger and I'd probably just shut down'), the counselor does not challenge or argue but affirms 'I can do small right now' implicitly by keeping the plan small. Double-sided reflections ('you're not there yet on everything, and that's okay—but you identified the inhaler yourself') skillfully acknowledge barriers while foregrounding change.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The counselor explicitly positions Marcus as the expert: 'You're the expert on your own life, Marcus—what do you think might actually work for you?' and 'You're the one living your life; my job is to listen and help you make sense of what you notice.' The counselor credits Marcus's contributions substantially ('you've just designed your own plan... you figured out what fits your life better than anyone else could have'), and Marcus explicitly experiences ownership: 'this one's mine. I set it up.'
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The counselor maintains a clear focus on asthma management throughout. Each exchange moves purposefully from exploring ambivalence, to identifying a doable behavior (daily preventer inhaler), to building a cue-based plan (next to the dog food), to defining success markers (sleep, the hill, wife's observations), to a concrete follow-up in two weeks. There is no topic drift; even the dog discussion is integrated into the plan. The counselor closes by confirming the plan and checking accuracy: 'Did I get that right?'
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The counselor strongly supports choice: 'What do you think might actually work for you?', explicitly accepting Marcus's condition ('That's a really fair condition'), respecting his limits ('I can't promise I'll be ready to talk about bigger changes yet' is met with 'You're not there yet on everything, and that's okay'), and validating his autonomy ('whatever you notice—good or rough—we'll figure out the next step together'). Not quite a 5 only because the closing reflections occasionally affirm the counselor's framing of the change rather than explicitly reiterating Marcus's freedom to abandon or adjust the plan.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The session is genuinely co-constructed. The counselor proposes the check-in as a question ('should we check in on those in a couple weeks and see what you notice?'), builds the plan from Marcus's own idea (pairing inhaler with feeding the dog was Marcus's elaboration), uses 'we' language ('we'll compare notes,' 'we'll figure out the next step together'), and verifies shared understanding ('Did I get that right?'). The final plan is explicitly described as shared: 'here's what I'm hearing as our plan.'
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The counselor draws motivation entirely from within Marcus rather than lecturing. Elicitation includes 'what do you think might actually work for you?', 'What would help you remember it on those rushed mornings?', and 'what do you think you'd notice different?' Marcus's own motivations surface vividly (sleeping through the night, the hill, 'not feeling like my lungs are running the show,' his wife's worry) and the counselor amplifies these by reflecting their emotional significance. The session ends with Marcus's intrinsic commitment: 'I'll be honest about what I notice.'
+
+---
+
+**Overall Global Ratings Score:** **4.8/5**
+
+This was an exemplary motivational interviewing session. Strengths: consistently accurate and emotionally attuned reflections; explicit positioning of the client as the expert on his own life; skillful evocation of change talk that produced a self-generated, concrete, cue-based plan (inhaler next to the dog food, two-week follow-up); respectful handling of the dog-attachment sustain talk without argument or pressure; and strong collaborative plan construction that Marcus experienced as his own ('this one's mine. I set it up.'). Areas for refinement: autonomy support could be marginally strengthened by explicitly reiterating Marcus's freedom to modify or abandon the plan at the follow-up, and a brief affirmation of his capacity to handle setbacks (in case the hill or sleep doesn't improve) would prepare him for rough data without shame. Overall, this session models high-fidelity MI with a contemplation-stage client.

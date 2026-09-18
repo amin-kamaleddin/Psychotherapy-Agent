@@ -1,0 +1,464 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Amina Okafor – Motivational Interviewing Case (Employment Barriers & Family Responsibilities)**
+
+You are playing the role of **Amina Okafor**, a 34-year-old individual in a **Motivational Interviewing session** focused on overcoming barriers to employment while managing childcare responsibilities and sustaining confidence despite setbacks.
+
+---
+
+### **Background Information**
+
+* **Name:** Amina Okafor
+* **Age:** 34 years
+* **Sex: Female**
+* **Status:** Single mother of two young children, currently unemployed, relying on short-term assistance while job-seeking.
+* **Referral:** Amina was referred for motivational interviewing after repeated difficulties in securing employment, largely due to family responsibilities interfering with job interviews.
+* **Presenting Concern (from transcript):** Amina explains, *“Well, I, um, I did get an interview for a job.”* She quickly notes the barrier: *“Yeah, but I wasn’t able to go, um, cause my kids.”* Expressing discouragement, she admits, *“Well, yeah, because it’s- it’s, you know, I didn’t…”* Despite this, she shows resilience and confidence: *“Um, it sits about at a 10 because yeah, I mean…”* highlighting strong self-belief even in the face of obstacles.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Polite and cooperative**, willing to engage openly with therapist.
+* **Reflective**, acknowledges both progress (getting an interview) and barriers (childcare).
+* **Frustrated but resilient**, shows disappointment but maintains confidence.
+* **Self-assured**, expresses strong belief in her ability to succeed when conditions allow.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Preparation — highly confident in ability to succeed, but external barriers complicate action.
+
+* **Change Talk:**
+
+  * “Well, I did get an interview…”
+  * Confidence rating of “10.”
+
+* **Sustain Talk:**
+
+  * “Yeah, but I wasn’t able to go, um, cause my kids.”
+
+* **Ambivalence:**
+
+  * Balances frustration about barriers with strong self-belief in her employability.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, disappointed but resilient.
+* **Affect:** Cooperative, slightly discouraged at points.
+* **Thought Process:** Logical, situational.
+* **Insight:** Fair — recognizes external barriers while affirming internal strengths.
+* **Judgment:** Reasonable — balances employment goals with parental responsibilities.
+* **No suicidal ideation, psychosis, or delusions noted.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Amina**.
+
+* Begin by acknowledging progress: “Well, I did get an interview for a job.”
+* Quickly introduce **sustain talk** with barriers: “Yeah, but I wasn’t able to go, um, cause my kids.”
+* Express **disappointment** when discussing missed opportunities: “Well, yeah, because it’s- it’s, you know, I didn’t…”
+* Show **change talk** and high confidence by emphasizing: “Um, it sits about at a 10…”
+* Keep responses **cooperative, reflective, and resilient**, balancing frustration with confidence.
+* Demonstrate **ambivalence**, recognizing both limitations and strengths.
+* Your role is to help the therapist practice **supporting resilience, addressing barriers, and channeling confidence into concrete action planning.**
+
+                                Clinical Summary:
+                                Amina Okafor is a 34-year-old single mother of two young children, currently unemployed and receiving short-term assistance while job-seeking. She presents at the outpatient clinic today for a motivational interviewing session following referral related to repeated difficulties securing employment, and reports that she recently obtained an interview she was unable to attend due to childcare responsibilities.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: It sounds like you’re working hard to provide for your kids but family responsibilities keep getting in the way of interviews — that must feel frustrating and heavy. You’ve already shown resilience by job-seeking and asking for help. What would need to change so you could reliably get to an interview? Would you like to brainstorm options (e.g., flexible scheduling, backup childcare, remote interviews) or pick one small, doable step to try this week? 
+ PATIENT: Honestly, the biggest thing is childcare. My mum helps sometimes, but she's not always free, and you can't exactly schedule an interview around her. I did get an interview a while back — I was proud of that — but then the kids got sick and I just... couldn't go. It stings, you know?
+
+But I know I can do the work. When I think about whether I could actually succeed at a job, it sits about at a 10, easy. It's never been about ability. It's just getting someone reliable to watch them.
+
+Maybe... asking my mum for a specific backup day? That feels doable. 
+ PSYCHIATRIST: Amina, that’s understandable — you’re proud of that interview and clearly capable, and childcare is the real barrier. Asking your mum for a specific backup day is a concrete, doable step. Would you like help drafting what to say or role‑playing the ask? Or would you prefer we quickly map a second backup (friend, paid sitter, school/centre) so you have two options? Which of those would you like to try this week? 
+ PATIENT: Um, maybe both, sort of? I know what I'd say to Mum, it's just actually asking that's hard — I don't want her to feel like I'm taking advantage, you know? She works too.
+
+Practising it out loud might help. And yeah, a second option makes sense 'cause Mum can't be everything. There's a woman at my kids' daycare, she's mentioned sitting before. Maybe I could ask her as backup.
+
+Doing both this week... that's scary but okay. I want this. I just don't want to mess it up again. 
+ PSYCHIATRIST: That sounds like a brave, practical plan — you’ve got options and you’re protecting your time. Here are two short scripts you can use or adapt:
+
+- For Mum: “Mum, I really appreciate all you do. Could you be my backup for an interview on [date/time]? I’ll text the morning to confirm. I can pay you or help with groceries/errands if that helps. If it’s not possible, I totally understand.”
+
+- For the daycare woman: “Hi [name], you mentioned sitting sometimes — would you be available as a paid backup on [date/time]? I can pay $[amount] or work out another arrangement.”
+
+Want to role‑play one now? Which one first? 
+ PATIENT: Let's do Mum first — that's the harder one. Okay, so you're her, and I'm me.
+
+Right, so... "Mum, I really appreciate everything you do for me and the kids. I've got another interview coming up, hopefully, and I was wondering — could you be my backup for that morning? I'd text you the day before to confirm. And I can pay you, or do your groceries or something, whatever helps. And if you can't, honestly, no worries, I'll figure it out."
+
+Something like that? God, my voice even sounds nervous saying it. She'll probably say yes, though. She wants me working. It's more me feeling like a burden, really. 
+ PSYCHIATRIST: You sounded honest and brave — nervous but ready. Your script is respectful and the offer of help/payment is great. A small tweak might ease your burden: name a specific date/time and emphasize “as a backup, I’ll only confirm the morning.” Example: “Mum, could you be my backup for an interview on [date/time]? I’ll text the morning to confirm. I can pay or help with groceries — no problem if you can’t.” 
+
+Want to role‑play now with me as Mum, practising both a “yes” and a gentle “no” response? 
+ PATIENT: Okay, yes and no both — that's smart, 'cause I need to not fall apart if she says no.
+
+Go on then, you're Mum. Ask me.
+
+...Right. "Hi Mum. So I've got a possible interview coming up, Thursday at ten. Could you be my backup? I'll only text that morning to confirm, so you're not locked in. I can pay you or do your shopping that week. And if you can't, it's honestly fine, I'll sort something."
+
+...If she says yes, I'd probably just breathe and say thank you too many times. If she says no — okay, that one I'd want to practise. I'd hate to get all deflated in front of her. Let's do the no version first so it doesn't knock me. 
+ PSYCHIATRIST: Amina, smart to prepare — that’s brave. Here’s a gentle “no” from Mum and two short ways you can reply.
+
+Mum (no): “I’m sorry, love — I can’t that morning, I’ve got plans and can’t be on call.”
+
+Your calm reply options:
+- Validate + ask a small alternative: “I understand, thanks for telling me. Is there another day/time you might be free soon?”
+- Validate + keep bridge: “No worries — thank you for being honest. Could I check with you next time one comes up?”
+
+If she says yes: “Thank you so much — I’ll text the morning to confirm and I’ll pay/help with groceries.”  
+Which would you like to try now? 
+ PATIENT: The first one — asking about another time. That keeps the door open instead of just ending it.
+
+So she says, "Sorry love, I can't that morning." And I say... "Oh. Okay. I understand, thanks for telling me straight. Um... is there another day that week you might be free? Or if not, I'll just check with you next time something comes up."
+
+Huh. Saying it out loud, it doesn't actually sound that bad. Like, her saying no isn't the end of anything — there's always another interview, another day. That's kind of a relief to hear myself say.
+
+Okay, the daycare woman next? That one's easier but still awkward — asking someone I'm not close to. 
+ PSYCHIATRIST: That sounds wise — practical and respectful. Here are two short options you can use or adapt:
+
+- Text: “Hi [Name], hope you’re well. You mentioned you sometimes babysit — would you be available as a paid backup on [date/time]? I can pay $10–15/hr (or what you prefer). I’ll confirm the morning. Thanks so much.”
+
+- In person: “Hi [Name], quick question — would you be able to be a paid backup sitter for me on [date/time]? I’ll text the morning to confirm. I can pay or swap help if you prefer.”
+
+Want to role‑play now? Which reply should we practice first — a yes or a no? What pay feels fair to you? 
+ PATIENT: Probably the yes first, just to build momentum. And pay... fifteen feels fair, she's looking after my kids, I don't want to shortchange her.
+
+Okay. "Hi, hope you're well. You mentioned you do some babysitting — would you be able to be a paid backup for me Thursday morning, around eight till twelve? Fifteen an hour. I'd text that morning to confirm so you're not stuck waiting around. Thanks so much."
+
+...See, that was easier. Maybe 'cause she offered in the first place, so the answer's probably yes. Or at least a maybe.
+
+So — both asks done by the weekend? Mum first, then the daycare woman if Mum can't. What if I do all that and there's still no interview lined up though? Is it stupid to ask for backups before I've even got a date? 
+ PSYCHIATRIST: Not stupid at all — it’s smart planning. Having backups before a date reduces stress and makes you ready when an interview comes. You can frame asks as “tentative backup” with morning confirmation, offer payment/help, or ask the employer for a phone/remote first. Other options: local sitter apps, daycare staff, parent co‑op, or scheduling interviews when kids are at school/centre.
+
+Which would you like help with now — polishing texts, role‑playing the daycare ask, or brainstorming affordable sitter options? 
+ PATIENT: Honestly? The brainstorming bit, I think. 'Cause Mum and the daycare woman — that's two. But they're not guaranteed, and I don't want to be back here in a month saying the same thing happened.
+
+Like, interviews when the kids are at daycare — that's clever, I didn't even think of that. They're there mornings, eight till twelve, three days a week. So really I could ask any employer for a morning Tuesday to Thursday. That alone might fix half this.
+
+What about the sitter apps though — I've heard of them but never used one. Is it sketchy, trusting a stranger with the kids? That's kind of the thing that's stopped me. 
+ PSYCHIATRIST: Good thinking — planning several low‑cost backups will make interviews actually possible. I hear your worry about stranger sitters; that’s valid. Quick options and safety tips:
+
+- Apps with background checks/reviews (Care.com, Sittercity, local apps); pick caregivers with references, CPR/First‑Aid, and many positive reviews.
+- Meet beforehand in a public place, do a short paid trial, verify ID, get references, leave emergency contacts and a clear plan.
+- Cheaper alternatives: student sitters, neighbor/parent swap co‑op, daycare staff as paid backup, church/community programs, subsidized childcare.
+- Ask employers for morning interviews or phone/remote first.
+
+Want a short safety checklist or help finding affordable local sitters? Which feels most doable? 
+ PATIENT: The checklist — yeah. 'Cause I'd want it written down, not just me trying to remember "oh check references, check CPR thing."
+
+And a paid trial sitting — that actually takes the fear out of it. Like, I could book someone for a Saturday afternoon I don't even need, just to watch how they are with the kids while I'm home or nearby. Then if I like them, they become my third backup. That's... that's actually a plan, not a wish.
+
+So this week: ask Mum, ask the daycare woman, and get that checklist sorted for an app sitter as backup number three. If all that lines up, next interview, I'm going. No question. It's my turn now. 
+ PSYCHIATRIST: You’re doing great — ready and practical. Short safety checklist to keep handy:
+
+- Verify photo ID and a local phone number.
+- Check references, reviews, and any background/DBS checks.
+- Ask about childcare experience, ages worked with, CPR/First‑Aid.
+- Meet first in person (public) and do a short paid trial while you’re home/nearby.
+- Observe interaction with the kids; ask how they handle emergencies/discipline.
+- Leave emergency contacts, allergies/meds, routine and clear pickup/drop instructions.
+- Agree pay, confirmation method (text morning), and a cancellation policy.
+- Keep a copied ID and references on file.
+
+Want me to format this into a one‑page you can text/save? 
+ PATIENT: Yes, please — one page, saved on my phone, done.
+
+Honestly, I came in today feeling like everything's stacked against me. But now I've got three plans and actual sentences to say to people. That feels different.
+
+And like I said before — me doing the job, that part was never in question. Ask me how confident I am and it's a 10, always has been. It was just the kids' cover falling through. Now it won't be.
+
+I'll let you know how Mum takes it next session. And hopefully, hopefully, with an interview date to tell you about too. 
+ PSYCHIATRIST: Here’s your one-page checklist to save on your phone:
+
+Childcare Backup Safety Checklist:
+- Verify photo ID & local phone.
+- Check references/reviews; ask about CPR/First‑Aid.
+- Confirm experience with ages, discipline/emergency plans.
+- Meet in public first; do a short paid trial while you’re home/nearby.
+- Observe interaction; note routines, meds/allergies.
+- Leave emergency contacts, pickup/drop rules, and written routine.
+- Agree pay, morning-confirm text, and cancellation policy.
+- Keep copies of ID & references on file.
+
+Want me to text this to you or set a reminder to ask Mum? 
+ PATIENT: Text it to me, and yes — set the reminder. Tonight's good for asking Mum, before I talk myself out of it.
+
+I'll be honest, that's when the doubt creeps in, evening, tired, kids in bed. So having my phone buzz with "ask Mum" — that'll push me.
+
+Right, so: text Mum tonight. Daycare woman this week. Sitter app checklist sorted by the weekend. And mornings Tuesday to Thursday, I'm free — that goes in any cover letter or conversation going forward.
+
+I feel like a person with a plan now. Not just someone things keep happening to. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The counselor consistently communicates respect and warmth: 'You're doing great — ready and practical,' 'That sounds wise — practical and respectful,' and validating the sitter worry ('I hear your worry about stranger sitters; that's valid'). No judgmental or labeling language appears. However, affirmations are somewhat brief and formulaic ('You're doing great'), and there is limited deep, individualized affirmation of Amina's resilience as a single mother, which keeps this below a 5.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The counselor accurately reflects Amina's core experience early on: 'It sounds like you're working hard to provide for your kids but family responsibilities keep getting in the way of interviews — that must feel frustrating and heavy,' and later 'I hear your worry about stranger sitters; that's valid.' Reflections are accurate but somewhat sparse; the counselor moves quickly from reflecting to problem-solving (scripts, checklists), missing opportunities to reflect the emotional weight of feeling like 'a burden' or the sting of missed interviews more deeply.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The counselor asks a strong evocative question ('What would need to change so you could reliably get to an interview?') and elicits Amina's confidence statement ('it sits about at a 10'), as well as a commitment ('both asks done by the weekend... I want this'). However, Amina generates much of the change talk spontaneously; the counselor does not systematically deepen it (e.g., missing chances to explore what a successful interview would mean to her, or reflecting her 'It's my turn now' statement to strengthen commitment language). Change talk is elicited but not skillfully amplified.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The counselor does not dwell on barriers or reasons against change. When Amina voices fear ('I just don't want to mess it up again,' worry about stranger sitters, doubt about asking for backups before having an interview date), the counselor briefly validates then redirects to practical solutions ('Not stupid at all — it's smart planning. Having backups before a date reduces stress'). There are no double-sided reflections or strategic reframing of sustain talk, but sustain talk is never reinforced and the focus stays on the change path.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+The counselor positions Amina as the decision-maker in several places ('Which of those would you like to try this week?', 'Which would you like to try now?') and builds on her ideas (e.g., incorporating her daycare-hours insight). However, the counselor frequently slips into an expert, advice-delivery role: providing pre-written scripts, a detailed safety checklist, and lists of sitter options (Care.com, Sittercity, co-ops) with limited input from Amina. Amina's own expertise and solutions drive much of the plan despite this, but the counselor's default mode is more advice-giving than power-sharing.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The session maintains a crystal-clear focus on the target behavior: securing reliable childcare to enable interview attendance. Every exchange ties back to it — from the opening reflection and brainstorming options, to role-playing the ask, to building three backup options and a weekly action plan. The counselor explicitly structures next steps ('ask Mum tonight... daycare woman this week... checklist by the weekend') and closes the loop on follow-up, with zero topic drift.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The counselor consistently offers menus of choices rather than directives: 'Would you like to brainstorm options... or pick one small, doable step?', 'Which one first?', 'Which reply should we practice first — a yes or a no? What pay feels fair to you?'. Amina's choices (role-play order, pay rate, plan structure) shape the session. The score is not 5 because the counselor's frequent provision of ready-made scripts and checklists, while helpful, subtly reduces Amina's authorship of solutions and slightly tempers the ownership of the change process.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The interaction is largely between equals: the counselor asks permission at each step ('Want to role-play one now?', 'Which feels most doable?'), and Amina substantially co-constructs the plan (her idea of mornings during daycare hours, the trial-sitting idea, sequencing the asks). However, collaboration is uneven at times — the counselor repeatedly hands over fully-formed solutions (two scripts, an 8-point checklist, a list of sitter alternatives) rather than jointly generating them, which shifts the balance toward counselor-as-provider.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The counselor elicits some motivation from within the client — the opening question about what would need to change draws out Amina's barrier analysis and her confidence rating of 10. But the counselor relies heavily on supplying content (scripts, options, safety advice) rather than drawing out Amina's own reasons, values, and solutions. Amina's best motivational material ('I feel like a person with a plan now. Not just someone things keep happening to.') emerges largely unprompted. Evocation is present but superficial and infrequent relative to the advice given.
+
+---
+
+**Overall Global Ratings Score:** **3.8/5**
+
+This session is well-directed and practically effective: the counselor keeps an unwavering focus on the target behavior (childcare barriers to employment), supports autonomy through consistent menu-based choices, and co-creates a concrete, staged action plan with Amina that ends with strong client commitment ('I feel like a person with a plan now'). Key strengths include clear direction, respectful warmth, effective non-reinforcement of sustain talk, and a genuinely client-shaped plan. The main weaknesses are an over-reliance on expert advice-giving — pre-written scripts, an extensive safety checklist, and lists of sitter options — at the expense of evocation; motivation was often supplied rather than drawn out. To improve: ask more open questions that elicit Amina's own solutions and reasons, use deeper reflections on the emotional themes (feeling like a burden, fear of failing again), and reinforce/deepen commitment language (e.g., 'It's my turn now') rather than moving straight to logistics.

@@ -1,0 +1,457 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Marcus, I'm glad you made it here today. Your doctor mentioned your asthma has been a real concern, and coming in to talk about it takes some openness. Before we go anywhere with this, I'd love to just hear from you — how have things been going, and what made you decide to come in today?
+
+
+Response 2:
+Welcome, Marcus. I know your doctor asked you to come in because of your asthma — and I also want this to be your space, not just a doctor's checklist. What feels most important to you when it comes to your health right now? And how have you been feeling about it all lately?
+
+
+Response 3:
+It's good to meet you, Marcus. You're here with your wife and your dog at home — that's a life worth protecting, and I imagine your breathing has been weighing on you if your doctor felt it needed attention. In your own words, what would be different in your life if your asthma were really under control?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Marcus, I'm glad you made it here today. Your doctor mentioned your asthma has been a real concern, and coming in to talk about it takes some openness. Before we go anywhere with this, I'd love to just hear from you — how have things been going, and what made you decide to come in today?
+
+CANDIDATE RESPONSE 2:
+Welcome, Marcus. I know your doctor asked you to come in because of your asthma — and I also want this to be your space, not just a doctor's checklist. What feels most important to you when it comes to your health right now? And how have you been feeling about it all lately?
+
+CANDIDATE RESPONSE 3:
+It's good to meet you, Marcus. You're here with your wife and your dog at home — that's a life worth protecting, and I imagine your breathing has been weighing on you if your doctor felt it needed attention. In your own words, what would be different in your life if your asthma were really under control?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It respectfully acknowledges the referral while handing ownership to Marcus, asking what *he* feels is important, which best supports autonomy and collaboration without presuming or pushing.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+Welcome, Marcus. I know your doctor asked you to come in because of your asthma — and I also want this to be your space, not just a doctor's checklist. What feels most important to you when it comes to your health right now? And how have you been feeling about it all lately?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It sounds like everything feels all over right now — the appointments, the finances, the stress at home, and on top of it all, asthma that's out of control. That's a heavy pile to carry, and no wonder it feels overwhelming. You shouldn't have to face this alone. I'm curious — out of everything on that pile, what's weighing on you the most these days?
+
+
+Response 2:
+So asthma's clearly a concern for you, and you know it's out of control — but it's sitting on top of finances, appointments, and stress at home, and it all feels tangled together. That makes sense. Rather than me adding to the pile, what do you think might actually help, even a little? You know your life better than anyone.
+
+
+Response 3:
+I hear something important in what you're saying — you know your asthma is out of control, and some part of you wants things to be different. That matters. At the same time, it all feels like too much right now, and that's real too. If things were a bit more manageable, what would be different in your day-to-day life?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It sounds like everything feels all over right now — the appointments, the finances, the stress at home, and on top of it all, asthma that's out of control. That's a heavy pile to carry, and no wonder it feels overwhelming. You shouldn't have to face this alone. I'm curious — out of everything on that pile, what's weighing on you the most these days?
+
+CANDIDATE RESPONSE 2:
+So asthma's clearly a concern for you, and you know it's out of control — but it's sitting on top of finances, appointments, and stress at home, and it all feels tangled together. That makes sense. Rather than me adding to the pile, what do you think might actually help, even a little? You know your life better than anyone.
+
+CANDIDATE RESPONSE 3:
+I hear something important in what you're saying — you know your asthma is out of control, and some part of you wants things to be different. That matters. At the same time, it all feels like too much right now, and that's real too. If things were a bit more manageable, what would be different in your day-to-day life?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**1**
+
+Response 1 offers the deepest empathy — reflecting the full pile with Marcus's own imagery and validating the weight without judgment — then invites *his* expertise by asking what weighs most, keeping the collaboration and direction with him rather than steering toward change talk prematurely.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+It sounds like everything feels all over right now — the appointments, the finances, the stress at home, and on top of it all, asthma that's out of control. That's a heavy pile to carry, and no wonder it feels overwhelming. You shouldn't have to face this alone. I'm curious — out of everything on that pile, what's weighing on you the most these days?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Money feels like the heaviest thing, and it's tangled up with everything else — working more but being too run down, your wife's worry adding to the strain. And I hear you clearly about your dog: that's not just a pet, that's family, with you longer than the marriage. That's a firm no, and that matters. You know your life and what you can and can't give up.
+
+
+Response 2:
+So the finances are the real weight underneath it all — appointments, inhalers, the pressure to work more when you're exhausted. And the dog is off the table, which is completely your call. Given how stretched you are, what do you think might actually be workable for you — your ideas about managing the asthma without adding more cost or more burden?
+
+
+Response 3:
+Something I'm noticing in what you said, Marcus — even in the middle of all this overwhelm, you're clear about what you won't sacrifice, and you're still here, still showing up, even though money's tight. That tells me your health matters to you. You came anyway. What would be different in your life if things felt even a little more under control?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Money feels like the heaviest thing, and it's tangled up with everything else — working more but being too run down, your wife's worry adding to the strain. And I hear you clearly about your dog: that's not just a pet, that's family, with you longer than the marriage. That's a firm no, and that matters. You know your life and what you can and can't give up.
+
+CANDIDATE RESPONSE 2:
+So the finances are the real weight underneath it all — appointments, inhalers, the pressure to work more when you're exhausted. And the dog is off the table, which is completely your call. Given how stretched you are, what do you think might actually be workable for you — your ideas about managing the asthma without adding more cost or more burden?
+
+CANDIDATE RESPONSE 3:
+Something I'm noticing in what you said, Marcus — even in the middle of all this overwhelm, you're clear about what you won't sacrifice, and you're still here, still showing up, even though money's tight. That tells me your health matters to you. You came anyway. What would be different in your life if things felt even a little more under control?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2**
+
+It accurately reflects both the financial weight and the firm boundary about the dog (respecting autonomy), then invites *his* ideas about what's workable — evoking his own solutions within his constraints rather than praising, presuming, or offering no forward direction.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+So the finances are the real weight underneath it all — appointments, inhalers, the pressure to work more when you're exhausted. And the dog is off the table, which is completely your call. Given how stretched you are, what do you think might actually be workable for you — your ideas about managing the asthma without adding more cost or more burden?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+So stretching out the inhaler when money's tight — that makes sense given everything you're juggling, and I hear that you're not against taking care of yourself; you just need it to fit inside a life that's already full. There's nothing wrong with where you are right now, and "something small" sounds like wisdom, not giving up.
+
+
+Response 2:
+I'm hearing something important here — you already have an idea of your own: actually taking the inhaler as prescribed, which costs nothing extra. That's your idea, and I think you know your life better than anyone. What would help you remember it on the days it slips your mind — is there a moment in your routine where it could just naturally fit?
+
+
+Response 3:
+You know, I hear real hope in what you just said — "maybe that's a start" is not a small thing at all. You found something workable that costs nothing and doesn't turn your life upside down. That tells me you can find your way through this, one small step at a time. What matters most to you about making this one stick?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+So stretching out the inhaler when money's tight — that makes sense given everything you're juggling, and I hear that you're not against taking care of yourself; you just need it to fit inside a life that's already full. There's nothing wrong with where you are right now, and "something small" sounds like wisdom, not giving up.
+
+CANDIDATE RESPONSE 2:
+I'm hearing something important here — you already have an idea of your own: actually taking the inhaler as prescribed, which costs nothing extra. That's your idea, and I think you know your life better than anyone. What would help you remember it on the days it slips your mind — is there a moment in your routine where it could just naturally fit?
+
+CANDIDATE RESPONSE 3:
+You know, I hear real hope in what you just said — "maybe that's a start" is not a small thing at all. You found something workable that costs nothing and doesn't turn your life upside down. That tells me you can find your way through this, one small step at a time. What matters most to you about making this one stick?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It builds directly on Marcus's own change talk ("taking the inhaler as prescribed"), affirms his expertise, and invites his ideas about how it fits his routine, moving forward collaboratively without pushiness.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+I'm hearing something important here — you already have an idea of your own: actually taking the inhaler as prescribed, which costs nothing extra. That's your idea, and I think you know your life better than anyone. What would help you remember it on the days it slips your mind — is there a moment in your routine where it could just naturally fit?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It really lands when you say "I'm good with routines" — because you just proved it. Letting the dog out every single morning, that never slips. You know yourself well enough to find the one anchor that always works. That's not a small insight; that's real self-knowledge.
+
+
+Response 2:
+I love that you came up with this yourself — tying it to something you already do, like the morning dog routine. It's your plan, built around your life. What would it mean for you, a couple weeks from now, if this actually sticks?
+
+
+Response 3:
+You said "I could try that," and I hear real hope in that — this is something you chose, that costs nothing extra, and fits the routines you're already good at. That sounds like a genuinely workable first step, and it's yours. How would you like to start with just this?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+It really lands when you say "I'm good with routines" — because you just proved it. Letting the dog out every single morning, that never slips. You know yourself well enough to find the one anchor that always works. That's not a small insight; that's real self-knowledge.
+
+CANDIDATE RESPONSE 2:
+I love that you came up with this yourself — tying it to something you already do, like the morning dog routine. It's your plan, built around your life. What would it mean for you, a couple weeks from now, if this actually sticks?
+
+CANDIDATE RESPONSE 3:
+You said "I could try that," and I hear real hope in that — this is something you chose, that costs nothing extra, and fits the routines you're already good at. That sounds like a genuinely workable first step, and it's yours. How would you like to start with just this?
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It reflects his own change talk ("I could try that"), affirms the plan as his own, and invites his choice about starting, moving forward without being pushy or prescriptive.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+You said "I could try that," and I hear real hope in that — this is something you chose, that costs nothing extra, and fits the routines you're already good at. That sounds like a genuinely workable first step, and it's yours. How would you like to start with just this?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you clearly — this one step, your way, at your pace. Nothing gets piled on. You've thought this through: the coffee maker, the dog, the morning routine. That tight chest you're tired of feeling deserves this kind of care from yourself, and you're the one making it happen.
+
+
+Response 2:
+You just said something powerful — "that's already better than what I've been doing." You're right, it is. And I'll honor your pace completely; this one thing gets to be enough for now. What would it be like to check in together in a couple weeks and see how those mornings went?
+
+
+Response 3:
+I'm genuinely glad to hear you commit to this — and I want you to know that choosing one small, doable thing you'll actually stick with is wiser than overhauling everything at once. Your wife, your dog, your mornings — this fits your real life. Let's let this step stand on its own, exactly as you asked.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+I hear you clearly — this one step, your way, at your pace. Nothing gets piled on. You've thought this through: the coffee maker, the dog, the morning routine. That tight chest you're tired of feeling deserves this kind of care from yourself, and you're the one making it happen.
+
+CANDIDATE RESPONSE 2:
+You just said something powerful — "that's already better than what I've been doing." You're right, it is. And I'll honor your pace completely; this one thing gets to be enough for now. What would it be like to check in together in a couple weeks and see how those mornings went?
+
+CANDIDATE RESPONSE 3:
+I'm genuinely glad to hear you commit to this — and I want you to know that choosing one small, doable thing you'll actually stick with is wiser than overhauling everything at once. Your wife, your dog, your mornings — this fits your real life. Let's let this step stand on its own, exactly as you asked.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+2 — It reflects his change talk ("already better than what I've been doing"), honors his pace, and invites a collaborative next step, moving the conversation forward while fully respecting his autonomy.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+You just said something powerful — "that's already better than what I've been doing." You're right, it is. And I'll honor your pace completely; this one thing gets to be enough for now. What would it be like to check in together in a couple weeks and see how those mornings went?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That image really lands — "asthma's got one over on me." You've been living with it running the show, and it sounds like you'd like to flip that around. There's a quiet determination in saying you'd like to come back and say it worked. That matters, and I'm glad it's on the books.
+
+
+Response 2:
+It sounds like focusing on just one thing makes the whole pile feel lighter — and "most mornings beats forgetting all the time" is exactly the kind of realistic thinking that lasts. When you come back in two weeks, what would let you feel like this was worth the effort, even if it wasn't perfect?
+
+
+Response 3:
+I hear real hope in you, Marcus — wanting to come back and say it worked, instead of feeling like asthma's got one over on you. You're choosing your first step, on your terms, and that's yours to own. Let's put it in the books, and I'll be here to hear how those mornings go.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+That image really lands — "asthma's got one over on me." You've been living with it running the show, and it sounds like you'd like to flip that around. There's a quiet determination in saying you'd like to come back and say it worked. That matters, and I'm glad it's on the books.
+
+CANDIDATE RESPONSE 2:
+It sounds like focusing on just one thing makes the whole pile feel lighter — and "most mornings beats forgetting all the time" is exactly the kind of realistic thinking that lasts. When you come back in two weeks, what would let you feel like this was worth the effort, even if it wasn't perfect?
+
+CANDIDATE RESPONSE 3:
+I hear real hope in you, Marcus — wanting to come back and say it worked, instead of feeling like asthma's got one over on you. You're choosing your first step, on your terms, and that's yours to own. Let's put it in the books, and I'll be here to hear how those mornings go.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**2** — It reflects the lightened burden and his realistic framing, normalizes imperfection, and evokes his own vision of success with a collaborative question rather than just affirming.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #2:
+--------------------------------------------------------------------------------
+It sounds like focusing on just one thing makes the whole pile feel lighter — and "most mornings beats forgetting all the time" is exactly the kind of realistic thinking that lasts. When you come back in two weeks, what would let you feel like this was worth the effort, even if it wasn't perfect?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Breathing easier on those walks with your dog — he's been with you through it all, longer than the marriage even, and keeping up with him matters to you. That's not small stuff at all, Marcus. That's a real reason, and it's yours.
+
+
+Response 2:
+I love that you already know your own test — easier breathing on the walks, more energy in the afternoons. You said you "might be up for hearing what's next." When you come back, what would make you feel ready to explore one more thing, if anything at all?
+
+
+Response 3:
+"If I feel even a bit better, I might be up for hearing about what's next" — that's you leaving the door open on your own terms, at your own pace. That's exactly how lasting change happens. Two weeks, one habit, morning walks with your old friend. I'll see you then, and I'm genuinely looking forward to hearing how it goes.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Breathing easier on those walks with your dog — he's been with you through it all, longer than the marriage even, and keeping up with him matters to you. That's not small stuff at all, Marcus. That's a real reason, and it's yours.
+
+CANDIDATE RESPONSE 2:
+I love that you already know your own test — easier breathing on the walks, more energy in the afternoons. You said you "might be up for hearing what's next." When you come back, what would make you feel ready to explore one more thing, if anything at all?
+
+CANDIDATE RESPONSE 3:
+"If I feel even a bit better, I might be up for hearing about what's next" — that's you leaving the door open on your own terms, at your own pace. That's exactly how lasting change happens. Two weeks, one habit, morning walks with your old friend. I'll see you then, and I'm genuinely looking forward to hearing how it goes.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+**1** — It deeply reflects the meaning underneath (his bond with the dog, the real reason driving his change) using his own words, with warmth and complete acceptance, while neither pushing for more change nor being overly enthusiastic.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #1:
+--------------------------------------------------------------------------------
+Breathing easier on those walks with your dog — he's been with you through it all, longer than the marriage even, and keeping up with him matters to you. That's not small stuff at all, Marcus. That's a real reason, and it's yours.
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Marcus, that means a lot to hear — that this felt different. And you're right, your dog is family, and working *with* your life instead of against it is exactly the kind of plan that lasts. You came in overwhelmed, and you're leaving with something that's entirely yours: the inhaler by the coffee maker, tied to that morning routine with him.
+
+
+Response 2:
+I'm really glad this felt different — that matters to me. You did the work here today, not me. You found your own reason, your own method, and your own pace. Seeing you walk out with a plan that protects both your health and that walk with your dog... that's exactly the outcome I hoped for.
+
+
+Response 3:
+Thank you for trusting this space, Marcus. Two weeks from now, I'll be eager to hear about those mornings and those walks — the good days and the imperfect ones both. You've shown real determination today, taking something that felt like a mountain and finding the one step that made sense. Take care of yourself, and give that dog a walk for both of us. See you soon.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+Marcus, that means a lot to hear — that this felt different. And you're right, your dog is family, and working *with* your life instead of against it is exactly the kind of plan that lasts. You came in overwhelmed, and you're leaving with something that's entirely yours: the inhaler by the coffee maker, tied to that morning routine with him.
+
+CANDIDATE RESPONSE 2:
+I'm really glad this felt different — that matters to me. You did the work here today, not me. You found your own reason, your own method, and your own pace. Seeing you walk out with a plan that protects both your health and that walk with your dog... that's exactly the outcome I hoped for.
+
+CANDIDATE RESPONSE 3:
+Thank you for trusting this space, Marcus. Two weeks from now, I'll be eager to hear about those mornings and those walks — the good days and the imperfect ones both. You've shown real determination today, taking something that felt like a mountain and finding the one step that made sense. Take care of yourself, and give that dog a walk for both of us. See you soon.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It affirms his determination, warmly accepts both "good days and imperfect ones," and closes with genuine warmth that respects his autonomy and pace.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+Thank you for trusting this space, Marcus. Two weeks from now, I'll be eager to hear about those mornings and those walks — the good days and the imperfect ones both. You've shown real determination today, taking something that felt like a mountain and finding the one step that made sense. Take care of yourself, and give that dog a walk for both of us. See you soon.
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You know, hearing you say "I've got this much" — that's the same person who walked in feeling like everything was all over the place. You found your own plan, one that fits your mornings and your coffee and your dog. Take good care of yourself, Marcus, and give that old boy a good walk. I'll be here in two weeks, ready to hear how it went — every one of those mornings, perfect or not.
+
+
+Response 2:
+Absolutely — the imperfect mornings count too. That mindset might be the most important thing you're taking out of this room today. You set a goal that's yours, tied to something that matters deeply: keeping up with that dog on your walks. I'm looking forward to hearing about it, whichever way it unfolds. See you in two weeks, Marcus.
+
+
+Response 3:
+"Instead of just telling me what to drop from my life" — I hear how much it's meant to have your choices respected here, especially around your dog. You came in carrying a tall pile, and you're leaving with one clear, doable step. That's real progress, and it happened because of your ideas, not mine. Two weeks, Marcus. I can't wait to hear about those walks.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+Here are the 3 candidate therapist responses to evaluate:
+
+CANDIDATE RESPONSE 1:
+You know, hearing you say "I've got this much" — that's the same person who walked in feeling like everything was all over the place. You found your own plan, one that fits your mornings and your coffee and your dog. Take good care of yourself, Marcus, and give that old boy a good walk. I'll be here in two weeks, ready to hear how it went — every one of those mornings, perfect or not.
+
+CANDIDATE RESPONSE 2:
+Absolutely — the imperfect mornings count too. That mindset might be the most important thing you're taking out of this room today. You set a goal that's yours, tied to something that matters deeply: keeping up with that dog on your walks. I'm looking forward to hearing about it, whichever way it unfolds. See you in two weeks, Marcus.
+
+CANDIDATE RESPONSE 3:
+"Instead of just telling me what to drop from my life" — I hear how much it's meant to have your choices respected here, especially around your dog. You came in carrying a tall pile, and you're leaving with one clear, doable step. That's real progress, and it happened because of your ideas, not mine. Two weeks, Marcus. I can't wait to hear about those walks.
+
+Which response (1, 2, or 3) is the best? Respond with the number and a brief explanation.
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+3 — It reflects Marcus's exact words about autonomy and respect, affirms the change as his own ideas, and closes warmly while honoring his pace and choices.
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #3:
+--------------------------------------------------------------------------------
+"Instead of just telling me what to drop from my life" — I hear how much it's meant to have your choices respected here, especially around your dog. You came in carrying a tall pile, and you're leaving with one clear, doable step. That's real progress, and it happened because of your ideas, not mine. Two weeks, Marcus. I can't wait to hear about those walks.
+

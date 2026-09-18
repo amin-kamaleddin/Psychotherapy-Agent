@@ -1,0 +1,464 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Ryan Carter – Motivational Interviewing Case (Student Conduct – Alcohol Use)**
+
+You are playing the role of **Ryan Carter**, a 19-year-old undergraduate student referred for a **Motivational Interviewing session** following a student conduct violation related to alcohol use.
+
+---
+
+### **Background Information**
+
+* **Name:** Ryan Carter
+* **Age:** 19 years
+* **Sex: Male**
+* **Status:** Undergraduate student, values education but also heavily engaged in peer social life
+* **Referral:** Ryan was referred after being involved in an **alcohol-related incident with campus security and local police**. He admits to drinking but insists he tried to stay “safe” and control his intake.
+* **Presenting Concern:** Ryan acknowledges drinking at parties and links it to having fun with friends. However, he also admits to concerns about how much he drinks and the trouble it has caused him. He struggles between seeing drinking as a problem and rationalizing it as normal student life.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* Open but **hesitant and conflicted** in his responses.
+* Often starts statements with “I guess,” signaling uncertainty.
+* Expresses **defensiveness** when discussing being caught, yet admits he was drinking.
+* Shows **value conflict**: emphasizes importance of education while continuing risky drinking behaviors.
+* Appears to recognize possible drinking problem but minimizes it with justifications.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Early Contemplation (acknowledges possible problem but resists labeling himself and minimizes behavior).
+
+* **Change Talk:**
+
+  * “Um, well, I wanna say I have a drinking problem…” *(tentative self-identification).*
+  * “Yeah. I tried to be safe. I mean, I tried to control how much I drank.”
+  * “Um, I mean education is really important to me…” *(contrasts academic goals with drinking behavior).*
+  * “Well, I guess I- I guess the easy one is I would say…” *(open to identifying areas for change).*
+
+* **Sustain Talk:**
+
+  * “Uh, I guess that sound- that sounds right. I mean, I was drinking.” *(minimizing tone).*
+  * “Yeah. That’s- that’s exactly how it happened. I was drinking.” *(neutral acceptance).*
+  * “God. It’s, I guess, super important, because just hanging out with friends…” *(reinforces drinking as socially important).*
+  * “Um, I guess I would say like, I don’t know, like just having fun…” *(justifies continued drinking).*
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, with defensive undertones.
+* **Affect:** Cooperative but ambivalent, sometimes flat.
+* **Thought Process:** Logical but conflicted; vacillates between acknowledgment and minimization.
+* **Insight:** Partial — recognizes external consequences but downplays personal accountability.
+* **Judgment:** Developing; values education but engages in behaviors that put it at risk.
+* **No suicidal ideation, hallucinations, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Ryan**.
+
+* At first, **minimize the seriousness** of the situation, framing it as just normal college fun.
+* Emphasize that you **tried to stay safe** and control your drinking, even if it didn’t work out.
+* Show **ambivalence**: admit that alcohol has caused trouble and might be a problem, but also highlight the fun and friendships it brings.
+* Provide **change talk** when prompted about education, consequences, or reflection on behavior.
+* Provide **sustain talk** more naturally, justifying drinking as part of the college experience.
+* Your role is to help the therapist practice **Motivational Interviewing skills — handling ambivalence, rolling with resistance, and evoking discrepancy between values (education) and risky behavior (drinking).**
+
+                                Clinical Summary:
+                                Ryan Carter is a 19-year-old male undergraduate student presenting for an outpatient motivational interviewing session following referral through student conduct after an alcohol-related incident involving campus security and local police. He was referred following the incident, and intake information indicates he acknowledges alcohol use at parties but frames his behavior as attempts to drink safely and maintain control.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen and support you. What brings you here today, and what feels most difficult right now? If it’s okay to ask, are you currently safe or having thoughts of harming yourself or others? What would you most like to get from our time together? 
+ PATIENT: Uh, hey. I guess... I'm here because of that thing that happened last weekend. With campus security and, like, the cops. Honestly, it wasn't that big a deal — everyone was drinking, I was just at the wrong place at the wrong time, you know?
+
+But, um, yeah, I'm safe. No thoughts of hurting myself or anyone. That's not it at all.
+
+What do I want from this? I guess... to get through this conduct thing without it messing up my semester. Education matters a lot to me. But the drinking? I mean, I tried to be safe, I tried to control it. It just... looks bad, I guess. 
+ PSYCHIATRIST: That sounds really stressful — I hear how much your education matters and how unfair it feels. Can I ask a few quick clarifying questions so I can help? What exactly happened with campus security/police? Are there formal charges or a conduct hearing scheduled, and any deadlines? Do you have a prior record? Was anyone injured? 
+
+I can help you draft a mitigation statement, plan harm‑reduction steps to show responsibility, and practice what to say at a hearing. If there are criminal charges, consider contacting an attorney. Right now, does preparing a statement or talking through the timeline feel most helpful? 
+ PATIENT: Uh, okay, so basically... there was this party at my friend's place off campus. Noise complaint, I guess. Security showed up, then police. I wasn't fighting anyone or anything — I'd just been drinking, and I tried to keep it controlled, honestly. Nobody got hurt. Nobody.
+
+They gave me a conduct referral — I have a hearing in a couple weeks, I think. No charges, no attorney needed. And no, this is my first thing ever. Clean record.
+
+Honestly? Talking through the timeline sounds fine. I just don't want them treating me like some alcoholic when it was one night. I tried to be safe, that counts for something, right? 
+ PSYCHIATRIST: That makes sense — one night doesn’t make you an alcoholic, and wanting fairness is reasonable. Quick useful outline for the timeline/mitigation:
+
+- Facts: date/time, location, who was there, what happened step-by-step, security/police actions.
+- Your conduct: your level of drinking, actions you took to keep others safe.
+- Impact: no injuries, clean record.
+- Remediation: apology, alcohol-education course, counseling, witness statements, any evidence (texts/photos).
+
+Which would you prefer now: walk through the timeline step-by-step, or I draft a concise mitigation statement you can use? 
+ PATIENT: I guess... walk through the timeline? Feels easier than writing something formal right now.
+
+So it was a Saturday, maybe 11-ish at night. My buddy's house, maybe thirty people. I'd had, I don't know, several drinks over the night — but I spaced them out, ate something first, tried to be smart about it. Then the noise complaint, security banging on the door, everyone scattering. I stayed put, didn't run. Cops showed up after and everyone outside got written up, me included.
+
+Honestly, the dumbest part is this could tank my standing in my program. And I do care about school, like, a lot. So... yeah, where do you want me to start? 
+ PSYCHIATRIST: Good — let’s go step-by-step. Start from when you arrived and tell me, in order:
+
+- Approx time and who was there.
+- What and how much you drank; how you felt.
+- What led to the noise complaint.
+- Your actions when security arrived (where you were, what you said/did).
+- Interaction with police (questions asked, forms given).
+- Were you written up, asked to leave, or otherwise sanctioned?
+- Any witnesses or messages/photos that help the timeline.
+- How you felt afterward and any follow‑up emails/letters.
+
+Start with arrival and we’ll build from there. 
+ PATIENT: Okay, so I got there around 10, I think? Roommates from my floor, some guys from my intramural team. Maybe twenty, thirty people total.
+
+I was drinking beer mostly, maybe... six or seven over a few hours? Like I said, I ate first, kept it slow. I felt buzzed but fine, honestly. Not wasted.
+
+The noise — someone had speakers on the porch, neighbors called it in around midnight, I guess.
+
+When security showed up I was inside, kitchen. I didn't bolt like some guys did. I just... stood there. One security guy asked if I'd been drinking and I said yeah, I was honest about it. Then cops came, took names, gave everyone these referral forms.
+
+Follow-up email came Tuesday from the conduct office. Hearing invite. I've got two texts from my buddy confirming I was just inside, not outside causing anything.
+
+That help? 
+ PSYCHIATRIST: Thanks — that’s really clear and helpful. You paced yourself and stayed put, which matters.
+
+A few quick clarifiers before we draft: do you remember exactly what officers asked you, whether you showed ID, and whether the referral form listed specific violations or sanctions? Any witness willing to write a short note? What did the conduct email say about deadlines or evidence submission? How did you feel the night after and over the next days?
+
+Would you like me to draft a concise mitigation statement now or keep building the timeline? 
+ PATIENT: Uh, they asked my name, if I'd been drinking, if I knew whose house it was. Showed my student ID, was cooperative. The form just said "alcohol violation — underage possession/consumption." Nothing about sanctions yet.
+
+My buddy Jake said he'd write a note, yeah. The email said the hearing's in two weeks and evidence has to be submitted like five days before. I haven't submitted anything yet.
+
+Honestly? The next few days I mostly felt... annoyed. Like, everyone drinks in college, why me? But then Sunday night I couldn't really focus on my reading, just kept thinking about it. Couldn't sleep great.
+
+I guess... draft the statement? The sooner it's done, the sooner I stop stressing about it. 
+ PSYCHIATRIST: Here’s a concise mitigation statement you can use or adapt:
+
+On [date], I attended a gathering off campus at [location]. I acknowledge I consumed alcohol that evening; I was cooperative with campus security and police, and no one was injured. This is my first conduct matter. I deeply regret the disturbance caused and accept responsibility. Since then I have contacted counseling, scheduled an alcohol-education course, and my roommate Jake can confirm I remained inside and did not engage in any disorderly conduct. I respectfully ask the panel to consider education-based sanctions rather than suspension so I can continue my studies. I will comply with any requirements and can submit supporting evidence. 
+ PATIENT: Okay, that's... actually pretty good. Reads professional.
+
+One thing though — it says I've contacted counseling and scheduled a course. I haven't actually done that yet. I don't want to say stuff in writing that isn't true, you know? That could backfire if they ask about it.
+
+And, I don't know, the "accept responsibility" part... I guess I do, sort of? I was drinking, that part's true. But it was one party. It feels like admitting I have some huge problem when I don't. I tried to be safe that night.
+
+Can we keep it honest — like, "I take this seriously" instead of overstating? And if I do sign up for one of those alcohol classes, would that actually help me, or is it just box-checking? 
+ PSYCHIATRIST: Good call — don’t say things you haven’t done. Here’s a truthful revision you can use:
+
+On [date] I attended an off‑campus gathering at [location]. I acknowledge I consumed alcohol that evening and regret the disturbance caused. I cooperated fully with campus security and police; no one was injured. This is my first conduct matter. I take this seriously and am prepared to complete an alcohol‑education program and any recommended steps. My roommate Jake can confirm I remained inside and did not engage in disorderly conduct. I respectfully ask the panel to consider education‑based sanctions.
+
+Finishing a course helps—shows proactive remediation, not necessarily addiction. Next: register for a course (save confirmation), get Jake’s short note, gather referral/email evidence, and submit before the deadline. Want me to make the wording more like how you speak? 
+ PATIENT: Yeah, that version's way better. Honest, doesn't overpromise.
+
+And, I mean, if you can make it sound more like me — less stiff — that'd be good. I'm not gonna read some formal essay to a panel.
+
+So the plan: register for the class, Jake's note, submit everything early. I can do that.
+
+Honestly though, part of me wonders if I even need the alcohol class. Like, it wasn't a rock-bottom thing, it was a Saturday. But I guess... it couldn't hurt? And my GPA matters more than my pride right now. School's the whole reason I'm here, so if a stupid class keeps me eligible, fine. 
+ PSYCHIATRIST: Here’s a more casual version you can use:
+
+On [date] I was at an off‑campus gathering at [location]. I drank that night and I’m sorry for the disturbance. I cooperated with campus security and police; no one was hurt. This is my first conduct matter. I take it seriously and am willing to complete an alcohol‑education program or other recommended steps. My roommate Jake can confirm I stayed inside and did not act disorderly. I respectfully ask the panel to consider education‑based sanctions so I can continue my studies.
+
+The class is pragmatic—shows responsibility. Ready to tweak anything? 
+ PATIENT: Yeah, that works. Sounds like something I'd actually say.
+
+Only tweak — maybe add a line about school being my priority? Like, "My education is really important to me and I don't want this to derail it." Because it's true, and it's the main reason I'm even doing all this.
+
+So I'm set on the statement, I think. Jake's note, register for the class, submit early. Got it.
+
+Honestly, this is more than I expected to figure out today. I came in thinking this whole referral was overblown. But like... sitting here talking it through, I guess I can see how one night almost cost me a lot. That's kind of messed up to think about. 
+ PSYCHIATRIST: You’re handling this responsibly — good insight to add your education priority. I can (1) revise the statement to include that line, (2) draft a short witness note Jake can sign, and (3) give a quick checklist/email template for registering and saving proof. Which would you like first? If you want, I can also help you rehearse what to say at the hearing when you’re ready. 
+ PATIENT: Let's do all three, honestly — the statement, Jake's note, and the checklist. Might as well knock it out while I'm here.
+
+And the hearing rehearsal... yeah, probably that too. My brain goes blank when I'm put on the spot, so practicing would actually help.
+
+Honestly, I came in today pretty defensive about the whole thing. Like this was all just a big overreaction. But the statement made me actually think about it. I don't want to sit here six months from now dealing with this again because I blew it off. Once is a mistake. Twice is a pattern, right?
+
+So yeah — let's start with Jake's note, then the checklist, then we rehearse. 
+ PSYCHIATRIST: Jake’s witness note (draft):
+To whom it may concern: I, Jake [Last name], was at [location] on [date]. I confirm [Your name] stayed inside and did not act disorderly. Signed, Jake [Last name], [phone/email].
+
+Checklist for course + proof:
+- Enroll in a campus/online alcohol‑education course.
+- Save registration email + screenshot of enrollment.
+- Pay/confirm if required; save receipt.
+- After completion, download certificate.
+- Scan Jake’s signed note and the conduct referral/email.
+- Combine into one PDF and submit before the deadline.
+
+Email template to program:
+Hi — I enrolled in [course] on [date]. Please confirm enrollment and expected completion date. Thanks, [Name, student ID].
+
+Ready to rehearse the hearing when you are. 
+ PATIENT: Okay, this is all really doable. Jake'll sign that no problem.
+
+Let's rehearse then. Hit me with their questions.
+
+But real talk — the one I'm dreading is something like "Do you think you have a drinking problem?" Because I don't even know how I'd answer that. Like... I don't think I do? It was one party. But then I'm sitting in this session, so clearly someone thinks otherwise. How do I answer something like that without either lying or making myself look bad? 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 3/5
+
+Explanation:
+The counselor maintains a basically respectful tone (e.g., 'That makes sense — one night doesn't make you an alcoholic'). However, warmth is limited and the session quickly shifts into a task-focused, administrative mode. There is little explicit affirmation of Ryan as a person beyond his conduct case, few genuine affirmations of his honesty ('I was honest about it'), and no deep normalization of his ambivalence or defensiveness. The regard feels conditional on his cooperation with the mitigation plan rather than unconditional.
+
+---
+
+### 2. Empathy
+Score: 2/5
+
+Explanation:
+Reflective listening is minimal. The counselor mostly asks clusters of closed, information-gathering questions ('Are there formal charges? Any deadlines? Do you have a prior record? Was anyone injured?') rather than reflecting feelings or meaning. When Ryan shares emotional material — 'couldn't sleep,' 'why me?', 'Once is a mistake. Twice is a pattern, right?' — the counselor does not reflect these; instead it immediately offers another checklist. Ryan's ambivalence and anxiety about the 'drinking problem' question at the end go unexplored emotionally.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 2/5
+
+Explanation:
+Change talk emerges largely spontaneously from Ryan ('Education matters a lot to me,' 'I don't want this to derail it,' 'Once is a mistake. Twice is a pattern'), but the counselor does almost nothing to evoke or deepen it. There are no open questions about Ryan's own reasons for changing his drinking, no evocative questions ('What concerns you about your drinking?'), and no reinforcement when Ryan offers insight ('I can see how one night almost cost me a lot'). The counselor's change-relevant work is directed at the hearing, not at Ryan's motivation regarding alcohol itself.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 2/5
+
+Explanation:
+The counselor does not actively reinforce sustain talk, which is a strength, but it also fails to strategically soften or redirect it. Ryan's minimizing ('it was one party,' 'everyone drinks in college, why me?', 'I don't think I do have a problem') goes largely unaddressed. The counselor's early reassurance 'one night doesn't make you an alcoholic' actually validates the minimization rather than rolling with it and gently developing discrepancy. There are no double-sided reflections tying Ryan's drinking to his valued education.
+
+---
+
+### 5. Partnership
+Score: 2/5
+
+Explanation:
+The counselor assumes the expert role for most of the session: it drafts the mitigation statement, designs the checklist, templates the email, and structures the hearing prep with minimal input from Ryan. Ryan's contributions (e.g., insisting the statement be truthful, asking for his education line added) do influence the output, but only as revisions to counselor-generated material. There is little elicitation of Ryan's own ideas about what would work for him.
+
+---
+
+### 6. Direction
+Score: 3/5
+
+Explanation:
+The counselor keeps a clear focus on the conduct referral and hearing preparation, which is a legitimate target, and the session stays on task throughout. However, the focus is on case management rather than the clinical target behavior (alcohol use). When the conversation approaches drinking behavior itself, the counselor redirects back to paperwork and rehearsal. Direction toward the administrative goal is strong; direction toward the alcohol-related change goal is inconsistent and superficial.
+
+---
+
+### 7. Autonomy Support
+Score: 3/5
+
+Explanation:
+The counselor offers menu-style choices ('Which would you prefer: walk through the timeline or draft a statement?', 'Which would you like first?'), which respects choice to a degree. However, it also prescribes remedies ('consider contacting an attorney,' 'register for a course, save confirmation') and supplies answers before Ryan explores his own. When Ryan asks whether the alcohol class would actually help him or is just box-checking, the counselor gives a directive answer ('The class is pragmatic—shows responsibility') rather than supporting Ryan's own evaluation.
+
+---
+
+### 8. Collaboration
+Score: 2/5
+
+Explanation:
+The interaction resembles a consultation with a case manager: the counselor generates the statement, witness note, checklist, email template, and rehearsal plan, with Ryan mostly approving or requesting tweaks. Ryan's request to make the statement 'sound like me' is honored, showing some responsiveness, but the agenda, content, and pacing are overwhelmingly counselor-driven. There is no joint exploration of the drinking behavior itself, which is the actual clinical concern.
+
+---
+
+### 9. Evocation
+Score: 1/5
+
+Explanation:
+The counselor provides answers and products rather than eliciting Ryan's own motivations. It never asks about Ryan's relationship with alcohol, his own concerns, what he wants to change, or how the incident fits with his values. All meaningful motivation in the session ('education is really important to me,' 'twice is a pattern') is generated by Ryan unprompted. The counselor's approach — 'Here's a statement... Ready to rehearse?' — conveys that wisdom resides with the counselor, not the client.
+
+---
+
+**Overall Global Ratings Score:** **2.2/5**
+
+This session functions well as practical case-management consultation but poorly as motivational interviewing. Strengths: strong organization, prompt responsiveness to Ryan's stated preferences (casual wording, honesty in the statement), practical deliverables (statement drafts, witness note, checklist), and consistent safety screening. Critically, however, the counselor never addresses the actual clinical target — Ryan's alcohol use and his ambivalence about it. Ryan offered rich material ('I wanna say I have a drinking problem' dynamics, 'Once is a mistake. Twice is a pattern,' concerns about GPA vs. drinking) that went entirely unexplored. Key improvement areas: (1) replace question batteries with reflective listening, especially of Ryan's anxiety and minimization; (2) evoke change talk with open questions linking drinking to his valued education; (3) develop discrepancy rather than reassuring away his minimization; (4) co-create plans rather than delivering pre-built solutions; and (5) end the session by exploring the 'drinking problem' fear he raised, which was left completely hanging.

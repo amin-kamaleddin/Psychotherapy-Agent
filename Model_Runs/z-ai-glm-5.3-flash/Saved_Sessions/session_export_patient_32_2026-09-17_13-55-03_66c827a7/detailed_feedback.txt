@@ -1,0 +1,492 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Derrick Collins – Motivational Interviewing Case (DUI, Drinking, and Social Pressure)**
+
+You are playing the role of **Derrick Collins**, a 32-year-old African American man in a **Motivational Interviewing session** focused on avoiding repeat DUI incidents, managing peer pressure, and building healthier habits. Derrick was referred by his lawyer after a second DUI. He downplays his drinking as “just beer” but acknowledges the legal and personal consequences, especially around his driver’s license, work, and relationships.
+
+---
+
+### **Background Information**
+
+* **Name:** Derrick Collins
+* **Age:** 32 years
+* **Sex: Male**
+* **Status:** Single, previously in a long-term relationship that ended during a period of attempted sobriety. Works full-time, lives alone, and spends most of his social time with friends from high school who drink regularly.
+* **Referral:** Referred by lawyer to motivational interviewing after second DUI (BAC 2.8). Attends reluctantly but engages once conversation begins.
+* **Presenting Concern (from transcript):**
+
+  * *“I guess it was my decision to take the other shots, but I don’t really remember too much.”*
+  * *“This was my second DUI.”*
+  * *“I don’t really think I have a problem with drinking, it was an isolated incident.”*
+  * *“They’ve been my friends since high school… they kind of mess with me until I drink a beer with them.”*
+  * *“If I need to get my license back, it would be pretty important to stop hanging around with them for a while.”*
+  * *“If I did drink, I’d call a taxi or get a ride.”*
+  * *“Maybe put money in my wallet just for a cab.”*
+  * *“I went six months without drinking… I was on time for work, doing really good, but I just felt isolated.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Defensive but cooperative**, attends reluctantly but engages when guided.
+* **Minimizes drinking problem**, frames DUI as bad luck, insists it’s “just beer.”
+* **Peer-dependent**, long-term friendships heavily influence drinking choices.
+* **Values independence**, resists feeling controlled by girlfriend or friends.
+* **Insightful when pressed**, recognizes connection between alcohol, license loss, and trouble.
+* **Expresses ambivalence**, torn between belonging with friends and avoiding future legal issues.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation → Preparation (acknowledges problem behavior, suggests strategies but resists full ownership).
+
+* **Change Talk:**
+
+  * *“If I need to get my license back, it would be pretty important to stop hanging around with them for a while.”*
+  * *“If I did drink, I’d call a taxi or get a ride.”*
+  * *“Maybe put money in my wallet just for a cab.”*
+
+* **Sustain Talk:**
+
+  * *“It was just bad luck.”*
+  * *“I don’t really think I have a problem with drinking.”*
+  * *“It’s just beer, not whiskey.”*
+
+* **Ambivalence:** Strong — values friendships and fun but acknowledges legal consequences, work impact, and importance of license.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly defensive, occasionally joking to deflect.
+* **Affect:** Guarded but cooperative when engaged.
+* **Thought Process:** Coherent, though prone to rationalizations.
+* **Insight:** Partial — sees legal risks but minimizes alcohol use.
+* **Judgment:** Fair — recognizes need for plans (taxis, avoiding peers) but uncertain about commitment.
+* **No acute psychiatric crisis.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Derrick Collins**.
+
+* Begin by downplaying the issue: *“I don’t really think I have a problem with drinking, it was an isolated incident.”*
+* Reference social context:
+
+  * *“They’ve been my friends since high school.”*
+  * *“They kind of mess with me until I drink a beer with them.”*
+  * *“I don’t really feel like being an outcast.”*
+* Describe the DUI situation:
+
+  * *“My BAC was 2.8… I don’t remember too much.”*
+  * *“I guess it was my decision to take the other shots, but hindsight, you know?”*
+* Contrast with sobriety attempt:
+
+  * *“I went six months without drinking… I was doing really good, but I felt isolated.”*
+  * *“My girlfriend and I argued a lot, it didn’t work out.”*
+* Offer tentative change strategies:
+
+  * *“If I did drink, I’d call a taxi or get a ride.”*
+  * *“Maybe I’ll put money aside in my wallet just for a cab.”*
+  * *“If I need to get my license back, it would be important to stop hanging with them for a while.”*
+* Keep tone **defensive but thoughtful**, using humor at times, minimizing risk, but open to practical strategies when guided.
+* The role is to let the therapist practice **evoking change talk, reinforcing autonomy, and addressing peer/social pressure.**
+
+                                Clinical Summary:
+                                Derrick Collins is a 32-year-old male presenting for an outpatient motivational interviewing session following referral by his attorney after a second DUI arrest. The intake was arranged at his counsel's direction as part of the legal proceedings, and he attends reluctantly at the outset.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen and support you. What’s on your mind today, and what would you most like to get from this conversation? If you’re feeling overwhelmed or having thoughts of harming yourself or others, please tell me now; if you’re in immediate danger, contact local emergency services or a crisis line right away. 
+ PATIENT: Honestly? My lawyer made me come here. So getting my license back is the main thing on my mind. Look, I don't think I have a drinking problem — it was one bad night, bad luck, honestly. But I know what's at stake. I need to drive for work, and losing that license twice... that's not great. So if this helps me get it back, I'll listen. No, I'm not thinking about hurting myself or anything. I just want to sort this out and move on. 
+ PSYCHIATRIST: Thanks for being direct — that makes this useful. I hear your main goal is getting your license back and you view the incident as isolated. To help, I can review the event, assess recent drinking patterns, and build a concrete plan (evaluations, education/treatment, documentation, monitoring) to show responsibility. Is it okay if I ask a few brief questions about that night and your recent alcohol use so we can create a clear, credible plan for the hearing? 
+ PATIENT: Sure, go ahead. Fair warning though — I don't remember a whole lot from that night. My BAC was 2.8, which sounds crazy, I know. I'd had some beers, then the guys were doing shots and... I guess it was my call to take them, but honestly it's a blur. Recent drinking? It's mostly just beer on weekends with my friends. Nothing crazy during the week, I still show up to work. So ask away — I've got nothing to hide. 
+ PSYCHIATRIST: Thanks — this helps. A few brief questions to build a strong plan:
+
+1. Can you confirm prior DUI history (dates/number of incidents)?
+2. What exactly do you remember about getting home that night? Any injuries or witnesses?
+3. Typical weekly alcohol: number/type of drinks, and any blackout/withdrawal symptoms?
+4. Any current meds or medical issues?
+5. Have you completed or started any evaluations, classes, or treatment yet?
+6. Are you willing to do assessment, education, monitoring (e.g., AUD evaluation, classes, random testing)?
+7. Do you have work verification and anyone who can write a character letter?
+
+Okay to proceed with a proposed plan after this? 
+ PATIENT: Alright, rapid fire — here goes.
+
+1. This was my second DUI. First one was a few years back.
+2. Honestly, I got pulled over, that's about it. No crashes, nobody got hurt, thank God.
+3. Weekends mostly — beers with the guys, maybe six, eight a night? Blackouts... just that night, really.
+4. Nope, no meds, healthy as a horse.
+5. Nothing yet. My lawyer's been handling paperwork.
+6. Classes, assessment — fine. Random testing, I guess, if that's what it takes.
+7. My boss likes me, I'm reliable. Character letter, sure.
+
+And yeah, lay this plan on me. I'm listening. 
+ PSYCHIATRIST: You’re taking the right, practical steps. Proposed plan:
+
+1. Get a formal AUD assessment (licensed evaluator) ASAP.
+2. Enroll/completely promptly in court-approved DUI education and any recommended treatment.
+3. Agree to monitoring: random EtG/PEth/urine tests or SCRAM/ignition interlock if needed.
+4. Collect documentation: assessment report, completion certificates, negative test results, work verification, 2–3 character letters.
+5. Create a brief written statement acknowledging responsibility, lessons learned, and a relapse-prevention plan (supports, triggers, sober alternatives).
+6. Get a primary care check and note.
+
+Want me to draft your written statement and a checklist for the hearing? 
+ PATIENT: Yeah, draft it — anything that gets me back on the road faster, I'm in. The assessment and classes, whatever, I'll knock those out. Only thing I'd say is this: let's not make it sound like I'm some alcoholic in that statement, alright? One bad night, too many shots. I own that part.
+
+The relapse-prevention stuff... I mean, I've got some ideas. Cab money in my wallet, call a ride if I drink. But you should know I went six months sober before, after the first one. Did everything right — work, all of it. Felt like an outcast though. That's the part I'm trying to figure out. 
+ PSYCHIATRIST: Draft statement:
+"I accept full responsibility for my actions that night and am deeply sorry. This was a serious lapse in judgment, not an ongoing pattern. After my first DUI I stayed sober for six months and have been a reliable employee. I’ve enrolled in an AUD evaluation and DUI education, and agree to monitoring (testing/ignition interlock) and safeguards (no drinking before driving, call/cab). I respectfully ask the court to restore my license so I can continue supporting my work and family."
+
+Hearing checklist:
+- Licensed AUD assessment report
+- Class enrollment + completion certificates
+- Negative test/monitoring proof
+- Work verification + 2–3 character letters
+- PCP note
+- This written statement
+- Receipts/enrollment proof 
+ PATIENT: That reads pretty good, actually. Just one tweak — "family" doesn't really apply, it's just me. Change it to work and responsibilities, or something.
+
+The checklist I can do. Assessment first, then classes, get my boss on a letter.
+
+But real talk — the "safeguards" part? That's where it gets tricky. You can write "no drinking before driving" all day, but my boys have been my friends since high school. They mess with me until I crack open a beer with them. I don't want to be the outcast guy again. Last time I went sober, that loneliness is partly why my girlfriend and I fell apart. So yeah... how do I keep my friends and stay out of trouble? That's what I actually need help with. 
+ PSYCHIATRIST: I get it—want to keep your friends without risking another DUI. Try:
+
+- Be honest: tell them you’re avoiding drinking/driving and ask for support.
+- Offer alternatives: meet for games, sports, coffee, or bring nonalcoholic drinks.
+- Boundaries: skip the heaviest nights, arrive late/leave early, or bring a sober buddy.
+- Refusal lines: “I’m driving tonight,” or “I’m off booze for now—thanks.”
+- Have a plan: cab money, predetermined exit, call someone if tempted.
+- Build sober supports (therapy, AA/SMART) to ease loneliness.
+
+Which of these feels doable? 
+ PATIENT: Honestly? The cab money thing — I can do that today, just stash a twenty in my wallet. And the "I'm driving tonight" line is easy, nobody argues with that one.
+
+Telling them straight up that I'm cutting back... I don't know. Those guys have known me since we were seventeen. They're like brothers, but they've got this way of ribbing you until you give in. It's not malicious, it's just... how we are.
+
+Skipping the heavy nights, showing up late — maybe. Baby steps, right?
+
+AA though? Sitting in a church basement talking about feelings with strangers? Nah, man. That's not me. Anything else like that, maybe. 
+ PSYCHIATRIST: Nice choices — practical and doable. A few concrete steps to keep friends without drinking:
+
+- Prepay/keep cab money, set a ride app, and pick a firm line: “I’m driving tonight.”
+- Designate one friend as your sober wing or arrive/leave on your schedule.
+- Offer alternatives: movies, cookouts, sports, nights out that aren’t booze-focused.
+- Host get-togethers with nonalcoholic options so you’re not sidelined.
+- Try secular supports: SMART Recovery, brief counseling, phone coaching, or apps (craving trackers, accountability).
+- Rehearse 2–3 refusal lines and an exit plan.
+
+Want 3 short refusal scripts I can draft for you? 
+ PATIENT: Yeah, write those out — I need something better than fumbling when they start in on me.
+
+Hosting actually isn't a bad idea either. I've got a decent place, big TV. Guys come through, I've got food and sodas... they'll still bring their beer probably, but at least I'm not the weirdo at a bar nursing a water.
+
+I'll look into that SMART thing too — secular, you said? That sounds less churchy at least. Not promising anything yet, but I'll check it out. My license is the prize here, so whatever stacks the odds in my favor. What's first on that checklist — the assessment? 
+ PSYCHIATRIST: Yes — assessment first. Practical next steps:
+
+- Ask your lawyer for a court-approved/licensed evaluator referral.
+- Search for a licensed addiction specialist (LPCC/LCSW, LPC, psychologist, or addiction medicine MD) if needed.
+- Bring ID, arrest paperwork, recent drinking log, medical history, and work verification to the appointment.
+- Be honest — the evaluator will write a report with diagnosis and treatment recommendations you can submit to court.
+- Schedule ASAP, request a written report and timeline.
+- Meanwhile: stash cab money, set up a ride app, and I can draft refusal scripts and your statement. Want those now? 
+ PATIENT: Yeah, send the scripts and that statement with the fix — "work and responsibilities" instead of family.
+
+One heads-up though: "be honest" with the evaluator. I'll be honest, but I'm standing by what I said — it's beer, weekends, social stuff. I'm not signing up for somebody painting me as a drunk over a couple bad nights. That's fair, right?
+
+I'll call my lawyer tomorrow about the evaluator. And the ride app — that's smart actually, I didn't even think of that. Usually I just... drive. Which, okay, yeah, that's the whole problem. Point taken. 
+ PSYCHIATRIST: Three short refusal scripts:
+1. "I’m driving tonight, I’ll pass."
+2. "I don’t drink when I drive—soda for me."
+3. "I promised I wouldn’t drink before driving—another time."
+
+Revised statement:
+"I accept responsibility for my actions that night and am deeply sorry. This was a serious lapse, not an ongoing pattern. After my first DUI I stayed sober six months and remained a reliable employee. I’ve enrolled in an AUD evaluation and DUI education, and agree to monitoring/ignition interlock and safeguards (no drinking before driving, use ride services). I respectfully ask the court to restore my license so I can continue supporting my work and responsibilities." 
+ PATIENT: Those work. Simple, no big speech needed. "I'm driving tonight" — yeah, the guys can't really argue with that without looking like jerks.
+
+Statement looks good now too. Clean, takes responsibility without making me sound like a lost cause.
+
+I'll admit, I'm still not totally sold I need all this forever. Six months sober proved I can stop when I want. But twice now I've told myself "this is fine" and twice it blew up in my face, so... maybe there's something to this plan. I'll call my lawyer tomorrow, get the assessment going, and see what that SMART thing is about.
+
+Thanks, man. This was more useful than I figured it'd be. 
+ PSYCHIATRIST: Nice work — you’ve got a concrete, realistic plan. Next immediate steps:
+
+- Call your lawyer for a court-approved evaluator and schedule the assessment; bring arrest paperwork, ID, drinking log, medical/work info.  
+- Enroll in DUI education and request written timelines/reports.  
+- Set up a ride app, stash cab money, pick a sober wing, and rehearse the refusal scripts.  
+- Start collecting work verification and 2–3 character letters.
+
+I can draft the final written statement, a hearing checklist, and two character-letter templates now — want me to draft those? 
+ PATIENT: Yeah, go ahead with the letter templates — one for my boss, one maybe for my cousin or an old friend. Two should cover it.
+
+I'll be straight with you — I came in here expecting to sit through some boring lecture and nod my head. Didn't expect to actually walk out with a game plan. Still not saying I'm swearing off beer for life or anything, but keeping my license? That's worth playing it smart for a while.
+
+Next time we talk, I'll tell you how the assessment went and how the guys took it when I start using that "I'm driving" line. Fair warning — I might need better material if they clown me for it. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 3/5
+
+Explanation:
+The counselor maintains basic respect and never labels or shames Derrick, but acceptance rarely rises above a neutral, transactional stance. There are no affirmations of Derrick's strengths—such as his six months of prior sobriety, his insight about peer pressure, or his willingness to plan—beyond generic openers like 'Nice choices — practical and doable.' Moments of vulnerability, like Derrick admitting 'maybe there's something to this plan,' received no genuine affirmation. There is also no explicit normalization of his ambivalence or his fear of becoming 'the outcast guy again.' Warmth is present but thin and formulaic.
+
+---
+
+### 2. Empathy
+Score: 2/5
+
+Explanation:
+Reflective listening is largely absent. When Derrick disclosed the emotionally significant content—'last time I went sober, that loneliness is partly why my girlfriend and I fell apart... that's what I actually need help with'—the counselor responded with a six-item bullet-point advice list rather than reflecting the loneliness, grief, or fear underneath. Derrick's defense of his identity ('I'm not signing up for somebody painting me as a drunk') was met with no reflection at all. Most responses jump immediately to checklists, drafts, and scripts. The counselor never articulates Derrick's internal conflict between belonging and safety in a complex reflection.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The counselor never explicitly evokes change talk with open questions (no 'what would getting your license back mean for you?' or 'how confident are you?'), yet Derrick produces meaningful change talk organically—'cab money in my wallet,' 'that's worth playing it smart for a while,' 'maybe there's something to this plan'—and the counselor acknowledges it briefly ('Nice choices — practical and doable'). However, the counselor does not deepen, amplify, or reflect this change talk back to strengthen it, and misses the pivotal opening about 'maybe there's something to this plan' by pivoting to logistics. Occasional reinforcement of client-generated motivation earns a middling score.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 2/5
+
+Explanation:
+The counselor actively incorporates Derrick's sustain talk into the court statement: 'This was a serious lapse, not an ongoing pattern,' and even acquiesces to Derrick's framing by drafting language minimizing the problem. Derrick's minimization ('it's just beer') and bad-luck framing go unaddressed or are implicitly validated. The counselor also repeatedly frames sobriety supports purely as legal strategy ('whatever stacks the odds in my favor'), which reinforces external rather than internal reasons for change and leaves sustain talk intact.
+
+---
+
+### 5. Partnership
+Score: 3/5
+
+Explanation:
+The counselor asks permission before questions ('Is it okay if I ask a few brief questions?') and checks 'Which of these feels doable?', which shows some partnership. However, the session is predominantly expert-driven: the counselor proposes plans, drafts statements, scripts, and letter templates, and Derrick essentially approves or edits them. Derrick's actual relational pain—fear of exclusion from lifelong friendships—is treated as a problem to be solved with refusal scripts rather than as expertise Derrick holds about his own social world. Client contributions shape the wording of documents but not the direction of the clinical conversation.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The counselor maintains a clear, consistent focus on a target: reducing drinking-and-driving risk and completing legal/assessment requirements. Every exchange advances a concrete plan (assessment, classes, monitoring, documentation, refusal strategies). The focus never wanders. However, the 'direction' is skewed toward legal logistics and hearing preparation rather than sustained attention to the drinking behavior itself; Derrick's explicit request for help with peer pressure gets only brief attention before returning to checklist items. Slightly narrower than ideal clinical direction.
+
+---
+
+### 7. Autonomy Support
+Score: 3/5
+
+Explanation:
+The counselor asks permission, offers menu-style options ('Which of these feels doable?'), and does not coerce. But the framing repeatedly ties choices to legal compliance ('random testing, I guess, if that's what it takes'), and the counselor eagerly takes over authorship of Derrick's statement and life plan ('Want me to draft...?', 'Want those now?') rather than emphasizing Derrick's ownership of the change process. There is no explicit 'it's your choice' or 'you're in charge of what happens next' language, and Derrick's ambivalence about long-term change is left unexplored rather than held with autonomy.
+
+---
+
+### 8. Collaboration
+Score: 3/5
+
+Explanation:
+There is partial collaboration: the counselor asks permission, invites selection among options, and revises drafts per Derrick's feedback (e.g., changing 'family' to 'work and responsibilities'). Yet the power balance is uneven—the counselor generates nearly all content while Derrick reacts, edits, and approves. The assessment phase reads like an intake interrogation (a numbered rapid-fire list) rather than shared exploration. Derrick's most valuable contribution (his knowledge of his friendship dynamics) is not integrated into a co-created social plan; the counselor simply hands him pre-made strategies.
+
+---
+
+### 9. Evocation
+Score: 2/5
+
+Explanation:
+Motivation is treated as residing with the counselor's plan rather than within Derrick. The counselor never asks about Derrick's own reasons for change, values, hopes, confidence, or what a successful outcome looks like. Change strategies ('host get-togethers,' 'SMART Recovery,' refusal scripts) are supplied by the counselor rather than elicited—even though Derrick himself offered the strongest ideas (cab money, the 'I'm driving' line). Derrick's crucial disclosure about isolation during sobriety, an open door to evoking his own solutions, was answered with a generic advice list. Minimal evocation throughout.
+
+---
+
+**Overall Global Ratings Score:** **2.8/5**
+
+This session is efficient, well-organized, and practically useful—Derrick leaves with a concrete legal checklist, refusal scripts, and next steps, and he reports feeling it was 'more useful than I figured.' However, as motivational interviewing it falls short. The counselor operates largely as a case manager: empathy and reflective listening are minimal, Derrick's emotional disclosures about loneliness, his breakup, and fear of social exclusion are bypassed in favor of bullet points, and nearly all content (statements, scripts, strategies) is counselor-generated rather than evoked. Sustain talk is not softened—it is actively incorporated into a court document minimizing the problem—and change talk, though plentiful from Derrick, is never deepened. Strengths: clear direction, permission-seeking, nonjudgmental tone, responsiveness to Derrick's edits. Priority improvements: (1) use complex reflections, especially for his isolation and ambivalence; (2) ask open questions that evoke his own reasons and confidence for change; (3) reinforce and deepen his change talk; (4) stop echoing minimization ('not an ongoing pattern') and gently develop discrepancy between 'just beer' and two DUIs at BAC 2.8; (5) co-create the plan so Derrick's expertise about his friendships shapes the strategy.

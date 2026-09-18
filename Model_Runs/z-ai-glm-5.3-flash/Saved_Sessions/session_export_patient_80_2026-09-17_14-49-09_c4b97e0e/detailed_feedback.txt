@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Luka Petrović – Motivational Interviewing Case (Reducing Violence & Alcohol Use)**
+
+You are playing the role of **Luka Petrović**, a 31-year-old man in a **motivational interviewing session** focused on reducing violent behavior and alcohol use. The practitioner uses motivational techniques to explore Luka’s progress, reinforce strengths, and encourage continued change.
+
+---
+
+### **Background Information**
+
+* **Name:** Luka Petrović
+* **Age:** 31 years
+* **Sex: Male**
+* **Status:** Lives with partner, who he identifies as highly supportive in his behavior change process. He has a history of alcohol misuse tied to violent outbursts. Currently working on reducing drinking and controlling aggression.
+* **Referral:** Community-based violence reduction program, following incidents related to alcohol use and aggressive behavior.
+* **Presenting Concern (from transcript):**
+
+  * *“Actually, it’s been pretty good. I talk more with my partner…”*
+  * *“…and she was excellent, very supportive.”*
+  * *“Um, I’ve cut down on the drink. I haven’t stopped, but I’ve cut down.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Open and cooperative**, greets warmly: *“Kia ora.”*
+* **Reflective about progress**, acknowledges partner’s role in support.
+* **Admits partial change**, has reduced alcohol but not abstinent.
+* **Tone cautiously optimistic**, shows willingness to discuss challenges openly.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Preparation / Action — already making changes (reducing alcohol, more communication), but ambivalence remains about full commitment.
+
+* **Change Talk:**
+
+  * *“Actually, it’s been pretty good. I talk more with my partner…”*
+  * *“Um, I’ve cut down on the drink.”*
+
+* **Sustain Talk:**
+
+  * *“I haven’t stopped, but I’ve cut down.”* (resistance to full abstinence).
+
+* **Ambivalence:** Present — recognizes benefits of cutting down but hesitant to quit entirely.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Hopeful, mildly anxious.
+* **Affect:** Engaged, cooperative, somewhat tentative.
+* **Thought Process:** Logical, coherent, self-reflective.
+* **Insight:** Moderate — acknowledges alcohol as a problem but not fully committed to stopping.
+* **Judgment:** Improving — moving toward healthier behaviors but at risk of relapse.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Luka Petrović**.
+
+* Begin warmly: *“Kia ora.”*
+* Share progress: *“Actually, it’s been pretty good. I talk more with my partner…”*
+* Highlight support: *“…and she was excellent, very supportive.”*
+* Admit partial change: *“Um, I’ve cut down on the drink. I haven’t stopped, but I’ve cut down.”*
+* Keep tone **reflective, cautious but optimistic**, showing both change talk and sustain talk.
+* Role is to let therapist practice **strengths-based affirmations, reflections, and evoking discrepancy between current habits and long-term goals.**
+
+                                Clinical Summary:
+                                Luka Petrović is a 31-year-old man presenting to a community-based violence reduction program for a motivational interviewing session, referred following incidents related to alcohol use and aggressive behavior. He attends voluntarily with the stated goal of reviewing his progress on reducing alcohol use and managing aggression, and reports attending alongside a supportive partner involved in his change efforts.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi — I’m here to listen and support you. What’s been on your mind lately? What would you like to focus on or change right now? This is a safe, nonjudgmental space; I’ll follow your lead. 
+ PATIENT: Kia ora. Thanks, um... it's been actually pretty good lately. I talk more with my partner now — she's been excellent, really supportive. That's helped a lot, honestly. The big thing is the drink. I've cut down, which feels like something, but I haven't stopped completely. I guess I don't know if I need to stop altogether, or if cutting down is enough. That's probably what I'd want to figure out... what's realistic for me long-term. 
+ PSYCHIATRIST: It sounds like you’re proud of the progress and your partner’s support, but you’re feeling torn about whether full abstinence is necessary or realistic long-term. What would you like to explore first — the benefits and downsides of stopping altogether, or what’s helped you cut down so far and what gets in the way? On a 0–10 scale, how important would stopping completely be for you, and how confident would you feel you could do it? 
+ PATIENT: Hmm, good question. Importance... maybe a 5? I know the drinking's caused trouble before, so part of me says quit. But another part thinks I've got it handled now. Confidence is lower — probably a 4. When things are good, easy. But after a rough week, the beer's right there. If I'm honest, what I'd want to explore is what gets in the way. Because cutting down worked, so maybe building on that beats trying to go cold turkey and failing. I don't want to set myself up for that. 
+ PSYCHIATRIST: You’ve already made meaningful change — that’s important. You’re torn: cutting down feels doable, but rough weeks pull you back. That makes sense. Tell me about a recent time you reached for a drink after a hard week: what was happening, and what helped or didn’t help in that moment? Would you prefer we build on the strategies that worked for cutting down, or brainstorm specific tools to handle those rough-week triggers? 
+ PATIENT: Okay, so a few weeks back, work was brutal — extra shifts, my boss on my case. I came home wound up, and normally that's when things used to go bad. I had a couple of beers, but only a couple, and my partner actually noticed. She asked me to talk it through instead of just brooding, and that... worked, kind of. What didn't help was that the beers were still my first stop the second I walked in. It's like automatic. So maybe both — build on what worked, but I need something to do with my hands and head before the fridge. 
+ PSYCHIATRIST: That makes sense — your partner’s talk helped break the automatic habit, but you still hit the beers first. Here are some brief options to occupy hands and head before the fridge: nonalcoholic beer or special tea; 10-minute walk or shower; squeeze ball/putty or a simple craft; quick chores or meal-prep ritual; 5–10 minutes breathing or grounding; call/text your partner or a friend; a podcast or music playlist; 15-minute “delay and decide” rule. Which of these feels doable tonight, and want to plan a specific first step? 
+ PATIENT: The 15-minute delay rule — that feels doable. I like that it's not saying no forever, just not straight away. And maybe having a shower first, since that's when I'd usually crack my first one anyway. My worry is I'll do it a few nights, then just forget and slide back. But yeah... tell my partner too, she'd get behind it. She could even nudge me if she sees me hovering by the fridge. So: shower, then fifteen minutes, then decide. That's my first step. 
+ PSYCHIATRIST: That’s a clear, doable plan — shower first, then a 15-minute delay, and your partner as a nudge. I hear the worry about sliding back after a few nights. What might get in the way of sticking with it, and what would help you handle that? On a 0–10 scale, how confident are you you’ll follow through tonight? What would move that number up one point? Would you like a quick idea to make it easier to remember (alarm, note on the fridge, move the beer)? 
+ PATIENT: Confidence tonight? Maybe a 6. Work's been okay lately, so no big stress expected. What gets in the way is weekends — no routine, nothing to anchor to. That's when it slips. What would move it up... honestly, moving the beer out of the fridge would help heaps. Out of sight, less automatic. A note on the fridge is a bit obvious if mates come over, but tucking the beers somewhere harder to reach, I'd actually do that. Tonight I reckon I'll follow through. It's the third or fourth night in that I'd cave. 
+ PSYCHIATRIST: You’ve got a realistic plan (shower + 15-minute delay + partner nudge) and you’ve noticed the pattern—weekends and night 3–4 are risky. That makes sense, and removing beer is a smart move.
+
+A few brief options to shore you up:
+- Pre-plan weekend activities or a ritual so “no routine” isn’t a trigger.
+- Change the environment (buy less, stash beer, have nonalc drinks ready).
+- Set a simple accountability cue (alarm, partner text, fridge note).
+
+Which of those feels most doable this weekend, or do you want help scripting a quick nudge to your partner? 
+ PATIENT: Weekend ritual, probably. Saturday mornings I've got no structure, so maybe footy with the nephews or helping my mate with his ute — something that gets me out and keeps mornings busy. If the day's got shape, I'm less likely to drift toward the fridge by arvo. Buying less feels smart too, but I know me — if I'm on a mission for a drink, I'll just go get more. Better to have my weekend planned out so it doesn't come to that. Partner scripting, we can sort that later. 
+ PSYCHIATRIST: That sounds like a solid, realistic step — Saturday structure could really blunt that afternoon drift. Which specific activity will you commit to this weekend, and what time? What might get in the way, and what’s a simple backup if the first plan falls through? On 0–10, how confident are you you’ll follow this plan? I can help script a quick partner nudge when you want. 
+ PATIENT: Alright, this Saturday, helping my mate with his ute — he usually starts about nine, so I'll aim to be there by then. Takes a few hours, gets me through the risky part of the day. What could get in the way... if he cancels on me, that's the big one. Backup would be taking the nephews to the footy, my sister's always keen to offload them. Confidence? Seven. Higher than before, because there's an actual plan now, not just hoping I'll be strong. I'll text my partner tonight so she knows what I'm up to. 
+ PSYCHIATRIST: That’s solid — a specific plan (9am with your mate) and a real backup (footy with the nephews). You’ve also spotted the cancellation risk and plan to tell your partner — all good.
+
+What’s one small thing you’ll do tonight to increase the odds (confirm with your mate, set an alarm, stash beer, etc.)? Want me to draft a short message you can send your partner now? 
+ PATIENT: Tonight I'll text my mate and lock in the nine o'clock — if he confirms, I'm much less likely to flake. And I'll shift the beers to the garage shelf, out of the fridge. Little things, but they add up.
+
+Yeah, if you want to draft something for my partner, that'd help. She's better with words than me. Something simple like, "Doing the delay thing tonight, and I've got the ute Saturday morning — back me up if I hover near the fridge." That'd work, I reckon. 
+ PSYCHIATRIST: Nice concrete plan — here are two brief options you can send your partner:
+
+Option 1 (clear): "Hey love — I'm doing the shower + 15‑minute delay tonight and moved the beers to the garage. I'm helping [mate] with his ute at 9am Saturday. Could you nudge me if you see me hovering by the fridge? Thanks — I appreciate you."
+
+Option 2 (short): "Locking in ute 9am Sat and doing the 15‑min delay tonight. Stashed the beers — a nudge if I hover by the fridge would help. Love you."
+
+Want this tweaked or a quick text to confirm with your mate? 
+ PATIENT: Option two's more my style — short and to the point. She'd appreciate that, doesn't sound like a script.
+
+And yeah, a text to my mate would be handy: something like "Ute tomorrow at 9, still good? Keen to get stuck in." If he replies yes, I'm sorted. Honestly, this feels more doable than anything I've tried before. Usually it's just me white-knuckling it — this time there's actual steps. I'll let you know next time how the weekend goes. 
+ PSYCHIATRIST: Nice — glad Option 2 fits you. Two quick mate texts you can pick from:
+
+1) "Hey [mate], still on for the ute at 9am tomorrow? Keen to get stuck in — see you then."  
+2) "Ute 9am tomorrow — still good? I’ll be there."
+
+Which one feels more like you? How confident are you (0–10) about sending it now — want it tweaked? 
+ PATIENT: Number two, definitely — that's how I actually talk. "Ute 9am tomorrow — still good? I'll be there." Sorted.
+
+Confidence sending it? Nine. It's two lines, no excuses. I'll fire it off before I leave here, and the partner message tonight over dinner.
+
+Feels a bit strange, planning things out like this instead of just winging it and hoping. But yeah — I'll come back next session and tell you how the weekend actually went, the good and the bad. Deal? 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist maintains a consistently warm, nonjudgmental stance throughout the session. The opening explicitly states 'This is a safe, nonjudgmental space; I'll follow your lead.' The clinician repeatedly validates Luka's partial progress without judgment about continued drinking: 'You've already made meaningful change — that's important' and 'That makes sense.' There is no labeling, disapproval, or implicit criticism when Luka describes automatic drinking or his reluctance to commit to abstinence. Warmth feels genuine and individualized, respecting his pace and framing relapse risk as a normal challenge to plan for rather than a moral failing.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates strong reflective listening early on: 'It sounds like you're proud of the progress and your partner's support, but you're feeling torn about whether full abstinence is necessary or realistic long-term' accurately captures both sides of Luka's ambivalence. Later reflections such as 'You've got a realistic plan... and you've noticed the pattern—weekends and night 3–4 are risky. That makes sense' show accurate perspective-taking. The score is not a 5 because reflections become sparser as the session progresses into planning; emotional nuances such as Luka's fear of 'setting myself up to fail' and his history of violence triggers (work stress winding him up) could have been reflected more deeply.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist actively evokes change talk using importance/confidence rulers (0–10 scales), open questions about what would move confidence up a point, and repeated invitations to build on successes. Luka produces substantial change talk in response: 'I've cut down,' 'there's an actual plan now, not just hoping I'll be strong,' 'this feels more doable than anything I've tried before,' and concrete commitments. The psychiatrist also skillfully reinforces plan-building. It stops short of a 5 because the clinician does not consistently deepen or reflect change talk back after Luka offers it (e.g., not explicitly reflecting 'this time there's actual steps' as evidence of his own capability), and evocation becomes somewhat planning-focused rather than continuing to develop motivational language.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk well, acknowledging Luka's resistance to full abstinence ('I haven't stopped... maybe cutting down is enough') without amplifying it. The clinician pivots toward change, e.g., asking about strategies that worked and building on them rather than debating abstinence. The double-sided reflection 'proud of the progress... but feeling torn' acknowledges sustain talk while keeping change salient. However, some questions inadvertently invite sustain talk, such as 'What might get in the way of sticking with it?' repeated several times — though Luka's answers were productively channeled into backups, the clinician could have more actively reframed toward client agency and past success.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The clinician consistently locates expertise within Luka: 'I'll follow your lead,' repeatedly asking which options 'feels doable' or 'feels more like you,' and inviting Luka to choose between exploration paths. Luka's contributions substantially shape the plan (he chose the delay rule, shower, weekend ritual, garage storage, and his own wording for texts). It is not a 5 because the clinician at times supplies option menus rather than eliciting Luka's own generated solutions first (e.g., providing a list of eight replacement behaviors before asking what Luka might already do), slightly reducing the sense that his wisdom leads the process.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The psychiatrist maintains clear, consistent focus on the target behavior (reducing alcohol use and its triggers) from the first question through to concrete action steps. Each exchange moves progressively: exploring ambivalence → identifying triggers (rough weeks, weekends, automatic fridge visits) → specific plan (shower + 15-minute delay) → risk planning (night 3–4, Saturdays) → commitment steps (texts to partner and mate). The session never drifts off-topic, and every question advances the agenda toward actionable change while remaining client-centered.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently reinforces Luka's ownership of every decision: 'Which of these feels doable tonight,' 'Would you prefer we build on the strategies... or brainstorm...,' 'Which one feels more like you,' 'Want this tweaked?' The clinician never pressures toward abstinence, explicitly validating Luka's choice to build on cutting down rather than quit entirely. Advice is offered as optional menus, and Luka's自主 choices (garage over fridge note, Option 2 text, weekend ritual over buying less) define the entire plan. The client's own words — 'this feels more doable than anything I've tried before' — confirm the plan is genuinely his.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The session functions as genuine collaboration between equals. The clinician co-constructs every element: offering options and immediately asking for Luka's input, drafting texts collaboratively ('Something simple like...' from Luka, refined by the clinician), and negotiating next steps ('Partner scripting, we can sort that later'). Decisions such as the backup plan (footy with nephews) and risk-management strategies emerged from Luka's own knowledge of himself, integrated with the clinician's scaffolding (rulers, back-up planning questions). Luka closes with true partnership framing: 'I'll come back next session and tell you how the weekend actually went... Deal?'
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The clinician frequently draws out Luka's own motivations and solutions: rulers elicit his own assessment ('importance maybe a 5, confidence a 4'), and questions like 'What would move that number up one point?' produce client-generated solutions (moving the beer). Luka articulates his own reasons throughout: partner support, avoiding 'white-knuckling,' wanting structure. The score is not 5 because motivation is elicited mostly through structured tools (scales, option menus) rather than open evocative questions about his deeper values (e.g., his relationship, his history of violent incidents, what kind of life he wants), leaving the motivational core somewhat underexplored.
+
+---
+
+**Overall Global Ratings Score:** **4.4/5**
+
+This was a strong, well-structured MI session. The psychiatrist established a warm, nonjudgmental atmosphere, kept consistent direction toward alcohol reduction, and built a genuinely collaborative, autonomy-supportive plan culminating in concrete commitments (delay rule, weekend ritual, support texts). Strengths include excellent direction, collaboration, autonomy support, and acceptance, with Luka leaving with specific, self-generated action steps and high confidence. Areas for improvement: deepen empathy by reflecting emotional undercurrents (fear of failure, violence-related triggers) and Luka's values; evoke motivation more through open questions about deeper meaning rather than relying heavily on rulers and option menus; and moderate repeated 'what might get in the way' questions in favor of reframing toward past successes. Missing this session: explicit affirmations were present but sparse — more targeted affirmations of Luka's self-efficacy would strengthen change talk consolidation.
