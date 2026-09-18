@@ -20,6 +20,8 @@ print_lock = Lock()
 
 import pandas as pd
 
+from langchain_core.messages import AIMessage
+
 # Import PsychotherapyAgent classes from modular version
 from PsychotherapyAgent import PsychotherapyMultiAgent, PsychotherapySingleAgent
 from utils.api_key_loader import load_openai_api_key
@@ -258,12 +260,34 @@ def run_test(patient_profile_path, therapist_profile_number,
     # Pass metadata to start_session
     session_result = lb.start_session(case_study=case, session_metadata=session_metadata)
 
-    # Run 10 exchanges between therapist and patient
-    for exchange_num in range(10):
-        # Both modes now use send_message() which handles therapist + patient response automatically
-        # Multi-agent: proposer/judge generates therapist response internally
-        # Single-agent: PsychotherapySingleAgent generates therapist response internally
+    # Run 10 exchanges between therapist and patient.
+    # We GUARANTEE a full 10-turn session by measuring the actual number of patient turns
+    # (AIMessage entries) in interview_messages after each send_message(), rather than trusting
+    # the loop iteration count. If a send_message() call fails to append a turn (transient
+    # proposer/judge/patient error), we keep calling it until 10 patient turns are recorded.
+    # A generous safety cap prevents an infinite loop on a persistently failing session.
+    TARGET_TURNS = 10
+    MAX_SEND_ATTEMPTS = 60  # hard cap: 10 turns x 6x margin for transient failures
+
+    def _count_patient_turns():
+        try:
+            state = lb.get_session_state()
+            msgs = state.get("interview_messages", []) or []
+            # Patient responses are AIMessage; therapist responses are HumanMessage.
+            return sum(1 for m in msgs if isinstance(m, AIMessage))
+        except Exception:
+            return 0
+
+    send_calls = 0
+    while _count_patient_turns() < TARGET_TURNS and send_calls < MAX_SEND_ATTEMPTS:
+        send_calls += 1
         session_result = lb.send_message()
+        current_turns = _count_patient_turns()
+        logging.info(f"Exchange send #{send_calls} -> {current_turns}/{TARGET_TURNS} patient turns recorded.")
+
+    if _count_patient_turns() < TARGET_TURNS:
+        logging.error(f"Session did not reach {TARGET_TURNS} turns after {MAX_SEND_ATTEMPTS} send attempts "
+                      f"(recorded {_count_patient_turns()}); proceeding with partial session.")
 
     # End session and get feedback
     session_result = lb.end_session()
