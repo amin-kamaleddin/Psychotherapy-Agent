@@ -219,8 +219,9 @@ Explanation:
         logging.info("Starting feedback evaluation phase.")
         
         # Validate and format required data
-        case_study = state.get("patient_context").get("case_study")
-        clinical_summary = state.get("patient_context").get("clinical_summary")
+        pc = state.get("patient_context") or {}
+        case_study = pc.get("case_study")
+        clinical_summary = pc.get("clinical_summary")
         interview_messages = state.get("interview_messages", [])
         presentation = state.get("presentation", [])
         
@@ -322,18 +323,40 @@ Explanation:
             
         except Exception as e:
             logging.exception("Structured LLM feedback generation failed, falling back to unstructured")
-            try:
-                # Fallback to unstructured if structured fails
-                response = self.llm_manager.llm_feedback.invoke(messages)
-                messages.append(response)
-                updates = {"feedback_messages": messages}
-                feedback_text = response.content.strip()
-                
-                # Remove example template if LLM included it in output
-                feedback_text = self._remove_example_from_feedback(feedback_text)
-            except Exception as e2:
-                logging.exception("Fallback LLM feedback generation also failed")
-                return {**state, "error_message": f"Failed to generate feedback: {str(e2)}"}
+            # Retry the unstructured fallback a couple of times so a transient failure does not
+            # drop the session's feedback entirely.
+            feedback_text = None
+            fallback_attempts = 3
+            for f_attempt in range(1, fallback_attempts + 1):
+                try:
+                    response = self.llm_manager.llm_feedback.invoke(messages)
+                    fallback_txt = response.content.strip()
+                    fallback_txt = self._remove_example_from_feedback(fallback_txt)
+                    if fallback_txt:
+                        feedback_text = fallback_txt
+                        feedback_msg = AIMessage(content=feedback_text)
+                        messages.append(feedback_msg)
+                        updates = {"feedback_messages": messages}
+                        logging.info(f"Unstructured feedback fallback produced output (attempt {f_attempt}).")
+                        break
+                except Exception as fe:
+                    logging.warning(f"Unstructured feedback fallback attempt {f_attempt}/{fallback_attempts} failed: {fe}")
+            if feedback_text is None:
+                # Truly no feedback could be generated. Guarantee feedback_messages is a NON-EMPTY
+                # list so _complete_session never receives None (which previously caused a
+                # 'NoneType' object is not iterable crash and lost the whole session). We save a
+                # clearly-marked placeholder so the session isn't lost, and surface the error.
+                logging.error("All feedback generation attempts failed after retries.")
+                placeholder = AIMessage(
+                    content="**Evaluation unavailable**: feedback generation failed after all retries. "
+                            "This session scored no numeric criteria."
+                )
+                messages.append(placeholder)
+                updates = {
+                    "feedback_messages": messages,
+                    "error_message": f"Failed to generate feedback after {fallback_attempts} fallback attempts.",
+                }
+                feedback_text = placeholder.content
         
         session_feedback = f"""
                             ## DETAILED CLINICAL EVALUATION
@@ -465,11 +488,15 @@ Generate a structured MI form with score (1-5) and brief comments for each of th
     def _complete_session(self, state: LBState):
         """Complete the session by saving all session data"""
         logging.info("Saving session data...")
-        
-        case_study = state.get("patient_context").get("case_study")
+
+        pc = state.get("patient_context") or {}
+        case_study = pc.get("case_study")
         mi = state.get("mi")
-        detailed_feedback = state.get("feedback_messages")
-        detailed_feedback = ' \n '.join(item.content for item in detailed_feedback)
+        detailed_feedback = state.get("feedback_messages") or []
+        # Guard against feedback_messages being None/empty so we never crash on iteration.
+        detailed_feedback = ' \n '.join(
+            getattr(item, 'content', str(item)) for item in detailed_feedback
+        ) if detailed_feedback else ""
         transcript = state.get("formatted_transcript")
         presentation = state.get("formatted_presentation")
         
