@@ -7,12 +7,35 @@ Handles message processing with optional multi-agent therapist system
 
 import logging
 import re
+from pydantic import BaseModel, Field
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
 
 from ..graph_state import LBState
 from ..utils import sanitize_for_logging
+
+
+class SelfSelectResult(BaseModel):
+    """Structured proposal: 3 candidate therapist responses + which the model chooses.
+
+    Using structured output removes the fragile text parsing of 'SELECTED RESULT:'
+    that some models (GLM / DeepSeek) failed to emit consistently, which caused
+    fallbacks to candidate #1.
+    """
+    response_1: str = Field(description="Candidate response 1 (empathic reflection)")
+    response_2: str = Field(description="Candidate response 2 (collaborative reflection plus question)")
+    response_3: str = Field(description="Candidate response 3 (warm reflection of change talk)")
+    selected_index: int = Field(ge=1, le=3, description="Index (1, 2, or 3) of the best candidate")
+
+
+class SelectionResult(BaseModel):
+    """Structured selection: the model picks an index from already-generated candidates.
+
+    Used as a retry/fallback so the LLM (not a hard-coded rule) makes the choice even when
+    the full self-select structured call failed to return JSON.
+    """
+    selected_index: int = Field(ge=1, le=3, description="Index (1, 2, or 3) of the best candidate")
 
 
 class MessageWorkflow:
@@ -186,23 +209,66 @@ class MessageWorkflow:
                       if patient_profile else []),
                     *conversation_history
                 ]
-                response = self.llm_manager.llm_therapist_proposer.invoke(messages)
-                response_text = response.content
+                # Single-call self-selection control: the ONE proposer call both generates the 3
+            # candidates AND picks the best one. The prompt lives in the CSV (5_Proposer_SelfSelect)
+            # so no selection text is hardcoded here. This is the true single-agent ablation
+            # (1 LLM call vs the full system's 2), so any performance gap cannot be attributed
+            # to model count or a separate judge role.
+            if self.selection_mode == "self":
+                # Build the same message structure as the normal proposer path, but use the
+                # dedicated single-call self-selection prompt from the CSV.
+                self_select_prompt = self.prompt_manager.load_therapist_prompt_from_csv(self.self_select_index)
+                logging.info(f"Loaded self-select prompt from CSV (index {self.self_select_index})")
 
-                # Robustly extract the chosen response. GLM/Qwen format the selection in
-                # several ways; try explicit RESULT tags first, then references to a candidate
-                # number, then fall back to parsed candidate #1.
-                selected_response = self._extract_selected_response(response_text, interview_messages)
+                messages = [
+                    SystemMessage(content=self_select_prompt),
+                    *([SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}")]
+                      if patient_profile else []),
+                    *conversation_history
+                ]
+
+                # First attempt: STRUCTURED OUTPUT so the model must return the 3 candidates plus a
+                # chosen index as typed fields. This removes the fragile 'SELECTED RESULT:' text
+                # parsing that some models (GLM / DeepSeek) did not reliably emit (causing fallbacks
+                # to candidate #1).
+                selected_response = None
+                candidates = []
+                try:
+                    structured_llm = self.llm_manager.llm_therapist_proposer.with_structured_output(SelfSelectResult)
+                    result = structured_llm.invoke(messages)
+                    candidates = [result.response_1, result.response_2, result.response_3]
+                    idx = max(1, min(3, getattr(result, 'selected_index', 1))) - 1
+                    selected_response = candidates[idx]
+                    logging.info("Self-selection (structured output) produced the chosen therapist response.")
+                except Exception as e:
+                    # Some models (e.g. GLM) ignore the structured-output contract and return plain
+                    # text ('RESPONSE 1: ...', 'Selected Response: ...') instead of JSON. Retry:
+                    # first re-invoke WITHOUT schema enforcement to recover the generated candidates,
+                    # then have the LLM explicitly choose among them. The selection is always made by
+                    # the model, never by a hard-coded rule.
+                    logging.warning(f"Self-selection structured output failed ({e}); retrying unstructured.")
+                    try:
+                        plain_result = self.llm_manager.llm_therapist_proposer.invoke(messages)
+                        raw_text = plain_result.content
+                        recovered = self._parse_candidate_responses(raw_text, interview_messages)
+                        # Prefer an explicit selection tag the model already emitted...
+                        selected = self._extract_selected_response(raw_text, interview_messages)
+                        candidates = recovered
+                        if selected:
+                            selected_response = selected
+                            logging.info("Self-selection (unstructured retry) recovered an explicit choice.")
+                        else:
+                            # ...otherwise ask the LLM to pick among the recovered candidates.
+                            selected_response, _ = self._llm_select_candidate(recovered, interview_messages)
+                            if selected_response:
+                                logging.info("Self-selection (unstructured retry + LLM pick) chosen.")
+                    except Exception as e2:
+                        logging.warning(f"Self-selection unstructured retry also failed ({e2}).")
 
                 if not selected_response:
-                    logging.warning("Could not parse self-selected result, using parsed candidate #1.")
-                    candidate_responses = self._parse_candidate_responses(response_text, interview_messages)
-                    selected_response = candidate_responses[0] if candidate_responses else "I understand. Can you tell me more?"
+                    logging.warning("No LLM-selected therapist response produced this turn.")
 
-                logging.info("Self-selection (single call) produced the chosen therapist response.")
-
-                # Parse candidates for logging (best effort)
-                _parsed_for_log = self._parse_candidate_responses(response_text, interview_messages)
+                _parsed_for_log = candidates or []
 
                 conversation_history = state.get("judge_proposer_conversation", [])
                 turn_number = sum(1 for msg in interview_messages if isinstance(msg, HumanMessage)) + 1
@@ -314,6 +380,39 @@ Generate exactly 3 different therapist responses. Format strictly as:
         
         # Keep only first 3
         return candidate_responses[:3]
+
+    def _llm_select_candidate(self, candidates: list, interview_messages: list):
+        """Ask the LLM to explicitly choose one of the already-generated candidates.
+
+        Used when the full self-select structured call failed to return JSON but we could
+        recover the 3 candidates from the raw text. The choice is made by the model (with a
+        structured-output schema), not by a hard-coded rule. Returns (selected_response, tried).
+
+        tried is True if a fresh LLM selection call was actually attempted/completed.
+        """
+        if len(candidates) < 3:
+            return None, False
+        try:
+            select_prompt = (
+                "You are selecting the best therapist response for the current turn.\n\n"
+                "Here are 3 candidate responses from the proposer:\n"
+                f"1. {candidates[0]}\n"
+                f"2. {candidates[1]}\n"
+                f"3. {candidates[2]}\n\n"
+                "Pick the one (index 1, 2, or 3) that is the most empathic, most aligned with "
+                "Motivational Interviewing, and most helpful for the patient right now."
+            )
+            select_messages = [
+                SystemMessage(content=select_prompt),
+                *interview_messages,
+            ]
+            select_llm = self.llm_manager.llm_therapist_proposer.with_structured_output(SelectionResult)
+            sel = select_llm.invoke(select_messages)
+            idx = max(1, min(3, getattr(sel, 'selected_index', 1))) - 1
+            return candidates[idx], True
+        except Exception as e:
+            logging.warning(f"LLM candidate selection failed ({e}).")
+            return None, True
 
     def _extract_selected_response(self, response_text: str, interview_messages: list):
         """Robustly extract the self-selected therapist response from a single-call proposal.
