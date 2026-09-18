@@ -189,11 +189,10 @@ class MessageWorkflow:
                 response = self.llm_manager.llm_therapist_proposer.invoke(messages)
                 response_text = response.content
 
-                # Try to extract the chosen response
-                selected_response = None
-                m = re.search(r'SELECTED RESULT:\s*(.*)', response_text, re.DOTALL | re.IGNORECASE)
-                if m:
-                    selected_response = m.group(1).strip()
+                # Robustly extract the chosen response. GLM/Qwen format the selection in
+                # several ways; try explicit RESULT tags first, then references to a candidate
+                # number, then fall back to parsed candidate #1.
+                selected_response = self._extract_selected_response(response_text, interview_messages)
 
                 if not selected_response:
                     logging.warning("Could not parse self-selected result, using parsed candidate #1.")
@@ -315,7 +314,53 @@ Generate exactly 3 different therapist responses. Format strictly as:
         
         # Keep only first 3
         return candidate_responses[:3]
-    
+
+    def _extract_selected_response(self, response_text: str, interview_messages: list):
+        """Robustly extract the self-selected therapist response from a single-call proposal.
+
+        Handles the formats observed across gpt-5-mini / Qwen / GLM:
+          1. Explicit '<tag>: <response>' result tags (SELECTED RESULT, Selected, Best response, etc.)
+          2. Reference to a candidate number ('Response 2 is best', 'Best response is 1', 'I choose 3')
+          3. None -> returns None so the caller falls back to candidate #1.
+
+        Returns:
+            The chosen response string, or None if no reliable selection is found.
+        """
+        candidates = self._parse_candidate_responses(response_text, interview_messages)
+
+        # 1) Explicit result tags carrying the verbatim chosen text.
+        for pattern in [
+            r'SELECTED RESULT\s*:\s*(.+)$',
+            r'Selected Response\s*:\s*(.+)$',
+            r'Best response\s*[:\-]\s*(.+)$',
+            r'Final Response\s*[:\-]\s*(.+)$',
+        ]:
+            m = re.search(pattern, response_text, re.IGNORECASE | re.DOTALL)
+            if m:
+                val = m.group(1).strip()
+                if val and len(val) > 5:
+                    return val
+
+        # 2) Reference to a candidate number (e.g. "Response 2 is best", "I choose 1").
+        if len(candidates) >= 1:
+            for pattern in [
+                r'Best response (?:is|:)\s*([123])\b',
+                r'Response ([123])\s+is\s+best',
+                r'(?:Selected|I select|I choose|choose)\s+(?:response\s*)?([123])\b',
+                r'^([123])\s*\)\s*$',
+            ]:
+                m = re.search(pattern, response_text, re.IGNORECASE | re.MULTILINE)
+                if m:
+                    idx = int(m.group(1)) - 1
+                    if 0 <= idx < len(candidates):
+                        return candidates[idx]
+
+        # 3) If exactly one candidate parsed cleanly and looks like a full sentence, prefer it.
+        if len(candidates) == 1 and len(candidates[0]) > 20:
+            return candidates[0]
+
+        return None
+
     def _judge_therapist_responses(self, state: LBState):
         """Judge agent selects the best response from 3 candidates."""
         logging.info("Therapist judge agent selecting best response...")
