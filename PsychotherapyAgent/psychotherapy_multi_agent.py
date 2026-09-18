@@ -116,53 +116,65 @@ class PsychotherapyMultiAgent:
         2. Judge selects the best response
         3. Patient responds to the selected therapist message
         
+        The exchange is RETRIED (up to a cap) until a full therapist+patient turn is actually
+        appended to interview_messages. This guarantees each call produces one turn, so sessions
+        never end up with fewer exchanges than the number of send_message calls (i.e. 10 turns).
+
         Args:
             user_input: Optional. In multi-agent mode, this should be None as the workflow
                        generates therapist responses automatically from conversation history.
-        
+
         Returns:
             Dictionary with patient response and session state
         """
         if not self.core.current_state or not self.core.current_state.get("session_active"):
             logging.error("No active session found.")
             return {"error": "No active session"}
-        
-        try:
-            # The multi-agent workflow expects interview_messages to contain the conversation history
-            # The last message should be the patient's previous response (or initial system message for first exchange)
-            # The workflow will: propose_responses → judge_responses → generate_response (patient)
-            
-            # Log state before invocation
-            interview_messages_before = self.core.current_state.get("interview_messages", [])
-            logging.info(f"Before workflow: interview_messages count = {len(interview_messages_before)}")
-            
-            result = self.message_graph.invoke(self.core.current_state)
-            
-            # Verify that patient response was generated
-            interview_messages_after = result.get("interview_messages", [])
-            logging.info(f"After workflow: interview_messages count = {len(interview_messages_after)}")
-            
-            if len(interview_messages_after) <= len(interview_messages_before):
-                logging.error(f"ERROR: Patient response not added! Before: {len(interview_messages_before)}, After: {len(interview_messages_after)}")
-                return {"error": "Patient response was not generated"}
-            
-            # Check that last message is from patient (AIMessage)
-            if interview_messages_after:
-                last_msg = interview_messages_after[-1]
-                if not isinstance(last_msg, AIMessage):
-                    logging.warning(f"Last message is not AIMessage (patient), it's {type(last_msg).__name__}")
-            
-            self.core.current_state = result
-            
-            return {
-                "ai_response": result.get("ai_response"),
-                "session_active": result.get("session_active", True),
-                "current_phase": "active_roleplay",
-                "chatlog": result.get("chatlog", [])
-            }
-        except Exception as e:
-            logging.error(f"Error processing message: {str(e)}", exc_info=True)
-            return {"error": str(e)}
+
+        max_attempts = 5  # hard cap so a persistently failing exchange eventually surfaces
+        last_error = None
+        for attempt in range(1, max_attempts + 1):
+            try:
+                # Log state before invocation
+                interview_messages_before = self.core.current_state.get("interview_messages", [])
+                logging.info(f"Before workflow (attempt {attempt}): interview_messages count = {len(interview_messages_before)}")
+
+                result = self.message_graph.invoke(self.core.current_state)
+
+                # Verify that patient response was generated
+                interview_messages_after = result.get("interview_messages", []) or []
+                logging.info(f"After workflow (attempt {attempt}): interview_messages count = {len(interview_messages_after)}")
+
+                if len(interview_messages_after) <= len(interview_messages_before):
+                    last_error = "Patient response was not generated (no turn appended)."
+                    logging.error(f"ERROR: Patient response not added! Before: {len(interview_messages_before)}, After: {len(interview_messages_after)} (attempt {attempt}/{max_attempts})")
+                    # Do NOT commit the failed result; retry the whole exchange from the same
+                    # (pre-iteration) state so the turn is not lost.
+                    continue
+
+                # Check that last message is from patient (AIMessage)
+                if interview_messages_after:
+                    last_msg = interview_messages_after[-1]
+                    if not isinstance(last_msg, AIMessage):
+                        logging.warning(f"Last message is not AIMessage (patient), it's {type(last_msg).__name__}")
+
+                # Commit the successful exchange
+                self.core.current_state = result
+
+                return {
+                    "ai_response": result.get("ai_response"),
+                    "session_active": result.get("session_active", True),
+                    "current_phase": "active_roleplay",
+                    "chatlog": result.get("chatlog", [])
+                }
+            except Exception as e:
+                last_error = str(e)
+                logging.error(f"Error processing message (attempt {attempt}/{max_attempts}): {str(e)}")
+                # Retry the exchange. current_state is unchanged because a failed invocation did not commit.
+
+        # All attempts failed to produce a turn.
+        logging.error(f"send_message failed to produce a turn after {max_attempts} attempts: {last_error}")
+        return {"error": last_error, "message_attempts": max_attempts}
     
     def add_presentation_message(self, user_input: str):
         """Add presentation message using core."""
