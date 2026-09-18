@@ -7,7 +7,8 @@ Handles message processing with optional multi-agent therapist system
 
 import logging
 import re
-from pydantic import BaseModel, Field
+from typing import Any
+from pydantic import BaseModel, Field, field_validator, model_validator
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
@@ -28,6 +29,105 @@ class SelfSelectResult(BaseModel):
     response_3: str = Field(description="Candidate response 3 (warm reflection of change talk)")
     selected_index: int = Field(ge=1, le=3, description="Index (1, 2, or 3) of the best candidate")
 
+    @classmethod
+    def _parse_response_blocks(cls, text: str) -> dict:
+        """Recover response_1/2/3 + selected_index from loose plain-text output.
+
+        Some models (GLM / DeepSeek) ignore the JSON/response_format contract and emit
+        prose like:
+
+            RESPONSE 1: ...
+            RESPONSE 2: ...
+            RESPONSE 3: ...
+            SELECTED RESULT: ...
+
+        or
+
+            1. ...
+            2. ...
+            3. ...
+            Best response is 2
+
+        This parser extracts the three candidate texts and, when possible, the chosen
+        index. It is a best-effort normalizer used by model_validator(mode='before').
+        """
+        resp_map = {}
+        # Match candidate blocks keyed by RESONSE N: / Response N: / bare "N."
+        pattern = re.compile(
+            r"(?:RESPONSE|Response|RESP)\s*(\d)\s*:\s*(.*?)(?=(?:RESPONSE|Response|RESP)\s*\d\s*:|(?:SELECTED\s*RESULT|Best\s*response|Selected\s+response|I\s+(?:choose|select)|Final\s+Response)[\s:]*| \d\s*[.\-:]\s*|\Z)",
+            re.DOTALL | re.IGNORECASE
+        )
+        for m in pattern.finditer(text):
+            idx = int(m.group(1))
+            val = m.group(2).strip()
+            if val:
+                resp_map[idx] = val
+
+        # Also handle the numbered-list format "1. text"
+        if len(resp_map) < 3:
+            for m in re.finditer(r"^\s*(\d)\s*[.\-:]\s*(.+?)(?=^\s*\d\s*[.\-:]|\Z)", text, re.M | re.DOTALL):
+                idx = int(m.group(1))
+                if idx not in resp_map:
+                    resp_map[idx] = m.group(2).strip()
+
+        # Extract a chosen index from selection markers (allow an optional RESPONSE between
+        # the marker and the digit, e.g. "SELECTED RESULT: RESPONSE 2" or "Best response: 1").
+        sel_idx = None
+        for m in re.finditer(
+            r"(?:SELECTED\s*RESULT|Selected\s+response|Best\s+response|Final\s+Response)[\s:]*\s*(?:response\s*)?([123])\b",
+            text, re.IGNORECASE
+        ):
+            sel_idx = int(m.group(1))
+            break
+        if sel_idx is None:
+            for m in re.finditer(
+                r"(?:is\s+response\s*([123])|response\s*([123])\s+is\s+best|i\s+(?:choose|select)\s+(?:response\s*)?([123]))\b",
+                text, re.IGNORECASE
+            ):
+                sel_idx = int(m.group(1) or m.group(2) or m.group(3))
+                break
+
+        data = {}
+        for i in (1, 2, 3):
+            if i in resp_map:
+                data[f"response_{i}"] = resp_map[i]
+        if sel_idx is not None:
+            data["selected_index"] = sel_idx
+        return data
+
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce_messy_input(cls, data: Any) -> Any:
+        # If the model returned a JSON dict, just sanitize the field types.
+        if isinstance(data, dict):
+            # coerce selected_index that may arrive as a string ("2") or "Response 2"
+            if "selected_index" in data and not isinstance(data["selected_index"], int):
+                v = str(data["selected_index"])
+                m = re.search(r"([123])", v)
+                data["selected_index"] = int(m.group(1)) if m else data.get("selected_index")
+            elif "selected_index" not in data:
+                # Some models omit selected_index entirely; default to 1 so the
+                # structured call still succeeds and avoids a wasted retry round.
+                data["selected_index"] = 1
+            return data
+
+        # If the model returned plain text, try to parse the RESPONSE N: blocks.
+        # Only accept if we recovered all three responses AND a chosen index — otherwise
+        # the output is genuinely unusable and we let Pydantic raise so the calling
+        # retry logic re-invokes the exchange.
+        if isinstance(data, str):
+            parsed = cls._parse_response_blocks(data)
+            if (
+                parsed
+                and all(parsed.get(f"response_{i}") for i in (1, 2, 3))
+                and 1 <= parsed.get("selected_index", 0) <= 3
+            ):
+                return parsed
+            return data
+
+        # Give up and let Pydantic raise -> the calling retry logic handles it.
+        return data
+
 
 class SelectionResult(BaseModel):
     """Structured selection: the model picks an index from already-generated candidates.
@@ -36,6 +136,15 @@ class SelectionResult(BaseModel):
     the full self-select structured call failed to return JSON.
     """
     selected_index: int = Field(ge=1, le=3, description="Index (1, 2, or 3) of the best candidate")
+
+    @field_validator("selected_index", mode="before")
+    @classmethod
+    def _coerce_index(cls, v: Any) -> Any:
+        # Model may return the choice as int (2), string ("2"), or even "Response 2".
+        if isinstance(v, int):
+            return v
+        m = re.search(r"([123])", str(v))
+        return int(m.group(1)) if m else 1
 
 
 class MessageWorkflow:
