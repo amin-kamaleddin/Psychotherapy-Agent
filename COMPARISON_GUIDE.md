@@ -276,19 +276,16 @@ Stored in `Session_Metadata/` directory:
 
 ### Step 3: Analyze Comparison
 
-The comparison CSV includes:
+The comparison CSV (`comparison_results.csv`) includes:
 
 - **Category**: Evaluation category (Empathy, Acceptance, etc.)
 - `Simple_Mean` / `Simple_Std`: Score statistics for simple mode
 - `TrainedAgent_Mean` / `TrainedAgent_Std`: Score statistics for trained agent mode
 - `Complex_Mean` / `Complex_Std`: Score statistics for complex mode
 - `MultiAgent_Mean` / `MultiAgent_Std`: Score statistics for multi-agent mode
+- `ProposerOnly_Mean` / `ProposerOnly_Std`: Score statistics for proposer-only mode
 - `Best_Mode`: Which mode performed best for this category
-- `Simple_vs_TrainedAgent`: Difference (Trained Agent - Simple)
-- `Simple_vs_Complex`: Difference (Complex - Simple)
-- `Simple_vs_MultiAgent`: Difference (Multi-Agent - Simple)
-- `TrainedAgent_vs_Complex`: Difference (Complex - Trained Agent)
-- `Complex_vs_MultiAgent`: Difference (Multi-Agent - Complex)
+- `{ModeA}_vs_{ModeB}`: Mean difference (`ModeB - ModeA`) for each of the C(5,2)=10 mode pairs
 
 ## Evaluation Categories
 
