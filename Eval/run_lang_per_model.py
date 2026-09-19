@@ -1,5 +1,5 @@
 """Run lsm_analysis / sentiment_analysis / word_analysis per model with PSYCH_MODEL set,
-producing model-tagged outputs, then average them across models.
+producing model-tagged per-patient outputs.
 
 Usage:
     python Eval/run_lang_per_model.py --models gpt-5-mini qwen/qwen3.8-27b z-ai/glm-5.3-flash
@@ -37,11 +37,6 @@ def main():
             print(r.stdout[-1200:])
             if r.returncode != 0:
                 print('  [stderr]', r.stderr[-600:])
-
-    # After per-model generation, average.
-    print('\n\n========== AVERAGING ACROSS MODELS ==========')
-    tags = [models_map[m][2] for m in args.models if m in models_map]
-    subprocess.run([sys.executable, 'Eval/average_lang_metrics.py'] + ['--models'] + tags)
 
 
 if __name__ == '__main__':

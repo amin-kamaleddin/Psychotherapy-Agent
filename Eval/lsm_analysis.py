@@ -372,7 +372,18 @@ def main():
                     'avg_lsm': round(avg_lsm, 3)
                 })
     
-    # 4. Aggregate by Therapist Mode and Turn (Average across sessions)
+    # 4. Save the per-patient LSM (needed for per-patient distribution plots).
+    #    Keeps patient_id so plot_metrics can draw patient-level distributions pooled
+    #    across models, instead of only the aggregated mean/std.
+    if final_rows:
+        pdf = pd.DataFrame(final_rows)
+        model_tag = os.getenv("PSYCH_MODEL", "")
+        prefix = f"{model_tag}_" if model_tag else ""
+        pat_csv = os.path.join(CSV_DIR, f'{prefix}lsm_per_patient.csv')
+        pdf.to_csv(pat_csv, index=False)
+        print(f"Saved per-patient LSM to {pat_csv} ({len(pdf)} rows)")
+
+    # 5. Aggregate by Therapist Mode and Turn (Average across sessions)
     if final_rows:
         df = pd.DataFrame(final_rows)
         print("\nCalculated average LSM by Therapist Mode and Turn:")

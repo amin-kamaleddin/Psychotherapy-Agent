@@ -66,28 +66,35 @@ All 133 patients → Stage 2: Mean = 3.87, Std = 0.33
 
 This approach provides **more stable and reliable comparisons** between modes.
 
-## Cross-Model Aggregation (Averaging Across Models)
+## Multi-Model Analysis (Pooling Per-Patient Values Across Models)
 
-When comparing **multiple models** (e.g. `gpt-5-mini`, `qwen/qwen3.8-27b`, `z-ai/glm-5.3-flash`), results are averaged **across models** so that one set of curves/metrics represents the aggregate of all models. Each model contributes **equal weight** $\frac{1}{N}$ (no weighting by fold count).
+When comparing **multiple models** (e.g. `gpt-5-mini`, `qwen/qwen3.8-27b`, `z-ai/glm-5.3-flash`), each model independently scores the same **133 patients** across all 5 modes. The analysis and plots therefore **pool the per-patient values from all models** into a single per-mode distribution — each patient contributes one value per model (so up to $133 \times M$ observations per mode), preserving patient-level variability instead of collapsing to a 3-model mean.
 
 Workflow:
-1. Run `feedback_analysis.py`, `lsm_analysis.py`, `word_analysis.py`, `sentiment_analysis.py` **per model** with `PSYCH_MODEL` set, producing model-tagged CSV outputs.
-2. Run `average_across_models.py` (feedback scores) and `average_lang_metrics.py` (LSM / sentiment / word).
+1. Run `feedback_analysis.py`, `lsm_analysis.py`, `word_analysis.py`, `sentiment_analysis.py` **per model** with `PSYCH_MODEL` set, producing model-tagged per-patient CSVs.
+2. Run `plot_metrics.py`, which loads the per-model per-patient files directly and pools them for the plots.
 
-The averaging helpers are pure arithmetic means of the per-model per-cell values. **Notation:** $M = 3$ models, $N_{mode}$ = patients in a mode, $\text{turn}_k$ = the $k$-th therapist–patient turn.
+The pooling is a pure aggregation of the per-patient values across models. **Notation:** $M$ = number of models, $N_{mode}$ = patients in a mode, $n = N_{mode} \times M$ = pooled per-mode observations, $\text{turn}_k$ = the $k$-th therapist–patient turn.
 
-### Feedback Scores (`average_across_models.py`)
+For every per-turn metric, the pooled mean and standard error across the $n$ per-patient observations are:
 
-Each model outputs per-`(patient_id, therapist_mode, criterion)` scores. The averaged score for a given (patient, mode, criterion) is:
+$$\overline{X}_k = \frac{1}{n}\sum_{p=1}^{n} X_{p,k}
+\qquad \mathrm{SE}_k = \frac{\mathrm{std}(X_{*,k})}{\sqrt{n}}$$
 
-$$\mathrm{avgscore} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{score}^{(j)}$$
+The shaded bands and error bars in the plots show $\overline{X}_k \pm \mathrm{SE}_k$.
 
-Per-mode summary (population statistics across patients):
+### Feedback Scores (handled separately via `average_across_models.py`)
+
+The MI feedback chart is the one exception: it uses `average_across_models.py`, which averages the **per-patient score** across models for each `(patient_id, therapist_mode, criterion)` before computing population statistics, rather than pooling per-patient values:
+
+$$\mathrm{avgscore}_{p} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{score}^{(j)}_{p}$$
+
+Per-mode summary across patients:
 
 $$\overline{X} = \frac{1}{N_{mode}}\sum_{p=1}^{N_{mode}} \mathrm{avgscore}_p
 \qquad \mathrm{std} = \sqrt{\tfrac{1}{N_{mode}-1}\sum_{p}(\mathrm{avgscore}_p - \overline{X})^2}$$
 
-### LSM (`average_lang_metrics.py` → `avg_lsm`)
+### LSM (`lsm_analysis.py` → `<model>_lsm_per_patient.csv`)
 
 **Per-turn LSM score** (counselor vs client utterance at turn $k$), across $C$ word categories:
 
@@ -97,43 +104,47 @@ where $p_{1,c}$ is the proportion of category-$c$ words in the counselor's utter
 
 **Cumulative per-patient** value at turn $k$ (running mean over all turns $\le k$):
 
-$$\mathrm{avglsm}_{k} = \frac{1}{k}\sum_{i=1}^{k} LSM_i$$
+$$\mathrm{avglsm}_{p,k} = \frac{1}{k}\sum_{i=1}^{k} LSM_{p,i}$$
 
-**Cross-model average** for each `(therapist_mode, turn_number)`:
+**Pooled plot curve** across models, per `(therapist_mode, turn_number)`:
 
-$$\overline{\text{LSM}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{avglsm}^{(j)}_{k}$$
+$$\overline{\text{LSM}}_{k} = \frac{1}{n}\sum_{p=1}^{n} \mathrm{avglsm}_{p,k}, \qquad
+\mathrm{SE}_k = \frac{\mathrm{std}_p(\mathrm{avglsm}_{p,k})}{\sqrt{n}}$$
 
-### Word Metrics (`average_lang_metrics.py` → `avg_word`)
+### Word Metrics (`word_analysis.py` → `<model>_words_per_patient.csv`)
 
 **Per-turn cumulative running average** of words per turn (counselor $c$ and client $cl$):
 
-$$\mathrm{caccavg}_k = \frac{T^c_k}{n^c_k}, \qquad \mathrm{claccavg}_k = \frac{T^{cl}_k}{n^{cl}_k}$$
+$$\mathrm{caccavg}_{p,k} = \frac{T^c_{p,k}}{n^c_{p,k}}, \qquad \mathrm{claccavg}_{p,k} = \frac{T^{cl}_{p,k}}{n^{cl}_{p,k}}$$
 
-where $T_k$ = cumulative word count and $n_k$ = number of turns up to turn $k$.
+where $T_{p,k}$ = cumulative word count for patient $p$ and $n_k$ = number of turns up to turn $k$.
 
 **Counselor:client ratio** (accumulated words):
 
-$$r_k = \frac{T^c_k}{T^{cl}_k} \quad (0 \text{ if } T^{cl}_k = 0)$$
+$$r_{p,k} = \frac{T^c_{p,k}}{T^{cl}_{p,k}} \quad (0 \text{ if } T^{cl}_{p,k} = 0)$$
 
-**Cross-model average** for each `(therapist_mode, turn)`, per numeric column $X$:
+**Pooled plot curve** across models, per `(therapist_mode, turn)`:
 
-$$\overline{X}_{k} = \frac{1}{M}\sum_{j=1}^{M} X^{(j)}_{k}$$
+$$\overline{X}_{k} = \frac{1}{n}\sum_{p=1}^{n} X_{p,k}, \qquad
+\mathrm{SE}_k = \frac{\mathrm{std}_p(X_{p,k})}{\sqrt{n}}$$
 
-### Sentiment (`average_lang_metrics.py` → `avg_sentiment`)
+### Sentiment (`sentiment_analysis.py` → `<model>_sentiment_dataset_by_turn.csv`)
 
-**Per-turn cumulative proportions** (positive / neutral / negative), counting sentiment classifications up to turn $k$:
+**Per-patient cumulative proportions** (positive / neutral / negative), counting sentiment classifications up to turn $k$:
 
-$$\mathrm{proppos}_k = \frac{\sum_{i=1}^{k} \mathrm{pos}_i}{\sum_{i=1}^{k} n_i}, \quad
-\mathrm{propneu}_k = \frac{\sum_{i=1}^{k} \mathrm{neu}_i}{\sum_{i=1}^{k} n_i}, \quad
-\mathrm{propneg}_k = \frac{\sum_{i=1}^{k} \mathrm{neg}_i}{\sum_{i=1}^{k} n_i}$$
+$$\mathrm{proppos}_{p,k} = \frac{\sum_{i=1}^{k} \mathrm{pos}_{p,i}}{\sum_{i=1}^{k} n_{p,i}}, \quad
+\mathrm{propneu}_{p,k} = \frac{\sum_{i=1}^{k} \mathrm{neu}_{p,i}}{\sum_{i=1}^{k} n_{p,i}}, \quad
+\mathrm{propneg}_{p,k} = \frac{\sum_{i=1}^{k} \mathrm{neg}_{p,i}}{\sum_{i=1}^{k} n_{p,i}}$$
 
-where $\text{pos}_i$ = number of turns classified positive at turn $i$, and $n_i$ = turns at turn $i$. Note $\mathrm{proppos}_k + \mathrm{propneu}_k + \mathrm{propneg}_k = 1$.
+Note $\mathrm{proppos}_{p,k} + \mathrm{propneu}_{p,k} + \mathrm{propneg}_{p,k} = 1$.
 
-**Cross-model average** for each `(therapist_mode, turn_number)`:
+- **Distribution plot** (turn 10): a **box-and-whisker** plot pooling the per-patient proportions across all models.
+- **Positive-sentiment-over-time plot**: per-turn pooled means with SEM error bars:
 
-$$\overline{\mathrm{proppos}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{proppos}^{(j)}_{k} \ (\text{same for } neu,\ neg)$$
+$$\overline{\mathrm{proppos}}_{k} = \frac{1}{n}\sum_{p=1}^{n} \mathrm{proppos}_{p,k}, \qquad
+\mathrm{SE}_k = \frac{\mathrm{std}_p(\mathrm{proppos}_{p,k})}{\sqrt{n}}$$
 
-> **Summary:** every cross-model average is an arithmetic mean $\frac{1}{M}\sum_j (\cdot)^{(j)}$ over the 3 models, computed **after** the per-model fold-averaging (Stage 1) and per-patient averaging.
+> **Summary:** every plot metric is an arithmetic mean (and SE) over the pooled per-patient observations from all models, computed **after** the per-model fold-averaging (Stage 1) and per-patient averaging. There is no separate cross-model averaged CSV — the plots aggregate the per-model per-patient files directly.
 
 ## Evaluation Script Commands
 
@@ -237,13 +248,13 @@ Stored in `Session_Metadata/` directory:
 - `{run_id}_complex_patients_{start}_{end}_fold{N}_{timestamp}/`
 - `{run_id}_multi_agent_patients_{start}_{end}_fold{N}_{timestamp}/`
 
-**Evaluation Results** (in `Eval/csv/` directory):
+**Evaluation Results** (in `Eval/csv/` directory, per model when `PSYCH_MODEL` is set):
 - `feedback_scores_by_criterion.csv` - Per-patient scores (133 patients × 5 modes)
 - `feedback_metrics_{mode}.csv` - Aggregated statistics per mode
-- `sentiment_dataset_by_turn.csv` - Sentiment analysis per turn
-- `lsm_metrics_{mode}.csv` - Language Style Matching scores
-- `metrics_output_{mode}.csv` - Word count and ratio metrics
-- `comparison_results.csv` - Four-way comparison summary
+- `{model}_sentiment_dataset_by_turn.csv` - Per-patient sentiment by turn (pooled in plots)
+- `{model}_lsm_per_patient.csv` - Per-patient LSM scores per turn
+- `{model}_words_per_patient.csv` - Per-patient word count and ratio per turn
+- `comparison_results.csv` - Five-way comparison summary
 - `friedman_test_results.csv` - Statistical significance tests
 - `wilcoxon_test_{mode1}_vs_{mode2}.csv` - Pairwise comparisons
 
@@ -253,6 +264,7 @@ Stored in `Session_Metadata/` directory:
 - `client_words_per_turn.png`
 - `word_ratio.png`
 - `sentiment_distribution.png`
+- `positive_sentiment_over_time.png`
 - `lsm_over_time.png`
 
 ### Step 3: Analyze Comparison
@@ -289,11 +301,11 @@ The system evaluates on these MI (Motivational Interviewing) criteria:
 ## Example Output
 
 ```
-FOUR-WAY COMPARISON SUMMARY
+FIVE-WAY COMPARISON SUMMARY
 ================================================================================
-Category                  Simple_Mean  TrainedAgent_Mean  Complex_Mean  MultiAgent_Mean  Best_Mode
-Cultivating Change Talk   3.2          3.4                3.5           3.7              Multi-Agent
-Empathy                   3.5          3.6                3.7           3.9              Multi-Agent
+Category                  Simple_Mean  TrainedAgent_Mean  Complex_Mean  ProposerOnly_Mean  MultiAgent_Mean  Best_Mode
+Cultivating Change Talk   3.2          3.4                3.5           3.6                3.7              Multi-Agent
+Empathy                   3.5          3.6                3.7           3.8                3.9              Multi-Agent
 ```
 
 ## Best Practices

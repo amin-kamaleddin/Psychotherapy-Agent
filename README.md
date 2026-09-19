@@ -184,7 +184,8 @@ Psychotherapy-Agent/
 │   ├── sentiment_analysis.py    # Turn-level sentiment
 │   ├── lsm_analysis.py          # Linguistic style matching
 │   ├── word_analysis.py         # Word count metrics
-│   ├── plot_metrics.py          # Visualization generation
+│   ├── run_lang_per_model.py    # Run LSM/sentiment/word per model (model-tagged per-patient CSVs)
+│   ├── plot_metrics.py          # Visualization generation (per-patient, pooled across models)
 │   ├── feedback_statistical_test.py  # Statistical tests
 │   ├── csv/                     # Generated metrics (after evaluation)
 │   └── plots/                   # Generated visualizations
@@ -193,7 +194,6 @@ Psychotherapy-Agent/
 ├── run_automated_test.py        # Main experiment runner
 ├── requirements.txt             # Python dependencies
 └── COMPARISON_GUIDE.md          # Detailed comparison methodology
-
 ```
 
 ## Configuration
@@ -261,19 +261,20 @@ After running experiments, you'll find:
 ### Aggregated Results (`Eval/csv/`)
 - `feedback_scores_by_criterion.csv`: Per-patient MI scores
 - `feedback_metrics_{mode}.csv`: Aggregated statistics per mode
-- `sentiment_dataset_by_turn.csv`: Turn-level sentiment data
-- `lsm_metrics_{mode}.csv`: Language style matching scores
-- `metrics_output_{mode}.csv`: Word count and ratio metrics
-- `friedman_test_results.csv`: Three-way statistical tests
+- `{model}_sentiment_dataset_by_turn.csv`: Per-patient turn-level sentiment
+- `{model}_lsm_per_patient.csv`: Per-patient language style matching scores
+- `{model}_words_per_patient.csv`: Per-patient word count and ratio metrics
+- `friedman_test_results.csv`: Five-way statistical tests
 - `wilcoxon_test_{mode1}_vs_{mode2}.csv`: Pairwise comparisons
 
 ### Visualizations (`Eval/plots/`)
 - `feedback_scores_by_criterion.png`: MI criteria comparison
-- `counselor_words_per_turn.png`: Therapist verbosity
-- `client_words_per_turn.png`: Patient engagement
-- `word_ratio.png`: Communication balance
-- `sentiment_distribution.png`: Emotional tone analysis
-- `lsm_over_time.png`: Language coordination trends
+- `counselor_words_per_turn.png`: Therapist verbosity (per-patient mean ± SE)
+- `client_words_per_turn.png`: Patient engagement (per-patient mean ± SE)
+- `word_ratio.png`: Communication balance (per-patient mean ± SE)
+- `sentiment_distribution.png`: Emotional tone box plot (per-patient, pooled across models)
+- `positive_sentiment_over_time.png`: Positive sentiment trajectory
+- `lsm_over_time.png`: Language coordination trends (per-patient mean ± SE)
 
 ## Two-Stage Aggregation
 
@@ -299,6 +300,10 @@ All 133 patients → Stage 2: Population mean = 3.87, std = 0.33
 ```
 
 This approach provides more reliable comparisons with reduced variance.
+
+### Multi-Model Pooling (Linguistic & Sentiment Plots)
+
+The linguistic (LSM, word count/ratio) and sentiment analyses are run **per model** (with `PSYCH_MODEL` set), producing model-tagged per-patient CSVs (e.g. `{model}_lsm_per_patient.csv`, `{model}_words_per_patient.csv`, `{model}_sentiment_dataset_by_turn.csv`). Because the same 133 patients are scored by every model, `plot_metrics.py` **pools the per-patient values from all models** into a single per-mode distribution and plots the pooled mean ± standard error (`SE = std/√n`, with $n$ = pooled patient-observations). This preserves patient-level variability rather than collapsing to a cross-model mean. See `COMPARISON_GUIDE.md` for the full formulas.
 
 ## Programmatic Usage
 

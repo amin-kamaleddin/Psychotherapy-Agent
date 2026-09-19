@@ -38,20 +38,23 @@ PLOTS_DIR = os.path.join(SCRIPT_DIR, 'plots')
 os.makedirs(CSV_DIR, exist_ok=True)
 os.makedirs(PLOTS_DIR, exist_ok=True)
 
-SIMPLE_CSV = os.path.join(CSV_DIR, 'metrics_output_simple.csv')
-COMPLEX_CSV = os.path.join(CSV_DIR, 'metrics_output_complex.csv')
-MULTI_AGENT_CSV = os.path.join(CSV_DIR, 'metrics_output_multi_agent.csv')
-TRAINED_AGENT_CSV = os.path.join(CSV_DIR, 'metrics_output_trained_agent.csv')
-PROPOSER_ONLY_CSV = os.path.join(CSV_DIR, 'metrics_output_proposer_only.csv')
-SENTIMENT_CSV = os.path.join(CSV_DIR, 'sentiment_dataset_by_turn.csv')
 FEEDBACK_CSV = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
-LSM_CSV = {
-    'simple': os.path.join(CSV_DIR, 'lsm_metrics_simple.csv'),
-    'trained_agent': os.path.join(CSV_DIR, 'lsm_metrics_trained_agent.csv'),
-    'complex': os.path.join(CSV_DIR, 'lsm_metrics_complex.csv'),
-    'multi_agent': os.path.join(CSV_DIR, 'lsm_metrics_multi_agent.csv'),
-    'proposer_only': os.path.join(CSV_DIR, 'lsm_metrics_proposer_only.csv'),
-}
+# Per-model per-patient sentiment files (source of per-patient values for the box plot).
+# The same 133 patients are scored by each model, so the box plot pools the per-patient
+# proportions across all models (maintaining patient-level distributional info).
+MODEL_SENTIMENT_CSVS = [
+    os.path.join(CSV_DIR, f'{m}_sentiment_dataset_by_turn.csv')
+    for m in ['gpt-5-mini', 'qwen-qwen3.8-27b', 'z-ai-glm-5.3-flash']
+]
+# Per-model per-patient LSM / word files (sources of per-patient values). The same
+# patients are scored by each model, so plots pool the patient-level values across models.
+MODEL_NAMES = ['gpt-5-mini', 'qwen-qwen3.8-27b', 'z-ai-glm-5.3-flash']
+MODEL_LSM_PER_PATIENT = [
+    os.path.join(CSV_DIR, f'{m}_lsm_per_patient.csv') for m in MODEL_NAMES
+]
+MODEL_WORDS_PER_PATIENT = [
+    os.path.join(CSV_DIR, f'{m}_words_per_patient.csv') for m in MODEL_NAMES
+]
 
 # Mode labels
 MODE_LABELS = {
@@ -90,45 +93,40 @@ MARKERS = {
 ALL_MODES = ['simple', 'trained_agent', 'complex', 'proposer_only', 'multi_agent']
 
 
-def load_data():
-    """Load all mode CSV files (simple, trained_agent, complex, multi_agent, proposer_only)."""
-    data = {}
-    
-    for mode, filepath in [('simple', SIMPLE_CSV), ('trained_agent', TRAINED_AGENT_CSV),
-                           ('complex', COMPLEX_CSV), ('multi_agent', MULTI_AGENT_CSV),
-                           ('proposer_only', PROPOSER_ONLY_CSV)]:
-        if os.path.exists(filepath):
-            df = pd.read_csv(filepath)
-            data[mode] = df
-            print(f"Loaded {mode}: {len(df)} rows")
+def load_per_patient_lsm():
+    """Load and concatenate per-patient LSM values across models.
+
+    Returns a long DataFrame with columns patient_id, therapist_mode, turn_number,
+    avg_lsm containing one row per patient per model per turn. If unavailable, returns None.
+    """
+    frames = []
+    for path in MODEL_LSM_PER_PATIENT:
+        if os.path.exists(path):
+            df = pd.read_csv(path)
+            frames.append(df)
         else:
-            print(f"Warning: {filepath} not found")
-    
-    return data
-
-
-def load_sentiment_data():
-    """Load sentiment dataset."""
-    if os.path.exists(SENTIMENT_CSV):
-        df = pd.read_csv(SENTIMENT_CSV)
-        print(f"Loaded sentiment data: {len(df)} rows")
-        return df
-    else:
-        print(f"Warning: {SENTIMENT_CSV} not found")
+            print(f"Warning: {path} not found (per-patient LSM)")
+    if not frames:
         return None
+    return pd.concat(frames, ignore_index=True)
 
 
-def load_lsm_data():
-    """Load LSM metrics for each mode."""
-    data = {}
-    for mode, filepath in LSM_CSV.items():
-        if os.path.exists(filepath):
-            df = pd.read_csv(filepath)
-            data[mode] = df
-            print(f"Loaded LSM {mode}: {len(df)} rows")
+def load_per_patient_words():
+    """Load and concatenate per-patient word-metric values across models.
+
+    Returns a long DataFrame with columns patient_id, therapist_mode, Turn_Pair,
+    counselor, client, ratio. If unavailable, returns None.
+    """
+    frames = []
+    for path in MODEL_WORDS_PER_PATIENT:
+        if os.path.exists(path):
+            df = pd.read_csv(path)
+            frames.append(df)
         else:
-            print(f"Warning: {filepath} not found")
-    return data
+            print(f"Warning: {path} not found (per-patient words)")
+    if not frames:
+        return None
+    return pd.concat(frames, ignore_index=True)
 
 
 def load_feedback_data():
@@ -142,208 +140,169 @@ def load_feedback_data():
         return None
 
 
-def convert_turn_to_percentage(df):
-    """Convert turn numbers to percentage of conversation."""
-    max_turn = df['Turn_Pair'].max()
-    df['Percent'] = (df['Turn_Pair'] / max_turn) * 100
-    return df
+def _patient_curve(df_pat, mode, turn_col, val_col, max_turn):
+    """Compute per-turn mean and standard error of a per-patient value for a mode,
+    pooling patients across all models. Returns (x, mean, se)."""
+    sub = df_pat[df_pat['therapist_mode'] == mode]
+    turns = sorted(sub[turn_col].unique())
+    xs, means, ses = [], [], []
+    for t in turns:
+        vals = sub[sub[turn_col] == t][val_col].dropna().values
+        if len(vals) == 0:
+            continue
+        mean = np.mean(vals)
+        sd = np.std(vals, ddof=1) if len(vals) > 1 else 0.0
+        xs.append((t / max_turn) * 100)
+        means.append(mean)
+        ses.append(sd / np.sqrt(len(vals)))
+    return np.array(xs), np.array(means), np.array(ses)
 
 
-def convert_lsm_turn_to_percentage(df):
-    """Convert LSM turn numbers to percentage of conversation."""
-    max_turn = df['turn_number'].max()
-    df['Percent'] = (df['turn_number'] / max_turn) * 100
-    return df
+def _words_max_turn(df_pat):
+    return int(df_pat['Turn_Pair'].max()) if df_pat is not None and len(df_pat) else 10
 
 
-def plot_counselor_words(data):
-    """Plot 1: Average words per turn by counselors with standard error shading."""
+def plot_counselor_words(df_pat=None):
+    """Plot 1: Average words per turn by counselors (mean +/- SE across patients, 3 models pooled)."""
+    if df_pat is None or df_pat.empty:
+        print("Warning: no per-patient word data for counselor plot")
+        fig, ax = plt.subplots(figsize=(14, 7))
+        ax.set_title('Average words per turn by counselors (per-patient SE)', fontsize=18, fontweight='bold')
+        plt.tight_layout()
+        return fig
     fig, ax = plt.subplots(figsize=(14, 7))
-    
+    mx = _words_max_turn(df_pat)
     for mode in ALL_MODES:
-        if mode in data:
-            df = data[mode].copy()
-            df = convert_turn_to_percentage(df)
-            
-            # Calculate standard error if std and count columns exist
-            if 'Counselor_Acc_Std' in df.columns and 'Count' in df.columns:
-                se = df['Counselor_Acc_Std'] / np.sqrt(df['Count'])
-                lower = df['Counselor_Acc_Avg'] - se
-                upper = df['Counselor_Acc_Avg'] + se
-                
-                # Plot shaded standard error region
-                ax.fill_between(df['Percent'], lower, upper, 
-                               color=COLORS[mode], alpha=0.2)
-            
-            # Plot line
-            ax.plot(
-                df['Percent'],
-                df['Counselor_Acc_Avg'],
-                label=MODE_LABELS.get(mode, mode),
-                color=COLORS[mode],
-                linestyle=STYLES[mode],
-                marker=MARKERS[mode],
-                linewidth=2,
-                markersize=8
-            )
-    
+        xs, means, ses = _patient_curve(df_pat, mode, 'Turn_Pair', 'counselor', mx)
+        if len(xs):
+            ax.fill_between(xs, means - ses, means + ses, color=COLORS[mode], alpha=0.2)
+            ax.plot(xs, means, label=MODE_LABELS.get(mode, mode), color=COLORS[mode],
+                    linestyle=STYLES[mode], marker=MARKERS[mode], linewidth=2, markersize=8)
     ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
     ax.set_ylabel('Average number of words per turn', fontsize=18)
-    ax.set_title('Average words per turn by counselors as the conversation progresses', fontsize=18, fontweight='bold')
+    ax.set_title('Average words per turn by counselors (per-patient SE)', fontsize=18, fontweight='bold')
     ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3)
     ax.set_xticks([20, 40, 60, 80, 100])
-    
     plt.tight_layout()
     return fig
 
 
-def plot_client_words(data):
-    """Plot 2: Average words per turn by clients with standard error bars at each point."""
+def plot_client_words(df_pat=None):
+    """Plot 2: Average words per turn by clients (mean +/- SE across patients, 3 models pooled)."""
+    if df_pat is None or df_pat.empty:
+        print("Warning: no per-patient word data for client plot")
+        fig, ax = plt.subplots(figsize=(14, 7))
+        ax.set_title('Average words per turn by clients (per-patient SE)', fontsize=18, fontweight='bold')
+        plt.tight_layout()
+        return fig
     fig, ax = plt.subplots(figsize=(14, 7))
-    
+    mx = _words_max_turn(df_pat)
     for mode in ALL_MODES:
-        if mode in data:
-            df = data[mode].copy()
-            df = convert_turn_to_percentage(df)
-            
-            # Calculate standard error if std and count columns exist
-            if 'Client_Acc_Std' in df.columns and 'Count' in df.columns:
-                se = df['Client_Acc_Std'] / np.sqrt(df['Count'])
-                lower = df['Client_Acc_Avg'] - se
-                upper = df['Client_Acc_Avg'] + se
-                
-                # Plot shaded standard error region
-                ax.fill_between(df['Percent'], lower, upper, 
-                               color=COLORS[mode], alpha=0.2)
-            
-            # Plot line
-            ax.plot(
-                df['Percent'],
-                df['Client_Acc_Avg'],
-                label=MODE_LABELS.get(mode, mode),
-                color=COLORS[mode],
-                linestyle=STYLES[mode],
-                marker=MARKERS[mode],
-                linewidth=2,
-                markersize=8
-            )
-    
+        xs, means, ses = _patient_curve(df_pat, mode, 'Turn_Pair', 'client', mx)
+        if len(xs):
+            ax.fill_between(xs, means - ses, means + ses, color=COLORS[mode], alpha=0.2)
+            ax.plot(xs, means, label=MODE_LABELS.get(mode, mode), color=COLORS[mode],
+                    linestyle=STYLES[mode], marker=MARKERS[mode], linewidth=2, markersize=8)
     ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
     ax.set_ylabel('Average number of words per turn', fontsize=18)
-    ax.set_title('Average words per turn by clients as the conversation progresses', fontsize=18, fontweight='bold')
+    ax.set_title('Average words per turn by clients (per-patient SE)', fontsize=18, fontweight='bold')
     ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3)
     ax.set_xticks([20, 40, 60, 80, 100])
-    
     plt.tight_layout()
     return fig
 
 
-def plot_word_ratio(data):
-    """Plot 3: Word ratio between counselors and clients with standard error shading."""
+def plot_word_ratio(df_pat=None):
+    """Plot 3: Word ratio (counselor words / client words) per turn (mean +/- SE across patients)."""
+    if df_pat is None or df_pat.empty:
+        print("Warning: no per-patient word data for ratio plot")
+        fig, ax = plt.subplots(figsize=(14, 7))
+        ax.set_title('Word ratio by turn (per-patient SE)', fontsize=18, fontweight='bold')
+        plt.tight_layout()
+        return fig
     fig, ax = plt.subplots(figsize=(14, 7))
-    
+    mx = _words_max_turn(df_pat)
     for mode in ALL_MODES:
-        if mode in data:
-            df = data[mode].copy()
-            df = convert_turn_to_percentage(df)
-            
-            # Calculate standard error if std and count columns exist
-            if 'Acc_Ratio_Std' in df.columns and 'Count' in df.columns:
-                se = df['Acc_Ratio_Std'] / np.sqrt(df['Count'])
-                lower = df['Acc_Ratio'] - se
-                upper = df['Acc_Ratio'] + se
-                
-                # Plot shaded standard error region
-                ax.fill_between(df['Percent'], lower, upper, 
-                               color=COLORS[mode], alpha=0.2)
-            
-            # Plot line
-            ax.plot(
-                df['Percent'],
-                df['Acc_Ratio'],
-                label=MODE_LABELS.get(mode, mode),
-                color=COLORS[mode],
-                linestyle=STYLES[mode],
-                marker=MARKERS[mode],
-                linewidth=2,
-                markersize=8
-            )
-    
+        xs, means, ses = _patient_curve(df_pat, mode, 'Turn_Pair', 'ratio', mx)
+        if len(xs):
+            ax.fill_between(xs, means - ses, means + ses, color=COLORS[mode], alpha=0.2)
+            ax.plot(xs, means, label=MODE_LABELS.get(mode, mode), color=COLORS[mode],
+                    linestyle=STYLES[mode], marker=MARKERS[mode], linewidth=2, markersize=8)
     ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
     ax.set_ylabel('Ratio', fontsize=18)
-    ax.set_title('Word ratio by turn between counselors and clients as the conversation progresses', fontsize=18, fontweight='bold')
+    ax.set_title('Word ratio by turn between counselors and clients (per-patient SE)', fontsize=18, fontweight='bold')
     ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3)
     ax.set_xticks([20, 40, 60, 80, 100])
-    
     plt.tight_layout()
     return fig
 
 
-def plot_sentiment_distribution(sentiment_df):
-    """Plot 4: Distribution of positive, negative, and neutral sentiment by counseling quality."""
-    if sentiment_df is None or sentiment_df.empty:
-        print("Warning: No sentiment data available for distribution plot")
+def plot_sentiment_distribution():
+    """Plot 4: Distribution of positive, negative, and neutral sentiment by counseling quality.
+
+    Box-and-whisker plot pooling the per-patient proportions across all 3 models at turn 10
+    (each of the 133 patients is scored by every model). This preserves the patient-level
+    distribution that a bars-of-averages chart would hide.
+    """
+    # Collect per-patient values for turn 10 across all per-model files.
+    final_cols = {'negative': [], 'neutral': [], 'positive': []}
+    col_map = {'negative': 'prop_neg', 'neutral': 'prop_neu', 'positive': 'prop_pos'}
+    val_map = {s: {m: [] for m in ALL_MODES} for s in final_cols}
+
+    for path in MODEL_SENTIMENT_CSVS:
+        if not os.path.exists(path):
+            print(f"Warning: {path} not found; box plot will be missing a model")
+            continue
+        df = pd.read_csv(path)
+        t10 = df[df['turn_number'] == 10]
+        for _, row in t10.iterrows():
+            mode = row['therapist_mode']
+            if mode not in ALL_MODES:
+                continue
+            for sent, col in col_map.items():
+                v = row[col]
+                if v == v:  # not NaN
+                    val_map[sent][mode].append(v)
+
+    total_vals = sum(len(v) for v in val_map['positive'].values())
+    if total_vals == 0:
+        print("Warning: no per-patient sentiment data for distribution plot")
         return None
-    
-    # Use turn 10 data (final cumulative proportions)
-    final_turns = sentiment_df[sentiment_df['turn_number'] == 10]
-    
-    if final_turns.empty:
-        print("Warning: No turn 10 data available for sentiment distribution plot")
-        return None
-    
-    # Prepare data organized by sentiment type and mode
+
+    n_modes = len(ALL_MODES)
     sentiment_types = ['negative', 'neutral', 'positive']
-    modes = ALL_MODES
-    
-    # Organize data: sentiment_type -> mode -> values
-    plot_data = {sent: {mode: [] for mode in modes} for sent in sentiment_types}
-    
-    for _, row in final_turns.iterrows():
-        mode = row['therapist_mode']
-        if mode in modes:
-            plot_data['negative'][mode].append(row['prop_neg'])
-            plot_data['neutral'][mode].append(row['prop_neu'])
-            plot_data['positive'][mode].append(row['prop_pos'])
-    
-    fig, ax = plt.subplots(figsize=(20, 8))
     n_sentiments = len(sentiment_types)
-    n_modes = len(modes)
+    fig, ax = plt.subplots(figsize=(20, 8))
     group_width = 2.5
-    box_width = group_width / n_modes
-    
+    # Boxes sit 1.0 apart between adjacent modes; width ~0.62 fills the slot (matches reference).
+    box_width = 0.62
+
     positions = []
     data_for_plot = []
     colors_for_boxes = []
-    
-    for i, sent_type in enumerate(sentiment_types):
-        base_pos = i * (n_modes + 1)  # Add gap between groups
-        for j, mode in enumerate(modes):
+    for i, sent in enumerate(sentiment_types):
+        base_pos = i * (n_modes + 1)
+        for j, mode in enumerate(ALL_MODES):
             pos = base_pos + j + 1
             positions.append(pos)
-            values = plot_data[sent_type][mode]
-            data_for_plot.append(values if values else [0])  # Avoid empty lists
+            values = val_map[sent][mode]
+            data_for_plot.append(values if values else [0])  # avoid empty lists for boxplot
             colors_for_boxes.append(COLORS[mode])
-    
-    # Create box plots
-    bp = ax.boxplot(data_for_plot, positions=positions, widths=box_width, 
-                     patch_artist=True, showfliers=True)
-    
-    # Color the boxes
+
+    bp = ax.boxplot(data_for_plot, positions=positions, widths=box_width,
+                    patch_artist=True, showfliers=True)
     for patch, color in zip(bp['boxes'], colors_for_boxes):
         patch.set_facecolor(color)
         patch.set_alpha(0.7)
-    
-    # Set x-axis labels
-    tick_positions = [sum(positions[i*n_modes:(i+1)*n_modes]) / n_modes 
-                     for i in range(n_sentiments)]
+
+    # One tick per sentiment group, centered on that group's box midpoint.
+    tick_positions = [sum(positions[i*n_modes:(i+1)*n_modes]) / n_modes for i in range(n_sentiments)]
     ax.set_xticks(tick_positions)
     ax.set_xticklabels(sentiment_types)
-    
-    # Create custom legend
+
     from matplotlib.patches import Patch
     legend_elements = [
         Patch(facecolor=COLORS['simple'], alpha=0.7, label='simple'),
@@ -353,80 +312,72 @@ def plot_sentiment_distribution(sentiment_df):
         Patch(facecolor=COLORS['multi_agent'], alpha=0.7, label='multi-agent'),
     ]
     ax.legend(handles=legend_elements, loc='upper left', bbox_to_anchor=(1.01, 1), borderaxespad=0)
-    
+
     ax.set_xlabel('Sentiment', fontsize=18)
-    ax.set_ylabel('Percentage', fontsize=18)
-    ax.set_title('Distribution of positive, negative, and neutral sentiment by counseling quality', 
+    ax.set_ylabel('Proportion', fontsize=18)
+    ax.set_title('Sentiment distribution (per-patient, pooled across 3 models, turn 10) by counseling quality',
                  fontsize=18, fontweight='bold')
+    # Proportions are bounded 0-1; use the full scale for the box plot.
     ax.set_ylim(0, 1.0)
     ax.grid(True, alpha=0.3, axis='y')
-    
     plt.tight_layout()
     return fig
 
 
-def plot_positive_sentiment_over_time(sentiment_df):
-    """Plot 5: Distribution of positive sentiment over 20% splits of the conversation with standard error bars."""
-    if sentiment_df is None or sentiment_df.empty:
-        print("Warning: No sentiment data available for positive sentiment over time plot")
-        return None
-    
+def plot_positive_sentiment_over_time():
+    """Plot 5: Positive sentiment over 20% splits, pooled per-patient across the 3 models.
+
+    Computes the per-patient cumulative positive proportion at turns 2/4/6/8/10 from the
+    per-model per-patient files, then renders a grouped bar chart of the per-patient mean
+    with SEM (= std/sqrt(n) across pooled patients) error bars.
+    """
     # Define 20% splits: turn 2 (20%), turn 4 (40%), turn 6 (60%), turn 8 (80%), turn 10 (100%)
-    splits = {
-        20: 2,
-        40: 4,
-        60: 6,
-        80: 8,
-        100: 10
-    }
-    
-    # Collect data for each mode and split
-    results = {mode: {'splits': [], 'means': [], 'ses': []}  # Changed 'stds' to 'ses'
-               for mode in ALL_MODES}
-    
+    splits = {20: 2, 40: 4, 60: 6, 80: 8, 100: 10}
+
+    # Pool the per-patient 'prop_pos' values (cumulative positive proportion) per mode/turn
+    # across all models. Columns: patient_id, therapist_mode, turn_number, prop_pos ...
+    frames = []
+    for path in MODEL_SENTIMENT_CSVS:
+        if os.path.exists(path):
+            frames.append(pd.read_csv(path))
+        else:
+            print(f"Warning: {path} not found (positive sentiment over time)")
+    if not frames:
+        print("Warning: No per-patient sentiment data for positive sentiment over time plot")
+        return None
+    all_sent = pd.concat(frames, ignore_index=True)
+
+    results = {mode: {'splits': [], 'means': [], 'ses': []} for mode in ALL_MODES}
     for percent, turn_num in splits.items():
-        split_data = sentiment_df[sentiment_df['turn_number'] == turn_num]
-        
+        split_data = all_sent[all_sent['turn_number'] == turn_num]
         for mode in ALL_MODES:
-            mode_split_data = split_data[split_data['therapist_mode'] == mode]
-            if not mode_split_data.empty:
-                prop_pos_values = mode_split_data['prop_pos'].values
-                mean_val = prop_pos_values.mean()
-                std_val = prop_pos_values.std()
-                count = len(prop_pos_values)
-                se = std_val / np.sqrt(count) if count > 0 else 0  # Calculate standard error
-                
-                results[mode]['splits'].append(percent)
-                results[mode]['means'].append(mean_val)
-                results[mode]['ses'].append(se)
-    
+            vals = split_data[split_data['therapist_mode'] == mode]['prop_pos'].dropna().values
+            if len(vals) == 0:
+                continue
+            results[mode]['splits'].append(percent)
+            results[mode]['means'].append(np.mean(vals))
+            results[mode]['ses'].append(np.std(vals, ddof=1) / np.sqrt(len(vals)) if len(vals) > 1 else 0.0)
+
     fig, ax = plt.subplots(figsize=(14, 7))
-    
     x_pos = np.array([20, 40, 60, 80, 100])
-    width = 3  # Bar width chosen so 5 grouped bars fit cleanly between 20%-spaced x ticks
-                # width 3 -> each mode spans +- (n_modes-1)/2*width = +-6, fits well within groups
-    
+    width = 3  # Bar width so 5 grouped bars fit cleanly between 20%-spaced x ticks
     n_modes = len(ALL_MODES)
     for i, mode in enumerate(ALL_MODES):
         if results[mode]['splits']:
             means = np.array(results[mode]['means'])
-            ses = np.array(results[mode]['ses'])  # Changed from 'stds' to 'ses'
-            splits = np.array(results[mode]['splits'])
-            
-            # Adjust x position for grouped bars (center around 0 for n modes)
+            ses = np.array(results[mode]['ses'])
             offset = (i - (n_modes - 1) / 2) * width
             x_pos_adjusted = x_pos + offset
-            
-            ax.bar(x_pos_adjusted, means, width, yerr=ses, 
+            ax.bar(x_pos_adjusted, means, width, yerr=ses,
                    label=MODE_LABELS.get(mode, mode),
                    color=COLORS[mode], alpha=0.7, capsize=3)
-    
+
     ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
-    ax.set_ylabel('Percentage', fontsize=18)
-    ax.set_title('Distribution of positive sentiment over 20% splits of the conversation', 
-                 fontsize=18, fontweight='bold')
+    ax.set_ylabel('Proportion positive', fontsize=18)
+    ax.set_title('Positive sentiment over 20% splits of the conversation (per-patient, 3 models pooled)', fontsize=18, fontweight='bold')
     ax.set_xticks([20, 40, 60, 80, 100])
-    ax.set_ylim(0, 1.0)
+    max_top = max(v + e for mode in results.values() for v, e in zip(mode['means'], mode['ses'])) if any(results[m]['ses'] for m in results) else 1.0
+    ax.set_ylim(0, max(0.7, max_top * 1.2))
     ax.legend(fontsize=18)
     ax.grid(True, alpha=0.3, axis='y')
     
@@ -434,44 +385,39 @@ def plot_positive_sentiment_over_time(sentiment_df):
     return fig
 
 
-def plot_lsm_over_time(lsm_data):
-    """Plot 6: Linguistic style matching across conversation progress with standard error shading."""
-    if not lsm_data:
-        print("Warning: No LSM data available for LSM plot")
-        return None
-
+def plot_lsm_over_time(lsm_patient=None):
+    """Plot 6: Linguistic style matching across conversation progress (mean +/- SE across patients)."""
+    if lsm_patient is None or len(lsm_patient) == 0:
+        print("Warning: no per-patient LSM data for LSM plot")
+        fig, ax = plt.subplots(figsize=(16, 8))
+        ax.set_title('Linguistic style matching across conversation progress (per-patient SE)', fontsize=18, fontweight='bold')
+        plt.tight_layout()
+        return fig
     fig, ax = plt.subplots(figsize=(16, 8))
+    mx = int(lsm_patient['turn_number'].max())
 
     for mode in ALL_MODES:
-        if mode in lsm_data:
-            df = lsm_data[mode].copy()
-            df = convert_lsm_turn_to_percentage(df)
-            
-            # Calculate standard error if std and count columns exist
-            if 'std_lsm' in df.columns and 'count' in df.columns:
-                se = df['std_lsm'] / np.sqrt(df['count'])
-                lower = df['avg_lsm'] - se
-                upper = df['avg_lsm'] + se
-                
-                # Plot shaded standard error region
-                ax.fill_between(df['Percent'], lower, upper, 
-                               color=COLORS[mode], alpha=0.2)
-
-            # Plot line
-            ax.plot(
-                df['Percent'],
-                df['avg_lsm'],
-                label=MODE_LABELS.get(mode, mode),
-                color=COLORS[mode],
-                linestyle=STYLES[mode],
-                marker=MARKERS[mode],
-                linewidth=2,
-                markersize=8
-            )
+        sub = lsm_patient[lsm_patient['therapist_mode'] == mode]
+        turns = sorted(sub['turn_number'].unique())
+        xs, means, ses = [], [], []
+        for t in turns:
+            vals = sub[sub['turn_number'] == t]['avg_lsm'].dropna().values
+            if len(vals) == 0:
+                continue
+            mean = np.mean(vals)
+            sd = np.std(vals, ddof=1) if len(vals) > 1 else 0.0
+            xs.append((t / mx) * 100)
+            means.append(mean)
+            ses.append(sd / np.sqrt(len(vals)))
+        xs, means, ses = np.array(xs), np.array(means), np.array(ses)
+        if len(xs):
+            ax.fill_between(xs, means - ses, means + ses, color=COLORS[mode], alpha=0.2)
+            ax.plot(xs, means, label=MODE_LABELS.get(mode, mode), color=COLORS[mode],
+                    linestyle=STYLES[mode], marker=MARKERS[mode], linewidth=2, markersize=8)
 
     ax.set_xlabel('Portion of the conversation (% of turns)', fontsize=18)
     ax.set_ylabel('Average LSM', fontsize=18)
-    ax.set_title('Linguistic style matching across conversation progress', fontsize=18, fontweight='bold')
+    ax.set_title('Linguistic style matching across conversation progress (per-patient SE)', fontsize=18, fontweight='bold')
     ax.legend(fontsize=18, loc='upper left', bbox_to_anchor=(1.01, 1), borderaxespad=0)
     ax.grid(True, alpha=0.3)
     ax.set_xticks([20, 40, 60, 80, 100])
@@ -565,24 +511,19 @@ def plot_feedback_scores(feedback_df):
 def main():
     """Main function to generate all plots."""
     print("Loading data...")
-    data = load_data()
-    sentiment_df = load_sentiment_data()
-    lsm_data = load_lsm_data()
     feedback_df = load_feedback_data()
-    
-    if not data:
-        print("Error: No metrics data files found!")
-        return
-    
+    lsm_patient = load_per_patient_lsm()
+    words_patient = load_per_patient_words()
+
     print("\nGenerating plots...")
-    
-    # Generate all five plots
-    fig1 = plot_counselor_words(data)
-    fig2 = plot_client_words(data)
-    fig3 = plot_word_ratio(data)
-    fig4 = plot_sentiment_distribution(sentiment_df)
-    fig5 = plot_positive_sentiment_over_time(sentiment_df)
-    fig6 = plot_lsm_over_time(lsm_data)
+
+    # Generate all plots (per-patient, pooled across models)
+    fig1 = plot_counselor_words(words_patient)
+    fig2 = plot_client_words(words_patient)
+    fig3 = plot_word_ratio(words_patient)
+    fig4 = plot_sentiment_distribution()
+    fig5 = plot_positive_sentiment_over_time()
+    fig6 = plot_lsm_over_time(lsm_patient)
     fig7 = plot_feedback_scores(feedback_df)
     
     # Save plots (SVG + PNG for each)

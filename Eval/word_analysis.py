@@ -213,6 +213,7 @@ def aggregate_metrics(root_dir):
         
         # Average across folds for this patient
         patient_avg_data = {
+            'patient_id': patient_id,
             'c_acc_avg': [],
             'cl_acc_avg': [],
             'ratios': []
@@ -284,6 +285,28 @@ def aggregate_metrics(root_dir):
         with open(out_file, 'w', encoding='utf-8') as f:
             f.write("\n".join(output_rows))
         print(f"Saved: {out_file}")
+
+    # 5. Save per-patient long-format data (needed for per-patient distribution plots).
+    #    One row per (patient_id, mode, turn) with counselor words, client words, ratio.
+    per_patient_rows = []
+    for mode, patient_sessions in mode_patient_data.items():
+        for s in patient_sessions:
+            pid = s['patient_id']
+            for i in range(len(s['c_acc_avg'])):
+                per_patient_rows.append({
+                    'patient_id': pid,
+                    'therapist_mode': mode,
+                    'Turn_Pair': i + 1,
+                    'counselor': round(s['c_acc_avg'][i], 2),
+                    'client': round(s['cl_acc_avg'][i], 2),
+                    'ratio': round(s['ratios'][i], 3),
+                })
+    if per_patient_rows:
+        model_tag = os.getenv("PSYCH_MODEL", "")
+        prefix = f"{model_tag}_" if model_tag else ""
+        pp_file = os.path.join(CSV_DIR, f'{prefix}words_per_patient.csv')
+        pd.DataFrame(per_patient_rows).to_csv(pp_file, index=False)
+        print(f"Saved per-patient words to {pp_file} ({len(per_patient_rows)} rows)")
 
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
