@@ -6,9 +6,9 @@ This document explains how all statistical tests and corrections in `feedback_st
 
 ## Overview
 
-The analysis compares **4 therapist modes** (`simple`, `trained_agent`, `complex`, `multi_agent`) across **10 MI criteria** using a two-stage procedure:
+The analysis compares **5 therapist modes** (`simple`, `trained_agent`, `complex`, `multi_agent`, `proposer_only`) across **10 MI criteria** using a two-stage procedure:
 
-1. **Friedman test** — omnibus test: is there *any* difference across the 4 modes?
+1. **Friedman test** — omnibus test: is there *any* difference across the 5 modes?
 2. **Pairwise Wilcoxon tests** — post-hoc: *which* pairs differ?
 
 Both stages apply multiple testing corrections.
@@ -17,7 +17,7 @@ Both stages apply multiple testing corrections.
 
 ## Step 1 — Data Shaping (per criterion)
 
-For each criterion (e.g. *Empathy*), the raw session-level data is pivoted into a matrix of **N rows × 4 columns**, where:
+For each criterion (e.g. *Empathy*), the raw session-level data is pivoted into a matrix of **N rows × 5 columns**, where:
 - Each **row** is one patient
 - Each **column** is a therapist mode
 - Each **cell** is the mean score across all folds that patient had in that mode
@@ -26,7 +26,7 @@ $$
 \text{pivot}[i, m] = \frac{1}{K}\sum_{k=1}^{K} \text{score}_{i,m,k}
 $$
 
-This produces **matched/paired samples** — the same patients appear in all 4 modes, which is required by both the Friedman and Wilcoxon tests.
+This produces **matched/paired samples** — the same patients appear in all 5 modes, which is required by both the Friedman and Wilcoxon tests.
 
 ---
 
@@ -34,10 +34,10 @@ This produces **matched/paired samples** — the same patients appear in all 4 m
 
 The Friedman test is a non-parametric alternative to repeated-measures ANOVA. It ranks mode scores **within each patient row**, then tests whether the rank sums differ more than chance.
 
-**For each patient $i$**, rank the 4 scores (1 = lowest, 4 = highest):
+**For each patient $i$**, rank the 5 scores (1 = lowest, 5 = highest):
 
 $$
-r_{i,m} \in \{1, 2, 3, 4\}
+r_{i,m} \in \{1, 2, 3, 4, 5\}
 $$
 
 **Sum ranks per mode** across all N patients:
@@ -46,16 +46,16 @@ $$
 R_m = \sum_{i=1}^{N} r_{i,m}
 $$
 
-**Test statistic** (N patients, k = 4 modes):
+**Test statistic** (N patients, k = 5 modes):
 
 $$
 \chi^2_F = \frac{12}{Nk(k+1)} \sum_{m=1}^{k} R_m^2 - 3N(k+1)
 $$
 
-This follows a $\chi^2$ distribution with $k - 1 = 3$ degrees of freedom. The p-value is:
+This follows a $\chi^2$ distribution with $k - 1 = 4$ degrees of freedom. The p-value is:
 
 $$
-p = P\!\left(\chi^2_3 \geq \chi^2_F\right)
+p = P\!\left(\chi^2_4 \geq \chi^2_F\right)
 $$
 
 ---
@@ -91,7 +91,7 @@ $$
 
 ## Step 4 — Pairwise Wilcoxon Signed-Rank Tests (`Wilcoxon_Statistic`, `p_value`)
 
-For each of the $\binom{4}{2} = 6$ mode pairs and each criterion, the Wilcoxon signed-rank test compares **paired** patient scores:
+For each of the $\binom{5}{2} = 10$ mode pairs and each criterion, the Wilcoxon signed-rank test compares **paired** patient scores:
 
 1. Compute signed differences per patient:
 
@@ -121,7 +121,7 @@ $$
 
 A two-sided test is used (`alternative='two-sided'`), so $p = 2 \cdot P(Z \geq |z|)$.
 
-**The 6 pairs tested** (ordered by expected effect direction):
+**The 10 pairs tested** (ordered by expected effect direction):
 
 | Pair | Description |
 |---|---|
@@ -131,18 +131,22 @@ A two-sided test is used (`alternative='two-sided'`), so $p = 2 \cdot P(Z \geq |
 | `trained_agent` vs `complex` | Trained vs middle |
 | `complex` vs `simple` | Middle vs baseline |
 | `trained_agent` vs `simple` | Trained vs baseline |
+| `proposer_only` vs `multi_agent` | Ablation vs full multi-agent |
+| `proposer_only` vs `complex` | Ablation vs complex |
+| `proposer_only` vs `trained_agent` | Ablation vs trained agent |
+| `proposer_only` vs `simple` | Ablation vs baseline |
 
 ---
 
-## Step 5 — Bonferroni Correction for 6 Pairs (`p_bonferroni`, `Significant_bonferroni`)
+## Step 5 — Bonferroni Correction for 10 Pairs (`p_bonferroni`, `Significant_bonferroni`)
 
-There are $\binom{4}{2} = 6$ pairwise comparisons (post-hoc family). Bonferroni multiplies each raw p-value by 6, capped at 1:
+There are $\binom{5}{2} = 10$ pairwise comparisons (post-hoc family). Bonferroni multiplies each raw p-value by 10, capped at 1:
 
 $$
-p^{\text{Bonf}} = \min(p \times 6,\ 1)
+p^{\text{Bonf}} = \min(p \times 10,\ 1)
 $$
 
-**Significance threshold**: $\alpha^{\text{Bonf}} = 0.05 / 6 \approx 0.0083$
+**Significance threshold**: $\alpha^{\text{Bonf}} = 0.05 / 10 = 0.005$
 
 **Interpretation**: Bonferroni controls the *Family-Wise Error Rate* (FWER) — the probability of making *any* false positive across the 6 comparisons. It is the standard post-hoc correction after a significant omnibus Friedman test.
 
@@ -220,3 +224,6 @@ and $\text{SD}(d_i)$ is the sample standard deviation of those differences (ddof
 | `csv/wilcoxon_test_trained_agent_vs_complex.csv` | Same for trained_agent vs complex |
 | `csv/wilcoxon_test_complex_vs_simple.csv` | Same for complex vs simple |
 | `csv/wilcoxon_test_trained_agent_vs_simple.csv` | Same for trained_agent vs simple |
+| `csv/wilcoxon_test_proposer_only_vs_complex.csv` | Same for proposer_only vs complex |
+| `csv/wilcoxon_test_proposer_only_vs_simple.csv` | Same for proposer_only vs simple |
+| `csv/wilcoxon_test_proposer_only_vs_trained_agent.csv` | Same for proposer_only vs trained_agent |
