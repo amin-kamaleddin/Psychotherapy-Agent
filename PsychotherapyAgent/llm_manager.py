@@ -6,6 +6,7 @@ Handles initialization and management of all ChatOpenAI instances.
 
 import logging
 import os
+import httpx
 from pydantic import SecretStr
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
@@ -45,7 +46,19 @@ class LLMManager:
             therapist_model = "gpt-5-mini"
 
         def _chat_openai(model: str, api_key_val, base_url=None, temperature=None, max_tokens=None, extra_body=None):
-            kwargs = {"model": model, "api_key": api_key_val, "timeout": 120}
+            kwargs = {"model": model, "api_key": api_key_val}
+            # Strict, bounded timeouts so a hung request RAISES instead of blocking a worker thread
+            # forever. httpx.Timeout applies to connect/write/read/pool. A single read timeout is
+            # reset per packet on streams, so we also set an overall deadline via CAPPED retries
+            # and a connect+read bound. max_retries=0 prevents langchain from re-sending a hung
+            # request indefinitely (a common cause of the multi-minute stalls seen in the runs).
+            kwargs["timeout"] = httpx.Timeout(
+                connect=30.0,
+                write=30.0,
+                read=120.0,
+                pool=30.0,
+            )
+            kwargs["max_retries"] = 0
             if base_url:
                 kwargs["base_url"] = base_url
             if temperature is not None:
