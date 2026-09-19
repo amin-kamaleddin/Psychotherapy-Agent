@@ -100,7 +100,8 @@ ALL_MODES = ['simple', 'trained_agent', 'complex', 'proposer_only', 'multi_agent
 #   - FOUR_MODES:      the 4 counselor configurations excluding the proposer-only ablation.
 #   - ABLATION_MODES:  the proposer-only ablation vs the full multi-agent system.
 FOUR_MODES = ['simple', 'trained_agent', 'complex', 'multi_agent']
-ABLATION_MODES = ['multi_agent', 'proposer_only']
+# proposer_only on the left, multi_agent on the right (reference on the right).
+ABLATION_MODES = ['proposer_only', 'multi_agent']
 
 
 def load_per_patient_lsm():
