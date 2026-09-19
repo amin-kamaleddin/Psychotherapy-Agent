@@ -82,8 +82,9 @@ def avg_word(models):
             p = os.path.join(CSV_DIR, f'{m}_metrics_output_{mode}.csv')
             if not os.path.exists(p):
                 continue
-            # metrics_output has header row of column names; read as csv
             df = pd.read_csv(p)
+            # Normalize the turn column: word_analysis emits 'Turn_Pair'
+            df = df.rename(columns={'Turn_Pair': 'turn'})
             df['model'] = m
             df['therapist_mode'] = mode
             frames.append(df)
