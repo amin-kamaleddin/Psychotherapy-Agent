@@ -22,7 +22,12 @@ def model_tag(mid):
 
 
 def avg_lsm(models):
-    """Average per-mode, per-turn LSM (avg_lsm) across models."""
+    """Average per-mode, per-turn LSM (avg_lsm) across models.
+
+    Emits aggregate long-format files (avg_lsm_metrics_{mode}/all) for analysis AND
+    plot-ready per-mode files (lsm_metrics_{mode}.csv) with std/count recomputed across
+    models, so plot_metrics.py can render the 3-model average.
+    """
     frames = []
     for m in models:
         for mode in ['simple', 'trained_agent', 'complex', 'multi_agent', 'proposer_only']:
@@ -39,12 +44,22 @@ def avg_lsm(models):
     all_df = pd.concat(frames, ignore_index=True)
     g = all_df.groupby(['therapist_mode', 'turn_number'])[['avg_lsm']].mean().reset_index()
     g = g.melt(id_vars=['therapist_mode', 'turn_number'], value_name='score').rename(columns={'variable': 'criterion'})
+    # Aggregate long-format outputs
     for mode in g['therapist_mode'].unique():
         sub = g[g['therapist_mode'] == mode]
         sub.to_csv(os.path.join(CSV_DIR, f'avg_lsm_metrics_{mode}.csv'), index=False)
     all_out = os.path.join(CSV_DIR, 'avg_lsm_metrics_all.csv')
     g.to_csv(all_out, index=False)
     print(f'Averaged LSM -> {all_out} ({len(g)} rows)')
+
+    # Plot-ready per-mode files: mean + std(cross-model) + count
+    for mode in all_df['therapist_mode'].unique():
+        sub = all_df[all_df['therapist_mode'] == mode]
+        agg = sub.groupby('turn_number')['avg_lsm'].agg(['mean', 'std', 'count']).reset_index()
+        agg.columns = ['turn_number', 'avg_lsm', 'std_lsm', 'count']
+        agg['std_lsm'] = agg['std_lsm'].fillna(0.0).round(3)
+        agg.to_csv(os.path.join(CSV_DIR, f'lsm_metrics_{mode}.csv'), index=False)
+        print(f'  plot-ready lsm_metrics_{mode}.csv -> {len(agg)} turns')
 
 
 def avg_sentiment(models):
@@ -73,9 +88,24 @@ def avg_sentiment(models):
     out.to_csv(all_out, index=False)
     print(f'Averaged sentiment -> {all_out} ({len(out)} rows)')
 
+    # Bridge to plot-ready patient-turn format that plot_metrics reads.
+    # One row per (therapist_mode, turn_number) with the 3-model-averaged proportions.
+    bridge = out.rename(columns={
+        'avg_prop_pos': 'prop_pos',
+        'avg_prop_neu': 'prop_neu',
+        'avg_prop_neg': 'prop_neg',
+    }).copy()
+    bridge.insert(0, 'patient_id', 'avg')  # placeholder patient id
+    bridge.to_csv(os.path.join(CSV_DIR, 'sentiment_dataset_by_turn.csv'), index=False)
+    print(f'  bridge sentiment_dataset_by_turn.csv -> {len(bridge)} rows')
+
 
 def avg_word(models):
-    """Average per-mode, per-turn word metrics across models (assuming same numeric columns)."""
+    """Average per-mode, per-turn word metrics across models.
+
+    Emits avg_metrics_output_all.csv AND plot-ready per-mode metrics_output_{mode}.csv
+    with mean + std + count recomputed across models, for plot_metrics.py.
+    """
     frames = []
     for m in models:
         for mode in ['simple', 'trained_agent', 'complex', 'multi_agent', 'proposer_only']:
@@ -83,7 +113,6 @@ def avg_word(models):
             if not os.path.exists(p):
                 continue
             df = pd.read_csv(p)
-            # Normalize the turn column: word_analysis emits 'Turn_Pair'
             df = df.rename(columns={'Turn_Pair': 'turn'})
             df['model'] = m
             df['therapist_mode'] = mode
@@ -92,12 +121,26 @@ def avg_word(models):
         print('No model-tagged metrics_output files found. Run word_analysis per model with PSYCH_MODEL set.')
         return
     all_df = pd.concat(frames, ignore_index=True)
-    # numeric columns excluding identifiers
     num_cols = [c for c in all_df.columns if c not in ('model', 'therapist_mode', 'turn')]
     g = all_df.groupby(['therapist_mode', 'turn'])[num_cols].mean().reset_index()
     all_out = os.path.join(CSV_DIR, 'avg_metrics_output_all.csv')
     g.to_csv(all_out, index=False)
     print(f'Averaged word metrics -> {all_out} ({len(g)} rows)')
+
+    # Plot-ready per-mode files with mean/std/count across models
+    for mode in all_df['therapist_mode'].unique():
+        sub = all_df[all_df['therapist_mode'] == mode]
+        agg = {}
+        agg['Turn_Pair'] = sub.groupby('turn').size().index
+        for col in num_cols:
+            grp = sub.groupby('turn')[col]
+            agg[f'{col}'] = grp.mean().round(3)
+            if col.endswith('Std') or col == 'Count':
+                # std stays as the mean of per-model std; count becomes max/mean count
+                agg[f'{col}'] = grp.mean().round(3).fillna(0)
+        out = pd.DataFrame(agg)
+        out.to_csv(os.path.join(CSV_DIR, f'metrics_output_{mode}.csv'), index=False)
+        print(f'  plot-ready metrics_output_{mode}.csv -> {len(out)} turns')
 
 
 def main():
