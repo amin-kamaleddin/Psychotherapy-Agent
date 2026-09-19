@@ -80,12 +80,12 @@ The averaging helpers are pure arithmetic means of the per-model per-cell values
 
 Each model outputs per-`(patient_id, therapist_mode, criterion)` scores. The averaged score for a given (patient, mode, criterion) is:
 
-$$\text{avg\_score} = \frac{1}{M}\sum_{j=1}^{M} \text{score}^{(j)}$$
+$$\mathrm{avgscore} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{score}^{(j)}$$
 
 Per-mode summary (population statistics across patients):
 
-$$\overline{X} = \frac{1}{N_{mode}}\sum_{p=1}^{N_{mode}} \text{avg\_score}_p
-\qquad \text{std} = \sqrt{\tfrac{1}{N_{mode}-1}\sum_{p}(\text{avg\_score}_p - \overline{X})^2}$$
+$$\overline{X} = \frac{1}{N_{mode}}\sum_{p=1}^{N_{mode}} \mathrm{avgscore}_p
+\qquad \mathrm{std} = \sqrt{\tfrac{1}{N_{mode}-1}\sum_{p}(\mathrm{avgscore}_p - \overline{X})^2}$$
 
 ### LSM (`average_lang_metrics.py` → `avg_lsm`)
 
@@ -97,17 +97,17 @@ where $p_{1,c}$ is the proportion of category-$c$ words in the counselor's utter
 
 **Cumulative per-patient** value at turn $k$ (running mean over all turns $\le k$):
 
-$$\text{avg\_lsm}_{k} = \frac{1}{k}\sum_{i=1}^{k} LSM_i$$
+$$\mathrm{avglsm}_{k} = \frac{1}{k}\sum_{i=1}^{k} LSM_i$$
 
 **Cross-model average** for each `(therapist_mode, turn_number)`:
 
-$$\overline{\text{LSM}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \text{avg\_lsm}^{(j)}_{k}$$
+$$\overline{\text{LSM}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{avglsm}^{(j)}_{k}$$
 
 ### Word Metrics (`average_lang_metrics.py` → `avg_word`)
 
 **Per-turn cumulative running average** of words per turn (counselor $c$ and client $cl$):
 
-$$\text{c\_acc\_avg}_k = \frac{T^c_k}{n^c_k}, \qquad \text{cl\_acc\_avg}_k = \frac{T^{cl}_k}{n^{cl}_k}$$
+$$\mathrm{caccavg}_k = \frac{T^c_k}{n^c_k}, \qquad \mathrm{claccavg}_k = \frac{T^{cl}_k}{n^{cl}_k}$$
 
 where $T_k$ = cumulative word count and $n_k$ = number of turns up to turn $k$.
 
@@ -123,15 +123,15 @@ $$\overline{X}_{k} = \frac{1}{M}\sum_{j=1}^{M} X^{(j)}_{k}$$
 
 **Per-turn cumulative proportions** (positive / neutral / negative), counting sentiment classifications up to turn $k$:
 
-$$\text{prop\_pos}_k = \frac{\sum_{i=1}^{k} \text{pos}_i}{\sum_{i=1}^{k} n_i}, \quad
-\text{prop\_neu}_k = \frac{\sum_{i=1}^{k} \text{neu}_i}{\sum_{i=1}^{k} n_i}, \quad
-\text{prop\_neg}_k = \frac{\sum_{i=1}^{k} \text{neg}_i}{\sum_{i=1}^{k} n_i}$$
+$$\mathrm{proppos}_k = \frac{\sum_{i=1}^{k} \mathrm{pos}_i}{\sum_{i=1}^{k} n_i}, \quad
+\mathrm{propneu}_k = \frac{\sum_{i=1}^{k} \mathrm{neu}_i}{\sum_{i=1}^{k} n_i}, \quad
+\mathrm{propneg}_k = \frac{\sum_{i=1}^{k} \mathrm{neg}_i}{\sum_{i=1}^{k} n_i}$$
 
-where $\text{pos}_i$ = number of turns classified positive at turn $i$, and $n_i$ = turns at turn $i$. Note $\text{prop\_pos}_k + \text{prop\_neu}_k + \text{prop\_neg}_k = 1$.
+where $\text{pos}_i$ = number of turns classified positive at turn $i$, and $n_i$ = turns at turn $i$. Note $\mathrm{proppos}_k + \mathrm{propneu}_k + \mathrm{propneg}_k = 1$.
 
 **Cross-model average** for each `(therapist_mode, turn_number)`:
 
-$$\overline{\text{prop\_pos}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \text{prop\_pos}^{(j)}_{k} \ (\text{same for } neu,\ neg)$$
+$$\overline{\mathrm{proppos}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{proppos}^{(j)}_{k} \ (\text{same for } neu,\ neg)$$
 
 > **Summary:** every cross-model average is an arithmetic mean $\frac{1}{M}\sum_j (\cdot)^{(j)}$ over the 3 models, computed **after** the per-model fold-averaging (Stage 1) and per-patient averaging.
 
