@@ -66,22 +66,26 @@ All 133 patients → Stage 2: Mean = 3.87, Std = 0.33
 
 This approach provides **more stable and reliable comparisons** between modes.
 
-## Multi-Model Analysis (Pooling Per-Patient Values Across Models)
+## Multi-Model Analysis (Per-Patient Means Averaged Across Models)
 
-When comparing **multiple models** (e.g. `gpt-5-mini`, `qwen/qwen3.8-27b`, `z-ai/glm-5.3-flash`), each model independently scores the same **133 patients** across all 5 modes. The analysis and plots therefore **pool the per-patient values from all models** into a single per-mode distribution — each patient contributes one value per model (so up to $133 \times M$ observations per mode), preserving patient-level variability instead of collapsing to a 3-model mean.
+When comparing **multiple models** (e.g. `gpt-5-mini`, `qwen/qwen3.8-27b`, `z-ai/glm-5.3-flash`), each model independently scores the same **133 patients** across all 5 modes. Because the same patients are scored by every model (matched samples), the analysis **first averages the model scores *within* each patient**, then computes the population statistics across the 133 patients. This avoids treating the 3 model runs per patient as independent observations (which would spuriously inflate $n$ and narrow the error bars).
 
 Workflow:
 1. Run `feedback_analysis.py`, `lsm_analysis.py`, `word_analysis.py`, `sentiment_analysis.py` **per model** with `PSYCH_MODEL` set, producing model-tagged per-patient CSVs.
-2. Run `plot_metrics.py`, which loads the per-model per-patient files directly and pools them for the plots.
+2. Run `plot_metrics.py`, which loads the per-model per-patient files, averages them within patient, and plots the patient-level mean ± SE.
 
-The pooling is a pure aggregation of the per-patient values across models. **Notation:** $M$ = number of models, $N_{mode}$ = patients in a mode, $n = N_{mode} \times M$ = pooled per-mode observations, $\text{turn}_k$ = the $k$-th therapist–patient turn.
+**Notation:** $M$ = number of models, $N$ = 133 patients in a mode, $\text{turn}_k$ = the $k$-th therapist–patient turn.
 
-For every per-turn metric, the pooled mean and standard error across the $n$ per-patient observations are:
+**Step 1 — within-patient average** (for each patient $p$, mode, and turn $k$):
 
-$$\overline{X}_k = \frac{1}{n}\sum_{p=1}^{n} X_{p,k}
-\qquad \mathrm{SE}_k = \frac{\mathrm{std}(X_{*,k})}{\sqrt{n}}$$
+$$\bar{X}_{p,k} = \frac{1}{M}\sum_{j=1}^{M} X^{(j)}_{p,k}$$
 
-The shaded bands and error bars in the plots show $\overline{X}_k \pm \mathrm{SE}_k$.
+**Step 2 — population statistics across patients** (for each mode and turn $k$):
+
+$$\overline{X}_k = \frac{1}{N}\sum_{p=1}^{N} \bar{X}_{p,k}
+\qquad \mathrm{SE}_k = \frac{\mathrm{std}_p(\bar{X}_{p,k})}{\sqrt{N}}$$
+
+The shaded bands and error bars in the plots show $\overline{X}_k \pm \mathrm{SE}_k$. The sentiment **distribution** plot instead draws a box-and-whisker of the per-patient means $\bar{X}_{p,10}$.
 
 ### Feedback Scores (handled separately via `average_across_models.py`)
 
@@ -106,10 +110,11 @@ where $p_{1,c}$ is the proportion of category-$c$ words in the counselor's utter
 
 $$\mathrm{avglsm}_{p,k} = \frac{1}{k}\sum_{i=1}^{k} LSM_{p,i}$$
 
-**Pooled plot curve** across models, per `(therapist_mode, turn_number)`:
+**Plot curve** (within-patient model-average, then across patients) for each `(therapist_mode, turn_number)`:
 
-$$\overline{\text{LSM}}_{k} = \frac{1}{n}\sum_{p=1}^{n} \mathrm{avglsm}_{p,k}, \qquad
-\mathrm{SE}_k = \frac{\mathrm{std}_p(\mathrm{avglsm}_{p,k})}{\sqrt{n}}$$
+$$\bar{\mathrm{lsm}}_{p,k} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{avglsm}^{(j)}_{p,k}, \qquad
+\overline{\text{LSM}}_{k} = \frac{1}{N}\sum_{p=1}^{N} \bar{\mathrm{lsm}}_{p,k}, \qquad
+\mathrm{SE}_k = \frac{\mathrm{std}_p(\bar{\mathrm{lsm}}_{p,k})}{\sqrt{N}}$$
 
 ### Word Metrics (`word_analysis.py` → `<model>_words_per_patient.csv`)
 
@@ -123,10 +128,11 @@ where $T_{p,k}$ = cumulative word count for patient $p$ and $n_k$ = number of tu
 
 $$r_{p,k} = \frac{T^c_{p,k}}{T^{cl}_{p,k}} \quad (0 \text{ if } T^{cl}_{p,k} = 0)$$
 
-**Pooled plot curve** across models, per `(therapist_mode, turn)`:
+**Plot curve** (within-patient model-average, then across patients) for each `(therapist_mode, turn)`:
 
-$$\overline{X}_{k} = \frac{1}{n}\sum_{p=1}^{n} X_{p,k}, \qquad
-\mathrm{SE}_k = \frac{\mathrm{std}_p(X_{p,k})}{\sqrt{n}}$$
+$$\bar{X}_{p,k} = \frac{1}{M}\sum_{j=1}^{M} X^{(j)}_{p,k}, \qquad
+\overline{X}_{k} = \frac{1}{N}\sum_{p=1}^{N} \bar{X}_{p,k}, \qquad
+\mathrm{SE}_k = \frac{\mathrm{std}_p(\bar{X}_{p,k})}{\sqrt{N}}$$
 
 ### Sentiment (`sentiment_analysis.py` → `<model>_sentiment_dataset_by_turn.csv`)
 
@@ -138,13 +144,14 @@ $$\mathrm{proppos}_{p,k} = \frac{\sum_{i=1}^{k} \mathrm{pos}_{p,i}}{\sum_{i=1}^{
 
 Note $\mathrm{proppos}_{p,k} + \mathrm{propneu}_{p,k} + \mathrm{propneg}_{p,k} = 1$.
 
-- **Distribution plot** (turn 10): a **box-and-whisker** plot pooling the per-patient proportions across all models.
-- **Positive-sentiment-over-time plot**: per-turn pooled means with SEM error bars:
+- **Distribution plot** (turn 10): a **box-and-whisker** plot of the per-patient means $\bar{\mathrm{proppos}}_{p,10}$ (model-averaged within patient).
+- **Positive-sentiment-over-time plot**: per-turn patient-level means with SEM error bars:
 
-$$\overline{\mathrm{proppos}}_{k} = \frac{1}{n}\sum_{p=1}^{n} \mathrm{proppos}_{p,k}, \qquad
-\mathrm{SE}_k = \frac{\mathrm{std}_p(\mathrm{proppos}_{p,k})}{\sqrt{n}}$$
+$$\bar{\mathrm{proppos}}_{p,k} = \frac{1}{M}\sum_{j=1}^{M} \mathrm{proppos}^{(j)}_{p,k}, \qquad
+\overline{\mathrm{proppos}}_{k} = \frac{1}{N}\sum_{p=1}^{N} \bar{\mathrm{proppos}}_{p,k}, \qquad
+\mathrm{SE}_k = \frac{\mathrm{std}_p(\bar{\mathrm{proppos}}_{p,k})}{\sqrt{N}}$$
 
-> **Summary:** every plot metric is an arithmetic mean (and SE) over the pooled per-patient observations from all models, computed **after** the per-model fold-averaging (Stage 1) and per-patient averaging. There is no separate cross-model averaged CSV — the plots aggregate the per-model per-patient files directly.
+> **Summary:** every plot metric is a patient-level mean $\bar{X}_{p,k}$ (the $M$ model scores averaged *within* each patient) followed by the population mean and SE across the $N$=133 patients, computed **after** the per-model fold-averaging (Stage 1). There is no separate cross-model averaged CSV — the plots aggregate the per-model per-patient files directly.
 
 ## Evaluation Script Commands
 

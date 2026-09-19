@@ -1,14 +1,19 @@
 """
-Perform Friedman test and pairwise Wilcoxon tests on feedback scores to compare the 4 counselor modes.
-Tests for significant differences across simple, trained_agent, complex, and multi_agent modes
+Perform Friedman test and pairwise Wilcoxon tests on feedback scores to compare the 5 counselor modes.
+Tests for significant differences across simple, trained_agent, complex, multi_agent, and proposer_only modes
 for each criterion (9 MI criteria + Overall Average).
 
-The Friedman test tests for overall differences across all 4 modes.
-The Wilcoxon signed-rank test performs pairwise comparisons between each pair of modes (C(4,2)=6 pairs).
+The Friedman test tests for overall differences across all 5 modes.
+The Wilcoxon signed-rank test performs pairwise comparisons between each pair of modes (C(5,2)=10 pairs).
+
+Data source: prefers the cross-model averaged per-patient scores (avg_feedback_pipeline.csv,
+produced by average_across_models.py) so the tests reflect the 3-model average, falling back to
+the single/untagged feedback_scores_by_criterion.csv when no averaged file is present.
 """
 
 import os
 import sys
+from math import comb
 import pandas as pd
 import numpy as np
 from scipy.stats import friedmanchisquare, wilcoxon
@@ -18,7 +23,9 @@ from statsmodels.stats.multitest import multipletests
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 CSV_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "csv")
-FEEDBACK_CSV = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
+# Prefer the cross-model averaged per-patient scores; fall back to the untagged file.
+FEEDBACK_CSV = os.path.join(CSV_DIR, 'avg_feedback_pipeline.csv')
+FEEDBACK_CSV_FALLBACK = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
 
 # Define the 10 criteria (9 MI criteria + Overall Average)
 CRITERIA = [
@@ -39,12 +46,11 @@ MODES = ['simple', 'trained_agent', 'complex', 'multi_agent', 'proposer_only']
 
 def perform_friedman_test(feedback_df):
     """
-    Perform Friedman test for each criterion across the 4 counselor modes.
+    Perform Friedman test for each criterion across the 5 counselor modes.
     
     The Friedman test is a non-parametric statistical test used to detect 
     differences in treatments across multiple test attempts. It's appropriate
     when we have matched samples (same patients evaluated across different modes).
-    
     Multiple testing correction:
         BH-FDR (Benjamini-Hochberg) correction is applied across all 10 criteria,
         since 10 simultaneous Friedman tests are performed (one per criterion).
@@ -135,7 +141,7 @@ def perform_friedman_test(feedback_df):
     return results_df
 
 
-def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
+def perform_pairwise_wilcoxon(feedback_df, mode1, mode2, n_pairs=10):
     """
     Perform pairwise Wilcoxon signed-rank test for each criterion between two modes.
     
@@ -143,8 +149,8 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
     It's appropriate when comparing the same patients across two different modes.
     
     Multiple testing corrections applied:
-        1. Bonferroni (N=6 pairs): p × 6, the standard post-hoc family correction
-           after Friedman (C(4,2)=6 pairwise comparisons). Controls FWER.
+        1. Bonferroni (N = n_pairs): p × n_pairs, the standard post-hoc family
+           correction after Friedman (C(5,2)=10 pairwise comparisons). Controls FWER.
         2. BH-FDR across the 10 criteria within this pair: controls False
            Discovery Rate for testing all MI criteria in a single comparison.
     
@@ -152,6 +158,7 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
         feedback_df: DataFrame with feedback scores
         mode1: First mode name (e.g., 'simple')
         mode2: Second mode name (e.g., 'complex')
+        n_pairs: Total number of pairwise mode comparisons (for Bonferroni).
     
     Returns:
         DataFrame with test results for each criterion
@@ -239,7 +246,6 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
     
     if not results_df.empty:
         p_values = results_df['p_value'].values
-        n_pairs = 5  # C(5 modes, 2) = 10 pairwise comparisons
 
         # 1. Bonferroni correction for all pairwise comparisons (standard post-hoc family)
         #    Controls FWER across the mode comparisons.
@@ -265,14 +271,16 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
 def main():
     """Main function to perform Friedman tests and export results."""
     
-    # Load feedback data
-    if not os.path.exists(FEEDBACK_CSV):
-        print(f"Error: {FEEDBACK_CSV} not found!")
-        print("Please run feedback_analysis.py first to generate the feedback scores data.")
+    # Load feedback data: prefer the 3-model averaged per-patient scores, falling
+    # back to the untagged feedback_scores_by_criterion.csv if not yet generated.
+    source = FEEDBACK_CSV if os.path.exists(FEEDBACK_CSV) else FEEDBACK_CSV_FALLBACK
+    if not os.path.exists(source):
+        print(f"Error: {source} not found!")
+        print("Please run feedback_analysis.py per model and average_across_models.py first.")
         return
     
-    print(f"Loading feedback data from {FEEDBACK_CSV}...")
-    feedback_df = pd.read_csv(FEEDBACK_CSV)
+    print(f"Loading feedback data from {source}...")
+    feedback_df = pd.read_csv(source)
     print(f"Loaded {len(feedback_df)} records")
     
     # Check available criteria and modes
@@ -326,7 +334,7 @@ def main():
     
     for mode1, mode2 in pairs:
         print(f"\nPerforming Wilcoxon test: {mode1} vs {mode2}...")
-        wilcoxon_results = perform_pairwise_wilcoxon(feedback_df, mode1, mode2)
+        wilcoxon_results = perform_pairwise_wilcoxon(feedback_df, mode1, mode2, n_pairs=len(pairs))
         
         if wilcoxon_results.empty:
             print(f"Warning: No valid test results for {mode1} vs {mode2}")

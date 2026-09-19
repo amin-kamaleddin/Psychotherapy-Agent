@@ -38,7 +38,8 @@ PLOTS_DIR = os.path.join(SCRIPT_DIR, 'plots')
 os.makedirs(CSV_DIR, exist_ok=True)
 os.makedirs(PLOTS_DIR, exist_ok=True)
 
-FEEDBACK_CSV = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
+FEEDBACK_CSV = os.path.join(CSV_DIR, 'avg_feedback_pipeline.csv')
+FEEDBACK_CSV_FALLBACK = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
 # Per-model per-patient sentiment files (source of per-patient values for the box plot).
 # The same 133 patients are scored by each model, so the box plot pools the per-patient
 # proportions across all models (maintaining patient-level distributional info).
@@ -130,31 +131,39 @@ def load_per_patient_words():
 
 
 def load_feedback_data():
-    """Load feedback scores dataset."""
-    if os.path.exists(FEEDBACK_CSV):
-        df = pd.read_csv(FEEDBACK_CSV)
+    """Load feedback scores dataset (prefer the 3-model averaged per-patient scores)."""
+    source = FEEDBACK_CSV if os.path.exists(FEEDBACK_CSV) else FEEDBACK_CSV_FALLBACK
+    if os.path.exists(source):
+        df = pd.read_csv(source)
         print(f"Loaded feedback data: {len(df)} rows")
         return df
     else:
-        print(f"Warning: {FEEDBACK_CSV} not found")
+        print(f"Warning: {source} not found")
         return None
 
 
 def _patient_curve(df_pat, mode, turn_col, val_col, max_turn):
-    """Compute per-turn mean and standard error of a per-patient value for a mode,
-    pooling patients across all models. Returns (x, mean, se)."""
+    """Compute per-turn mean and standard error of a per-patient value for a mode.
+
+    The same 133 patients are scored by all models, so the 3 per-model values for a
+    patient are averaged FIRST (clustered by patient); the SE is then the standard error
+    across the 133 patient-means (std / sqrt(n_patients)). Pooling the raw (patient, model)
+    rows instead would treat the 3 model runs as independent and understate uncertainty.
+    Returns (x, mean, se).
+    """
     sub = df_pat[df_pat['therapist_mode'] == mode]
     turns = sorted(sub[turn_col].unique())
     xs, means, ses = [], [], []
     for t in turns:
-        vals = sub[sub[turn_col] == t][val_col].dropna().values
-        if len(vals) == 0:
+        tt = sub[sub[turn_col] == t]
+        pat_means = tt.groupby('patient_id')[val_col].mean().dropna().values
+        if len(pat_means) == 0:
             continue
-        mean = np.mean(vals)
-        sd = np.std(vals, ddof=1) if len(vals) > 1 else 0.0
+        mean = np.mean(pat_means)
+        sd = np.std(pat_means, ddof=1) if len(pat_means) > 1 else 0.0
         xs.append((t / max_turn) * 100)
         means.append(mean)
-        ses.append(sd / np.sqrt(len(vals)))
+        ses.append(sd / np.sqrt(len(pat_means)))
     return np.array(xs), np.array(means), np.array(ses)
 
 
@@ -243,29 +252,36 @@ def plot_word_ratio(df_pat=None):
 def plot_sentiment_distribution():
     """Plot 4: Distribution of positive, negative, and neutral sentiment by counseling quality.
 
-    Box-and-whisker plot pooling the per-patient proportions across all 3 models at turn 10
-    (each of the 133 patients is scored by every model). This preserves the patient-level
-    distribution that a bars-of-averages chart would hide.
+    Box-and-whisker plot at turn 10 with the 3 model scores averaged within each patient
+    (so each of the 133 patients contributes one value per mode), preserving the
+    patient-level distribution instead of collapsing to a single mean.
     """
-    # Collect per-patient values for turn 10 across all per-model files.
-    final_cols = {'negative': [], 'neutral': [], 'positive': []}
+    # Collect per-patient values for turn 10 across all per-model files, averaging the
+    # 3 model scores within each patient (so each patient contributes one value per mode).
     col_map = {'negative': 'prop_neg', 'neutral': 'prop_neu', 'positive': 'prop_pos'}
-    val_map = {s: {m: [] for m in ALL_MODES} for s in final_cols}
-
+    rows = []
     for path in MODEL_SENTIMENT_CSVS:
         if not os.path.exists(path):
             print(f"Warning: {path} not found; box plot will be missing a model")
             continue
         df = pd.read_csv(path)
         t10 = df[df['turn_number'] == 10]
-        for _, row in t10.iterrows():
-            mode = row['therapist_mode']
-            if mode not in ALL_MODES:
-                continue
-            for sent, col in col_map.items():
-                v = row[col]
-                if v == v:  # not NaN
-                    val_map[sent][mode].append(v)
+        rows.append(t10[['patient_id', 'therapist_mode'] + list(col_map.values())])
+    if not rows:
+        print("Warning: no per-patient sentiment data for distribution plot")
+        return None
+    all_t10 = pd.concat(rows, ignore_index=True)
+    all_t10 = all_t10[all_t10['therapist_mode'].isin(ALL_MODES)]
+    # Average the 3 model scores within each (patient, mode).
+    patient_means = all_t10.groupby(['patient_id', 'therapist_mode'])[list(col_map.values())].mean().reset_index()
+
+    val_map = {s: {m: [] for m in ALL_MODES} for s in col_map}
+    for _, row in patient_means.iterrows():
+        mode = row['therapist_mode']
+        for sent, col in col_map.items():
+            v = row[col]
+            if v == v:  # not NaN
+                val_map[sent][mode].append(v)
 
     total_vals = sum(len(v) for v in val_map['positive'].values())
     if total_vals == 0:
@@ -351,12 +367,13 @@ def plot_positive_sentiment_over_time():
     for percent, turn_num in splits.items():
         split_data = all_sent[all_sent['turn_number'] == turn_num]
         for mode in ALL_MODES:
-            vals = split_data[split_data['therapist_mode'] == mode]['prop_pos'].dropna().values
-            if len(vals) == 0:
+            mode_data = split_data[split_data['therapist_mode'] == mode]
+            pat_means = mode_data.groupby('patient_id')['prop_pos'].mean().dropna().values
+            if len(pat_means) == 0:
                 continue
             results[mode]['splits'].append(percent)
-            results[mode]['means'].append(np.mean(vals))
-            results[mode]['ses'].append(np.std(vals, ddof=1) / np.sqrt(len(vals)) if len(vals) > 1 else 0.0)
+            results[mode]['means'].append(np.mean(pat_means))
+            results[mode]['ses'].append(np.std(pat_means, ddof=1) / np.sqrt(len(pat_means)) if len(pat_means) > 1 else 0.0)
 
     fig, ax = plt.subplots(figsize=(14, 7))
     x_pos = np.array([20, 40, 60, 80, 100])
@@ -401,14 +418,15 @@ def plot_lsm_over_time(lsm_patient=None):
         turns = sorted(sub['turn_number'].unique())
         xs, means, ses = [], [], []
         for t in turns:
-            vals = sub[sub['turn_number'] == t]['avg_lsm'].dropna().values
-            if len(vals) == 0:
+            tt = sub[sub['turn_number'] == t]
+            pat_means = tt.groupby('patient_id')['avg_lsm'].mean().dropna().values
+            if len(pat_means) == 0:
                 continue
-            mean = np.mean(vals)
-            sd = np.std(vals, ddof=1) if len(vals) > 1 else 0.0
+            mean = np.mean(pat_means)
+            sd = np.std(pat_means, ddof=1) if len(pat_means) > 1 else 0.0
             xs.append((t / mx) * 100)
             means.append(mean)
-            ses.append(sd / np.sqrt(len(vals)))
+            ses.append(sd / np.sqrt(len(pat_means)))
         xs, means, ses = np.array(xs), np.array(means), np.array(ses)
         if len(xs):
             ax.fill_between(xs, means - ses, means + ses, color=COLORS[mode], alpha=0.2)

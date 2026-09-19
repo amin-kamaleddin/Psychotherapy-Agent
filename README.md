@@ -301,9 +301,9 @@ All 133 patients → Stage 2: Population mean = 3.87, std = 0.33
 
 This approach provides more reliable comparisons with reduced variance.
 
-### Multi-Model Pooling (Linguistic & Sentiment Plots)
+### Multi-Model Analysis (Linguistic & Sentiment Plots)
 
-The linguistic (LSM, word count/ratio) and sentiment analyses are run **per model** (with `PSYCH_MODEL` set), producing model-tagged per-patient CSVs (e.g. `{model}_lsm_per_patient.csv`, `{model}_words_per_patient.csv`, `{model}_sentiment_dataset_by_turn.csv`). Because the same 133 patients are scored by every model, `plot_metrics.py` **pools the per-patient values from all models** into a single per-mode distribution and plots the pooled mean ± standard error (`SE = std/√n`, with $n$ = pooled patient-observations). This preserves patient-level variability rather than collapsing to a cross-model mean. See `COMPARISON_GUIDE.md` for the full formulas.
+The linguistic (LSM, word count/ratio) and sentiment analyses are run **per model** (with `PSYCH_MODEL` set), producing model-tagged per-patient CSVs (e.g. `{model}_lsm_per_patient.csv`, `{model}_words_per_patient.csv`, `{model}_sentiment_dataset_by_turn.csv`). Because the same 133 patients are scored by every model, `plot_metrics.py` **averages the model scores within each patient first**, then plots the patient-level mean ± standard error (`SE = std/√133`, i.e. the standard error across the 133 patient-means, not across the 133×M raw rows). This avoids double-counting the same patient across models and keeps the error bars honest. See `COMPARISON_GUIDE.md` for the full formulas.
 
 ## Programmatic Usage
 

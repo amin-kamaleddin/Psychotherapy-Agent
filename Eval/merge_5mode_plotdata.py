@@ -1,16 +1,21 @@
-"""Merge 4 baseline modes (from data-backup worktree) + proposer_only (from current run)
+"""Merge 4 baseline modes (from a baseline worktree) + proposer_only (from current run)
 into all-5-mode files so plots show all 5 modes.
 
-Sources:
-- Baselines: D:/db-check/Eval/csv/{feedback_scores_by_criterion,sentiment_dataset_by_turn}.csv
+Sources (configurable via environment variables, with defaults below):
+- Baselines: $BASELINE_DIR/Eval/csv/{feedback_scores_by_criterion,sentiment_dataset_by_turn}.csv
 - proposer_only: Eval/csv/{feedback_scores_by_criterion,sentiment_dataset_by_turn}.csv (current, fold-5 run)
 
 Writes all-5-mode versions to Eval/csv/ for plotting.
+
+Usage:
+    $env:BASELINE_DIR="D:/path/to/baseline/worktree"; python Eval/merge_5mode_plotdata.py
 """
+import os
 import pandas as pd
 
-BASELINE_FB = 'D:/db-check/Eval/csv/feedback_scores_by_criterion.csv'
-BASELINE_SENT = 'D:/db-check/Eval/csv/sentiment_dataset_by_turn.csv'
+BASELINE_DIR = os.environ.get('BASELINE_DIR', 'D:/db-check')
+BASELINE_FB = os.path.join(BASELINE_DIR, 'Eval/csv/feedback_scores_by_criterion.csv')
+BASELINE_SENT = os.path.join(BASELINE_DIR, 'Eval/csv/sentiment_dataset_by_turn.csv')
 CUR_FB = 'Eval/csv/feedback_scores_by_criterion.csv'
 CUR_SENT = 'Eval/csv/sentiment_dataset_by_turn.csv'
 OUT_FB = 'Eval/csv/feedback_scores_by_criterion.csv'
