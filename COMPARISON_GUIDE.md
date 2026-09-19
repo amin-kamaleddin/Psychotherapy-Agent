@@ -265,14 +265,11 @@ Stored in `Session_Metadata/` directory:
 - `friedman_test_results.csv` - Statistical significance tests
 - `wilcoxon_test_{mode1}_vs_{mode2}.csv` - Pairwise comparisons
 
-**Plots** (in `Eval/plots/` directory):
-- `feedback_scores_by_criterion.png`
-- `counselor_words_per_turn.png`
-- `client_words_per_turn.png`
-- `word_ratio.png`
-- `sentiment_distribution.png`
-- `positive_sentiment_over_time.png`
-- `lsm_over_time.png`
+**Plots** (in `Eval/plots/` directory). Each metric is split into two mode groupings:
+- `{metric}__4modes.png` — the 4 counselor configurations (`simple`, `trained_agent`, `complex`, `multi_agent`)
+- `{metric}__proposer_vs_multi.png` — the proposer-only ablation vs the full multi-agent system
+
+where `{metric}` is one of `counselor_words_per_turn`, `client_words_per_turn`, `word_ratio`, `sentiment_distribution`, `positive_sentiment_over_time`, `lsm_over_time`, `feedback_scores_by_criterion`.
 
 ### Step 3: Analyze Comparison
 

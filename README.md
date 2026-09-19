@@ -268,13 +268,18 @@ After running experiments, you'll find:
 - `wilcoxon_test_{mode1}_vs_{mode2}.csv`: Pairwise comparisons
 
 ### Visualizations (`Eval/plots/`)
-- `feedback_scores_by_criterion.png`: MI criteria comparison
-- `counselor_words_per_turn.png`: Therapist verbosity (per-patient mean ± SE)
-- `client_words_per_turn.png`: Patient engagement (per-patient mean ± SE)
-- `word_ratio.png`: Communication balance (per-patient mean ± SE)
-- `sentiment_distribution.png`: Emotional tone box plot (per-patient, pooled across models)
-- `positive_sentiment_over_time.png`: Positive sentiment trajectory
-- `lsm_over_time.png`: Language coordination trends (per-patient mean ± SE)
+Each metric is split into two mode groupings:
+- `{metric}__4modes.png`: the 4 counselor configurations (`simple`, `trained_agent`, `complex`, `multi_agent`)
+- `{metric}__proposer_vs_multi.png`: the proposer-only ablation vs the full multi-agent system
+
+Metrics:
+- `counselor_words_per_turn`: Therapist verbosity (per-patient mean ± SE)
+- `client_words_per_turn`: Patient engagement (per-patient mean ± SE)
+- `word_ratio`: Communication balance (per-patient mean ± SE)
+- `sentiment_distribution`: Emotional tone box plot (per-patient, pooled across models)
+- `positive_sentiment_over_time`: Positive sentiment trajectory
+- `lsm_over_time`: Language coordination trends (per-patient mean ± SE)
+- `feedback_scores_by_criterion`: MI criteria comparison
 
 ## Two-Stage Aggregation
 
