@@ -87,7 +87,7 @@ Per-mode summary (population statistics across patients):
 $$\overline{X} = \frac{1}{N_{mode}}\sum_{p=1}^{N_{mode}} \text{avg\_score}_p
 \qquad \text{std} = \sqrt{\tfrac{1}{N_{mode}-1}\sum_{p}(\text{avg\_score}_p - \overline{X})^2}$$
 
-### LSM (`average_lang_metrics.py → avg_lsm`)
+### LSM (`average_lang_metrics.py` → `avg_lsm`)
 
 **Per-turn LSM score** (counselor vs client utterance at turn $k$), across $C$ word categories:
 
@@ -103,7 +103,7 @@ $$\text{avg\_lsm}_{k} = \frac{1}{k}\sum_{i=1}^{k} LSM_i$$
 
 $$\overline{\text{LSM}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \text{avg\_lsm}^{(j)}_{k}$$
 
-### Word Metrics (`average_lang_metrics.py → avg_word`)
+### Word Metrics (`average_lang_metrics.py` → `avg_word`)
 
 **Per-turn cumulative running average** of words per turn (counselor $c$ and client $cl$):
 
@@ -119,7 +119,7 @@ $$r_k = \frac{T^c_k}{T^{cl}_k} \quad (0 \text{ if } T^{cl}_k = 0)$$
 
 $$\overline{X}_{k} = \frac{1}{M}\sum_{j=1}^{M} X^{(j)}_{k}$$
 
-### Sentiment (`average_lang_metrics.py → avg_sentiment`)
+### Sentiment (`average_lang_metrics.py` → `avg_sentiment`)
 
 **Per-turn cumulative proportions** (positive / neutral / negative), counting sentiment classifications up to turn $k$:
 
@@ -260,16 +260,16 @@ Stored in `Session_Metadata/` directory:
 The comparison CSV includes:
 
 - **Category**: Evaluation category (Empathy, Acceptance, etc.)
-- **Simple_Mean** / **Simple_Std**: Score statistics for simple mode
-- **TrainedAgent_Mean** / **TrainedAgent_Std**: Score statistics for trained agent mode
-- **Complex_Mean** / **Complex_Std**: Score statistics for complex mode
-- **MultiAgent_Mean** / **MultiAgent_Std**: Score statistics for multi-agent mode
-- **Best_Mode**: Which mode performed best for this category
-- **Simple_vs_TrainedAgent**: Difference (Trained Agent - Simple)
-- **Simple_vs_Complex**: Difference (Complex - Simple)
-- **Simple_vs_MultiAgent**: Difference (Multi-Agent - Simple)
-- **TrainedAgent_vs_Complex**: Difference (Complex - Trained Agent)
-- **Complex_vs_MultiAgent**: Difference (Multi-Agent - Complex)
+- `Simple_Mean` / `Simple_Std`: Score statistics for simple mode
+- `TrainedAgent_Mean` / `TrainedAgent_Std`: Score statistics for trained agent mode
+- `Complex_Mean` / `Complex_Std`: Score statistics for complex mode
+- `MultiAgent_Mean` / `MultiAgent_Std`: Score statistics for multi-agent mode
+- `Best_Mode`: Which mode performed best for this category
+- `Simple_vs_TrainedAgent`: Difference (Trained Agent - Simple)
+- `Simple_vs_Complex`: Difference (Complex - Simple)
+- `Simple_vs_MultiAgent`: Difference (Multi-Agent - Simple)
+- `TrainedAgent_vs_Complex`: Difference (Complex - Trained Agent)
+- `Complex_vs_MultiAgent`: Difference (Multi-Agent - Complex)
 
 ## Evaluation Categories
 
