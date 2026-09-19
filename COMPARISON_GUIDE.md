@@ -178,7 +178,9 @@ $$\mathrm{proppos}_{p,k} = \frac{\sum_{i=1}^{k} \mathrm{pos}_{p,i}}{\sum_{i=1}^{
 \mathrm{propneu}_{p,k} = \frac{\sum_{i=1}^{k} \mathrm{neu}_{p,i}}{\sum_{i=1}^{k} n_{p,i}}, \quad
 \mathrm{propneg}_{p,k} = \frac{\sum_{i=1}^{k} \mathrm{neg}_{p,i}}{\sum_{i=1}^{k} n_{p,i}}$$
 
-Note $\mathrm{proppos}_{p,k} + \mathrm{propneu}_{p,k} + \mathrm{propneg}_{p,k} = 1$.
+Note the three proportions sum to one:
+
+$$\mathrm{proppos}_{p,k} + \mathrm{propneu}_{p,k} + \mathrm{propneg}_{p,k} = 1$$
 
 - **Distribution plot** (turn 10): a **box-and-whisker** plot of the per-patient means $\bar{\mathrm{proppos}}_{p,10}$ (model-averaged within patient).
 - **Positive-sentiment-over-time plot**: per-turn patient-level means with SEM error bars:
