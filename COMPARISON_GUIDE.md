@@ -68,24 +68,66 @@ This approach provides **more stable and reliable comparisons** between modes.
 
 ## Multi-Model Analysis (Per-Patient Means Averaged Across Models)
 
-When comparing **multiple models** (e.g. `gpt-5-mini`, `qwen/qwen3.8-27b`, `z-ai/glm-5.3-flash`), each model independently scores the same **133 patients** across all 5 modes. Because the same patients are scored by every model (matched samples), the analysis **first averages the model scores *within* each patient**, then computes the population statistics across the 133 patients. This avoids treating the 3 model runs per patient as independent observations (which would spuriously inflate $n$ and narrow the error bars).
+When comparing **multiple models** (e.g. `gpt-5-mini`, `qwen/qwen3.8-27b`, `z-ai/glm-5.3-flash`), each model independently scores the same **133 patients** across all 5 modes. This raises a subtle statistical question: *how should the 3 model scores for each patient be combined into a single number?*
 
-Workflow:
+### Why pool within patient, not across all rows?
+
+Each patient produces **3 scores per metric** (one from each model). There are two naive ways to combine them, and only one is correct here:
+
+1. **Pool all 133 × 3 = 399 rows together** and compute $\text{std}/\sqrt{399}$.
+   ❌ This treats the 3 model runs as *independent* observations. They are not — the same patient is being measured 3 times, so the scores are **correlated** (a patient who is verbose under one model tends to be verbose under all three). Inflating $n$ from 133 to 399 spuriously **narrows the error bars** by ~$\sqrt{3}$, making differences look more significant than they are.
+
+2. **Average the 3 model scores *within* each patient first**, then compute statistics across the 133 patient-means.
+   ✅ This is the correct approach for **matched samples**. It collapses the 3 model measurements into one value per patient ($\bar{X}_p$), then treats those 133 values as the independent sample. The standard error is $\text{std}(\bar{X}_p)/\sqrt{133}$, which honestly reflects the between-patient variability.
+
+**Workflow:**
 1. Run `feedback_analysis.py`, `lsm_analysis.py`, `word_analysis.py`, `sentiment_analysis.py` **per model** with `PSYCH_MODEL` set, producing model-tagged per-patient CSVs.
 2. Run `plot_metrics.py`, which loads the per-model per-patient files, averages them within patient, and plots the patient-level mean ± SE.
 
-**Notation:** $M$ = number of models, $N$ = 133 patients in a mode, $\text{turn}_k$ = the $k$-th therapist–patient turn.
+### Notation
 
-**Step 1 — within-patient average** (for each patient $p$, mode, and turn $k$):
+- $M$ = number of models (here 3)
+- $N$ = 133 patients in a mode
+- $X^{(j)}_{p,k}$ = the value that model $j$ assigns to patient $p$ at turn $k$
+- $\text{turn}_k$ = the $k$-th therapist–patient turn
+
+### Step 1 — within-patient average (collapse the 3 models)
+
+For each patient $p$, mode, and turn $k$, the 3 model scores are averaged into a single patient-level value:
 
 $$\bar{X}_{p,k} = \frac{1}{M}\sum_{j=1}^{M} X^{(j)}_{p,k}$$
 
-**Step 2 — population statistics across patients** (for each mode and turn $k$):
+### Step 2 — population statistics across patients
+
+For each mode and turn $k$, the patient-level values are summarized:
 
 $$\overline{X}_k = \frac{1}{N}\sum_{p=1}^{N} \bar{X}_{p,k}
 \qquad \mathrm{SE}_k = \frac{\mathrm{std}_p(\bar{X}_{p,k})}{\sqrt{N}}$$
 
+where $\mathrm{std}_p(\cdot)$ is the sample standard deviation (ddof = 1) across the 133 patients.
+
 The shaded bands and error bars in the plots show $\overline{X}_k \pm \mathrm{SE}_k$. The sentiment **distribution** plot instead draws a box-and-whisker of the per-patient means $\bar{X}_{p,10}$.
+
+### Worked example
+
+Suppose the *client word count* at turn 1 for patient #42 is measured by the three models as:
+
+| Model | Client words |
+|---|---|
+| gpt-5-mini | 80.5 |
+| qwen-qwen3.8-27b | 69.1 |
+| z-ai-glm-5.3-flash | 90.6 |
+
+- **Step 1** (within patient): $\bar{X}_{42,1} = (80.5 + 69.1 + 90.6)/3 = 80.1$
+- **Step 2** (across patients): this $\bar{X}_{42,1}$ becomes one of the 133 values whose mean and SE are plotted.
+
+If instead all 399 rows were pooled, patient #42 would contribute 3 data points instead of 1, and the SE would be artificially deflated by $\sqrt{3}$.
+
+### Why the 3 models sometimes disagree
+
+The error bars only capture **between-patient** variability (the spread across the 133 patient-means). They do *not* reflect how much the 3 models disagree with each other. This is intentional: the goal is to report the population-level estimate of each metric, and the 3 models are treated as repeated measurements of the same underlying patient, not as independent samples.
+
+For the MI **feedback scores** (below), the same within-patient averaging is applied, but it is computed by a dedicated helper script rather than inline in `plot_metrics.py`.
 
 ### Feedback Scores (handled separately via `average_across_models.py`)
 
