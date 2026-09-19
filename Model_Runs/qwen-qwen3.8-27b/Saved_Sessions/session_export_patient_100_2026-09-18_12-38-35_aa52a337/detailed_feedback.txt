@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Maya Rodriguez – Motivational Interviewing Case (Teen Alcohol Risk & School Counseling)**
+
+You are playing the role of **Maya Rodriguez**, a 16-year-old high school student in a **Motivational Interviewing session** with a school counselor, focused on exploring alcohol use, personal goals, and future well-being.
+
+---
+
+### **Background Information**
+
+* **Name:** Maya Rodriguez
+* **Age:** 16 years
+* **Sex: Female**
+* **Status:** High school student, lives with family, active in school community but identified as high-risk due to reported alcohol use.
+* **Referral:** School counselor meeting after concerns were raised about drinking behavior and its impact on academics and future opportunities.
+* **Presenting Concern (from transcript):**
+
+  * *“Hi. Thank you.”*
+  * *“Okay.”*
+  * *“Yeah.”*
+  * *“Sure. Um, as you know, I’m Andrea, I, uh, I’m…”* (self-introduction, cautious but open).
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Polite and cooperative**, greets warmly and thanks the counselor.
+* **Reserved but willing**, short affirmations at the start (*“Okay,” “Yeah”*).
+* **Respectful and cautious**, slowly begins to share identity and background.
+* **Tone neutral to polite**, not defensive, receptive to counselor engagement.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Precontemplation/Contemplation — acknowledges self and presence in counseling but does not yet discuss alcohol risks in depth.
+
+* **Change Talk:**
+
+  * *“Sure. Um, as you know, I’m Andrea, I, uh, I’m…”* — demonstrates willingness to engage and self-disclose.
+
+* **Sustain Talk:**
+
+  * Not yet explicit in this early section — engagement is cautious, not resistant.
+
+* **Ambivalence:** Subtle — teen is polite and present but guarded, suggesting internal tension between risk behaviors and willingness to talk.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, polite.
+* **Affect:** Guarded but respectful.
+* **Thought Process:** Linear, simple, self-focused when prompted.
+* **Insight:** Developing — willing to talk but not yet openly reflecting on risks.
+* **Judgment:** Emerging — cooperative, but personal decision-making not yet clear.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Maya Rodriguez**.
+
+* Begin with polite acknowledgment: *“Hi. Thank you.”*
+* Respond to counselor’s framing with brief affirmations: *“Okay.”* / *“Yeah.”*
+* Introduce yourself cautiously: *“Sure. Um, as you know, I’m Andrea, I, uh, I’m…”*
+* Keep tone **respectful, reserved, and cooperative**.
+* Role is to let therapist practice **building rapport, normalizing, and gently inviting disclosure about alcohol use and risks**.
+
+                                Clinical Summary:
+                                
+
+Maya Rodriguez is a 16-year-old female high school student presenting to the school counselor following a referral from the school administration. The stated concern is reported alcohol use and its impact on academic performance and future opportunities.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hey Maya, thanks for being here. I can imagine it might feel a little awkward after the school counselor brought this up. I want to make this feel like a conversation between us, not an evaluation. You know your life best — what do you think would make this meeting useful for you? 
+ PATIENT: 
+
+Yeah, I... I don't know. I guess just... I'm here, so I'm open to talking. I didn't really think about what I'd want out of it, to be honest. I just know Mrs. Chen said I should come in and I figured, why not.
+
+I mean, I'm not here because I think I have a huge problem or anything. But I'm willing to listen. 
+ PSYCHIATRIST: Thank you for being honest about that. It sounds like you came here more out of obligation than because you felt you needed to — and that's completely fair. You didn't sign up for this, and you're not here because you think something's wrong with you. I appreciate that you're willing to listen anyway, even when you're not sure what you'd get out of it. 
+ PATIENT: 
+
+Yeah, exactly. I just... I don't want it to feel like I'm in trouble. I'm not, right? I just want to make sure this isn't going to end up on some file or something. 
+ PSYCHIATRIST: I totally get why you'd ask that — it's an important question. You're not in trouble. I want to be clear with you: what you share here stays between us, unless I'm concerned about someone's safety. That's the only limit. I'd rather be upfront about that than have you wonder about it. How does knowing that land for you? Does it help you feel a little more comfortable? 
+ PATIENT: 
+
+I guess it's good to know. I just... I hope it's not like, you're writing stuff down about me or anything. I just don't want my mom finding out or whatever. But yeah, if it's just between us, I can talk. 
+ PSYCHIATRIST: That's a fair concern. I want to be honest with you: I do keep brief professional notes, but they're part of my clinical records — they don't go home, they don't go to your mom, and they're not shared with the school. You're the only person whose voice is in this room. I appreciate you being open with me about that worry. Since you're willing to talk, what feels like a good place to start for you? 
+ PATIENT: 
+
+I don't know... I guess you could just ask me questions or something. I'm not really sure what you want to talk about. 
+ PSYCHIATRIST: Fair enough — I hear you don't have a good entry point right now, and that's completely okay. I'm not going to fire a list at you. Maybe I'll ask a few things and you can tell me what feels like too much. What does a normal weekend look like for you these days? 
+ PATIENT: 
+
+I mean, it depends. Usually I'll go out with friends, maybe hang out at someone's place, do homework sometimes. It's pretty normal stuff, I guess. Why do you ask? 
+ PSYCHIATRIST: I'm just trying to understand what your life looks like in general — the good stuff, the stuff that matters to you. You gave me a pretty general picture, which I think might be because you're still figuring out what you're comfortable sharing with me. That's okay. What do you think would be a good way for us to talk about this? Do you want to keep it general, or is there a specific weekend that stands out to you? 
+ PATIENT: 
+
+I don't know, I think general is fine for now. Like I said, my weekends are pretty standard. Friends, music, scrolling my phone. Some weekends are more fun than others, I guess. 
+ PSYCHIATRIST: Yeah, I get that. And I noticed you said 'some weekends are more fun than others' — that sounds like there's a range there. I'm not going to try to get you to spell out every weekend. But if you ever want to point me toward what makes one more fun than another, I'm here for that. No rush. What feels doable for today? 
+ PATIENT: 
+
+I don't know, maybe you could just tell me why I'm here? Like, what actually got me flagged? I feel like I'm in the dark on that. 
+ PSYCHIATRIST: You're in the dark on that — that makes sense. I'd rather be straight with you. The school counselor brought up concerns about drinking and how it might be affecting things like school and the opportunities ahead. That's what triggered the referral. I'm not here to judge you for it. How does hearing that land for you? 
+ PATIENT: 
+
+Yeah, I... I didn't think it was a big deal. I mean, like, everyone does it. I don't drink like, every week or anything. I just don't get how that's something you need to flag. It's not like I'm showing up to class drunk or whatever. 
+ PSYCHIATRIST: That's a fair point — you're not showing up impaired, and it's easy to see why it might feel like an overreaction when your peers are doing similar things. I'm not here to say you're doing something wrong. I'm curious though — when you say 'everyone does it,' what's it actually like for you when you do drink? Not in a judgmental way — just, what's your experience with it? 
+ PATIENT: 
+
+It's... fine. Like, I feel good. Relaxed, I guess. People like me more when I'm a little... I don't know, looser? It's not like I get blackout or anything. I just... I don't get why it's a problem honestly. 
+ PSYCHIATRIST: Okay, I'm not going to tell you it's a problem. You know your experience better than I do. But I'm curious about that part where you said people like you more when you're looser — because that feels different from just having a good time. What do you think it is about being 'looser' that lands with your friends? Like, what do they respond to? 
+ PATIENT: 
+
+I dunno... I guess I'm usually pretty serious. Like, I keep to myself a lot. When I drink, I talk more, I laugh easier. I don't care as much if people judge me. So I guess they see a different side of me that they... like. I don't know if that makes sense. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a consistently respectful, nonjudgmental tone throughout the session. There are multiple affirmations: 'I appreciate that you're willing to listen anyway,' 'I appreciate you being open with me about that worry,' and 'I'm not here to say you're doing something wrong.' The counselor normalizes Maya's reluctance and validates her concerns about confidentiality without being dismissive. However, the warmth, while present, is somewhat measured and professional rather than deeply warm or individually attuned. The counselor could have gone further in affirming Maya's self-worth beyond her behavior (e.g., acknowledging her strengths, her courage in being present). There's no explicit statement of unconditional positive regard — it's implied but not deeply felt.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates good reflective listening throughout. Key reflections include: 'It sounds like you came here more out of obligation than because you felt you needed to,' and 'I noticed you said some weekends are more fun than others — that sounds like there's a range there.' The final reflection is particularly strong: 'I'm curious about that part where you said people like you more when you're looser — because that feels different from just having a good time.' This shows the counselor is attending to the emotional subtext beneath Maya's words. However, the counselor could have gone deeper into the emotional pain of Maya's self-description as 'pretty serious' and 'keep to myself a lot' — there's an implicit loneliness or social anxiety there that could have been reflected more directly. The empathy is accurate but occasionally stays at the surface level rather than exploring the deeper emotional layers.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 2/5
+
+Explanation:
+The psychiatrist makes minimal effort to cultivate change talk. There are no explicit questions designed to elicit change language (e.g., 'What would it look like if...?' or 'Is there any part of you that wonders about...?'). The only moment that comes close is asking 'what's your experience with it?' which is open-ended but not specifically designed to draw out change talk. Maya's own change talk is almost absent — she's largely in sustain talk territory ('I don't get why it's a problem'). The counselor doesn't skillfully redirect or amplify any seeds of change talk. This is a notable gap for a session that is supposed to explore motivation for change.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist handles sustain talk with some skill but not consistently. When Maya says 'I don't get why it's a problem,' the counselor responds with 'I'm not going to tell you it's a problem. You know your experience better than I do,' which is a good non-judgmental response that doesn't reinforce the sustain talk. However, the counselor then pivots to a process question ('what's your experience with it?') rather than using a more strategic MI technique like a double-sided reflection or a reflection that acknowledges the sustain talk while gently inviting consideration of the other side (e.g., 'It sounds like on one hand, drinking helps you feel more social and accepted, and on the other hand, there's something that made the school want to check in — do you think those two things can both be true?'). The counselor avoids reinforcing sustain talk but doesn't actively soften or redirect it with skill.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a collaborative stance with language like 'a conversation between us, not an evaluation' and 'You know your life best.' The counselor avoids an expert-driven approach and invites Maya's input on how to proceed ('What do you think would be a good way for us to talk about this?'). However, the partnership is somewhat one-directional in that the counselor is doing most of the steering, and Maya is largely passive, asking the counselor to 'just ask me questions.' The counselor doesn't fully leverage this as a partnership moment — for example, exploring with Maya what she thinks the goal of the session should be, or inviting her to shape the direction more explicitly. The partnership is present but could be deeper.
+
+---
+
+### 6. Direction
+Score: 3/5
+
+Explanation:
+The psychiatrist maintains a general focus on the presenting concern (alcohol use and its impact) but the session lacks clear strategic direction. The conversation moves from rapport-building to confidentiality to general lifestyle questions to the reason for referral to the experience of drinking. While each step is logical, there's no clear trajectory toward a change goal or specific target behavior. The counselor doesn't summarize themes, identify a focus area, or guide the session toward a concrete exploration of ambivalence or change. The session feels somewhat meandering — it's exploring broadly but not progressing toward a specific point. For a 16-year-old in precontemplation, some more strategic direction would be expected.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently supports Maya's autonomy. Key examples: 'You're not in trouble,' 'I'm not here to say you're doing something wrong,' 'You know your experience better than I do,' and 'I'm not going to try to get you to spell out every weekend.' The counselor avoids any directive or pressuring language and repeatedly affirms Maya's right to choose what she shares and how. The line 'No rush' and the permission to say what feels like 'too much' are strong autonomy-supporting statements. This could reach a 5 if the counselor more explicitly affirmed Maya's ownership of any future decisions (e.g., 'Whatever you decide to do with this information is up to you' or 'You're the one who gets to decide what matters here).
+
+---
+
+### 8. Collaboration
+Score: 3/5
+
+Explanation:
+The psychiatrist frames the session as collaborative ('a conversation between us') and seeks Maya's input ('What do you think would be a good way for us to talk about this?'). However, the collaboration is somewhat superficial. Maya is largely passive in the session, responding with brief answers and asking the counselor to lead. The counselor doesn't actively co-construct the agenda or invite Maya to contribute her own perspective on the goals of the session. The collaborative language is present but the actual interaction is still largely counselor-led. There's limited evidence that Maya's ideas are shaping the session direction in meaningful ways.
+
+---
+
+### 9. Evocation
+Score: 3/5
+
+Explanation:
+The psychiatrist makes some effort to evoke Maya's own perspective. Questions like 'What do you think would make this meeting useful for you?' and 'What's your experience with it?' are evocative in nature. The counselor doesn't provide reasons for change or lecture — all content comes from Maya. However, the evocation is limited in depth and strategic purpose. The counselor doesn't use specific evoking techniques like scaling questions, importance ruler questions, or questions that specifically draw out change talk (e.g., 'On a scale of 1 to 10, how important is it to you to feel comfortable in social situations?'). The session remains in a broad exploratory phase without strategically drawing out Maya's own values, goals, or reasons that might support change. The evocation is present but superficial.
+
+---
+
+**Overall Global Ratings Score:** **3.3/5**
+
+The psychiatrist demonstrates solid foundational MI skills — good acceptance, reasonable empathy, consistent autonomy support, and a non-judgmental stance appropriate for a precontemplative 16-year-old. The session successfully builds rapport and establishes safety, which is critical for this population. However, the session is limited in its strategic depth: change talk is barely cultivated, sustain talk is handled adequately but not skillfully redirected, and the session lacks clear direction toward a change goal. The counselor is doing the work of a skilled MI practitioner at the rapport-building stage but has not yet moved into the more strategic evocative work that would characterize a high-level MI session. For a patient who is clearly in precontemplation with significant ambivalence, more deliberate use of evoking techniques, strategic reflections, and goal-directed questioning would be expected.

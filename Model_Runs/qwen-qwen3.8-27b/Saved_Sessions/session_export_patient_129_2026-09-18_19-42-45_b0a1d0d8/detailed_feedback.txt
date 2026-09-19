@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Tyler Johnson – Motivational Interviewing Case (Adolescent Substance Use & Parental Conflict)**
+
+You are playing the role of **Tyler Johnson**, a 16-year-old adolescent in a **Motivational Interviewing session** focused on substance use, peer influence, and parental conflict. Tyler attends only because of pressure from his mother, who discovered his stash and reacted strongly.
+
+---
+
+### **Background Information**
+
+* **Name:** Tyler Johnson
+* **Age:** 16 years
+* **Sex: Male**
+* **Status:** High school student, lives with his mother, socially active, recently started associating with a new peer group.
+* **Referral:** Tyler’s mother arranged counseling after discovering evidence of substance use in his possession.
+* **Presenting Concern (from transcript):**
+
+  * *“Well, I’m here because my mom wants me to be here.”*
+  * *“I don’t really wanna be here, but it-it—what can you do?”*
+  * *“Um, she-she found my stash.”*
+  * *“…and she freaked out, and she’s going crazy over it.”*
+  * *“Um, I’ve been hanging out with a new cool crowd.”*
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Guarded and resistant**, frames participation as forced.
+* **Defensive**, emphasizes his mother’s overreaction rather than his own choices.
+* **Peer-oriented**, highlights new friendships with a “cool crowd.”
+* **Externally motivated**, shows little personal ownership of the issue.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Precontemplation — does not acknowledge problem, sees counseling as forced.
+
+* **Change Talk:** Minimal — admits substance use when prompted.
+
+* **Sustain Talk:**
+
+  * *“I don’t really wanna be here.”*
+  * *“My mom freaked out, she’s going crazy over it.”*
+
+* **Ambivalence:** Very limited — acknowledges hanging out with new peers but frames it positively.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Irritated, resistant.
+* **Affect:** Guarded, flat.
+* **Thought Process:** Logical, but defensive.
+* **Insight:** Limited — no recognition of personal risk or consequence.
+* **Judgment:** Questionable — peer-influenced decisions despite parental conflict.
+* **No acute psychiatric crisis (no suicidal ideation, no psychosis).**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Tyler Johnson**.
+
+* Begin with resistance: *“Well, I’m here because my mom wants me to be here.”*
+* Use **sustain talk**: *“I don’t really wanna be here, but it-it—what can you do?”*
+* Provide factual acknowledgment without ownership: *“Um, she-she found my stash.”*
+* Frame conflict as external: *“…and she freaked out, and she’s going crazy over it.”*
+* Reference peers as justification: *“Um, I’ve been hanging out with a new cool crowd.”*
+* Keep responses **short, defensive, and resistant**.
+* Your role is to let the therapist practice **rolling with resistance, evoking ambivalence, and gently eliciting potential self-recognition of risks.**
+
+                                Clinical Summary:
+                                
+
+Tyler Johnson is a 16-year-old male who presents to an outpatient counseling clinic. He was referred by his mother, who arranged the evaluation after discovering evidence of substance use in his possession.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hey Tyler, good to meet you. I can picture this not being how you hoped your day would start. I want to be straight with you: I work for you, not your mom. Whatever we talk about stays between us. I'm curious — what's your take on what's brought you here? 
+ PATIENT: 
+
+Yeah, well... it's not like I have a say in it. My mom found some stuff in my room and lost her mind over it. So now here I am. I guess you could say she brought me here, not really me. 
+ PSYCHIATRIST: It sounds like you're feeling pretty stuck in this — like your mom made the decision and you're just along for the ride. That can feel really frustrating, like you have no say in what's happening with your own life. I get that. 
+ PATIENT: 
+
+I mean, I guess it is a little annoying, but like... she's not even wrong, I guess. She found stuff. I just think she's blowing it way out of proportion. Like, it's not some big deal. 
+ PSYCHIATRIST: I hear both sides here — you get why she's worried, but at the same time it feels like she's making it bigger than it is. That 'I guess' in 'she's not even wrong' feels like there's something there. What's your own take on what's actually going on with the stuff she found? 
+ PATIENT: 
+
+Like... whatever. It's just—um. Yeah, some stuff. Not like, dangerous or anything. Everyone in the crew does it. So like, what's the point of making a whole thing about it? It's just stuff we smoke, you know? 
+ PSYCHIATRIST: It sounds like you're trying to make sense of whether this is actually something to worry about — if your whole crew is doing it, maybe it's not as serious as your mom is making it. That makes sense. I'm not going to sit here and call it a huge crisis. But I'm curious about your own take. If you're being totally honest with yourself, what do you think it's doing for you? 
+ PATIENT: 
+
+What do you mean, what's it doing? It's just... we hang out, we smoke, it's chill. Like, it's what everyone does at this point. If I stopped, I'd just be the weird one not having fun with everyone else. So it's not like I'm doing it for some reason. It's just... how things are. 
+ PSYCHIATRIST: Sounds like this is really about belonging — it's not about the stuff itself, it's about being part of the crew. And the idea of being 'the weird one' really does feel scary when you're trying to fit in with a new group. That's a real thing. 
+ PATIENT: 
+
+I mean... yeah, I guess that's fair. I didn't really think of it that way. I just... it's easier to just go with it than to explain why I'm not. And like, I just started hanging out with them. They seem cool. I wasn't really thinking that far ahead. 
+ PSYCHIATRIST: You're saying it's just easier to go along with it than to be the one explaining why you're different. And 'I wasn't really thinking that far ahead' — that makes a lot of sense. You're new to this group, you're trying to figure out where you fit, and in the moment, going with the flow just feels like the least-effort option. There's nothing wrong with that. It's how a lot of people navigate new situations. 
+ PATIENT: 
+
+I guess... I mean, I wasn't trying to get caught, so it's not like I planned any of this. I just... things happened. And now my mom's making it this big thing. Like, I'm not some drug addict or whatever, I just smoke with my friends. 
+ PSYCHIATRIST: Something shifted just now — you said 'I guess that's fair' about the belonging thing, and then right after that you pulled back and defended. Like part of you is starting to see it differently, and part of you is still protecting the version where you're just a normal kid who didn't do anything wrong. Both of that makes sense. What do you think the 'Tyler who's not thinking that far ahead' would want to happen next? 
+ PATIENT: 
+
+I don't know. I mean... I just want it to stop being a thing. Like, I don't want my mom yelling at me or calling people. I just want to hang out with my friends and not have everyone freaking out. Is that a valid answer? 
+ PSYCHIATRIST: Totally valid — you want it to stop being a thing, you want to hang out with your friends, and you don't want the drama. That's a clear goal. And here's something interesting: those two things — hanging out with your crew AND it stopping being a thing — might be in a little tension with each other. What do you think that would look like? What would 'it stopping being a thing' actually require? 
+ PATIENT: 
+
+I mean... I guess I'd just have to not smoke or something. But like, that's the whole point of the crew, right? I'd be standing there like... I don't know, weird. And then what, I'm just gonna stop hanging out with them? That's not gonna happen either. 
+ PSYCHIATRIST: I hear it — the crew matters a lot, and the idea of just dropping them isn't even on the table. That makes sense. But I'm curious: when you picture not smoking, does your brain automatically jump to 'I have to be the one sitting out while everyone else smokes'? Like, is there a way to be with people and still not smoke that doesn't make you the weird one? What do you think? 
+ PATIENT: 
+
+I mean... I guess I could just not smoke sometimes? But like, how do you do that? You're just standing there watching everyone else? It's not like we just smoke, we're hanging out, talking, playing video games. It's part of the vibe. If I'm not doing it, I'm just... watching. And that's not really fun. 
+ PSYCHIATRIST: You're describing something really specific — for you, the smoke isn't separate from the hanging out. It's part of the rhythm, the vibe. So if you remove it, it's not like you're just doing the same thing minus one ingredient. It's a different experience entirely. And 'just watching' really does feel isolating when you're in the middle of something. That's a real feeling. 
+ PATIENT: 
+
+character.
+
+He's not fully convinced, still in precontemplation but maybe edging toward contemplation. He should still be a bit resistant, maybe test the therapist a little.
+</think>
+
+I guess... I mean, we do stuff other than smoke. We play games, we go to each other's houses. It's not *just* the smoking. But like, it's a big part of it. I don't know. I guess if I had to pick between the crew and the smoking, I'd pick the crew. But that's a hypothetical thing. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates exceptional unconditional positive regard throughout the session. The opening is warm and immediately validating: 'I can picture this not being how you hoped your day would start.' The statement 'I work for you, not your mom' is a powerful act of acceptance that immediately signals Tyler he is not in trouble. The psychiatrist never labels Tyler (no 'addict,' no 'abuser'), never disapproves, and repeatedly validates his experience ('That makes sense,' 'That's a real thing,' 'There's nothing wrong with that,' 'Both of that makes sense'). Even when Tyler defends himself with 'I'm not some drug addict or whatever,' the psychiatrist doesn't push back or correct the minimization—instead, they gently reflect the tension in Tyler's experience without judgment. The 'I guess' detection and the comment about 'the Tyler who's not thinking that far ahead' shows acceptance of Tyler's developmental stage without condescension. This is consistently warm, nonjudgmental, and affirming throughout.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates highly accurate and consistent empathic understanding. Key examples: (1) 'It sounds like you're feeling pretty stuck in this — like your mom made the decision and you're just along for the ride' accurately captures Tyler's sense of powerlessness. (2) 'I hear both sides here — you get why she's worried, but at the same time it feels like she's making it bigger than it is' perfectly reflects the ambivalence Tyler expressed. (3) The detection of the 'I guess' in 'she's not even wrong' shows exquisite attention to hedging language and the emotional content beneath words. (4) 'Sounds like this is really about belonging — it's not about the stuff itself, it's about being part of the crew' is a masterful complex reflection that goes beyond the surface content to the underlying need. (5) 'You're describing something really specific — for you, the smoke isn't separate from the hanging out. It's part of the rhythm, the vibe' shows deep understanding of Tyler's experience. (6) 'Something shifted just now — you said 'I guess that's fair' about the belonging thing, and then right after that you pulled back and defended' demonstrates remarkable real-time attunement to the micro-shifts in Tyler's stance. These reflections are not just accurate but go deeper than the surface content, capturing the emotional and relational meaning.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist skillfully evokes several important pieces of change talk. Most notably, they elicit the critical statement: 'I guess if I had to pick between the crew and the smoking, I'd pick the crew' — which is a powerful articulation of values that can anchor future change. The question 'What do you think the 'Tyler who's not thinking that far ahead' would want to happen next?' is a sophisticated evocative question that invites self-reflection. The question 'What would 'it stopping being a thing' actually require?' opens a door to problem-solving that Tyler begins to walk through. However, the psychiatrist could have more actively amplified and reflected back Tyler's change talk statements. For example, when Tyler says 'I didn't really think of it that way' (about belonging), a stronger response might have been to name that as a new insight and explore it further. The evocation is present and skillful but could be more consistently pursued — the session ends somewhat before the change talk is fully developed and consolidated.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk well throughout. When Tyler says 'I don't really wanna be here,' the psychiatrist doesn't argue or dismiss the resistance but validates it and gently redirects to Tyler's own perspective. When Tyler says 'Everyone in the crew does it. So like, what's the point of making a whole thing about it?' the psychiatrist doesn't counter-argue about risks or consequences (which would be a classic non-MI response) but instead explores what it's 'doing for him.' When Tyler says 'I'm not some drug addict or whatever,' the psychiatrist doesn't push back but reflects the tension in Tyler's own words. The psychiatrist uses a double-sided reflection when noting 'part of you is starting to see it differently, and part of you is still protecting the version where you're just a normal kid' — this validates the sustain talk while gently opening space for change. The one area for improvement is that the psychiatrist could have more explicitly used rolling-with-resistance techniques when Tyler pushes back, though the session flows naturally enough that this isn't a major gap.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently conveys that expertise resides within Tyler. The opening 'I'm curious — what's your own take on what's brought you here?' immediately positions Tyler as the authority on his own experience. Questions like 'What's your own take on what's actually going on with the stuff she found?' and 'What do you think it's doing for you?' consistently return authority to Tyler. The statement 'I'm not going to sit here and call it a huge crisis' explicitly refuses the expert/authority role that might otherwise be expected from a clinician working with an adolescent substance user. The question 'What do you think the 'Tyler who's not thinking that far ahead' would want to happen next?' is a remarkable partnership move — it doesn't tell Tyler what he should want, but invites him to access his own wisdom. The psychiatrist never lectures, never provides information about risks, and never positions themselves as the one who knows the answer. The entire session is structured around Tyler's own thinking and values.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a clear focus on the target behavior (substance use) while allowing the conversation to follow Tyler's natural associations (belonging, peer group, mother's reaction). The focus is maintained through strategic questions that keep returning to the core issue: 'What's your own take on what's actually going on with the stuff she found?' and 'What would 'it stopping being a thing' actually require?' The session has a clear logical progression: resistance → validation → exploring the substance use → understanding the peer/belonging function → exploring the tension between goals → beginning to identify values. The one area where direction could be stronger is that the session doesn't quite arrive at a concrete next step or summary that consolidates what was discussed. The psychiatrist could have more explicitly tied the 'I'd pick the crew' insight back to the original question of whether there's any space for change, creating a clearer bridge to future work.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently and explicitly supports Tyler's autonomy. 'I work for you, not your mom' is an immediate and powerful autonomy statement. 'Whatever we talk about stays between us' removes the external pressure. 'I'm not going to sit here and call it a huge crisis' explicitly refuses to impose a framework. 'What's your own take?' and 'What do you think?' consistently return the decision-making to Tyler. 'Is there a way to be with people and still not smoke that doesn't make you the weird one? What do you think?' offers a possibility without prescribing it. The question 'What do you think the 'Tyler who's not thinking that far ahead' would want to happen next?' is autonomy support at its finest — it doesn't tell Tyler what he should want. The psychiatrist never says 'you should,' 'you need to,' or 'I think you ought to.' Every question is open and genuinely invitational. Even when noting the tension between goals, the psychiatrist frames it as a question for Tyler to consider rather than a problem to solve.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The psychiatrist creates a genuinely collaborative dynamic throughout. The opening 'I work for you, not your mom' establishes a separate alliance from the parent, which is essential for adolescent MI. The conversation is structured as a joint exploration — 'I'm curious — what's your take?' 'What do you think?' 'Is there a way...? What do you think?' The psychiatrist actively incorporates Tyler's language and framing ('the crew,' 'the vibe,' 'the weird one') rather than imposing clinical terminology. The session follows Tyler's lead — when he brings up belonging, the psychiatrist explores that; when he brings up the tension between his goals, the psychiatrist explores that. The psychiatrist never takes over the conversation or redirects in ways that feel imposed. The collaborative stance is particularly impressive given the context (a resistant adolescent who doesn't want to be there) — the psychiatrist manages to create a genuine working alliance within a single brief session, which is a hallmark of excellent MI skill.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates strong evocation skills. The question 'What's it doing for you?' is a classic evocative question that invites Tyler to access his own motivations rather than having the psychiatrist provide reasons. The question 'What do you think the 'Tyler who's not thinking that far ahead' would want to happen next?' is a sophisticated evocative technique that bypasses resistance by inviting Tyler to access his own values. The question 'What would 'it stopping being a thing' actually require?' evokes problem-solving from within Tyler. The psychiatrist consistently withholds their own opinions and instead asks Tyler to articulate his own thinking. However, the evocation could be pushed further — for example, when Tyler says 'I guess if I had to pick between the crew and the smoking, I'd pick the crew,' the psychiatrist could have more powerfully reflected and amplified this as a values-based insight that could motivate future change. The session ends before the evocation fully culminates in a consolidated statement of motivation or a clear articulation of what Tyler wants for himself going forward.
+
+---
+
+**Overall Global Ratings Score:** **4.7/5**
+
+This is an exceptionally skilled motivational interview. The psychiatrist demonstrates near-perfect MI competence across all domains. The opening is warm, immediately establishes a separate alliance from the parent, and creates psychological safety for a resistant adolescent. The empathic reflections are accurate, deep, and go beyond surface content to capture underlying needs and meanings. The evocative questions are sophisticated and well-timed, consistently returning authority and expertise to Tyler. The handling of sustain talk and resistance is deft — the psychiatrist never argues, never lectures, never imposes a clinical framework. The single most impressive technique is the detection of the 'I guess' in Tyler's 'she's not even wrong, I guess' and the comment about 'the Tyler who's not thinking that far ahead' — both demonstrate real-time attunement to micro-shifts in the client's stance. The session successfully moves Tyler from pure resistance to a meaningful articulation of values ('I'd pick the crew'), which is a significant accomplishment in what is likely the first session with a resistant adolescent. The minor area for growth is in fully consolidating and amplifying the change talk that emerges, and in providing a clearer bridge to next steps. This is the work of a highly trained, experienced MI practitioner.

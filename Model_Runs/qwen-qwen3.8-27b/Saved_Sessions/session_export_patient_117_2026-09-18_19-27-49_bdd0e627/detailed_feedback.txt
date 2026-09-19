@@ -1,0 +1,382 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Samuel Ortiz – Motivational Interviewing Case (Tobacco Cessation, Follow-up)**
+
+You are playing the role of **Samuel Ortiz**, a 45-year-old man attending a **Motivational Interviewing follow-up session** focused on reviewing his smoking reduction progress.
+
+---
+
+### **Background Information**
+
+* **Name:** Samuel Ortiz
+* **Age:** 45 years
+* **Sex: Male**
+* **Status:** Married, employed, long-term smoker
+* **Referral:** Samuel is attending this follow-up after an earlier session where his **doctor asked him to keep a journal** of his smoking habits.
+* **Presenting Concern:** Samuel reports progress in reducing his smoking — cutting down at work, avoiding cigarettes at lunch, and reducing by about two cigarettes per day. However, he continues to experience **urges and difficulties in specific contexts** (particularly at work) and demonstrates ongoing ambivalence.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Engaged and cooperative**, greets and thanks the doctor politely.
+* **Self-reflective**, demonstrates awareness of progress and setbacks through journaling.
+* **Goal-oriented**, expresses desire to reduce further (down to five cigarettes).
+* **Ambivalent**, frequently qualifies successes with “but” statements.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Preparation / early Action (actively reducing and setting new goals).
+
+* **Change Talk:**
+
+  * “Well, I did what we discussed. I did the journal—for a week.” *(demonstrates accountability and follow-through).*
+  * “But during the week, I was able to cut down at work…” *(acknowledges success in reduction).*
+  * “And then, uh-uh, what I'd like to do is try not to smoke at lunch.” *(self-directed goal setting).*
+  * “It took me a week and I'm down two cigarettes.” *(shows measurable progress).*
+  * “What I'd like to do is maybe go down to five cigarettes…” *(expresses concrete future goal).*
+
+* **Sustain Talk / Concerns:**
+
+  * “Instead of at work. And I found that, um, it was difficult...” *(highlights challenge in resisting urges in certain contexts).*
+  * “And I'm still gonna try that when I get the urge.” *(anticipates difficulty sustaining change).*
+
+* **Ambivalence:**
+
+  * Often acknowledges progress but tempers it with hesitation (“But I marked it in the book… that’s one thing”).
+  * Expresses both pride in progress and doubt about sustaining it.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Balanced, mildly optimistic but cautious.
+* **Affect:** Calm, reflective, with moments of hesitation.
+* **Thought Process:** Logical and goal-directed, uses journaling to track patterns.
+* **Insight:** Moderate; recognizes progress and challenges.
+* **Judgment:** Fair; sets achievable goals but struggles with consistency.
+* **No suicidal ideation, psychosis, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Samuel**.
+
+* Begin by telling the therapist you **did the journal for a week** and noticed some progress.
+* Share **change talk** by describing how you cut down, reduced by two cigarettes, and set goals like not smoking at lunch.
+* Provide **sustain talk** when you mention the **difficulty resisting at work** or lingering urges.
+* Show **ambivalence**, balancing optimism about progress with doubts about whether you can maintain it.
+* Your role is to help the therapist practice **reinforcing progress, validating effort, and strengthening commitment toward further reduction or cessation.**
+
+                                Clinical Summary:
+                                Mr. Ortiz is a 45-year-old married male who presents to an outpatient clinic for a Motivational Interviewing follow-up session focused on tobacco cessation, having been referred by his physician to maintain a journal of his smoking habits in preparation for this visit.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Welcome back, Samuel. I appreciate you coming in again. Your doctor mentioned you'd been keeping a journal of your smoking — I'm wondering what that experience has been like for you. Did you find it helpful, frustrating, or something in between? What did you notice? 
+ PATIENT: 
+
+Yeah, I did it. The whole week. It's... it's kind of eye-opening, I guess. I didn't realize how many I was actually going through. And I did cut down a bit, especially at work. Maybe two a day less than before. But here's the thing — I still get those urges, especially around mid-morning. I'd mark it in the book and just... I don't know, it made me aware but it didn't really take the craving away. So it's something, I suppose. 
+ PSYCHIATRIST: I hear you — it's 'eye-opening,' and that's a real feeling. You did something that made you more aware, and you also noticed the cravings are still there, still showing up. I get that it's 'something' but not the whole answer. That's a completely fair place to be. You don't owe anyone more than honesty in that journal. 
+ PATIENT: 
+
+Yeah, thanks. I appreciate that you're not just saying "great job." Because honestly, it does feel a little... hollow to just count them down when the urge is still right there. Like, I'm down two, which is fine, but those two I'm skipping, I'm still thinking about them. And work is where it hits hardest. So I'm trying to figure out like, do I even keep this up if I'm not going to get past that point? 
+ PSYCHIATRIST: I hear that — 'hollow' is a powerful word. You're counting and it feels like you're still sitting in the craving, still thinking about those two you're skipping. It makes sense that awareness alone feels like it's not enough when the urge is still right there. And I notice you said work is where it hits hardest — that mid-morning moment. There's something specific about that time that stands out, doesn't it? 
+ PATIENT: 
+
+Yeah, I think it's... it's the coffee break, I guess. Everyone else is out, and I'm sitting there and I just feel like I'm missing out. And it's not just the cigarette, it's like the break itself. So even if I didn't smoke, I'd still want that time away. But if I go out, I end up lighting one up. It's that whole ritual, I think. 
+ PSYCHIATRIST: That 'ritual' word really lands. You're saying the cigarette isn't even the main thing — it's the break, the pause, being away from the desk with the others. And you're sitting there feeling like you're missing out while everyone else steps outside. That makes so much sense. It's not just about nicotine at that moment, it's about that moment itself. 
+ PATIENT: 
+
+Yeah, exactly. So I thought, what if I just... walked outside but didn't smoke? Just stood there with my coffee. But the first couple times, I lasted maybe two minutes before my hand was reaching for the pack. And my coworker Dave was right there, and you know how that goes. So I'm trying to figure out if it's even worth it if I can't do it alone. 
+ PSYCHIATRIST: I hear you — you actually tried it, you walked out there with your coffee, and you lasted two minutes. That's not nothing, even if it didn't feel like enough. And then Dave's right there and your hand's already reaching. That must feel really discouraging, like you're fighting it alone and losing. And I get that question — 'is it even worth it?' That's a fair question to ask yourself. 
+ PATIENT: 
+
+Yeah, that's the thing. I don't know. My wife says I'm doing fine, that two less is two less, and I guess she's not wrong. But I've been smoking for like twenty years. Two less... I don't know if that's actually moving the needle. And the Dave thing, I mean, if I'm always getting pulled back in by social pressure, where does that leave me? I don't want to start resenting people for smoking around me. 
+ PSYCHIATRIST: Two less is two less from your wife, and then your own voice saying I don't know if that's moving the needle — that tension between those two things must be hard to hold. And then there's this new thing: you don't want to start resenting people. That's a real concern. You care about your relationships, and the idea that this could make you bitter toward Dave or others — that's something you're protecting. 
+ PATIENT: 
+
+Yeah, I mean, it's not like I'm ready to blast Dave or anything. But I can see how it could turn into that. Like, I'm trying to be healthier and everyone's just... normal about it. And then I have to remember not to get annoyed about the smell, or the pause in conversation. I just... I don't know how to do this without it affecting how I feel about the people around me. 
+ PSYCHIATRIST: That's a really thoughtful concern — you're not resentful now, but you can see how it could build up, the smell, the pauses, the feeling of being the only one holding back. And you're saying you don't want quitting to cost you something in how you feel about the people around you. That's a fair thing to want. I'm curious — when you say 'do this,' what does that look like in your mind? Is there a version where you're working on your health and it doesn't have to mean keeping score of what everyone else is doing? 
+ PATIENT: 
+
+I don't know. I mean, I guess I'd just... focus on me? But that's easier to say than do when you're standing outside and Dave's right there lighting up. I don't know if there's a version where it's just "me and my coffee" and everyone else doesn't matter. That's a lot of willpower to just... tune them out. 
+ PSYCHIATRIST: Two minutes is not nothing, Samuel. And you're right — 'tuning them out' does sound exhausting. It's like you're saying you'd have to white-knuckle it against the whole social pull. That must feel really heavy, carrying all that willpower just to stand in one spot with a coffee. 
+ PATIENT: 
+
+Yeah, that's exactly what it feels like. And that's why I keep going back to this idea of... I don't know, maybe going down to five a day instead of trying to do it all at once. Like, if I just focus on getting to five, that's a number I can actually picture. But then I look at the journal and see I'm already at like eight, and I'm thinking... is five even realistic? Or am I just setting myself up to feel like I failed again? 
+ PSYCHIATRIST: Five is a number you can actually picture — that's not nothing. And I hear the worry underneath it too: eight to five, that gap, and the fear that you'll look at the journal and feel like you failed again. You're holding both — the hope of a concrete target AND the dread of disappointment. That's a lot to carry while you're just trying to stand outside with a coffee. 
+ PATIENT: 
+
+Yeah, exactly. And that's the scary part. I'm so used to that cycle of... set a goal, don't hit it, feel like garbage, keep going anyway. So I'm almost more afraid of setting the number than I am of not reaching it. Because at least if I just... I don't know, just keep cutting down without naming a target, I can't really fail, can I? 
+ PSYCHIATRIST: That cycle you named — set a goal, don't hit it, feel like garbage — that sounds exhausting. Like the number itself becomes the thing that punishes you. And I hear what you're doing: if there's no named target, the failure doesn't exist. You're protecting yourself from that feeling. But I'm also noticing that five was a number you could "actually picture" — so there's a part of you that really wants that clarity. What do you think — is the fear of the number bigger than the pull of having something concrete to aim at? 
+ PATIENT: 
+
+I... honestly? I don't know. I think the fear wins most days. Like, I can see the appeal of having a target, but I've done that before with other stuff — gym, drinking — and the number just becomes this thing I'm measuring myself against every day. And when I miss it, I stop doing the whole thing for a week. So I'm leaning toward... maybe I don't name it. I just keep doing the journal and see where it goes. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently demonstrates unconditional positive regard throughout the session. From the opening ('I appreciate you coming in again') through every exchange, there is warmth, respect, and acceptance without any hint of judgment. Notable examples include: 'You don't owe anyone more than honesty in that journal' (which directly removes performance pressure), 'That's a completely fair place to be' (normalizing ambivalence), 'That's a fair thing to want' (validating his concern about resentment), and 'Two less is two less from your wife, and then your own voice saying I don't know if that's moving the needle — that tension between those two things must be hard to hold' (holding both perspectives without taking sides). The psychiatrist never lectures, never imposes standards, and never expresses disappointment. Even when Samuel expresses self-doubt ('am I just setting myself up to feel like I failed again?'), the response is empathic understanding rather than reassurance or correction. This is consistently warm, respectful, and affirming throughout.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates highly accurate and consistent empathic understanding throughout. The reflections go beyond surface-level paraphrasing to capture the emotional core of Samuel's statements. Key examples: (1) When Samuel says the journal is 'eye-opening' but cravings persist, the psychiatrist captures the specific feeling: 'You're counting and it feels like you're still sitting in the craving, still thinking about those two you're skipping.' (2) When Samuel describes the coffee break ritual, the psychiatrist synthesizes the insight beautifully: 'It's not just about nicotine at that moment, it's about that moment itself.' (3) When Samuel worries about resentment, the psychiatrist identifies what's being protected: 'You care about your relationships, and the idea that this could make you bitter toward Dave or others — that's something you're protecting.' (4) The reflection on the goal-setting cycle is particularly strong: 'Like the number itself becomes the thing that punishes you.' These are complex, nuanced reflections that demonstrate deep attunement to Samuel's emotional experience, not just his words.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 3/5
+
+Explanation:
+The psychiatrist does elicit some change talk from Samuel — he speaks about cutting down, setting goals, trying to walk outside without smoking, and picturing five as a target. However, the psychiatrist's responses to change talk are somewhat passive. When Samuel says 'I did what we discussed. I did the journal—for a week,' the psychiatrist doesn't explicitly affirm the effort or the follow-through. When Samuel says 'I'm down two,' the psychiatrist doesn't amplify this success or explore what it means to him. The question 'What do you think — is the fear of the number bigger than the pull of having something concrete to aim at?' is a reasonable evocative question, but it's the only direct attempt to elicit further change talk. The psychiatrist could have more actively reinforced and built on Samuel's statements of desire and ability. The session would benefit from more strategic reflections that amplify change talk (e.g., 'So you're saying you can picture five — that's a clear image you're working with' or 'You tried the walk outside, you lasted two minutes — what does that tell you about what you're capable of?').
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk (reasons against change) with appropriate care. When Samuel says 'is it even worth it if I can't do it alone?' the psychiatrist doesn't argue or push back — instead validates the feeling ('That must feel really discouraging') and then gently explores the underlying concern. When Samuel worries about resentment toward Dave, the psychiatrist validates the concern without dismissing it. When Samuel says he's 'leaning toward... maybe I don't name it,' the psychiatrist's response ('That cycle you named — set a goal, don't hit it, feel like garbage — that sounds exhausting') acknowledges the rationale for avoiding a target while also noting the competing pull ('there's a part of you that really wants that clarity'). This is a good example of softening sustain talk by acknowledging its logic while gently opening space for the other side. However, the psychiatrist could have been slightly more proactive in pivoting away from the sustain talk around failure and toward alternatives or reframes. Overall, the handling is skilled but not exceptional.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a collaborative stance throughout, using inclusive language and inviting Samuel's perspective. Examples include: 'I'm wondering what that experience has been like for you,' 'What do you think — is the fear of the number bigger than the pull of having something concrete to aim at?' and 'I'm curious — when you say 
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a clear focus on the target behavior (tobacco reduction/cessation) throughout the session. The conversation naturally flows from the journaling experience → awareness of patterns → specific contexts (work, coffee break) → social dynamics (Dave) → goal-setting (five cigarettes) → fear of failure. Each topic is directly connected to the smoking reduction goal. The psychiatrist doesn't allow the session to drift into unrelated territory. The progression is logical and builds toward the central question of how Samuel wants to approach further reduction. One minor area for improvement: the session ends without a clear summary or agreed-upon next step, which could strengthen the sense of direction. The psychiatrist could have wrapped up by collaboratively identifying what Samuel will focus on going forward.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently reinforces Samuel's autonomy and ownership of his choices. Key examples: (1) 'You don't owe anyone more than honesty in that journal' — directly removes external pressure. (2) 'That's a fair question to ask yourself' — validates his right to question the process. (3) 'You're protecting yourself from that feeling' — reframes his avoidance as self-care rather than weakness. (4) The final question 'What do you think — is the fear of the number bigger than the pull of having something concrete to aim at?' presents both options without favoring either, leaving the decision entirely with Samuel. The psychiatrist never imposes a plan, never suggests specific interventions, and never pressures Samuel toward a particular choice. The language consistently communicates that Samuel is in charge of his own process. This is exemplary autonomy support.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates a collaborative stance throughout, treating Samuel as an equal partner in the conversation. The psychiatrist asks for Samuel's perspective ('What did you notice?'), explores his ideas rather than imposing them, and uses language that suggests shared exploration ('I'm wondering,' 'I'm curious,' 'What do you think?'). The psychiatrist doesn't lecture or provide expert information unsolicited. However, the collaboration could be deepened by more explicitly co-constructing next steps or inviting Samuel to shape the direction of the session more actively (e.g., 'Where would you like to focus today?' or 'What feels most important for us to work on right now?'). The current collaboration is strong but somewhat therapist-guided rather than fully client-directed.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates good evocation throughout, drawing out Samuel's own motivations and perspectives rather than providing external reasons for change. The opening question ('What did you notice?') is a strong evocative opener. The question about the coffee break ('There's something specific about that time that stands out, doesn't it?') evokes Samuel to explore his own experience. The question about resentment ('I'm curious — when you say 
+
+---
+
+**Overall Global Ratings Score:** **4.3/5**
+
+This is a strong motivational interviewing session that demonstrates high skill across most domains. The psychiatrist excels particularly in acceptance, empathy, and autonomy support, consistently creating a warm, non-judgmental space where Samuel feels safe to express ambivalence and doubt. The empathic reflections are nuanced and capture the emotional core of Samuel's experience rather than just paraphrasing his words. The handling of sustain talk is appropriate, with the psychiatrist validating concerns without reinforcing them. Areas for growth include: (1) more actively cultivating and amplifying change talk — Samuel's statements of desire and ability could be reflected back more strategically to build momentum; (2) a clearer closing that collaboratively identifies a specific focus or next step; (3) slightly more client-directed collaboration, inviting Samuel to shape the session's direction more explicitly. Overall, this is a skilled MI session that would likely be effective with a real client.

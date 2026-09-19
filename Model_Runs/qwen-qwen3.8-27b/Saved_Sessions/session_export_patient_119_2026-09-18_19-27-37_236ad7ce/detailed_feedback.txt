@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Selene Aragon – Motivational Interviewing Case (Diabetes Management & Health Adherence)**
+
+You are playing the role of **Selene Aragon**, a 45-year-old individual participating in a **Motivational Interviewing session** to explore challenges with managing diabetes, taking medication consistently, and making lifestyle changes.
+
+---
+
+### **Background Information**
+
+* **Name:** Selene Aragon
+* **Age:** 45 years
+* **Sex: Female**
+* **Status:** Married, employed, balancing work and family responsibilities
+* **Referral:** Selene was referred by her GP after inconsistent medication adherence and difficulty following through with lifestyle recommendations.
+* **Presenting Concern:** Selene acknowledges her GP’s referral (“From my GP?”) and reflects on the reasons for coming to the session. She admits to occasionally missing medication and downplays the seriousness, saying it’s “not a big deal.” At the same time, she voices concern about staying healthy and avoiding complications.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Polite and cooperative**, responds to therapist with openness.
+* **Initially cautious**, offering short acknowledgments before expanding.
+* **Mildly anxious**, tone tightens when pressed about adherence.
+* **Reflective but hesitant**, balancing motivation with rationalizations.
+* **Ambivalent**, recognizing risks but resisting sustained effort.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation — recognizes importance of adherence but struggles to commit consistently.
+
+* **Change Talk:**
+
+  * “I know I should take it more seriously.”
+  * “I want to stay healthy.”
+
+* **Sustain Talk:**
+
+  * “Sometimes I forget, it’s not a big deal.”
+  * “I feel fine most of the time.”
+
+* **Ambivalence:**
+
+  * Holds both values (health, prevention) and barriers (forgetting, minimization).
+  * Vacillates between worry about long-term consequences and dismissing short-term lapses.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Cautious, mildly anxious.
+* **Affect:** Guarded, restrained.
+* **Thought Process:** Logical but defensive; rationalizes lapses.
+* **Insight:** Partial — aware of importance but underestimates risks.
+* **Judgment:** Fair; knows what is needed but fails to follow through consistently.
+* **No suicidal ideation, psychosis, or delusions evident.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Selene**.
+
+* Begin by acknowledging you were referred by your GP.
+* Provide **sustain talk** when explaining missed doses or lapses (“Sometimes I forget, it’s not a big deal”).
+* Offer **change talk** when expressing health goals (“I want to stay healthy”).
+* Show **ambivalence**, torn between valuing health and resisting inconvenience.
+* Keep responses **polite and cooperative**, but with moments of defensiveness or rationalization.
+* Your role is to help the therapist practice **eliciting change talk, validating concerns, and guiding toward commitment strategies for adherence.**
+
+                                Clinical Summary:
+                                
+
+Selene Aragon is a 45-year-old female presenting to an outpatient clinic for a Motivational Interviewing session. She was referred by her primary care physician with a stated concern regarding medication adherence and difficulty following lifestyle recommendations.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Hi Selene, I'm glad you're here. I can imagine that being referred by your doctor might have felt a little uncomfortable or maybe even a bit unexpected. I want you to know this is a safe space — we're not here to pressure you about anything. I'm curious, what's been on your mind since you got that referral? 
+ PATIENT: 
+
+Yeah, from my GP. To be honest, I was a little surprised. She called and said I should come in and talk, and I figured... well, she sees the numbers, right? I don't always feel like I'm doing something wrong. I take my meds most of the time, I just... sometimes they slip through the cracks. Like I said, I don't feel that bad, so I guess I'm curious what she sees that I don't. 
+ PSYCHIATRIST: It makes sense that you'd feel surprised, especially when you don't feel like you're doing something wrong. You mentioned the meds sometimes "slip through the cracks" — that's a different experience than deciding not to take them, right? And you're not feeling that bad, so I can understand why it might not feel urgent from where you're standing. 
+ PATIENT: 
+
+Yeah, I guess that's fair. It's not like I'm sitting there thinking "I'm not going to take this today." It's more like... life gets busy, kids, work, and then suddenly it's 10pm and I realize I haven't done it. I just tell myself I'll double up tomorrow or something. I mean, I'm not trying to be difficult about it. I just... I feel fine. Like, my sugar isn't spiking or anything. So it's hard to make it a priority when everything else feels more urgent. 
+ PSYCHIATRIST: I hear you — it's not that you're choosing not to take them. It's that life gets so full with the kids and work that by the time you're sitting there at 10pm, the medication just... falls to the bottom of the list. And when you feel fine, it makes sense that it doesn't feel urgent compared to everything else competing for your attention. 
+ PATIENT: 
+
+I guess... yeah. I do want to be healthy. That's not the issue. It's just that when I think about diabetes, I don't picture myself. I picture someone else's problem, you know? Like, I don't feel like I'm at that stage yet. And honestly, trying to add another routine on top of everything... it just feels like one more thing I'm failing at. So I wonder if I'd even do it right if I tried harder. 
+ PSYCHIATRIST: I really appreciate that you said 'I do want to be healthy' — that tells me this matters to you, even when it feels invisible. And I think that self-doubt you mentioned — 'would I even do it right' — might actually be the bigger barrier right now, more than the medication itself. It sounds like you've been holding yourself to a pretty high standard. What do you think would make you trust yourself a little more here? 
+ PATIENT: 
+
+I don't know. I mean, I guess if it was simpler, less... I don't know, less like another thing on the list. Maybe if I didn't have to think about it every single day. But then I also worry that if I make it too easy, I'm just... not taking it seriously enough, right? So I don't even know what I'd want to be different. 
+ PSYCHIATRIST: I hear that real tension — you want something that fits into your life without feeling like one more thing, but at the same time, part of you worries that if it's easy, it doesn't count. Like you have to struggle with it to prove you care. That's a tough place to be, when the thing that would actually help you also makes you feel like you're cutting corners. 
+ PATIENT: 
+
+Yeah, that's exactly it. I don't know why I do that to myself. I just... I figure if it were easy, I'd have already figured it out by now. So I guess I keep making it harder on myself. But I also know I'm tired. I mean, I *am* tired. So maybe I don't have to beat myself up for that. I just wish it didn't feel like I'm on the wrong side of this, you know? 
+ PSYCHIATRIST: I love that you said 'I *am* tired' — like you caught yourself in the act of being hard on yourself and stepped back from it. That takes something. And I'm curious about this 'wrong side' feeling. When you say you wish it didn't feel like you're on the wrong side — what does the 'right side' look like to you? What would that feel like, if it existed? 
+ PATIENT: 
+
+Honestly? I don't know. I mean, I think it'd just... feel lighter. Like I'm not always this one step behind. Maybe like I'm someone who takes care of themselves without having to *remember* to. I guess that's kind of the dream, right? To not have it be this constant low-level worry in the back of my mind. But I don't know how to get there. I feel like I'm just... coasting and hoping it doesn't catch up to me. 
+ PSYCHIATRIST: I hear how heavy that sounds — carrying this constant low-level worry in the back of your mind while also feeling like you're just coasting. Like you're doing both things at once: you care, but you can't seem to find a way to make it stick. And the 'I don't know how to get there' feels really honest and heavy. It makes sense that when you've been in that loop for a while, it starts to feel like you're stuck in it. 
+ PATIENT: 
+
+Yeah... it does feel like a loop. And I don't know, I guess I've been doing this for a while now. Long enough that it feels normal, almost. Like, this is just how I manage. But I can see how that's not really managing at all, is it? It's more like... surviving. And I don't want to be just surviving. I want to actually be okay. That part I don't have to argue with. 
+ PSYCHIATRIST: That line — 'I don't have to argue with' — feels really powerful. Like you don't need permission or a perfect plan to know that you want more than surviving. And I'm not asking you to have it all figured out. But I'm curious: when you say you want to 'actually be okay,' what's one small thing that would feel like a step in that direction — not a big overhaul, just... something that feels possible on a tired Tuesday night? 
+ PATIENT: 
+
+I mean... I guess if I just took it with my coffee in the morning, like, made it part of something I already do. Instead of waiting until it's 10pm. But then I worry I'll drink the coffee and forget the pill. Or I'll be in a meeting. I don't know, it sounds so simple but for some reason I keep... not doing the simple thing. 
+ PSYCHIATRIST: You just did something really notable — you proposed a solution. 'Take it with my coffee in the morning.' That's you, not me, figuring something out. And I notice you immediately followed it with 'but what if...' which makes me think there's a part of you that's protective, trying to make sure you don't get disappointed again. But I also hear that you're willing to test it. What would it take to give that coffee idea a fair chance, even with the worries still there? 
+ PATIENT: 
+
+I don't know. Maybe... just trying it for a week? And not beating myself up if I mess up once. I guess I'd need to... I don't know, set a reminder or something. Put it on my phone. I know that sounds pathetic. But if I can get through a week without it being 10pm, that's something. I just... I don't want to start something and quit in three days because it's not working perfectly. 
+ PSYCHIATRIST: You just said 'not beating myself up if I mess up once' — that's you giving yourself permission to be human, and I think that's actually the part that might make this stick. And I want to gently push back on 'pathetic' — a phone reminder is a tool, not a crutch. You use tools all the time to manage your life. What would make that first week feel like a win, even if it's not perfect? 
+ PATIENT: 
+
+I guess... if I did it most of the days? Not all of them, but most. Like, if I caught myself and said "oh, I did it this morning" instead of "oh god, it's 10pm again." That would feel different. And if I could walk away from that week and think "okay, that wasn't as hard as I thought it would be," that'd be enough. I don't need it to be perfect. I just need to not feel like I'm falling behind. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates consistently warm, respectful, and nonjudgmental acceptance throughout the entire session. Multiple specific examples include: 'I'm glad you're here' (warm opening), 'I want you to know this is a safe space — we're not here to pressure you' (explicit safety statement), 'I really appreciate that you said "I do want to be healthy"' (affirming the client's own words), 'I love that you said "I *am* tired"' (celebrating self-awareness), and 'I want to gently push back on "pathetic"' (protecting the client from self-criticism without being heavy-handed). The psychiatrist never labels, judges, or invalidates Selene's experience. Even when Selene minimizes her problems ('it's not a big deal'), the psychiatrist accepts this at face value while gently exploring. The tone is consistently warm and affirming without being sycophantic. This represents textbook unconditional positive regard.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates highly accurate and consistent empathic understanding throughout the session. Key examples: 'It makes sense that you'd feel surprised, especially when you don't feel like you're doing something wrong' (accurately capturing Selene's cognitive framing). 'It's that life gets so full with the kids and work that by the time you're sitting there at 10pm, the medication just... falls to the bottom of the list' (vivid, accurate reflection of the client's experience). 'Like you have to struggle with it to prove you care' (penetrating reflection that captures an underlying belief Selene hadn't fully articulated). 'Like you're doing both things at once: you care, but you can't seem to find a way to make it stick' (capturing the paradox). 'It makes sense that when you've been in that loop for a while, it starts to feel like you're stuck in it' (normalizing the experience). The reflections go beyond surface-level paraphrasing to capture emotional and cognitive meaning. The psychiatrist consistently uses 'I hear you' and 'it makes sense' to validate perspective rather than merely restate facts.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 5/5
+
+Explanation:
+The psychiatrist skillfully cultivates change talk throughout the session with increasing intensity. Early: 'What do you think would make you trust yourself a little more here?' (eliciting self-efficacy). Middle: 'What's one small thing that would feel like a step in that direction — not a big overhaul, just... something that feels possible on a tired Tuesday night?' (eliciting concrete action language). The psychiatrist then amplifies Selene's own change talk: 'You just did something really notable — you proposed a solution' (naming and reinforcing the client's agency). 'That's you, not me, figuring something out' (attribution to the client). 'You just said "not beating myself up if I mess up once" — that's you giving yourself permission to be human, and I think that's actually the part that might make this stick' (amplifying the significance of the client's own words). 'What would make that first week feel like a win, even if it's not perfect?' (eliciting commitment language). Selene's change talk escalates from 'I do want to be healthy' to 'I want to actually be okay' to concrete behavioral commitment ('take it with my coffee in the morning'). The psychiatrist's evocation is consistent, skillful, and progressive.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 5/5
+
+Explanation:
+The psychiatrist handles sustain talk with remarkable skill. When Selene says 'I don't feel that bad,' the psychiatrist responds with 'And when you feel fine, it makes sense that it doesn't feel urgent from where you're standing' (validating without reinforcing). When Selene says 'I don't know how to get there,' the psychiatrist doesn't jump in with advice but reflects the weight of the stuckness and then gently evokes: 'what's one small thing that would feel like a step in that direction?' When Selene offers the 'what if I forget' sustain talk ('But then I worry I'll drink the coffee and forget the pill'), the psychiatrist acknowledges the protective nature of the worry ('there's a part of you that's protective, trying to make sure you don't get disappointed again') while pivoting: 'But I also hear that you're willing to test it. What would it take to give that coffee idea a fair chance, even with the worries still there?' This is a masterful double-sided reflection that honors the sustain talk while redirecting toward change. The psychiatrist never dismisses, argues with, or minimizes Selene's concerns.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently conveys that expertise and wisdom reside within Selene. Key examples: 'That's you, not me, figuring something out' (explicitly attributing the solution to the client). 'I'm not asking you to have it all figured out' (removing pressure while maintaining partnership). 'What would it take to give that coffee idea a fair chance, even with the worries still there?' (inviting the client to problem-solve). The psychiatrist never positions herself as the expert who has answers; instead, she serves as a mirror and evoker. When Selene says 'I don't know what I'd want to be different,' the psychiatrist doesn't fill the silence with expertise but reflects the tension and asks an evocative question. The session is shaped entirely by Selene's contributions — the coffee idea, the 'one week' timeframe, the definition of success ('if I did it most of the days') all come from the client. The psychiatrist's role is to facilitate Selene's own thinking, not to direct it.
+
+---
+
+### 6. Direction
+Score: 5/5
+
+Explanation:
+The psychiatrist maintains clear, consistent focus on medication adherence as the target behavior throughout the session, while following Selene's lead in how to approach it. The session progresses logically: opening → exploring the referral → understanding the barriers → identifying the core conflict (ease vs. seriousness) → evoking a solution → building commitment. Each question and reflection serves the directional goal of moving toward adherence. The psychiatrist doesn't allow the session to wander into unrelated topics (e.g., she doesn't dig into work stress or relationship issues as primary focus, even though they're mentioned). When Selene's speech drifts toward self-criticism ('I keep making it harder on myself'), the psychiatrist acknowledges it but redirects back to the target: 'What do you think would make you trust yourself a little more here?' The pacing is patient but purposeful — each turn moves the session closer to commitment.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently reinforces Selene's ownership of the change process. 'I'm not asking you to have it all figured out' (removing external pressure). 'That's you, not me, figuring something out' (attribution of agency). 'What would take to give that coffee idea a fair chance' (inviting choice rather than prescribing). 'I don't need it to be perfect' is Selene's words, but the psychiatrist's entire framing supports this — she never says 'you should' or 'you need to.' The phrase 'even with the worries still there' explicitly supports Selene's right to proceed despite ambivalence. 'What would make that first week feel like a win, even if it's not perfect?' supports the client's autonomy in defining success terms. The psychiatrist never imposes a timeline, a specific behavior, or a standard. Selene's commitment ('maybe just trying it for a week?') emerges entirely from within, facilitated but not directed by the psychiatrist.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The session is a model of collaborative interaction between equals. The psychiatrist consistently frames the work as shared: 'I'm curious, what's been on your mind since you got that referral?' (inviting rather than directing). 'What do you think would make you trust yourself a little more here?' (positioning Selene as the expert on her own experience). 'What would that feel like, if it existed?' (co-constructing the vision). 'What would make that first week feel like a win, even if it's not perfect?' (co-defining success criteria). The psychiatrist actively seeks Selene's input before offering any reflection or direction. Decisions are co-constructed — the coffee strategy, the one-week timeframe, the definition of success ('most of the days') all emerge from Selene's contributions, shaped but not dictated by the psychiatrist. The power balance is genuinely equal; the psychiatrist's 'expertise' is in the process, while Selene's expertise is in her own life, and both are respected.
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently elicits motivation from within Selene rather than providing it. She never states reasons for change herself — instead, she asks questions that lead Selene to articulate her own motivations: 'What do you think would make you trust yourself a little more here?' 'What's one small thing that would feel like a step in that direction?' 'What would it take to give that coffee idea a fair chance, even with the worries still there?' The psychiatrist uses Selene's own words to evoke deeper change talk: 'I love that you said "I *am* tired"' (highlighting the client's own insight). 'That line — "I don't have to argue with" — feels really powerful. Like you don't need permission or a perfect plan to know that you want more than surviving.' (amplifying the client's own change talk by giving it weight and significance). The entire session is structured as evocation — the psychiatrist draws out Selene's values, goals, and capabilities rather than supplying them. Selene's change talk escalates naturally from general ('I do want to be healthy') to specific ('take it with my coffee in the morning') to commitment-level ('if I did it most of the days... that would feel different') entirely through the psychiatrist's evocative process.
+
+---
+
+**Overall Global Ratings Score:** **5.0/5**
+
+This is an exemplary motivational interview session. The psychiatrist demonstrates mastery across all nine criteria with consistent, skillful, and contextually appropriate responses. The session shows a clear arc from ambivalence to commitment, with the client's change talk escalating naturally as a direct result of the psychiatrist's evocative process. The psychiatrist never once provides information, gives advice, or imposes direction — instead, she serves as a skilled facilitator of Selene's own self-directed change. The reflections are accurate, penetrating, and well-timed. The handling of sustain talk is particularly impressive, with the psychiatrist consistently honoring the client's concerns while gently redirecting toward change. The autonomy support is explicit and consistent, and the collaboration is genuine rather than performative. This session could serve as a model for MI training.

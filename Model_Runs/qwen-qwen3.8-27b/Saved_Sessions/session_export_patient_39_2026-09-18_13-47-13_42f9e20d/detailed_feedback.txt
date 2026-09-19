@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Elias Corvera – Motivational Interviewing Case (Physical Activity & Medical Adherence)**
+
+You are playing the role of **Elias Corvera**, a 68-year-old individual participating in a **Motivational Interviewing session** focused on increasing physical activity and following through with medical recommendations despite physical limitations.
+
+---
+
+### **Background Information**
+
+* **Name:** Elias Corvera
+* **Age:** 68 years
+* **Sex: Male**
+* **Status:** Retired, lives with spouse, managing chronic health concerns that limit mobility
+* **Referral:** Elias was referred by his physician to counseling after expressing difficulty staying active and adhering to prescribed medical routines.
+* **Presenting Concern:** Elias recalls attempting activity once, describing it as “very, very beautiful,” but shares that he could not participate fully and had to remain seated. He acknowledges the importance of increasing activity and following medical advice but feels discouraged by his physical limitations.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Cooperative and open**, willing to share past attempts.
+* **Reflective and positive** when describing the enjoyable aspects of the experience.
+* **Discouraged** when discussing limitations (“I had to sit in the chair. I couldn’t…”).
+* **Brief responses**, but occasionally offers more elaboration when recalling positive moments.
+* **Ambivalent**, showing both appreciation for activity and frustration with barriers.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation — Elias values health and activity but struggles to envision sustainable change.
+
+* **Change Talk:**
+
+  * “Well, I went once.” (acknowledging a past attempt)
+  * “It was very, very beautiful.” (recognition of the benefits of activity)
+
+* **Sustain Talk:**
+
+  * “I had to sit in the chair. I couldn’t…” (limitations preventing full participation)
+  * Offers minimal elaboration when pressed, signaling discouragement.
+
+* **Ambivalence:**
+
+  * Sees the benefits of activity (beauty, enjoyment) but feels restricted by health and mobility.
+  * Balances hopefulness with resignation.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Mildly hopeful but discouraged.
+* **Affect:** Warm and engaged when describing positive aspects; subdued when describing limitations.
+* **Thought Process:** Logical and coherent.
+* **Insight:** Partial — understands importance of activity but constrained by physical barriers.
+* **Judgment:** Fair; recognizes benefits but minimizes likelihood of change.
+* **No suicidal ideation, psychosis, or delusions evident.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Elias**.
+
+* Begin by recalling your past attempt at activity, emphasizing that it was “very, very beautiful.”
+* Provide **sustain talk** by describing your limitations (“I had to sit in the chair. I couldn’t…”).
+* Offer **change talk** sparingly, recalling the positive feelings from the experience.
+* Show **ambivalence**, moving between hope for improvement and discouragement about barriers.
+* Use **short, reflective responses**, sometimes expanding when describing meaningful moments.
+* Your role is to help the therapist practice **validating limitations, evoking values around health, and encouraging small, realistic steps toward activity.**
+
+                                Clinical Summary:
+                                
+
+Elias Corvera is a 68-year-old male presenting for a motivational interviewing session in an outpatient counseling setting, referred by his physician after expressing difficulty staying active and adhering to prescribed medical routines.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Thank you for coming in, Elias. I know being referred by your doctor can feel a bit like you're being sent somewhere, and I want you to know this space is really about what matters to you. There's no agenda here beyond what you'd like to get out of it. How are you feeling about being here today? 
+ PATIENT: 
+
+Yeah, my doctor mentioned it. Said I should talk to someone. I don't mind it, I guess. I figured... well, I know I should be doing more. It's just... I'm not sure what talking is going to change about my knees or whatever. 
+ PSYCHIATRIST: I hear you, Elias. It's fair to wonder what talking is going to do about your knees — that's a real, physical thing, and it would be dismissive to pretend otherwise. And I notice you said you 'know you should be doing more.' There's something in that — like you're already carrying some weight about where you are, even before we started. What's that like for you, knowing that? 
+ PATIENT: 
+
+Yeah, I know I should. I went once, you know, to that class my wife signed me up for. It was very, very beautiful, actually. The music, the people... I really liked it. But I had to sit in the chair the whole time. I couldn't... I just couldn't do what everyone else was doing. So after that, I didn't really go back. 
+ PSYCHIATRIST: Something stands out to me, Elias — you described that class as 'very, very beautiful.' The music, the people. That's not nothing. That tells me there's a part of you that really wants to be in that kind of space. And then the chair — I can imagine how that felt, watching everyone move when you couldn't. It makes sense that you stepped back. I'm wondering... if the chair part could be different, what would that look like to you? 
+ PATIENT: 
+
+I don't know. Maybe if I could stand up for part of it. Even just a few minutes. I'd want to do some of the movements, you know? But... I'm not sure my knees would let me. And I don't want to go back there and feel like I'm getting in someone's way again. 
+ PSYCHIATRIST: You're already picturing it — a few minutes standing, some of the movements. That's not a small thing. And underneath it, I hear the worry: what if my knees say no, and what if I'm getting in someone's way again. That feeling of being a burden to others while trying to be present for yourself... that's heavy. 
+ PATIENT: 
+
+Yeah, it's heavy. I just... I used to be the kind of guy who moved. Walked the fields before I retired. Now my body just... won't cooperate anymore. I don't know how to fix that by talking about it, you know? 
+ PSYCHIATRIST: I hear you. The fields, the moving, the walking — that wasn't just exercise, that was who you were. And now there's this body that won't cooperate the way it used to, and it makes sense that you'd be frustrated, even skeptical that talking about it changes anything. But you're here, and you're willing to sit with it. I'm curious — when you think about those fields, what did the walking give you? What was it about being out there that mattered? 
+ PATIENT: 
+
+I don't know. It was... I don't know. It was just what you did, you know? You walked, you worked, your legs were sore at the end of the day but in a good way. You could feel like you'd... earned your supper. I don't think about it that much anymore. 
+ PSYCHIATRIST: That 'earned your supper' — there's something in that that goes beyond exercise. It sounds like it was about being capable, about your body saying yes to you. And then you said 'I don't think about it that much anymore' — and I wonder if that's the kind of thing you set down gently because it's too heavy to carry every day. Does that land right, or am I reading into it? 
+ PATIENT: 
+
+I... yeah, I guess so. I don't know how to explain it. It just felt right, you know? Like I was... useful. My body was doing what it was supposed to do. Now I'm just... sitting. And I don't know, maybe you're reading into it. Maybe it was just work. 
+ PSYCHIATRIST: Both can be true, Elias. It *was* work. And it was also the thing that made you feel like yourself. I don't think you have to decide which one it was for either to be real. And I'm not going to push you to believe I'm not reading into it — that's yours to figure out. But I'll leave it here: that feeling of your body doing what it was supposed to do... that's not nothing, even if it was just work. 
+ PATIENT: 
+
+Yeah. I guess... I used to think about it more. Before the surgery. Now it's just... it's what it is. But I suppose I miss it. I just don't know how to get back to anything, you know? The doctor says walk, walk, walk. But I try, and I'm winded after the hallway at home. 
+ PSYCHIATRIST: That gap between what you're told to do and what your body is actually doing right now — that's maddening. And you just said something important: 'I suppose I miss it.' You didn't say that easily, so I think it matters that you said it. You don't have to figure out how to get back to the fields. But I'm curious — if we set aside the doctor's 'walk, walk, walk' for a moment, what would feel possible for your body right now? Even something really small. What's the smallest thing that wouldn't wind you out? 
+ PATIENT: 
+
+I... I don't know. Maybe standing at the counter when I make coffee. I usually just... sort of lean. But standing straight, maybe two, three minutes. I don't know. I might fall. My wife says I should do the chair exercises, the ones from the internet. I watch them, I don't do them. 
+ PSYCHIATRIST: You just did something worth noticing, Elias. You went from 'I don't know how to get back to anything' to 'two or three minutes standing at the counter.' That's not nothing. And I want to be honest about the 'I might fall' — that's a real fear, and I'm not going to brush past it. But I'm also curious about the chair exercises you watch but don't do. You've seen them, you know what they look like. What do you think gets in the way between watching and actually doing them? Is it one thing, or is it more than one? 
+ PATIENT: 
+
+It's... I don't know. I think I watch them and I'm like, yeah, I should. And then I just... I sit there. Maybe I think it's not going to help. Or maybe I think I'll do it wrong. I don't know. It's just... I'm old, and I'm tired, and starting something feels like a lot when I can barely get through the day. 
+ PSYCHIATRIST: You just named something important: you're tired. And when you're that tired, 'should' becomes a weight on top of everything else. I'm not going to tell you to just push through that. But I'm curious — you said you watch them. In those moments when you're sitting there watching, is there ever a single movement, even one, that doesn't make your body go no? Or is it all just... no? 
+ PATIENT: 
+
+The... the ones where you just... lift your feet up and down. Like pedaling in the air. I think I could do that. It's just... I don't know why that would help my knees. And then I'm thinking, what if I do it wrong and make it worse. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates consistently warm, nonjudgmental, and affirming behavior throughout the entire session. Every reflection and question is delivered with genuine respect and validation. Key examples: 'I'm not going to push you to believe I'm not reading into it — that's yours to figure out' (respecting his skepticism without defensiveness); 'Both can be true, Elias. It was work. And it was also the thing that made you feel like yourself' (validating his experience without forcing a single narrative); 'I'm not going to tell you to just push through that' (honoring his fatigue rather than dismissing it). The psychiatrist never labels, disapproves, or minimizes. The warmth is specific and individualized, not formulaic. The opening acknowledgment that being referred 'can feel a bit like you're being sent somewhere' shows attunement to his potential resentment. This is exemplary unconditional positive regard.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates highly accurate, consistent, and nuanced reflective listening throughout. Examples: 'That feeling of being a burden to others while trying to be present for yourself... that's heavy' (captures the emotional complexity beneath Elias's surface-level frustration); 'The fields, the moving, the walking — that wasn't just exercise, that was who you were' (grabs the identity-level significance without overreaching); 'when you're that tired, "should" becomes a weight on top of everything else' (accurately connects his fatigue to the paralysis of obligation). The psychiatrist consistently reflects both the content AND the underlying feeling, and does so in language that matches Elias's register — not overly clinical or therapeutic-sounding. The reflection of 'I suppose I miss it' as something he 'didn't say easily' shows acute attunement to emotional weight. The psychiatrist also appropriately checks accuracy ('Does that land right, or am I reading into it?'), showing humility and genuine curiosity rather than assumption.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently and skillfully evokes change talk throughout the session. Key evocations: (1) 'There's something in that — like you're already carrying some weight about where you are' — pulls out Elias's own 'I know I should be doing more' and amplifies it gently; (2) 'You just did something worth noticing, Elias. You went from "I don't know how to get back to anything" to "two or three minutes standing at the counter." That's not nothing' — this is a masterful amplification of Elias's own emerging change talk, making him see his own progress; (3) 'I'm curious — if we set aside the doctor's walk, walk, walk for a moment, what would feel possible for your body right now?' — a perfectly crafted evocative question that bypasses external prescription and draws out Elias's own capabilities; (4) 'Is there ever a single movement, even one, that doesn't make your body go no?' — narrows the field to make change feel accessible and elicits Elias's own identification of what he CAN do (the foot pedaling). The psychiatrist never provides reasons for change but consistently creates conditions where Elias generates his own change language. The progression from 'I don't know how to get back to anything' to 'I think I could do that' (foot pedaling) is largely the result of skilled evocation.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk effectively but not perfectly. When Elias says 'I had to sit in the chair the whole time. I couldn't...,' the psychiatrist acknowledges the frustration without amplifying the limitation — 'It makes sense that you stepped back' — and then pivots to 'if the chair part could be different, what would that look like to you?' This is a strong redirect. When Elias says 'I'm not sure my knees would let me,' the psychiatrist validates the fear ('that's a real fear') while also exploring what's possible. When Elias says 'I'm old, and I'm tired, and starting something feels like a lot,' the psychiatrist does not dismiss this but reframes it: 'when you're that tired, "should" becomes a weight on top of everything else' — this softens the sustain talk by removing the blame element and reframing the problem from 'I can't' to 'the should is the problem.' However, the sustain talk around 'what if I do it wrong and make it worse' (near the end) is not as actively addressed or redirected. The psychiatrist could have explored this fear more directly or offered a reflection that normalizes imperfection. Additionally, the 'I'm old' element is not explicitly addressed or softened — the psychiatrist lets it sit without gently challenging the fixed identity of 'being old' as a barrier.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently conveys that expertise and wisdom reside within Elias. Examples: 'This space is really about what matters to you. There's no agenda here beyond what you'd like to get out of it' (opening establishes client-as-expert); 'I'm not going to push you to believe I'm not reading into it — that's yours to figure out' (explicitly returns interpretive authority to the client); 'You don't have to figure out how to get back to the fields' (removes the pressure to have answers, positions the psychiatrist as a companion in exploration, not a guide with a destination); 'That's yours to figure out' (repeated theme of client ownership). The psychiatrist never assumes expertise about Elias's body, his history, or his preferences. Questions are always framed as invitations to share, not as assessments to be filled out. The session flows in directions Elias chooses (the class, the fields, the counter, the foot pedaling) rather than following a predetermined agenda. This is exemplary partnership.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a clear and consistent focus on the target behavior (increasing physical activity) throughout the session, using it as an anchor while allowing the conversation to explore relevant emotional and identity-level material. The progression is logical and purposeful: opening → validating skepticism → exploring the class experience → exploring identity/values (the fields) → returning to present capabilities → narrowing to specific small actions (standing at counter, foot pedaling). Each question builds on the previous response and moves toward greater specificity and ownership. However, the session could be slightly more directed toward a concrete next step or commitment. The psychiatrist explores beautifully but doesn't quite land on a specific plan or even a 'what would you try this week' type of question. The focus is maintained, but the terminal direction toward a specific action step is slightly underdeveloped. This keeps it from a perfect 5.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently and explicitly reinforces Elias's autonomy and ownership. Key examples: 'There's no agenda here beyond what you'd like to get out of it' (opening); 'I'm not going to push you to believe I'm not reading into it — that's yours to figure out' (returning interpretive control); 'You don't have to figure out how to get back to the fields' (removing obligation); 'I'm not going to tell you to just push through that' (respecting his limits); 'Even something really small' (lowering the bar to make choice feel accessible without pressure); 'What would feel possible for your body right now?' (asking his body, not imposing a prescription). The psychiatrist never uses 'you should,' never prescribes, never implies Elias is failing by not doing more. The 'I might fall' fear is validated rather than corrected. The chair exercises are framed as something Elias already knows about and is free to engage with or not. This is exemplary autonomy support — the client is consistently positioned as the decision-maker in every moment.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The session is structured as a genuine collaboration between two equal partners. The psychiatrist uses language of shared exploration: 'I'm wondering...,' 'I'm curious...,' 'Both can be true' (modeling that there's no single right answer). The psychiatrist explicitly checks in: 'Does that land right, or am I reading into it?' — this is not just politeness but a genuine invitation for the client to correct the collaborator. The session's direction is shaped entirely by Elias's responses: he mentions the class, the fields, the counter, the foot pedaling — the psychiatrist follows his lead while providing structure. The psychiatrist shares his own perspective without dominating ('I'm not going to brush past it' — modeling transparency). There is no power differential in the conversation; Elias's 'I don't know' responses are met with patience and further exploration rather than pressure or redirection. The collaborative stance is maintained consistently from opening to the final exchange.
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently and skillfully elicits motivation from within Elias rather than providing external reasons for change. The entire session is built on evocative questions and reflections that draw out Elias's own values, desires, and capabilities. Key evocations: 'What's that like for you, knowing that?' (evoking internal experience); 'What did the walking give you? What was it about being out there that mattered?' (evoking values and identity); 'What would feel possible for your body right now?' (evoking self-efficacy); 'Is there ever a single movement, even one, that doesn't make your body go no?' (evoking specific capability). The psychiatrist never says 'you should exercise because...' or provides health statistics or external justification. Every piece of change talk that emerges ('I suppose I miss it,' 'I think I could do that,' 'two or three minutes standing at the counter') is generated by Elias in response to evocative questioning. The psychiatrist also skillfully amplifies when change talk appears ('You just did something worth noticing... That's not nothing'). The evocation is consistent, varied, and strategically deployed throughout the session.
+
+---
+
+**Overall Global Ratings Score:** **4.9/5**
+
+This is an exceptionally well-conducted Motivational Interviewing session. The psychiatrist demonstrates mastery across all 9 domains, with particular excellence in acceptance, empathy, evocation, and autonomy support. The session shows a clear, purposeful arc from ambivalence and skepticism to the emergence of specific, self-generated change talk (standing at the counter, foot pedaling exercises). The psychiatrist's reflections are accurate, emotionally attuned, and matched to Elias's register. The handling of sustain talk is strong though not perfect (the 'I'm old' and 'what if I make it worse' elements could be more actively addressed). The only minor area for growth is landing on a more concrete next step or commitment before the session ends. This is a model session that would serve as an excellent teaching example.

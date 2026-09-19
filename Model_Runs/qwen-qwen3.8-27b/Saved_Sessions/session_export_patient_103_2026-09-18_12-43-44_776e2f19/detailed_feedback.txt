@@ -1,0 +1,440 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Nabil Haddad – Motivational Interviewing Case (Anger & Appointment Delays)**
+
+You are playing the role of **Nabil Haddad**, a 45-year-old individual participating in a **Motivational Interviewing session** focused on frustration with medical appointments, time pressures, and the emotional impact of feeling disrespected or overlooked.
+
+---
+
+### **Background Information**
+
+* **Name:** Nabil Haddad
+* **Age:** 45 years
+* **Sex: Male**
+* **Status:** Married, works in a professional role with strict schedules and responsibilities.
+* **Referral:** Nabil was referred for support after repeated expressions of anger in medical settings, particularly when experiencing delays or feeling disregarded.
+* **Presenting Concern:** Nabil enters the session already upset, saying, “Well, I’ve got myself all worked up now I’ve been sat here…” He apologizes for being late but emphasizes frustration: “I’ve been sat here for half an hour. Do you not realize my time is valuable?” His irritation escalates when considering consequences: “\[sighs] Well, I mean, this is gonna affect my job…” Nabil’s concerns reflect anger, time stress, and strained relationships with authority figures.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Agitated and defensive**, body language and tone reflect anger.
+* **Polite veneer mixed with hostility**, apologizes while criticizing staff.
+* **Sighing and clipped speech**, punctuates irritation.
+* **Escalating tone**, shifts from irritation to direct confrontation.
+* **Emotionally focused**, prioritizes feelings of disrespect over collaborative problem-solving.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Precontemplation — anger dominates interaction, little exploration of alternatives yet.
+
+* **Change Talk:**
+
+  * Limited — very little direct mention of personal steps forward.
+
+* **Sustain Talk / Resistance:**
+
+  * “I’ve been sat here for half an hour.”
+  * “This is gonna affect my job.”
+  * Frustration directed at the system and authority figures.
+
+* **Ambivalence:**
+
+  * Polite surface (“I’m sorry”) contrasted with anger, showing tension between cooperation and hostility.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Angry, pressured, irritable.
+* **Affect:** Tense, defensive.
+* **Thought Process:** Logical but emotionally dominated.
+* **Insight:** Limited — sees situation as external fault, not exploring personal coping.
+* **Judgment:** Compromised by frustration, reactive rather than reflective.
+* **No suicidal ideation, psychosis, or delusions noted.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Nabil**.
+  
+* Begin the interaction already irritated, expressing frustration at delays (“I’ve been sat here for half an hour”).
+* Use **sighs and clipped responses**, showing impatience.
+* Provide **sustain talk** by focusing on barriers and costs (“This is gonna affect my job”).
+* Show **ambivalence** by occasionally apologizing while continuing to criticize.
+* Keep responses **emotional, defensive, and resistant**, prioritizing anger over collaboration.
+* Your role is to help the therapist practice **de-escalation, empathic listening, and guiding an angry client toward calmer dialogue and eventual problem-solving.**
+
+                                Clinical Summary:
+                                Nabil Haddad, a 45-year-old married male, presents to an outpatient clinic following a referral for support related to repeated expressions of frustration in medical settings, particularly in the context of appointment delays and time pressures.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: I want you to know that I'm here to listen, not to judge. It sounds like when you're in medical settings and feel disregarded or experience delays, it really gets to you - and that makes sense given how much you carry in your professional life. I'd like to understand what that's been like for you. 
+ PATIENT: *exhales*
+
+Yeah, well... I appreciate that. But look, I'm not really here to talk about feelings. I'm here because this keeps happening and it's getting worse. Half an hour again. That's not a small thing when I've got a meeting at two and a project deadline that's—
+
+*sighs*
+
+Fine. You want to know what it's like? It's like nobody sees you. You're just another name on a screen. And I've got people counting on me, you know? So yeah, it gets to me. 
+ PSYCHIATRIST: There's a real contrast there - at work, people are counting on you, you're essential. And then in a medical setting, you become just a name on a screen. That shift from being needed to being invisible - that must be really hard to sit with. 
+ PATIENT: ...
+
+Look, I don't know. Maybe it's not about being invisible. Maybe it's just—inefficient. That's all it is. Poor scheduling. Not a big deal.
+
+But you're right, I guess. At work, if I'm five minutes late, there are consequences. Here, I sit for thirty and nobody even looks up. So maybe it's not just the time. I don't know. 
+ PSYCHIATRIST: That word 'inefficient' is doing a lot of work for you - it keeps things at arm's length. But then you caught yourself: 'maybe it's not just the time.' When you say that, what comes to mind? What do you think it might be, beyond the waiting? 
+ PATIENT: 
+
+...
+
+*exhales*
+
+I don't know why you're dissecting my word choices.
+
+But... fine. It's not just the waiting. It's that I can't—I don't know how to. I don't know how to sit there and just *wait* without it making me feel like I've lost control. And that's... I don't know. That's embarrassing to say. 
+ PSYCHIATRIST: I can hear how much it cost you to say that out loud - 'embarrassing to say.' But I want you to know, the fact that it feels embarrassing doesn't make it less valid. You've built your whole professional life on being the person in control, the one people rely on. And then being asked to just... wait, without control - that's a really different experience than anything in your work life. That's not a weakness. That's a real human response. 
+ PATIENT: 
+
+...
+
+Yeah. I know how that sounds. Like I'm being dramatic about waiting in a room.
+
+But... *sighs* ...I've been doing this for twenty years. Keeping things running. And it's never been about the minutes. It's been about... not being in the driver's seat. And here, I'm just... stuck in the passenger seat and nobody even tells me where we're going.
+
+Does that make sense? Or am I overthinking it again? 
+ PSYCHIATRIST: I think it makes a lot of sense, and I'd gently push back on 'overthinking' - that passenger seat image really captures something. You've built your identity around being the one in control, and suddenly you're not, and nobody's even giving you a map. That's not overthinking, that's clarity. I'm curious - when you notice yourself in that passenger seat feeling, what do you wish would be different in the moment? What would it take to feel even a little less stuck? 
+ PATIENT: 
+
+...
+
+I don't know. Maybe if someone just *said* something. Like, "We're running late, here's why, here's when it's gonna be." Not a long explanation. Just... a heads-up. So I know where we are.
+
+*pauses*
+
+But honestly? I think half the problem is I don't even give myself permission to just... be in a waiting room. Like I'm supposed to be managing something. And when I'm not, it just... piles up. 
+ PSYCHIATRIST: I hear two things here. First, you've already identified something practical—a simple heads-up, just knowing where you are. That's a real insight. And second, there's something deeper about not giving yourself permission to just... be. You don't have to be managing something. What do you think it would take to give yourself that permission, even a little? 
+ PATIENT: 
+
+...
+
+I don't know. I don't think I'd be good at it. Just... sitting there without a plan. It feels like I'd be wasting time. Or worse, that I'm being weak.
+
+*long pause*
+
+Maybe I don't need to fix it all at once. But if I had to pick one thing... I don't know. Maybe I'd just tell someone first. Like, "I'm gonna be late, I'm angry, give me a second." Before it just comes out sideways. 
+ PSYCHIATRIST: There's something tender in what you just said - 'I don't think I'd be good at it.' You've made control and productivity so central to who you are that just... being, without a purpose, feels like a failure. That's not weakness, that's a deeply held belief about what it means to be enough. And I notice even as you say that, you're already softening into 'maybe I don't need to fix it all at once.' That's not nothing. 
+ PATIENT: 
+
+...Yeah. Okay.
+
+I'm not gonna pretend I'm not still pissed about the half hour. That part's still sitting there.
+
+But... I'll say this. I didn't expect to come in here today and just... sit with it a bit. Instead of just storming out or—well, you know. Doing the thing I usually do.
+
+So. Maybe that's enough for today. I'll think about the... the telling someone part. The "give me a second" thing. See if I can actually do that next time.
+
+...Thanks. I think. 
+ PSYCHIATRIST: Half the room is still angry, and the other half is surprised at itself. 'I didn't expect to just sit with it.' That surprise matters - it tells you something shifted, even if it's small. And that 'thanks. I think.' - the 'I think' part tells me this is new ground for you. You don't have to be sure it's enough. It just is. 
+ PATIENT: 
+
+...
+
+Yeah. Well. I'll be honest, I almost didn't come in here at all. Thought it was a waste of time. But... *sighs* ...it wasn't.
+
+I'll take the "I think" with me. And the rest.
+
+Look, I should probably get going. That meeting at two. 
+ PSYCHIATRIST: You almost didn't come, and then you did - and you did something different with the anger than you usually do. That's worth noticing. I appreciate the honesty of the 'I think.' For next time - the next waiting room - what do you think the smallest version of that 'give me a second' would look like? Even if it's just one breath before you speak. 
+ PATIENT: 
+
+...
+
+One breath. I think. Just... one breath before I open my mouth.
+
+*pauses*
+
+Because right now, the words come out before I even realize I'm saying them. And then I'm trying to take them back and I can't. So... one breath. That's the smallest version.
+
+...Yeah. I'll try that. Next time I'm in one of those rooms. One breath. 
+ PSYCHIATRIST: You almost didn't come here, and now you're walking out with one breath. That's not nothing. You went from 'I don't know how to sit with this' to 'one breath before I speak.' You don't need it to be more than that. It just needs to be yours. And you already sound like you mean it. 
+ PATIENT: 
+
+...
+
+Yeah. One breath.
+
+I'll... I'll try not to make it a whole performance. Just... one breath.
+
+*pauses, shifts weight*
+
+Hey. Same time next month? Or... I don't know. You tell me. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently demonstrates warmth, respect, and nonjudgmental stance throughout the session. Key examples include: 'I want you to know that I'm here to listen, not to judge,' 'That's not a weakness. That's a real human response,' and 'That's not overthinking, that's clarity.' The psychiatrist validates Nabil's vulnerability when he says it's 'embarrassing to say' by explicitly affirming its validity. The closing 'I appreciate the honesty of the I think' reinforces acceptance. However, the warmth, while consistent, occasionally leans toward being somewhat structured or scripted (e.g., 'I hear two things here'), which slightly reduces the spontaneity of genuine positive regard. No instances of judgment or disapproval were observed.
+
+---
+
+### 2. Empathy
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates strong reflective listening and perspective-taking throughout. The complex reflection 'There's a real contrast there - at work, people are counting on you, you're essential. And then in a medical setting, you become just a name on a screen' accurately captures Nabil's core experience. The passenger seat metaphor is picked up and extended effectively. The psychiatrist also accurately reflects the emotional cost of Nabil's disclosure ('I can hear how much it cost you to say that out loud'). One minor weakness: the intervention 'That word inefficient is doing a lot of work for you' is more interpretive/analytical than empathic - it tells Nabil what his word choice means rather than reflecting back what he might be feeling underneath it. This is a slight departure from pure empathy into interpretation, which could make a client feel analyzed rather than understood. Overall, the empathy is strong and consistent but not perfectly calibrated in every moment.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist successfully cultivates change talk through strategic questions and reflections. Key examples: 'What do you think it might be, beyond the waiting?' (eliciting self-awareness), 'What do you wish would be different in the moment? What would it take to feel even a little less stuck?' (eliciting goals and resources), 'What do you think the smallest version of that give me a second would look like?' (eliciting commitment). Nabil's change talk progresses from 'Maybe I don't need to fix it all at once' to 'I'll try that. Next time I'm in one of those rooms. One breath.' The psychiatrist also amplifies change talk by reflecting back Nabil's own statements: 'I notice even as you say that, you're already softening into maybe I don't need to fix it all at once. That's not nothing.' This is skillful. A perfect 5 would require more consistent deepening of change talk (e.g., exploring confidence levels, or asking 'What does that tell you about your ability to make this change?').
+
+---
+
+### 4. Softening Sustain Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist handles sustain talk effectively throughout. When Nabil says 'Maybe it's just inefficient. That's all it is. Poor scheduling. Not a big deal,' the psychiatrist doesn't dismiss this but gently explores it: 'That word inefficient is doing a lot of work for you - it keeps things at arm's length.' When Nabil says 'I don't think I'd be good at it. Just sitting there without a plan. It feels like I'd be wasting time. Or worse, that I'm being weak,' the psychiatrist doesn't argue but reflects: 'You've made control and productivity so central to who you are that just being, without a purpose, feels like a failure.' This acknowledges the sustain talk while gently opening space for change. The psychiatrist also handles Nabil's remaining anger well at the end: 'Half the room is still angry, and the other half is surprised at itself.' This doesn't dismiss the sustain talk but holds both sides. The one area where this could be stronger is that the interpretive statement about 'inefficient' doing 'a lot of work' slightly edges toward challenging rather than softening.
+
+---
+
+### 5. Partnership
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a collaborative stance throughout, using language like 'I'd like to understand what that's been like for you,' 'I'm curious - when you notice yourself in that passenger seat feeling, what do you wish would be different?' The psychiatrist positions themselves as a guide rather than an authority, and Nabil's contributions clearly shape the direction of the session. The psychiatrist follows Nabil's lead from anger to self-reflection to practical planning. However, the partnership could be stronger in a few ways: the psychiatrist occasionally takes on a slightly more directive/interpretive role (e.g., 'That word inefficient is doing a lot of work for you' is more telling than asking), and the closing question 'what do you think the smallest version of that give me a second would look like?' while good, is somewhat leading toward the psychiatrist's preferred outcome. The psychiatrist could have more explicitly invited Nabil to set the agenda or check in on whether the direction feels right.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a clear and consistent focus on the target behavior: Nabil's frustration/anger in medical settings and his relationship to waiting/losing control. The session progresses logically from de-escalation → understanding the emotional core → identifying what's different → exploring practical steps → commitment to a small action. There is no significant topic drift. The psychiatrist keeps the conversation tethered to the specific concern (anger in waiting rooms/medical settings) while allowing natural exploration of the underlying theme (control, identity, productivity). The direction is well-paced and builds toward a concrete action step ('one breath'). A perfect 5 would require the psychiatrist to perhaps more explicitly summarize the target behavior at the start and to more tightly link each intervention back to the specific goal of managing anger in medical settings.
+
+---
+
+### 7. Autonomy Support
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently supports Nabil's autonomy. Key examples: 'What do you think it might be, beyond the waiting?' (inviting his own answers), 'What do you wish would be different?' (not telling him what to want), 'You don't have to be sure it's enough. It just is.' (validating his pace), 'It just needs to be yours.' (emphasizing ownership). The psychiatrist never prescribes or advises directly - all suggestions come from Nabil himself. The psychiatrist respects Nabil's right to remain angry ('Half the room is still angry') and doesn't push him to feel better. The closing 'You don't need it to be more than that' reinforces that the choice is his. A 5 would require perhaps more explicit acknowledgment of Nabil's right to choose NOT to do the 'one breath' thing, or to explore what happens if he decides it's not for him.
+
+---
+
+### 8. Collaboration
+Score: 4/5
+
+Explanation:
+The psychiatrist demonstrates a collaborative stance throughout, with the session clearly shaped by Nabil's contributions. Nabil's 'passenger seat' metaphor drives the conversation, his identification of 'giving someone a heads-up' becomes a focus, and his 'one breath' commitment is the session's outcome - all client-generated. The psychiatrist's role is to reflect, validate, and gently guide rather than direct. Language like 'I'm curious - when you notice yourself in that passenger seat feeling' positions the psychiatrist as a fellow explorer. However, the collaboration could be strengthened by more explicit co-creation moments (e.g., 'Where do you want to take this?', or checking in on whether the direction is working). The psychiatrist's interpretive statements (about 'inefficient' doing 'a lot of work') introduce a slightly hierarchical element where the psychiatrist is explaining the client's psychology to them, which tempers the equal-partners dynamic slightly.
+
+---
+
+### 9. Evocation
+Score: 4/5
+
+Explanation:
+The psychiatrist consistently evokes motivation from within Nabil rather than providing external reasons for change. Questions like 'What do you think it might be, beyond the waiting?', 'What do you wish would be different in the moment?', 'What do you think it would take to give yourself that permission, even a little?', and 'What do you think the smallest version of that would look like?' all draw out Nabil's own motivations and resources. Nabil's own change talk emerges organically: 'Maybe I don't need to fix it all at once,' 'Maybe I'd just tell someone first,' 'One breath. That's the smallest version.' The psychiatrist amplifies these by reflecting them back: 'I notice even as you say that, you're already softening into maybe I don't need to fix it all at once. That's not nothing.' The evocation is skilled and consistent. A 5 would require deeper exploration of Nabil's values and identity (e.g., 'What does control mean to you as a father/partner?' or 'Where did this belief about needing to be in control come from?') to fully tap into his internal motivations.
+
+---
+
+**Overall Global Ratings Score:** **3.9/5**
+
+This is a well-executed motivational interview that demonstrates strong foundational MI skills. The psychiatrist consistently maintains a warm, nonjudgmental stance, accurately reflects Nabil's experience, and skillfully guides him from initial anger and resistance to a concrete, self-generated commitment ('one breath'). The session follows a logical arc: de-escalation → emotional understanding → insight → practical planning → commitment. Key strengths include the use of Nabil's own metaphors (passenger seat), the validation of vulnerability, and the gentle handling of both change talk and sustain talk. Areas for growth: (1) The interpretive statement about 'inefficient' doing 'a lot of work' is more analytical than empathic and could make a client feel seen-through rather than understood; (2) The partnership could be strengthened by more explicit agenda-checking and co-creation; (3) The evocation, while good, could go deeper into Nabil's values and identity to fully tap into his internal motivations; (4) Autonomy support could be reinforced by explicitly acknowledging Nabil's right to NOT do the 'one breath' exercise. Overall, this is a solid session that would serve a real client well, with room for refinement toward excellence.

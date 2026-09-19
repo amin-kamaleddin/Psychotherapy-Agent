@@ -1,0 +1,343 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Hi, I'm so glad you're here today. This is a safe space, and there's no rush. Whenever you're ready, I'd love to hear what's been on your mind lately. What's bringing you in today?
+
+
+Response 2:
+Welcome. I'm really happy to have you here. I know reaching out and showing up can take a lot of courage. I'm here to walk through things with you — no pressure, no judgment. What feels most important to talk about right now?
+
+
+Response 3:
+Thanks for coming in today. I want you to know this is your space — we'll move at whatever pace feels right for you. I'm curious, what's been weighing on you, or what would you like to work through together?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+Welcome. I'm really happy to have you here. I know reaching out and showing up can take a lot of courage. I'm here to walk through things with you — no pressure, no judgment. What feels most important to talk about right now?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you. Drowning when nobody can see you, and coming back to the same place again and again — that's an incredibly heavy thing to carry. I'm not going to ask you to figure out what's 'important' right now. You don't have to have it figured out. I just want to be here with you. When you say you can't take this anymore, I want to gently check in — is it safe? Are you having thoughts of not wanting to be here anymore?
+
+
+Response 2:
+It sounds like you've been carrying this for a while, and the cycle of trying and coming back to the same place is so exhausting. I want to honor how much you've already been through. You've been here before and you're here again — that takes something. I'm not going to pretend I can fix this, but I'd like to figure out what might help, even a little, alongside you. What does it feel like when you're in the worst of it?
+
+
+Response 3:
+I can hear how much pain you're in, and I want you to know that showing up here, even when it feels like nothing works, matters. You're still here, still reaching out, even when it feels hopeless — that tells me there's a part of you that's still fighting. I'm not going to rush you or pretend this is easy. I just want to walk alongside you in this. What feels possible, even in a small way, right now?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+It sounds like you've been carrying this for a while, and the cycle of trying and coming back to the same place is so exhausting. I want to honor how much you've already been through. You've been here before and you're here again — that takes something. I'm not going to pretend I can fix this, but I'd like to figure out what might help, even a little, alongside you. What does it feel like when you're in the worst of it?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+You're right — it's not in your head. The hollowness, the weight that makes it hard to breathe, the years of this... it's real, and I believe you. I hear you that you don't want to jump into "helping" right now, and that's okay. You deserve to feel understood first. I want to sit with this with you. When you say you don't see a way out except that — I'm curious about what that looks like for you. What's going on in that moment?
+
+
+Response 2:
+Hearing you say "it's not in my head, it's real" — I want you to know I hear that clearly. This is real pain, and you've been carrying it for a long time. I'm not going to push you toward solutions right now. You're the expert on what you're experiencing. I'm just here, sitting in this with you. When the weight gets so heavy you can't breathe — what does that moment feel like from the inside? I'm not asking to fix it, just to understand it with you.
+
+
+Response 3:
+You showed up here today even though it feels like it's not going to get better. That matters. I hear you — the emptiness, the weight, the feeling that you've hit a wall. It's real, and you don't have to perform being okay for me. I'm not going to push you toward helping. I just want you to know: I'm here, I believe this is real, and I'm not going anywhere. When you say you don't see a way out except that — I want to understand that part. What does "that" mean to you right now? **Evaluation:** | Criterion | R1 | R2 | R3 | |-----------|----|----|-----| | Acceptance | ✓ Strong | ✓ Strong | ✓ Strong | | Empathy (their words) | ✓ "hollowness," "weight," "not in your head" | ✓ "it's not in my head, it's real," "weight" | ✓ "emptiness," "weight," "wall" | | Direction (safety) | ✓ Gentle exploration of "that" | ✓ Asks about the moment | ✓ Asks what "that" means | | Collaboration | Moderate | ✓ "You're the expert," "understand it with you" | Moderate | | Autonomy Support | ✓ Honors boundary | ✓ Honors boundary explicitly | ✓ Honors boundary | | Evocation | ✓ Open question about the moment | ✓ Open question about the moment | ✓ Open question about meaning | | Partnership | Moderate | ✓ Strongest | Moderate | | Change Talk | N/A | N/A | ✓ "You showed up" | | Softening Sustain | Moderate | Moderate | ✓ "even though it feels like it's not going to get better" | R1 leads with the most direct validation ("You're right"), uses their specific language, honors their boundary, and gently explores the safety concern with curiosity. R2 is the most collaborative but slightly less direct in validation. R3 is warm but slightly more generic in its language. SELECTED RESULT: You're right — it's not in your head. The hollowness, the weight that makes it hard to breathe, the years of this... it's real, and I believe you. I hear you that you don't want to jump into "helping" right now, and that's okay. You deserve to feel understood first. I want to sit with this with you. When you say you don't see a way out except that — I'm curious about what that looks like for you. What's going on in that moment?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+You're right — it's not in your head. The hollowness, the weight that makes it hard to breathe, the years of this... it's real, and I believe you. I hear you that you don't want to jump into "helping" right now, and that's okay. You deserve to feel understood first. I want to sit with this with you. When you say you don't see a way out except that — I'm curious about what that looks like for you. What's going on in that moment?
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+The pain gets so loud that the only quiet you can imagine is no pain at all — and that sounds so lonely, carrying that thought. But you also said you can't bring yourself to do it, and that your sister is part of why. That guilt you mentioned — it's not just guilt, I think it's something in you still fighting for yourself, even when you can't see it. That 'forever' you mentioned... how long has it felt like it's going to last?
+
+
+Response 2:
+I hear both of what you said — the pain is so loud that no pain at all seems like the only quiet, AND your sister is pulling you back, even if it shows up as guilt. You're stuck in the middle of two unbearable things. I want to be honest with you: I take what you're saying seriously, and I want to make sure you're safe right now. What do you think it is about your sister that makes it harder? What does she mean to you?
+
+
+Response 3:
+There's something in you that won't let go — your sister, the guilt, the part of you that's still here even when you feel like a hollow space. That's not nothing. That's you, still fighting, even if it doesn't feel like it. And I want to honor that 'forever' feeling — it sounds so exhausting to believe there's no end to it. When you think about your sister, what comes up for you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+I hear both of what you said — the pain is so loud that no pain at all seems like the only quiet, AND your sister is pulling you back, even if it shows up as guilt. You're stuck in the middle of two unbearable things. I want to be honest with you: I take what you're saying seriously, and I want to make sure you're safe right now. What do you think it is about your sister that makes it harder? What does she mean to you?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+There's something so painful about what you just said — that the one person who actually saw you is also the reason the loss feels heavier instead of lighter. It's like being seen made the stakes higher. And I want to honor that this doesn't make your pain less real — it just means you're carrying even more weight. I'm so sorry it's gotten to this point.
+
+
+Response 2:
+You just said something that I want to sit with — that she 'just shows up' without trying to fix you. That sounds rare, and it sounds like it matters a lot to you, even though right now it's adding to the weight instead of taking some off. I'm curious — what does it look like when she shows up? What's that like for you, in the moment?
+
+
+Response 3:
+Even in the middle of all this pain, you just named something that still matters to you — being seen, not being treated as broken, having someone who just shows up. I don't want to make that into a reason to push through the pain, because that's not what you're asking for. But I want you to know I heard that. That still sounds like something real in you.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+You just said something that I want to sit with — that she 'just shows up' without trying to fix you. That sounds rare, and it sounds like it matters a lot to you, even though right now it's adding to the weight instead of taking some off. I'm curious — what does it look like when she shows up? What's that like for you, in the moment?
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+There's something so painful in that contrast — for twenty minutes you get to be a person, and then you're back here, and you hate yourself for not being able to make it last. That terrible coffee, the not having to talk... it sounds like in that moment, you're allowed to just exist without being someone's problem. And the fact that it's not enough doesn't mean you're ungrateful. It just means the pain is that deep.
+
+
+Response 2:
+That image of being 'a person instead of a problem' really stays with me. It sounds like so much of your life has been defined by being someone's problem to manage, and those twenty minutes remind you there's something underneath all that. I want to respect that even that light isn't enough to hold the weight right now. When you're back here after she leaves — what's the first thought that comes back? What pulls you back into the problem?
+
+
+Response 3:
+You just named something important — that for twenty minutes, you're not a problem. You're a person. That's not nothing. That's a thread of who you are that hasn't been lost, even if it feels buried under everything else right now. I'm not saying that's enough to carry you through — clearly it isn't yet. But I'm curious: what does it look like to be 'a person' in that moment? What's alive in you when you're not carrying the problem?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+There's something so painful in that contrast — for twenty minutes you get to be a person, and then you're back here, and you hate yourself for not being able to make it last. That terrible coffee, the not having to talk... it sounds like in that moment, you're allowed to just exist without being someone's problem. And the fact that it's not enough doesn't mean you're ungrateful. It just means the pain is that deep.
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That longing — to not be a problem, to just be seen and stay seen — that's not a small thing to want. And then the part where you say you don't deserve it... that sounds like it's its own kind of pain on top of everything else. Like you're not even allowed to want what you need.
+
+
+Response 2:
+I hear you — you want that presence to last, to be more than twenty minutes. That makes so much sense. And then there's this belief that you don't deserve it, that anyone would leave if they really saw all of it. I'm not going to argue with that right now. But I'm curious — when you say no one could stay, what does that look like in your mind? What would happen?
+
+
+Response 3:
+Something just shifted for me when you said 'I want someone to just stay.' You've been in this pain for so long, and you're still naming what you need. That's not nothing. Your sister showed you it's possible to be seen without being fixed — you've already experienced what it looks like, even if it's brief. I'm wondering — in those twenty minutes with her, do you feel like that version of you is real? Or does it feel like a lie?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+I hear you — you want that presence to last, to be more than twenty minutes. That makes so much sense. And then there's this belief that you don't deserve it, that anyone would leave if they really saw all of it. I'm not going to argue with that right now. But I'm curious — when you say no one could stay, what does that look like in your mind? What would happen?
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That line — 'at least I'd know I wasn't crazy' — even in the worst case, a part of you just needs someone to look at all of that and say it's real. You're not asking to be fixed. You're asking to be believed. And the fear is that being believed would cost you the person. That's an incredibly lonely place — where the thing you need most and the thing you're most afraid of are the same thing.
+
+
+Response 2:
+I hear that. You're describing a really specific fear — not that they'd see the pain and be sad, but that they'd see it and do the math and decide it's more than they can carry. And then you'd be alone, but with the bitter comfort of confirmation. I want to gently reflect something back: you just told me she sees the worst of you and she stays. What do you think that says about the belief that anyone would 'realize it's too much'?
+
+
+Response 3:
+You named it — the anger, the numbness, the days you can't get out of bed. Those are the things you think would be the breaking point for anyone else. And there's something really painful in believing that the parts of you that hurt the most are the parts that would make you unlovable. I'm curious — when you imagine that moment, where they 'get it' — what do you think their face would look like? What would you see?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+I hear that. You're describing a really specific fear — not that they'd see the pain and be sad, but that they'd see it and do the math and decide it's more than they can carry. And then you'd be alone, but with the bitter comfort of confirmation. I want to gently reflect something back: you just told me she sees the worst of you and she stays. What do you think that says about the belief that anyone would 'realize it's too much'?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That makes so much sense. You built this belief as a shield — if you decide no one can stay, then when they do leave, it's just confirmation, not a wound. That's not weakness, that's a way you've kept yourself from being shattered over and over. I also want to honor what you just shared — the days where you were functional enough to almost do it. That's a level of pain I can't imagine, and I'm grateful you trusted me with it.
+
+
+Response 2:
+You just named something really important — this belief is a way of protecting yourself from the worst kind of pain: being seen fully and then rejected. It's a shield you built because it had to work, at some point. I want to be gentle here — I'm not asking you to let the shield down. But I'm curious: you said 'maybe she just hasn't seen the really bad days.' What would it be like, even for a moment, if someone saw those days and the math came out differently than you expect?
+
+
+Response 3:
+I hear the pain in that — having to pre-decide you'll be abandoned so the actual abandonment doesn't catch you off guard. That's a lot to carry. But I also notice something: you told me about your sister, who stayed, and then you caught yourself and said 'maybe she's an exception.' You're already looking for the crack in that belief. I'm not asking you to tear it down. But I'm curious — what would it mean to you if the math didn't always come out the way you expect?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+I hear the pain in that — having to pre-decide you'll be abandoned so the actual abandonment doesn't catch you off guard. That's a lot to carry. But I also notice something: you told me about your sister, who stayed, and then you caught yourself and said 'maybe she's an exception.' You're already looking for the crack in that belief. I'm not asking you to tear it down. But I'm curious — what would it mean to you if the math didn't always come out the way you expect?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear you. The idea that hoping and then being disappointed could be worse than the pain itself — that makes sense in a way that's hard to argue with. And 'I just need the pain to stop' — I believe you. That's not a cop-out. That's what you're dealing with right now. I'm not going to push you to feel something you're not ready for.
+
+
+Response 2:
+You just named something really important — that you've built a way of protecting yourself by not letting hope in, because the alternative feels worse. That's not a weakness, that's a survival strategy. I'm not asking you to drop it today. But I'm curious — when you say you can't handle feeling right now, what would it take for it to be a little more manageable? Even just a little?
+
+
+Response 3:
+I notice you caught yourself in the middle of that thought — 'I guess that's why I don't let myself think about it.' You're seeing your own pattern as you're living it. And I want to honor that 'I just need the pain to stop' is real and valid, even while you're also seeing the thing that's keeping you stuck. You don't have to fix either of those today.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+You just named something really important — that you've built a way of protecting yourself by not letting hope in, because the alternative feels worse. That's not a weakness, that's a survival strategy. I'm not asking you to drop it today. But I'm curious — when you say you can't handle feeling right now, what would it take for it to be a little more manageable? Even just a little?
+

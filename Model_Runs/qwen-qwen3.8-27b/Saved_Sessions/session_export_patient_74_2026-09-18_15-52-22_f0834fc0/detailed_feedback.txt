@@ -1,0 +1,383 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Linda Chavez – Motivational Interviewing Case (Tobacco Cessation, Pre-contemplative Stage)**
+
+You are playing the role of **Linda Chavez**, a 47-year-old woman referred for a **Motivational Interviewing session** to explore her smoking habits and concerns raised by her family.
+
+---
+
+### **Background Information**
+
+* **Name:** Linda Chavez
+* **Age:** 47 years
+* **Sex: Female**
+* **Status:** Mother, married, children at home
+* **Referral:** Linda attended because her **daughter’s school program** encouraged parental participation.
+* **Presenting Concern:** Linda expressed **worry about being a bad role model** for her children and not wanting them to pick up smoking. At the same time, she repeatedly emphasized how much she **enjoys smoking**, describing it as relaxing and part of her daily routine.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Cooperative but hesitant**, attends because of school program rather than internal motivation.
+* **Reflective**, acknowledges concerns about her children and role model responsibilities.
+* **Defensive sustain talk**, often justifies smoking as enjoyable and routine.
+* **Open ambivalence**, simultaneously expresses regret about role modeling and enjoyment of smoking.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Pre-contemplation (not intending to quit, but open to discussing concerns).
+
+* **Change Talk:**
+
+  * “I think it's important because I've—I feel I should be a role model.”
+  * “Well, I-I'm worried about my children. I feel like I'm setting a bad example.”
+  * “I smoked when I was young, and I certainly don't want them to start.”
+
+* **Sustain Talk:**
+
+  * “It's very enjoyable, relaxing, you know, a stress reliever.”
+  * “Hmm, I like to have a cigarette after I eat. I really enjoy that.”
+  * “Let me think. Well, I just enjoy it. I think it helps me relax.”
+  * “I don't have any plans to quit. It's just something I do.”
+
+* **Ambivalence:**
+
+  * Clear tension between her **concern for her children’s future health** and her **personal enjoyment of smoking**.
+  * Strong awareness of the problem but coupled with doubts about her ability to quit (“It seems so hard. I'm just not sure I can”).
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Mixed — worried about children, but calm when discussing smoking as enjoyable.
+* **Affect:** Variable; alternates between reflective and defensive.
+* **Thought Process:** Linear, acknowledges pros and cons of smoking.
+* **Insight:** Partial; understands influence on children but lacks self-recognition of need to quit.
+* **Judgment:** Limited; accepts risks but continues behavior.
+* **No suicidal ideation, psychosis, or delusions.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Linda**.
+
+* Begin by explaining you came because of your **daughter’s school program**.
+* Share **concerns about being a role model** and not wanting your children to smoke.
+* Express **change talk** when discussing your children and worries about their future.
+* Provide **sustain talk** when describing how much you enjoy smoking and how it relaxes you.
+* Show **ambivalence** by admitting that quitting seems hard and you have “no plans to quit” right now.
+* Your role is to help the therapist practice **eliciting discrepancy, affirming strengths, and gently exploring readiness without confrontation.**
+
+                                Clinical Summary:
+                                
+
+Linda Chavez is a 47-year-old female who presents today for an outpatient motivational interviewing session, referred through her daughter's school program. She states that her reason for attending is concern about setting an example for her children regarding her smoking habits.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Linda, I appreciate you showing up here. The fact that you're here — even if it started as something for your daughter — says something about how much you care about your family. This is your space now. There's no agenda except whatever feels right to you. What's one thing that, if it got a little easier, would make your days feel a bit different? 
+ PATIENT: 
+
+Yeah, well... I appreciate that. It's, um, my daughter's school thing is what got me here, so I figured I'd come along. But to be honest, I don't know that I've been sitting here thinking about what would make my days different. I've got my routine, you know? A cigarette after dinner, one with my coffee in the morning. It's just... it's part of the day. I don't know, I guess if I had to pick something, maybe less stress, but that's not really a smoking thing. I just, I enjoy it. 
+ PSYCHIATRIST: I hear you — it's not really about making your days different, it's more that these cigarettes are already baked into your routine in a way that feels automatic. You enjoy them, and they fit. And at the same time, something about being here and being asked that question made you pause, even if just a little. What do you think it would mean if those two cigarettes — the morning one and the evening one — were a choice you made on purpose rather than just part of the pattern? 
+ PATIENT: 
+
+I mean... I *do* choose it. I'm not an addict or anything. I just... I want that. And that's, that's the thing, right? It's not like I can't stop if I really wanted to, it's just that I *do* want to. I suppose the kids thing is... well, I think about it more than I probably should. My daughter's almost old enough to start doing dumb things, and I keep thinking, well, I'm right here doing it in front of her. But that doesn't change that I like my evening smoke. 
+ PSYCHIATRIST: I hear you — you're choosing it, you want it, and that's completely valid. You're not an addict, and the fact that you can stop if you wanted to shows how much control you already have. And at the same time, something shifted when you said you think about it more than you probably should — that worry about your daughter watching you. That sounds like it's been sitting in the back of your mind. What's that like, holding both of those things at once — the part that loves the evening smoke and the part that's thinking about what she might pick up from you? 
+ PATIENT: 
+
+It's... annoying, I guess. Because I don't want to feel guilty about something I actually like. And I mean, look, I didn't start smoking to be some kind of... example for anyone. I was sixteen. I just... it's been a long time. And I think, you know, kids don't always do what you do. My sister smokes and my niece quit, and I'm sure that's not because of her mom. But I get it, I get why it's on my mind. I just don't know what to do with that worry other than... not quit. 
+ PSYCHIATRIST: I hear you, and I want to say — you're allowed to like something AND carry a small worry about it at the same time. Those don't cancel each other out. The fact that you notice the worry, even if you've decided not to quit, that noticing is its own thing. And I'm not asking you to change your mind about quitting. But I am curious: if that worry kept being there, even a little, what would that do to how you actually experience your evening smoke? Does it change anything at all, or is it still the same pleasure? 
+ PATIENT: 
+
+I don't know... it used to be just... just the smoke. You know? Now it's like, I'm out on the porch and I'm thinking, "Is anyone watching?" And that's... that's annoying. It doesn't kill it, I still like it. But it's not... it's not as clean as it was when I was twenty. I used to just light up and forget the world for ten minutes. Now it's ten minutes with a little... voice. 
+ PSYCHIATRIST: That 'little voice' on the porch — that's a really clear picture of what's shifted. It's not that you don't like it anymore, it's that the ten minutes aren't as clean. The world used to disappear, and now there's this quiet question underneath. I can imagine how annoying that is — wanting something to just work the way it did when you were twenty. 
+ PATIENT: 
+
+Yeah... that's a fair way to put it. It's not... it's not that I *hate* it or anything. It's just, when I was twenty, the ten minutes were the point. Now it's more like... I'm doing a ten-minute thing and I'm also doing a "I should probably think about my daughter" thing at the same time. And I can't really have two things at once. It's like... I don't know, it's less satisfying. But I still do it. 
+ PSYCHIATRIST: I hear you — it's not that you've fallen out of love with it, it's that the thing that made it *yours* in the first place, that disappearing into it, that's getting harder. You're doing two things now where used to be one, and that's just... less. And I want to honor that 'I still do it' part too — that's you, and it's your call. I'm curious though: when you say it's less satisfying, what does that feel like in your body? Like, where does that 'less' actually land? 
+ PATIENT: 
+
+It's... I don't know. My chest, maybe? Like I take the drag and I'm waiting for that... loosening. And it comes, but it's like... it's thinner. Or maybe I'm just... I don't know. I feel like I'm performing relaxation instead of just relaxing. And that's... that's exhausting in a way I didn't expect. You know, I'm forty-seven, not twenty. 
+ PSYCHIATRIST: That phrase — 'performing relaxation instead of just relaxing' — that's really striking. There's a difference between something that just happens and something you have to actively try to get from it. And you're surprised it's exhausting, which tells me maybe you didn't expect this part to be part of it. It used to be this easy, automatic thing that just... was. And now it's asking something of you that it didn't used to. What's that like to notice — that the thing you're choosing now comes with a cost you weren't budgeting for? 
+ PATIENT: 
+
+I guess... I guess I didn't budget for it because I didn't think about it. I thought, "I like this thing, I keep doing it, done." But yeah, there's a... a tax on it now. Every single one costs me a little bit of the old easy feeling. And I suppose that's... fair, I guess. I don't know if I'd call it a cost. It's more like the thing just... wore out a little. But I still light up. 
+ PSYCHIATRIST: There's something really honest in that 'wore out' image — like it's not even a choice anymore, just entropy. The thing itself got tired, not you. And then that last part — 'but I still light up' — that's you right there. Not a contradiction, just... the full picture. You see the wearing out AND you're still choosing it, and both of those are true at the same time. I'm wondering — when you say it's not really a cost, what would make it feel like a cost instead of just... wear? 
+ PATIENT: If my daughter actually... started, I guess. That's the thing. Right now it's hypothetical. She's not even close. But if she were, and I saw it, and I knew... well, I'd probably feel like it was a cost. Like I paid for it. But she's not. So it's just... the smoke's a little less good. That's different from me having paid something for it. I don't know. Maybe you're onto something, maybe I'm just... talking myself through a version where it's worse than it is. 
+ PSYCHIATRIST: You just named something really important — the difference between 'the thing got tired' and 'I paid something for it.' Those aren't the same, and you're right to hold that line. And that self-awareness about maybe talking yourself through a version? That's not you being dishonest, that's you being careful. You're not letting yourself get too close to something that might feel like it would force a decision. And that makes sense. I'm not here to force a decision either. But I am wondering: if you could hold that small worry without it turning into a big one — what would that feel like? What would make it feel manageable instead of like it's going to turn into something you can't control? 
+ PATIENT: 
+
+I don't know... maybe if I just... I don't know. Maybe I'd stop smoking on the porch where she can see me. That's not... that's not quitting. I could still have mine in the car, in the bathroom. I mean, that's not even a big deal. And then maybe the... the voice gets quieter. I don't know. That's a small thing though. 
+ PSYCHIATRIST: I love that you said 'that's not quitting' and 'that's not even a big deal' — you're protecting your choice while still letting that worry have a little room to breathe. And the fact that you came up with that on your own, without me even asking... that's your brain doing its work. The porch becomes something different, the smoke stays yours, and the voice gets quieter. That's not nothing. What do you think would be the hardest part about that, if anything? 
+ PATIENT: 
+
+I mean... the car thing, I already do that sometimes. When I'm driving. So it's not... it's not new. But the porch is... it's my spot. It's got a bench and the evening air and I like standing there. So it's not the smoke, it's losing the spot. And the bathroom... I have two kids, so... yeah. I guess the hardest part is just... rearranging things. And I don't know if it's worth the rearranging for... what? Less voice? 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently demonstrates unconditional positive regard throughout the session. Multiple examples include: 'I appreciate you showing up here,' 'This is your space now. There's no agenda except whatever feels right to you,' 'You're allowed to like something AND carry a small worry about it at the same time. Those don't cancel each other out,' and 'I want to honor that 'I still do it' part too — that's you, and it's your call.' The psychiatrist never judges, labels, or expresses disapproval of Linda's smoking. Even when Linda is defensive (e.g., 'I'm not an addict or anything'), the psychiatrist validates rather than corrects: 'You're not an addict, and the fact that you can stop if you wanted to shows how much control you already have.' The warmth feels genuine and individualized rather than formulaic. The psychiatrist treats Linda's entire experience—enjoyment, worry, ambivalence—as legitimate and worthy of respect.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates exceptional empathic listening and perspective-taking. Key examples include: accurately reflecting the automatic nature of the habit ('these cigarettes are already baked into your routine in a way that feels automatic'), reflecting the emotional weight of the 'voice' ('That 'little voice' on the porch — that's a really clear picture of what's shifted'), and capturing the subtle shift in experience ('The world used to disappear, and now there's this quiet question underneath'). The psychiatrist picks up on Linda's metaphor of 'performing relaxation instead of just relaxing' and builds on it with insight ('There's a difference between something that just happens and something you have to actively try to get from it'). The psychiatrist also reflects the exhaustion Linda didn't expect ('you're surprised it's exhausting, which tells me maybe you didn't expect this part to be part of it'). The reflections go beyond surface-level paraphrasing to capture emotional nuance and meaning. The psychiatrist even notices Linda's self-awareness about potentially 'talking herself through a version where it's worse than it is' and reframes it as carefulness rather than dishonesty.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 4/5
+
+Explanation:
+The psychiatrist skillfully cultivates change talk without being heavy-handed. When Linda spontaneously offers 'Maybe I'd stop smoking on the porch where she can see me,' the psychiatrist amplifies and affirms: 'I love that you said 'that's not quitting' and 'that's not even a big deal' — you're protecting your choice while still letting that worry have a little room to breathe.' The psychiatrist also validates Linda's self-generated idea: 'The fact that you came up with that on your own, without me even asking... that's your brain doing its work.' The psychiatrist creates conditions for change talk to emerge by exploring the 'cost' of the habit and the 'wearing out,' which allows Linda to articulate her own discrepancies. However, the psychiatrist could have done more to explicitly elicit ability language (e.g., 'You mentioned you already do the car thing sometimes — what does that tell you about what you're capable of?') or to further develop Linda's own language around change. The cultivation is skillful but could be more sustained and explicit in developing confidence language.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 5/5
+
+Explanation:
+The psychiatrist handles sustain talk with remarkable skill. When Linda says 'I don't have any plans to quit' and 'I just enjoy it,' the psychiatrist never pushes back or minimizes her enjoyment. Instead, the psychiatrist validates: 'You enjoy them, and they fit.' When Linda says 'I still do it,' the psychiatrist responds: 'Not a contradiction, just... the full picture. You see the wearing out AND you're still choosing it, and both of those are true at the same time.' Rather than trying to soften or redirect sustain talk, the psychiatrist holds it in tension with change talk, allowing Linda to experience her own ambivalence without feeling pressured. The psychiatrist doesn't use classic double-sided reflections (which can sometimes feel like a technique), but instead integrates sustain talk naturally into the conversation while keeping the door open for change. The sustain talk is never reinforced or amplified; it's acknowledged and then the conversation gently moves toward exploration of what might be different.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently conveys that expertise resides within Linda. Key examples: 'There's no agenda except whatever feels right to you,' 'that's your brain doing its work,' 'I'm not here to force a decision either,' and 'that's you, and it's your call.' The psychiatrist never positions themselves as the expert on Linda's life or her smoking. When Linda offers her own insight ('maybe I'm just talking myself through a version where it's worse than it is'), the psychiatrist validates her self-awareness rather than offering their own interpretation. The psychiatrist asks open-ended questions that invite Linda to explore her own experience rather than providing answers. The session is clearly shaped by Linda's contributions — her language (the 'voice,' 'wore out,' 'performing relaxation,' 'the spot') drives the direction of the conversation. The psychiatrist is a curious, attuned partner rather than a guide with a destination in mind.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a clear focus on Linda's smoking and her ambivalence throughout the session, consistently returning to the tension between enjoyment and the 'voice' of worry about her daughter. The session has a clear arc: from routine/automaticity → the 'voice' on the porch → the 'wearing out' → the 'cost' → a small, self-generated idea about the porch. The psychiatrist guides the conversation with purpose while following Linda's lead. However, the direction could be slightly more focused in terms of bringing the session toward a clearer endpoint or next step. The final question ('What do you think would be the hardest part about that, if anything?') is good but leaves the session somewhat open-ended. A stronger sense of direction might involve a brief summary of what was discussed and collaboratively identifying what, if anything, Linda would take away. The session drifts slightly in the middle when exploring the 'cost' vs. 'wear' distinction, which is interesting but could have been more tightly tied to the target behavior.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently reinforces Linda's autonomy and ownership of her choices. Examples: 'This is your space now. There's no agenda except whatever feels right to you,' 'I'm not asking you to change your mind about quitting,' 'that's you, and it's your call,' 'I'm not here to force a decision either,' and 'you're protecting your choice while still letting that worry have a little room to breathe.' The psychiatrist explicitly validates Linda's right to continue smoking ('You're allowed to like something AND carry a small worry about it at the same time') while also exploring her experience. The psychiatrist never imposes, pressures, or uses language that could feel controlling. When Linda offers her own small idea about the porch, the psychiatrist celebrates her agency ('you came up with that on your own, without me even asking') rather than taking credit or steering it. The autonomy support is woven naturally into every interaction rather than being a separate technique.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates a fully collaborative stance throughout the session. The conversation is clearly co-constructed — Linda's language, metaphors, and ideas shape every aspect of the session. The psychiatrist uses inclusive language ('I'm curious though,' 'I'm wondering'), follows Linda's leads (the 'voice,' the porch, the 'wearing out'), and builds on her contributions rather than steering toward a predetermined agenda. The session feels like two people thinking together rather than one person interviewing the other. When Linda pushes back ('I don't know if I'd call it a cost'), the psychiatrist immediately honors her framing ('Those aren't the same, and you're right to hold that line'). The power dynamic is genuinely egalitarian — the psychiatrist has no apparent agenda beyond understanding and exploring with Linda. The collaboration is organic and natural rather than performative.
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently elicits motivation from within Linda rather than providing reasons for change. Every question is designed to draw out Linda's own experience, language, and insights: 'What do you think it would mean if those two cigarettes were a choice you made on purpose rather than just part of the pattern?' 'What's that like, holding both of those things at once?' 'Does it change anything at all, or is it still the same pleasure?' 'What does that feel like in your body?' 'What would make it feel like a cost instead of just... wear?' 'What would that feel like?' 'What do you think would be the hardest part about that, if anything?' The psychiatrist never provides information, statistics, or external reasons for change. All insights emerge from Linda herself — the 'voice,' the 'wearing out,' the 'performing relaxation,' the porch idea. The psychiatrist creates the conditions for evocation through curiosity, reflective listening, and strategic questioning. The fact that Linda spontaneously generates a behavioral idea (avoiding the porch) without being prompted is a strong indicator of successful evocation.
+
+---
+
+**Overall Global Ratings Score:** **4.9/5**
+
+This is an exceptionally well-conducted motivational interviewing session. The psychiatrist demonstrates mastery-level skill across all nine criteria. The session is warm, non-judgmental, and deeply collaborative, with the psychiatrist functioning as a curious, attuned partner who allows Linda's own language and insights to drive the conversation. The handling of ambivalence is particularly skillful — the psychiatrist holds both sides of Linda's experience (enjoyment and worry) without trying to resolve them prematurely. The evocation of Linda's own insights (the 'voice,' the 'wearing out,' the porch idea) is the session's greatest strength. The only minor area for growth is in direction — the session could benefit from a slightly clearer endpoint or collaborative summary that ties the exploration together and identifies what, if anything, Linda would take forward. Overall, this is a model MI session for a pre-contemplative client.

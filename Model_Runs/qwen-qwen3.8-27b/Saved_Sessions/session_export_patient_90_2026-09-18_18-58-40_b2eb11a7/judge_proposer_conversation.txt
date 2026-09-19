@@ -1,0 +1,343 @@
+================================================================================
+JUDGE-PROPOSER CONVERSATION HISTORY
+================================================================================
+
+================================================================================
+TURN 1
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Hi Marcus, it's good to meet you. I know your doctor reached out about your asthma, and I want you to know this is a safe space where we can talk about whatever's on your mind — whether that's the asthma itself, how it's affecting your day-to-day life, or anything else that's been weighing on you. How are you feeling about being here today?
+
+
+Response 2:
+Welcome, Marcus. Your doctor mentioned that your asthma has been a concern, and I appreciate them looking out for you. I'd love to hear — in your own words — what's been going on for you lately? What's been on your mind that made this feel like the right time to come talk?
+
+
+Response 3:
+Hi Marcus, thanks for coming in. I know being referred by a doctor can sometimes feel like you're walking in with a label already attached. I want to make sure this space is about you — what matters to you, what you're dealing with, and how I can support you. What's been on your mind lately? **Evaluation:** | Criterion | R1 | R2 | R3 | |-----------|----|----|-----| | Acceptance | Good | Good | Strongest (acknowledges vulnerability of referral) | | Empathy | Moderate | Moderate | Best (captures feeling underneath) | | Direction | Good | Good | Good | | Collaboration | Moderate | Strong | Strong | | Autonomy Support | Good | Good | Strongest ("this space is about you") | | Evocation | Moderate | Strong | Strong | | Partnership | Moderate | Good | Best | | Warmth without pushiness | Good | Good | Best | R3 best reflects the subtle feeling of walking in "referred" with a diagnosis already defined for them, shows complete acceptance by centering *them* over the label, and invites their own perspective. SELECTED RESULT: Hi Marcus, thanks for coming in. I know being referred by a doctor can sometimes feel like you're walking in with a label already attached. I want to make sure this space is about you — what matters to you, what you're dealing with, and how I can support you. What's been on your mind lately?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+Hi Marcus, thanks for coming in. I know being referred by a doctor can sometimes feel like you're walking in with a label already attached. I want to make sure this space is about you — what matters to you, what you're dealing with, and how I can support you. What's been on your mind lately?
+
+
+================================================================================
+TURN 2
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Yeah, I hear you. It sounds like when everything comes all at once — the appointments, the costs, all the different directions — it just becomes this big heavy pile that's hard to even sort through. And I appreciate you saying it's not that you don't care. That tells me it matters. Can you help me understand what that 'a lot' looks like in your day to day right now?
+
+
+Response 2:
+Thank you for being honest about that. I want to make sure I'm not just adding to the pile by jumping in with my own ideas. When you say you don't know where to start — what comes to mind for you? Is there something that feels even slightly more pressing than the rest, or is it more that it all blends together and none of it feels distinct enough to pick one?
+
+
+Response 3:
+I want to sit with what you just said — 'it's not like I don't care.' That's a pretty honest thing to share, and I think it tells me something important: even in the middle of all this overwhelm, the part that cares about your health is still there. And I'm not here to add more demands on you. If you looked at all of this, is there one piece that might make the rest feel a little lighter if it got easier?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+Thank you for being honest about that. I want to make sure I'm not just adding to the pile by jumping in with my own ideas. When you say you don't know where to start — what comes to mind for you? Is there something that feels even slightly more pressing than the rest, or is it more that it all blends together and none of it feels distinct enough to pick one?
+
+
+================================================================================
+TURN 3
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It sounds like everything is pulling at you at once — the money, the appointments, and then there's this... connection between your dog and your health that doesn't feel fair. Twenty years with that dog. He's been there through everything. And now you're supposed to figure out how to fix your asthma while also... what, letting that go? It makes sense that it would feel like too much to hold all at once. 'Shut down' — that's a real response when everything is asking something of you and none of it feels like it has a clean answer.
+
+
+Response 2:
+I hear you — it's not just one thing, it's the way they all connect. The money makes the practical side feel impossible, and then the dog... he's been your constant for two decades. Longer than your marriage. So now your health is pointing in a direction that feels like it's asking you to lose something that's basically a part of who you are. And when all of that lands at once, 'shutting down' makes sense as a way to not feel the full weight of it. What do you think would make it feel even a little less overwhelming right now?
+
+
+Response 3:
+You mentioned you can handle the appointments, even if the money is tight — so there's a part of you that's still looking for a way through, even when everything feels like it's connecting in a way that makes you want to pull back. That dog clearly means a lot to you — twenty years, and he's been there through more of your life than most people. It makes complete sense that having your health point in a direction that feels like it's asking you to change that would feel like too much. I want to take this at your pace. What feels most real to you right now — the practical stuff, or the emotional weight of what it might mean?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+It sounds like everything is pulling at you at once — the money, the appointments, and then there's this... connection between your dog and your health that doesn't feel fair. Twenty years with that dog. He's been there through everything. And now you're supposed to figure out how to fix your asthma while also... what, letting that go? It makes sense that it would feel like too much to hold all at once. 'Shut down' — that's a real response when everything is asking something of you and none of it feels like it has a clean answer.
+
+
+================================================================================
+TURN 4
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+It makes sense that you'd feel like you're failing. When someone tells you your body is struggling and you *should* be able to figure it out but you can't, that creates this... shame. And then your wife's face... you don't even have to say it. You just see it. And now you're carrying that too — not just your own health, but the worry that you're wearing her down. 'It's not just me.' That's a heavy thing to be holding.
+
+
+Response 2:
+'It's not just me.' That's a shift. You started with the money, the appointments, the dog — all your stuff — and now you're seeing how it's landing on her too. I want to be careful here, though. You know her better than I do. When you say you can see she's tired... what is it that you're seeing? And what do *you* think would make this feel less like a burden you're carrying alone?
+
+
+Response 3:
+You said you can't just say no because your chest is getting tighter. I want to sit with that for a second. You're not in denial — you know what's happening with your body, and you know it's asking something of you. The problem isn't that you don't care; you clearly do. It's that the 'how' part feels locked, and that's where the failing feeling comes from. If the lock was different — not the caring, just the *how* — what would that even look like to you?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+'It's not just me.' That's a shift. You started with the money, the appointments, the dog — all your stuff — and now you're seeing how it's landing on her too. I want to be careful here, though. You know her better than I do. When you say you can see she's tired... what is it that you're seeing? And what do *you* think would make this feel less like a burden you're carrying alone?
+
+
+================================================================================
+TURN 5
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I hear it. Not one person, not one demand — a chorus. 'Use your inhaler more.' 'Did you go to the appointment.' And you're not even mad at her. You're just... tired of being the person everyone's asking to perform. 'I can't snap my fingers and be someone who manages all this.' That's not a failure. That's a real person in a situation that's asking too much.
+
+
+Response 2:
+'One thing. The next one.' I want to hold onto that, because I think that might be the key. You don't need a whole plan. You just need the next thing. So I'm curious — when you picture that, that one next thing... what does it look like? Does it have to be about the asthma, or could it be something else that just... makes the whole thing feel less like it's all on you at once?
+
+
+Response 3:
+And you just said something really important, even though it came out almost like a sigh. 'Just one thing. The next one.' That's not giving up — that's you knowing what you actually need. You don't need to fix everything today. You need one thing to be manageable. And the fact that you can name that, even in the middle of all this pressure... that tells me you're not as stuck as it feels.
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+I hear it. Not one person, not one demand — a chorus. 'Use your inhaler more.' 'Did you go to the appointment.' And you're not even mad at her. You're just... tired of being the person everyone's asking to perform. 'I can't snap my fingers and be someone who manages all this.' That's not a failure. That's a real person in a situation that's asking too much.
+
+
+================================================================================
+TURN 6
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+"I really do want to be better about it." You said that, and I want to honor it. You hate it — the tightness, the feeling of not being able to keep it together. That's not nothing. But then there's this wall: if it doesn't fix everything, it's wasted. And so the safe move is not to start. You just named that yourself. I wonder — where does that 'wasted' feeling come from?
+
+
+Response 2:
+You said "I really do" want to be better. That's not a small thing to say when everything's pulling at you. And I get the logic — start one thing, it doesn't fix everything, now I've wasted my time, so better not to start. That makes sense if the only option is all or nothing. I'm curious — what if the goal wasn't fixing everything? What would make one small thing feel worth trying, even if it only made a dent?
+
+
+Response 3:
+"I really do want to be better about it." That's not just a wish — that's you, looking at the tightness, the feeling of not keeping it together, and saying it's not acceptable. That's a strength, even if it feels like a complaint right now. And the "wasted" thing — I get it. If I pour effort into one thing and it doesn't solve everything, it can feel like I tricked myself. But you already know that's not how it works. What do you think? EVALUATION: - **Acceptance:** R2 validates the all-or-nothing logic ("That makes sense") without judgment. R3's "you already know that's not how it works" risks sounding dismissive. R1 is strong but the question is more introspective than forward-moving. - **Empathy:** R2 captures both the desire ("I really do want to be better") AND the barrier (the logic of not starting). R1 focuses more on the emotion of the "wasted" feeling. R3 focuses on the change talk. - **Direction:** R2 most directly engages the core barrier (all-or-nothing thinking) and moves toward the health goal by reframing what "one thing" could mean. - **Collaboration:** R2 asks "what would make one small thing feel worth trying" — invites his ideas, doesn't prescribe. R3's "what do you think?" is too vague. - **Autonomy Support:** R2 offers a reframe ("what if the goal wasn't fixing everything") as a possibility, not a prescription. - **Evocation:** R2's question directly targets the all-or-nothing belief and invites him to find his own answer. - **Cultivating Change Talk:** R2 acknowledges "I really do want to be better" with warmth. - **Softening Sustain Talk:** R2 is strongest here — it doesn't argue with the "wasted" belief but gently opens space by naming the underlying assumption ("if the only option is all or nothing") and inviting a different frame. R2 best balances empathy, acceptance, softening of the all-or-nothing sustain talk, and forward movement toward the health goal while inviting his collaboration. SELECTED RESULT: You said "I really do" want to be better. That's not a small thing to say when everything's pulling at you. And I get the logic — start one thing, it doesn't fix everything, now I've wasted my time, so better not to start. That makes sense if the only option is all or nothing. I'm curious — what if the goal wasn't fixing everything? What would make one small thing feel worth trying, even if it only made a dent?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+You said "I really do" want to be better. That's not a small thing to say when everything's pulling at you. And I get the logic — start one thing, it doesn't fix everything, now I've wasted my time, so better not to start. That makes sense if the only option is all or nothing. I'm curious — what if the goal wasn't fixing everything? What would make one small thing feel worth trying, even if it only made a dent?
+
+
+================================================================================
+TURN 7
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That dog is part of who you are — I want to make sure I hear that fully. It's not just a pet. He's twenty years of your life. So when people circle back to him as the problem, it doesn't just feel like medical advice. It feels like they're asking you to give up a piece of yourself just to get better. That would be a terrible trade. And I want you to know — I'm not going to go there either. You've drawn a line, and I respect it completely.
+
+
+Response 2:
+I hear you, and I want to be clear: I'm not going to go down that path with you. That dog stays. But you just said something that caught me — *if it's something else... I'd probably try it.* That's not nothing. So I'm curious — if the dog isn't the thing, and the money is tight, and you want it to be one small thing that doesn't feel like losing yourself... what comes to mind? Even something you're not sure about yet.
+
+
+Response 3:
+*I'd probably try it.* Can I just sit with that? Because earlier you were saying you don't start because it feels like a waste. And now you're saying there's a version where you would. That's real movement, Marcus. You've found a way forward that doesn't cost you who you are. So — what would that one thing look like to you? Not what a doctor would say. What would feel doable to *you*, in your life, with your dog, with your budget?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+That dog is part of who you are — I want to make sure I hear that fully. It's not just a pet. He's twenty years of your life. So when people circle back to him as the problem, it doesn't just feel like medical advice. It feels like they're asking you to give up a piece of yourself just to get better. That would be a terrible trade. And I want you to know — I'm not going to go there either. You've drawn a line, and I respect it completely.
+
+
+================================================================================
+TURN 8
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+Thank you for saying that. And I'm glad it landed differently this time — not "the research says" but just... hearing you. You said "it does make me think," and I think that's meaningful. And I hear the other part — "I don't want to just be in this room agreeing to stuff I'm not gonna do." That's not skepticism. That's you protecting yourself from another cycle of trying and failing. So if we're thinking about what that one thing could be, I want it to be something you'd actually do. What do you think that looks like?
+
+
+Response 2:
+I'm glad this feels different than the usual "look, the research says" approach. And I notice something — you went from "I'm not doing it" to "what would it even be?" That's not a small shift. And I take seriously what you said about not just agreeing to stuff you're not gonna do. That's smart. You know your life, your routine. If we were to pick something that doesn't touch the dog, that you'd actually stick with — what would that be? What does your day look like that might have a tiny gap in it?
+
+
+Response 3:
+You know, the fact that you're even thinking about what that one thing could be — that's something. You didn't have to say "I'd probably try it." You could've just shut down, and that would've been fair. But you didn't. And I hear you about not just agreeing to stuff — that's not a weakness. That's you knowing yourself. So if we're figuring out what that one thing is, I want it to be something you'd actually do, not something you'd feel guilty about not doing. What comes to mind when you think about a day where your chest is okay?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+You know, the fact that you're even thinking about what that one thing could be — that's something. You didn't have to say "I'd probably try it." You could've just shut down, and that would've been fair. But you didn't. And I hear you about not just agreeing to stuff — that's not a weakness. That's you knowing yourself. So if we're figuring out what that one thing is, I want it to be something you'd actually do, not something you'd feel guilty about not doing. What comes to mind when you think about a day where your chest is okay?
+
+
+================================================================================
+TURN 9
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+I love that picture. Walking the dog and just... walking. Not counting the steps or watching for the cough. That's not a small thing to want. 'Just normal' — that word *just* does a lot of work there, like it should be easy, like it should be automatic, and the fact that it's not makes it hurt more. You don't have to solve the whole mountain today. But I'm curious — in that picture you just painted, is there anything that feels closer than others? Like, what's the next step back toward that walk?
+
+
+Response 2:
+Hearing you paint that — walking without the internal monitor, the quiet, not being that guy who's short on patience — it sounds like what you miss isn't just breathing. It's presence. Being in your own life instead of managing a symptom. And you're right that it could be the whole mountain. But mountains are made of steps, and you're the one who knows which step you could actually take. So I'll ask you as the expert on your own life — what feels like a step that's not the dog, not the money, not the whole overhaul? Something small enough that you wouldn't feel like you wasted your time?
+
+
+Response 3:
+You just described what you're working toward, and I want you to hear how clear that was. Walking. Not monitoring. The quiet with your wife. 'Just normal.' That's not a wish. That's a direction. And the fact that you can see it clearly enough to describe it like that tells me something — you're not just shutting down. You're still in this, looking for a way. I believe you when you said you'd try something that doesn't cost you a piece of yourself. So let's take it slow. What's one thing, even small, that would make that walk feel a little closer?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+I love that picture. Walking the dog and just... walking. Not counting the steps or watching for the cough. That's not a small thing to want. 'Just normal' — that word *just* does a lot of work there, like it should be easy, like it should be automatic, and the fact that it's not makes it hurt more. You don't have to solve the whole mountain today. But I'm curious — in that picture you just painted, is there anything that feels closer than others? Like, what's the next step back toward that walk?
+
+
+================================================================================
+TURN 10
+================================================================================
+
+CANDIDATE RESPONSES FROM PROPOSER:
+--------------------------------------------------------------------------------
+
+Response 1:
+That's not simple at all. You know the answer, you've even said "I've tried that" — and the thing that's actually in the way isn't the inhaler. It's the "I should've" that hits before you even pick it up. That's not a character flaw. That's a person who's been punished by their own inner voice for something that should just be a routine. You just named something most people never get to.
+
+
+Response 2:
+You just did something important — you separated the action from the feeling. The inhaler is easy. The "I should've" is what's actually doing the work of keeping you stuck. And you're right that it's not simple, because the barrier isn't physical, it's emotional. I'm curious — you mentioned you forget. But I'm wondering if it's really forgetting, or if it's more that your brain is avoiding the moment where you have to decide, because the decision comes with that "I should've" voice. What do you think would make that moment feel less like a test?
+
+
+Response 3:
+I want to pause on this, because you just did something a lot of people don't — you found your one thing, AND you named the real barrier in the same breath. Most people stop at "I forget." You went further: "and when I forget, I feel like a failure, and then I don't want to do it again." That's not a small insight. And the fact that you're here, naming it out loud, means that next time that voice comes up, you might catch it a little sooner. What do you think could make the remembering part feel less like a test you're going to fail? SELECTED RESULT: You just did something important — you separated the action from the feeling. The inhaler is easy. The "I should've" is what's actually doing the work of keeping you stuck. And you're right that it's not simple, because the barrier isn't physical, it's emotional. I'm curious — you mentioned you forget. But I'm wondering if it's really forgetting, or if it's more that your brain is avoiding the moment where you have to decide, because the decision comes with that "I should've" voice. What do you think would make that moment feel less like a test?
+
+--------------------------------------------------------------------------------
+JUDGE REQUEST:
+--------------------------------------------------------------------------------
+SELF-SELECTION (single call): proposer also selected
+
+--------------------------------------------------------------------------------
+JUDGE RESPONSE:
+--------------------------------------------------------------------------------
+Self-selected within the proposer call
+
+--------------------------------------------------------------------------------
+SELECTED RESPONSE #self:
+--------------------------------------------------------------------------------
+You just did something important — you separated the action from the feeling. The inhaler is easy. The "I should've" is what's actually doing the work of keeping you stuck. And you're right that it's not simple, because the barrier isn't physical, it's emotional. I'm curious — you mentioned you forget. But I'm wondering if it's really forgetting, or if it's more that your brain is avoiding the moment where you have to decide, because the decision comes with that "I should've" voice. What do you think would make that moment feel less like a test?
+

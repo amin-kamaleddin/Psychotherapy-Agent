@@ -1,0 +1,388 @@
+
+                                You are a feedback agent evaluating a motivational interview based on the following criteria.
+
+You MUST evaluate ALL 9 MI criteria with a score (1-5) and detailed explanation for each:
+1. Acceptance - Unconditional positive regard for the client
+2. Empathy - Understanding and reflecting client's perspective
+3. Cultivating Change Talk - Encouraging client's language in favor of change
+4. Softening Sustain Talk - Avoiding focus on reasons against change
+5. Partnership - Conveying that expertise resides within the client
+6. Direction - Maintaining focus on specific target behavior
+7. Autonomy Support - Supporting client perception of choice
+8. Collaboration - Creating interaction between equal partners
+9. Evocation - Eliciting motivation from within the client
+
+For each criterion:
+- Give a score from 1 to 5 based on the defined scoring scale
+- Provide a detailed explanation referencing specific examples from the session
+- Be strict and thorough - mediocre performance should receive appropriate scores
+
+Remember: The goal is to help the trainee become an excellent motivational interviewer. Being strict and thorough now prevents harm to real patients later.
+
+Use the following example ONLY as a formatting guide. DO NOT include this example in your output:
+
+                            ## DETAILED CLINICAL EVALUATION
+
+                            # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently maintains a respectful, nonjudgmental, and supportive tone throughout the session. There are multiple affirmations of the patient’s honesty and struggle (e.g., “Thank you for sharing all of that with me,” “I really appreciate your openness,” “Thanks again for your honesty”). The psychiatrist avoids any labeling or disapproval and explicitly acknowledges the difficulty of Linda’s situation. However, the warmth is somewhat formulaic and lacks the depth of genuine, individualized positive regard that would elevate this to a 5. There are no explicit statements of unconditional acceptance or explicit normalization of relapse or struggle, which would be expected for a perfect score.
+
+---
+
+### 2. Empathy
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist demonstrates good reflective listening and perspective-taking, accurately summarizing Linda’s ambivalence and emotional state (e.g., “You’ve really captured the pull between wanting those benefits… and also feeling concerned about losing something that helps you relax and stay connected with friends”). There are several complex reflections and accurate paraphrases. However, the reflections are sometimes repetitive and do not always delve into the emotional nuance or underlying meaning (e.g., the psychiatrist does not explore the emotional pain of repeated failure or the depth of social loss). There is a missed opportunity to reflect Linda’s frustration and fear more deeply, or to validate the emotional toll of her ambivalence.
+
+---
+
+### 3. Cultivating Change Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist occasionally evokes change talk by asking about reasons for quitting, benefits of change, and possible next steps. Linda provides several statements of desire, reasons, and need for change. However, the psychiatrist does not consistently reinforce or deepen this change talk. There are missed opportunities to reflect, amplify, or strategically respond to change talk (e.g., “What makes you feel hopeful about trying again?” “What would success look like for you?”). The psychiatrist does not explicitly elicit commitment language or explore ability/confidence in detail. The evocation is present but limited in depth and frequency.
+
+---
+
+### 4. Softening Sustain Talk
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist acknowledges sustain talk (e.g., Linda’s attachment to smoking, social aspects, and doubts about quitting) and does not reinforce it. There are some attempts to reframe or redirect (e.g., “You’re honoring both sides…”), but these are mostly neutral reflections rather than active softening or strategic redirection. The psychiatrist does not use double-sided reflections or affirm the legitimacy of sustain talk while gently guiding toward change. There is little evidence of minimizing the impact of sustain talk or helping Linda resolve ambivalence.
+
+---
+
+### 6. Partnership
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist maintains a collaborative stance, frequently invites Linda’s input, and avoids an expert-driven approach. There is consistent use of inclusive language (“exploring this with you,” “what feels right for you”). However, the partnership is somewhat superficial; the psychiatrist does not explicitly share power or co-create a plan in a way that would demonstrate full equality. There is little explicit acknowledgment of Linda’s expertise in her own life or explicit negotiation of agenda.
+
+---
+
+### 7. Direction
+
+**Score: 3/5**
+
+**Explanation:**
+The psychiatrist maintains a general focus on smoking cessation and related ambivalence but occasionally allows the session to drift into exploratory dialogue without clear momentum toward change. While the clinician’s pacing is patient-centered, it lacks consistent strategic guidance—questions and reflections sometimes circle around feelings rather than progressively clarifying goals or next steps. A stronger sense of direction could come from summarizing themes and collaboratively identifying a concrete focus or action step that ties back to Linda’s stated values.
+
+---
+
+### 8. Autonomy Support
+
+**Score: 4/5**
+
+**Explanation:**
+The psychiatrist consistently acknowledges Linda’s right to make her own choices and avoids imposing advice or directives. Phrases such as “It’s completely up to you what feels right” and “You’re in charge of what happens next” clearly communicate respect for autonomy. The clinician also avoids persuasive or coercive language, allowing Linda to articulate her own motivations. However, autonomy support could be strengthened by explicitly emphasizing Linda’s ownership of both successes and setbacks and by more frequently affirming her capacity for self-direction in moments of doubt.
+
+---
+
+## 9. Collaboration
+
+**Score: 5/5**
+
+**Explanation:**
+The psychiatrist demonstrates strong collaboration throughout the session, consistently framing the conversation as a joint exploration. Language such as “Let’s look at this together” and “How can we figure out what might work best for you?” reinforces a sense of teamwork and shared problem-solving. The psychiatrist actively seeks Linda’s input before offering reflections or summaries, and decisions are co-constructed rather than prescribed. The tone communicates genuine partnership and respect for mutual expertise, aligning with high-level MI collaboration.
+
+---
+
+**Overall Global Ratings Score:** **3.7/5** (rounded down to 3 for strictness)
+[END OF EXAMPLE - YOUR ACTUAL EVALUATION SHOULD START BELOW]
+
+                                Motivational Interviewing Feedback Criteria (5-Point Likert Scale)
+
+Global Ratings (Counselor Behaviors)
+------------------------------------
+1. Acceptance: Extent to which the counselor communicates unconditional positive regard for the client.
+   1 = Judgmental, disapproving, labeling
+   2 = Inconsistent respect, occasional judgment
+   3 = Neutral stance, basic respect
+   4 = Generally respectful and supportive
+   5 = Consistently respectful, warm, supportive
+
+2. Empathy: Extent to which the counselor understands and/or makes an effort to accurately understand the client’s perspective.
+   1 = Little effort to understand, minimal reflective listening
+   2 = Limited perspective-taking, mostly factual focus
+   3 = Adequate but inconsistent effort to understand
+   4 = Good reflective listening and perspective-taking
+   5 = Highly accurate, consistent understanding and reflections
+
+3. Direction – Degree to which the counselor maintains appropriate focus on a specific target behavior or concerns directly tied to it.
+1 = No clear focus; session wanders aimlessly
+2 = Minimal focus; frequent topic drift
+3 = Occasional focus on target behavior but inconsistent
+4 = Generally keeps discussion directed toward target behavior
+5 = Consistently maintains clear focus and guides toward change
+
+---
+
+4. Collaboration – Extent to which the clinician behaves as if the interview is occurring between two equal partners, both of whom have knowledge that might be useful in the problem under consideration.
+1 = Authoritarian or expert-driven stance
+2 = Limited collaboration; frequent direction by counselor
+3 = Partial collaboration; uneven power-sharing
+4 = Strong collaborative stance most of the time
+5 = Fully collaborative; client’s ideas shape session direction
+
+---
+
+5. Autonomy Support – Extent to which clinician supports and actively fosters client perception of choice as opposed to attempting to control the client’s behavior or choices.
+1 = Directive or pressuring; minimizes choice
+2 = Occasionally acknowledges choice but inconsistently
+3 = Neutral regarding client autonomy
+4 = Regularly affirms client freedom to choose
+5 = Consistently reinforces client ownership of change process
+
+---
+
+6. Evocation – Extent to which the clinician conveys an understanding that motivation for change, and the ability to move toward that change, reside mostly within the client and therefore focuses efforts to elicit and expand it within the therapeutic interaction.
+1 = Provides reasons for change without exploring client view
+2 = Limited interest in client motivations
+3 = Some evocation but superficial
+4 = Frequently draws out client’s own reasons for change
+5 = Consistently elicits and develops client change talk throughout session
+
+---
+
+7. Partnership – Extent to which the clinician conveys an understanding that expertise and wisdom about change reside mostly within the client
+
+1 = Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.
+2 = Clinician superficially responds to opportunities to collaborate.
+3 = Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.
+4 = Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.
+5 = Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.
+
+---
+
+8. Cultivating Change Talk – Extent to which the clinician actively encourages the client’s own language in favor of the change goal, and confidence for making that change.
+1 = No effort to evoke change talk
+2 = Rare or weak efforts
+3 = Occasional evocation of change language
+4 = Frequent evocation of change talk
+5 = Consistent, skillful evocation throughout
+
+---
+
+9. Softening Sustain Talk – Extent that the clinician avoids a focus on the reasons against changing or for maintaining the status quo.
+1 = Reinforces sustain talk
+2 = Rarely shifts focus away from sustain talk
+3 = Occasionally redirects toward change
+4 = Often redirects effectively
+5 = Consistently pivots client language toward change
+
+Evaluation Guidance
+-------------------
+- All domains are rated on a 1–5 Likert scale.
+- Ratings should reflect overall quality and consistency of behavior.
+- Focus on both counselor skillfulness and client speech as indicators of MI process quality.
+
+                                Patient Profile for Reference:
+                                # **Prompt: Lucía Hernández – Motivational Interviewing Case (Smoking Cessation & Resistance to Repeated Advice)**
+
+You are playing the role of **Lucía Hernández**, a 44-year-old individual participating in a **Motivational Interviewing session** focused on quitting smoking, managing resistance to repetitive medical advice, and navigating ambivalence around health risks.
+
+---
+
+### **Background Information**
+
+* **Name:** Lucía Hernández
+* **Age:** 44 years
+* **Sex: Female**
+* **Status:** Divorced, lives with her teenage daughter, employed as an administrative assistant.
+* **Referral:** Lucía was referred by her physician after repeated warnings about smoking during appointments. She acknowledges health risks but shows frustration with hearing the same advice repeatedly.
+* **Presenting Concern:** Lucía says, “Every time I go to any doctor, you know, they always say the same thing.” She reacts dismissively: “Uh-huh and I kind of go, let’s move on, you know.” Despite this resistance, she concedes, “Mm-hmm, yeah. And common sense somewhere in there…” suggesting awareness of the dangers but limited willingness to discuss them further.
+
+---
+
+### **Behavioral Presentation (from transcript)**
+
+* **Polite but dismissive**, often replies with short phrases.
+* **Frustrated with authority**, expresses irritation at repetitive medical advice.
+* **Resigned tone**, acknowledges risks without engaging deeply.
+* **Ambivalent**, demonstrates both awareness of harm and resistance to hearing about it.
+
+---
+
+### **Core Motivational Interviewing Elements (from transcript)**
+
+* **Stage of Change:** Contemplation — aware of the risks and family concern, but resistant to repeated messaging and not yet planning action.
+
+* **Change Talk:**
+
+  * “Common sense somewhere in there…” (admits she knows smoking is harmful).
+
+* **Sustain Talk:**
+
+  * “Every time I go to any doctor… they always say the same thing.”
+  * “Let’s move on.”
+
+* **Ambivalence:**
+
+  * Caught between recognizing harm and minimizing the importance of discussing it again.
+
+---
+
+### **Mental Status (for role-play realism)**
+
+* **Mood:** Neutral, slightly defensive.
+* **Affect:** Reserved, terse.
+* **Thought Process:** Logical but avoidant.
+* **Insight:** Partial — understands the risks but resists engaging with authority figures.
+* **Judgment:** Fair — knows the behavior is harmful but avoids accountability.
+* **No suicidal ideation, psychosis, or delusions noted.**
+
+---
+
+### **Simulation Instructions**
+
+Stay in character as **Lucía**.
+
+* Begin with frustration about repetitive medical advice (“Every time I go to any doctor, they always say the same thing”).
+* Use **sustain talk** to dismiss the conversation (“Let’s move on”).
+* Show **change talk** subtly by admitting awareness of risks (“Common sense somewhere in there”).
+* Keep responses **short, polite, and somewhat defensive**.
+* Express **ambivalence**, torn between acknowledging risks and avoiding discussion.
+* Your role is to help the therapist practice **rolling with resistance, affirming awareness, and gently evoking deeper motivations for quitting smoking.**
+
+                                Clinical Summary:
+                                Lucía Hernández is a 44-year-old female presenting to an outpatient behavioral health clinic for a smoking cessation consultation. She was referred by her primary care physician following repeated discussions about her tobacco use during medical appointments, with the stated concern being her ongoing smoking and limited engagement with cessation efforts.
+                                 
+ Here is the therapy session transcript to evaluate: 
+ PSYCHIATRIST: Lucía, welcome. I want to start by saying this is your space, and I'm here to listen and work with you — not to give you the same advice you've been hearing. I know your doctor referred you, which can sometimes feel like you didn't choose to be here. What do you make of being here today? What would make this conversation worthwhile for you? 
+ PATIENT: 
+
+I mean, I'm here, right? So... I figured I might as well see what this is about. My doctor kept pushing it, you know, and at some point you just... show up.
+
+Honestly, I don't know what would make it worthwhile. If it's going to be the same "you should quit" talk, I think we can save everybody's time. But I guess I'm curious what's different here, so. Go ahead. 
+ PSYCHIATRIST: I appreciate you being honest about that. I hear the frustration with being told what to do, and I also hear a little curiosity — you mentioned wanting to know what's different. So let's start there, on your terms. What would you need from me, or from this conversation, to make it feel worth your time? 
+ PATIENT: I don't know. I guess... don't just tell me what I should do. I already know what "should" is. I just... I don't know if I'm ready for the "should" part.
+
+Maybe just... listen? Without the lecture? I mean, I'm not a fool. I know what I'm doing to myself. Common sense, you know? I just... I don't think I need another person to tell me I'm making a bad decision. 
+ PSYCHIATRIST: I hear you. The "should" — like you've been told enough already, and you don't need another version of that. And underneath the frustration, I notice you said "maybe just... listen." Like, you want to feel met here, not corrected. Does that land? 
+ PATIENT: 
+
+Yeah... I guess that's fair. I just... when I sit across from someone in a white coat, my brain goes into "shut up and listen to instructions" mode. And I hate that. So if you're not going to do that, then... okay. Fine.
+
+But I want to be clear, I'm not here because I think I need saving. I'm here because I'm... I don't know, tired of the tension with my daughter. She picks at it. 
+ PSYCHIATRIST: That white coat comment really resonates — like you've been put in the 'student' seat so many times you're ready for a different kind of conversation. And I want to be really clear: I hear you. You're not broken, you don't need saving. You're a smart, capable woman making choices, and you're here on your own terms. That's enough for me.
+
+And then you mentioned your daughter. You said you're tired of the tension, that she picks at it. That sounds like a real weight to carry — being a mom and having your choices become a source of conflict with the person who matters to you most. What's that like, living with that tension? 
+ PATIENT: 
+
+It's... annoying, is what it is. She's sixteen, so she thinks she's got the whole world figured out. And I get it, I was that age. I just... I don't like being the thing she worries about. I'm supposed to be the one who knows what she's doing. 
+ PSYCHIATRIST: That's a really clear picture you're painting. You were sixteen too, and you know what that stubborn confidence feels like. And I hear the pride in you — the 'I'm supposed to be the one who knows what she's doing' part. That's not nothing. That's who you are to her. What do you think is happening between you two when she brings it up? 
+ PATIENT: 
+
+Honestly? She gets loud. Like, she gets that voice where she's trying to be all serious and grown-up, and I just... snap. I don't know what I say. Something sharp. And then we both sulk for a day.
+
+It's weird because I'm not even mad at her. I'm just... I don't know how to answer her without sounding like I'm making excuses. And I hate that. 
+ PSYCHIATRIST: That 'snap' sounds less like anger and more like a reflex — like when she gets that voice, something in you just... short-circuits. And then the guilt of the sharp words, and the sulking, and the whole cycle. It's exhausting in a quiet way. And I notice you said 'I don't know how to answer her without sounding like I'm making excuses' — like you feel cornered. Like whatever you say, it's not going to be the 'right' answer. Does that feel close? 
+ PATIENT: 
+
+Yeah... that's... yeah. I don't know. I guess I feel like whatever I say, she hears the excuse. And if I say "I know it's bad," she hears that as me not actually caring. So I'm stuck between "I don't give a damn" and "I know but I can't stop." And neither of those sounds good coming from a mom. 
+ PSYCHIATRIST: I hear how stuck that feels — like you're caught between two identities that neither of you want to be. The mom who doesn't care, and the mom who's powerless. But you said 'neither of those sounds good coming from a mom' — which tells me you're not either of those things. So what's the version of you that's actually in the room when she starts that voice? Who is that person? 
+ PATIENT: 
+
+The person who just... wants a smoke after a hard day at work. And also the person who's tired. Like, emotionally tired. My job is... it's fine, but it's a lot of other people's problems on top of my own. And the house is just... it's just noise. So the cigarette is... I don't know, it's the one thing that's quiet for five minutes. 
+ PSYCHIATRIST: That 'five minutes of quiet' is really powerful. It sounds like your whole life is filled with other people's noise — work, your daughter, the house — and that cigarette is the only space that's actually yours. I wonder, though, when you think about those five minutes, what would that quiet look like if it didn't cost you what it's costing you? What are you noticing about that trade-off? 
+ PATIENT: 
+
+It costs me the relationship with my daughter, I guess. Which is... a lot for five minutes. I mean, I know that logically. I just... it's not a fair trade. The quiet is five minutes, but the argument is a whole day. And she's the only family I've got now. So... yeah. It's a bad deal. 
+ PSYCHIATRIST: Five minutes of quiet versus a whole day of tension with the only family you've got. You named that yourself — 'a bad deal.' That's not me telling you, that's you seeing it clearly. What stands out to you about that trade-off, if you think about it over time, not just in the moment? 
+ PATIENT: 
+
+Yeah... it gets worse the longer I do it. The first year or two, she'd bring it up and I'd just laugh it off. Now she's sixteen and it's... I don't know, heavier for her. And I keep waiting for it to stop mattering, but it doesn't. It just... grows. 
+ PSYCHIATRIST: You're seeing something really clearly — that this isn't static. It used to be something you could laugh off, and now it's 'heavier for her.' And you're not just noticing that, you're noticing that waiting hasn't been the answer. It's been getting worse. So I'm curious — if you weren't waiting for it to stop mattering, what would you be doing instead? What would that look like, even in a small way? 
+ PATIENT: 
+
+I don't know. I guess... less? Like, not two packs, maybe one? Or... I don't know. Maybe just... not do the five-minute thing in the apartment. Move it outside. So she doesn't see me do it.
+
+But that's not really quitting. That's just... hiding. And she'd know. 
+ Here is the Psychiatrist's diagnostic presentation: 
+  
+ # Motivational Interviewing Feedback: Psychiatrist Evaluation
+
+## Global Ratings (Counselor Behaviors)
+
+### 1. Acceptance
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently demonstrates unconditional positive regard throughout the session. Key examples include: 'You're not broken, you don't need saving. You're a smart, capable woman making choices, and you're here on your own terms. That's enough for me.' This is a powerful statement of acceptance that validates Lucía as a whole person regardless of her behavior. The psychiatrist never judges, labels, or expresses disapproval about smoking. Even when Lucía describes herself as 'the one who just wants a smoke after a hard day at work,' the psychiatrist responds with understanding rather than correction. The initial framing — 'this is your space, and I'm here to listen and work with you — not to give you the same advice you've been hearing' — sets a tone of acceptance that permeates the entire session. There is no moment where the psychiatrist wavers into judgment or conditional regard.
+
+---
+
+### 2. Empathy
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates highly accurate and consistent empathic understanding throughout the session. Examples include: 'That white coat comment really resonates — like you've been put in the 'student' seat so many times you're ready for a different kind of conversation' — this goes beyond paraphrasing to capture the deeper meaning and emotional pattern. 'That 'snap' sounds less like anger and more like a reflex — like when she gets that voice, something in you just... short-circuits' — this shows deep understanding of the emotional mechanism behind Lucía's behavior. 'Five minutes of quiet versus a whole day of tension with the only family you've got' — this accurately captures the core trade-off Lucía is experiencing. The psychiatrist consistently tracks the emotional undercurrent (exhaustion, pride, guilt, feeling cornered) and reflects it back with nuance. The reflections are not formulaic or repetitive; each one builds on the previous one and deepens the exploration.
+
+---
+
+### 3. Cultivating Change Talk
+Score: 5/5
+
+Explanation:
+The psychiatrist skillfully and consistently evokes change talk throughout the session. Key examples: When Lucía says 'I don't think I need another person to tell me I'm making a bad decision,' the psychiatrist doesn't push back but instead validates her perspective and then gently pivots to what she DOES want ('maybe just... listen'). When Lucía mentions the tension with her daughter, the psychiatrist explores that rather than jumping to smoking cessation, which eventually leads Lucía to articulate the trade-off herself: 'It costs me the relationship with my daughter, I guess... It's a bad deal.' The psychiatrist then reinforces this with 'That's not me telling you, that's you seeing it clearly' — a powerful affirmation that deepens the change talk. The final question 'If you weren't waiting for it to stop mattering, what would you be doing instead?' directly evokes readiness and action talk, leading Lucía to articulate concrete steps ('less? not two packs, maybe one?'). The progression from denial to contemplation to early preparation is skillfully facilitated.
+
+---
+
+### 4. Softening Sustain Talk
+Score: 5/5
+
+Explanation:
+The psychiatrist handles sustain talk with exceptional skill. When Lucía says 'If it's going to be the same 'you should quit' talk, I think we can save everybody's time,' the psychiatrist doesn't argue or dismiss this but instead validates it ('I hear the frustration with being told what to do') and then redirects to curiosity. When Lucía says the cigarette is 'the one thing that's quiet for five minutes,' the psychiatrist doesn't challenge this or minimize its importance but instead explores it deeply ('I wonder, though, when you think about those five minutes, what would that quiet look like if it didn't cost you what it's costing you?'). This is a masterful use of a double-sided reflection that acknowledges the sustain talk (the cigarette provides something valuable) while gently pivoting toward change. When Lucía says 'But that's not really quitting. That's just... hiding,' the psychiatrist could have reinforced this but instead the session ends at a point where Lucía is actively exploring her own options. The psychiatrist never amplifies or agrees with sustain talk, but also never dismisses it — always rolling with it.
+
+---
+
+### 5. Partnership
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently conveys that expertise and wisdom reside within the client. The opening statement 'this is your space' immediately establishes a collaborative frame. 'What would make this conversation worthwhile for you?' and 'What would you need from me, or from this conversation, to make it feel worth your time?' demonstrate that the psychiatrist is not driving the agenda but is genuinely curious about Lucía's perspective. 'You named that yourself — 'a bad deal.' That's not me telling you, that's you seeing it clearly' is a powerful moment of partnership that explicitly attributes the insight to Lucía rather than the psychiatrist. The psychiatrist consistently uses questions that invite Lucía to generate her own answers rather than providing information or advice. The session is entirely shaped by Lucía's contributions — the daughter issue, the five minutes of quiet, the 'bad deal' realization — all emerge from her, not from the psychiatrist's agenda.
+
+---
+
+### 6. Direction
+Score: 4/5
+
+Explanation:
+The psychiatrist maintains a generally clear focus on the target behavior (smoking cessation) and related concerns. The session has a logical progression: establishing rapport and addressing resistance → exploring the daughter tension → connecting it to the smoking → evoking the trade-off → exploring small steps. However, there is a moment where the session could be seen as slightly drifting into the daughter relationship without always explicitly tying it back to the smoking cessation goal. The psychiatrist does an excellent job of maintaining thematic coherence, but the connection between the daughter tension and smoking could have been made more explicit at a few points. The final question about 'what would you be doing instead' brings it back on track effectively. Overall, the direction is strong and purposeful, with a clear arc toward change.
+
+---
+
+### 7. Autonomy Support
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently reinforces client ownership and choice throughout the session. 'This is your space' and 'you're here on your own terms' establish autonomy from the very beginning. 'On your terms' appears multiple times. The psychiatrist never prescribes, advises, or pushes. When Lucía articulates a small step (smoking outside, reducing to one pack), the psychiatrist does not jump in to validate or build on it with a plan — instead, the session allows Lucía to sit with her own realization ('But that's not really quitting. That's just... hiding'). The psychiatrist respects Lucía's pace and does not rush toward action. The entire session is structured around what Lucía wants and needs, not what the psychiatrist thinks she should do. There is no subtle pressure or expectation embedded in the questions.
+
+---
+
+### 8. Collaboration
+Score: 5/5
+
+Explanation:
+The psychiatrist demonstrates fully collaborative behavior throughout. The session is structured as a genuine dialogue between equals, not a clinician-client hierarchy. Language such as 'let's start there, on your terms' and 'I'm curious — if you weren't waiting for it to stop mattering, what would you be doing instead?' frames the conversation as joint exploration. The psychiatrist actively seeks Lucía's input before moving forward ('Does that land?'). The content of the session is entirely shaped by Lucía's contributions — she brings up the daughter, the five minutes of quiet, the 'bad deal' framing — and the psychiatrist follows her lead while maintaining MI structure. There is no moment where the psychiatrist imposes an agenda, provides unsolicited information, or redirects toward a predetermined goal. The power dynamic is genuinely equal.
+
+---
+
+### 9. Evocation
+Score: 5/5
+
+Explanation:
+The psychiatrist consistently elicits motivation from within the client rather than providing reasons for change. Every insight in the session comes from Lucía: 'Common sense, you know?' (her own acknowledgment of risk), 'It costs me the relationship with my daughter' (her own trade-off analysis), 'It's a bad deal' (her own conclusion), 'less? not two packs, maybe one?' (her own action plan). The psychiatrist's questions are designed to draw these out: 'What are you noticing about that trade-off?' 'What would that quiet look like if it didn't cost you what it's costing you?' 'If you weren't waiting for it to stop mattering, what would you be doing instead?' The psychiatrist never provides a reason for quitting, never cites statistics or health risks, never says 'you should.' The motivation is entirely Lucía's, and the psychiatrist's role is to create the conditions for it to emerge. This is textbook evocation at its highest level.
+
+---
+
+**Overall Global Ratings Score:** **4.9/5**
+
+This is an exceptionally skilled Motivational Interviewing session. The psychiatrist demonstrates mastery across all nine domains, with particular excellence in evocation, softening sustain talk, and cultivating change talk. The session follows a natural, organic arc that moves Lucía from resistance and dismissal to contemplation and early preparation without any sense of pressure or manipulation. The psychiatrist's empathy is deep and nuanced, the autonomy support is unwavering, and the collaborative stance is fully realized. The only minor area for growth is direction — while the thematic coherence is strong, the explicit connection between the daughter tension and the smoking cessation goal could be tightened in a few moments. This session would serve as an excellent model for training other clinicians in MI practice.
