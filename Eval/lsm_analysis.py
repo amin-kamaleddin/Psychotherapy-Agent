@@ -403,7 +403,10 @@ def main():
                 print(f"{int(row['turn_number']):<10} | {row['avg_lsm']:<20.3f} | {row['std_lsm']:<20.3f} | {int(row['count']):<10}")
                 
             # Save to CSV similar to metrics_output_{mode}.csv
-            output_csv_name = f'lsm_metrics_{mode}.csv'
+            # Model-tagged when PSYCH_MODEL is set so per-model results don't overwrite.
+            model_tag = os.getenv("PSYCH_MODEL", "")
+            prefix = f"{model_tag}_" if model_tag else ""
+            output_csv_name = f'{prefix}lsm_metrics_{mode}.csv'
             output_csv_path = os.path.join(CSV_DIR, output_csv_name)
             grouped.to_csv(output_csv_path, index=False)
             print(f"Saved aggregated metrics to {output_csv_path}")

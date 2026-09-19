@@ -1,14 +1,15 @@
-# PsychotherapyAgent Comparison Guide: Simple vs Trained Agent vs Complex vs Multi-Agent System
+# PsychotherapyAgent Comparison Guide: Simple vs Trained Agent vs Complex vs Multi-Agent System vs Proposer-Only
 
-This guide explains how to compare the performance between four different therapist configurations:
+This guide explains how to compare the performance between five different therapist configurations:
 1. Simple prompt single-agent (no MI, no patient profile)
 2. Trained agent single-agent (MI prompt, no patient profile)
 3. Complex prompt single-agent (MI prompt + patient profile)
 4. Multi-agent system (proposer + judge)
+5. Proposer-only ablation (single call: proposer generates AND selects, matched 1-call cost)
 
 ## Overview
 
-The system supports four modes with **two-stage aggregation** for robust statistical analysis:
+The system supports five modes with **two-stage aggregation** for robust statistical analysis:
 
 1. **Simple Mode** (`therapist_mode="simple"`):
    - Uses `PsychotherapySingleAgent` with a naive counselor prompt (CSV index 0: `0_Simple_Agent`)
@@ -30,6 +31,11 @@ The system supports four modes with **two-stage aggregation** for robust statist
    - Proposer agent generates 3 candidate therapist responses
    - Judge agent selects the best response from the 3 candidates based on MI criteria
    - Selected response is sent to the patient
+
+5. **Proposer-Only Mode** (`therapist_mode="proposer_only"`):
+   - Ablation control using `PsychotherapyMultiAgent` in self-selection mode (CSV index 5: `5_Proposer_SelfSelect`)
+   - The single proposer call both generates the 3 candidates AND picks the best one
+   - Matches the 1-call cost of the full system, isolating the separate-judge contribution
 
 ## Data Aggregation Method
 
@@ -60,9 +66,78 @@ All 133 patients → Stage 2: Mean = 3.87, Std = 0.33
 
 This approach provides **more stable and reliable comparisons** between modes.
 
+## Cross-Model Aggregation (Averaging Across Models)
+
+When comparing **multiple models** (e.g. `gpt-5-mini`, `qwen/qwen3.8-27b`, `z-ai/glm-5.3-flash`), results are averaged **across models** so that one set of curves/metrics represents the aggregate of all models. Each model contributes **equal weight** $\frac{1}{N}$ (no weighting by fold count).
+
+Workflow:
+1. Run `feedback_analysis.py`, `lsm_analysis.py`, `word_analysis.py`, `sentiment_analysis.py` **per model** with `PSYCH_MODEL` set, producing model-tagged CSV outputs.
+2. Run `average_across_models.py` (feedback scores) and `average_lang_metrics.py` (LSM / sentiment / word).
+
+The averaging helpers are pure arithmetic means of the per-model per-cell values. **Notation:** $M = 3$ models, $N_{mode}$ = patients in a mode, $\text{turn}_k$ = the $k$-th therapist–patient turn.
+
+### Feedback Scores (`average_across_models.py`)
+
+Each model outputs per-`(patient_id, therapist_mode, criterion)` scores. The averaged score for a given (patient, mode, criterion) is:
+
+$$\text{avg\_score} = \frac{1}{M}\sum_{j=1}^{M} \text{score}^{(j)}$$
+
+Per-mode summary (population statistics across patients):
+
+$$\overline{X} = \frac{1}{N_{mode}}\sum_{p=1}^{N_{mode}} \text{avg\_score}_p
+\qquad \text{std} = \sqrt{\tfrac{1}{N_{mode}-1}\sum_{p}(\text{avg\_score}_p - \overline{X})^2}$$
+
+### LSM (`average_lang_metrics.py → avg_lsm`)
+
+**Per-turn LSM score** (counselor vs client utterance at turn $k$), across $C$ word categories:
+
+$$LSM_k = \frac{1}{C}\sum_{c=1}^{C}\left(1 - \frac{|p_{1,c} - p_{2,c}|}{p_{1,c} + p_{2,c} + 0.0001}\right),$$
+
+where $p_{1,c}$ is the proportion of category-$c$ words in the counselor's utterance and $p_{2,c}$ the client's.
+
+**Cumulative per-patient** value at turn $k$ (running mean over all turns $\le k$):
+
+$$\text{avg\_lsm}_{k} = \frac{1}{k}\sum_{i=1}^{k} LSM_i$$
+
+**Cross-model average** for each `(therapist_mode, turn_number)`:
+
+$$\overline{\text{LSM}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \text{avg\_lsm}^{(j)}_{k}$$
+
+### Word Metrics (`average_lang_metrics.py → avg_word`)
+
+**Per-turn cumulative running average** of words per turn (counselor $c$ and client $cl$):
+
+$$\text{c\_acc\_avg}_k = \frac{T^c_k}{n^c_k}, \qquad \text{cl\_acc\_avg}_k = \frac{T^{cl}_k}{n^{cl}_k}$$
+
+where $T_k$ = cumulative word count and $n_k$ = number of turns up to turn $k$.
+
+**Counselor:client ratio** (accumulated words):
+
+$$r_k = \frac{T^c_k}{T^{cl}_k} \quad (0 \text{ if } T^{cl}_k = 0)$$
+
+**Cross-model average** for each `(therapist_mode, turn)`, per numeric column $X$:
+
+$$\overline{X}_{k} = \frac{1}{M}\sum_{j=1}^{M} X^{(j)}_{k}$$
+
+### Sentiment (`average_lang_metrics.py → avg_sentiment`)
+
+**Per-turn cumulative proportions** (positive / neutral / negative), counting sentiment classifications up to turn $k$:
+
+$$\text{prop\_pos}_k = \frac{\sum_{i=1}^{k} \text{pos}_i}{\sum_{i=1}^{k} n_i}, \quad
+\text{prop\_neu}_k = \frac{\sum_{i=1}^{k} \text{neu}_i}{\sum_{i=1}^{k} n_i}, \quad
+\text{prop\_neg}_k = \frac{\sum_{i=1}^{k} \text{neg}_i}{\sum_{i=1}^{k} n_i}$$
+
+where $\text{pos}_i$ = number of turns classified positive at turn $i$, and $n_i$ = turns at turn $i$. Note $\text{prop\_pos}_k + \text{prop\_neu}_k + \text{prop\_neg}_k = 1$.
+
+**Cross-model average** for each `(therapist_mode, turn_number)`:
+
+$$\overline{\text{prop\_pos}}_{k} = \frac{1}{M}\sum_{j=1}^{M} \text{prop\_pos}^{(j)}_{k} \ (\text{same for } neu,\ neg)$$
+
+> **Summary:** every cross-model average is an arithmetic mean $\frac{1}{M}\sum_j (\cdot)^{(j)}$ over the 3 models, computed **after** the per-model fold-averaging (Stage 1) and per-patient averaging.
+
 ## Evaluation Script Commands
 
-The `run_automated_test.py` script supports all four modes with flexible options:
+The `run_automated_test.py` script supports all five modes with flexible options:
 
 1. **Run Simple Mode Only**:
    ```bash
@@ -84,22 +159,27 @@ The `run_automated_test.py` script supports all four modes with flexible options
    python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --mode multi_agent --run-id test4
    ```
 
-5. **Run All Four Modes + Aggregation (Comparison)**:
+5. **Run Proposer-Only Mode**:
+   ```bash
+   python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --mode proposer_only --run-id test5
+   ```
+
+6. **Run All Five Modes + Aggregation (Comparison)**:
    ```bash
    python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --compare --run-id exp1
    ```
 
-6. **Run All Four Modes WITHOUT Aggregation**:
+7. **Run All Five Modes WITHOUT Aggregation**:
    ```bash
    python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --compare --no-aggregate --run-id exp1
    ```
 
-7. **Run Aggregation Only (after sessions completed)**:
+8. **Run Aggregation Only (after sessions completed)**:
    ```bash
    python run_automated_test.py --aggregate
    ```
 
-8. **Specify Custom Parameters**:
+9. **Specify Custom Parameters**:
    ```bash
    python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id full_test \
      --max-workers 20 --skip-sentiment
@@ -108,7 +188,7 @@ The `run_automated_test.py` script supports all four modes with flexible options
 ### Key Parameters
 
 - `--fold N`: Run each patient N times (default: 1)
-- `--compare`: Run all 4 modes and generate comparison
+- `--compare`: Run all 5 modes and generate comparison
 - `--no-aggregate`: Skip evaluation/aggregation scripts
 - `--aggregate`: Only run aggregation (no new sessions)
 - `--max-workers N`: Parallel workers for processing (default: 20)
@@ -118,7 +198,7 @@ The `run_automated_test.py` script supports all four modes with flexible options
 
 ### Step 1: Run Comparison Experiment
 
-The `--compare` flag runs all four modes sequentially and generates a comparison:
+The `--compare` flag runs all five modes sequentially and generates a comparison:
 
 ```bash
 python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id exp1
@@ -158,7 +238,7 @@ Stored in `Session_Metadata/` directory:
 - `{run_id}_multi_agent_patients_{start}_{end}_fold{N}_{timestamp}/`
 
 **Evaluation Results** (in `Eval/csv/` directory):
-- `feedback_scores_by_criterion.csv` - Per-patient scores (133 patients × 4 modes)
+- `feedback_scores_by_criterion.csv` - Per-patient scores (133 patients × 5 modes)
 - `feedback_metrics_{mode}.csv` - Aggregated statistics per mode
 - `sentiment_dataset_by_turn.csv` - Sentiment analysis per turn
 - `lsm_metrics_{mode}.csv` - Language Style Matching scores

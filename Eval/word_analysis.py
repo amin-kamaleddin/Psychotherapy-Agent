@@ -277,8 +277,10 @@ def aggregate_metrics(root_dir):
             print(f"{i+1:<10} | {avg_c:<20.2f} | {avg_cl:<20.2f} | {avg_r:<15.2f}")
             output_rows.append(f"{i+1},{avg_c:.2f},{std_c:.2f},{avg_cl:.2f},{std_cl:.2f},{avg_r:.2f},{std_r:.2f},{count}")
 
-        # Save to CSV
-        out_file = os.path.join(CSV_DIR, f'metrics_output_{mode}.csv')
+        # Save to CSV (model-tagged when PSYCH_MODEL is set so per-model results don't overwrite)
+        model_tag = os.getenv("PSYCH_MODEL", "")
+        prefix = f"{model_tag}_" if model_tag else ""
+        out_file = os.path.join(CSV_DIR, f'{prefix}metrics_output_{mode}.csv')
         with open(out_file, 'w', encoding='utf-8') as f:
             f.write("\n".join(output_rows))
         print(f"Saved: {out_file}")

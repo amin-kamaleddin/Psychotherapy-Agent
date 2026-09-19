@@ -290,7 +290,10 @@ def main(max_workers=20):
         # Ensure csv directory exists
         csv_dir = os.path.join(root_dir, 'Eval', 'csv')
         os.makedirs(csv_dir, exist_ok=True)
-        output_path = os.path.join(csv_dir, 'sentiment_dataset_by_turn.csv')
+        # Model-tagged output when PSYCH_MODEL is set (keeps per-model results separate for later averaging).
+        model_tag = os.getenv("PSYCH_MODEL", "")
+        out_name = f"{model_tag}_sentiment_dataset_by_turn.csv" if model_tag else "sentiment_dataset_by_turn.csv"
+        output_path = os.path.join(csv_dir, out_name)
         df.to_csv(output_path, index=False)
         print(f"\nSaved per-turn sentiment dataset to {output_path}")
         print(f"Total records: {len(df)}")
