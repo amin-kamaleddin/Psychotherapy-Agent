@@ -123,12 +123,6 @@ Suppose the *client word count* at turn 1 for patient #42 is measured by the thr
 
 If instead all 399 rows were pooled, patient #42 would contribute 3 data points instead of 1, and the SE would be artificially deflated by $\sqrt{3}$.
 
-### Why the 3 models sometimes disagree
-
-The error bars only capture **between-patient** variability (the spread across the 133 patient-means). They do *not* reflect how much the 3 models disagree with each other. This is intentional: the goal is to report the population-level estimate of each metric, and the 3 models are treated as repeated measurements of the same underlying patient, not as independent samples.
-
-For the MI **feedback scores** (below), the same within-patient averaging is applied, but it is computed by a dedicated helper script rather than inline in `plot_metrics.py`.
-
 ### Feedback Scores (handled separately via `average_across_models.py`)
 
 The MI feedback chart is the one exception: it uses `average_across_models.py`, which averages the **per-patient score** across models for each `(patient_id, therapist_mode, criterion)` before computing population statistics, rather than pooling per-patient values:
