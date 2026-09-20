@@ -208,27 +208,39 @@ class PsychotherapyCore:
         if not self.current_state or not self.current_state.get("session_active"):
             logging.error("No active session found.")
             return {"error": "No active session"}
-        
-        try:
-            # Add therapist message to interview_messages
-            self.current_state["interview_messages"] = [
-                *self.current_state.get("interview_messages"), 
-                HumanMessage(content=therapist_response)
-            ]
-            
-            # Use patient message workflow to get patient response
-            result = self.patient_message_graph.invoke(self.current_state)
-            self.current_state = result
-            
-            return {
-                "patient_response": result.get("ai_response"),
-                "session_active": result.get("session_active", True),
-                "current_phase": result.get("current_phase", "active_roleplay"),
-                "chatlog": result.get("chatlog", [])
-            }
-        except Exception as e:
-            logging.error(f"Error processing message: {str(e)}")
-            return {"error": str(e)}
+
+        # Add therapist message to interview_messages
+        self.current_state["interview_messages"] = [
+            *self.current_state.get("interview_messages"),
+            HumanMessage(content=therapist_response)
+        ]
+
+        # Generate the patient response, RETRYING until it succeeds. A failure here would
+        # otherwise leave the therapist message in the conversation with no patient reply,
+        # producing exchanges without a full therapist + patient turn.
+        max_attempts = 5
+        last_error = None
+        for attempt in range(1, max_attempts + 1):
+            try:
+                result = self.patient_message_graph.invoke(self.current_state)
+                # Ensure a patient response was actually produced
+                if not result.get("ai_response"):
+                    last_error = "Patient response was not generated (empty ai_response)."
+                    logging.error(f"Patient response empty (attempt {attempt}/{max_attempts}).")
+                    continue
+                self.current_state = result
+                return {
+                    "patient_response": result.get("ai_response"),
+                    "session_active": result.get("session_active", True),
+                    "current_phase": result.get("current_phase", "active_roleplay"),
+                    "chatlog": result.get("chatlog", [])
+                }
+            except Exception as e:
+                last_error = str(e)
+                logging.error(f"Error generating patient response (attempt {attempt}/{max_attempts}): {str(e)}")
+
+        logging.error(f"send_therapist_message failed to produce a patient response after {max_attempts} attempts: {last_error}")
+        return {"error": last_error}
     
     def end_session(self):
         """

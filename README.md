@@ -22,7 +22,7 @@ Does using the Evaluator in-the-loop (as a critic/selector at each turn) improve
 
 ## System and Experimental Conditions
 
-We test four therapist conditions, all focused on MI:
+We test five therapist conditions, all focused on MI:
 
 ### 1. Naive Counselor (Simple Mode)
 - **Prompt**: "Be an empathetic, supportive mental health counselor"
@@ -46,6 +46,12 @@ We test four therapist conditions, all focused on MI:
 - **Patient Experience**: Patient sees only the selected response
 - **Purpose**: Test if Evaluator-in-the-loop improves MI fidelity beyond single-agent
 
+### 5. Proposer-Only Ablation (Proposer-Only Mode)
+- **Prompt**: Dedicated single-call self-select prompt (`5_Proposer_SelfSelect`)
+- **Architecture**: The single proposer call both generates the 3 candidate responses AND picks the best one (no separate judge/evaluator step)
+- **Cost match**: 1 LLM call per turn, matching the full multi-agent system's 1 proposer call, isolating the separate-judge contribution
+- **Purpose**: Ablation control to isolate the effect of the separate judge/Evaluator-in-the-loop module
+
 ## Key Capabilities
 
 - **Comprehensive MI Evaluation**: 9 MI criteria scores (Empathy, Partnership, Autonomy Support, Collaboration, Evocation, etc.)
@@ -57,7 +63,7 @@ We test four therapist conditions, all focused on MI:
 
 ## Reproducing the Reported Experiment
 
-The manuscript evaluates 133 patient profiles × 5 repeated runs × 4 therapist modes = **2,660 total sessions**. To reproduce these results exactly, run:
+The manuscript evaluates 133 patient profiles × 5 repeated runs × 5 therapist modes = **3,325 total sessions**. To reproduce these results exactly, run:
 
 ```bash
 python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id manuscript_exp --max-workers 20
@@ -66,7 +72,7 @@ python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --comp
 This command:
 - Covers all 133 patient profiles (`--start-patient 0 --end-patient 133`)
 - Runs each patient 5 times per mode (`--fold 5`), matching the fold=5 setting reported in the manuscript
-- Executes all four therapist modes sequentially (`--compare`): `simple`, `trained_agent`, `complex`, and `multi_agent`
+- Executes all five therapist modes sequentially (`--compare`): `simple`, `trained_agent`, `complex`, `proposer_only`, and `multi_agent`
 - After all sessions complete, automatically runs all evaluation scripts (`Eval/`) to produce `feedback_scores_by_criterion.csv`, statistical test results, word metrics, sentiment summaries, and LSM scores
 
 > **Note**: At 20 parallel workers this run is compute- and cost-intensive. For a smaller-scale pilot, replace `--end-patient 133` with a smaller value and adjust `--fold` accordingly.
@@ -107,7 +113,7 @@ python run_automated_test.py --start-patient 0 --end-patient 10 --fold 5 --compa
 ```
 
 This command will:
-- Run patients 0-10 with all four therapist modes
+- Run patients 0-10 with all five therapist modes
 - Execute 5 sessions per patient per mode (5 folds)
 - Generate evaluation metrics and visualizations
 - Save results to `Session_Metadata/` and `Eval/`
@@ -124,8 +130,8 @@ python run_automated_test.py [OPTIONS]
 - `--start-patient N`: Start from patient index N (default: 0)
 - `--end-patient N`: End at patient index N (default: 133)
 - `--fold N`: Run each patient N times for robustness (default: 5)
-- `--mode {simple|trained_agent|complex|multi_agent}`: Run a specific mode
-- `--compare`: Run all four modes and generate comparisons
+- `--mode {simple|trained_agent|complex|multi_agent|proposer_only}`: Run a specific mode
+- `--compare`: Run all five modes and generate comparisons
 - `--no-aggregate`: Skip evaluation scripts (run sessions only)
 - `--aggregate`: Run only evaluation scripts (no new sessions)
 - `--max-workers N`: Parallel processing workers (default: 20)
@@ -144,7 +150,7 @@ python run_automated_test.py --start-patient 0 --end-patient 10 --fold 3 --mode 
 python run_automated_test.py --start-patient 0 --end-patient 10 --fold 3 --mode trained_agent --run-id test2
 ```
 
-**3. Run all four modes for full comparison**:
+**3. Run all five modes for full comparison**:
 ```bash
 python run_automated_test.py --start-patient 0 --end-patient 133 --fold 5 --compare --run-id full_exp
 ```
@@ -172,13 +178,14 @@ Psychotherapy-Agent/
 │   └── workflows/                       # LangGraph workflows
 ├── Patient_Profiles/MI/         # Patient case studies (133 profiles)
 ├── Therapist_Prompts/           # Therapist system prompts
-│   └── therapist_prompts.csv    # 4 therapist profiles (simple, complex, proposer, judge)
+│   └── therapist_prompts.csv    # 5 therapist profiles (simple, trained, complex, proposer, judge, self-select)
 ├── Eval/                        # Evaluation scripts and results
 │   ├── feedback_analysis.py     # MI criteria scoring
 │   ├── sentiment_analysis.py    # Turn-level sentiment
 │   ├── lsm_analysis.py          # Linguistic style matching
 │   ├── word_analysis.py         # Word count metrics
-│   ├── plot_metrics.py          # Visualization generation
+│   ├── run_lang_per_model.py    # Run LSM/sentiment/word per model (model-tagged per-patient CSVs)
+│   ├── plot_metrics.py          # Visualization generation (per-patient, pooled across models)
 │   ├── feedback_statistical_test.py  # Statistical tests
 │   ├── csv/                     # Generated metrics (after evaluation)
 │   └── plots/                   # Generated visualizations
@@ -187,7 +194,6 @@ Psychotherapy-Agent/
 ├── run_automated_test.py        # Main experiment runner
 ├── requirements.txt             # Python dependencies
 └── COMPARISON_GUIDE.md          # Detailed comparison methodology
-
 ```
 
 ## Configuration
@@ -200,6 +206,7 @@ Therapist behaviors are defined in `Therapist_Prompts/therapist_prompts.csv`:
 - **Row 2** (`2_Complex_Agent`): MI Therapist prompt with full patient profile context (used by `complex` mode)
 - **Row 3** (`3_MultiAgent_Proposer`): Multi-agent proposer — same MI Therapist prompt, generates 3 candidate responses
 - **Row 4** (`4_MultiAgent_Judge`): Multi-agent judge/evaluator — scores candidates on MI criteria and selects best
+- **Row 5** (`5_Proposer_SelfSelect`): Proposer-only self-selection — single call generates 3 candidates AND picks the best (used by `proposer_only` mode)
 
 ### Patient Profiles
 
@@ -238,7 +245,7 @@ These 9 criteria are based on the Motivational Interviewing Treatment Integrity 
 - Distribution analysis across modes
 
 ### 4. Statistical Tests
-- **Friedman Test**: Four-way comparison across modes
+- **Friedman Test**: Five-way comparison across modes
 - **Wilcoxon Signed-Rank Test**: Pairwise comparisons between modes
 
 ## Output Files
@@ -254,19 +261,25 @@ After running experiments, you'll find:
 ### Aggregated Results (`Eval/csv/`)
 - `feedback_scores_by_criterion.csv`: Per-patient MI scores
 - `feedback_metrics_{mode}.csv`: Aggregated statistics per mode
-- `sentiment_dataset_by_turn.csv`: Turn-level sentiment data
-- `lsm_metrics_{mode}.csv`: Language style matching scores
-- `metrics_output_{mode}.csv`: Word count and ratio metrics
-- `friedman_test_results.csv`: Three-way statistical tests
+- `{model}_sentiment_dataset_by_turn.csv`: Per-patient turn-level sentiment
+- `{model}_lsm_per_patient.csv`: Per-patient language style matching scores
+- `{model}_words_per_patient.csv`: Per-patient word count and ratio metrics
+- `friedman_test_results.csv`: Five-way statistical tests
 - `wilcoxon_test_{mode1}_vs_{mode2}.csv`: Pairwise comparisons
 
 ### Visualizations (`Eval/plots/`)
-- `feedback_scores_by_criterion.png`: MI criteria comparison
-- `counselor_words_per_turn.png`: Therapist verbosity
-- `client_words_per_turn.png`: Patient engagement
-- `word_ratio.png`: Communication balance
-- `sentiment_distribution.png`: Emotional tone analysis
-- `lsm_over_time.png`: Language coordination trends
+Each metric is split into two mode groupings:
+- `{metric}__4modes.png`: the 4 counselor configurations (`simple`, `trained_agent`, `complex`, `multi_agent`)
+- `{metric}__proposer_vs_multi.png`: the proposer-only ablation vs the full multi-agent system
+
+Metrics:
+- `counselor_words_per_turn`: Therapist verbosity (per-patient mean ± SE)
+- `client_words_per_turn`: Patient engagement (per-patient mean ± SE)
+- `word_ratio`: Communication balance (per-patient mean ± SE)
+- `sentiment_distribution`: Emotional tone box plot (per-patient, pooled across models)
+- `positive_sentiment_over_time`: Positive sentiment trajectory
+- `lsm_over_time`: Language coordination trends (per-patient mean ± SE)
+- `feedback_scores_by_criterion`: MI criteria comparison
 
 ## Two-Stage Aggregation
 
@@ -292,6 +305,10 @@ All 133 patients → Stage 2: Population mean = 3.87, std = 0.33
 ```
 
 This approach provides more reliable comparisons with reduced variance.
+
+### Multi-Model Analysis (Linguistic & Sentiment Plots)
+
+The linguistic (LSM, word count/ratio) and sentiment analyses are run **per model** (with `PSYCH_MODEL` set), producing model-tagged per-patient CSVs (e.g. `{model}_lsm_per_patient.csv`, `{model}_words_per_patient.csv`, `{model}_sentiment_dataset_by_turn.csv`). Because the same 133 patients are scored by every model, `plot_metrics.py` **averages the model scores within each patient first**, then plots the patient-level mean ± standard error (`SE = std/√133`, i.e. the standard error across the 133 patient-means, not across the 133×M raw rows). This avoids double-counting the same patient across models and keeps the error bars honest. See `COMPARISON_GUIDE.md` for the full formulas.
 
 ## Programmatic Usage
 
@@ -349,7 +366,7 @@ Always regenerate evaluation CSVs after code changes using `--aggregate`.
 
 ## Documentation
 
-- **[COMPARISON_GUIDE.md](COMPARISON_GUIDE.md)**: Detailed methodology for comparing the four therapist modes
+- **[COMPARISON_GUIDE.md](COMPARISON_GUIDE.md)**: Detailed methodology for comparing the five therapist modes
 - **Code Comments**: Inline documentation in all Python modules
 - **Session Logs**: Each session generates detailed logs for debugging
 

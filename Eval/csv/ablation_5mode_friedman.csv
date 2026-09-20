@@ -1,0 +1,11 @@
+Criterion,N,Friedman_Chi2,p_value,Significant,Modes,complex_mean,multi_agent_mean,proposer_only_mean,simple_mean,trained_agent_mean,p_fdr_bh,Significant_fdr_bh
+Acceptance,124,116.1994,3.461013445041164e-24,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.695,4.84,4.719,4.513,4.694,5.768355741735274e-24,Yes
+Empathy,124,273.338,6.084658380528979e-58,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.358,4.708,4.473,3.898,4.344,1.5211645951322447e-57,Yes
+Direction,124,84.6121,1.8334654746352937e-17,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.966,4.966,4.974,4.839,4.953,1.8334654746352937e-17,Yes
+Collaboration,124,211.6447,1.176548857367429e-44,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.648,4.784,4.763,4.095,4.663,2.353097714734858e-44,Yes
+Autonomy Support,124,103.3827,1.8726984009929988e-21,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.974,4.985,4.987,4.84,4.985,2.3408730012412484e-21,Yes
+Evocation,124,309.6581,8.937902844515617e-66,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.127,4.429,4.326,3.355,4.124,8.937902844515618e-65,Yes
+Partnership,124,108.4991,1.5207406856299678e-22,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.674,4.784,4.816,4.432,4.681,2.172486693757097e-22,Yes
+Cultivating Change Talk,124,301.3191,5.62667809938476e-64,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.105,4.35,4.344,3.518,4.066,1.8755593664615868e-63,Yes
+Softening Sustain Talk,124,85.1193,1.4310766148530525e-17,Yes,complex+multi_agent+proposer_only+simple+trained_agent,3.96,4.024,3.985,3.713,3.966,1.5900851276145027e-17,Yes
+Overall Average,124,305.2376,8.034055635826495e-65,Yes,complex+multi_agent+proposer_only+simple+trained_agent,4.501,4.652,4.599,4.134,4.497,4.017027817913247e-64,Yes

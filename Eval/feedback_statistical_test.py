@@ -1,14 +1,19 @@
 """
-Perform Friedman test and pairwise Wilcoxon tests on feedback scores to compare the 4 counselor modes.
-Tests for significant differences across simple, trained_agent, complex, and multi_agent modes
+Perform Friedman test and pairwise Wilcoxon tests on feedback scores to compare the 5 counselor modes.
+Tests for significant differences across simple, trained_agent, complex, multi_agent, and proposer_only modes
 for each criterion (9 MI criteria + Overall Average).
 
-The Friedman test tests for overall differences across all 4 modes.
-The Wilcoxon signed-rank test performs pairwise comparisons between each pair of modes (C(4,2)=6 pairs).
+The Friedman test tests for overall differences across all 5 modes.
+The Wilcoxon signed-rank test performs pairwise comparisons between each pair of modes (C(5,2)=10 pairs).
+
+Data source: prefers the cross-model averaged per-patient scores (avg_feedback_pipeline.csv,
+produced by average_across_models.py) so the tests reflect the 3-model average, falling back to
+the single/untagged feedback_scores_by_criterion.csv when no averaged file is present.
 """
 
 import os
 import sys
+from math import comb
 import pandas as pd
 import numpy as np
 from scipy.stats import friedmanchisquare, wilcoxon
@@ -18,7 +23,9 @@ from statsmodels.stats.multitest import multipletests
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 CSV_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "csv")
-FEEDBACK_CSV = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
+# Prefer the cross-model averaged per-patient scores; fall back to the untagged file.
+FEEDBACK_CSV = os.path.join(CSV_DIR, 'avg_feedback_pipeline.csv')
+FEEDBACK_CSV_FALLBACK = os.path.join(CSV_DIR, 'feedback_scores_by_criterion.csv')
 
 # Define the 10 criteria (9 MI criteria + Overall Average)
 CRITERIA = [
@@ -34,17 +41,16 @@ CRITERIA = [
     'Overall Average'
 ]
 
-MODES = ['simple', 'trained_agent', 'complex', 'multi_agent']
+MODES = ['simple', 'trained_agent', 'complex', 'multi_agent', 'proposer_only']
 
 
 def perform_friedman_test(feedback_df):
     """
-    Perform Friedman test for each criterion across the 4 counselor modes.
+    Perform Friedman test for each criterion across the 5 counselor modes.
     
     The Friedman test is a non-parametric statistical test used to detect 
     differences in treatments across multiple test attempts. It's appropriate
     when we have matched samples (same patients evaluated across different modes).
-    
     Multiple testing correction:
         BH-FDR (Benjamini-Hochberg) correction is applied across all 10 criteria,
         since 10 simultaneous Friedman tests are performed (one per criterion).
@@ -72,21 +78,21 @@ def perform_friedman_test(feedback_df):
             aggfunc='mean'  # In case of duplicates (same patient in multiple sessions), take mean
         )
         
-        # Check if we have all 4 modes
+        # Check if we have all 5 modes
         available_modes = [mode for mode in MODES if mode in pivot_data.columns]
-        if len(available_modes) < 4:
+        if len(available_modes) < 2:
             print(f"Warning: Criterion '{criterion}' only has data for {available_modes}")
             continue
         
-        # Keep only rows where we have scores for all 4 modes (complete cases)
-        pivot_data = pivot_data[MODES].dropna()
+        # Keep only rows where we have scores for all available modes (complete cases)
+        pivot_data = pivot_data[available_modes].dropna()
         
         if len(pivot_data) < 3:
             print(f"Warning: Criterion '{criterion}' has insufficient matched samples ({len(pivot_data)} < 3)")
             continue
         
         # Extract scores for each mode as arrays
-        mode_scores = [pivot_data[mode].values for mode in MODES]
+        mode_scores = [pivot_data[mode].values for mode in available_modes]
         
         # Perform Friedman test
         # scipy.stats.friedmanchisquare takes arrays as arguments
@@ -95,8 +101,8 @@ def perform_friedman_test(feedback_df):
             
             # Calculate descriptive statistics
             n_samples = len(pivot_data)
-            means = {mode: pivot_data[mode].mean() for mode in MODES}
-            stds = {mode: pivot_data[mode].std() for mode in MODES}
+            means = {mode: pivot_data[mode].mean() for mode in available_modes}
+            stds = {mode: pivot_data[mode].std() for mode in available_modes}
             
             # Determine if significant (using alpha = 0.05)
             significant = p_value < 0.05
@@ -107,14 +113,8 @@ def perform_friedman_test(feedback_df):
                 'Friedman_Chi2': round(statistic, 4),
                 'p_value': p_value,
                 'Significant': 'Yes' if significant else 'No',
-                'simple_mean': round(means['simple'], 3),
-                'trained_agent_mean': round(means['trained_agent'], 3),
-                'complex_mean': round(means['complex'], 3),
-                'multi_agent_mean': round(means['multi_agent'], 3),
-                'simple_std': round(stds['simple'], 3),
-                'trained_agent_std': round(stds['trained_agent'], 3),
-                'complex_std': round(stds['complex'], 3),
-                'multi_agent_std': round(stds['multi_agent'], 3)
+                **{f'{mode}_mean': round(means[mode], 3) for mode in available_modes},
+                **{f'{mode}_std': round(stds[mode], 3) for mode in available_modes}
             })
         except Exception as e:
             print(f"Error performing Friedman test for '{criterion}': {e}")
@@ -141,7 +141,7 @@ def perform_friedman_test(feedback_df):
     return results_df
 
 
-def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
+def perform_pairwise_wilcoxon(feedback_df, mode1, mode2, n_pairs=10):
     """
     Perform pairwise Wilcoxon signed-rank test for each criterion between two modes.
     
@@ -149,8 +149,8 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
     It's appropriate when comparing the same patients across two different modes.
     
     Multiple testing corrections applied:
-        1. Bonferroni (N=6 pairs): p × 6, the standard post-hoc family correction
-           after Friedman (C(4,2)=6 pairwise comparisons). Controls FWER.
+        1. Bonferroni (N = n_pairs): p × n_pairs, the standard post-hoc family
+           correction after Friedman (C(5,2)=10 pairwise comparisons). Controls FWER.
         2. BH-FDR across the 10 criteria within this pair: controls False
            Discovery Rate for testing all MI criteria in a single comparison.
     
@@ -158,6 +158,7 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
         feedback_df: DataFrame with feedback scores
         mode1: First mode name (e.g., 'simple')
         mode2: Second mode name (e.g., 'complex')
+        n_pairs: Total number of pairwise mode comparisons (for Bonferroni).
     
     Returns:
         DataFrame with test results for each criterion
@@ -245,10 +246,9 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
     
     if not results_df.empty:
         p_values = results_df['p_value'].values
-        n_pairs = 6  # C(4 modes, 2) = 6 pairwise comparisons
 
-        # 1. Bonferroni correction for 6 pairwise comparisons (standard post-hoc family)
-        #    Controls FWER across the 6 mode comparisons.
+        # 1. Bonferroni correction for all pairwise comparisons (standard post-hoc family)
+        #    Controls FWER across the mode comparisons.
         p_bonf = np.minimum(p_values * n_pairs, 1.0)
         results_df['p_bonferroni'] = p_bonf
         results_df['Significant_bonferroni'] = ['Yes' if p < 0.05 else 'No' for p in p_bonf]
@@ -271,14 +271,16 @@ def perform_pairwise_wilcoxon(feedback_df, mode1, mode2):
 def main():
     """Main function to perform Friedman tests and export results."""
     
-    # Load feedback data
-    if not os.path.exists(FEEDBACK_CSV):
-        print(f"Error: {FEEDBACK_CSV} not found!")
-        print("Please run feedback_analysis.py first to generate the feedback scores data.")
+    # Load feedback data: prefer the 3-model averaged per-patient scores, falling
+    # back to the untagged feedback_scores_by_criterion.csv if not yet generated.
+    source = FEEDBACK_CSV if os.path.exists(FEEDBACK_CSV) else FEEDBACK_CSV_FALLBACK
+    if not os.path.exists(source):
+        print(f"Error: {source} not found!")
+        print("Please run feedback_analysis.py per model and average_across_models.py first.")
         return
     
-    print(f"Loading feedback data from {FEEDBACK_CSV}...")
-    feedback_df = pd.read_csv(FEEDBACK_CSV)
+    print(f"Loading feedback data from {source}...")
+    feedback_df = pd.read_csv(source)
     print(f"Loaded {len(feedback_df)} records")
     
     # Check available criteria and modes
@@ -321,19 +323,18 @@ def main():
     print("PERFORMING PAIRWISE WILCOXON TESTS")
     print("="*80)
     
-    # Define all 6 pairs C(4,2) (ordered for positive effect sizes)
-    pairs = [
-        ('multi_agent', 'trained_agent'),
-        ('multi_agent', 'complex'),
-        ('multi_agent', 'simple'),
-        ('trained_agent', 'complex'),
-        ('complex', 'simple'),
-        ('trained_agent', 'simple')
-    ]
+    # Define all pairs C(n,2) over the modes that actually have data.
+    # List ordering keeps the most relevant comparisons (multi_agent vs baselines) first.
+    preferred_order = ['multi_agent', 'proposer_only', 'trained_agent', 'complex', 'simple']
+    available_modes = [m for m in preferred_order if m in set(feedback_df['therapist_mode'].unique())]
+    pairs = []
+    for i in range(len(available_modes)):
+        for j in range(i + 1, len(available_modes)):
+            pairs.append((available_modes[i], available_modes[j]))
     
     for mode1, mode2 in pairs:
         print(f"\nPerforming Wilcoxon test: {mode1} vs {mode2}...")
-        wilcoxon_results = perform_pairwise_wilcoxon(feedback_df, mode1, mode2)
+        wilcoxon_results = perform_pairwise_wilcoxon(feedback_df, mode1, mode2, n_pairs=len(pairs))
         
         if wilcoxon_results.empty:
             print(f"Warning: No valid test results for {mode1} vs {mode2}")
@@ -357,10 +358,10 @@ def main():
         print(f"\nSummary ({mode1} vs {mode2}):")
         print(f"  - Total criteria tested: {len(wilcoxon_results)}")
         print(f"  - Significant (raw p < 0.05):                          {n_sig_raw}")
-        print(f"  - Significant after Bonferroni (×6 pairs):             {n_sig_bonf}  [α = 0.0083]")
+        print(f"  - Significant after Bonferroni (x{len(pairs)} pairs):       {n_sig_bonf}  [a = {0.05/len(pairs):.4f}]")
         print(f"  - Significant after BH-FDR (10 criteria):              {n_sig_bh}  (assumes positive dependence)")
         print(f"  - Significant after BY-FDR (10 criteria):              {n_sig_by}  (arbitrary dependence; more conservative)")
-        print(f"  NOTE: Bonferroni corrects for C(4,2)=6 post-hoc pairwise comparisons;")
+        print(f"  NOTE: Bonferroni corrects for C({len(available_modes)},2)={len(pairs)} post-hoc pairwise comparisons;")
         print(f"        BH/BY-FDR correct for {len(wilcoxon_results)} criteria tested within this pair.")
 
 

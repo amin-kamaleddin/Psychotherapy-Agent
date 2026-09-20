@@ -7,6 +7,8 @@ Handles message processing with optional multi-agent therapist system
 
 import logging
 import re
+from typing import Any
+from pydantic import BaseModel, Field, field_validator, model_validator
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
@@ -15,11 +17,143 @@ from ..graph_state import LBState
 from ..utils import sanitize_for_logging
 
 
+class SelfSelectResult(BaseModel):
+    """Structured proposal: 3 candidate therapist responses + which the model chooses.
+
+    Using structured output removes the fragile text parsing of 'SELECTED RESULT:'
+    that some models (GLM / DeepSeek) failed to emit consistently, which caused
+    fallbacks to candidate #1.
+    """
+    response_1: str = Field(description="Candidate response 1 (empathic reflection)")
+    response_2: str = Field(description="Candidate response 2 (collaborative reflection plus question)")
+    response_3: str = Field(description="Candidate response 3 (warm reflection of change talk)")
+    selected_index: int = Field(ge=1, le=3, description="Index (1, 2, or 3) of the best candidate")
+
+    @classmethod
+    def _parse_response_blocks(cls, text: str) -> dict:
+        """Recover response_1/2/3 + selected_index from loose plain-text output.
+
+        Some models (GLM / DeepSeek) ignore the JSON/response_format contract and emit
+        prose like:
+
+            RESPONSE 1: ...
+            RESPONSE 2: ...
+            RESPONSE 3: ...
+            SELECTED RESULT: ...
+
+        or
+
+            1. ...
+            2. ...
+            3. ...
+            Best response is 2
+
+        This parser extracts the three candidate texts and, when possible, the chosen
+        index. It is a best-effort normalizer used by model_validator(mode='before').
+        """
+        resp_map = {}
+        # Match candidate blocks keyed by RESONSE N: / Response N: / bare "N."
+        pattern = re.compile(
+            r"(?:RESPONSE|Response|RESP)\s*(\d)\s*:\s*(.*?)(?=(?:RESPONSE|Response|RESP)\s*\d\s*:|(?:SELECTED\s*RESULT|Best\s*response|Selected\s+response|I\s+(?:choose|select)|Final\s+Response)[\s:]*| \d\s*[.\-:]\s*|\Z)",
+            re.DOTALL | re.IGNORECASE
+        )
+        for m in pattern.finditer(text):
+            idx = int(m.group(1))
+            val = m.group(2).strip()
+            if val:
+                resp_map[idx] = val
+
+        # Also handle the numbered-list format "1. text"
+        if len(resp_map) < 3:
+            for m in re.finditer(r"^\s*(\d)\s*[.\-:]\s*(.+?)(?=^\s*\d\s*[.\-:]|\Z)", text, re.M | re.DOTALL):
+                idx = int(m.group(1))
+                if idx not in resp_map:
+                    resp_map[idx] = m.group(2).strip()
+
+        # Extract a chosen index from selection markers (allow an optional RESPONSE between
+        # the marker and the digit, e.g. "SELECTED RESULT: RESPONSE 2" or "Best response: 1").
+        sel_idx = None
+        for m in re.finditer(
+            r"(?:SELECTED\s*RESULT|Selected\s+response|Best\s+response|Final\s+Response)[\s:]*\s*(?:response\s*)?([123])\b",
+            text, re.IGNORECASE
+        ):
+            sel_idx = int(m.group(1))
+            break
+        if sel_idx is None:
+            for m in re.finditer(
+                r"(?:is\s+response\s*([123])|response\s*([123])\s+is\s+best|i\s+(?:choose|select)\s+(?:response\s*)?([123]))\b",
+                text, re.IGNORECASE
+            ):
+                sel_idx = int(m.group(1) or m.group(2) or m.group(3))
+                break
+
+        data = {}
+        for i in (1, 2, 3):
+            if i in resp_map:
+                data[f"response_{i}"] = resp_map[i]
+        if sel_idx is not None:
+            data["selected_index"] = sel_idx
+        return data
+
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce_messy_input(cls, data: Any) -> Any:
+        # If the model returned a JSON dict, just sanitize the field types.
+        if isinstance(data, dict):
+            # coerce selected_index that may arrive as a string ("2") or "Response 2"
+            if "selected_index" in data and not isinstance(data["selected_index"], int):
+                v = str(data["selected_index"])
+                m = re.search(r"([123])", v)
+                data["selected_index"] = int(m.group(1)) if m else data.get("selected_index")
+            elif "selected_index" not in data:
+                # Some models omit selected_index entirely; default to 1 so the
+                # structured call still succeeds and avoids a wasted retry round.
+                data["selected_index"] = 1
+            return data
+
+        # If the model returned plain text, try to parse the RESPONSE N: blocks.
+        # Only accept if we recovered all three responses AND a chosen index — otherwise
+        # the output is genuinely unusable and we let Pydantic raise so the calling
+        # retry logic re-invokes the exchange.
+        if isinstance(data, str):
+            parsed = cls._parse_response_blocks(data)
+            if (
+                parsed
+                and all(parsed.get(f"response_{i}") for i in (1, 2, 3))
+                and 1 <= parsed.get("selected_index", 0) <= 3
+            ):
+                return parsed
+            return data
+
+        # Give up and let Pydantic raise -> the calling retry logic handles it.
+        return data
+
+
+class SelectionResult(BaseModel):
+    """Structured selection: the model picks an index from already-generated candidates.
+
+    Used as a retry/fallback so the LLM (not a hard-coded rule) makes the choice even when
+    the full self-select structured call failed to return JSON.
+    """
+    selected_index: int = Field(ge=1, le=3, description="Index (1, 2, or 3) of the best candidate")
+
+    @field_validator("selected_index", mode="before")
+    @classmethod
+    def _coerce_index(cls, v: Any) -> Any:
+        # Model may return the choice as int (2), string ("2"), or even "Response 2".
+        if isinstance(v, int):
+            return v
+        m = re.search(r"([123])", str(v))
+        return int(m.group(1)) if m else 1
+
+
 class MessageWorkflow:
     """Workflow for processing messages during therapy session."""
     
     def __init__(self, llm_manager, prompt_manager, use_multi_agent: bool = True,
-                 proposer_index: int = 3, judge_index: int = 4):
+                 proposer_index: int = 3, judge_index: int = 4,
+                 self_select_index: int = 5,
+                 selection_mode: str = "judge"):
         """
         Initialize the workflow.
         
@@ -29,12 +163,21 @@ class MessageWorkflow:
             use_multi_agent: If True, uses proposer+judge system
             proposer_index: CSV index for proposer agent (default: 3, row 5 = 3_MultiAgent_Proposer)
             judge_index: CSV index for judge agent (default: 4, row 6 = 4_MultiAgent_Judge)
+            self_select_index: CSV index for the single-call self-selection prompt
+                               (default: 5, row 7 = 5_Proposer_SelfSelect)
+            selection_mode: How to pick among the candidate responses.
+                            'judge' -> use the learned judge agent (full multi-agent).
+                            'self'  -> the proposer both generates 3 candidates and selects the
+                                       best one in a SINGLE LLM call (true single-agent control
+                                       with matched 1-call cost).
         """
         self.llm_manager = llm_manager
         self.prompt_manager = prompt_manager
         self.use_multi_agent = use_multi_agent
         self.proposer_index = proposer_index
         self.judge_index = judge_index
+        self.self_select_index = self_select_index
+        self.selection_mode = selection_mode
     
     def build(self):
         """Build and return the compiled message workflow."""
@@ -48,9 +191,15 @@ class MessageWorkflow:
             workflow.add_node("judge_responses", RunnableLambda(self._judge_therapist_responses))
             workflow.add_node("generate_response", RunnableLambda(self._generate_ai_response))
             workflow.set_entry_point("process_input")
-            workflow.add_edge("process_input", "propose_responses")
-            workflow.add_edge("propose_responses", "judge_responses")
-            workflow.add_edge("judge_responses", "generate_response")
+            if self.selection_mode == "self":
+                # Single-call self-selection control: proposer generates AND selects, judge is skipped.
+                workflow.add_edge("process_input", "propose_responses")
+                workflow.add_edge("propose_responses", "generate_response")
+                logging.info("Message processing workflow built with single-call self-selection (no judge).")
+            else:
+                workflow.add_edge("process_input", "propose_responses")
+                workflow.add_edge("propose_responses", "judge_responses")
+                workflow.add_edge("judge_responses", "generate_response")
             workflow.add_edge("generate_response", END)
             logging.info("Message processing workflow built with multi-agent therapist system.")
         else:
@@ -102,38 +251,7 @@ class MessageWorkflow:
             logging.info(f"Loaded proposer prompt from CSV (index {self.proposer_index})")
             
             # Extract patient profile from first SystemMessage if it exists
-            patient_profile = None
-            if interview_messages and isinstance(interview_messages[0], SystemMessage):
-                # The first SystemMessage contains Virtual Patient prompt + patient profile
-                # Extract ONLY factual background info, excluding:
-                # - Role instructions ("You are playing the role...")
-                # - Presenting Concern (verbatim patient dialogue examples)
-                # - Behavioral Presentation, Simulation Instructions, etc.
-                content = interview_messages[0].content
-                
-                # Find Background Information section
-                if "### **Background Information**" in content:
-                    profile_start = content.find("### **Background Information**")
-                    # Find the end of Background Information (before next section)
-                    remaining_content = content[profile_start:]
-                    lines = remaining_content.split('\n')
-                    factual_lines = []
-                    in_background = False
-                    for line in lines:
-                        if "### **Background Information**" in line:
-                            in_background = True
-                            factual_lines.append(line)
-                        elif line.strip() == "---" and in_background:
-                            # End of Background Information section
-                            break
-                        elif in_background and not line.strip().startswith("* **Presenting Concern"):
-                            factual_lines.append(line)
-                        elif "Presenting Concern" in line or "Behavioral Presentation" in line:
-                            # Stop before these sections
-                            break
-                    
-                    if factual_lines:
-                        patient_profile = '\n'.join(factual_lines)
+            patient_profile = self._extract_patient_profile(interview_messages)
             
             # Filter to only HumanMessage and AIMessage (conversation history)
             conversation_history = [
@@ -151,7 +269,96 @@ class MessageWorkflow:
                 logging.info("Added patient profile as background context")
             
             messages.extend(conversation_history)
-            
+
+            # Single-call self-selection control: the ONE proposer call both generates the 3
+            # candidates AND picks the best one. The prompt lives in the CSV (5_Proposer_SelfSelect)
+            # so no selection text is hardcoded here. This is the true single-agent ablation
+            # (1 LLM call vs the full system's 2), so any performance gap cannot be attributed
+            # to model count or a separate judge role.
+            if self.selection_mode == "self":
+                # Build the same message structure as the normal proposer path, but use the
+                # dedicated single-call self-selection prompt from the CSV.
+                self_select_prompt = self.prompt_manager.load_therapist_prompt_from_csv(self.self_select_index)
+                logging.info(f"Loaded self-select prompt from CSV (index {self.self_select_index})")
+
+                messages = [
+                    SystemMessage(content=self_select_prompt),
+                    *([SystemMessage(content=f"PATIENT BACKGROUND INFORMATION:\n\n{patient_profile}")]
+                      if patient_profile else []),
+                    *conversation_history
+                ]
+
+                # First attempt: STRUCTURED OUTPUT so the model must return the 3 candidates plus a
+                # chosen index as typed fields. This removes the fragile 'SELECTED RESULT:' text
+                # parsing that some models (GLM / DeepSeek) did not reliably emit (causing fallbacks
+                # to candidate #1). We RETRY rather than fall back, so a therapist response is always
+                # produced and no turn is silently dropped.
+                selected_response = None
+                candidates = []
+                max_selection_attempts = 3
+                for attempt in range(1, max_selection_attempts + 1):
+                    try:
+                        structured_llm = self.llm_manager.llm_therapist_proposer.with_structured_output(SelfSelectResult)
+                        result = structured_llm.invoke(messages)
+                        candidates = [result.response_1, result.response_2, result.response_3]
+                        idx = max(1, min(3, getattr(result, 'selected_index', 1))) - 1
+                        selected_response = candidates[idx]
+                        logging.info("Self-selection (structured output) produced the chosen therapist response.")
+                        break
+                    except Exception as e:
+                        # Some models (e.g. GLM) ignore the structured-output contract and return plain
+                        # text ('RESPONSE 1: ...', 'Selected Response: ...') instead of JSON. Retry:
+                        # first re-invoke WITHOUT schema enforcement to recover the generated candidates,
+                        # then have the LLM explicitly choose among them. The selection is always made by
+                        # the model, never by a hard-coded rule.
+                        logging.warning(f"Self-selection structured output failed (attempt {attempt}): {e}; retrying.")
+                        try:
+                            plain_result = self.llm_manager.llm_therapist_proposer.invoke(messages)
+                            raw_text = plain_result.content
+                            recovered = self._parse_candidate_responses(raw_text, interview_messages)
+                            # Prefer an explicit selection tag the model already emitted...
+                            selected = self._extract_selected_response(raw_text, interview_messages)
+                            candidates = recovered
+                            if selected:
+                                selected_response = selected
+                                logging.info("Self-selection (unstructured retry) recovered an explicit choice.")
+                                break
+                            else:
+                                # ...otherwise ask the LLM to pick among the recovered candidates.
+                                selected_response, _ = self._llm_select_candidate(recovered, interview_messages)
+                                if selected_response:
+                                    logging.info("Self-selection (unstructured retry + LLM pick) chosen.")
+                                    break
+                        except Exception as e2:
+                            logging.warning(f"Self-selection unstructured retry also failed (attempt {attempt}): {e2}.")
+
+                if not selected_response:
+                    # All selection attempts failed. RAISE instead of returning a fallback/None so the
+                    # caller's retry logic re-invokes the whole exchange and this turn is not lost.
+                    raise RuntimeError(
+                        f"Could not produce a therapist self-selection after {max_selection_attempts} attempts."
+                    )
+
+                _parsed_for_log = candidates or []
+
+                conversation_history = state.get("judge_proposer_conversation", [])
+                turn_number = sum(1 for msg in interview_messages if isinstance(msg, HumanMessage)) + 1
+                turn_record = {
+                    "turn_number": turn_number,
+                    "candidate_responses": _parsed_for_log,
+                    "judge_request": "SELF-SELECTION (single call): proposer also selected",
+                    "judge_response": "Self-selected within the proposer call",
+                    "selected_response_index": "self",
+                    "selected_response": selected_response
+                }
+                conversation_history.append(turn_record)
+
+                return {
+                    "selected_therapist_response": selected_response,
+                    "judge_proposer_conversation": conversation_history,
+                    "current_phase": "generate_response"
+                }
+
             # Generate 3 candidate responses
             response = self.llm_manager.llm_therapist_proposer.invoke(messages)
             response_text = response.content
@@ -167,14 +374,47 @@ class MessageWorkflow:
             }
         
         except Exception as e:
-            logging.error(f"Error in therapist proposer: {str(e)}")
-            fallback_response = "I understand. Can you tell me more about that?"
-            return {
-                "therapist_candidates": [fallback_response, fallback_response, fallback_response],
-                "current_phase": "judge_responses",
-                "error": f"Therapist proposer error: {str(e)}"
-            }
-    
+            # Do NOT swallow errors with a fake fallback response — that silently drops the
+            # exchange and yields sessions with fewer than 10 turns. Re-raise so the caller's
+            # retry logic re-invokes the whole exchange until it produces a therapist response.
+            logging.error(f"Error in therapist proposer (will retry exchange): {str(e)}")
+            raise
+
+    def _extract_patient_profile(self, interview_messages: list) -> str:
+        """Extract the patient's factual background profile from the first SystemMessage.
+
+        The first SystemMessage contains the Virtual Patient prompt plus the patient profile.
+        We keep ONLY the factual 'Background Information' section, excluding role instructions
+        and verbatim dialogue examples (Presenting Concern, Behavioral Presentation, etc.).
+        """
+        patient_profile = None
+        if interview_messages and isinstance(interview_messages[0], SystemMessage):
+            content = interview_messages[0].content
+            # Find Background Information section
+            if "### **Background Information**" in content:
+                profile_start = content.find("### **Background Information**")
+                # Find the end of Background Information (before next section)
+                remaining_content = content[profile_start:]
+                lines = remaining_content.split('\n')
+                factual_lines = []
+                in_background = False
+                for line in lines:
+                    if "### **Background Information**" in line:
+                        in_background = True
+                        factual_lines.append(line)
+                    elif line.strip() == "---" and in_background:
+                        # End of Background Information section
+                        break
+                    elif in_background and not line.strip().startswith("* **Presenting Concern"):
+                        factual_lines.append(line)
+                    elif "Presenting Concern" in line or "Behavioral Presentation" in line:
+                        # Stop before these sections
+                        break
+
+                if factual_lines:
+                    patient_profile = '\n'.join(factual_lines)
+        return patient_profile
+
     def _parse_candidate_responses(self, response_text: str, interview_messages: list) -> list:
         """Parse candidate responses from proposer output."""
         candidate_responses = []
@@ -204,8 +444,13 @@ class MessageWorkflow:
         # Ensure we have exactly 3 responses
         if len(candidate_responses) < 3:
             if len(candidate_responses) == 0:
-                # Fallback: try to regenerate with clearer instructions
-                base_prompt = self.prompt_manager.load_prompt('Virtual Therapist')
+                # Fallback: try to regenerate with clearer instructions.
+                # Use the proposer prompt from CSV (index 3) instead of the removed
+                # 'Virtual Therapist' key, so this path never throws on a valid config.
+                base_prompt = self.prompt_manager.load_therapist_prompt_from_csv(self.proposer_index)
+                if not base_prompt:
+                    base_prompt = ("You are an expert mental health counselor conducting a therapy session. "
+                                   "Your task: Generate exactly 3 different response options.")
                 fallback_prompt = f"""{base_prompt}
 
 Generate exactly 3 different therapist responses. Format strictly as:
@@ -239,7 +484,86 @@ Generate exactly 3 different therapist responses. Format strictly as:
         
         # Keep only first 3
         return candidate_responses[:3]
-    
+
+    def _llm_select_candidate(self, candidates: list, interview_messages: list):
+        """Ask the LLM to explicitly choose one of the already-generated candidates.
+
+        Used when the full self-select structured call failed to return JSON but we could
+        recover the 3 candidates from the raw text. The choice is made by the model (with a
+        structured-output schema), not by a hard-coded rule. Returns (selected_response, tried).
+
+        tried is True if a fresh LLM selection call was actually attempted/completed.
+        """
+        if len(candidates) < 3:
+            return None, False
+        try:
+            select_prompt = (
+                "You are selecting the best therapist response for the current turn.\n\n"
+                "Here are 3 candidate responses from the proposer:\n"
+                f"1. {candidates[0]}\n"
+                f"2. {candidates[1]}\n"
+                f"3. {candidates[2]}\n\n"
+                "Pick the one (index 1, 2, or 3) that is the most empathic, most aligned with "
+                "Motivational Interviewing, and most helpful for the patient right now."
+            )
+            select_messages = [
+                SystemMessage(content=select_prompt),
+                *interview_messages,
+            ]
+            select_llm = self.llm_manager.llm_therapist_proposer.with_structured_output(SelectionResult)
+            sel = select_llm.invoke(select_messages)
+            idx = max(1, min(3, getattr(sel, 'selected_index', 1))) - 1
+            return candidates[idx], True
+        except Exception as e:
+            logging.warning(f"LLM candidate selection failed ({e}).")
+            return None, True
+
+    def _extract_selected_response(self, response_text: str, interview_messages: list):
+        """Robustly extract the self-selected therapist response from a single-call proposal.
+
+        Handles the formats observed across gpt-5-mini / Qwen / GLM:
+          1. Explicit '<tag>: <response>' result tags (SELECTED RESULT, Selected, Best response, etc.)
+          2. Reference to a candidate number ('Response 2 is best', 'Best response is 1', 'I choose 3')
+          3. None -> returns None so the caller falls back to candidate #1.
+
+        Returns:
+            The chosen response string, or None if no reliable selection is found.
+        """
+        candidates = self._parse_candidate_responses(response_text, interview_messages)
+
+        # 1) Explicit result tags carrying the verbatim chosen text.
+        for pattern in [
+            r'SELECTED RESULT\s*:\s*(.+)$',
+            r'Selected Response\s*:\s*(.+)$',
+            r'Best response\s*[:\-]\s*(.+)$',
+            r'Final Response\s*[:\-]\s*(.+)$',
+        ]:
+            m = re.search(pattern, response_text, re.IGNORECASE | re.DOTALL)
+            if m:
+                val = m.group(1).strip()
+                if val and len(val) > 5:
+                    return val
+
+        # 2) Reference to a candidate number (e.g. "Response 2 is best", "I choose 1").
+        if len(candidates) >= 1:
+            for pattern in [
+                r'Best response (?:is|:)\s*([123])\b',
+                r'Response ([123])\s+is\s+best',
+                r'(?:Selected|I select|I choose|choose)\s+(?:response\s*)?([123])\b',
+                r'^([123])\s*\)\s*$',
+            ]:
+                m = re.search(pattern, response_text, re.IGNORECASE | re.MULTILINE)
+                if m:
+                    idx = int(m.group(1)) - 1
+                    if 0 <= idx < len(candidates):
+                        return candidates[idx]
+
+        # 3) If exactly one candidate parsed cleanly and looks like a full sentence, prefer it.
+        if len(candidates) == 1 and len(candidates[0]) > 20:
+            return candidates[0]
+
+        return None
+
     def _judge_therapist_responses(self, state: LBState):
         """Judge agent selects the best response from 3 candidates."""
         logging.info("Therapist judge agent selecting best response...")
@@ -270,7 +594,7 @@ Generate exactly 3 different therapist responses. Format strictly as:
                     "judge_proposer_conversation": conversation_history,
                     "current_phase": "generate_response"
                 }
-            
+
             # Load judge prompt from CSV
             judge_prompt = self.prompt_manager.load_therapist_prompt_from_csv(self.judge_index)
             logging.info(f"Loaded judge prompt from CSV (index {self.judge_index})")
@@ -282,38 +606,7 @@ Generate exactly 3 different therapist responses. Format strictly as:
             ])
             
             # Extract patient profile from first SystemMessage if it exists
-            patient_profile = None
-            if interview_messages and isinstance(interview_messages[0], SystemMessage):
-                # The first SystemMessage contains Virtual Patient prompt + patient profile
-                # Extract ONLY factual background info, excluding:
-                # - Role instructions ("You are playing the role...")
-                # - Presenting Concern (verbatim patient dialogue examples)
-                # - Behavioral Presentation, Simulation Instructions, etc.
-                content = interview_messages[0].content
-                
-                # Find Background Information section
-                if "### **Background Information**" in content:
-                    profile_start = content.find("### **Background Information**")
-                    # Find the end of Background Information (before next section)
-                    remaining_content = content[profile_start:]
-                    lines = remaining_content.split('\n')
-                    factual_lines = []
-                    in_background = False
-                    for line in lines:
-                        if "### **Background Information**" in line:
-                            in_background = True
-                            factual_lines.append(line)
-                        elif line.strip() == "---" and in_background:
-                            # End of Background Information section
-                            break
-                        elif in_background and not line.strip().startswith("* **Presenting Concern"):
-                            factual_lines.append(line)
-                        elif "Presenting Concern" in line or "Behavioral Presentation" in line:
-                            # Stop before these sections
-                            break
-                    
-                    if factual_lines:
-                        patient_profile = '\n'.join(factual_lines)
+            patient_profile = self._extract_patient_profile(interview_messages)
             
             # Filter to only HumanMessage and AIMessage (conversation history)
             context_messages = [

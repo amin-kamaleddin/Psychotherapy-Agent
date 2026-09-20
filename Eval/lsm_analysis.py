@@ -184,7 +184,7 @@ def build_session_mode_map(root_dir):
         dict: {session_folder_name: (patient_id, mode)}
     """
     session_map = {}
-    session_metadata_dir = os.path.join(root_dir, 'Session_Metadata')
+    session_metadata_dir = os.getenv("PSYCH_META_DIR") or os.path.join(root_dir, 'Session_Metadata')
     if not os.path.exists(session_metadata_dir):
         return session_map
     for csv_path in glob.glob(os.path.join(session_metadata_dir, '*', 'results_*.csv')):
@@ -287,7 +287,7 @@ def main():
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     ensure_csv_dir()
     
-    saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
+    saved_sessions_dir = os.getenv("PSYCH_SAVE_DIR") or os.path.join(root_dir, 'Saved_Sessions')
 
     # Initialize LSM calculator
     lsm_calc = LSMCalculator()
@@ -372,7 +372,18 @@ def main():
                     'avg_lsm': round(avg_lsm, 3)
                 })
     
-    # 4. Aggregate by Therapist Mode and Turn (Average across sessions)
+    # 4. Save the per-patient LSM (needed for per-patient distribution plots).
+    #    Keeps patient_id so plot_metrics can draw patient-level distributions pooled
+    #    across models, instead of only the aggregated mean/std.
+    if final_rows:
+        pdf = pd.DataFrame(final_rows)
+        model_tag = os.getenv("PSYCH_MODEL", "")
+        prefix = f"{model_tag}_" if model_tag else ""
+        pat_csv = os.path.join(CSV_DIR, f'{prefix}lsm_per_patient.csv')
+        pdf.to_csv(pat_csv, index=False)
+        print(f"Saved per-patient LSM to {pat_csv} ({len(pdf)} rows)")
+
+    # 5. Aggregate by Therapist Mode and Turn (Average across sessions)
     if final_rows:
         df = pd.DataFrame(final_rows)
         print("\nCalculated average LSM by Therapist Mode and Turn:")
@@ -403,7 +414,10 @@ def main():
                 print(f"{int(row['turn_number']):<10} | {row['avg_lsm']:<20.3f} | {row['std_lsm']:<20.3f} | {int(row['count']):<10}")
                 
             # Save to CSV similar to metrics_output_{mode}.csv
-            output_csv_name = f'lsm_metrics_{mode}.csv'
+            # Model-tagged when PSYCH_MODEL is set so per-model results don't overwrite.
+            model_tag = os.getenv("PSYCH_MODEL", "")
+            prefix = f"{model_tag}_" if model_tag else ""
+            output_csv_name = f'{prefix}lsm_metrics_{mode}.csv'
             output_csv_path = os.path.join(CSV_DIR, output_csv_name)
             grouped.to_csv(output_csv_path, index=False)
             print(f"Saved aggregated metrics to {output_csv_path}")

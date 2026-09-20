@@ -20,6 +20,8 @@ print_lock = Lock()
 
 import pandas as pd
 
+from langchain_core.messages import AIMessage
+
 # Import PsychotherapyAgent classes from modular version
 from PsychotherapyAgent import PsychotherapyMultiAgent, PsychotherapySingleAgent
 from utils.api_key_loader import load_openai_api_key
@@ -31,6 +33,119 @@ THERAPIST_CSV_PATH = "Therapist_Prompts/therapist_prompts.csv"
 PATIENT_DIR = "Patient_Profiles/MI/"
 
 API_KEY = load_openai_api_key()
+
+
+def model_runs_dir(model: str):
+    """Resolve the Model_Runs/<model>/ root directory (sessions + metadata).
+
+    Args:
+        model: Model identifier, e.g. 'gpt-5-mini', 'qwen/qwen3.8-27b', 'deepseek/deepseek-v4-flash'.
+               Use None/'' for the legacy root layout (Saved_Sessions, Session_Metadata).
+    """
+    if not model:
+        return None
+    # Sanitize model id (e.g. 'qwen/qwen3.8-27b') into a safe folder name
+    folder = model.replace("/", "-")
+    base = os.path.join("Model_Runs", folder)
+    os.makedirs(base, exist_ok=True)
+    return base
+
+
+def find_complete_mode_csv(mode: str, args, start_patient=0, end_patient=133):
+    """Locate a COMPLETE results CSV for a mode in the model's Session_Metadata root.
+
+    'Complete' means the mode has the expected number of UNIQUE, fully-saved session folders
+    (num_patients * fold). Sessions may be split across multiple result-CSV folders (e.g. from
+    resumed partial runs), so we aggregate unique sessions referenced by any result CSV for this
+    mode and require each to correspond to a fully-present folder in Saved_Sessions.
+
+    Returns:
+        (path, folder) of the last result CSV contributing to completeness, else (None, None).
+    """
+    import glob as _glob
+    meta_root = os.environ.get("PSYCH_META_DIR") or "Session_Metadata"
+    save_root = os.environ.get("PSYCH_SAVE_DIR") or "Saved_Sessions"
+    # Expected sessions for a complete run
+    try:
+        pats = get_patient_files(start_patient, end_patient)
+        num_patients = len(pats)
+    except Exception:
+        num_patients = end_patient - start_patient
+    fold = getattr(args, 'fold', 1)
+    expected = num_patients * fold
+    REQUIRED = ["detailed_feedback.txt", "interview_transcript.txt", "MI_EVAL.txt"]
+
+    candidates = _glob.glob(os.path.join(meta_root, "*", f"results_{mode}.csv"))
+    # If any SINGLE folder already has >= expected rows, it's trivially complete.
+    for csv_path in candidates:
+        try:
+            df = pd.read_csv(csv_path)
+            if len(df) >= expected:
+                return csv_path, os.path.dirname(csv_path)
+        except Exception:
+            continue
+
+    # Otherwise aggregate UNIQUE valid sessions across all result CSVs for this mode.
+    unique_sessions = set()
+    last_csv = None
+    for csv_path in candidates:
+        last_csv = csv_path
+        try:
+            df = pd.read_csv(csv_path)
+            for s in df['Session']:
+                sess = str(s)
+                folder = os.path.join(save_root, sess)
+                if os.path.isdir(folder) and all(
+                    os.path.isfile(os.path.join(folder, f)) for f in REQUIRED
+                ):
+                    unique_sessions.add(sess)
+        except Exception:
+            continue
+
+    if len(unique_sessions) >= expected and last_csv:
+        return last_csv, os.path.dirname(last_csv)
+    return None, None
+
+
+def find_existing_session_folders(mode: str, args):
+    """Map which patient_ids already have saved session folders for a mode.
+
+    Determines completeness at PATIENT granularity by parsing the 'Session' folder names
+    (which encode patient_{id}) referenced by any already-saved results CSV of that mode,
+    OR by scanning Saved_Sessions for folders whose names match the mode.
+
+    Returns:
+        dict: {patient_id_str: count_of_saved_sessions}. A patient is 'done' when count >= fold.
+    """
+    import glob as _glob
+    meta_root = os.environ.get("PSYCH_META_DIR") or "Session_Metadata"
+    save_root = os.environ.get("PSYCH_SAVE_DIR") or "Saved_Sessions"
+
+    per_patient_count = {}
+
+    # 1) From results CSVs already written for this mode.
+    #    Count a session as saved ONLY if its folder is present AND has the required files.
+    REQUIRED = ["detailed_feedback.txt", "interview_transcript.txt", "MI_EVAL.txt"]
+    for csv_path in _glob.glob(os.path.join(meta_root, "*", f"results_{mode}.csv")):
+        try:
+            df = pd.read_csv(csv_path)
+            for _, row in df.iterrows():
+                sess = str(row.get('Session', ''))
+                m = re.search(r'patient_(\d+)', sess)
+                if m and str(row.get('Mode')) == mode:
+                    pid = m.group(1)
+                    folder = os.path.join(save_root, sess)
+                    # Validate the session folder actually has the core files before counting.
+                    if os.path.isdir(folder) and all(
+                        os.path.isfile(os.path.join(folder, f)) for f in REQUIRED
+                    ):
+                        per_patient_count[pid] = per_patient_count.get(pid, 0) + 1
+        except Exception:
+            continue
+
+    # 2) Only results-CSV references are authoritative for mode attribution; orphan session
+    #    folders (no results CSV) cannot be safely attributed to a mode, so they are ignored.
+    return per_patient_count
 
 
 # =============================
@@ -62,13 +177,17 @@ def run_test(patient_profile_path, therapist_profile_number,
         patient_number: Optional patient identifier for folder naming
         therapist_feedback_csv: Optional CSV file with therapist feedback prompts
         api_key_input: Optional API key
-        therapist_mode: One of "simple", "trained_agent", "complex", or "multi_agent"
+        therapist_mode: One of "simple", "trained_agent", "complex", "multi_agent", or "proposer_only"
                         - "simple": Single-agent with 0_Simple_Agent prompt (index 0, no patient profile)
                         - "trained_agent": Single-agent with 1_Trained_Agent prompt (index 1, MI principles,
                                            no patient profile — distinct from the complex agent prompt)
                         - "complex": Single-agent with 2_Complex_Agent prompt (index 2, MI principles +
                                      explicit profile access, includes patient profile at runtime)
                         - "multi_agent": Multi-agent system (proposer index 3 + judge index 4)
+                        - "proposer_only": Ablation control — SAME proposer model but the selection
+                                           happens inside the single proposer LLM call (self-selection),
+                                           not via a separate judge. Matched 1-call cost vs the full
+                                           system's 2 calls, isolating the separate judge module.
     """
     api_key_input = API_KEY or api_key_input or "key"
 
@@ -84,11 +203,11 @@ def run_test(patient_profile_path, therapist_profile_number,
         add_on = df.loc[therapist_profile_number, "Prompt"]
 
     # Determine if using multi-agent system
-    use_multi_agent = (therapist_mode == "multi_agent")
+    use_multi_agent = (therapist_mode in ("multi_agent", "proposer_only"))
 
     # Initialize appropriate session manager based on mode
     if use_multi_agent:
-        # Multi-agent mode: use PsychotherapyMultiAgent
+        # Multi-agent / proposer_only mode: use PsychotherapyMultiAgent
         lb = PsychotherapyMultiAgent(api_key_input)
         
         # Set proposer and judge to use CSV rows 5 and 6 (indices 3 and 4)
@@ -98,6 +217,14 @@ def run_test(patient_profile_path, therapist_profile_number,
         proposer_index = 3  # Row 5 in CSV: 3_MultiAgent_Proposer
         judge_index = 4     # Row 6 in CSV: 4_MultiAgent_Judge
         lb.set_multi_agent_therapist_profiles(proposer_index, judge_index)
+        if therapist_mode == "proposer_only":
+            # Ablation control: same proposer model, but selection happens INSIDE the single
+            # proposer LLM call (self-selection) instead of a separate judge agent.
+            # This is a matched-cost single-agent control: 1 call vs the full system's 2 calls.
+            lb.set_selection_mode("self")
+            logging.info("proposer_only mode: single-call self-selection (proposer generates AND selects)")
+        else:
+            lb.set_selection_mode("judge")
         logging.info(f"Multi-agent mode: Proposer index {proposer_index}, Judge index {judge_index}")
     elif therapist_mode == "trained_agent":
         # Trained agent: 1_Trained_Agent prompt (index 1) — full MI principles, patient profile withheld at runtime
@@ -133,12 +260,34 @@ def run_test(patient_profile_path, therapist_profile_number,
     # Pass metadata to start_session
     session_result = lb.start_session(case_study=case, session_metadata=session_metadata)
 
-    # Run 10 exchanges between therapist and patient
-    for exchange_num in range(10):
-        # Both modes now use send_message() which handles therapist + patient response automatically
-        # Multi-agent: proposer/judge generates therapist response internally
-        # Single-agent: PsychotherapySingleAgent generates therapist response internally
+    # Run 10 exchanges between therapist and patient.
+    # We GUARANTEE a full 10-turn session by measuring the actual number of patient turns
+    # (AIMessage entries) in interview_messages after each send_message(), rather than trusting
+    # the loop iteration count. If a send_message() call fails to append a turn (transient
+    # proposer/judge/patient error), we keep calling it until 10 patient turns are recorded.
+    # A generous safety cap prevents an infinite loop on a persistently failing session.
+    TARGET_TURNS = 10
+    MAX_SEND_ATTEMPTS = 60  # hard cap: 10 turns x 6x margin for transient failures
+
+    def _count_patient_turns():
+        try:
+            state = lb.get_session_state()
+            msgs = state.get("interview_messages", []) or []
+            # Patient responses are AIMessage; therapist responses are HumanMessage.
+            return sum(1 for m in msgs if isinstance(m, AIMessage))
+        except Exception:
+            return 0
+
+    send_calls = 0
+    while _count_patient_turns() < TARGET_TURNS and send_calls < MAX_SEND_ATTEMPTS:
+        send_calls += 1
         session_result = lb.send_message()
+        current_turns = _count_patient_turns()
+        logging.info(f"Exchange send #{send_calls} -> {current_turns}/{TARGET_TURNS} patient turns recorded.")
+
+    if _count_patient_turns() < TARGET_TURNS:
+        logging.error(f"Session did not reach {TARGET_TURNS} turns after {MAX_SEND_ATTEMPTS} send attempts "
+                      f"(recorded {_count_patient_turns()}); proceeding with partial session.")
 
     # End session and get feedback
     session_result = lb.end_session()
@@ -234,7 +383,8 @@ def extract_scores(eval_file_paths):
 # === Experiment Pipeline ====
 # =============================
 
-def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num=None, complex_therapist_num=None):
+def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num=None, complex_therapist_num=None,
+                             resume_saved_counts=None):
     """Main function for parallel execution mode.
     
     Args:
@@ -242,8 +392,12 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         therapist_mode: One of "simple", "trained_agent", "complex", or "multi_agent"
         simple_therapist_num: Therapist profile index for simple mode (default: 0, CSV index 0/row 2)
         complex_therapist_num: Therapist profile index for complex mode (default: 2, CSV index 2/row 4)
+        resume_saved_counts: Optional dict {patient_id_str: num_already_saved_sessions}. When set
+                             (fold-aware resume), only `fold - saved` fold copies are scheduled for
+                             each patient, so previously saved folds are reused.
     """
     start_time = time.time()
+    resume_saved_counts = resume_saved_counts or {}
     
     # Determine which therapist profile number to use
     # CSV structure: 0=simple (row 2), 1=trained_agent (row 3), 2=complex (row 4),
@@ -254,7 +408,7 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         therapist_num = 1  # CSV index 1 (row 3): 1_Trained_Agent — complex MI, no patient profile
     elif therapist_mode == "complex":
         therapist_num = complex_therapist_num if complex_therapist_num is not None else 2  # CSV index 2 (row 4)
-    else:  # multi_agent
+    else:  # multi_agent / proposer_only
         therapist_num = 3  # multi-agent uses proposer index 3 (row 5) and judge index 4 (row 6)
 
     # Get patient files for this range
@@ -273,8 +427,10 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
     # Create save folder
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     fold_str = f"_fold{fold}" if fold > 1 else ""
+    # Model-aware metadata root (Model_Runs/<model>/Session_Metadata) when --model given
+    meta_root = os.environ.get("PSYCH_META_DIR", "Session_Metadata")
     save_folder = os.path.join(
-        "Session_Metadata",
+        meta_root,
         f"{args.run_id}_{therapist_mode}_patients_{args.start_patient}_{args.end_patient}{fold_str}_{timestamp}"
     )
     os.makedirs(save_folder, exist_ok=True)
@@ -374,14 +530,45 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
         print(f"\nStarting parallel processing with {max_workers} workers...")
         print(f"Processing {num_patients} patients x {fold} folds = {total_runs} total runs in {therapist_mode} mode\n")
     
+    # Sort key for patient order (used by checkpoint writes and final save)
+    patient_file_basenames = {os.path.basename(f): idx for idx, f in enumerate(patient_files)}
+    
     # Process patients in parallel
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # Submit all tasks - create fold copies of each patient
+        # Submit all tasks - create fold copies of each patient.
+        # Fold-aware resume: for a patient with `k` already-saved sessions, skip the first `k`
+        # fold copies so only the missing folds are re-run (reuses the saved sessions).
         patient_data_list = []
+        skipped_resume = 0
         for fold_idx in range(fold):
             for patient_idx, patient_file in enumerate(patient_files):
+                pid = str(args.start_patient + patient_idx)
+                saved_k = resume_saved_counts.get(pid, 0)
+                if fold_idx < saved_k:
+                    skipped_resume += 1
+                    continue
                 patient_data_list.append((fold_idx, patient_idx, patient_file))
+        if skipped_resume:
+            print(f"  [resume] Skipping {skipped_resume} patient-fold combos already saved.")
         
+        # Incremental checkpoint: write progress CSV after each completed patient so a crash
+        # leaves a resumable partial results CSV (helps find_existing_session_folders).
+        csv_path = os.path.join(save_folder, f"results_{therapist_mode}.csv")
+        checkpoint_lock = Lock()
+
+        def _write_checkpoint():
+            if not all_results:
+                return
+            snapshot = sorted(
+                all_results,
+                key=lambda x: patient_file_basenames.get(x["Patient"], 999)
+            )
+            # Atomic write: write to a temp file then os.replace(), so a crash mid-write never
+            # leaves a truncated/corrupt checkpoint CSV.
+            tmp_path = f"{csv_path}.tmp.{os.getpid()}"
+            pd.DataFrame(snapshot).to_csv(tmp_path, index=False)
+            os.replace(tmp_path, csv_path)
+
         future_to_patient = {executor.submit(process_single_patient, data): data for data in patient_data_list}
         
         # Collect results as they complete
@@ -392,7 +579,9 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
             try:
                 result = future.result(timeout=600)  # 10-minute per-task timeout
                 if result is not None:
-                    all_results.append(result)
+                    with checkpoint_lock:
+                        all_results.append(result)
+                        _write_checkpoint()
             except TimeoutError:
                 patient_data = future_to_patient[future]
                 with print_lock:
@@ -406,13 +595,24 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
                 print(f"Progress: {completed}/{total_runs} runs completed")
     
     # Sort results by patient filename to maintain order
-    patient_file_basenames = {os.path.basename(f): idx for idx, f in enumerate(patient_files)}
     all_results.sort(key=lambda x: patient_file_basenames.get(x["Patient"], 999))
 
-    # Save results to CSV
-    results_df = pd.DataFrame(all_results)
+    # Save results to CSV (atomic). If NOTHING was newly run (e.g. resume skipped all patient-fold
+    # combos) and a complete results CSV already exists for this mode, avoid writing an empty file
+    # that would shadow the existing complete data.
     csv_path = os.path.join(save_folder, f"results_{therapist_mode}.csv")
-    results_df.to_csv(csv_path, index=False)
+    if not all_results:
+        existing_csv, existing_folder = find_complete_mode_csv(therapist_mode, args)
+        if existing_csv:
+            os.makedirs(save_folder, exist_ok=True)
+            with open(os.path.join(save_folder, "metadata.json"), "w") as f:
+                json.dump(metadata, f, indent=2)
+            print(f"\n[resume] All runs already saved; reusing complete results: {existing_csv}")
+            return existing_folder, existing_csv
+    results_df = pd.DataFrame(all_results)
+    tmp_path = f"{csv_path}.tmp.{os.getpid()}"
+    results_df.to_csv(tmp_path, index=False)
+    os.replace(tmp_path, csv_path)
     print(f"\nResults saved to {csv_path}")
 
     # Save all results to CSV files
@@ -425,60 +625,74 @@ def run_parallel_experiments(args, therapist_mode="simple", simple_therapist_num
 
 
 def run_comparison_experiment(args):
-    """Run all four therapist modes (simple, trained_agent, complex, multi-agent) and compare results."""
+    """Run all five therapist modes (simple, trained_agent, complex, multi-agent, proposer_only) and compare.
+
+    With --resume, modes that already have a COMPLETE results CSV are skipped (reused), so an
+    interrupted --compare run can pick up where it left off.
+    """
     print("\n" + "=" * 80)
-    print("RUNNING COMPARISON EXPERIMENT: Simple vs Trained Agent vs Complex vs Multi-Agent")
+    print("RUNNING COMPARISON EXPERIMENT: Simple vs Trained Agent vs Complex vs Proposer-Only vs Multi-Agent")
     print("=" * 80)
     
     # Get fold parameter
     fold = getattr(args, 'fold', 1)
     if fold > 1:
         print(f"Running with {fold} folds per patient")
-    
+
+    resume = getattr(args, 'resume', False)
+    if resume:
+        print("[resume] Skipping modes with existing complete results.")
+
     # Get therapist profile numbers from args
     # CSV structure: 0=simple (row 2), 1=trained_agent (row 3), 2=complex (row 4), 3=proposer (row 5), 4=judge (row 6)
     simple_num = args.simple_therapist if hasattr(args, 'simple_therapist') and args.simple_therapist is not None else 0
     complex_num = args.complex_therapist if hasattr(args, 'complex_therapist') and args.complex_therapist is not None else 2  # CSV index 2
+
+    mode_phases = [
+        ("simple",         "SIMPLE prompt mode"),
+        ("trained_agent",  "TRAINED AGENT mode (1_Trained_Agent prompt, index 1, no patient profile)"),
+        ("complex",        "COMPLEX prompt mode"),
+        ("proposer_only",  "PROPOSER-ONLY mode (self-selection ablation)"),
+        ("multi_agent",    "MULTI-AGENT mode"),
+    ]
+
+    results = {}
+    for idx, (mode, label) in enumerate(mode_phases, start=1):
+        print(f"\n[PHASE {idx}] Running {label}...")
+        if resume:
+            existing_csv, existing_folder = find_complete_mode_csv(mode, args)
+            if existing_csv:
+                print(f"  [resume] Found complete results for '{mode}': {existing_csv}")
+                results[mode] = {"folder": existing_folder, "csv": existing_csv}
+                continue
+            print(f"  [resume] No complete results for '{mode}' — running (fold-aware skip where saved).")
+        # Fold-aware resume: get per-patient saved-session counts so already-saved folds are reused.
+        saved_counts = find_existing_session_folders(mode, args) if resume else {}
+        results[mode] = run_parallel_experiments(
+            args, therapist_mode=mode,
+            simple_therapist_num=simple_num,
+            complex_therapist_num=complex_num,
+            resume_saved_counts=saved_counts
+        )
+
+    def _get(mode):
+        r = results.get(mode, {})
+        # runs store a tuple (folder, csv); resume-skipped modes store a dict.
+        if isinstance(r, dict):
+            return r.get("folder"), r.get("csv")
+        return r if isinstance(r, tuple) else (None, None)
+
+    simple_folder, simple_csv = _get("simple")
+    trained_agent_folder, trained_agent_csv = _get("trained_agent")
+    complex_folder, complex_csv = _get("complex")
+    proposer_only_folder, proposer_only_csv = _get("proposer_only")
+    multiagent_folder, multiagent_csv = _get("multi_agent")
     
-    # Run simple mode
-    print("\n[PHASE 1] Running SIMPLE prompt mode...")
-    simple_folder, simple_csv = run_parallel_experiments(
-        args, 
-        therapist_mode="simple",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
+    # Compare results (5-way)
+    print("\n[PHASE 6] Comparing results...")
+    comparison_results = compare_results_five_way(
+        simple_csv, complex_csv, multiagent_csv, trained_agent_csv, proposer_only_csv, args
     )
-    
-    # Run trained_agent mode
-    print("\n[PHASE 2] Running TRAINED AGENT mode (1_Trained_Agent prompt, index 1, no patient profile)...")
-    trained_agent_folder, trained_agent_csv = run_parallel_experiments(
-        args,
-        therapist_mode="trained_agent",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
-    
-    # Run complex mode
-    print("\n[PHASE 3] Running COMPLEX prompt mode...")
-    complex_folder, complex_csv = run_parallel_experiments(
-        args,
-        therapist_mode="complex",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
-    
-    # Run multi-agent mode
-    print("\n[PHASE 4] Running MULTI-AGENT mode...")
-    multiagent_folder, multiagent_csv = run_parallel_experiments(
-        args,
-        therapist_mode="multi_agent",
-        simple_therapist_num=simple_num,
-        complex_therapist_num=complex_num
-    )
-    
-    # Compare results
-    print("\n[PHASE 5] Comparing results...")
-    comparison_results = compare_results_four_way(simple_csv, complex_csv, multiagent_csv, trained_agent_csv, args)
     
     print("\n" + "=" * 80)
     print("COMPARISON COMPLETE!")
@@ -497,10 +711,12 @@ def run_comparison_experiment(args):
         "complex_folder": complex_folder,
         "multiagent_folder": multiagent_folder,
         "trained_agent_folder": trained_agent_folder,
+        "proposer_only_folder": proposer_only_folder,
         "simple_csv": simple_csv,
         "complex_csv": complex_csv,
         "multiagent_csv": multiagent_csv,
         "trained_agent_csv": trained_agent_csv,
+        "proposer_only_csv": proposer_only_csv,
         "comparison": comparison_results
     }
 
@@ -720,6 +936,97 @@ def compare_results_four_way(simple_csv_path, complex_csv_path, multiagent_csv_p
     }
 
 
+def compare_results_five_way(simple_csv_path, complex_csv_path, multiagent_csv_path,
+                             trained_agent_csv_path, proposer_only_csv_path, args):
+    """Compare results from simple, trained_agent, complex, multi-agent, and proposer_only modes."""
+    simple_df = pd.read_csv(simple_csv_path)
+    complex_df = pd.read_csv(complex_csv_path)
+    multiagent_df = pd.read_csv(multiagent_csv_path)
+    trained_agent_df = pd.read_csv(trained_agent_csv_path)
+    proposer_only_df = pd.read_csv(proposer_only_csv_path)
+
+    for df in [simple_df, complex_df, multiagent_df, trained_agent_df, proposer_only_df]:
+        df.sort_values("Patient", inplace=True)
+        df.reset_index(drop=True, inplace=True)
+
+    # Score categories
+    categories = [
+        "Cultivating Change Talk",
+        "Softening Sustain Talk",
+        "Partnership",
+        "Empathy",
+        "Acceptance",
+        "Direction",
+        "Autonomy Support",
+        "Collaboration",
+        "Evocation",
+        "Overall Average"
+    ]
+
+    all_cols = (set(simple_df.columns) & set(complex_df.columns) & set(multiagent_df.columns)
+                & set(trained_agent_df.columns) & set(proposer_only_df.columns))
+
+    modes_map = {
+        "Simple": simple_df, "TrainedAgent": trained_agent_df,
+        "Complex": complex_df, "MultiAgent": multiagent_df, "ProposerOnly": proposer_only_df,
+    }
+
+    comparison_data = []
+    for cat in categories:
+        if cat not in all_cols:
+            continue
+        means = {name: df[cat].dropna() for name, df in modes_map.items() if cat in df.columns}
+        if not all(len(s) > 0 for s in means.values()):
+            continue
+        mean_vals = {name: s.mean() for name, s in means.items()}
+        best_name = max(mean_vals, key=mean_vals.get)
+        best_mode = {"Simple": "Simple", "TrainedAgent": "Trained Agent", "Complex": "Complex",
+                     "MultiAgent": "Multi-Agent", "ProposerOnly": "Proposer-Only"}[best_name]
+
+        row = {"Category": cat, "Best_Mode": best_mode}
+        for name, s in means.items():
+            row[f"{name}_Mean"] = s.mean()
+            row[f"{name}_Std"] = s.std()
+        for a in list(means.items()):
+            for b in list(means.items()):
+                if a[0] < b[0]:
+                    row[f"{a[0]}_vs_{b[0]}"] = means[b[0]].mean() - means[a[0]].mean()
+        comparison_data.append(row)
+
+    comparison_df = pd.DataFrame(comparison_data)
+
+    float_cols = comparison_df.select_dtypes(include='float').columns
+    comparison_df[float_cols] = comparison_df[float_cols].round(4)
+
+    eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
+    csv_dir = os.path.join(eval_dir, "csv")
+    os.makedirs(csv_dir, exist_ok=True)
+
+    comparison_csv = os.path.join(csv_dir, "comparison_results.csv")
+    comparison_df.to_csv(comparison_csv, index=False)
+
+    print("\n" + "=" * 80)
+    print("FIVE-WAY COMPARISON SUMMARY")
+    print("=" * 80)
+    print(comparison_df.to_string(index=False))
+    print(f"\nComparison saved to: {comparison_csv}")
+
+    if "Overall Average" in comparison_df["Category"].values:
+        overall_row = comparison_df[comparison_df["Category"] == "Overall Average"].iloc[0]
+        print(f"\n{'=' * 80}")
+        print("OVERALL AVERAGE COMPARISON")
+        print(f"{'=' * 80}")
+        for name in ["Simple", "TrainedAgent", "Complex", "ProposerOnly", "MultiAgent"]:
+            if f"{name}_Mean" in overall_row:
+                print(f"{name:<14} {overall_row[f'{name}_Mean']:.3f} ± {overall_row[f'{name}_Std']:.3f}")
+        print(f"\nBest Performing: {overall_row['Best_Mode']}")
+
+    return {
+        "comparison_df": comparison_df,
+        "comparison_csv": comparison_csv
+    }
+
+
 def regenerate_comparison_results():
     """Regenerate comparison_results.csv by combining ALL batch results from Session_Metadata.
 
@@ -729,7 +1036,8 @@ def regenerate_comparison_results():
     """
     import glob as _glob
 
-    session_metadata_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Session_Metadata")
+    # Model-aware metadata root (default: root Session_Metadata, or PSYCH_META_DIR for Model_Runs).
+    session_metadata_dir = os.getenv("PSYCH_META_DIR") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "Session_Metadata")
     eval_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Eval")
     csv_dir = os.path.join(eval_dir, "csv")
     os.makedirs(csv_dir, exist_ok=True)
@@ -737,7 +1045,7 @@ def regenerate_comparison_results():
     print("\n[regenerate_comparison_results] Collecting all batch results from Session_Metadata...")
 
     combined = {}
-    for mode in ["simple", "trained_agent", "complex", "multi_agent"]:
+    for mode in ["simple", "trained_agent", "complex", "multi_agent", "proposer_only"]:
         dfs = []
         for csv_path in _glob.glob(os.path.join(session_metadata_dir, "*", f"results_{mode}.csv")):
             try:
@@ -764,7 +1072,13 @@ def regenerate_comparison_results():
     class _Args:
         pass
 
-    if "trained_agent" in tmp_paths:
+    # Proposer_only available -> 5-way comparison; else 4-way; else 3-way.
+    if "proposer_only" in tmp_paths and "trained_agent" in tmp_paths:
+        compare_results_five_way(
+            tmp_paths["simple"], tmp_paths["complex"], tmp_paths["multi_agent"],
+            tmp_paths["trained_agent"], tmp_paths["proposer_only"], _Args()
+        )
+    elif "trained_agent" in tmp_paths:
         compare_results_four_way(
             tmp_paths["simple"], tmp_paths["complex"],
             tmp_paths["multi_agent"], tmp_paths["trained_agent"], _Args()
@@ -870,14 +1184,16 @@ if __name__ == "__main__":
                         help="Run identifier for grouping parallel runs")
     parser.add_argument("--aggregate", action="store_true",
                         help="Aggregate results from parallel runs")
-    parser.add_argument("--mode", type=str, choices=["simple", "trained_agent", "complex", "multi_agent"],
-                        help="Therapist mode: simple, trained_agent (complex MI no profile), complex, or multi_agent")
+    parser.add_argument("--mode", type=str, choices=["simple", "trained_agent", "complex", "multi_agent", "proposer_only"],
+                        help="Therapist mode: simple, trained_agent (complex MI no profile), complex, multi_agent, or proposer_only (ablation control)")
     parser.add_argument("--simple-therapist", type=int, default=None,
                         help="Therapist profile index for simple mode")
     parser.add_argument("--complex-therapist", type=int, default=None,
                         help="Therapist profile index for complex mode")
     parser.add_argument("--compare", action="store_true",
-                        help="Run all four modes (simple, trained_agent, complex, multi-agent) and compare results")
+                        help="Run all five modes (simple, trained_agent, complex, proposer_only, multi-agent) and compare results")
+    parser.add_argument("--resume", action="store_true",
+                        help="With --compare, skip modes that already have complete results CSVs (resume an interrupted run)")
     parser.add_argument("--max-workers", type=int, default=20,
                         help="Number of parallel workers for processing patients (default: 20)")
     parser.add_argument("--skip-sentiment", action="store_true",
@@ -886,8 +1202,34 @@ if __name__ == "__main__":
                         help="Skip aggregation/evaluation scripts (only run therapy sessions)")
     parser.add_argument("--fold", type=int, default=5,
                         help="Number of times to run each patient (e.g., fold=5 with 10 patients = 50 total runs)")
+    parser.add_argument("--model", type=str, default=None,
+                        help="Model identifier for Model_Runs/<model>/ layout and therapist model "
+                             "(e.g. gpt-5-mini, qwen/qwen3.8-27b, deepseek/deepseek-v4-flash). "
+                             "Omit for legacy root layout + default gpt-5-mini.")
 
     args = parser.parse_args()
+
+    # Configure model-aware output directories (Model_Runs/<model>/Saved_Sessions + Session_Metadata).
+    # The env vars are picked up by FileManager (PSYCH_SAVE_DIR) and the aggregation scripts.
+
+    # PSYCH_MODEL is used as a FILE PREFIX/tag, so we must sanitize it (no '/', which would
+    # otherwise create nested paths). PSYCH_THERAPIST_MODEL keeps the raw OpenRouter id for routing.
+    def model_tag(model_id):
+        return model_id.replace("/", "-") if model_id else ""
+
+    model_root = model_runs_dir(args.model)
+    if model_root:
+        os.environ["PSYCH_SAVE_DIR"] = os.path.join(model_root, "Saved_Sessions")
+        os.environ["PSYCH_META_DIR"] = os.path.join(model_root, "Session_Metadata")
+        os.environ["PSYCH_MODEL"] = model_tag(args.model)
+        # Point the therapist/proposer/judge at the configured model (OpenRouter for ids with '/').
+        if args.model:
+            os.environ["PSYCH_THERAPIST_MODEL"] = args.model
+        print(f"[model] Using Model_Runs layout: {model_root} (model={args.model}, tag={model_tag(args.model)})")
+    else:
+        os.environ["PSYCH_SAVE_DIR"] = os.environ.get("PSYCH_SAVE_DIR", "Saved_Sessions")
+        os.environ["PSYCH_META_DIR"] = os.environ.get("PSYCH_META_DIR", "Session_Metadata")
+        os.environ["PSYCH_MODEL"] = os.environ.get("PSYCH_MODEL", "")
 
     if args.aggregate:
         # Run only the evaluation/aggregation scripts

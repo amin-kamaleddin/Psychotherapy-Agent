@@ -54,7 +54,9 @@ class FileManager:
 
     def __init__(self):
         """Initialize FileManager"""
-        pass
+        # Base session-save directory. Respects PSYCH_SAVE_DIR so model-specific run folders
+        # (e.g. Model_Runs/<model>/Saved_Sessions) can be selected without code changes.
+        self.base_dir = os.getenv("PSYCH_SAVE_DIR", "Saved_Sessions")
 
     def read_file(self, filepath: str) -> str:
         """
@@ -218,7 +220,7 @@ class FileManager:
             detailed_feedback: str,
             transcript: str,
             presentation: str,
-            base_dir: str = "Saved_Sessions",
+            base_dir: str = None,
             patient_id: Optional[str] = None,
             judge_proposer_conversation: Optional[List[Dict[str, Any]]] = None
     ) -> str:
@@ -231,7 +233,7 @@ class FileManager:
             detailed_feedback: Detailed feedback text
             transcript: Interview transcript
             presentation: Case presentation
-            base_dir: Base directory for saving
+            base_dir: Base directory for saving (defaults to self.base_dir, from PSYCH_SAVE_DIR)
             patient_id: Optional patient ID/number to include in folder name
             judge_proposer_conversation: Optional list of judge-proposer conversation turn records
 
@@ -239,7 +241,10 @@ class FileManager:
             Path to the created folder
         """
         import uuid
-        
+
+        if base_dir is None:
+            base_dir = self.base_dir
+
         # Create base directory if it doesn't exist
         os.makedirs(base_dir, exist_ok=True)
 

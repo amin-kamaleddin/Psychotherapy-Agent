@@ -131,7 +131,7 @@ def build_session_mode_map(root_dir):
         dict: {session_folder_name: (patient_id, mode)}
     """
     session_map = {}
-    session_metadata_dir = os.path.join(root_dir, 'Session_Metadata')
+    session_metadata_dir = os.getenv("PSYCH_META_DIR") or os.path.join(root_dir, 'Session_Metadata')
     if not os.path.exists(session_metadata_dir):
         return session_map
     for csv_path in glob.glob(os.path.join(session_metadata_dir, '*', 'results_*.csv')):
@@ -150,7 +150,7 @@ def build_session_mode_map(root_dir):
     return session_map
 
 def aggregate_metrics(root_dir):
-    saved_sessions_dir = os.path.join(root_dir, 'Saved_Sessions')
+    saved_sessions_dir = os.getenv("PSYCH_SAVE_DIR") or os.path.join(root_dir, 'Saved_Sessions')
     ensure_csv_dir()
 
     # 1. Build session -> (patient_id, mode) map from results CSVs.
@@ -213,6 +213,7 @@ def aggregate_metrics(root_dir):
         
         # Average across folds for this patient
         patient_avg_data = {
+            'patient_id': patient_id,
             'c_acc_avg': [],
             'cl_acc_avg': [],
             'ratios': []
@@ -277,11 +278,35 @@ def aggregate_metrics(root_dir):
             print(f"{i+1:<10} | {avg_c:<20.2f} | {avg_cl:<20.2f} | {avg_r:<15.2f}")
             output_rows.append(f"{i+1},{avg_c:.2f},{std_c:.2f},{avg_cl:.2f},{std_cl:.2f},{avg_r:.2f},{std_r:.2f},{count}")
 
-        # Save to CSV
-        out_file = os.path.join(CSV_DIR, f'metrics_output_{mode}.csv')
+        # Save to CSV (model-tagged when PSYCH_MODEL is set so per-model results don't overwrite)
+        model_tag = os.getenv("PSYCH_MODEL", "")
+        prefix = f"{model_tag}_" if model_tag else ""
+        out_file = os.path.join(CSV_DIR, f'{prefix}metrics_output_{mode}.csv')
         with open(out_file, 'w', encoding='utf-8') as f:
             f.write("\n".join(output_rows))
         print(f"Saved: {out_file}")
+
+    # 5. Save per-patient long-format data (needed for per-patient distribution plots).
+    #    One row per (patient_id, mode, turn) with counselor words, client words, ratio.
+    per_patient_rows = []
+    for mode, patient_sessions in mode_patient_data.items():
+        for s in patient_sessions:
+            pid = s['patient_id']
+            for i in range(len(s['c_acc_avg'])):
+                per_patient_rows.append({
+                    'patient_id': pid,
+                    'therapist_mode': mode,
+                    'Turn_Pair': i + 1,
+                    'counselor': round(s['c_acc_avg'][i], 2),
+                    'client': round(s['cl_acc_avg'][i], 2),
+                    'ratio': round(s['ratios'][i], 3),
+                })
+    if per_patient_rows:
+        model_tag = os.getenv("PSYCH_MODEL", "")
+        prefix = f"{model_tag}_" if model_tag else ""
+        pp_file = os.path.join(CSV_DIR, f'{prefix}words_per_patient.csv')
+        pd.DataFrame(per_patient_rows).to_csv(pp_file, index=False)
+        print(f"Saved per-patient words to {pp_file} ({len(per_patient_rows)} rows)")
 
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
