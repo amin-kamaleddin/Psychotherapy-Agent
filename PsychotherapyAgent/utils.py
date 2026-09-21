@@ -5,7 +5,6 @@ Provides file management and prompt loading functionality.
 """
 
 import os
-import random
 from datetime import datetime
 from typing import Optional, List, Dict, Any
 import logging
@@ -91,44 +90,6 @@ class FileManager:
             Patient profile content as string
         """
         return self.read_file(filepath)
-
-    def load_random_case_profile(self, directory: str = 'Patient_Profiles') -> str:
-        """
-        Load a random patient profile from the appropriate directory.
-
-        Args:
-            directory: Base directory containing patient profiles
-
-        Returns:
-            Random patient profile content as string
-
-        Raises:
-            FileNotFoundError: If no profiles found in directory
-        """
-        directory += "/MI"
-        files = [f for f in os.listdir(directory)]
-        if not files:
-            raise FileNotFoundError("No patient profiles found in the directory.")
-        random_file = random.choice(files)
-        full_path = os.path.join(directory, random_file)
-        return self.load_patient_profile(full_path)
-
-    def calculate_session_duration(self, start_time_iso: str) -> float:
-        """
-        Calculate session duration in minutes.
-
-        Args:
-            start_time_iso: ISO format start time string
-
-        Returns:
-            Duration in minutes as float
-        """
-        try:
-            start_time = datetime.fromisoformat(start_time_iso)
-            duration = datetime.now() - start_time
-            return duration.total_seconds() / 60
-        except:
-            return 0.0
 
     def get_patient_id(self, profile_path: Optional[str] = None) -> Optional[str]:
         """
@@ -282,69 +243,4 @@ class FileManager:
 
         return folder_name
 
-
-###############################################################
-###                   PromptLoader Class                    ###
-###############################################################
-
-class PromptLoader:
-    """Handles loading of prompts and context files."""
-
-    def __init__(self):
-        """Initialize PromptLoader."""
-        self.file_manager = FileManager()
-
-        # Define prompt paths
-        self.prompt_paths = {
-            'Clinical Summary': 'Prompts/MI/clinical_summary_prompt.txt',
-            'Virtual Patient': 'Prompts/MI/virtual_patient_prompt.txt',
-            'Feedback': 'Prompts/MI/feedback_agent_prompt.txt',
-            'MI Prompt': 'Prompts/MI/MI_form_prompt.txt',
-            'Virtual Evaluator': 'Prompts/MI/virtual_evaluator_prompt.txt',
-            'Virtual Therapist': 'Prompts/MI/virtual_therapist_prompt.txt',
-        }
-
-        # Define context paths
-        self.context_paths = {
-            'Feedback Criteria': 'Context/MI/feedback_criteria_MI_5point.txt',
-            'Evaluation Form': 'Context/MI/MI_EVAL.txt',
-        }
-
-    def load_prompt(self, prompt_name: str) -> str:
-        """
-        Load a prompt file.
-
-        Args:
-            prompt_name: Name of the prompt to load (e.g., 'Clinical Summary')
-
-        Returns:
-            Prompt content as string
-
-        Raises:
-            FileNotFoundError: If prompt name is invalid
-        """
-        if prompt_name not in self.prompt_paths:
-            raise FileNotFoundError(f"Invalid prompt name: {prompt_name}")
-
-        filepath = self.prompt_paths[prompt_name]
-        return self.file_manager.read_file(filepath)
-
-    def load_context(self, context_name: str) -> str:
-        """
-        Load a context file.
-
-        Args:
-            context_name: Name of the context to load (e.g., 'Feedback Criteria')
-
-        Returns:
-            Context content as string
-
-        Raises:
-            FileNotFoundError: If context name is invalid
-        """
-        if context_name not in self.context_paths:
-            raise FileNotFoundError(f"Invalid context name: {context_name}")
-
-        filepath = self.context_paths[context_name]
-        return self.file_manager.read_file(filepath)
 

@@ -1,5 +1,4 @@
 import os
-import sys
 # New Import for dotenv functionality
 from dotenv import load_dotenv
 # Import for secure key input

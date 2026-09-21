@@ -26,7 +26,6 @@
 # ------------------------------------------------------------
 
 from pathlib import Path
-import math
 import itertools
 import warnings
 

@@ -6,7 +6,6 @@ Handles loading of prompts from files and CSV.
 
 import logging
 import pandas as pd
-from typing import Optional
 
 
 class PromptManager:

@@ -4,7 +4,7 @@ producing model-tagged per-patient outputs.
 Usage:
     python Eval/run_lang_per_model.py --models gpt-5-mini qwen/qwen3.8-27b z-ai/glm-5.3-flash
 """
-import argparse, os, subprocess, sys, glob
+import argparse, os, subprocess, sys
 
 models_map = {
     'gpt-5-mini': ('Model_Runs/gpt-5-mini/Session_Metadata', 'Model_Runs/gpt-5-mini/Saved_Sessions', 'gpt-5-mini'),
