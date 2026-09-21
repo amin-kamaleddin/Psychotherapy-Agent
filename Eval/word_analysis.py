@@ -2,7 +2,6 @@
 import re
 import os
 import glob
-import statistics
 import pandas as pd
 
 

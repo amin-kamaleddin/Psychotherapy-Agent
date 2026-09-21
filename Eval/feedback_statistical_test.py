@@ -13,7 +13,6 @@ the single/untagged feedback_scores_by_criterion.csv when no averaged file is pr
 
 import os
 import sys
-from math import comb
 import pandas as pd
 import numpy as np
 from scipy.stats import friedmanchisquare, wilcoxon

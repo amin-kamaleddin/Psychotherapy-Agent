@@ -6,3 +6,7 @@ venv/
 # Session_Metadata/
 __pycache__/
 /psychotherapy_agent.log
+
+# OS junk
+.DS_Store
+Thumbs.db

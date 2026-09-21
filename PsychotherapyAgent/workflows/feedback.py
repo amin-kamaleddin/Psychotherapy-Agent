@@ -6,7 +6,6 @@ Handles feedback generation, MI form filling, and session completion.
 
 import logging
 from datetime import datetime
-from typing import Optional
 from pydantic import BaseModel, Field
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_core.runnables import RunnableLambda

@@ -5,7 +5,7 @@ import glob
 import re
 import pandas as pd
 from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
 
